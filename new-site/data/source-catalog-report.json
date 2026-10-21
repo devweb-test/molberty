@@ -1,0 +1,493 @@
+{
+  "source": "Original molberty.ru HTML live source, retrieved 2026-10-21",
+  "sourceDate": "2026-10-21",
+  "sourceHtml": {
+    "for_artist": {
+      "url": "https://www.molberty.ru/for_artist",
+      "sha256": "b857126a4515749d11a15b4149498c58ed0ae669a59d874590e346d4f2a4f2f5",
+      "productCount": 43
+    },
+    "for_exibition": {
+      "url": "https://www.molberty.ru/for_exibition",
+      "sha256": "989dcd55ca20a59ebdf357e36bb666837c4de36cdf2b9d54cc44eb22aa7831ef",
+      "productCount": 8
+    },
+    "for_interior": {
+      "url": "https://www.molberty.ru/for_interior",
+      "sha256": "9e7ad187e6431d5dfee3aa22e8c29c1b320089d576779e0a3be7c7d0f89ceca5",
+      "productCount": 7
+    },
+    "for_studio": {
+      "url": "https://www.molberty.ru/for_studio",
+      "sha256": "005f4113bc9344e0a49eb230293254cfe13a519c1631d89ca1b31304c8a24018",
+      "productCount": 33
+    }
+  },
+  "sourceCounts": {
+    "artist": 43,
+    "exhibition": 8,
+    "interior": 7,
+    "studio": 33
+  },
+  "artistGroups": {
+    "stationaries": 7,
+    "transformers": 6,
+    "lira": 10,
+    "a-style": 3,
+    "clappers": 7,
+    "drawing-tables": 2,
+    "desktops": 8
+  },
+  "productCount": 91,
+  "galleryImageCount": 202,
+  "uniqueImages": 202,
+  "newProducts": [
+    "bolshoy-stankovyy-buk",
+    "malyy-stankovyy-buk",
+    "stankovyy-2-storonniy",
+    "studiya-a1",
+    "studiya-a2",
+    "stol-dlya-chercheniya-i-risovaniya-chertezhnik",
+    "stol-dlya-chercheniya-i-risovaniya-konstruktor",
+    "delta",
+    "molbert-versal",
+    "stol-dlya-natyurmorta-s-peremennoy-vysotoy-ekspozitsii",
+    "stol-transformer-dlya-natyurmorta",
+    "stol-dlya-natyurmorta-skladnoy",
+    "stol-tumba-dlya-natyurmorta",
+    "sofit-dlya-podsvetki-natyurmorta",
+    "svetilnik-dlya-podsvetki-natyurmorta",
+    "svetilnik-prishchepka",
+    "stol-skulptora-profi",
+    "klipbord",
+    "stellazh-dlya-sushki-i-khraneniya-listov-a1",
+    "stellazh-dlya-sushki-i-khraneniya-listov-a2",
+    "stellazh-dlya-planshetov-i-podramnikov",
+    "stellazh-dlya-dekora-i-gipsovykh-modeley",
+    "podium-dlya-natury"
+  ],
+  "optionModes": {
+    "absolute": 195,
+    "none": 82,
+    "delta": 179
+  },
+  "splitTierSizeProducts": [
+    "planshet-nastolnyy-grafika",
+    "planshety",
+    "plakatnitsy-a1-i-a2",
+    "klipbord"
+  ],
+  "wholesaleMinimums": {
+    "10": 50,
+    "5": 31,
+    "15": 1
+  },
+  "priceHandling": "Explicit option data-product-variant-price wins over conflicting visible amounts. Options with no source price have no invented surcharge.",
+  "previousProductCount": 90,
+  "addedProducts": [
+    {
+      "sourceId": "for_studio-49170011-1792565100762",
+      "id": "taburet-vysokiy-sosna",
+      "name": "Табурет высокий (сосна)"
+    },
+    {
+      "sourceId": "for_studio-49170011-1792572231272",
+      "id": "podium-dlya-natury",
+      "name": "Подиум для натуры"
+    }
+  ],
+  "renamedProducts": [
+    {
+      "sourceId": "for_studio-49170011-1522301628609",
+      "oldId": "taburet-vysokiy",
+      "newId": "taburet-vysokiy-buk",
+      "oldName": "Табурет высокий",
+      "newName": "Табурет высокий (бук)"
+    }
+  ],
+  "removedProducts": [
+    {
+      "id": "molbert-modern",
+      "name": "Мольберт \"Модерн\"",
+      "sourceId": "for_interior-49126451-1522301546091",
+      "sourceUrl": "https://www.molberty.ru/for_interior#!/tproduct/49126451-1522301546091",
+      "sourceFamily": "interior",
+      "sourceGroup": "interior",
+      "sourceGroupTitle": "Мольберты для интерьера",
+      "description": "Высота — 1800 мм Ширина — 700 мм Глубина — 150 мм Максимальный размер картины — 1200x800 мм Мольберт выполнен из массива ольхи по образцу начала ХX века. Тонирование, авторская роспись, лак. Возможна роспись по эскизам клиента. Высота — 185 см. Ширина лотка — 65 см. Глубина лотка — 100 мм. Подходит для экспозиции живописи в широком багетном исполнении. Изготавливаются на заказ.",
+      "descriptionHtml": "Высота — 1800 мм <br/> Ширина — 700 мм <br/> Глубина — 150 мм <br/><br/> Максимальный размер картины — 1200x800 мм <br/><br/> Мольберт выполнен из массива ольхи по образцу начала ХX века.<br/>Тонирование, авторская роспись, лак. Возможна роспись по эскизам клиента. <br/><br/> Высота — 185 см.<br/>Ширина лотка — 65 см.<br/>Глубина лотка — 100 мм. <br/><br/> Подходит для экспозиции живописи в широком багетном исполнении. <br/><br/> Изготавливаются на заказ. <br/>",
+      "size": "1800x700x150",
+      "material": null,
+      "isNew": false,
+      "gallery": [
+        {
+          "file": "catalog/e90e2539ac827ecf.webp",
+          "source": "https://static.tildacdn.com/tild3165-3661-4334-a364-633139373738/8_modern_new4.jpg"
+        }
+      ],
+      "image": "catalog/e90e2539ac827ecf.webp",
+      "options": [],
+      "priceOptionIndex": null,
+      "retailSizeOptionIndex": null,
+      "wholesaleSizeOptionIndex": null,
+      "retailPrice": 32500,
+      "wholesalePrice": null,
+      "retailFrom": false,
+      "wholesaleFrom": false,
+      "fromPrice": false,
+      "rawPrice": "32500",
+      "wholesaleMin": null,
+      "priceNote": ""
+    }
+  ],
+  "anomalies": [
+    {
+      "product": "bolshoy-stankovyy-buk",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "60*40; 850р",
+      "price": 880
+    },
+    {
+      "product": "bolshoy-stankovyy-buk",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "55*39; 850р",
+      "price": 880
+    },
+    {
+      "product": "stankovyy-statsionarnyy-sosna",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "60*40; 850р",
+      "price": 880
+    },
+    {
+      "product": "stankovyy-statsionarnyy-sosna",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "55*39; 850р",
+      "price": 880
+    },
+    {
+      "product": "stankovyy-statsionarnyy-buk",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "60*40; 850р",
+      "price": 880
+    },
+    {
+      "product": "stankovyy-statsionarnyy-buk",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "55*39; 850р",
+      "price": 880
+    },
+    {
+      "product": "malyy-stankovyy-buk",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "60*40; 850р",
+      "price": 880
+    },
+    {
+      "product": "malyy-stankovyy-buk",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "55*39; 850р",
+      "price": 880
+    },
+    {
+      "product": "malyy-stankovyy-buk",
+      "type": "option-price-from-label",
+      "note": "Для опции «Наклонная штанга: + 850» числовая надбавка взята из явно указанной цены в подписи: атрибут цены в источнике пуст."
+    },
+    {
+      "product": "stankovyy-2-storonniy",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "75*55; 950р",
+      "price": 1050
+    },
+    {
+      "product": "stankovyy-skladnoy-sosna",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "60*40; 850р",
+      "price": 880
+    },
+    {
+      "product": "stankovyy-skladnoy-sosna",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "55*39; 850р",
+      "price": 880
+    },
+    {
+      "product": "stankovyy-skladnoy-buk",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "60*40; 850р",
+      "price": 880
+    },
+    {
+      "product": "stankovyy-skladnoy-buk",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "55*39; 850р",
+      "price": 880
+    },
+    {
+      "product": "lira-s-naklonnoy-shtangoy",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "75*55; 950р",
+      "price": 1050
+    },
+    {
+      "product": "lira-s-naklonnoy-sht-buk",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "60*40; 850р",
+      "price": 880
+    },
+    {
+      "product": "lira-s-naklonnoy-sht-buk",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "55*39; 850р",
+      "price": 880
+    },
+    {
+      "product": "raskladnoy-lira",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "60*40; 850р",
+      "price": 880
+    },
+    {
+      "product": "raskladnoy-lira",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "55*39; 850р",
+      "price": 880
+    },
+    {
+      "product": "raskladnoy-lira-buk",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "60*40; 850р",
+      "price": 880
+    },
+    {
+      "product": "raskladnoy-lira-buk",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "55*39; 850р",
+      "price": 880
+    },
+    {
+      "product": "lira-s-podvizhnoy-shtangoy",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "60*40; 850р",
+      "price": 880
+    },
+    {
+      "product": "lira-s-podvizhnoy-shtangoy",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "55*39; 850р",
+      "price": 880
+    },
+    {
+      "product": "lira-s-podvizhnoy-shtangoy-buk",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "60*40; 850р",
+      "price": 880
+    },
+    {
+      "product": "lira-s-podvizhnoy-shtangoy-buk",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "55*39; 850р",
+      "price": 880
+    },
+    {
+      "product": "lira-malyy",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "60*40; 850р",
+      "price": 880
+    },
+    {
+      "product": "lira-malyy",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "55*39; 850р",
+      "price": 880
+    },
+    {
+      "product": "lira-malyy-s-podvizhnoy-shtangoy",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "60*40; 850р",
+      "price": 880
+    },
+    {
+      "product": "lira-malyy-s-podvizhnoy-shtangoy",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "55*39; 850р",
+      "price": 880
+    },
+    {
+      "product": "lira-malyy-buk",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "60*40; 850р",
+      "price": 880
+    },
+    {
+      "product": "lira-malyy-buk",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "55*39; 850р",
+      "price": 880
+    },
+    {
+      "product": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "60*40; 850р",
+      "price": 880
+    },
+    {
+      "product": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "55*39; 850р",
+      "price": 880
+    },
+    {
+      "product": "a-profi",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "60*40; 850р",
+      "price": 880
+    },
+    {
+      "product": "a-profi",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "55*39; 850р",
+      "price": 880
+    },
+    {
+      "product": "a-profi-buk",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "60*40; 850р",
+      "price": 880
+    },
+    {
+      "product": "a-profi-buk",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "55*39; 850р",
+      "price": 880
+    },
+    {
+      "product": "nastolnyy-sosna",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "60*40; 850р",
+      "price": 880
+    },
+    {
+      "product": "nastolnyy-sosna",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "55*39; 850р",
+      "price": 880
+    },
+    {
+      "product": "nastolnyy-buk",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "60*40; 850р",
+      "price": 880
+    },
+    {
+      "product": "nastolnyy-buk",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "55*39; 850р",
+      "price": 880
+    },
+    {
+      "product": "lira-nastolnyy-sosna",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "60*40; 850р",
+      "price": 880
+    },
+    {
+      "product": "lira-nastolnyy-sosna",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "55*39; 850р",
+      "price": 880
+    },
+    {
+      "product": "lira-nastolnyy-buk",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "60*40; 850р",
+      "price": 880
+    },
+    {
+      "product": "lira-nastolnyy-buk",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "55*39; 850р",
+      "price": 880
+    },
+    {
+      "product": "nastolnyy-akva",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "60*40; 850р",
+      "price": 880
+    },
+    {
+      "product": "nastolnyy-akva",
+      "type": "option-label-price-mismatch",
+      "option": "Планшет (выберите размер)",
+      "label": "55*39; 850р",
+      "price": 880
+    },
+    {
+      "product": "podstavka-dlya-risunkov",
+      "type": "raw-price-option-mismatch",
+      "rawPrice": "4500/5400",
+      "retailPrice": 5400,
+      "wholesalePrice": 5400
+    },
+    {
+      "product": "taburet-vysokiy-sosna",
+      "type": "raw-price-option-mismatch",
+      "rawPrice": "6500/7200",
+      "retailPrice": 8500,
+      "wholesalePrice": 7000
+    },
+    {
+      "product": "stul-khudozhnika",
+      "type": "raw-price-option-mismatch",
+      "rawPrice": "9500/111500",
+      "retailPrice": 11500,
+      "wholesalePrice": 9500
+    }
+  ]
+}

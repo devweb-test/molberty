@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-21T15:23:45.806Z",
+  "articles": 4,
+  "originalBodyImages": 15,
+  "generatedPreviews": 4,
+  "chapterCounts": [
+    {
+      "id": "kak-vybrat-molbert",
+      "count": 4
+    },
+    {
+      "id": "instrument-dlya-tvorchestva-molbert",
+      "count": 6
+    },
+    {
+      "id": "molbert-v-sovremennom-interere",
+      "count": 6
+    },
+    {
+      "id": "dvadcat-let-plodotvornoj-raboty",
+      "count": 7
+    }
+  ],
+  "viewports": [
+    320,
+    390,
+    768,
+    1100,
+    1440
+  ],
+  "checks": [
+    "original text unchanged",
+    "source image order",
+    "thematic preview reuse on home/blog/articles",
+    "chapter navigation and anchor offset",
+    "collapsible contents",
+    "formatted lists and callouts",
+    "long paragraph flow",
+    "removed archive/source labels",
+    "responsive overflow"
+  ]
+}

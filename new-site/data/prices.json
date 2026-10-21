@@ -1,0 +1,1056 @@
+{
+  "title": "Прайс-лист Мольберты.RU",
+  "effectiveDate": "2026-01-01",
+  "currency": "RUB",
+  "sourceFile": "assets/documents/price-list-2026.pdf",
+  "count": 106,
+  "sections": [
+    {
+      "id": "artists",
+      "name": "Мольберты для художников",
+      "items": [
+        {
+          "id": "artists-1",
+          "number": 1,
+          "name": "Мольберт большой станковый (бук)",
+          "wholesale": 24000,
+          "retail": 28000,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Станковые"
+        },
+        {
+          "id": "artists-2",
+          "number": 2,
+          "name": "Мольберт станковый стационарный",
+          "wholesale": 14000,
+          "retail": 16000,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Станковые"
+        },
+        {
+          "id": "artists-3",
+          "number": 3,
+          "name": "Мольберт станковый стационарный (бук)",
+          "wholesale": 20000,
+          "retail": 22500,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Станковые"
+        },
+        {
+          "id": "artists-4",
+          "number": 4,
+          "name": "Мольберт станковый складной",
+          "wholesale": 10000,
+          "retail": 12000,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Станковые"
+        },
+        {
+          "id": "artists-5",
+          "number": 5,
+          "name": "Мольберт станковый малый (бук)",
+          "wholesale": 14000,
+          "retail": 16500,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Станковые"
+        },
+        {
+          "id": "artists-6",
+          "number": 6,
+          "name": "Мольберт станковый складной (бук)",
+          "wholesale": 14000,
+          "retail": 16500,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Станковые"
+        },
+        {
+          "id": "artists-7",
+          "number": 7,
+          "name": "Мольберт «Трансформер А0» (бук)",
+          "wholesale": 15000,
+          "retail": 17000,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Трансформеры"
+        },
+        {
+          "id": "artists-8",
+          "number": 8,
+          "name": "Мольберт «Трансформер А1» (бук)",
+          "wholesale": 13500,
+          "retail": 15000,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Трансформеры"
+        },
+        {
+          "id": "artists-9",
+          "number": 9,
+          "name": "Мольберт «Дизайнер А1» (бук)",
+          "wholesale": 9000,
+          "retail": 11000,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Трансформеры"
+        },
+        {
+          "id": "artists-10",
+          "number": 10,
+          "name": "Мольберт «Дизайнер А2» (бук)",
+          "wholesale": 8500,
+          "retail": 10000,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Трансформеры"
+        },
+        {
+          "id": "artists-11",
+          "number": 11,
+          "name": "Мольберт «Студия А1»",
+          "wholesale": 5000,
+          "retail": 6000,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Трансформеры"
+        },
+        {
+          "id": "artists-12",
+          "number": 12,
+          "name": "Мольберт «Студия А2»",
+          "wholesale": null,
+          "retail": null,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Трансформеры",
+          "note": "В исходном прайсе цена не указана."
+        },
+        {
+          "id": "artists-13",
+          "number": 13,
+          "name": "Мольберт «Лира» с наклонной штангой",
+          "wholesale": 5500,
+          "retail": 6500,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Лира"
+        },
+        {
+          "id": "artists-14",
+          "number": 14,
+          "name": "Мольберт «Лира» с накл. штангой (бук)",
+          "wholesale": 8000,
+          "retail": 9000,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Лира"
+        },
+        {
+          "id": "artists-15",
+          "number": 15,
+          "name": "Мольберт раскладной «Лира»",
+          "wholesale": 5000,
+          "retail": 6000,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Лира"
+        },
+        {
+          "id": "artists-16",
+          "number": 16,
+          "name": "Мольберт раскладной «Лира» (бук)",
+          "wholesale": 7800,
+          "retail": 8500,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Лира"
+        },
+        {
+          "id": "artists-17",
+          "number": 17,
+          "name": "Мольберт «Лира» с подвижной штангой",
+          "wholesale": 5500,
+          "retail": 6500,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Лира"
+        },
+        {
+          "id": "artists-18",
+          "number": 18,
+          "name": "Мольберт «Лира» с подвижной штангой (бук)",
+          "wholesale": 8000,
+          "retail": 9000,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Лира"
+        },
+        {
+          "id": "artists-19",
+          "number": 19,
+          "name": "Мольберт «Лира» малый",
+          "wholesale": 4500,
+          "retail": 5500,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Лира"
+        },
+        {
+          "id": "artists-20",
+          "number": 20,
+          "name": "Мольберт «Лира» малый с подвижной штангой",
+          "wholesale": 4800,
+          "retail": 5800,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Лира"
+        },
+        {
+          "id": "artists-21",
+          "number": 21,
+          "name": "Мольберт «Лира» малый (бук)",
+          "wholesale": 7000,
+          "retail": 8500,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Лира"
+        },
+        {
+          "id": "artists-22",
+          "number": 22,
+          "name": "Мольберт «Лира» малый с подв. штангой.(бук)",
+          "wholesale": 7500,
+          "retail": 8800,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Лира"
+        },
+        {
+          "id": "artists-23",
+          "number": 23,
+          "name": "Мольберт «А-профи»",
+          "wholesale": 5000,
+          "retail": 6000,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "А-стиль"
+        },
+        {
+          "id": "artists-24",
+          "number": 24,
+          "name": "Мольберт «А-профи» (бук)",
+          "wholesale": 7000,
+          "retail": 8500,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "А-стиль"
+        },
+        {
+          "id": "artists-25",
+          "number": 25,
+          "name": "Мольберт «А-класс» с планшетом А2",
+          "wholesale": 4000,
+          "retail": 4800,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "А-стиль"
+        },
+        {
+          "id": "artists-26",
+          "number": 26,
+          "name": "Мольберт «Хлопушка А1h»",
+          "wholesale": 5000,
+          "retail": 6000,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Хлопушки"
+        },
+        {
+          "id": "artists-27",
+          "number": 27,
+          "name": "Мольберт «Хлопушка А1»",
+          "wholesale": 4600,
+          "retail": 5500,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Хлопушки"
+        },
+        {
+          "id": "artists-28",
+          "number": 28,
+          "name": "Мольберт «Хлопушка А1» двусторонний",
+          "wholesale": 5200,
+          "retail": 6200,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Хлопушки"
+        },
+        {
+          "id": "artists-29",
+          "number": 29,
+          "name": "Мольберт «Хлопушка А2»",
+          "wholesale": 4200,
+          "retail": 5000,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Хлопушки"
+        },
+        {
+          "id": "artists-30",
+          "number": 30,
+          "name": "Мольберт «Хлопушка А2» двусторонний",
+          "wholesale": 4600,
+          "retail": 5500,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Хлопушки"
+        },
+        {
+          "id": "artists-31",
+          "number": 31,
+          "name": "Мольберт «Хлопушка»",
+          "wholesale": 3200,
+          "retail": 4000,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Хлопушки"
+        },
+        {
+          "id": "artists-32",
+          "number": 32,
+          "name": "Мольберт «Хлопушка» детский (бук)",
+          "wholesale": 5000,
+          "retail": 6000,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Хлопушки"
+        },
+        {
+          "id": "artists-33",
+          "number": 33,
+          "name": "Стол для черчения и рисования «Чертежник»",
+          "wholesale": 8000,
+          "retail": 9600,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Столы для рисования"
+        },
+        {
+          "id": "artists-34",
+          "number": 34,
+          "name": "Стол для черчения и рисования «Конструктор»",
+          "wholesale": 15000,
+          "retail": 18000,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Столы для рисования"
+        },
+        {
+          "id": "artists-35",
+          "number": 35,
+          "name": "Мольберт настольный",
+          "wholesale": 3000,
+          "retail": 3600,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Настольные"
+        },
+        {
+          "id": "artists-36",
+          "number": 36,
+          "name": "Мольберт настольный (бук)",
+          "wholesale": 4000,
+          "retail": 4800,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Настольные"
+        },
+        {
+          "id": "artists-37",
+          "number": 37,
+          "name": "Мольберт «Лира» настольный",
+          "wholesale": 2200,
+          "retail": 2800,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Настольные"
+        },
+        {
+          "id": "artists-38",
+          "number": 38,
+          "name": "Мольберт «Лира» настольный (бук)",
+          "wholesale": 3000,
+          "retail": 3600,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Настольные"
+        },
+        {
+          "id": "artists-39",
+          "number": 39,
+          "name": "Мольберт «МИНИ» (бук)",
+          "wholesale": 2000,
+          "retail": 2500,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Настольные"
+        },
+        {
+          "id": "artists-40",
+          "number": 40,
+          "name": "Мольберт «МИНИ XL» (бук)",
+          "wholesale": 2400,
+          "retail": 2700,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Настольные"
+        },
+        {
+          "id": "artists-41",
+          "number": 41,
+          "name": "Мольберт «АКВА» (бук)",
+          "wholesale": 3500,
+          "retail": 4200,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Настольные"
+        },
+        {
+          "id": "artists-42",
+          "number": 42,
+          "name": "«Графика А2» (65х45)",
+          "wholesale": 3000,
+          "retail": 3600,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Настольные планшеты"
+        },
+        {
+          "id": "artists-43",
+          "number": 43,
+          "name": "«Графика А3» (45х35)",
+          "wholesale": 2800,
+          "retail": 3400,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Настольные планшеты"
+        }
+      ]
+    },
+    {
+      "id": "studio",
+      "name": "Оборудование для изостудий",
+      "items": [
+        {
+          "id": "studio-44",
+          "number": 44,
+          "name": "Стол для натюрморта с планшетом «уголок»",
+          "wholesale": 5700,
+          "retail": 6800,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-45",
+          "number": 45,
+          "name": "Стол для натюрморта 50х50 с переменной высотой экспозиции",
+          "wholesale": 8000,
+          "retail": 9600,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-46",
+          "number": 46,
+          "name": "Стол для натюрморта 60х40 с переменной высотой экспозиции",
+          "wholesale": 6500,
+          "retail": 7800,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-47",
+          "number": 47,
+          "name": "Стол-трансформер для натюрморта",
+          "wholesale": 9000,
+          "retail": 10800,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-48",
+          "number": 48,
+          "name": "Стол для натюрморта складной",
+          "wholesale": 6000,
+          "retail": 7200,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-49",
+          "number": 49,
+          "name": "Стол-тумба для натюрморта",
+          "wholesale": 10000,
+          "retail": 12000,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-50",
+          "number": 50,
+          "name": "Столик для экспозиции",
+          "wholesale": 10000,
+          "retail": 12000,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-51",
+          "number": 51,
+          "name": "Софит для подсветки натюрморта",
+          "wholesale": 11000,
+          "retail": 13000,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-52",
+          "number": 52,
+          "name": "Светильник для подсветки натюрморта",
+          "wholesale": 4500,
+          "retail": 5500,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-53",
+          "number": 53,
+          "name": "Светильник-прищепка",
+          "wholesale": 3400,
+          "retail": 4000,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-54",
+          "number": 54,
+          "name": "Столик скульптора (бук, фанера)",
+          "wholesale": 6000,
+          "retail": 7200,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-55",
+          "number": 55,
+          "name": "Столик скульптора «Профи»",
+          "wholesale": 9800,
+          "retail": 11000,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-56",
+          "number": 56,
+          "name": "Подставка для рисунков",
+          "wholesale": 4500,
+          "retail": 5400,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-57",
+          "number": 57,
+          "name": "Плакатница А1",
+          "wholesale": 8000,
+          "retail": 9600,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-58",
+          "number": 58,
+          "name": "Плакатница А2",
+          "wholesale": 6000,
+          "retail": 6800,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-59",
+          "number": 59,
+          "name": "Подставка для рисунков (бук)",
+          "wholesale": 5800,
+          "retail": 7000,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-60",
+          "number": 60,
+          "name": "Плакатница настенная",
+          "wholesale": 5000,
+          "retail": 6000,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-61",
+          "number": 61,
+          "name": "Шкатулка для кистей и красок",
+          "wholesale": 4000,
+          "retail": 4800,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-62",
+          "number": 62,
+          "name": "Столик для палитры",
+          "wholesale": 3200,
+          "retail": 3900,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-63",
+          "number": 63,
+          "name": "Тележка для художественных принадлежностей",
+          "wholesale": 9000,
+          "retail": 10800,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-64",
+          "number": 64,
+          "name": "Табурет рабочий",
+          "wholesale": 3200,
+          "retail": 3850,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-65",
+          "number": 65,
+          "name": "Табурет высокий (бук)",
+          "wholesale": 7000,
+          "retail": 8500,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-66",
+          "number": 66,
+          "name": "Стул художника",
+          "wholesale": 9500,
+          "retail": 11500,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-67",
+          "number": 67,
+          "name": "Стеллаж для сушки и хранения листов А1",
+          "wholesale": 30000,
+          "retail": 33000,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-68",
+          "number": 68,
+          "name": "Стеллаж для сушки и хранения листов А2",
+          "wholesale": 27000,
+          "retail": 32500,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-69",
+          "number": 69,
+          "name": "Стеллаж для планшетов и подрамников",
+          "wholesale": 17000,
+          "retail": 20500,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-70",
+          "number": 70,
+          "name": "Стеллаж для декора и гипсовых моделей",
+          "wholesale": 16000,
+          "retail": 19500,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-71",
+          "number": 71,
+          "name": "Тумбочка художника",
+          "wholesale": null,
+          "retail": 20000,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "studio-72",
+          "number": 72,
+          "name": "Ширма (цена за секцию)",
+          "wholesale": 5000,
+          "retail": 6000,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        }
+      ]
+    },
+    {
+      "id": "palettes",
+      "name": "Палитры из фанеры",
+      "items": [
+        {
+          "id": "palettes-1",
+          "number": 1,
+          "name": "Палитра А4 прямоугольная",
+          "wholesale": 250,
+          "retail": 300,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "palettes-2",
+          "number": 2,
+          "name": "Палитра А4 овальная",
+          "wholesale": 300,
+          "retail": 360,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "palettes-3",
+          "number": 3,
+          "name": "Палитра А3 прямоугольная",
+          "wholesale": 360,
+          "retail": 430,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "palettes-4",
+          "number": 4,
+          "name": "Палитра А3 овальная",
+          "wholesale": 400,
+          "retail": 500,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        }
+      ]
+    },
+    {
+      "id": "boards",
+      "name": "Планшеты и клипборды",
+      "items": [
+        {
+          "id": "boards-1",
+          "number": 1,
+          "name": "Планшет А0 (1200х900 или 1000х1000 мм)",
+          "wholesale": 2000,
+          "retail": 2600,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "boards-2",
+          "number": 2,
+          "name": "Планшет А1 (850х650)",
+          "wholesale": 1050,
+          "retail": 1300,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "boards-3",
+          "number": 3,
+          "name": "Планшет А2 (700х500)",
+          "wholesale": 900,
+          "retail": 1100,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "boards-4",
+          "number": 4,
+          "name": "Планшет 75х55",
+          "wholesale": 950,
+          "retail": 1150,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "boards-5",
+          "number": 5,
+          "name": "Планшет 60х40",
+          "wholesale": 720,
+          "retail": 880,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "boards-6",
+          "number": 6,
+          "name": "Планшет 55х39",
+          "wholesale": 720,
+          "retail": 880,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "boards-7",
+          "number": 7,
+          "name": "Планшет 40х30",
+          "wholesale": 500,
+          "retail": 600,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "boards-8",
+          "number": 8,
+          "name": "Клипборд А4",
+          "wholesale": 650,
+          "retail": 780,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "boards-9",
+          "number": 9,
+          "name": "Клипборд А3",
+          "wholesale": 880,
+          "retail": 1050,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        }
+      ]
+    },
+    {
+      "id": "exhibition",
+      "name": "Мольберты для выставок",
+      "items": [
+        {
+          "id": "exhibition-1",
+          "number": 1,
+          "name": "Мольберт «МАКСИ»",
+          "wholesale": 15000,
+          "retail": 17000,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "exhibition-2",
+          "number": 2,
+          "name": "Мольберт «Экспо-1»",
+          "wholesale": 6000,
+          "retail": 7000,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "exhibition-3",
+          "number": 3,
+          "name": "Мольберт «Экспо-2»",
+          "wholesale": 7000,
+          "retail": 8000,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "exhibition-4",
+          "number": 4,
+          "name": "Мольберт «Мачта»(бук)",
+          "wholesale": 6000,
+          "retail": 7000,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "exhibition-5",
+          "number": 5,
+          "name": "Мольберт «Тренога1500» (бук)",
+          "wholesale": 2500,
+          "retail": 3200,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "exhibition-6",
+          "number": 6,
+          "name": "Мольберт тренога «Выставочная»",
+          "wholesale": 4000,
+          "retail": 5000,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "exhibition-7",
+          "number": 7,
+          "name": "Мольберт-тренога «Вернисаж» (бук)",
+          "wholesale": 6500,
+          "retail": 7500,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "exhibition-8",
+          "number": 8,
+          "name": "Мольберт «Дельта» (бук)",
+          "wholesale": 6500,
+          "retail": 7500,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        }
+      ]
+    },
+    {
+      "id": "interior",
+      "name": "Мольберты для интерьера",
+      "items": [
+        {
+          "id": "interior-1",
+          "number": 1,
+          "name": "Мольберт «Лира» подарочный (бук)",
+          "wholesale": null,
+          "retail": 18000,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "interior-2",
+          "number": 2,
+          "name": "Мольберт «Ампир» (бук, резьба,тонирование, золочение, лак)",
+          "wholesale": null,
+          "retail": 30000,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "interior-3",
+          "number": 3,
+          "name": "Мольберт «Модерн» (бук, роспись, лак)",
+          "wholesale": null,
+          "retail": 32500,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "interior-4",
+          "number": 4,
+          "name": "Мольберт «Эксклюзив» (бук, резьба, тонирование, золочение, лак)",
+          "wholesale": null,
+          "retail": 28000,
+          "wholesaleFrom": false,
+          "retailFrom": false
+        },
+        {
+          "id": "interior-5",
+          "number": 5,
+          "name": "Мольберт «Версаль» (бук, резьба, тонирование, золочение, лак)",
+          "wholesale": null,
+          "retail": 40000,
+          "wholesaleFrom": false,
+          "retailFrom": true
+        },
+        {
+          "id": "interior-6",
+          "number": 6,
+          "name": "Мольберт «Плазма XL» (бук, дуб, ясень, покрытие по выбору)",
+          "wholesale": null,
+          "retail": 38000,
+          "wholesaleFrom": false,
+          "retailFrom": true
+        }
+      ]
+    },
+    {
+      "id": "souvenirs",
+      "name": "Мольберты-сувениры",
+      "items": [
+        {
+          "id": "souvenirs-1",
+          "number": 1,
+          "name": "Тренога 10х15",
+          "wholesale": 250,
+          "retail": null,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Мольберты-треноги (бук)"
+        },
+        {
+          "id": "souvenirs-2",
+          "number": 2,
+          "name": "Тренога 15х20",
+          "wholesale": 300,
+          "retail": null,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Мольберты-треноги (бук)"
+        },
+        {
+          "id": "souvenirs-3",
+          "number": 3,
+          "name": "Тренога 20х30",
+          "wholesale": 350,
+          "retail": null,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Мольберты-треноги (бук)"
+        },
+        {
+          "id": "souvenirs-4",
+          "number": 4,
+          "name": "Тренога 30х40",
+          "wholesale": 450,
+          "retail": null,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Мольберты-треноги (бук)"
+        },
+        {
+          "id": "souvenirs-5",
+          "number": 5,
+          "name": "Тренога 40х50",
+          "wholesale": 500,
+          "retail": null,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Мольберты-треноги (бук)"
+        },
+        {
+          "id": "souvenirs-6",
+          "number": 6,
+          "name": "Мольберт Лира 10х15",
+          "wholesale": 450,
+          "retail": null,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Мольберты «Лира» (бук)"
+        },
+        {
+          "id": "souvenirs-7",
+          "number": 7,
+          "name": "Мольберт Лира 20х30",
+          "wholesale": 550,
+          "retail": null,
+          "wholesaleFrom": false,
+          "retailFrom": false,
+          "type": "Мольберты «Лира» (бук)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3775 @@
+{
+  "reviewDate": "2026-10-21",
+  "structureDocument": "/home/v_chernyshov/molberty/Структура.doc",
+  "documentSha256": "85f7fb3246f690db5b1bcd6cc405e81361f1eee3f5b0897e1fb2257a7acace31",
+  "sourceDataset": "data/products-source.json",
+  "actualProductCount": 91,
+  "sourceCounts": {
+    "artist": 43,
+    "exhibition": 8,
+    "interior": 7,
+    "studio": 33
+  },
+  "mapping": {
+    "bolshoy-stankovyy-buk": {
+      "name": "Большой станковый (бук)",
+      "sourceId": "for_artist-46139268-1498486363994",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/46139268-1498486363994",
+      "primaryGroup": "artists/floor/professional/stationaries",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "stationaries"
+        },
+        {
+          "type": "sourceName",
+          "value": "Большой станковый (бук)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [],
+        "nameMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "Большой станковый (бук)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": [],
+      "userAmendments": [
+        {
+          "date": "2026-10-21",
+          "sourceGroup": "stationaries",
+          "previous": {
+            "primaryGroup": "artists/floor/professional",
+            "secondaryGroups": []
+          },
+          "reason": "Подкатегории по уточнению пользователя; принадлежность соответствует исходной группе товара."
+        }
+      ]
+    },
+    "stankovyy-statsionarnyy-sosna": {
+      "name": "Станковый стационарный (сосна)",
+      "sourceId": "for_artist-46139268-1611226170060",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/46139268-1611226170060",
+      "primaryGroup": "artists/floor/professional/stationaries",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "stationaries"
+        },
+        {
+          "type": "sourceName",
+          "value": "Станковый стационарный (сосна)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [],
+        "nameMaterials": [
+          {
+            "value": "Сосна",
+            "evidence": "Станковый стационарный (сосна)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": [],
+      "userAmendments": [
+        {
+          "date": "2026-10-21",
+          "sourceGroup": "stationaries",
+          "previous": {
+            "primaryGroup": "artists/floor/professional",
+            "secondaryGroups": []
+          },
+          "reason": "Подкатегории по уточнению пользователя; принадлежность соответствует исходной группе товара."
+        }
+      ]
+    },
+    "stankovyy-statsionarnyy-buk": {
+      "name": "Станковый стационарный (бук)",
+      "sourceId": "for_artist-46139268-1501253736112",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/46139268-1501253736112",
+      "primaryGroup": "artists/floor/professional/stationaries",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "stationaries"
+        },
+        {
+          "type": "sourceName",
+          "value": "Станковый стационарный (бук)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [],
+        "nameMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "Станковый стационарный (бук)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": [],
+      "userAmendments": [
+        {
+          "date": "2026-10-21",
+          "sourceGroup": "stationaries",
+          "previous": {
+            "primaryGroup": "artists/floor/professional",
+            "secondaryGroups": []
+          },
+          "reason": "Подкатегории по уточнению пользователя; принадлежность соответствует исходной группе товара."
+        }
+      ]
+    },
+    "malyy-stankovyy-buk": {
+      "name": "Малый станковый (бук)",
+      "sourceId": "for_artist-46139268-1655901040769",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/46139268-1655901040769",
+      "primaryGroup": "artists/floor/professional/stationaries",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "stationaries"
+        },
+        {
+          "type": "sourceName",
+          "value": "Малый станковый (бук)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [],
+        "nameMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "Малый станковый (бук)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": "included",
+        "shelfEvidence": {
+          "provenance": "originalDescription",
+          "evidence": " и бегунком. Направляющая перемещается вместе с полкой и фиксируется через каждые 50 мм при помощи ш"
+        }
+      },
+      "warnings": [],
+      "userAmendments": [
+        {
+          "date": "2026-10-21",
+          "sourceGroup": "stationaries",
+          "previous": {
+            "primaryGroup": "artists/floor/professional",
+            "secondaryGroups": []
+          },
+          "reason": "Подкатегории по уточнению пользователя; принадлежность соответствует исходной группе товара."
+        }
+      ]
+    },
+    "stankovyy-2-storonniy": {
+      "name": "Станковый 2-сторонний",
+      "sourceId": "for_artist-46139268-1762848599017",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/46139268-1762848599017",
+      "primaryGroup": "artists/floor/professional/stationaries",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "stationaries"
+        },
+        {
+          "type": "sourceName",
+          "value": "Станковый 2-сторонний"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Сосна",
+            "evidence": "рами со стопором (опция). Изготовлен из массива сосны с покрытием.",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": "double",
+        "sidednessEvidence": {
+          "provenance": "originalDescription",
+          "evidence": "Максимальный размер планшета (А0) — 1350x900 мм Двусторонний студийный мольберт предназначен для одноврем"
+        },
+        "shelf": "included",
+        "shelfEvidence": {
+          "provenance": "originalDescription",
+          "evidence": ". Направляющая непрерывно перемещается вместе с полкой и фиксируется задней планкой . Диапазон нижне"
+        }
+      },
+      "warnings": [],
+      "userAmendments": [
+        {
+          "date": "2026-10-21",
+          "sourceGroup": "stationaries",
+          "previous": {
+            "primaryGroup": "artists/floor/professional",
+            "secondaryGroups": []
+          },
+          "reason": "Подкатегории по уточнению пользователя; принадлежность соответствует исходной группе товара."
+        }
+      ]
+    },
+    "stankovyy-skladnoy-sosna": {
+      "name": "Станковый складной (сосна)",
+      "sourceId": "for_artist-46139268-1497456130776",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/46139268-1497456130776",
+      "primaryGroup": "artists/floor/professional/stationaries",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "stationaries"
+        },
+        {
+          "type": "sourceName",
+          "value": "Станковый складной (сосна)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [],
+        "nameMaterials": [
+          {
+            "value": "Сосна",
+            "evidence": "Станковый складной (сосна)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": [],
+      "userAmendments": [
+        {
+          "date": "2026-10-21",
+          "sourceGroup": "stationaries",
+          "previous": {
+            "primaryGroup": "artists/floor/professional",
+            "secondaryGroups": []
+          },
+          "reason": "Подкатегории по уточнению пользователя; принадлежность соответствует исходной группе товара."
+        }
+      ]
+    },
+    "stankovyy-skladnoy-buk": {
+      "name": "Станковый складной (бук)",
+      "sourceId": "for_artist-46139268-1498486301712",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/46139268-1498486301712",
+      "primaryGroup": "artists/floor/professional/stationaries",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "stationaries"
+        },
+        {
+          "type": "sourceName",
+          "value": "Станковый складной (бук)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [],
+        "nameMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "Станковый складной (бук)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": [],
+      "userAmendments": [
+        {
+          "date": "2026-10-21",
+          "sourceGroup": "stationaries",
+          "previous": {
+            "primaryGroup": "artists/floor/professional",
+            "secondaryGroups": []
+          },
+          "reason": "Подкатегории по уточнению пользователя; принадлежность соответствует исходной группе товара."
+        }
+      ]
+    },
+    "transformer-a0-buk": {
+      "name": "Трансформер А0 (бук)",
+      "sourceId": "for_artist-49043039-1498486363994",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49043039-1498486363994",
+      "primaryGroup": "artists/floor/professional/transformers",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "transformers"
+        },
+        {
+          "type": "sourceName",
+          "value": "Трансформер А0 (бук)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "мер формата не ограничен. Изготовлен из массива бука с покрытием. В отличие от аналогов имеет очень ",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "Трансформер А0 (бук)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": [],
+      "userAmendments": [
+        {
+          "date": "2026-10-21",
+          "sourceGroup": "transformers",
+          "previous": {
+            "primaryGroup": "artists/floor/professional",
+            "secondaryGroups": []
+          },
+          "reason": "Подкатегории по уточнению пользователя; принадлежность соответствует исходной группе товара."
+        }
+      ]
+    },
+    "transformer-a1-buk": {
+      "name": "Трансформер А1 (бук)",
+      "sourceId": "for_artist-49043039-1501253736112",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49043039-1501253736112",
+      "primaryGroup": "artists/floor/professional/transformers",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "transformers"
+        },
+        {
+          "type": "sourceName",
+          "value": "Трансформер А1 (бук)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "мер формата не ограничен. Изготовлен из массива бука с покрытием. В отличие от аналогов имеет очень ",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "Трансформер А1 (бук)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": [],
+      "userAmendments": [
+        {
+          "date": "2026-10-21",
+          "sourceGroup": "transformers",
+          "previous": {
+            "primaryGroup": "artists/floor/professional",
+            "secondaryGroups": []
+          },
+          "reason": "Подкатегории по уточнению пользователя; принадлежность соответствует исходной группе товара."
+        }
+      ]
+    },
+    "dizayner-a1-buk": {
+      "name": "Дизайнер А1 (бук)",
+      "sourceId": "for_artist-49043039-1497456130776",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49043039-1497456130776",
+      "primaryGroup": "artists/floor/professional/transformers",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "transformers"
+        },
+        {
+          "type": "sourceName",
+          "value": "Дизайнер А1 (бук)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "лкой для кистей и красок. Изготовлен из массива бука с покрытием. В отличие от аналогов, имеет очень",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "Дизайнер А1 (бук)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": "included",
+        "shelfEvidence": {
+          "provenance": "originalDescription",
+          "evidence": " носителях. Мольберт оснащен удобной поворотной полкой для кистей и красок. Изготовлен из массива бу"
+        }
+      },
+      "warnings": [],
+      "userAmendments": [
+        {
+          "date": "2026-10-21",
+          "sourceGroup": "transformers",
+          "previous": {
+            "primaryGroup": "artists/floor/professional",
+            "secondaryGroups": []
+          },
+          "reason": "Подкатегории по уточнению пользователя; принадлежность соответствует исходной группе товара."
+        }
+      ]
+    },
+    "dizayner-a2-buk": {
+      "name": "Дизайнер А2 (бук)",
+      "sourceId": "for_artist-49043039-1498486301712",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49043039-1498486301712",
+      "primaryGroup": "artists/floor/professional/transformers",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "transformers"
+        },
+        {
+          "type": "sourceName",
+          "value": "Дизайнер А2 (бук)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "лкой для кистей и красок. Изготовлен из массива бука с покрытием. В отличие от аналогов, имеет очень",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "Дизайнер А2 (бук)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": "included",
+        "shelfEvidence": {
+          "provenance": "originalDescription",
+          "evidence": " носителях. Мольберт оснащен удобной поворотной полкой для кистей и красок. Изготовлен из массива бу"
+        }
+      },
+      "warnings": [],
+      "userAmendments": [
+        {
+          "date": "2026-10-21",
+          "sourceGroup": "transformers",
+          "previous": {
+            "primaryGroup": "artists/floor/professional",
+            "secondaryGroups": []
+          },
+          "reason": "Подкатегории по уточнению пользователя; принадлежность соответствует исходной группе товара."
+        }
+      ]
+    },
+    "studiya-a1": {
+      "name": "Студия А1",
+      "sourceId": "for_artist-49043039-1768727035995",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49043039-1768727035995",
+      "primaryGroup": "artists/floor/students",
+      "secondaryGroups": [
+        "artists/floor/professional/transformers",
+        "artists/floor/students/shelf"
+      ],
+      "reason": "DOC прямо относит Студию к ученическим; исходный раздел Трансформер также удовлетворяет правилу все трансформеры в профессиональные.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "transformers"
+        },
+        {
+          "type": "sourceName",
+          "value": "Студия А1"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Сосна",
+            "evidence": " или картонных носителях. Изготовлен из массива сосны с покрытием. В отличие от аналогов, имеет очень",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": "included",
+        "shelfEvidence": {
+          "provenance": "originalDescription",
+          "evidence": "90 до 35 градусов. В нижней части планшета есть полка для кистей и красок. Подходит для всех видов ж"
+        }
+      },
+      "warnings": [],
+      "userAmendments": [
+        {
+          "date": "2026-10-21",
+          "sourceGroup": "transformers",
+          "previous": {
+            "primaryGroup": "artists/floor/students",
+            "secondaryGroups": [
+              "artists/floor/professional"
+            ]
+          },
+          "reason": "Подкатегории по уточнению пользователя; принадлежность соответствует исходной группе товара."
+        },
+        {
+          "date": "2026-10-21",
+          "reason": "Подкатегория «Мольберты с полкой» внутри школьного раздела: полка в комплекте или подтверждённая дополнительная опция.",
+          "previousSecondaryGroups": [
+            "artists/floor/professional/transformers"
+          ]
+        }
+      ]
+    },
+    "studiya-a2": {
+      "name": "Студия А2",
+      "sourceId": "for_artist-49043039-1768727445494",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49043039-1768727445494",
+      "primaryGroup": "artists/floor/students",
+      "secondaryGroups": [
+        "artists/floor/professional/transformers",
+        "artists/floor/students/shelf"
+      ],
+      "reason": "DOC прямо относит Студию к ученическим; исходный раздел Трансформер также удовлетворяет правилу все трансформеры в профессиональные.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "transformers"
+        },
+        {
+          "type": "sourceName",
+          "value": "Студия А2"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Сосна",
+            "evidence": " или картонных носителях. Изготовлен из массива сосны с покрытием. В отличие от аналогов, имеет очень",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": "included",
+        "shelfEvidence": {
+          "provenance": "originalDescription",
+          "evidence": "90 до 35 градусов. В нижней части планшета есть полка для кистей и красок. Подходит для всех видов ж"
+        }
+      },
+      "warnings": [],
+      "userAmendments": [
+        {
+          "date": "2026-10-21",
+          "sourceGroup": "transformers",
+          "previous": {
+            "primaryGroup": "artists/floor/students",
+            "secondaryGroups": [
+              "artists/floor/professional"
+            ]
+          },
+          "reason": "Подкатегории по уточнению пользователя; принадлежность соответствует исходной группе товара."
+        },
+        {
+          "date": "2026-10-21",
+          "reason": "Подкатегория «Мольберты с полкой» внутри школьного раздела: полка в комплекте или подтверждённая дополнительная опция.",
+          "previousSecondaryGroups": [
+            "artists/floor/professional/transformers"
+          ]
+        }
+      ]
+    },
+    "lira-s-naklonnoy-shtangoy": {
+      "name": "Лира с наклонной штангой",
+      "sourceId": "for_artist-49043414-1498486363994",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1498486363994",
+      "primaryGroup": "artists/floor/lira",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "lira"
+        },
+        {
+          "type": "sourceName",
+          "value": "Лира с наклонной штангой"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Сосна",
+            "evidence": "аншета толщиной до 30 мм. Изготовлен из массива сосны камерной сушки, покрыт акриловым тонированным л",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "lira-s-naklonnoy-sht-buk": {
+      "name": "Лира с наклонной шт. (бук)",
+      "sourceId": "for_artist-49043414-1501253736112",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1501253736112",
+      "primaryGroup": "artists/floor/lira",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "lira"
+        },
+        {
+          "type": "sourceName",
+          "value": "Лира с наклонной шт. (бук)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "аншета толщиной до 30 мм. Изготовлен из массива бука высшего сорта, покрыт экологичным акриловым лак",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "Лира с наклонной шт. (бук)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "raskladnoy-lira": {
+      "name": "Раскладной \"Лира\"",
+      "sourceId": "for_artist-49043414-1497456130776",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1497456130776",
+      "primaryGroup": "artists/floor/lira",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "lira"
+        },
+        {
+          "type": "sourceName",
+          "value": "Раскладной \"Лира\""
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Сосна",
+            "evidence": "щим менять наклон холста. Изготовлен из массива сосны камерной сушки, покрыт акриловым тонированным л",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": "optional",
+        "shelfEvidence": {
+          "provenance": "originalDescriptionAndOptions",
+          "evidence": "ной сушки, покрыт акриловым тонированным лаком. Дополнительная полка (опция) служит для размещения красок, кистей и",
+          "price": 300
+        }
+      },
+      "warnings": []
+    },
+    "raskladnoy-lira-buk": {
+      "name": "Раскладной \"Лира\" (бук)",
+      "sourceId": "for_artist-49043414-1498486301712",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1498486301712",
+      "primaryGroup": "artists/floor/lira",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "lira"
+        },
+        {
+          "type": "sourceName",
+          "value": "Раскладной \"Лира\" (бук)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "щим менять наклон холста. Изготовлен из массива бука высшего сорта, покрыт экологичным акриловым лак",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "Раскладной \"Лира\" (бук)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": "optional",
+        "shelfEvidence": {
+          "provenance": "originalDescriptionAndOptions",
+          "evidence": "шего сорта, покрыт экологичным акриловым лаком. Дополнительная полка (опция) служит для размещения красок, кистей и",
+          "price": 400
+        }
+      },
+      "warnings": []
+    },
+    "lira-s-podvizhnoy-shtangoy": {
+      "name": "Лира с подвижной штангой",
+      "sourceId": "for_artist-49043414-1522216368943",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1522216368943",
+      "primaryGroup": "artists/floor/lira",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "lira"
+        },
+        {
+          "type": "sourceName",
+          "value": "Лира с подвижной штангой"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Сосна",
+            "evidence": "ией менять наклон холста. Изготовлен из массива сосны камерной сушки, покрыт акриловым тонированным л",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": "optional",
+        "shelfEvidence": {
+          "provenance": "originalDescriptionAndOptions",
+          "evidence": "ловым тонированным лаком. Может комплектоваться дополнительной полкой. Дополнительная полка (опция) служит для разм",
+          "price": 300
+        }
+      },
+      "warnings": []
+    },
+    "lira-s-podvizhnoy-shtangoy-buk": {
+      "name": "Лира с подвижной штангой (бук)",
+      "sourceId": "for_artist-49043414-1522216373437",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1522216373437",
+      "primaryGroup": "artists/floor/lira",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "lira"
+        },
+        {
+          "type": "sourceName",
+          "value": "Лира с подвижной штангой (бук)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "ией менять наклон холста. Изготовлен из массива бука высшего сорта, покрыт экологичным акриловым лак",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "Лира с подвижной штангой (бук)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": "optional",
+        "shelfEvidence": {
+          "provenance": "originalDescriptionAndOptions",
+          "evidence": "логичным акриловым лаком. Может комплектоваться дополнительной полкой. Дополнительная полка (опция) служит для разм",
+          "price": 400
+        }
+      },
+      "warnings": []
+    },
+    "lira-malyy": {
+      "name": "\"Лира\" малый",
+      "sourceId": "for_artist-49043414-1522216376309",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1522216376309",
+      "primaryGroup": "artists/floor/lira",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "lira"
+        },
+        {
+          "type": "sourceName",
+          "value": "\"Лира\" малый"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Сосна",
+            "evidence": "щим менять наклон холста. Изготовлен из массива сосны камерной сушки, покрыт акриловым тонированным л",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": "optional",
+        "shelfEvidence": {
+          "provenance": "originalDescriptionAndOptions",
+          "evidence": "ной сушки, покрыт акриловым тонированным лаком. Дополнительная полка (опция) служит для размещения красок, кистей и",
+          "price": 300
+        }
+      },
+      "warnings": []
+    },
+    "lira-malyy-s-podvizhnoy-shtangoy": {
+      "name": "\"Лира\" малый с подвижной штангой",
+      "sourceId": "for_artist-49043414-1522216378019",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1522216378019",
+      "primaryGroup": "artists/floor/lira",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "lira"
+        },
+        {
+          "type": "sourceName",
+          "value": "\"Лира\" малый с подвижной штангой"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Сосна",
+            "evidence": "ией менять наклон холста. Изготовлен из массива сосны камерной сушки, покрыт акриловым тонированным л",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": "optional",
+        "shelfEvidence": {
+          "provenance": "originalDescriptionAndOptions",
+          "evidence": "анспортная высота 1,4 м). Может комплектоваться дополнительной полкой. Цена опции — 300 руб.",
+          "price": 300
+        }
+      },
+      "warnings": []
+    },
+    "lira-malyy-buk": {
+      "name": "\"Лира\" малый (бук)",
+      "sourceId": "for_artist-49043414-1522216379854",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1522216379854",
+      "primaryGroup": "artists/floor/lira",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "lira"
+        },
+        {
+          "type": "sourceName",
+          "value": "\"Лира\" малый (бук)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "щим менять наклон холста. Изготовлен из массива бука высшего сорта, покрыт экологичным акриловым лак",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "\"Лира\" малый (бук)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": "optional",
+        "shelfEvidence": {
+          "provenance": "originalDescriptionAndOptions",
+          "evidence": "шего сорта, покрыт экологичным акриловым лаком. Дополнительная полка (опция) служит для размещения красок, кистей и",
+          "price": 400
+        }
+      },
+      "warnings": []
+    },
+    "lira-malyy-s-podvizhnoy-shtangoy-buk": {
+      "name": "\"Лира\" малый с подвижной штангой (бук)",
+      "sourceId": "for_artist-49043414-1522216381909",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1522216381909",
+      "primaryGroup": "artists/floor/lira",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "lira"
+        },
+        {
+          "type": "sourceName",
+          "value": "\"Лира\" малый с подвижной штангой (бук)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [],
+        "nameMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "\"Лира\" малый с подвижной штангой (бук)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": "optional",
+        "shelfEvidence": {
+          "provenance": "originalDescriptionAndOptions",
+          "evidence": "нспортная высота -1,4 м). Может комплектоваться дополнительной полкой. Цена опции — 400 руб.",
+          "price": 400
+        }
+      },
+      "warnings": []
+    },
+    "a-profi": {
+      "name": "А-профи",
+      "sourceId": "for_artist-49044079-1498486363994",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49044079-1498486363994",
+      "primaryGroup": "artists/floor",
+      "secondaryGroups": [],
+      "reason": "А-стиль отсутствует в DOC. Сохранить под общим листингом напольных, не выдавая за Лиру; отдельный новый раздел не требуется.",
+      "docDeviation": true,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "a-style"
+        },
+        {
+          "type": "sourceName",
+          "value": "А-профи"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": "optional",
+        "shelfEvidence": {
+          "provenance": "originalDescriptionAndOptions",
+          "evidence": "льберт для архитектурных и дизайнерских студий. Дополнительная полка (опция) служит для размещения красок, кистей и",
+          "price": 300
+        }
+      },
+      "warnings": []
+    },
+    "a-profi-buk": {
+      "name": "А-профи (бук)",
+      "sourceId": "for_artist-49044079-1501253736112",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49044079-1501253736112",
+      "primaryGroup": "artists/floor",
+      "secondaryGroups": [],
+      "reason": "А-стиль отсутствует в DOC. Сохранить под общим листингом напольных, не выдавая за Лиру; отдельный новый раздел не требуется.",
+      "docDeviation": true,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "a-style"
+        },
+        {
+          "type": "sourceName",
+          "value": "А-профи (бук)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [],
+        "nameMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "А-профи (бук)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": "optional",
+        "shelfEvidence": {
+          "provenance": "originalDescriptionAndOptions",
+          "evidence": "гантный мольберт для архитекторов и дизайнеров. Дополнительная полка (опция) служит для размещения красок, кистей и",
+          "price": 400
+        }
+      },
+      "warnings": []
+    },
+    "a-klass": {
+      "name": "А-класс",
+      "sourceId": "for_artist-49044079-1497456130776",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49044079-1497456130776",
+      "primaryGroup": "artists/floor",
+      "secondaryGroups": [],
+      "reason": "А-стиль отсутствует в DOC. Сохранить под общим листингом напольных, не выдавая за Лиру; отдельный новый раздел не требуется.",
+      "docDeviation": true,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "a-style"
+        },
+        {
+          "type": "sourceName",
+          "value": "А-класс"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "khlopushka-a1h": {
+      "name": "Хлопушка А1h",
+      "sourceId": "for_artist-49044175-1498486363994",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49044175-1498486363994",
+      "primaryGroup": "artists/floor/students/clappers",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "clappers"
+        },
+        {
+          "type": "sourceName",
+          "value": "Хлопушка А1h"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Фанера",
+            "evidence": " Рабочее поле из шлифованной высококачественной фанеры толщиной 6 мм. Покрытие - акриловый тонированны",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": [],
+      "userAmendments": [
+        {
+          "date": "2026-10-21",
+          "sourceGroup": "clappers",
+          "previous": {
+            "primaryGroup": "artists/floor/students",
+            "secondaryGroups": []
+          },
+          "reason": "Подкатегории по уточнению пользователя; принадлежность соответствует исходной группе товара."
+        }
+      ]
+    },
+    "khlopushka-a1": {
+      "name": "Хлопушка А1",
+      "sourceId": "for_artist-49044175-1501253736112",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49044175-1501253736112",
+      "primaryGroup": "artists/floor/students/clappers",
+      "secondaryGroups": [
+        "artists/floor/students/shelf"
+      ],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "clappers"
+        },
+        {
+          "type": "sourceName",
+          "value": "Хлопушка А1"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Фанера",
+            "evidence": " Рабочее поле из шлифованной высококачественной фанеры толщиной 6 мм. Покрытие - акриловый тонированны",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": "optional",
+        "shelfEvidence": {
+          "provenance": "originalDescriptionAndOptions",
+          "evidence": "художественных студий. Мольберт «Хлопушка А1» с дополнительной полкой. Позволяет удобно разместить краски, кисти и ",
+          "price": 300
+        }
+      },
+      "warnings": [],
+      "userAmendments": [
+        {
+          "date": "2026-10-21",
+          "sourceGroup": "clappers",
+          "previous": {
+            "primaryGroup": "artists/floor/students",
+            "secondaryGroups": []
+          },
+          "reason": "Подкатегории по уточнению пользователя; принадлежность соответствует исходной группе товара."
+        },
+        {
+          "date": "2026-10-21",
+          "reason": "Подкатегория «Мольберты с полкой» внутри школьного раздела: полка в комплекте или подтверждённая дополнительная опция.",
+          "previousSecondaryGroups": []
+        }
+      ]
+    },
+    "khlopushka-a1-dvustoronniy": {
+      "name": "Хлопушка А1 двусторонний",
+      "sourceId": "for_artist-49044175-1497456130776",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49044175-1497456130776",
+      "primaryGroup": "artists/floor/students/clappers",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "clappers"
+        },
+        {
+          "type": "sourceName",
+          "value": "Хлопушка А1 двусторонний"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Фанера",
+            "evidence": " Рабочее поле из шлифованной высококачественной фанеры толщиной 6 мм. Покрытие - акриловый тонированны",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": "double",
+        "sidednessEvidence": {
+          "provenance": "originalName",
+          "evidence": "Хлопушка А1 двусторонний"
+        },
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": [],
+      "userAmendments": [
+        {
+          "date": "2026-10-21",
+          "sourceGroup": "clappers",
+          "previous": {
+            "primaryGroup": "artists/floor/students",
+            "secondaryGroups": []
+          },
+          "reason": "Подкатегории по уточнению пользователя; принадлежность соответствует исходной группе товара."
+        }
+      ]
+    },
+    "khlopushka-a2": {
+      "name": "Хлопушка А2",
+      "sourceId": "for_artist-49044175-1498486301712",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49044175-1498486301712",
+      "primaryGroup": "artists/floor/students/clappers",
+      "secondaryGroups": [
+        "artists/floor/students/shelf"
+      ],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "clappers"
+        },
+        {
+          "type": "sourceName",
+          "value": "Хлопушка А2"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Фанера",
+            "evidence": " Рабочее поле из шлифованной высококачественной фанеры толщиной 6 мм. Покрытие - акриловый тонированны",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": "optional",
+        "shelfEvidence": {
+          "provenance": "originalDescriptionAndOptions",
+          "evidence": "Я ХУДОЖЕСТВЕННЫХ ШКОЛ! Мольберт «Хлопушка А2» с дополнительной полкой. Позволяет удобно разместить краски, кисти и ",
+          "price": 300
+        }
+      },
+      "warnings": [],
+      "userAmendments": [
+        {
+          "date": "2026-10-21",
+          "sourceGroup": "clappers",
+          "previous": {
+            "primaryGroup": "artists/floor/students",
+            "secondaryGroups": []
+          },
+          "reason": "Подкатегории по уточнению пользователя; принадлежность соответствует исходной группе товара."
+        },
+        {
+          "date": "2026-10-21",
+          "reason": "Подкатегория «Мольберты с полкой» внутри школьного раздела: полка в комплекте или подтверждённая дополнительная опция.",
+          "previousSecondaryGroups": []
+        }
+      ]
+    },
+    "khlopushka-a2-dvustoronniy": {
+      "name": "Хлопушка А2 двусторонний",
+      "sourceId": "for_artist-49044175-1522219609187",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49044175-1522219609187",
+      "primaryGroup": "artists/floor/students/clappers",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "clappers"
+        },
+        {
+          "type": "sourceName",
+          "value": "Хлопушка А2 двусторонний"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Фанера",
+            "evidence": " Рабочее поле из шлифованной высококачественной фанеры толщиной 6 мм. Покрытие - акриловый тонированны",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": "double",
+        "sidednessEvidence": {
+          "provenance": "originalDescription",
+          "evidence": "мый крепкий в классе. Срок службы более 10 лет. Двусторонняя конструкция мольберта позволяет \"досушивать\""
+        },
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": [],
+      "userAmendments": [
+        {
+          "date": "2026-10-21",
+          "sourceGroup": "clappers",
+          "previous": {
+            "primaryGroup": "artists/floor/students",
+            "secondaryGroups": []
+          },
+          "reason": "Подкатегории по уточнению пользователя; принадлежность соответствует исходной группе товара."
+        }
+      ]
+    },
+    "khlopushka": {
+      "name": "Хлопушка",
+      "sourceId": "for_artist-49044175-1522219651466",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49044175-1522219651466",
+      "primaryGroup": "artists/floor/students/clappers",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "clappers"
+        },
+        {
+          "type": "sourceName",
+          "value": "Хлопушка"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Фанера",
+            "evidence": " Рабочее поле из шлифованной высококачественной фанеры толщиной 4 мм. Для начального обучения рисовани",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": [],
+      "userAmendments": [
+        {
+          "date": "2026-10-21",
+          "sourceGroup": "clappers",
+          "previous": {
+            "primaryGroup": "artists/floor/students",
+            "secondaryGroups": []
+          },
+          "reason": "Подкатегории по уточнению пользователя; принадлежность соответствует исходной группе товара."
+        }
+      ]
+    },
+    "khlopushka-detskiy-buk": {
+      "name": "Хлопушка детский (бук)",
+      "sourceId": "for_artist-49044175-1522219690360",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49044175-1522219690360",
+      "primaryGroup": "artists/floor/students/clappers",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "clappers"
+        },
+        {
+          "type": "sourceName",
+          "value": "Хлопушка детский (бук)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "в и рулонной бумаги. Каркас выполнен из массива бука с акриловым экологичным покрытием. Подходит для",
+            "provenance": "originalDescription"
+          },
+          {
+            "value": "Металл",
+            "evidence": " рисования мелками (зеленый матовый пластик или металл), другая — для крепления листов и рулонной бума",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "Хлопушка детский (бук)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": "double",
+        "sidednessEvidence": {
+          "provenance": "originalDescription",
+          "evidence": "0 мм Размер рабочего поля — 500x600 мм Складной двусторонний мольберт-хлопушка с удобным лотком для разме"
+        },
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": [],
+      "userAmendments": [
+        {
+          "date": "2026-10-21",
+          "sourceGroup": "clappers",
+          "previous": {
+            "primaryGroup": "artists/floor/students",
+            "secondaryGroups": []
+          },
+          "reason": "Подкатегории по уточнению пользователя; принадлежность соответствует исходной группе товара."
+        }
+      ]
+    },
+    "stol-dlya-chercheniya-i-risovaniya-chertezhnik": {
+      "name": "Стол для черчения и рисования \"Чертежник\"",
+      "sourceId": "for_artist-49047569-1522219690360",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49047569-1522219690360",
+      "primaryGroup": "drawing-tables",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "drawing-tables"
+        },
+        {
+          "type": "sourceName",
+          "value": "Стол для черчения и рисования \"Чертежник\""
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": "included",
+        "shelfEvidence": {
+          "provenance": "originalDescription",
+          "evidence": "енчато через 50 мм. Стол оснащен двумя удобными полками для размещения карандашей и красок в верхней"
+        }
+      },
+      "warnings": []
+    },
+    "stol-dlya-chercheniya-i-risovaniya-konstruktor": {
+      "name": "Стол для черчения и рисования \"Конструктор\"",
+      "sourceId": "for_artist-49047569-1524657106699",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49047569-1524657106699",
+      "primaryGroup": "drawing-tables",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "drawing-tables"
+        },
+        {
+          "type": "sourceName",
+          "value": "Стол для черчения и рисования \"Конструктор\""
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": "included",
+        "shelfEvidence": {
+          "provenance": "originalDescription",
+          "evidence": "чато через 35 мм. Стол оснащен двумя выдвижными полками для размещения художественных принадлежносте"
+        }
+      },
+      "warnings": []
+    },
+    "nastolnyy-sosna": {
+      "name": "Настольный (сосна)",
+      "sourceId": "for_artist-1570890501-9722490475690",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/1570890501-9722490475690",
+      "primaryGroup": "artists/desktop",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "desktops"
+        },
+        {
+          "type": "sourceName",
+          "value": "Настольный (сосна)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Сосна",
+            "evidence": "си, так и для экспозиции. Изготовлен из массива сосны камерной сушки, покрыт акриловым тонированным л",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [
+          {
+            "value": "Сосна",
+            "evidence": "Настольный (сосна)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "nastolnyy-buk": {
+      "name": "Настольный (бук)",
+      "sourceId": "for_artist-1570890501-9722490475691",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/1570890501-9722490475691",
+      "primaryGroup": "artists/desktop",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "desktops"
+        },
+        {
+          "type": "sourceName",
+          "value": "Настольный (бук)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "си, так и для экспозиции. Изготовлен из массива бука высшего сорта, покрыт экологически чистым акрил",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "Настольный (бук)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "lira-nastolnyy-sosna": {
+      "name": "\"Лира\" настольный (сосна)",
+      "sourceId": "for_artist-1570890501-9722490475692",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/1570890501-9722490475692",
+      "primaryGroup": "artists/desktop",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "desktops"
+        },
+        {
+          "type": "sourceName",
+          "value": "\"Лира\" настольный (сосна)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Сосна",
+            "evidence": "спозиции небольших работ. Изготовлен из массива сосны камерной сушки, покрыт акриловым тонированным л",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [
+          {
+            "value": "Сосна",
+            "evidence": "\"Лира\" настольный (сосна)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": "included",
+        "shelfEvidence": {
+          "provenance": "originalDescription",
+          "evidence": "x400 мм Складной мольберт-тренога с неподвижной полкой и подвижным бегунком. Идеально подходит для р"
+        }
+      },
+      "warnings": []
+    },
+    "lira-nastolnyy-buk": {
+      "name": "\"Лира\" настольный (бук)",
+      "sourceId": "for_artist-1570890501-9722490475693",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/1570890501-9722490475693",
+      "primaryGroup": "artists/desktop",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "desktops"
+        },
+        {
+          "type": "sourceName",
+          "value": "\"Лира\" настольный (бук)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "спозиции небольших работ. Изготовлен из массива бука высшего сорта, покрыт экологически чистым акрил",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "\"Лира\" настольный (бук)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": "included",
+        "shelfEvidence": {
+          "provenance": "originalDescription",
+          "evidence": "x400 мм Складной мольберт-тренога с неподвижной полкой и подвижным бегунком. Идеально подходит для р"
+        }
+      },
+      "warnings": []
+    },
+    "nastolnyy-mini-buk": {
+      "name": "Настольный \"Мини\" (бук)",
+      "sourceId": "for_artist-1570890501-9722490475694",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/1570890501-9722490475694",
+      "primaryGroup": "artists/desktop",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "desktops"
+        },
+        {
+          "type": "sourceName",
+          "value": "Настольный \"Мини\" (бук)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "дополнениями конструкции. Изготовлен из массива бука высшего сорта.",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "Настольный \"Мини\" (бук)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "nastolnyy-mini-xl-buk": {
+      "name": "Настольный \"Мини XL\" (бук)",
+      "sourceId": "for_artist-1570890501-9722490475695",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/1570890501-9722490475695",
+      "primaryGroup": "artists/desktop",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "desktops"
+        },
+        {
+          "type": "sourceName",
+          "value": "Настольный \"Мини XL\" (бук)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "лярных форматов 40х50 см. Изготовлен из массива бука высшего сорта.",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "Настольный \"Мини XL\" (бук)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "nastolnyy-akva": {
+      "name": "Настольный \"Аква\"",
+      "sourceId": "for_artist-1570890501-9722490475696",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/1570890501-9722490475696",
+      "primaryGroup": "artists/desktop",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "desktops"
+        },
+        {
+          "type": "sourceName",
+          "value": "Настольный \"Аква\""
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "графии на планшете А3 (60х40 см). Изготовлен из бука.",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "planshet-nastolnyy-grafika": {
+      "name": "Планшет настольный \"Графика\"",
+      "sourceId": "for_artist-1570890501-9722490475697",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/1570890501-9722490475697",
+      "primaryGroup": "artists/desktop",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "desktops"
+        },
+        {
+          "type": "sourceName",
+          "value": "Планшет настольный \"Графика\""
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "артоне формата А3 или А2. Изготовлен из массива бука и фанерованного МДФ с покрытием. В закрытом вид",
+            "provenance": "originalDescription"
+          },
+          {
+            "value": "Фанера",
+            "evidence": "формата А3 или А2. Изготовлен из массива бука и фанерованного МДФ с покрытием. В закрытом виде может служить ",
+            "provenance": "originalDescription"
+          },
+          {
+            "value": "МДФ",
+            "evidence": " А2. Изготовлен из массива бука и фанерованного МДФ с покрытием. В закрытом виде может служить для ",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "maksi": {
+      "name": "Макси",
+      "sourceId": "for_exibition-49052876-1498486363994",
+      "sourceUrl": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1498486363994",
+      "primaryGroup": "exhibitions/pine",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "exhibition"
+        },
+        {
+          "type": "sourceName",
+          "value": "Макси"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Сосна",
+            "evidence": "ся для транспортировки. Материал — тонированная сосна, вес — 10 кг.",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "ekspo-1": {
+      "name": "Экспо-1",
+      "sourceId": "for_exibition-49052876-1501253736112",
+      "sourceUrl": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1501253736112",
+      "primaryGroup": "exhibitions/pine",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "exhibition"
+        },
+        {
+          "type": "sourceName",
+          "value": "Экспо-1"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [],
+        "nameMaterials": [],
+        "sidedness": "single",
+        "sidednessEvidence": {
+          "provenance": "originalDescription",
+          "evidence": " — 1200x1500 мм Высокий устойчивый мольберт для односторонней экспозиции. Позволяет выставлять для обозрен"
+        },
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": [
+        "Раздел по породе дерева задан DOC; исходные имя/описание не называют породу. Не заполнять фактический материал автоматически."
+      ]
+    },
+    "ekspo-2": {
+      "name": "Экспо-2",
+      "sourceId": "for_exibition-49052876-1497456130776",
+      "sourceUrl": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1497456130776",
+      "primaryGroup": "exhibitions/pine",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "exhibition"
+        },
+        {
+          "type": "sourceName",
+          "value": "Экспо-2"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [],
+        "nameMaterials": [],
+        "sidedness": "double",
+        "sidednessEvidence": {
+          "provenance": "originalDescription",
+          "evidence": " — 1200x1500 мм Высокий устойчивый мольберт для двусторонней экспозиции. Пригоден для постановки практиче"
+        },
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": [
+        "Раздел по породе дерева задан DOC; исходные имя/описание не называют породу. Не заполнять фактический материал автоматически."
+      ]
+    },
+    "machta": {
+      "name": "Мачта",
+      "sourceId": "for_exibition-49052876-1498486301712",
+      "sourceUrl": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1498486301712",
+      "primaryGroup": "exhibitions/beech",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "exhibition"
+        },
+        {
+          "type": "sourceName",
+          "value": "Мачта"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "есткой фиксацией отставной ножки. Изготовлен из бука. Легко разбирается. Очень удобен в транспортиро",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": "included",
+        "shelfEvidence": {
+          "provenance": "originalDescription",
+          "evidence": "0 м на комфортной для обозрения высоте. Широкие полки лотка и бегунка могут служить опорой для масси"
+        }
+      },
+      "warnings": []
+    },
+    "trenoga-1500": {
+      "name": "Тренога 1500",
+      "sourceId": "for_exibition-49052876-1522251739696",
+      "sourceUrl": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1522251739696",
+      "primaryGroup": "exhibitions/beech",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "exhibition"
+        },
+        {
+          "type": "sourceName",
+          "value": "Тренога 1500"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": [
+        "Раздел по породе дерева задан DOC; исходные имя/описание не называют породу. Не заполнять фактический материал автоматически."
+      ]
+    },
+    "trenoga-vystavochnaya": {
+      "name": "Тренога \"Выставочная\"",
+      "sourceId": "for_exibition-49052876-1522251785894",
+      "sourceUrl": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1522251785894",
+      "primaryGroup": "exhibitions/pine",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "exhibition"
+        },
+        {
+          "type": "sourceName",
+          "value": "Тренога \"Выставочная\""
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Сосна",
+            "evidence": "енения высоты экспозиции. Изготовлен из массива сосны, базовый цвет - черный.",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "vernisazh": {
+      "name": "Вернисаж",
+      "sourceId": "for_exibition-49052876-1522251823207",
+      "sourceUrl": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1522251823207",
+      "primaryGroup": "exhibitions/beech",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "exhibition"
+        },
+        {
+          "type": "sourceName",
+          "value": "Вернисаж"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "ет дополнительной сборки. Изготовлен из массива бука. Стандартный цвет - натуральный бук. Возможно т",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": "included",
+        "shelfEvidence": {
+          "provenance": "originalDescription",
+          "evidence": "в, картин, рекламных изображений. Имеет широкую полку для установки работ в багетном оформлении и по"
+        }
+      },
+      "warnings": []
+    },
+    "delta": {
+      "name": "Дельта",
+      "sourceId": "for_exibition-49052876-1563552682842",
+      "sourceUrl": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1563552682842",
+      "primaryGroup": "exhibitions/beech",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "exhibition"
+        },
+        {
+          "type": "sourceName",
+          "value": "Дельта"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "мер планшета 1000х1000 мм Изготовлен из массива бука с покрытием. Цвета: базовый - натуральный бук. ",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "lira-podarochnyy-buk": {
+      "name": "\"Лира\" подарочный (бук)",
+      "sourceId": "for_interior-49126451-1498486363994",
+      "sourceUrl": "https://www.molberty.ru/for_interior#!/tproduct/49126451-1498486363994",
+      "primaryGroup": "interiors/carved",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "interior"
+        },
+        {
+          "type": "sourceName",
+          "value": "\"Лира\" подарочный (бук)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "а с подвижными лотком и бегунком. Изготовлен из бука с применением резных и фрезерованных элементов.",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "\"Лира\" подарочный (бук)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "molbert-ampir": {
+      "name": "Мольберт \"Ампир\"",
+      "sourceId": "for_interior-49126451-1522251823207",
+      "sourceUrl": "https://www.molberty.ru/for_interior#!/tproduct/49126451-1522251823207",
+      "primaryGroup": "interiors/carved",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "interior"
+        },
+        {
+          "type": "sourceName",
+          "value": "Мольберт \"Ампир\""
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "тины — 1000x800 мм Мольберт выполнен из массива бука по мотивам декоративно-мебельных изделий ХIX ве",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "molbert-eksklyuziv": {
+      "name": "Мольберт \"Эксклюзив\"",
+      "sourceId": "for_interior-49126451-1522301588688",
+      "sourceUrl": "https://www.molberty.ru/for_interior#!/tproduct/49126451-1522301588688",
+      "primaryGroup": "interiors/carved",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "interior"
+        },
+        {
+          "type": "sourceName",
+          "value": "Мольберт \"Эксклюзив\""
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "овлен с применением резных элементов из массива бука. Глубина лотка и бегунка (75 мм) позволяет эксп",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "molbert-plazma-xl": {
+      "name": "Мольберт \"Плазма XL\"",
+      "sourceId": "for_interior-49126451-1522301628609",
+      "sourceUrl": "https://www.molberty.ru/for_interior#!/tproduct/49126451-1522301628609",
+      "primaryGroup": "interiors/tv",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "interior"
+        },
+        {
+          "type": "sourceName",
+          "value": "Мольберт \"Плазма XL\""
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "мм Мольберт изготавливается из массива дуба или бука. Возможна отделка брашированием (состаривание п",
+            "provenance": "originalDescription"
+          },
+          {
+            "value": "Дуб",
+            "evidence": "1500x800 мм Мольберт изготавливается из массива дуба или бука. Возможна отделка брашированием (соста",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": "included",
+        "shelfEvidence": {
+          "provenance": "originalDescription",
+          "evidence": "ойки и направляющую). Мольберт снабжен открытой полкой для видеовоспроизводящей аппаратуры. Изготавл"
+        }
+      },
+      "warnings": [
+        "Материал на выбор: дуб или бук. Утверждение DOC все интерьерные из бука не отражает этот выбор."
+      ]
+    },
+    "molbert-versal": {
+      "name": "Мольберт \"Версаль\"",
+      "sourceId": "for_interior-49126451-1563554523875",
+      "sourceUrl": "https://www.molberty.ru/for_interior#!/tproduct/49126451-1563554523875",
+      "primaryGroup": "interiors/carved",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "interior"
+        },
+        {
+          "type": "sourceName",
+          "value": "Мольберт \"Версаль\""
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "м Глубина — 600 мм Мольберт выполнен из массива бука с резными элементами. Тонирование, золочение, п",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "trenogi-dlya-foto-ramok": {
+      "name": "Треноги для фото-рамок",
+      "sourceId": "for_interior-51369798-1498486363994",
+      "sourceUrl": "https://www.molberty.ru/for_interior#!/tproduct/51369798-1498486363994",
+      "primaryGroup": "interiors/mini/tripods",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "interior"
+        },
+        {
+          "type": "sourceName",
+          "value": "Треноги для фото-рамок"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": " 30х40 Декоративные треноги и мини-мольберты из бука для размещения календарей, миниатюр, тарелок, ф",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "mini-molberty-lira": {
+      "name": "Мини-мольберты «Лира»",
+      "sourceId": "for_interior-51369798-1501253736112",
+      "sourceUrl": "https://www.molberty.ru/for_interior#!/tproduct/51369798-1501253736112",
+      "primaryGroup": "interiors/mini/lyra",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "interior"
+        },
+        {
+          "type": "sourceName",
+          "value": "Мини-мольберты «Лира»"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": " 20х30 Декоративные треноги и мини-мольберты из бука для размещения календарей, миниатюр, тарелок, ф",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "stol-dlya-natyurmortov-s-planshetom-ugolok": {
+      "name": "Стол для натюрмортов с планшетом уголок",
+      "sourceId": "for_studio-49170011-1522251739696",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522251739696",
+      "primaryGroup": "studio/still-life-tables",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Стол для натюрмортов с планшетом уголок"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "двух планшетов 700x500 мм Изготовлен из массива бука и высококачественной фанеры с покрытием тониров",
+            "provenance": "originalDescription"
+          },
+          {
+            "value": "Фанера",
+            "evidence": "Изготовлен из массива бука и высококачественной фанеры с покрытием тонированным акриловым лаком. Стол ",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "stol-dlya-natyurmortov-50kh50-s-peremennoy-vysotoy-ekspozitsii": {
+      "name": "Стол для натюрмортов 50х50 с переменной высотой экспозиции",
+      "sourceId": "for_studio-49170011-1629798309149",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1629798309149",
+      "primaryGroup": "studio/still-life-tables",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Стол для натюрмортов 50х50 с переменной высотой экспозиции"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "озиции (с шагом в 5 см). Конструкция с четырьмя буковыми ножками, расположенными под небольшим углом для",
+            "provenance": "originalDescription"
+          },
+          {
+            "value": "Фанера",
+            "evidence": "Изготовлен из массива бука и высококачественной фанеры с покрытием тонированным акриловым лаком. В кач",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "stol-dlya-natyurmorta-s-peremennoy-vysotoy-ekspozitsii": {
+      "name": "Стол для натюрморта с переменной высотой экспозиции",
+      "sourceId": "for_studio-49170011-1561961803488",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1561961803488",
+      "primaryGroup": "studio/still-life-tables",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Стол для натюрморта с переменной высотой экспозиции"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Сосна",
+            "evidence": "ли 700х500 мм (по заказу) Изготовлен из массива сосны камерной сушки и высококачественной фанеры с по",
+            "provenance": "originalDescription"
+          },
+          {
+            "value": "Фанера",
+            "evidence": "ссива сосны камерной сушки и высококачественной фанеры с покрытием тонированным акриловым лаком. Стол ",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "stol-transformer-dlya-natyurmorta": {
+      "name": "Стол-трансформер для натюрморта.",
+      "sourceId": "for_studio-49170011-1632207169730",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1632207169730",
+      "primaryGroup": "studio/still-life-tables",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Стол-трансформер для натюрморта."
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "stol-dlya-natyurmorta-skladnoy": {
+      "name": "Стол для натюрморта складной",
+      "sourceId": "for_studio-49170011-1574785349708",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1574785349708",
+      "primaryGroup": "studio/still-life-tables",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Стол для натюрморта складной"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "stol-tumba-dlya-natyurmorta": {
+      "name": "Стол-тумба для натюрморта.",
+      "sourceId": "for_studio-49170011-1701931997821",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1701931997821",
+      "primaryGroup": "studio/still-life-tables",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Стол-тумба для натюрморта."
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Фанера",
+            "evidence": "а из высококачественной водостойкой шлифованной фанеры с акриловым экологически чистым покрытием. Очен",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "planshety": {
+      "name": "Планшеты",
+      "sourceId": "for_studio-49170011-1524485501356",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1524485501356",
+      "primaryGroup": "studio/tablets-palettes",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Планшеты"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Фанера",
+            "evidence": "готавливаются из высококачественной шлифованной фанеры толщиной 4 мм на раме сечением 30х18 мм с серед",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "stolik-dlya-ekspozitsiy": {
+      "name": "Столик для экспозиций",
+      "sourceId": "for_studio-49170011-1498486301712",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1498486301712",
+      "primaryGroup": "studio/still-life-tables",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Столик для экспозиций"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": " ваз и цветочных горшков. Изготовлен из массива бука с фанерованной крышкой, тонирован и покрыт лако",
+            "provenance": "originalDescription"
+          },
+          {
+            "value": "Фанера",
+            "evidence": "цветочных горшков. Изготовлен из массива бука с фанерованной крышкой, тонирован и покрыт лаком.",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "sofit-dlya-podsvetki-natyurmorta": {
+      "name": "Софит для подсветки натюрморта.",
+      "sourceId": "for_studio-49170011-1611754414386",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1611754414386",
+      "primaryGroup": "studio/lights",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Софит для подсветки натюрморта."
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": " мм Софит, рама которого изготовлена из массива бука, предназначен для мягкой подсветки натюрмортов ",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "svetilnik-dlya-podsvetki-natyurmorta": {
+      "name": "Светильник для подсветки натюрморта.",
+      "sourceId": "for_studio-49170011-1653547243518",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1653547243518",
+      "primaryGroup": "studio/lights",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Светильник для подсветки натюрморта."
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "она 160х110 мм Светильник изготовлен из массива бука, предназначен для точечной подсветки небольших ",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "svetilnik-prishchepka": {
+      "name": "Светильник-прищепка.",
+      "sourceId": "for_studio-49170011-1712751566388",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1712751566388",
+      "primaryGroup": "studio/lights",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Светильник-прищепка."
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": " Е27 (до 15Вт) Светильник изготовлен из массива бука, предназначен для точечной подсветки небольших ",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "stolik-skulptora-buk-fanera": {
+      "name": "Столик скульптора (Бук, фанера)",
+      "sourceId": "for_studio-49170011-1522251785894",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522251785894",
+      "primaryGroup": "studio/sculpture",
+      "secondaryGroups": [],
+      "reason": "По уточнению пользователя товар размещён непосредственно в разделе «Столы скульптора», без подразделов по материалу.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Столик скульптора (Бук, фанера)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": " Диаметр — 350 мм Стол скульптора изготовлен из бука и водостойкой фанеры с тремя ножками, расположе",
+            "provenance": "originalDescription"
+          },
+          {
+            "value": "Фанера",
+            "evidence": "тол скульптора изготовлен из бука и водостойкой фанеры с тремя ножками, расположенными под небольшим у",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "Столик скульптора (Бук, фанера)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": [],
+      "userAmendments": [
+        {
+          "date": "2026-10-21",
+          "source": "User requested one sculpture table category",
+          "previous": {
+            "primaryGroup": "studio/sculpture/wood",
+            "secondaryGroups": []
+          },
+          "reason": "Отменено разделение по материалу; обе модели размещены в общем разделе «Столы скульптора»."
+        }
+      ]
+    },
+    "stol-skulptora-profi": {
+      "name": "Стол скульптора \"Профи\"",
+      "sourceId": "for_studio-49170011-1522251823207",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522251823207",
+      "primaryGroup": "studio/sculpture",
+      "secondaryGroups": [],
+      "reason": "По уточнению пользователя товар размещён непосредственно в разделе «Столы скульптора», без подразделов по материалу.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Стол скульптора \"Профи\""
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Фанера",
+            "evidence": "крепится к крышке, изготовленной из водостойкой фанеры с покрытием акрил-уретановым лаком. Регулировка",
+            "provenance": "originalDescription"
+          },
+          {
+            "value": "Металл",
+            "evidence": "змеры — 450х450х1000-1300 мм Стол скульптора на металлических или деревянных ножках. Стойка жестко крепится к",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": [
+        "Не отдельные два товара, а деревянная/металлическая конструкция одной оригинальной модели."
+      ],
+      "userAmendments": [
+        {
+          "date": "2026-10-21",
+          "source": "User requested one sculpture table category",
+          "previous": {
+            "primaryGroup": "studio/sculpture/metal",
+            "secondaryGroups": [
+              "studio/sculpture/wood"
+            ]
+          },
+          "reason": "Отменено разделение по материалу; обе модели размещены в общем разделе «Столы скульптора»."
+        }
+      ]
+    },
+    "podstavka-dlya-risunkov": {
+      "name": "Подставка для рисунков",
+      "sourceId": "for_studio-49170011-1501253736112",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1501253736112",
+      "primaryGroup": "studio/storage/drawing-stands",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Подставка для рисунков"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Сосна",
+            "evidence": "ов, подрамников. Материал изготовления - массив сосны.",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "plakatnitsy-a1-i-a2": {
+      "name": "Плакатницы А1 и А2",
+      "sourceId": "for_studio-49170011-1522304205093",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522304205093",
+      "primaryGroup": "studio/storage/placard-racks",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Плакатницы А1 и А2"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "podstavka-dlya-risunkov-buk": {
+      "name": "Подставка для рисунков (бук)",
+      "sourceId": "for_studio-49170011-1497456130776",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1497456130776",
+      "primaryGroup": "studio/storage/drawing-stands",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Подставка для рисунков (бук)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [],
+        "nameMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "Подставка для рисунков (бук)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "plakatnitsa-nastennaya": {
+      "name": "Плакатница настенная",
+      "sourceId": "for_studio-49170011-1522304263614",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522304263614",
+      "primaryGroup": "studio/storage/placard-racks",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Плакатница настенная"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "palitra": {
+      "name": "Палитра",
+      "sourceId": "for_studio-49170011-1524658392476",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1524658392476",
+      "primaryGroup": "studio/tablets-palettes",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Палитра"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Фанера",
+            "evidence": "Размеры А3 и А4, изготовлены из фанеры 4мм. Изготавливаются только оптом от 10 шт.",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "klipbord": {
+      "name": "Клипборд",
+      "sourceId": "for_studio-49170011-1575974482586",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1575974482586",
+      "primaryGroup": "studio/tablets-palettes",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Клипборд"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "Клипборды из МДФ, фанерованного буковым шпоном с покрытием. Имеют зажим листа в верхней",
+            "provenance": "originalDescription"
+          },
+          {
+            "value": "Фанера",
+            "evidence": "Клипборды из МДФ, фанерованного буковым шпоном с покрытием. Имеют зажим листа в",
+            "provenance": "originalDescription"
+          },
+          {
+            "value": "МДФ",
+            "evidence": "Клипборды из МДФ, фанерованного буковым шпоном с покрытием. Имею",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "shkatulka-dlya-kistey-i-krasok": {
+      "name": "Шкатулка для кистей и красок",
+      "sourceId": "for_studio-49170011-1498486363994",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1498486363994",
+      "primaryGroup": "studio/artist-workplace",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Шкатулка для кистей и красок"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "листов картона. Изготовлена из фанеры и массива бука.",
+            "provenance": "originalDescription"
+          },
+          {
+            "value": "Фанера",
+            "evidence": "а А4 и несколько листов картона. Изготовлена из фанеры и массива бука.",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "stolik-dlya-palitry": {
+      "name": "Столик для палитры",
+      "sourceId": "for_studio-49170011-1522301546091",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522301546091",
+      "primaryGroup": "studio/artist-workplace",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Столик для палитры"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "палитры, красок и кистей. Изготовлен из массива бука и высококачественной фанеры. Может служить стол",
+            "provenance": "originalDescription"
+          },
+          {
+            "value": "Фанера",
+            "evidence": "Изготовлен из массива бука и высококачественной фанеры. Может служить столиком для натюрморта.",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "telezhka-dlya-khudozhestvennykh-prinadlezhnostey": {
+      "name": "Тележка для художественных принадлежностей.",
+      "sourceId": "for_studio-49170011-1610892209638",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1610892209638",
+      "primaryGroup": "studio/artist-workplace",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Тележка для художественных принадлежностей."
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "ншетов, красок и кистей. Изготовлена из массива бука и сосны. З ящика, размером 600х350х100 мм, кото",
+            "provenance": "originalDescription"
+          },
+          {
+            "value": "Сосна",
+            "evidence": " красок и кистей. Изготовлена из массива бука и сосны. З ящика, размером 600х350х100 мм, которые можн",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "taburet-rabochiy": {
+      "name": "Табурет рабочий",
+      "sourceId": "for_studio-49170011-1522301588688",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522301588688",
+      "primaryGroup": "studio/stools-chairs",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Табурет рабочий"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Сосна",
+            "evidence": "на — 350 мм Глубина — 350 мм Табурет из массива сосны и высококачественной фанеры с крестообразными ц",
+            "provenance": "originalDescription"
+          },
+          {
+            "value": "Фанера",
+            "evidence": "м Табурет из массива сосны и высококачественной фанеры с крестообразными царговыми соединениями. Оптов",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "taburet-vysokiy-buk": {
+      "name": "Табурет высокий (бук)",
+      "sourceId": "for_studio-49170011-1522301628609",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522301628609",
+      "primaryGroup": "studio/stools-chairs",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Табурет высокий (бук)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "шей осанки при рисовании. Изготовлен из массива бука с экологически чистым акрил-уретановым покрытие",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "Табурет высокий (бук)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "taburet-vysokiy-sosna": {
+      "name": "Табурет высокий (сосна)",
+      "sourceId": "for_studio-49170011-1792565100762",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1792565100762",
+      "primaryGroup": "studio/stools-chairs",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Табурет высокий (сосна)"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Сосна",
+            "evidence": "шей осанки при рисовании. Изготовлен из массива сосны с экологически чистым акрил-уретановым покрытие",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [
+          {
+            "value": "Сосна",
+            "evidence": "Табурет высокий (сосна)",
+            "provenance": "originalName"
+          }
+        ],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": [
+        "Исходный rawPrice6500/7200 конфликтует с вариантами7000/8500; в products-source сохранён приоритет числовых вариантов и исходная строка."
+      ]
+    },
+    "stul-khudozhnika": {
+      "name": "Стул художника",
+      "sourceId": "for_studio-49170011-1522304058801",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522304058801",
+      "primaryGroup": "studio/stools-chairs",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Стул художника"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Бук",
+            "evidence": "анию правильной осанки. Производится из массива бука, базовый цвет - натуральный бук. Покрытие - акр",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "stellazh-dlya-sushki-i-khraneniya-listov-a1": {
+      "name": "Стеллаж для сушки и хранения листов А1.",
+      "sourceId": "for_studio-49170011-1617087436244",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1617087436244",
+      "primaryGroup": "studio/storage/shelves",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Стеллаж для сушки и хранения листов А1."
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Сосна",
+            "evidence": "рмата А1 — 850x600 мм Материал - фанера, массив сосны, колесные опоры со стопором, покрытие - акрилов",
+            "provenance": "originalDescription"
+          },
+          {
+            "value": "Фанера",
+            "evidence": "н для листов формата А1 — 850x600 мм Материал - фанера, массив сосны, колесные опоры со стопором, покр",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "stellazh-dlya-sushki-i-khraneniya-listov-a2": {
+      "name": "Стеллаж для сушки и хранения листов А2.",
+      "sourceId": "for_studio-49170011-1716877878229",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1716877878229",
+      "primaryGroup": "studio/storage/shelves",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Стеллаж для сушки и хранения листов А2."
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Сосна",
+            "evidence": "ормата А2 — 600х400мм Материал - фанера, массив сосны, колесные опоры со стопором, покрытие - акрилов",
+            "provenance": "originalDescription"
+          },
+          {
+            "value": "Фанера",
+            "evidence": "ен для листов формата А2 — 600х400мм Материал - фанера, массив сосны, колесные опоры со стопором, покр",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "stellazh-dlya-planshetov-i-podramnikov": {
+      "name": "Стеллаж для планшетов и подрамников.",
+      "sourceId": "for_studio-49170011-1707383785350",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1707383785350",
+      "primaryGroup": "studio/storage/shelves",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Стеллаж для планшетов и подрамников."
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Сосна",
+            "evidence": "ти от толщины. Материал - столярный щит, массив сосны камерной сушки, колесные опоры со стопором. Пок",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": "included",
+        "shelfEvidence": {
+          "provenance": "originalDescription",
+          "evidence": "нный акриловый лак. Стеллаж оборудован съемными полками для размещения различных форматов планшетов."
+        }
+      },
+      "warnings": []
+    },
+    "stellazh-dlya-dekora-i-gipsovykh-modeley": {
+      "name": "Стеллаж для декора и гипсовых моделей.",
+      "sourceId": "for_studio-49170011-1762852847044",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1762852847044",
+      "primaryGroup": "studio/storage/shelves",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Стеллаж для декора и гипсовых моделей."
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Сосна",
+            "evidence": "ки натюрмортов Материал - столярный щит, массив сосны камерной сушки. Покрытие - тонированный акрилов",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": "included",
+        "shelfEvidence": {
+          "provenance": "originalDescription",
+          "evidence": " тонированный акриловый лак. Стеллаж оборудован полками размещенными через 400-400-350-300 мм. Возмо"
+        }
+      },
+      "warnings": []
+    },
+    "podium-dlya-natury": {
+      "name": "Подиум для натуры",
+      "sourceId": "for_studio-49170011-1792572231272",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1792572231272",
+      "primaryGroup": "studio/auxiliary/podiums",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Подиум для натуры"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Фанера",
+            "evidence": "зготавливается из высокосортной конструкционной фанеры, закрепленной на деревянном каркасе. Для устойч",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": [
+        "Опечатка исходного краткого размера:1000х7500х500; полное описание задаёт ширину1000,глубину750,высоту500мм."
+      ]
+    },
+    "shirma": {
+      "name": "Ширма",
+      "sourceId": "for_studio-49170011-1522304345907",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522304345907",
+      "primaryGroup": "studio/auxiliary/screens",
+      "secondaryGroups": [],
+      "reason": "Прямое соответствие наименованию и содержимому строки DOC.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Ширма"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Фанера",
+            "evidence": " 45х32 мм со вставками из ткани или шлифованной фанеры. Покрытие фанеры и количество секций (min 3) — ",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    },
+    "tumbochka-khudozhnika": {
+      "name": "Тумбочка художника",
+      "sourceId": "for_studio-49170011-1522304387094",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522304387094",
+      "primaryGroup": "drawing-tables",
+      "secondaryGroups": [],
+      "reason": "DOC прямо переносит тумбочку художника из изостудии к столам для черчения и рисования.",
+      "docDeviation": false,
+      "evidence": [
+        {
+          "type": "sourceGroup",
+          "value": "studio"
+        },
+        {
+          "type": "sourceName",
+          "value": "Тумбочка художника"
+        }
+      ],
+      "safeFeatures": {
+        "descriptionMaterials": [
+          {
+            "value": "Сосна",
+            "evidence": " для небольшого мольберта. Выполнена из массива сосны по классическим столярным технологиям.",
+            "provenance": "originalDescription"
+          }
+        ],
+        "nameMaterials": [],
+        "sidedness": null,
+        "sidednessEvidence": null,
+        "shelf": null,
+        "shelfEvidence": null
+      },
+      "warnings": []
+    }
+  },
+  "primaryGroupCounts": {
+    "artists/floor/professional/stationaries": 7,
+    "artists/floor/professional/transformers": 4,
+    "artists/floor/students": 2,
+    "artists/floor/lira": 10,
+    "artists/floor": 3,
+    "artists/floor/students/clappers": 7,
+    "drawing-tables": 3,
+    "artists/desktop": 8,
+    "exhibitions/pine": 4,
+    "exhibitions/beech": 4,
+    "interiors/carved": 4,
+    "interiors/tv": 1,
+    "interiors/mini/tripods": 1,
+    "interiors/mini/lyra": 1,
+    "studio/still-life-tables": 7,
+    "studio/tablets-palettes": 3,
+    "studio/lights": 3,
+    "studio/sculpture": 2,
+    "studio/storage/drawing-stands": 2,
+    "studio/storage/placard-racks": 2,
+    "studio/artist-workplace": 3,
+    "studio/stools-chairs": 4,
+    "studio/storage/shelves": 4,
+    "studio/auxiliary/podiums": 1,
+    "studio/auxiliary/screens": 1
+  },
+  "uniqueRootCounts": {
+    "artists": 41,
+    "drawing-tables": 3,
+    "exhibitions": 8,
+    "interiors": 7,
+    "studio": 32
+  },
+  "classificationRules": {
+    "sameProductMultipleListings": "Secondary category membership never creates a second SKU. Ancestors are implied by group paths.",
+    "study": "Primary artistic school; secondary professional/transformers per all-transformers rule, with shared SKU.",
+    "a-style": "All three directly under floor; no invented category or false Лира label. А-класс description supports student use, but extra membership optional.",
+    "material": "Only explicit original description/name evidence; DOC grouping is not a source product specification.",
+    "sidedness": "Unknown unless explicitly stated in source name or description. Never infer single-sided from missing double-sided keyword.",
+    "shelf": "Optional is distinguished from included. A лоток keyword alone is not treated as an additional shelf.",
+    "professionalSubcategories": "Original stationaries and transformers groups populate the requested children /molberty-stankovye/ and /molberty-transformery/; all ancestors are retained.",
+    "clapperSubcategory": "Original clappers group belongs to /molberty-hlopushka/ within the artistic school category.",
+    "schoolShelf": "School models with original shelf evidence (included or optional) also belong to artists/floor/students/shelf. Primary categories and SKUs stay unchanged; no inference from the support tray alone.",
+    "sculpture": "All sculpture tables belong directly to studio/sculpture following the user amendment. Wood/metal product properties remain original specifications; no material subcategories or duplicate SKUs."
+  },
+  "missingDocProducts": [
+    {
+      "name": "Мольберт Плазма (без XL)",
+      "status": "Not found as a current sale product in four complete live catalogues.",
+      "historicalEvidence": {
+        "url": "https://www.molberty.ru/easel_in_interior",
+        "localCopy": "offline-page/page2781362.html",
+        "caption": "Мольберт \"Плазма\""
+      },
+      "recommendation": "Keep one TV category with actual Плазма XL; do not clone XL into a second invented Плазма SKU or invent prices."
+    }
+  ],
+  "confirmedDocPreviouslyMissing": [
+    {
+      "name": "Подиум для натуры",
+      "id": "podium-dlya-natury",
+      "sourceId": "for_studio-49170011-1792572231272",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1792572231272",
+      "galleryCount": 3,
+      "primaryGroup": "studio/auxiliary/podiums"
+    }
+  ],
+  "removedArchive": [
+    {
+      "id": "molbert-modern",
+      "status": "Not in complete live for_interior HTML on review date; original record retained only in source-catalog-report.removedProducts.",
+      "material": "Ольха",
+      "originalEvidence": "Мольберт выполнен из массива ольхи по образцу начала ХX века.",
+      "recommendation": "Do not put the archived painted alder model into carved beech products; link retired URL to interiors only as explicit navigation/redirect, not new priced product."
+    }
+  ],
+  "liveDiff": {
+    "addedProducts": [
+      {
+        "sourceId": "for_studio-49170011-1792565100762",
+        "id": "taburet-vysokiy-sosna",
+        "name": "Табурет высокий (сосна)"
+      },
+      {
+        "sourceId": "for_studio-49170011-1792572231272",
+        "id": "podium-dlya-natury",
+        "name": "Подиум для натуры"
+      }
+    ],
+    "renamedProducts": [
+      {
+        "sourceId": "for_studio-49170011-1522301628609",
+        "oldId": "taburet-vysokiy",
+        "newId": "taburet-vysokiy-buk",
+        "oldName": "Табурет высокий",
+        "newName": "Табурет высокий (бук)"
+      }
+    ],
+    "removedIds": [
+      "molbert-modern"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Current original artist catalogue",
+      "url": "https://www.molberty.ru/for_artist"
+    },
+    {
+      "title": "Current original exhibition catalogue",
+      "url": "https://www.molberty.ru/for_exibition"
+    },
+    {
+      "title": "Current original interior catalogue",
+      "url": "https://www.molberty.ru/for_interior"
+    },
+    {
+      "title": "Current original studio catalogue",
+      "url": "https://www.molberty.ru/for_studio"
+    }
+  ]
+}

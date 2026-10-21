@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-21T15:05:29.531Z",
+  "tiles": 5,
+  "originalHomepageImages": 4,
+  "drawingTablesImage": "Чертежник — реальный стол из каталога",
+  "backgrounds": [
+    {
+      "before": "rgb(255, 255, 255)",
+      "after": "rgb(255, 255, 255)"
+    },
+    {
+      "before": "rgb(255, 255, 255)",
+      "after": "rgb(255, 255, 255)"
+    },
+    {
+      "before": "rgb(255, 255, 255)",
+      "after": "rgb(255, 255, 255)"
+    },
+    {
+      "before": "rgb(255, 255, 255)",
+      "after": "rgb(255, 255, 255)"
+    },
+    {
+      "before": "rgb(255, 255, 255)",
+      "after": "rgb(255, 255, 255)"
+    }
+  ],
+  "viewports": [
+    320,
+    390,
+    768,
+    1100,
+    1440
+  ],
+  "checks": [
+    "no category numbers",
+    "hover background unchanged",
+    "four source homepage compositions",
+    "five original category destinations",
+    "local images load with alt/title",
+    "plain category title elements",
+    "responsive overflow",
+    "category navigation"
+  ]
+}

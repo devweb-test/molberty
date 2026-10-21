@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "products": 91,
+  "categoryCounts": {
+    "artists": 41,
+    "drawing-tables": 3,
+    "exhibitions": 8,
+    "interiors": 7,
+    "studio": 32,
+    "artists/floor/professional": 13,
+    "artists/floor/professional/stationaries": 7,
+    "artists/floor/professional/transformers": 6,
+    "artists/floor/students/clappers": 7,
+    "artists/floor/students": 9,
+    "artists/floor/lira": 10,
+    "artists/desktop": 8
+  },
+  "viewports": [
+    320,
+    390,
+    768,
+    1100,
+    1440
+  ],
+  "checks": [
+    "renamed SKU cart migration",
+    "retail/wholesale",
+    "tablet surcharges",
+    "source price discrepancies",
+    "minimum quantities",
+    "variant cart",
+    "persistence",
+    "checkout summary",
+    "gallery/zoom/keyboard",
+    "quick view",
+    "price sort",
+    "SEO copy",
+    "responsive overflow",
+    "back to top"
+  ],
+  "date": "2026-10-21T15:20:14.169Z"
+}

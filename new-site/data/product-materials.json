@@ -1,0 +1,1208 @@
+{
+  "reviewDate": "2026-10-21",
+  "purpose": "Replace workshop fallback with material supported by source descriptions, names, user document or original product photos. Original source data stays intact.",
+  "genericWoodSpeciesUnspecified": [
+    "a-profi",
+    "a-klass",
+    "stol-dlya-chercheniya-i-risovaniya-chertezhnik",
+    "stol-dlya-chercheniya-i-risovaniya-konstruktor",
+    "stol-transformer-dlya-natyurmorta",
+    "stol-dlya-natyurmorta-skladnoy",
+    "plakatnitsy-a1-i-a2",
+    "plakatnitsa-nastennaya"
+  ],
+  "products": {
+    "stankovyy-2-storonniy": {
+      "sourceId": "for_artist-46139268-1762848599017",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/46139268-1762848599017",
+      "sourceDescriptionSha256": "cf560fb64fb18ec0c763247e04103d714874f5c6fa55b828b3e32705023f61af",
+      "originalMaterial": null,
+      "label": "Сосна",
+      "materials": [
+        "Сосна"
+      ],
+      "evidence": [
+        {
+          "value": "Сосна",
+          "evidence": "рами со стопором (опция). Изготовлен из массива сосны с покрытием.",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_artist#!/tproduct/46139268-1762848599017"
+        }
+      ]
+    },
+    "studiya-a1": {
+      "sourceId": "for_artist-49043039-1768727035995",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49043039-1768727035995",
+      "sourceDescriptionSha256": "35542db925ce56a12cbc1172ba0dc93c16f72723386d7c78043381b929cd4b18",
+      "originalMaterial": null,
+      "label": "Сосна",
+      "materials": [
+        "Сосна"
+      ],
+      "evidence": [
+        {
+          "value": "Сосна",
+          "evidence": " или картонных носителях. Изготовлен из массива сосны с покрытием. В отличие от аналогов, имеет очень",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_artist#!/tproduct/49043039-1768727035995"
+        }
+      ]
+    },
+    "studiya-a2": {
+      "sourceId": "for_artist-49043039-1768727445494",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49043039-1768727445494",
+      "sourceDescriptionSha256": "256c10b1c099547c12f10029fee0d743f9e4d8502f942a7ebd544d19aa1a5824",
+      "originalMaterial": null,
+      "label": "Сосна",
+      "materials": [
+        "Сосна"
+      ],
+      "evidence": [
+        {
+          "value": "Сосна",
+          "evidence": " или картонных носителях. Изготовлен из массива сосны с покрытием. В отличие от аналогов, имеет очень",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_artist#!/tproduct/49043039-1768727445494"
+        }
+      ]
+    },
+    "lira-s-naklonnoy-shtangoy": {
+      "sourceId": "for_artist-49043414-1498486363994",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1498486363994",
+      "sourceDescriptionSha256": "74ae88c374bd70bfb1558f82aee9bb53cf9f52c24087e07fe959d342b106cb94",
+      "originalMaterial": null,
+      "label": "Сосна",
+      "materials": [
+        "Сосна"
+      ],
+      "evidence": [
+        {
+          "value": "Сосна",
+          "evidence": "аншета толщиной до 30 мм. Изготовлен из массива сосны камерной сушки, покрыт акриловым тонированным л",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1498486363994"
+        }
+      ]
+    },
+    "raskladnoy-lira": {
+      "sourceId": "for_artist-49043414-1497456130776",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1497456130776",
+      "sourceDescriptionSha256": "fd697bcaa895124d8af37fc3a0e4c1e64f597f0c6517c21c2e0bc573517c6172",
+      "originalMaterial": null,
+      "label": "Сосна",
+      "materials": [
+        "Сосна"
+      ],
+      "evidence": [
+        {
+          "value": "Сосна",
+          "evidence": "щим менять наклон холста. Изготовлен из массива сосны камерной сушки, покрыт акриловым тонированным л",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1497456130776"
+        }
+      ]
+    },
+    "lira-s-podvizhnoy-shtangoy": {
+      "sourceId": "for_artist-49043414-1522216368943",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1522216368943",
+      "sourceDescriptionSha256": "7e6307abdcfcea8f0f612dff88641e9b59cc48d3a730d5634f31c04fdc8a0411",
+      "originalMaterial": null,
+      "label": "Сосна",
+      "materials": [
+        "Сосна"
+      ],
+      "evidence": [
+        {
+          "value": "Сосна",
+          "evidence": "ией менять наклон холста. Изготовлен из массива сосны камерной сушки, покрыт акриловым тонированным л",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1522216368943"
+        }
+      ]
+    },
+    "lira-malyy": {
+      "sourceId": "for_artist-49043414-1522216376309",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1522216376309",
+      "sourceDescriptionSha256": "fc14f3092a4a834ac87debc5f3b1dacd285e858bf4ab74a5c156354f13ef854e",
+      "originalMaterial": null,
+      "label": "Сосна",
+      "materials": [
+        "Сосна"
+      ],
+      "evidence": [
+        {
+          "value": "Сосна",
+          "evidence": "щим менять наклон холста. Изготовлен из массива сосны камерной сушки, покрыт акриловым тонированным л",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1522216376309"
+        }
+      ]
+    },
+    "lira-malyy-s-podvizhnoy-shtangoy": {
+      "sourceId": "for_artist-49043414-1522216378019",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1522216378019",
+      "sourceDescriptionSha256": "76040dee8195ea77856dbb730de0dd85c568b97439e6de504a2bc8caa16ae1d6",
+      "originalMaterial": null,
+      "label": "Сосна",
+      "materials": [
+        "Сосна"
+      ],
+      "evidence": [
+        {
+          "value": "Сосна",
+          "evidence": "ией менять наклон холста. Изготовлен из массива сосны камерной сушки, покрыт акриловым тонированным л",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1522216378019"
+        }
+      ]
+    },
+    "a-profi": {
+      "sourceId": "for_artist-49044079-1498486363994",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49044079-1498486363994",
+      "sourceDescriptionSha256": "2c13aa6b4d8f1f861b060e4ea2a1f498d9bbad2743002b16cc2116dd8f35598a",
+      "originalMaterial": null,
+      "label": "Дерево",
+      "materials": [
+        "Дерево"
+      ],
+      "evidence": [
+        {
+          "provenance": "originalImageAndWorkshopContext",
+          "source": "https://static.tildacdn.com/tild6533-6431-4531-b338-383865373236/19_-.jpg",
+          "localImage": "catalog/2f2325cc9eef615f.webp",
+          "contextSource": "https://www.molberty.ru/",
+          "evidence": "На оригинальном фото деревянная конструкция; мастерская описывает деревообработку и натуральные материалы. Точная порода в карточке не указана и по фото не определялась."
+        }
+      ]
+    },
+    "a-klass": {
+      "sourceId": "for_artist-49044079-1497456130776",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49044079-1497456130776",
+      "sourceDescriptionSha256": "6e4d03be64ac268b222d4fd2b36dadb08a9dac264b559a8bb65d9f45d9cfbcfd",
+      "originalMaterial": null,
+      "label": "Дерево",
+      "materials": [
+        "Дерево"
+      ],
+      "evidence": [
+        {
+          "provenance": "originalImageAndWorkshopContext",
+          "source": "https://static.tildacdn.com/tild3932-3561-4037-b037-663465313334/21_-.jpg",
+          "localImage": "catalog/78d8e8f756806921.webp",
+          "contextSource": "https://www.molberty.ru/",
+          "evidence": "На оригинальном фото деревянная конструкция; мастерская описывает деревообработку и натуральные материалы. Точная порода в карточке не указана и по фото не определялась."
+        }
+      ]
+    },
+    "khlopushka-a1h": {
+      "sourceId": "for_artist-49044175-1498486363994",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49044175-1498486363994",
+      "sourceDescriptionSha256": "3d271049b0986c65a83bfa10c4b3dddab782332cea60c175c2313e96ed9cd85a",
+      "originalMaterial": null,
+      "label": "Фанера",
+      "materials": [
+        "Фанера"
+      ],
+      "evidence": [
+        {
+          "value": "Фанера",
+          "evidence": " Рабочее поле из шлифованной высококачественной фанеры толщиной 6 мм. Покрытие - акриловый тонированны",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_artist#!/tproduct/49044175-1498486363994"
+        }
+      ]
+    },
+    "khlopushka-a1": {
+      "sourceId": "for_artist-49044175-1501253736112",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49044175-1501253736112",
+      "sourceDescriptionSha256": "795c9db4b46079c7494652f572aa99c6f03af15ba4dcc17d20c8d082909c88e9",
+      "originalMaterial": null,
+      "label": "Фанера",
+      "materials": [
+        "Фанера"
+      ],
+      "evidence": [
+        {
+          "value": "Фанера",
+          "evidence": " Рабочее поле из шлифованной высококачественной фанеры толщиной 6 мм. Покрытие - акриловый тонированны",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_artist#!/tproduct/49044175-1501253736112"
+        }
+      ]
+    },
+    "khlopushka-a1-dvustoronniy": {
+      "sourceId": "for_artist-49044175-1497456130776",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49044175-1497456130776",
+      "sourceDescriptionSha256": "d2d5dd72b531f59baae4aa599c6f011264202ae319d862d689ee1e33d0050709",
+      "originalMaterial": null,
+      "label": "Фанера",
+      "materials": [
+        "Фанера"
+      ],
+      "evidence": [
+        {
+          "value": "Фанера",
+          "evidence": " Рабочее поле из шлифованной высококачественной фанеры толщиной 6 мм. Покрытие - акриловый тонированны",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_artist#!/tproduct/49044175-1497456130776"
+        }
+      ]
+    },
+    "khlopushka-a2": {
+      "sourceId": "for_artist-49044175-1498486301712",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49044175-1498486301712",
+      "sourceDescriptionSha256": "834fdda944920ea7131a4f635c11492f19004ca4a30b13ef5dfea544d622a2b0",
+      "originalMaterial": null,
+      "label": "Фанера",
+      "materials": [
+        "Фанера"
+      ],
+      "evidence": [
+        {
+          "value": "Фанера",
+          "evidence": " Рабочее поле из шлифованной высококачественной фанеры толщиной 6 мм. Покрытие - акриловый тонированны",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_artist#!/tproduct/49044175-1498486301712"
+        }
+      ]
+    },
+    "khlopushka-a2-dvustoronniy": {
+      "sourceId": "for_artist-49044175-1522219609187",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49044175-1522219609187",
+      "sourceDescriptionSha256": "3793061e01e719795d04a15c015344151c70ce8a54ed4838105119651341b171",
+      "originalMaterial": null,
+      "label": "Фанера",
+      "materials": [
+        "Фанера"
+      ],
+      "evidence": [
+        {
+          "value": "Фанера",
+          "evidence": " Рабочее поле из шлифованной высококачественной фанеры толщиной 6 мм. Покрытие - акриловый тонированны",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_artist#!/tproduct/49044175-1522219609187"
+        }
+      ]
+    },
+    "khlopushka": {
+      "sourceId": "for_artist-49044175-1522219651466",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49044175-1522219651466",
+      "sourceDescriptionSha256": "9c3fdae3e1f8cd961c5a9dbe6e0d69d06a722611880b40db0116fe56f6ecc8a1",
+      "originalMaterial": null,
+      "label": "Фанера",
+      "materials": [
+        "Фанера"
+      ],
+      "evidence": [
+        {
+          "value": "Фанера",
+          "evidence": " Рабочее поле из шлифованной высококачественной фанеры толщиной 4 мм. Для начального обучения рисовани",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_artist#!/tproduct/49044175-1522219651466"
+        }
+      ]
+    },
+    "stol-dlya-chercheniya-i-risovaniya-chertezhnik": {
+      "sourceId": "for_artist-49047569-1522219690360",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49047569-1522219690360",
+      "sourceDescriptionSha256": "148e0b9ab9064aeb0b184d7d62a5f990b51901adfb38179aedf8f5915d5b6dac",
+      "originalMaterial": null,
+      "label": "Дерево",
+      "materials": [
+        "Дерево"
+      ],
+      "evidence": [
+        {
+          "provenance": "originalImageAndWorkshopContext",
+          "source": "https://static.tildacdn.com/tild3339-3333-4166-a565-623364646330/Parta_4.jpg",
+          "localImage": "catalog/cd139d0d1e8a6398.webp",
+          "contextSource": "https://www.molberty.ru/",
+          "evidence": "На оригинальном фото деревянная конструкция; мастерская описывает деревообработку и натуральные материалы. Точная порода в карточке не указана и по фото не определялась."
+        }
+      ]
+    },
+    "stol-dlya-chercheniya-i-risovaniya-konstruktor": {
+      "sourceId": "for_artist-49047569-1524657106699",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/49047569-1524657106699",
+      "sourceDescriptionSha256": "c738e58a478e03373d8d2fe847162ee832255d8f435300536a0b1f6aefe10395",
+      "originalMaterial": null,
+      "label": "Дерево",
+      "materials": [
+        "Дерево"
+      ],
+      "evidence": [
+        {
+          "provenance": "originalImageAndWorkshopContext",
+          "source": "https://static.tildacdn.com/tild6133-6439-4533-b166-343336306331/Stol_4.jpg",
+          "localImage": "catalog/8f6cde6b58578be5.webp",
+          "contextSource": "https://www.molberty.ru/",
+          "evidence": "На оригинальном фото деревянная конструкция; мастерская описывает деревообработку и натуральные материалы. Точная порода в карточке не указана и по фото не определялась."
+        }
+      ]
+    },
+    "nastolnyy-akva": {
+      "sourceId": "for_artist-1570890501-9722490475696",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/1570890501-9722490475696",
+      "sourceDescriptionSha256": "ba55f5ccd0eb20b5e2de8762e8015ab597c3f92f136583efa9ab20f838037fc0",
+      "originalMaterial": null,
+      "label": "Бук",
+      "materials": [
+        "Бук"
+      ],
+      "evidence": [
+        {
+          "value": "Бук",
+          "evidence": "графии на планшете А3 (60х40 см). Изготовлен из бука.",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_artist#!/tproduct/1570890501-9722490475696"
+        }
+      ]
+    },
+    "planshet-nastolnyy-grafika": {
+      "sourceId": "for_artist-1570890501-9722490475697",
+      "sourceUrl": "https://www.molberty.ru/for_artist#!/tproduct/1570890501-9722490475697",
+      "sourceDescriptionSha256": "521215f2a8fd63d52d6fdfae4fae6ea293b3c42119036dd1b2b37b2e9f71c4a3",
+      "originalMaterial": null,
+      "note": "Состав или альтернативные исполнения переданы по оригинальному описанию; «фанерованный» не означает «из фанеры».",
+      "label": "Бук, шпонированный МДФ",
+      "materials": [
+        "Бук",
+        "МДФ"
+      ],
+      "evidence": [
+        {
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_artist#!/tproduct/1570890501-9722490475697",
+          "evidence": "Изготовлен из массива бука и фанерованного МДФ с покрытием."
+        }
+      ]
+    },
+    "maksi": {
+      "sourceId": "for_exibition-49052876-1498486363994",
+      "sourceUrl": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1498486363994",
+      "sourceDescriptionSha256": "873ce0056fedca205f4c9da8e781faa25ae6e215e574255da3de5e245968175f",
+      "originalMaterial": null,
+      "label": "Сосна",
+      "materials": [
+        "Сосна"
+      ],
+      "evidence": [
+        {
+          "value": "Сосна",
+          "evidence": "ся для транспортировки. Материал — тонированная сосна, вес — 10 кг.",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1498486363994"
+        }
+      ]
+    },
+    "ekspo-1": {
+      "sourceId": "for_exibition-49052876-1501253736112",
+      "sourceUrl": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1501253736112",
+      "sourceDescriptionSha256": "0427aeb2973eb113c7ab9be7e9b17aac21845d532709733354e5a3e2e156895a",
+      "originalMaterial": null,
+      "label": "Сосна",
+      "materials": [
+        "Сосна"
+      ],
+      "evidence": [
+        {
+          "provenance": "userStructureDocument",
+          "source": "data/catalog-structure.doc",
+          "evidence": "Группа выставочных мольбертов из сосны или бука, с явным списком моделей в документе."
+        }
+      ]
+    },
+    "ekspo-2": {
+      "sourceId": "for_exibition-49052876-1497456130776",
+      "sourceUrl": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1497456130776",
+      "sourceDescriptionSha256": "07db0b75efa0c8090bbfb0d764c38a6246e924b6c35bde22502f37b137771440",
+      "originalMaterial": null,
+      "label": "Сосна",
+      "materials": [
+        "Сосна"
+      ],
+      "evidence": [
+        {
+          "provenance": "userStructureDocument",
+          "source": "data/catalog-structure.doc",
+          "evidence": "Группа выставочных мольбертов из сосны или бука, с явным списком моделей в документе."
+        }
+      ]
+    },
+    "machta": {
+      "sourceId": "for_exibition-49052876-1498486301712",
+      "sourceUrl": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1498486301712",
+      "sourceDescriptionSha256": "3319f2206babbf9f8a4f25433753fb3628550586d729b008500f53d045d920c6",
+      "originalMaterial": null,
+      "label": "Бук",
+      "materials": [
+        "Бук"
+      ],
+      "evidence": [
+        {
+          "value": "Бук",
+          "evidence": "есткой фиксацией отставной ножки. Изготовлен из бука. Легко разбирается. Очень удобен в транспортиро",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1498486301712"
+        }
+      ]
+    },
+    "trenoga-1500": {
+      "sourceId": "for_exibition-49052876-1522251739696",
+      "sourceUrl": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1522251739696",
+      "sourceDescriptionSha256": "d0fb1a27945bbfa55e17c4b473f9d0dd4d604605937a49acaefa3a89654e1568",
+      "originalMaterial": null,
+      "label": "Бук",
+      "materials": [
+        "Бук"
+      ],
+      "evidence": [
+        {
+          "provenance": "userStructureDocument",
+          "source": "data/catalog-structure.doc",
+          "evidence": "Группа выставочных мольбертов из сосны или бука, с явным списком моделей в документе."
+        }
+      ]
+    },
+    "trenoga-vystavochnaya": {
+      "sourceId": "for_exibition-49052876-1522251785894",
+      "sourceUrl": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1522251785894",
+      "sourceDescriptionSha256": "607fc0b11d6ec6b6bb6943ade69bcd624c47796d27f50c3f2584dc9501c147b8",
+      "originalMaterial": null,
+      "label": "Сосна",
+      "materials": [
+        "Сосна"
+      ],
+      "evidence": [
+        {
+          "value": "Сосна",
+          "evidence": "енения высоты экспозиции. Изготовлен из массива сосны, базовый цвет - черный.",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1522251785894"
+        }
+      ]
+    },
+    "vernisazh": {
+      "sourceId": "for_exibition-49052876-1522251823207",
+      "sourceUrl": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1522251823207",
+      "sourceDescriptionSha256": "e809bf9581407bf0f09a66b24cfd35a33299ed55182106821da50d211faec92b",
+      "originalMaterial": null,
+      "label": "Бук",
+      "materials": [
+        "Бук"
+      ],
+      "evidence": [
+        {
+          "value": "Бук",
+          "evidence": "ет дополнительной сборки. Изготовлен из массива бука. Стандартный цвет - натуральный бук. Возможно т",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1522251823207"
+        }
+      ]
+    },
+    "delta": {
+      "sourceId": "for_exibition-49052876-1563552682842",
+      "sourceUrl": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1563552682842",
+      "sourceDescriptionSha256": "34fd434c002dff2aee1b57159940b313a6f87c00a7e1e0d563cf6f45c1434d30",
+      "originalMaterial": null,
+      "label": "Бук",
+      "materials": [
+        "Бук"
+      ],
+      "evidence": [
+        {
+          "value": "Бук",
+          "evidence": "мер планшета 1000х1000 мм Изготовлен из массива бука с покрытием. Цвета: базовый - натуральный бук. ",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1563552682842"
+        }
+      ]
+    },
+    "molbert-ampir": {
+      "sourceId": "for_interior-49126451-1522251823207",
+      "sourceUrl": "https://www.molberty.ru/for_interior#!/tproduct/49126451-1522251823207",
+      "sourceDescriptionSha256": "87d740cdc2b1dc3d798b1a9cc4a00f7beae1579deaeb0f804690cc07fd4ec4d9",
+      "originalMaterial": null,
+      "label": "Бук",
+      "materials": [
+        "Бук"
+      ],
+      "evidence": [
+        {
+          "value": "Бук",
+          "evidence": "тины — 1000x800 мм Мольберт выполнен из массива бука по мотивам декоративно-мебельных изделий ХIX ве",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_interior#!/tproduct/49126451-1522251823207"
+        }
+      ]
+    },
+    "molbert-eksklyuziv": {
+      "sourceId": "for_interior-49126451-1522301588688",
+      "sourceUrl": "https://www.molberty.ru/for_interior#!/tproduct/49126451-1522301588688",
+      "sourceDescriptionSha256": "2b171b80f0f17640ff019adf1934c5ba851dbf370053abf83ebe903c05d9d5e2",
+      "originalMaterial": null,
+      "label": "Бук",
+      "materials": [
+        "Бук"
+      ],
+      "evidence": [
+        {
+          "value": "Бук",
+          "evidence": "овлен с применением резных элементов из массива бука. Глубина лотка и бегунка (75 мм) позволяет эксп",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_interior#!/tproduct/49126451-1522301588688"
+        }
+      ]
+    },
+    "molbert-plazma-xl": {
+      "sourceId": "for_interior-49126451-1522301628609",
+      "sourceUrl": "https://www.molberty.ru/for_interior#!/tproduct/49126451-1522301628609",
+      "sourceDescriptionSha256": "d13a9640f85641c3898ed735b7c47c3a48fe5ef67218653bbd7fd0afe2dbbf83",
+      "originalMaterial": null,
+      "note": "Состав или альтернативные исполнения переданы по оригинальному описанию; «фанерованный» не означает «из фанеры».",
+      "label": "Дуб или бук",
+      "materials": [
+        "Дуб",
+        "Бук"
+      ],
+      "evidence": [
+        {
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_interior#!/tproduct/49126451-1522301628609",
+          "evidence": "Мольберт изготавливается из массива дуба или бука."
+        }
+      ]
+    },
+    "molbert-versal": {
+      "sourceId": "for_interior-49126451-1563554523875",
+      "sourceUrl": "https://www.molberty.ru/for_interior#!/tproduct/49126451-1563554523875",
+      "sourceDescriptionSha256": "cb078242831524eb7ec77d659048b078c057109cca9f06a0c8af93ee5785d161",
+      "originalMaterial": null,
+      "label": "Бук",
+      "materials": [
+        "Бук"
+      ],
+      "evidence": [
+        {
+          "value": "Бук",
+          "evidence": "м Глубина — 600 мм Мольберт выполнен из массива бука с резными элементами. Тонирование, золочение, п",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_interior#!/tproduct/49126451-1563554523875"
+        }
+      ]
+    },
+    "trenogi-dlya-foto-ramok": {
+      "sourceId": "for_interior-51369798-1498486363994",
+      "sourceUrl": "https://www.molberty.ru/for_interior#!/tproduct/51369798-1498486363994",
+      "sourceDescriptionSha256": "4bb286988bb09b111b77d3635a83eae27ad7defd82cb87226f876d5cb84fc4a0",
+      "originalMaterial": null,
+      "label": "Бук",
+      "materials": [
+        "Бук"
+      ],
+      "evidence": [
+        {
+          "value": "Бук",
+          "evidence": " 30х40 Декоративные треноги и мини-мольберты из бука для размещения календарей, миниатюр, тарелок, ф",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_interior#!/tproduct/51369798-1498486363994"
+        }
+      ]
+    },
+    "mini-molberty-lira": {
+      "sourceId": "for_interior-51369798-1501253736112",
+      "sourceUrl": "https://www.molberty.ru/for_interior#!/tproduct/51369798-1501253736112",
+      "sourceDescriptionSha256": "4f7868bd72c2e44bb3e40160ed2ca259375cee5e63fd9254c59422e72b40ca19",
+      "originalMaterial": null,
+      "label": "Бук",
+      "materials": [
+        "Бук"
+      ],
+      "evidence": [
+        {
+          "value": "Бук",
+          "evidence": " 20х30 Декоративные треноги и мини-мольберты из бука для размещения календарей, миниатюр, тарелок, ф",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_interior#!/tproduct/51369798-1501253736112"
+        }
+      ]
+    },
+    "stol-dlya-natyurmortov-s-planshetom-ugolok": {
+      "sourceId": "for_studio-49170011-1522251739696",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522251739696",
+      "sourceDescriptionSha256": "aa04e98f31232a5de468764603dee55376665f570b1e7e9058d29dffacfc5852",
+      "originalMaterial": null,
+      "label": "Бук, Фанера",
+      "materials": [
+        "Бук",
+        "Фанера"
+      ],
+      "evidence": [
+        {
+          "value": "Бук",
+          "evidence": "двух планшетов 700x500 мм Изготовлен из массива бука и высококачественной фанеры с покрытием тониров",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522251739696"
+        },
+        {
+          "value": "Фанера",
+          "evidence": "Изготовлен из массива бука и высококачественной фанеры с покрытием тонированным акриловым лаком. Стол ",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522251739696"
+        }
+      ]
+    },
+    "stol-dlya-natyurmortov-50kh50-s-peremennoy-vysotoy-ekspozitsii": {
+      "sourceId": "for_studio-49170011-1629798309149",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1629798309149",
+      "sourceDescriptionSha256": "6b0e012ede39b6e35931c90decb06740a0b458fa8a884ef09617262551a5d97e",
+      "originalMaterial": null,
+      "label": "Бук, Фанера",
+      "materials": [
+        "Бук",
+        "Фанера"
+      ],
+      "evidence": [
+        {
+          "value": "Бук",
+          "evidence": "озиции (с шагом в 5 см). Конструкция с четырьмя буковыми ножками, расположенными под небольшим углом для",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1629798309149"
+        },
+        {
+          "value": "Фанера",
+          "evidence": "Изготовлен из массива бука и высококачественной фанеры с покрытием тонированным акриловым лаком. В кач",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1629798309149"
+        }
+      ]
+    },
+    "stol-dlya-natyurmorta-s-peremennoy-vysotoy-ekspozitsii": {
+      "sourceId": "for_studio-49170011-1561961803488",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1561961803488",
+      "sourceDescriptionSha256": "39b39a39182a7d29af81112c72d67cb5303878acace764f291b88b4e15418574",
+      "originalMaterial": null,
+      "label": "Сосна, Фанера",
+      "materials": [
+        "Сосна",
+        "Фанера"
+      ],
+      "evidence": [
+        {
+          "value": "Сосна",
+          "evidence": "ли 700х500 мм (по заказу) Изготовлен из массива сосны камерной сушки и высококачественной фанеры с по",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1561961803488"
+        },
+        {
+          "value": "Фанера",
+          "evidence": "ссива сосны камерной сушки и высококачественной фанеры с покрытием тонированным акриловым лаком. Стол ",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1561961803488"
+        }
+      ]
+    },
+    "stol-transformer-dlya-natyurmorta": {
+      "sourceId": "for_studio-49170011-1632207169730",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1632207169730",
+      "sourceDescriptionSha256": "a76f0c98568490cb73559c49c0bc371cc5195bba53bbedf102477234c5e2d3fc",
+      "originalMaterial": null,
+      "label": "Дерево",
+      "materials": [
+        "Дерево"
+      ],
+      "evidence": [
+        {
+          "provenance": "originalImageAndWorkshopContext",
+          "source": "https://static.tildacdn.com/tild6538-3466-4766-a564-636634623438/Stol-transformer_1.jpg",
+          "localImage": "catalog/7b9127fcb30baa10.webp",
+          "contextSource": "https://www.molberty.ru/",
+          "evidence": "На оригинальном фото деревянная конструкция; мастерская описывает деревообработку и натуральные материалы. Точная порода в карточке не указана и по фото не определялась."
+        }
+      ]
+    },
+    "stol-dlya-natyurmorta-skladnoy": {
+      "sourceId": "for_studio-49170011-1574785349708",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1574785349708",
+      "sourceDescriptionSha256": "91cd532daa7a94cda4923e13b8e4cd6e76fd13a95079f12b4bf2fd84711a3519",
+      "originalMaterial": null,
+      "label": "Дерево",
+      "materials": [
+        "Дерево"
+      ],
+      "evidence": [
+        {
+          "provenance": "originalImageAndWorkshopContext",
+          "source": "https://static.tildacdn.com/tild3233-3532-4331-a637-356166353236/noroot.png",
+          "localImage": "catalog/882a631630945cc9.webp",
+          "contextSource": "https://www.molberty.ru/",
+          "evidence": "На оригинальном фото деревянная конструкция; мастерская описывает деревообработку и натуральные материалы. Точная порода в карточке не указана и по фото не определялась."
+        }
+      ]
+    },
+    "stol-tumba-dlya-natyurmorta": {
+      "sourceId": "for_studio-49170011-1701931997821",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1701931997821",
+      "sourceDescriptionSha256": "caa68506740fc9c7f48971f33e79dc646803de037bd608c6ae7dee61643680b4",
+      "originalMaterial": null,
+      "label": "Фанера",
+      "materials": [
+        "Фанера"
+      ],
+      "evidence": [
+        {
+          "value": "Фанера",
+          "evidence": "а из высококачественной водостойкой шлифованной фанеры с акриловым экологически чистым покрытием. Очен",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1701931997821"
+        }
+      ]
+    },
+    "planshety": {
+      "sourceId": "for_studio-49170011-1524485501356",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1524485501356",
+      "sourceDescriptionSha256": "6cf795145d9106e9683797a8b1be341b254d0730def3f5952daeb03b1dd726a5",
+      "originalMaterial": null,
+      "label": "Фанера",
+      "materials": [
+        "Фанера"
+      ],
+      "evidence": [
+        {
+          "value": "Фанера",
+          "evidence": "готавливаются из высококачественной шлифованной фанеры толщиной 4 мм на раме сечением 30х18 мм с серед",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1524485501356"
+        }
+      ]
+    },
+    "stolik-dlya-ekspozitsiy": {
+      "sourceId": "for_studio-49170011-1498486301712",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1498486301712",
+      "sourceDescriptionSha256": "a170ef24567bbf6d29ab94660b2fe5c336fcd78521c31c0828f15eebf97160dd",
+      "originalMaterial": null,
+      "note": "Состав или альтернативные исполнения переданы по оригинальному описанию; «фанерованный» не означает «из фанеры».",
+      "label": "Бук, шпон",
+      "materials": [
+        "Бук",
+        "Шпон"
+      ],
+      "evidence": [
+        {
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1498486301712",
+          "evidence": "Изготовлен из массива бука с фанерованной крышкой, тонирован и покрыт лаком."
+        }
+      ]
+    },
+    "sofit-dlya-podsvetki-natyurmorta": {
+      "sourceId": "for_studio-49170011-1611754414386",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1611754414386",
+      "sourceDescriptionSha256": "164ffc69d3e069f2644c001e1ed31a94cd031e019036665074e8bfb4853f7cf7",
+      "originalMaterial": null,
+      "label": "Бук",
+      "materials": [
+        "Бук"
+      ],
+      "evidence": [
+        {
+          "value": "Бук",
+          "evidence": " мм Софит, рама которого изготовлена из массива бука, предназначен для мягкой подсветки натюрмортов ",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1611754414386"
+        }
+      ]
+    },
+    "svetilnik-dlya-podsvetki-natyurmorta": {
+      "sourceId": "for_studio-49170011-1653547243518",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1653547243518",
+      "sourceDescriptionSha256": "1b01f6930b58d29d8ad7db484795bc1e77879f198b7be80811a62f62722882ff",
+      "originalMaterial": null,
+      "label": "Бук",
+      "materials": [
+        "Бук"
+      ],
+      "evidence": [
+        {
+          "value": "Бук",
+          "evidence": "она 160х110 мм Светильник изготовлен из массива бука, предназначен для точечной подсветки небольших ",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1653547243518"
+        }
+      ]
+    },
+    "svetilnik-prishchepka": {
+      "sourceId": "for_studio-49170011-1712751566388",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1712751566388",
+      "sourceDescriptionSha256": "133948235f7910ee6a0f567dc518f1f6b88c303c85d7ebd25a3a4877220f17e9",
+      "originalMaterial": null,
+      "label": "Бук",
+      "materials": [
+        "Бук"
+      ],
+      "evidence": [
+        {
+          "value": "Бук",
+          "evidence": " Е27 (до 15Вт) Светильник изготовлен из массива бука, предназначен для точечной подсветки небольших ",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1712751566388"
+        }
+      ]
+    },
+    "stol-skulptora-profi": {
+      "sourceId": "for_studio-49170011-1522251823207",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522251823207",
+      "sourceDescriptionSha256": "a76cdb60e0f0377348827ba59876a0028b69fe84d4f4acd8c50dc15b77589759",
+      "originalMaterial": null,
+      "note": "Состав или альтернативные исполнения переданы по оригинальному описанию; «фанерованный» не означает «из фанеры».",
+      "label": "Фанера, дерево или металл",
+      "materials": [
+        "Фанера",
+        "Дерево",
+        "Металл"
+      ],
+      "evidence": [
+        {
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522251823207",
+          "evidence": "Стол скульптора на металлических или деревянных ножках."
+        }
+      ]
+    },
+    "podstavka-dlya-risunkov": {
+      "sourceId": "for_studio-49170011-1501253736112",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1501253736112",
+      "sourceDescriptionSha256": "3e57a837629cb061aa38cad79c256d248ba53e1a1038002604b294338ef7bbbc",
+      "originalMaterial": null,
+      "label": "Сосна",
+      "materials": [
+        "Сосна"
+      ],
+      "evidence": [
+        {
+          "value": "Сосна",
+          "evidence": "ов, подрамников. Материал изготовления - массив сосны.",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1501253736112"
+        }
+      ]
+    },
+    "plakatnitsy-a1-i-a2": {
+      "sourceId": "for_studio-49170011-1522304205093",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522304205093",
+      "sourceDescriptionSha256": "10a73220d4705282ccb993d225dfd16ca95c1a9da8de27fa769d4c1d6791f2de",
+      "originalMaterial": null,
+      "label": "Дерево",
+      "materials": [
+        "Дерево"
+      ],
+      "evidence": [
+        {
+          "provenance": "originalImageAndWorkshopContext",
+          "source": "https://static.tildacdn.com/tild3262-3430-4934-b763-323038643934/13_.jpg",
+          "localImage": "catalog/9e3331958d5816cb.webp",
+          "contextSource": "https://www.molberty.ru/",
+          "evidence": "На оригинальном фото деревянная конструкция; мастерская описывает деревообработку и натуральные материалы. Точная порода в карточке не указана и по фото не определялась."
+        }
+      ]
+    },
+    "plakatnitsa-nastennaya": {
+      "sourceId": "for_studio-49170011-1522304263614",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522304263614",
+      "sourceDescriptionSha256": "3a0b34b03ce28d195d4bf6a6427bc0ff4a985d3bcd14bc9958124a2f3eecccec",
+      "originalMaterial": null,
+      "label": "Дерево",
+      "materials": [
+        "Дерево"
+      ],
+      "evidence": [
+        {
+          "provenance": "originalImageAndWorkshopContext",
+          "source": "https://static.tildacdn.com/tild3237-3136-4731-a663-636434633931/14__.jpg",
+          "localImage": "catalog/30c4db7cdf12ab08.webp",
+          "contextSource": "https://www.molberty.ru/",
+          "evidence": "На оригинальном фото деревянная конструкция; мастерская описывает деревообработку и натуральные материалы. Точная порода в карточке не указана и по фото не определялась."
+        }
+      ]
+    },
+    "klipbord": {
+      "sourceId": "for_studio-49170011-1575974482586",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1575974482586",
+      "sourceDescriptionSha256": "fba700f86da25f7717b7a21fa90cb11ba6ff483cf1d9efe475d8880e9f649599",
+      "originalMaterial": null,
+      "note": "Состав или альтернативные исполнения переданы по оригинальному описанию; «фанерованный» не означает «из фанеры».",
+      "label": "МДФ, шпон бука",
+      "materials": [
+        "МДФ",
+        "Бук"
+      ],
+      "evidence": [
+        {
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1575974482586",
+          "evidence": "Клипборды из МДФ, фанерованного буковым шпоном с покрытием."
+        }
+      ]
+    },
+    "shkatulka-dlya-kistey-i-krasok": {
+      "sourceId": "for_studio-49170011-1498486363994",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1498486363994",
+      "sourceDescriptionSha256": "fcf63dedee933d067577d302171763e197f0c79f26fdda1f984c3111a0d10fbd",
+      "originalMaterial": null,
+      "label": "Бук, Фанера",
+      "materials": [
+        "Бук",
+        "Фанера"
+      ],
+      "evidence": [
+        {
+          "value": "Бук",
+          "evidence": "листов картона. Изготовлена из фанеры и массива бука.",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1498486363994"
+        },
+        {
+          "value": "Фанера",
+          "evidence": "а А4 и несколько листов картона. Изготовлена из фанеры и массива бука.",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1498486363994"
+        }
+      ]
+    },
+    "stolik-dlya-palitry": {
+      "sourceId": "for_studio-49170011-1522301546091",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522301546091",
+      "sourceDescriptionSha256": "3e21124341817f8a26ec3d4d7dab567a3fca1fbfeddaba1b1f857b18b541fde7",
+      "originalMaterial": null,
+      "label": "Бук, Фанера",
+      "materials": [
+        "Бук",
+        "Фанера"
+      ],
+      "evidence": [
+        {
+          "value": "Бук",
+          "evidence": "палитры, красок и кистей. Изготовлен из массива бука и высококачественной фанеры. Может служить стол",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522301546091"
+        },
+        {
+          "value": "Фанера",
+          "evidence": "Изготовлен из массива бука и высококачественной фанеры. Может служить столиком для натюрморта.",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522301546091"
+        }
+      ]
+    },
+    "telezhka-dlya-khudozhestvennykh-prinadlezhnostey": {
+      "sourceId": "for_studio-49170011-1610892209638",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1610892209638",
+      "sourceDescriptionSha256": "07f916d03faf842cbc813d2bd470f5178bddf7b781bf44367455daf644b4e5f4",
+      "originalMaterial": null,
+      "label": "Бук, Сосна",
+      "materials": [
+        "Бук",
+        "Сосна"
+      ],
+      "evidence": [
+        {
+          "value": "Бук",
+          "evidence": "ншетов, красок и кистей. Изготовлена из массива бука и сосны. З ящика, размером 600х350х100 мм, кото",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1610892209638"
+        },
+        {
+          "value": "Сосна",
+          "evidence": " красок и кистей. Изготовлена из массива бука и сосны. З ящика, размером 600х350х100 мм, которые можн",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1610892209638"
+        }
+      ]
+    },
+    "taburet-rabochiy": {
+      "sourceId": "for_studio-49170011-1522301588688",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522301588688",
+      "sourceDescriptionSha256": "d2dc79d1e4e15335acc5ebcafc258e2b9b139aa31b13f252bafefe0e18209c38",
+      "originalMaterial": null,
+      "label": "Сосна, Фанера",
+      "materials": [
+        "Сосна",
+        "Фанера"
+      ],
+      "evidence": [
+        {
+          "value": "Сосна",
+          "evidence": "на — 350 мм Глубина — 350 мм Табурет из массива сосны и высококачественной фанеры с крестообразными ц",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522301588688"
+        },
+        {
+          "value": "Фанера",
+          "evidence": "м Табурет из массива сосны и высококачественной фанеры с крестообразными царговыми соединениями. Оптов",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522301588688"
+        }
+      ]
+    },
+    "stul-khudozhnika": {
+      "sourceId": "for_studio-49170011-1522304058801",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522304058801",
+      "sourceDescriptionSha256": "89e09fd76be815b762bf06c63e59344bdf3de62941709b3a92954e484b3cc0d8",
+      "originalMaterial": null,
+      "label": "Бук",
+      "materials": [
+        "Бук"
+      ],
+      "evidence": [
+        {
+          "value": "Бук",
+          "evidence": "анию правильной осанки. Производится из массива бука, базовый цвет - натуральный бук. Покрытие - акр",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522304058801"
+        }
+      ]
+    },
+    "stellazh-dlya-sushki-i-khraneniya-listov-a1": {
+      "sourceId": "for_studio-49170011-1617087436244",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1617087436244",
+      "sourceDescriptionSha256": "b9557f900928ca1edc299f1b8b8a794088b7dbe9dc69b31fdebfbc718da96334",
+      "originalMaterial": null,
+      "label": "Сосна, Фанера",
+      "materials": [
+        "Сосна",
+        "Фанера"
+      ],
+      "evidence": [
+        {
+          "value": "Сосна",
+          "evidence": "рмата А1 — 850x600 мм Материал - фанера, массив сосны, колесные опоры со стопором, покрытие - акрилов",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1617087436244"
+        },
+        {
+          "value": "Фанера",
+          "evidence": "н для листов формата А1 — 850x600 мм Материал - фанера, массив сосны, колесные опоры со стопором, покр",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1617087436244"
+        }
+      ]
+    },
+    "stellazh-dlya-sushki-i-khraneniya-listov-a2": {
+      "sourceId": "for_studio-49170011-1716877878229",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1716877878229",
+      "sourceDescriptionSha256": "cdac6167122fd74bb2b399bc8bc8e82b11d6c6e6f816c890f805a9685cc167a3",
+      "originalMaterial": null,
+      "label": "Сосна, Фанера",
+      "materials": [
+        "Сосна",
+        "Фанера"
+      ],
+      "evidence": [
+        {
+          "value": "Сосна",
+          "evidence": "ормата А2 — 600х400мм Материал - фанера, массив сосны, колесные опоры со стопором, покрытие - акрилов",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1716877878229"
+        },
+        {
+          "value": "Фанера",
+          "evidence": "ен для листов формата А2 — 600х400мм Материал - фанера, массив сосны, колесные опоры со стопором, покр",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1716877878229"
+        }
+      ]
+    },
+    "stellazh-dlya-planshetov-i-podramnikov": {
+      "sourceId": "for_studio-49170011-1707383785350",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1707383785350",
+      "sourceDescriptionSha256": "3e7ead6b8b8e248bd8ec8239b78b4f7f9407c354e66e5f7c433cbe90932d81bc",
+      "originalMaterial": null,
+      "label": "Сосна",
+      "materials": [
+        "Сосна"
+      ],
+      "evidence": [
+        {
+          "value": "Сосна",
+          "evidence": "ти от толщины. Материал - столярный щит, массив сосны камерной сушки, колесные опоры со стопором. Пок",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1707383785350"
+        }
+      ]
+    },
+    "stellazh-dlya-dekora-i-gipsovykh-modeley": {
+      "sourceId": "for_studio-49170011-1762852847044",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1762852847044",
+      "sourceDescriptionSha256": "9c92ed286e15fecfab9ddd22460f84553b7dc612555379dd14c38640282dde2d",
+      "originalMaterial": null,
+      "label": "Сосна",
+      "materials": [
+        "Сосна"
+      ],
+      "evidence": [
+        {
+          "value": "Сосна",
+          "evidence": "ки натюрмортов Материал - столярный щит, массив сосны камерной сушки. Покрытие - тонированный акрилов",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1762852847044"
+        }
+      ]
+    },
+    "podium-dlya-natury": {
+      "sourceId": "for_studio-49170011-1792572231272",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1792572231272",
+      "sourceDescriptionSha256": "6894475752eb7b5acd51cb80d574566806e1fe91e320e598a3dbb66552f4f5b3",
+      "originalMaterial": null,
+      "note": "Состав или альтернативные исполнения переданы по оригинальному описанию; «фанерованный» не означает «из фанеры».",
+      "label": "Фанера, дерево",
+      "materials": [
+        "Фанера",
+        "Дерево"
+      ],
+      "evidence": [
+        {
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1792572231272",
+          "evidence": "Изготавливается из высокосортной конструкционной фанеры, закрепленной на деревянном каркасе."
+        }
+      ]
+    },
+    "shirma": {
+      "sourceId": "for_studio-49170011-1522304345907",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522304345907",
+      "sourceDescriptionSha256": "f8f3cf98373a739392ed1361620328ac0c879bba3e2eea9a7447562418d80da3",
+      "originalMaterial": null,
+      "note": "Состав или альтернативные исполнения переданы по оригинальному описанию; «фанерованный» не означает «из фанеры».",
+      "label": "Ткань или фанера",
+      "materials": [
+        "Ткань",
+        "Фанера"
+      ],
+      "evidence": [
+        {
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522304345907",
+          "evidence": "Изготовлена из брусков сечением 45х32 мм со вставками из ткани или шлифованной фанеры."
+        }
+      ]
+    },
+    "tumbochka-khudozhnika": {
+      "sourceId": "for_studio-49170011-1522304387094",
+      "sourceUrl": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522304387094",
+      "sourceDescriptionSha256": "a0c7c77098683c154e491afe5c412ea8ebb38604382d15f06cd5d82d06187113",
+      "originalMaterial": null,
+      "label": "Сосна",
+      "materials": [
+        "Сосна"
+      ],
+      "evidence": [
+        {
+          "value": "Сосна",
+          "evidence": " для небольшого мольберта. Выполнена из массива сосны по классическим столярным технологиям.",
+          "provenance": "originalDescription",
+          "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522304387094"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-21T15:21:37.391Z",
+  "checks": [
+    "shared interaction durations",
+    "category backgrounds stay white",
+    "animated and reversible disclosures",
+    "desktop keyboard navigation",
+    "modal open/close/reopen and Escape",
+    "gallery zoom with animated viewer",
+    "filter result animation",
+    "mobile menu inert/focus/Escape",
+    "live reduced-motion changes",
+    "native fallback without Web Animations API",
+    "responsive overflow"
+  ],
+  "viewports": [
+    320,
+    390,
+    768,
+    1100,
+    1440
+  ]
+}

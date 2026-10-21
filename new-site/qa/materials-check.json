@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-21T14:54:19.813Z",
+  "catalogueProducts": 91,
+  "replacedFallbacks": 62,
+  "genericWoodSpeciesUnspecified": [
+    "a-profi",
+    "a-klass",
+    "stol-dlya-chercheniya-i-risovaniya-chertezhnik",
+    "stol-dlya-chercheniya-i-risovaniya-konstruktor",
+    "stol-transformer-dlya-natyurmorta",
+    "stol-dlya-natyurmorta-skladnoy",
+    "plakatnitsy-a1-i-a2",
+    "plakatnitsa-nastennaya"
+  ],
+  "checks": [
+    "material metadata in all 91 catalogue cards",
+    "source description for stationary two-sided model",
+    "MDF and veneer not confused with plywood",
+    "material filtering",
+    "variant wood labels",
+    "no manufacturer fallback",
+    "composite material labels on mobile"
+  ],
+  "viewports": [
+    320,
+    390,
+    768,
+    1440
+  ]
+}

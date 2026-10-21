@@ -1,0 +1,22 @@
+{
+  "type": "AI-generated visualizations and original SVG drawings",
+  "generator": "imagegen",
+  "files": [
+    "hero.webp",
+    "workshop.webp",
+    "product-lyra.webp",
+    "product-studio.webp",
+    "clapper-photo.webp",
+    "desktop-photo.webp",
+    "transformer-photo.webp",
+    "table-photo.webp",
+    "case-classroom.webp",
+    "case-gallery.webp",
+    "case-studio.webp",
+    "production-assembly.webp",
+    "production-finishing.webp"
+  ],
+  "note": "Файлы в списке files — AI-визуализации; кейсы и объекты вымышлены. Фотографии 16 моделей взяты с исходного сайта и перечислены отдельно в product-photos.json. Сертификат показан по предоставленному PDF без изменения содержания.",
+  "sourceProducts": "data/product-photos.json",
+  "certificate": "assets/documents/certificate.pdf"
+}

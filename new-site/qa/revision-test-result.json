@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "date": "2026-10-21T15:20:16.579Z",
+  "listingPages": 35,
+  "articles": 4,
+  "originalBodyImages": 15,
+  "originalCovers": 4,
+  "footerMinimumContrast": 6.921617159396746,
+  "viewports": [
+    320,
+    390,
+    768,
+    1100,
+    1200,
+    1350,
+    1440
+  ],
+  "checks": [
+    "plain title elements",
+    "sidebar noindex comments",
+    "catalogue documents",
+    "no item counts",
+    "product image titles",
+    "source article text and image order",
+    "callback desktop/mobile",
+    "footer contrast",
+    "price calculation/sorting",
+    "responsive overflow"
+  ]
+}

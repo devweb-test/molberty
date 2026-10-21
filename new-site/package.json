@@ -1,0 +1,11 @@
+{
+  "name": "molberty-local-concept",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Локальный вариант нового сайта Мольберты.ру",
+  "scripts": {
+    "start": "python3 serve.py",
+    "build": "python3 scripts/draw.py && python3 scripts/build.py",
+    "check": "node --check assets/app.js && node --check assets/motion.js && python3 scripts/check.py"
+  }
+}

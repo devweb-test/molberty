@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-19",
+  "checks": [
+    "Representative pages at 320/390/768/1100/1440px",
+    "Sticky translucent header, proposal CTA desktop/mobile",
+    "Certificate lightbox, zoom and Escape",
+    "Case detail and inquiry",
+    "Original photos on all 16 products",
+    "Search, material filter, selection"
+  ],
+  "errors": []
+}

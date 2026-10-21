@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-19",
+  "newPage": "prices/",
+  "priceRows": 106,
+  "priceGroups": 7,
+  "checks": [
+    "106 displayed wholesale/retail pairs match imported PDF values",
+    "Missing prices and starting prices preserved",
+    "Price search, group filter, reset and anchor navigation",
+    "PDF download",
+    "Complete contacts and map",
+    "Delivery title and removal of selection instructions",
+    "No overflow at 320/390/768/1100/1440px"
+  ],
+  "errors": []
+}

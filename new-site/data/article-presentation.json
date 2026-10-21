@@ -1,0 +1,209 @@
+{
+  "kak-vybrat-molbert": {
+    "previewImage": "blog-previews/choice-v1.webp",
+    "previewAlt": "Станковый, лира и настольный мольберты в светлой художественной студии",
+    "excerpt": "Как выбрать конструкцию под свою технику, формат и привычку работать сидя или стоя.",
+    "sections": [
+      {
+        "id": "stankovye",
+        "title": "Станковые мольберты для больших форматов",
+        "start": 0,
+        "end": 2
+      },
+      {
+        "id": "transformery-i-dizayner",
+        "title": "«Трансформер» и «Дизайнер»",
+        "start": 2,
+        "end": 4
+      },
+      {
+        "id": "lira",
+        "title": "«Лира» для живописи и рисунка",
+        "start": 4,
+        "end": 7
+      },
+      {
+        "id": "a-stil",
+        "title": "«А-стиль» для необычных решений",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "highlights": [
+      5
+    ],
+    "previewWidth": 1536,
+    "previewHeight": 1024,
+    "previewType": "generated",
+    "previewVersion": 1,
+    "readingMinutes": 2
+  },
+  "instrument-dlya-tvorchestva-molbert": {
+    "previewImage": "blog-previews/construction-v1.webp",
+    "previewAlt": "Детали деревянного мольберта: лоток, направляющая и зажим холста",
+    "excerpt": "Зачем художнику мольберт и как устроены станковые модели, треноги, «Лира» и хлопушки.",
+    "sections": [
+      {
+        "id": "zachem-nuzhen-molbert",
+        "title": "Зачем художнику мольберт",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "id": "preimushchestva",
+        "title": "Пять преимуществ мольберта",
+        "start": 3,
+        "end": 9
+      },
+      {
+        "id": "stankovaya-konstruktsiya",
+        "title": "Станковая конструкция",
+        "start": 9,
+        "end": 12
+      },
+      {
+        "id": "trenoga-i-lira",
+        "title": "Тренога и «Лира»",
+        "start": 12,
+        "end": 15
+      },
+      {
+        "id": "a-obraznye",
+        "title": "А-образные модели",
+        "start": 15,
+        "end": 18
+      },
+      {
+        "id": "uchebnaya-khlopushka",
+        "title": "Ученическая хлопушка",
+        "start": 18,
+        "end": 20
+      }
+    ],
+    "listRanges": [
+      [
+        4,
+        9
+      ]
+    ],
+    "previewWidth": 1536,
+    "previewHeight": 1024,
+    "previewType": "generated",
+    "previewVersion": 1,
+    "readingMinutes": 5
+  },
+  "molbert-v-sovremennom-interere": {
+    "previewImage": "blog-previews/interior-v1.webp",
+    "previewAlt": "Деревянный мольберт с картиной в спокойном современном интерьере",
+    "excerpt": "От багетной мастерской и выставочного зала до кафе, аукциона и современного дома.",
+    "sections": [
+      {
+        "id": "bagetnaya-masterskaya",
+        "title": "В багетной мастерской",
+        "start": 0,
+        "end": 2
+      },
+      {
+        "id": "galerei-i-muzei",
+        "title": "В галереях и музеях",
+        "start": 2,
+        "end": 7
+      },
+      {
+        "id": "antikvarnye-auktsiony",
+        "title": "На антикварных аукционах",
+        "start": 7,
+        "end": 10
+      },
+      {
+        "id": "kafe-i-butiki",
+        "title": "В кафе, бутиках и общественных пространствах",
+        "start": 10,
+        "end": 12
+      },
+      {
+        "id": "dizayn-zhilya",
+        "title": "В дизайне современного жилья",
+        "start": 12,
+        "end": 14
+      },
+      {
+        "id": "interernye-modeli",
+        "title": "Интерьерные модели мастерской",
+        "start": 14,
+        "end": 17
+      }
+    ],
+    "highlights": [
+      7
+    ],
+    "previewWidth": 1536,
+    "previewHeight": 1024,
+    "previewType": "generated",
+    "previewVersion": 1,
+    "readingMinutes": 3
+  },
+  "dvadcat-let-plodotvornoj-raboty": {
+    "previewImage": "blog-previews/workshop-v1.webp",
+    "previewAlt": "Руки столяра за сборкой деревянной рамы мольберта в мастерской",
+    "excerpt": "Первые заказы, ремесленное обучение и развитие производства в рассказе основателя мастерской.",
+    "sections": [
+      {
+        "id": "nachalo-puti",
+        "title": "Как начиналась мастерская",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "id": "pervye-molberty",
+        "title": "Первый заказ на мольберты",
+        "start": 3,
+        "end": 5
+      },
+      {
+        "id": "kultura-remesla",
+        "title": "Обучение и культура ремесла",
+        "start": 5,
+        "end": 12
+      },
+      {
+        "id": "razvitie-proizvodstva",
+        "title": "Развитие производства",
+        "start": 12,
+        "end": 15
+      },
+      {
+        "id": "ustoychivost",
+        "title": "Работа в разные периоды",
+        "start": 15,
+        "end": 18
+      },
+      {
+        "id": "novye-napravleniya",
+        "title": "Новые направления и первые каталоги",
+        "start": 18,
+        "end": 22
+      },
+      {
+        "id": "novye-modeli",
+        "title": "Новые модели и благодарность клиентам",
+        "start": 22,
+        "end": 25
+      }
+    ],
+    "listRanges": [
+      [
+        6,
+        11
+      ]
+    ],
+    "highlights": [
+      17
+    ],
+    "previewWidth": 1536,
+    "previewHeight": 1024,
+    "previewType": "generated",
+    "previewVersion": 1,
+    "readingMinutes": 8
+  }
+}

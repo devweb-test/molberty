@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "date": "2026-10-21T14:54:46.918Z",
+  "document": "catalog-structure.doc",
+  "documentSha256": "85f7fb3246f690db5b1bcd6cc405e81361f1eee3f5b0897e1fb2257a7acace31",
+  "roots": {
+    "artists": 41,
+    "drawing-tables": 3,
+    "exhibitions": 8,
+    "interiors": 7,
+    "studio": 32
+  },
+  "categories": 34,
+  "products": 91,
+  "galleryImages": 202,
+  "redirects": 25,
+  "checks": [
+    "requested construction subcategories and school title",
+    "hierarchy and source coverage",
+    "all category memberships",
+    "all product breadcrumbs and default prices",
+    "material/shelf/double filters",
+    "home/header/sidebar/footer navigation",
+    "original galleries",
+    "legacy redirects",
+    "new podium quick view and prices",
+    "responsive overflow"
+  ],
+  "viewports": [
+    320,
+    390,
+    768,
+    1100,
+    1440
+  ]
+}

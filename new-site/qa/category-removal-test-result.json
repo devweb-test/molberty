@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "removed": [
+    "molberty-trenogi",
+    "molberty-skladnye",
+    "arenda-molbertov",
+    "molberty-s-yashchikom",
+    "stoly-molberty",
+    "molberty-reguliruemye"
+  ],
+  "categories": 34,
+  "products": 91,
+  "categoryListingsChecked": 34,
+  "quizResultPathsChecked": 5,
+  "checks": [
+    "removed category URLs return 404",
+    "no links to removed categories",
+    "correct home tile destinations",
+    "correct quiz destinations",
+    "all products retain active memberships",
+    "remaining category counts",
+    "responsive overflow"
+  ],
+  "viewports": [
+    390,
+    768,
+    1440
+  ]
+}

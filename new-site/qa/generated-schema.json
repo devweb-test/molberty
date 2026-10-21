@@ -1,0 +1,621 @@
+{
+  "molberty-dlya-risovaniya-hudozhnikov/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.molberty.ru/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Каталог",
+          "item": "https://www.molberty.ru/catalog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Мольберты для художников",
+          "item": "https://www.molberty.ru/molberty-dlya-risovaniya-hudozhnikov/"
+        }
+      ]
+    }
+  ],
+  "professionalnye-molberty/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.molberty.ru/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Каталог",
+          "item": "https://www.molberty.ru/catalog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Мольберты для художников",
+          "item": "https://www.molberty.ru/molberty-dlya-risovaniya-hudozhnikov/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Мольберты напольные",
+          "item": "https://www.molberty.ru/molberty-napolnye/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Профессиональные мольберты",
+          "item": "https://www.molberty.ru/professionalnye-molberty/"
+        }
+      ]
+    }
+  ],
+  "product/bolshoy-stankovyy-buk/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.molberty.ru/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Каталог",
+          "item": "https://www.molberty.ru/catalog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Мольберты для художников",
+          "item": "https://www.molberty.ru/molberty-dlya-risovaniya-hudozhnikov/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Мольберты напольные",
+          "item": "https://www.molberty.ru/molberty-napolnye/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Профессиональные мольберты",
+          "item": "https://www.molberty.ru/professionalnye-molberty/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Станковые мольберты",
+          "item": "https://www.molberty.ru/molberty-stankovye/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Большой станковый (бук)",
+          "item": "https://www.molberty.ru/product/bolshoy-stankovyy-buk/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "@id": "https://www.molberty.ru/product/bolshoy-stankovyy-buk/#product",
+      "url": "https://www.molberty.ru/product/bolshoy-stankovyy-buk/",
+      "name": "Большой станковый (бук)",
+      "description": "Высота — 2650/(max 4400) мм Ширина —800 мм Глубина — 700 мм Максимальный размер планшета — 2000x1850 мм Очень большой мольберт с подвижным лотком и бегунком. Позволяет работать с холстами высотой до 2 метров. Передвигается с помощью колесных опор и фиксируется выдвижными ножками. Перемещение лотка с холстом ступенчатое через 50 мм.",
+      "image": [
+        "https://www.molberty.ru/assets/catalog/9f4a20047a8be442.webp",
+        "https://www.molberty.ru/assets/catalog/1d4002cdee62403b.webp",
+        "https://www.molberty.ru/assets/catalog/12b4ee3d1f9962dc.webp",
+        "https://www.molberty.ru/assets/catalog/f0d6e098523342fd.webp"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.molberty.ru/product/bolshoy-stankovyy-buk/",
+        "priceCurrency": "RUB",
+        "price": 28000
+      }
+    }
+  ],
+  "product/podium-dlya-natury/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.molberty.ru/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Каталог",
+          "item": "https://www.molberty.ru/catalog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Оборудование для изостудии",
+          "item": "https://www.molberty.ru/oborudovanie-dlya-kabineta-izo/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Вспомогательное оборудование",
+          "item": "https://www.molberty.ru/vspomogatelnoe-oborudovanie/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Подиумы для натуры",
+          "item": "https://www.molberty.ru/podiumy-dlya-natury/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Подиум для натуры",
+          "item": "https://www.molberty.ru/product/podium-dlya-natury/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "@id": "https://www.molberty.ru/product/podium-dlya-natury/#product",
+      "url": "https://www.molberty.ru/product/podium-dlya-natury/",
+      "name": "Подиум для натуры",
+      "description": "Высота — 500 мм Ширина — 1000 мм Глубина — 750 мм Подиум для натурщика — это специальная возвышенная площадка (обычно размером от 75 см до 1,5 м, высота от 30 до 50 см), используемая в художественных школах, студиях и академиях для позирования натурщиков или размещения натюрмортов. Изготавливается из высокосортной конструкционной фанеры, закрепленной на деревянном каркасе. Для устойчивости оборудован регулируемыми мебельными опорами. Покрытие - тонированный акриловый лак или краска. По запросу верхняя часть может быть застелена ковролином. Подиумы изготавливаются индивидуально по размерам Заказчика.",
+      "image": [
+        "https://www.molberty.ru/assets/catalog/792287665e425f3d.webp",
+        "https://www.molberty.ru/assets/catalog/29d1654dd72c69f3.webp",
+        "https://www.molberty.ru/assets/catalog/ce16ec4e4abbd0a5.webp"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.molberty.ru/product/podium-dlya-natury/",
+        "priceCurrency": "RUB",
+        "price": 13500
+      }
+    }
+  ],
+  "molberty-stankovye/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.molberty.ru/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Каталог",
+          "item": "https://www.molberty.ru/catalog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Мольберты для художников",
+          "item": "https://www.molberty.ru/molberty-dlya-risovaniya-hudozhnikov/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Мольберты напольные",
+          "item": "https://www.molberty.ru/molberty-napolnye/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Профессиональные мольберты",
+          "item": "https://www.molberty.ru/professionalnye-molberty/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Станковые мольберты",
+          "item": "https://www.molberty.ru/molberty-stankovye/"
+        }
+      ]
+    }
+  ],
+  "molberty-transformery/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.molberty.ru/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Каталог",
+          "item": "https://www.molberty.ru/catalog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Мольберты для художников",
+          "item": "https://www.molberty.ru/molberty-dlya-risovaniya-hudozhnikov/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Мольберты напольные",
+          "item": "https://www.molberty.ru/molberty-napolnye/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Профессиональные мольберты",
+          "item": "https://www.molberty.ru/professionalnye-molberty/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Мольберты трансформеры",
+          "item": "https://www.molberty.ru/molberty-transformery/"
+        }
+      ]
+    }
+  ],
+  "molberty-hlopushka/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.molberty.ru/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Каталог",
+          "item": "https://www.molberty.ru/catalog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Мольберты для художников",
+          "item": "https://www.molberty.ru/molberty-dlya-risovaniya-hudozhnikov/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Мольберты напольные",
+          "item": "https://www.molberty.ru/molberty-napolnye/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Мольберты для художественной школы",
+          "item": "https://www.molberty.ru/molberty-dlya-hudozhestvennyh-shkol/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Мольберты Хлопушка",
+          "item": "https://www.molberty.ru/molberty-hlopushka/"
+        }
+      ]
+    }
+  ],
+  "molberty-dlya-hudozhestvennyh-shkol/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.molberty.ru/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Каталог",
+          "item": "https://www.molberty.ru/catalog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Мольберты для художников",
+          "item": "https://www.molberty.ru/molberty-dlya-risovaniya-hudozhnikov/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Мольберты напольные",
+          "item": "https://www.molberty.ru/molberty-napolnye/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Мольберты для художественной школы",
+          "item": "https://www.molberty.ru/molberty-dlya-hudozhestvennyh-shkol/"
+        }
+      ]
+    }
+  ],
+  "molberty-iz-sosny/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.molberty.ru/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Каталог",
+          "item": "https://www.molberty.ru/catalog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Мольберты для выставок",
+          "item": "https://www.molberty.ru/molberty-dlya-vystavki/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Мольберты для выставок из сосны",
+          "item": "https://www.molberty.ru/molberty-iz-sosny/"
+        }
+      ]
+    }
+  ],
+  "molbert-iz-buka/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.molberty.ru/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Каталог",
+          "item": "https://www.molberty.ru/catalog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Мольберты для выставок",
+          "item": "https://www.molberty.ru/molberty-dlya-vystavki/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Мольберты для выставок из бука",
+          "item": "https://www.molberty.ru/molbert-iz-buka/"
+        }
+      ]
+    }
+  ],
+  "molberty-s-polkoj/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.molberty.ru/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Каталог",
+          "item": "https://www.molberty.ru/catalog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Мольберты для художников",
+          "item": "https://www.molberty.ru/molberty-dlya-risovaniya-hudozhnikov/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Мольберты напольные",
+          "item": "https://www.molberty.ru/molberty-napolnye/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Мольберты для художественной школы",
+          "item": "https://www.molberty.ru/molberty-dlya-hudozhestvennyh-shkol/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Мольберты с полкой",
+          "item": "https://www.molberty.ru/molberty-s-polkoj/"
+        }
+      ]
+    }
+  ],
+  "stoly-skulptora/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.molberty.ru/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Каталог",
+          "item": "https://www.molberty.ru/catalog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Оборудование для изостудии",
+          "item": "https://www.molberty.ru/oborudovanie-dlya-kabineta-izo/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Столы скульптора",
+          "item": "https://www.molberty.ru/stoly-skulptora/"
+        }
+      ]
+    }
+  ],
+  "product/stolik-skulptora-buk-fanera/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.molberty.ru/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Каталог",
+          "item": "https://www.molberty.ru/catalog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Оборудование для изостудии",
+          "item": "https://www.molberty.ru/oborudovanie-dlya-kabineta-izo/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Столы скульптора",
+          "item": "https://www.molberty.ru/stoly-skulptora/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Столик скульптора (Бук, фанера)",
+          "item": "https://www.molberty.ru/product/stolik-skulptora-buk-fanera/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "@id": "https://www.molberty.ru/product/stolik-skulptora-buk-fanera/#product",
+      "url": "https://www.molberty.ru/product/stolik-skulptora-buk-fanera/",
+      "name": "Столик скульптора (Бук, фанера)",
+      "description": "Высота — 900-1050 мм Диаметр — 350 мм Стол скульптора изготовлен из бука и водостойкой фанеры с тремя ножками, расположенными под небольшим углом для хорошей устойчивости. Круглая крышка стола вращается для удобства работы скульптора. Высота стола может меняться в пределах 15 см.",
+      "image": [
+        "https://www.molberty.ru/assets/catalog/b76eab60266cc911.webp"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.molberty.ru/product/stolik-skulptora-buk-fanera/",
+        "priceCurrency": "RUB",
+        "price": 7200
+      }
+    }
+  ],
+  "product/stol-skulptora-profi/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.molberty.ru/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Каталог",
+          "item": "https://www.molberty.ru/catalog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Оборудование для изостудии",
+          "item": "https://www.molberty.ru/oborudovanie-dlya-kabineta-izo/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Столы скульптора",
+          "item": "https://www.molberty.ru/stoly-skulptora/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Стол скульптора \"Профи\"",
+          "item": "https://www.molberty.ru/product/stol-skulptora-profi/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "@id": "https://www.molberty.ru/product/stol-skulptora-profi/#product",
+      "url": "https://www.molberty.ru/product/stol-skulptora-profi/",
+      "name": "Стол скульптора \"Профи\"",
+      "description": "Высота — 1000-1300 мм Диаметр крышки — 350 мм Габаритные размеры — 450х450х1000-1300 мм Стол скульптора на металлических или деревянных ножках. Стойка жестко крепится к крышке, изготовленной из водостойкой фанеры с покрытием акрил-уретановым лаком. Регулировка высоты производится за счет металлического штыря, устанавливаемого в отверстия стойки через каждые 50 мм. Ножки расположены под небольшим углом. что обеспечивает отличную устойчивость. Крышка стола может немного поворачиваться для удобства работы с заготовкой. Высота стола может меняться в пределах от 100 до 130 см через каждые 5 см. Максимальная нагрузка на стол - 15 кг.",
+      "image": [
+        "https://www.molberty.ru/assets/catalog/07d2e8976e0a918c.webp",
+        "https://www.molberty.ru/assets/catalog/591c0c705135cf5e.webp",
+        "https://www.molberty.ru/assets/catalog/52ab74703e28b3f7.webp"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.molberty.ru/product/stol-skulptora-profi/",
+        "priceCurrency": "RUB",
+        "price": 11000
+      }
+    }
+  ]
+}

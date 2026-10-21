@@ -1,0 +1,396 @@
+{
+  "document": "data/catalog-structure.doc",
+  "documentSha256": "85f7fb3246f690db5b1bcd6cc405e81361f1eee3f5b0897e1fb2257a7acace31",
+  "amendments": [
+    {
+      "date": "2026-10-21",
+      "source": "User instruction after catalog structure approval",
+      "changes": [
+        "Профессиональные мольберты → Станковые мольберты /molberty-stankovye/ и Мольберты трансформеры /molberty-transformery/.",
+        "H1 и название ученического раздела: Мольберты для художественной школы. URL сохранён.",
+        "Мольберты для художественной школы → Мольберты Хлопушка /molberty-hlopushka/."
+      ],
+      "sourceGroups": {
+        "stationaries": "artists/floor/professional/stationaries",
+        "transformers": "artists/floor/professional/transformers",
+        "clappers": "artists/floor/students/clappers"
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "source": "User URL changes",
+      "urlChanges": {
+        "/vystavochnye-molberty-iz-sosny/": "/molberty-iz-sosny/",
+        "/vystavochnye-molberty-iz-buka/": "/molbert-iz-buka/"
+      },
+      "changes": [
+        "Адреса сосновых и буковых выставочных мольбертов сокращены; состав и названия разделов сохранены.",
+        "Прежние выставочные адреса перенаправляются непосредственно на новые; /molbert-iz-buka/ больше не перенаправляет в раздел художников."
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "source": "User requested school shelf subcategory",
+      "changes": [
+        "Мольберты для художественной школы → Мольберты с полкой /molberty-s-polkoj/.",
+        "Прежний переход /molberty-s-polkoj/ в «Лиру» отменён. Полка в комплекте и дополнительная полка различаются в фильтре и комплектации."
+      ],
+      "role": "artists/floor/students/shelf",
+      "productIds": [
+        "studiya-a1",
+        "studiya-a2",
+        "khlopushka-a1",
+        "khlopushka-a2"
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "source": "User removed sculpture table material subdivision",
+      "changes": [
+        "В разделе «Столы скульптора» удалены подкатегории «из дерева» и «из металла». Все исходные модели сохранены в общем разделе."
+      ],
+      "removedRoles": [
+        "studio/sculpture/metal",
+        "studio/sculpture/wood"
+      ],
+      "mergedInto": "studio/sculpture",
+      "urlChanges": {
+        "/derevyannye-stoly-skulptora/": "/stoly-skulptora/",
+        "/metallicheskie-stoly-skulptora/": "/stoly-skulptora/"
+      },
+      "productIds": [
+        "stolik-skulptora-buk-fanera",
+        "stol-skulptora-profi"
+      ]
+    }
+  ],
+  "categoryCount": 34,
+  "productCount": 91,
+  "galleryCount": 202,
+  "newCount": 23,
+  "roots": {
+    "artists": 41,
+    "drawing-tables": 3,
+    "exhibitions": 8,
+    "interiors": 7,
+    "studio": 32
+  },
+  "categoryProducts": {
+    "molberty-dlya-risovaniya-hudozhnikov": [
+      "bolshoy-stankovyy-buk",
+      "stankovyy-statsionarnyy-sosna",
+      "stankovyy-statsionarnyy-buk",
+      "malyy-stankovyy-buk",
+      "stankovyy-2-storonniy",
+      "stankovyy-skladnoy-sosna",
+      "stankovyy-skladnoy-buk",
+      "transformer-a0-buk",
+      "transformer-a1-buk",
+      "dizayner-a1-buk",
+      "dizayner-a2-buk",
+      "studiya-a1",
+      "studiya-a2",
+      "lira-s-naklonnoy-shtangoy",
+      "lira-s-naklonnoy-sht-buk",
+      "raskladnoy-lira",
+      "raskladnoy-lira-buk",
+      "lira-s-podvizhnoy-shtangoy",
+      "lira-s-podvizhnoy-shtangoy-buk",
+      "lira-malyy",
+      "lira-malyy-s-podvizhnoy-shtangoy",
+      "lira-malyy-buk",
+      "lira-malyy-s-podvizhnoy-shtangoy-buk",
+      "a-profi",
+      "a-profi-buk",
+      "a-klass",
+      "khlopushka-a1h",
+      "khlopushka-a1",
+      "khlopushka-a1-dvustoronniy",
+      "khlopushka-a2",
+      "khlopushka-a2-dvustoronniy",
+      "khlopushka",
+      "khlopushka-detskiy-buk",
+      "nastolnyy-sosna",
+      "nastolnyy-buk",
+      "lira-nastolnyy-sosna",
+      "lira-nastolnyy-buk",
+      "nastolnyy-mini-buk",
+      "nastolnyy-mini-xl-buk",
+      "nastolnyy-akva",
+      "planshet-nastolnyy-grafika"
+    ],
+    "molberty-napolnye": [
+      "bolshoy-stankovyy-buk",
+      "stankovyy-statsionarnyy-sosna",
+      "stankovyy-statsionarnyy-buk",
+      "malyy-stankovyy-buk",
+      "stankovyy-2-storonniy",
+      "stankovyy-skladnoy-sosna",
+      "stankovyy-skladnoy-buk",
+      "transformer-a0-buk",
+      "transformer-a1-buk",
+      "dizayner-a1-buk",
+      "dizayner-a2-buk",
+      "studiya-a1",
+      "studiya-a2",
+      "lira-s-naklonnoy-shtangoy",
+      "lira-s-naklonnoy-sht-buk",
+      "raskladnoy-lira",
+      "raskladnoy-lira-buk",
+      "lira-s-podvizhnoy-shtangoy",
+      "lira-s-podvizhnoy-shtangoy-buk",
+      "lira-malyy",
+      "lira-malyy-s-podvizhnoy-shtangoy",
+      "lira-malyy-buk",
+      "lira-malyy-s-podvizhnoy-shtangoy-buk",
+      "a-profi",
+      "a-profi-buk",
+      "a-klass",
+      "khlopushka-a1h",
+      "khlopushka-a1",
+      "khlopushka-a1-dvustoronniy",
+      "khlopushka-a2",
+      "khlopushka-a2-dvustoronniy",
+      "khlopushka",
+      "khlopushka-detskiy-buk"
+    ],
+    "professionalnye-molberty": [
+      "bolshoy-stankovyy-buk",
+      "stankovyy-statsionarnyy-sosna",
+      "stankovyy-statsionarnyy-buk",
+      "malyy-stankovyy-buk",
+      "stankovyy-2-storonniy",
+      "stankovyy-skladnoy-sosna",
+      "stankovyy-skladnoy-buk",
+      "transformer-a0-buk",
+      "transformer-a1-buk",
+      "dizayner-a1-buk",
+      "dizayner-a2-buk",
+      "studiya-a1",
+      "studiya-a2"
+    ],
+    "molberty-stankovye": [
+      "bolshoy-stankovyy-buk",
+      "stankovyy-statsionarnyy-sosna",
+      "stankovyy-statsionarnyy-buk",
+      "malyy-stankovyy-buk",
+      "stankovyy-2-storonniy",
+      "stankovyy-skladnoy-sosna",
+      "stankovyy-skladnoy-buk"
+    ],
+    "molberty-transformery": [
+      "transformer-a0-buk",
+      "transformer-a1-buk",
+      "dizayner-a1-buk",
+      "dizayner-a2-buk",
+      "studiya-a1",
+      "studiya-a2"
+    ],
+    "molberty-lira": [
+      "lira-s-naklonnoy-shtangoy",
+      "lira-s-naklonnoy-sht-buk",
+      "raskladnoy-lira",
+      "raskladnoy-lira-buk",
+      "lira-s-podvizhnoy-shtangoy",
+      "lira-s-podvizhnoy-shtangoy-buk",
+      "lira-malyy",
+      "lira-malyy-s-podvizhnoy-shtangoy",
+      "lira-malyy-buk",
+      "lira-malyy-s-podvizhnoy-shtangoy-buk"
+    ],
+    "molberty-dlya-hudozhestvennyh-shkol": [
+      "studiya-a1",
+      "studiya-a2",
+      "khlopushka-a1h",
+      "khlopushka-a1",
+      "khlopushka-a1-dvustoronniy",
+      "khlopushka-a2",
+      "khlopushka-a2-dvustoronniy",
+      "khlopushka",
+      "khlopushka-detskiy-buk"
+    ],
+    "molberty-hlopushka": [
+      "khlopushka-a1h",
+      "khlopushka-a1",
+      "khlopushka-a1-dvustoronniy",
+      "khlopushka-a2",
+      "khlopushka-a2-dvustoronniy",
+      "khlopushka",
+      "khlopushka-detskiy-buk"
+    ],
+    "molberty-s-polkoj": [
+      "studiya-a1",
+      "studiya-a2",
+      "khlopushka-a1",
+      "khlopushka-a2"
+    ],
+    "molberty-nastolnye": [
+      "nastolnyy-sosna",
+      "nastolnyy-buk",
+      "lira-nastolnyy-sosna",
+      "lira-nastolnyy-buk",
+      "nastolnyy-mini-buk",
+      "nastolnyy-mini-xl-buk",
+      "nastolnyy-akva",
+      "planshet-nastolnyy-grafika"
+    ],
+    "stoly-dlya-chercheniya-i-risovaniya": [
+      "stol-dlya-chercheniya-i-risovaniya-chertezhnik",
+      "stol-dlya-chercheniya-i-risovaniya-konstruktor",
+      "tumbochka-khudozhnika"
+    ],
+    "molberty-dlya-vystavki": [
+      "maksi",
+      "ekspo-1",
+      "ekspo-2",
+      "machta",
+      "trenoga-1500",
+      "trenoga-vystavochnaya",
+      "vernisazh",
+      "delta"
+    ],
+    "molberty-iz-sosny": [
+      "maksi",
+      "ekspo-1",
+      "ekspo-2",
+      "trenoga-vystavochnaya"
+    ],
+    "molbert-iz-buka": [
+      "machta",
+      "trenoga-1500",
+      "vernisazh",
+      "delta"
+    ],
+    "molberty-dekorativnye": [
+      "lira-podarochnyy-buk",
+      "molbert-ampir",
+      "molbert-eksklyuziv",
+      "molbert-plazma-xl",
+      "molbert-versal",
+      "trenogi-dlya-foto-ramok",
+      "mini-molberty-lira"
+    ],
+    "molberty-s-reznymi-elementami": [
+      "lira-podarochnyy-buk",
+      "molbert-ampir",
+      "molbert-eksklyuziv",
+      "molbert-versal"
+    ],
+    "molberty-dlya-televizora": [
+      "molbert-plazma-xl"
+    ],
+    "mini-molberty": [
+      "trenogi-dlya-foto-ramok",
+      "mini-molberty-lira"
+    ],
+    "mini-molberty-trenogi": [
+      "trenogi-dlya-foto-ramok"
+    ],
+    "mini-molberty-lira": [
+      "mini-molberty-lira"
+    ],
+    "oborudovanie-dlya-kabineta-izo": [
+      "stol-dlya-natyurmortov-s-planshetom-ugolok",
+      "stol-dlya-natyurmortov-50kh50-s-peremennoy-vysotoy-ekspozitsii",
+      "stol-dlya-natyurmorta-s-peremennoy-vysotoy-ekspozitsii",
+      "stol-transformer-dlya-natyurmorta",
+      "stol-dlya-natyurmorta-skladnoy",
+      "stol-tumba-dlya-natyurmorta",
+      "planshety",
+      "stolik-dlya-ekspozitsiy",
+      "sofit-dlya-podsvetki-natyurmorta",
+      "svetilnik-dlya-podsvetki-natyurmorta",
+      "svetilnik-prishchepka",
+      "stolik-skulptora-buk-fanera",
+      "stol-skulptora-profi",
+      "podstavka-dlya-risunkov",
+      "plakatnitsy-a1-i-a2",
+      "podstavka-dlya-risunkov-buk",
+      "plakatnitsa-nastennaya",
+      "palitra",
+      "klipbord",
+      "shkatulka-dlya-kistey-i-krasok",
+      "stolik-dlya-palitry",
+      "telezhka-dlya-khudozhestvennykh-prinadlezhnostey",
+      "taburet-rabochiy",
+      "taburet-vysokiy-buk",
+      "taburet-vysokiy-sosna",
+      "stul-khudozhnika",
+      "stellazh-dlya-sushki-i-khraneniya-listov-a1",
+      "stellazh-dlya-sushki-i-khraneniya-listov-a2",
+      "stellazh-dlya-planshetov-i-podramnikov",
+      "stellazh-dlya-dekora-i-gipsovykh-modeley",
+      "podium-dlya-natury",
+      "shirma"
+    ],
+    "planshety-i-palitry": [
+      "planshety",
+      "palitra",
+      "klipbord"
+    ],
+    "stoly-dlya-natyurmorta": [
+      "stol-dlya-natyurmortov-s-planshetom-ugolok",
+      "stol-dlya-natyurmortov-50kh50-s-peremennoy-vysotoy-ekspozitsii",
+      "stol-dlya-natyurmorta-s-peremennoy-vysotoy-ekspozitsii",
+      "stol-transformer-dlya-natyurmorta",
+      "stol-dlya-natyurmorta-skladnoy",
+      "stol-tumba-dlya-natyurmorta",
+      "stolik-dlya-ekspozitsiy"
+    ],
+    "svetilniki-dlya-izostudii": [
+      "sofit-dlya-podsvetki-natyurmorta",
+      "svetilnik-dlya-podsvetki-natyurmorta",
+      "svetilnik-prishchepka"
+    ],
+    "stoly-skulptora": [
+      "stolik-skulptora-buk-fanera",
+      "stol-skulptora-profi"
+    ],
+    "khranenie-dlya-izostudii": [
+      "podstavka-dlya-risunkov",
+      "plakatnitsy-a1-i-a2",
+      "podstavka-dlya-risunkov-buk",
+      "plakatnitsa-nastennaya",
+      "stellazh-dlya-sushki-i-khraneniya-listov-a1",
+      "stellazh-dlya-sushki-i-khraneniya-listov-a2",
+      "stellazh-dlya-planshetov-i-podramnikov",
+      "stellazh-dlya-dekora-i-gipsovykh-modeley"
+    ],
+    "podstavki-dlya-risunkov": [
+      "podstavka-dlya-risunkov",
+      "podstavka-dlya-risunkov-buk"
+    ],
+    "plakatnitsy": [
+      "plakatnitsy-a1-i-a2",
+      "plakatnitsa-nastennaya"
+    ],
+    "stellazhi-dlya-izostudii": [
+      "stellazh-dlya-sushki-i-khraneniya-listov-a1",
+      "stellazh-dlya-sushki-i-khraneniya-listov-a2",
+      "stellazh-dlya-planshetov-i-podramnikov",
+      "stellazh-dlya-dekora-i-gipsovykh-modeley"
+    ],
+    "taburety-i-stulya": [
+      "taburet-rabochiy",
+      "taburet-vysokiy-buk",
+      "taburet-vysokiy-sosna",
+      "stul-khudozhnika"
+    ],
+    "rabochee-mesto-khudozhnika": [
+      "shkatulka-dlya-kistey-i-krasok",
+      "stolik-dlya-palitry",
+      "telezhka-dlya-khudozhestvennykh-prinadlezhnostey"
+    ],
+    "vspomogatelnoe-oborudovanie": [
+      "podium-dlya-natury",
+      "shirma"
+    ],
+    "shirmy-dlya-izostudii": [
+      "shirma"
+    ],
+    "podiumy-dlya-natury": [
+      "podium-dlya-natury"
+    ]
+  },
+  "redirectCount": 25
+}

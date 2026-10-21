@@ -1,0 +1,73 @@
+{
+  "sourceHomepage": "https://www.molberty.ru/",
+  "sourceHomepageSha256": "f709215ff7dfb6166c11e5265e3fb52ec4dda12e018a35f564bae49603b0f54b",
+  "verifiedDate": "2026-10-21",
+  "sourceRecord": "rec46994402",
+  "categories": {
+    "artists": {
+      "image": "category-previews/home-artists.webp",
+      "width": 900,
+      "height": 1199,
+      "sourceImage": "https://static.tildacdn.com/tild3533-6337-4532-a266-306533343537/Group_6.png",
+      "sourceTitle": "Мольберты для художников",
+      "sourceRoute": "/for_artist",
+      "originalSize": [
+        1680,
+        2238
+      ],
+      "preservedAlpha": true,
+      "originalSha256": "61aea506da1d53a32c52deab4601c5c33d62e270f6bfb630eb2c810a4ca9beb6",
+      "conversion": "Proportional resize to maximum 900×1200 and WebP quality 92; no crop, recolour or content change."
+    },
+    "exhibitions": {
+      "image": "category-previews/home-exhibitions.webp",
+      "width": 900,
+      "height": 1199,
+      "sourceImage": "https://static.tildacdn.com/tild6366-6134-4130-b034-323761646564/Group_7.png",
+      "sourceTitle": "Мольберты для выставок",
+      "sourceRoute": "/for_exibition",
+      "originalSize": [
+        1680,
+        2238
+      ],
+      "preservedAlpha": true,
+      "originalSha256": "d2431d0000ee3ead53dd6007b08e5e9c936999cd127c0ab1a18a253bad4e9eea",
+      "conversion": "Proportional resize to maximum 900×1200 and WebP quality 92; no crop, recolour or content change."
+    },
+    "interiors": {
+      "image": "category-previews/home-interiors.webp",
+      "width": 900,
+      "height": 1199,
+      "sourceImage": "https://static.tildacdn.com/tild3035-3736-4332-a566-626635303335/Group_5.png",
+      "sourceTitle": "Интерьерные мольберты",
+      "sourceRoute": "/for_interior",
+      "originalSize": [
+        1680,
+        2238
+      ],
+      "preservedAlpha": true,
+      "originalSha256": "15b647cc225e78af90afeb8cedba93d165b7253eef827fc879e0a3db2e39ebb2",
+      "conversion": "Proportional resize to maximum 900×1200 and WebP quality 92; no crop, recolour or content change."
+    },
+    "studio": {
+      "image": "category-previews/home-studio.webp",
+      "width": 900,
+      "height": 1199,
+      "sourceImage": "https://static.tildacdn.com/tild3632-3136-4435-b662-386537306433/Group_9.png",
+      "sourceTitle": "Оборудование для изостудий",
+      "sourceRoute": "/for_studio",
+      "originalSize": [
+        1680,
+        2238
+      ],
+      "preservedAlpha": true,
+      "originalSha256": "070432aabf8be66d3505e2b0014147058c995e1544f874ca037b019832f8812e",
+      "conversion": "Proportional resize to maximum 900×1200 and WebP quality 92; no crop, recolour or content change."
+    }
+  },
+  "drawingTablesPolicy": {
+    "role": "drawing-tables",
+    "productId": "stol-dlya-chercheniya-i-risovaniya-chertezhnik",
+    "reason": "На исходной главной нет соответствующей категории; сохранено фото реального чертёжного стола из каталога. Изображения аренды и заказной мебели не соответствуют этому разделу."
+  }
+}

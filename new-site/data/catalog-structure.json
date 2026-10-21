@@ -1,0 +1,405 @@
+{
+  "sourceDocument": "catalog-structure.doc",
+  "documentSha256": "85f7fb3246f690db5b1bcd6cc405e81361f1eee3f5b0897e1fb2257a7acace31",
+  "roots": [
+    "artists",
+    "drawing-tables",
+    "exhibitions",
+    "interiors",
+    "studio"
+  ],
+  "categories": [
+    {
+      "role": "artists",
+      "id": "molberty-dlya-risovaniya-hudozhnikov",
+      "name": "Мольберты для художников",
+      "parentRole": null,
+      "description": "Напольные и настольные конструкции для живописи, графики и учебных занятий. Выберите рабочий формат и способ установки.",
+      "filters": [
+        "material",
+        "shelf"
+      ]
+    },
+    {
+      "role": "artists/floor",
+      "id": "molberty-napolnye",
+      "name": "Мольберты напольные",
+      "parentRole": "artists",
+      "description": "Профессиональные и ученические мольберты, «Лира» и А-образные конструкции для работы стоя и сидя.",
+      "filters": [
+        "material",
+        "shelf"
+      ]
+    },
+    {
+      "role": "artists/floor/professional",
+      "id": "professionalnye-molberty",
+      "name": "Профессиональные мольберты",
+      "parentRole": "artists/floor",
+      "description": "Станковые модели и трансформеры для мастерской: подвижные лотки, изменение положения холста и разные рабочие форматы.",
+      "filters": [
+        "material",
+        "shelf"
+      ]
+    },
+    {
+      "role": "artists/floor/professional/stationaries",
+      "id": "molberty-stankovye",
+      "name": "Станковые мольберты",
+      "parentRole": "artists/floor/professional",
+      "description": "Станковые мольберты для мастерской: стационарные, складные и двусторонняя модель. Выберите конструкцию, материал и рабочий формат.",
+      "filters": [
+        "material",
+        "shelf",
+        "double"
+      ]
+    },
+    {
+      "role": "artists/floor/professional/transformers",
+      "id": "molberty-transformery",
+      "name": "Мольберты трансформеры",
+      "parentRole": "artists/floor/professional",
+      "description": "Трансформируемые мольберты «Трансформер», «Дизайнер» и «Студия» для живописи, графики и учебных занятий. Возможности изменения положения рабочей плоскости указаны в карточках.",
+      "filters": [
+        "material",
+        "shelf"
+      ]
+    },
+    {
+      "role": "artists/floor/lira",
+      "id": "molberty-lira",
+      "name": "Мольберты «Лира»",
+      "parentRole": "artists/floor",
+      "description": "Классическая тренога для рисунка и живописи. Сравните модели из сосны и бука, штанги и дополнительные полки.",
+      "filters": [
+        "material",
+        "shelf"
+      ]
+    },
+    {
+      "role": "artists/floor/students",
+      "id": "molberty-dlya-hudozhestvennyh-shkol",
+      "name": "Мольберты для художественной школы",
+      "parentRole": "artists/floor",
+      "description": "Хлопушки и модели «Студия» для художественных школ, учебных классов и домашних занятий.",
+      "filters": [
+        "material",
+        "shelf",
+        "double"
+      ]
+    },
+    {
+      "role": "artists/floor/students/clappers",
+      "id": "molberty-hlopushka",
+      "name": "Мольберты Хлопушка",
+      "parentRole": "artists/floor/students",
+      "description": "Мольберты «Хлопушка» для художественной школы и домашних занятий: разные форматы, двусторонние и детская модели.",
+      "filters": [
+        "material",
+        "shelf",
+        "double"
+      ]
+    },
+    {
+      "role": "artists/floor/students/shelf",
+      "id": "molberty-s-polkoj",
+      "name": "Мольберты с полкой",
+      "parentRole": "artists/floor/students",
+      "description": "Модели «Студия» с полкой для кистей и красок и мольберты «Хлопушка» с возможностью установки дополнительной полки. Вариант комплектации выбирается в карточке изделия.",
+      "filters": [
+        "material",
+        "shelf"
+      ]
+    },
+    {
+      "role": "artists/desktop",
+      "id": "molberty-nastolnye",
+      "name": "Мольберты настольные",
+      "parentRole": "artists",
+      "description": "Компактные мольберты и планшеты для рабочего стола, небольших форматов и занятий дома.",
+      "filters": [
+        "material"
+      ]
+    },
+    {
+      "role": "drawing-tables",
+      "id": "stoly-dlya-chercheniya-i-risovaniya",
+      "name": "Столы для черчения и рисования",
+      "parentRole": null,
+      "description": "Рабочие столы «Чертежник», «Конструктор» и тумбочка художника для организации места для рисунка.",
+      "filters": [
+        "material"
+      ]
+    },
+    {
+      "role": "exhibitions",
+      "id": "molberty-dlya-vystavki",
+      "name": "Мольберты для выставок",
+      "parentRole": null,
+      "description": "Устойчивые опоры для картин, постеров и информационных материалов. Модели из сосны и бука.",
+      "filters": [
+        "material"
+      ]
+    },
+    {
+      "role": "exhibitions/pine",
+      "id": "molberty-iz-sosny",
+      "name": "Мольберты для выставок из сосны",
+      "parentRole": "exhibitions",
+      "description": "«Макси», «Экспо-1», «Экспо-2» и тренога «Выставочная» — группа сосновых моделей по структуре каталога.",
+      "filters": []
+    },
+    {
+      "role": "exhibitions/beech",
+      "id": "molbert-iz-buka",
+      "name": "Мольберты для выставок из бука",
+      "parentRole": "exhibitions",
+      "description": "Тренога 1500, «Мачта», «Вернисаж» и «Дельта» — группа буковых моделей по структуре каталога.",
+      "filters": []
+    },
+    {
+      "role": "interiors",
+      "id": "molberty-dekorativnye",
+      "name": "Мольберты для интерьера",
+      "parentRole": null,
+      "description": "Декоративные мольберты для картин, телевизоров, фотографий и миниатюр.",
+      "filters": [
+        "material"
+      ]
+    },
+    {
+      "role": "interiors/carved",
+      "id": "molberty-s-reznymi-elementami",
+      "name": "Мольберты с резными элементами",
+      "parentRole": "interiors",
+      "description": "Подарочная «Лира», «Ампир», «Эксклюзив» и «Версаль» для выразительной интерьерной экспозиции.",
+      "filters": []
+    },
+    {
+      "role": "interiors/tv",
+      "id": "molberty-dlya-televizora",
+      "name": "Мольберты для телевизора",
+      "parentRole": "interiors",
+      "description": "Модель «Плазма XL» для размещения телевизора. Материал и изготовление уточняются в карточке изделия.",
+      "filters": []
+    },
+    {
+      "role": "interiors/mini",
+      "id": "mini-molberty",
+      "name": "Мини-мольберты",
+      "parentRole": "interiors",
+      "description": "Небольшие треноги и «Лиры» для фотографий, календарей, миниатюр и сувениров.",
+      "filters": []
+    },
+    {
+      "role": "interiors/mini/tripods",
+      "id": "mini-molberty-trenogi",
+      "name": "Мини-мольберты треноги",
+      "parentRole": "interiors/mini",
+      "description": "Декоративные треноги для фотографий и небольших работ. Размер выбирается в карточке товара.",
+      "filters": []
+    },
+    {
+      "role": "interiors/mini/lyra",
+      "id": "mini-molberty-lira",
+      "name": "Мини-мольберты «Лира»",
+      "parentRole": "interiors/mini",
+      "description": "Миниатюрные «Лиры» для камерной экспозиции и подарков.",
+      "filters": []
+    },
+    {
+      "role": "studio",
+      "id": "oborudovanie-dlya-kabineta-izo",
+      "name": "Оборудование для изостудии",
+      "parentRole": null,
+      "description": "Планшеты, мебель, свет, хранение и вспомогательное оборудование для художественного класса.",
+      "filters": [
+        "material"
+      ]
+    },
+    {
+      "role": "studio/tablets-palettes",
+      "id": "planshety-i-palitry",
+      "name": "Планшеты и палитры",
+      "parentRole": "studio",
+      "description": "Планшеты, палитры и клипборды для рисунка и живописи. Сравните форматы и варианты комплектации.",
+      "filters": [
+        "material"
+      ]
+    },
+    {
+      "role": "studio/still-life-tables",
+      "id": "stoly-dlya-natyurmorta",
+      "name": "Столы и тумбы для натюрморта",
+      "parentRole": "studio",
+      "description": "Столы, тумбы и столик для экспозиций — основа учебной постановки и размещения работ.",
+      "filters": [
+        "material"
+      ]
+    },
+    {
+      "role": "studio/lights",
+      "id": "svetilniki-dlya-izostudii",
+      "name": "Светильники",
+      "parentRole": "studio",
+      "description": "Софит, светильники и светильник-прищепка для подсветки натюрморта.",
+      "filters": []
+    },
+    {
+      "role": "studio/sculpture",
+      "id": "stoly-skulptora",
+      "name": "Столы скульптора",
+      "parentRole": "studio",
+      "description": "Рабочие столы с вращающейся крышкой и регулировкой высоты для занятий скульптурой.",
+      "filters": []
+    },
+    {
+      "role": "studio/storage",
+      "id": "khranenie-dlya-izostudii",
+      "name": "Хранение",
+      "parentRole": "studio",
+      "description": "Подставки, плакатницы и стеллажи для рисунков, планшетов, подрамников и учебных моделей.",
+      "filters": []
+    },
+    {
+      "role": "studio/storage/drawing-stands",
+      "id": "podstavki-dlya-risunkov",
+      "name": "Подставки для рисунков",
+      "parentRole": "studio/storage",
+      "description": "Подставки для размещения и хранения рисунков и планшетов.",
+      "filters": [
+        "material"
+      ]
+    },
+    {
+      "role": "studio/storage/placard-racks",
+      "id": "plakatnitsy",
+      "name": "Плакатницы",
+      "parentRole": "studio/storage",
+      "description": "Напольные и настенные плакатницы для учебных работ и планшетов.",
+      "filters": []
+    },
+    {
+      "role": "studio/storage/shelves",
+      "id": "stellazhi-dlya-izostudii",
+      "name": "Стеллажи",
+      "parentRole": "studio/storage",
+      "description": "Стеллажи для сушки листов, планшетов, подрамников, декора и гипсовых моделей.",
+      "filters": []
+    },
+    {
+      "role": "studio/stools-chairs",
+      "id": "taburety-i-stulya",
+      "name": "Табуреты и стулья",
+      "parentRole": "studio",
+      "description": "Рабочие и высокие табуреты, стул художника для занятий сидя.",
+      "filters": [
+        "material"
+      ]
+    },
+    {
+      "role": "studio/artist-workplace",
+      "id": "rabochee-mesto-khudozhnika",
+      "name": "Рабочее место художника",
+      "parentRole": "studio",
+      "description": "Столик для палитры, тележка для принадлежностей и шкатулка для кистей и красок.",
+      "filters": []
+    },
+    {
+      "role": "studio/auxiliary",
+      "id": "vspomogatelnoe-oborudovanie",
+      "name": "Вспомогательное оборудование",
+      "parentRole": "studio",
+      "description": "Ширмы и подиумы для организации постановки и пространства студии.",
+      "filters": []
+    },
+    {
+      "role": "studio/auxiliary/screens",
+      "id": "shirmy-dlya-izostudii",
+      "name": "Ширмы",
+      "parentRole": "studio/auxiliary",
+      "description": "Секционная ширма для художественного класса и постановок.",
+      "filters": []
+    },
+    {
+      "role": "studio/auxiliary/podiums",
+      "id": "podiumy-dlya-natury",
+      "name": "Подиумы для натуры",
+      "parentRole": "studio/auxiliary",
+      "description": "Подиум для натурщика и учебной постановки, с возможностью изготовления по размерам заказчика.",
+      "filters": []
+    }
+  ],
+  "legacyCategoryRoles": {
+    "molberty-derevyannye": "artists",
+    "molberty-dvustoronnie": "artists/floor/students",
+    "molberty-sosna": "artists",
+    "vystavochnye-molberty-iz-sosny": "exhibitions/pine",
+    "vystavochnye-molberty-iz-buka": "exhibitions/beech",
+    "derevyannye-stoly-skulptora": "studio/sculpture",
+    "metallicheskie-stoly-skulptora": "studio/sculpture"
+  },
+  "amendments": [
+    {
+      "date": "2026-10-21",
+      "source": "User instruction after catalog structure approval",
+      "changes": [
+        "Профессиональные мольберты → Станковые мольберты /molberty-stankovye/ и Мольберты трансформеры /molberty-transformery/.",
+        "H1 и название ученического раздела: Мольберты для художественной школы. URL сохранён.",
+        "Мольберты для художественной школы → Мольберты Хлопушка /molberty-hlopushka/."
+      ],
+      "sourceGroups": {
+        "stationaries": "artists/floor/professional/stationaries",
+        "transformers": "artists/floor/professional/transformers",
+        "clappers": "artists/floor/students/clappers"
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "source": "User URL changes",
+      "urlChanges": {
+        "/vystavochnye-molberty-iz-sosny/": "/molberty-iz-sosny/",
+        "/vystavochnye-molberty-iz-buka/": "/molbert-iz-buka/"
+      },
+      "changes": [
+        "Адреса сосновых и буковых выставочных мольбертов сокращены; состав и названия разделов сохранены.",
+        "Прежние выставочные адреса перенаправляются непосредственно на новые; /molbert-iz-buka/ больше не перенаправляет в раздел художников."
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "source": "User requested school shelf subcategory",
+      "changes": [
+        "Мольберты для художественной школы → Мольберты с полкой /molberty-s-polkoj/.",
+        "Прежний переход /molberty-s-polkoj/ в «Лиру» отменён. Полка в комплекте и дополнительная полка различаются в фильтре и комплектации."
+      ],
+      "role": "artists/floor/students/shelf",
+      "productIds": [
+        "studiya-a1",
+        "studiya-a2",
+        "khlopushka-a1",
+        "khlopushka-a2"
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "source": "User removed sculpture table material subdivision",
+      "changes": [
+        "В разделе «Столы скульптора» удалены подкатегории «из дерева» и «из металла». Все исходные модели сохранены в общем разделе."
+      ],
+      "removedRoles": [
+        "studio/sculpture/metal",
+        "studio/sculpture/wood"
+      ],
+      "mergedInto": "studio/sculpture",
+      "urlChanges": {
+        "/derevyannye-stoly-skulptora/": "/stoly-skulptora/",
+        "/metallicheskie-stoly-skulptora/": "/stoly-skulptora/"
+      },
+      "productIds": [
+        "stolik-skulptora-buk-fanera",
+        "stol-skulptora-profi"
+      ]
+    }
+  ]
+}

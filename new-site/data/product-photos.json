@@ -1,0 +1,114 @@
+{
+  "lira-classic": {
+    "image": "original-products/lira-classic.webp",
+    "imageType": "source",
+    "imageSource": "https://static.tildacdn.com/tild3161-3061-4165-b532-303731346338/11__.jpg",
+    "sourceProductName": "Раскладной \"Лира\"",
+    "sourcePage": "https://www.molberty.ru/for_artist"
+  },
+  "lira-beech": {
+    "image": "original-products/lira-beech.webp",
+    "imageType": "source",
+    "imageSource": "https://static.tildacdn.com/tild3336-3737-4565-a436-313437376461/12___.jpg",
+    "sourceProductName": "Раскладной \"Лира\" (бук)",
+    "sourcePage": "https://www.molberty.ru/for_artist"
+  },
+  "studio-beech": {
+    "image": "original-products/studio-beech.webp",
+    "imageType": "source",
+    "imageSource": "https://static.tildacdn.com/tild3863-6161-4564-b234-613566653665/2__.jpg",
+    "sourceProductName": "Станковый стационарный (бук)",
+    "sourcePage": "https://www.molberty.ru/for_artist"
+  },
+  "studio-pine": {
+    "image": "original-products/studio-pine.webp",
+    "imageType": "source",
+    "imageSource": "https://static.tildacdn.com/tild3863-3636-4739-a238-373765323637/1_1.jpg",
+    "sourceProductName": "Станковый стационарный (сосна)",
+    "sourcePage": "https://www.molberty.ru/for_artist"
+  },
+  "hlopushka-a1": {
+    "image": "original-products/hlopushka-a1.webp",
+    "imageType": "source",
+    "imageSource": "https://optim.tildacdn.com/tild3936-3561-4136-a266-633339643061/-/resize/260x/-/format/webp/23__1.jpg.webp",
+    "sourceProductName": "Хлопушка А1",
+    "sourcePage": "https://www.molberty.ru/for_artist"
+  },
+  "hlopushka-double": {
+    "image": "original-products/hlopushka-double.webp",
+    "imageType": "source",
+    "imageSource": "https://static.tildacdn.com/tild6238-3763-4462-b239-386463383434/24__12.jpg",
+    "sourceProductName": "Хлопушка А1 двусторонний",
+    "sourcePage": "https://www.molberty.ru/for_artist"
+  },
+  "transformer-a1": {
+    "image": "original-products/transformer-a1.webp",
+    "imageType": "source",
+    "imageSource": "https://static.tildacdn.com/tild6362-6365-4134-b435-623332633862/63__1.jpg",
+    "sourceProductName": "Трансформер А1 (бук)",
+    "sourcePage": "https://www.molberty.ru/for_artist"
+  },
+  "desktop": {
+    "image": "original-products/desktop.webp",
+    "imageType": "source",
+    "imageSource": "https://static.tildacdn.com/tild3237-3562-4534-a239-316239333734/29_.jpg",
+    "sourceProductName": "Настольный (сосна)",
+    "sourcePage": "https://www.molberty.ru/for_artist"
+  },
+  "mini": {
+    "image": "original-products/mini.webp",
+    "imageType": "source",
+    "imageSource": "https://static.tildacdn.com/tild3962-3665-4764-a237-393634653231/noroot.png",
+    "sourceProductName": "Настольный \"Мини\" (бук)",
+    "sourcePage": "https://www.molberty.ru/for_artist"
+  },
+  "grafika": {
+    "image": "original-products/grafika.webp",
+    "imageType": "source",
+    "imageSource": "https://static.tildacdn.com/tild3232-3535-4238-b533-326361323731/P8010006_copy.jpg",
+    "sourceProductName": "Планшет настольный \"Графика\"",
+    "sourcePage": "https://www.molberty.ru/for_artist"
+  },
+  "expo": {
+    "image": "original-products/expo.webp",
+    "imageType": "source",
+    "imageSource": "https://static.tildacdn.com/tild3665-3938-4633-b466-666531363738/noroot.png",
+    "sourceProductName": "Экспо-1",
+    "sourcePage": "https://www.molberty.ru/for_exibition"
+  },
+  "tripod": {
+    "image": "original-products/tripod.webp",
+    "imageType": "source",
+    "imageSource": "https://static.tildacdn.com/tild6234-3234-4339-b138-323832303038/5__1500.jpg",
+    "sourceProductName": "Тренога 1500",
+    "sourcePage": "https://www.molberty.ru/for_exibition"
+  },
+  "gift": {
+    "image": "original-products/gift.webp",
+    "imageType": "source",
+    "imageSource": "https://static.tildacdn.com/tild3034-6235-4231-a431-616664653264/1__2.jpg",
+    "sourceProductName": "\"Лира\" подарочный (бук)",
+    "sourcePage": "https://www.molberty.ru/for_interior"
+  },
+  "still-life": {
+    "image": "original-products/still-life.webp",
+    "imageType": "source",
+    "imageSource": "https://static.tildacdn.com/tild3233-3532-4331-a637-356166353236/noroot.png",
+    "sourceProductName": "Стол для натюрморта складной",
+    "sourcePage": "https://www.molberty.ru/for_studio"
+  },
+  "table-transformer": {
+    "image": "original-products/table-transformer.webp",
+    "imageType": "source",
+    "imageSource": "https://static.tildacdn.com/tild6538-3466-4766-a564-636634623438/Stol-transformer_1.jpg",
+    "sourceProductName": "Стол-трансформер для натюрморта.",
+    "sourcePage": "https://www.molberty.ru/for_studio"
+  },
+  "rack": {
+    "image": "original-products/rack.webp",
+    "imageType": "source",
+    "imageSource": "https://static.tildacdn.com/tild3930-6530-4561-b162-366237626132/3_.jpg",
+    "sourceProductName": "Подставка для рисунков (бук)",
+    "sourcePage": "https://www.molberty.ru/for_studio"
+  }
+}
