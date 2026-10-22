@@ -81,3 +81,6 @@ dialog.wide-dialog{width:min(1080px,calc(100% - 48px));max-width:none;padding:45
 .product-card .product-title{font-family:var(--serif);font-weight:400;letter-spacing:-.5px}
 @media(max-width:600px){.product-card-body{padding:12px}}
 @media(max-width:360px){.product-card-body{padding:10px}}
+
+/* Hide catalogue sidebar when the layout switches to one column. */
+@media(max-width:900px){.catalog-layout>.sidebar{display:none}}
