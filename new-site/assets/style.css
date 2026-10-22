@@ -69,3 +69,8 @@ dialog.wide-dialog{width:min(1080px,calc(100% - 48px));max-width:none;padding:45
 
 /* Product links in the price list share the common motion layer. */
 .price-table .price-product-link{color:var(--green);text-decoration:none;text-underline-offset:4px;text-decoration-thickness:1px}.price-table .price-product-link:hover{color:var(--orange);text-decoration:underline}
+
+/* Bordered product cards in catalogue listings. */
+.catalog-main .product-card{border:1px solid var(--line);padding:12px}
+.catalog-main .product-card>p{overflow-wrap:anywhere}
+@media(max-width:600px){.catalog-main .product-card{padding:8px}}
