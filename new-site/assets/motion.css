@@ -10,17 +10,17 @@ input:focus-visible,select:focus-visible,textarea:focus-visible{border-color:var
 .search-field:focus-within{border-color:var(--orange);box-shadow:0 0 0 3px #ae63461c}.search-field input:focus-visible{box-shadow:none}
 :is(a,button,summary):focus-visible{outline:2px solid var(--orange);outline-offset:4px}
 :is(.category-tile,.subcategory-grid>a,.partner-object,.resource-grid>a,.resource-grid>button,.delivery-methods>a,.usecase-grid>a):focus-visible{box-shadow:var(--motion-shadow)}
-.product-card:focus-within .product-img,.blog-card:focus-within .blog-card-image{box-shadow:var(--motion-shadow)}
+.product-card:focus-within,.blog-card:focus-within .blog-card-image{box-shadow:var(--motion-shadow)}
 .category-links a:focus-visible,.category-tree a:focus-visible,.sidebar>a:focus-visible,.breadcrumbs a:focus-visible,.header nav a:focus-visible{color:var(--orange)}
 @media(hover:hover){
  a:hover{color:var(--orange)}
  .logo:hover{color:var(--green);opacity:.85}
  .footer-grid>div>a:not(.logo):hover,.footer-bottom a:hover,.footer-grid .footer-phone:hover{color:var(--orange)!important}
  .btn:hover{box-shadow:var(--motion-shadow)}
- .category-tile:hover,.subcategory-grid>a:hover,.partner-object:hover,.resource-grid>a:hover,.resource-grid>button:hover,.delivery-methods>a:hover,.usecase-grid>a:hover{transform:translateY(-2px);box-shadow:var(--motion-shadow)}
+ .category-tile:hover,.product-card:hover,.subcategory-grid>a:hover,.partner-object:hover,.resource-grid>a:hover,.resource-grid>button:hover,.delivery-methods>a:hover,.usecase-grid>a:hover{transform:translateY(-2px);box-shadow:var(--motion-shadow)}
  /* Keep the category background requested by the site owner. */
  .category-tile:hover{background:#fff}
- .product-card:hover .product-img,.blog-card:hover .blog-card-image{box-shadow:var(--motion-shadow)}
+ .blog-card:hover .blog-card-image{box-shadow:var(--motion-shadow)}
  .text-link:hover>.icon,.btn:hover>.icon,.category-tile:hover .tile-link>.icon,.usecase-grid>a:hover>.icon:last-child{transform:translateX(3px)}
  .quick-button:hover,.sidebar-help button:hover{color:var(--orange)}
  .gallery-thumbs button:hover{border-color:var(--orange);box-shadow:0 3px 10px #20392912}
@@ -49,7 +49,7 @@ dialog.motion-closing::backdrop{animation:site-backdrop-out var(--motion-fast) v
 @media(prefers-reduced-motion:reduce){
  html{scroll-behavior:auto!important}
  *,*::before,*::after{transition:none!important;animation:none!important;scroll-behavior:auto!important}
- .category-tile:hover,.subcategory-grid>a:hover,.partner-object:hover,.resource-grid>a:hover,.resource-grid>button:hover,.delivery-methods>a:hover,.usecase-grid>a:hover,.btn:hover,.btn:active,button:active,.back-top:hover{transform:none!important}
+ .category-tile:hover,.product-card:hover,.subcategory-grid>a:hover,.partner-object:hover,.resource-grid>a:hover,.resource-grid>button:hover,.delivery-methods>a:hover,.usecase-grid>a:hover,.btn:hover,.btn:active,button:active,.back-top:hover{transform:none!important}
  .category-tile:hover>img,.product-img:hover img,.blog-card-image:hover img,.case-image:hover img,.certificate-preview:hover,.text-link:hover>.icon,.btn:hover>.icon,.category-tile:hover .tile-link>.icon{transform:none!important}
 }
 
