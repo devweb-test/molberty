@@ -5,6 +5,9 @@ a,button,input,select,textarea,summary,.btn,.text-link,.callback-link,.selection
  transition-duration:var(--motion-fast);transition-timing-function:var(--motion-ease)
 }
 .product-img img,.blog-card-image img,.case-image img,.category-tile>img,.partner-object img,.certificate-preview img{transition:transform var(--motion-media) var(--motion-ease),opacity var(--motion-base) var(--motion-ease)}
+.audience-grid article>.icon,.benefit-grid article>.icon{transition:transform var(--motion-base) var(--motion-ease),color var(--motion-fast) var(--motion-ease)}
+.article-image-button{overflow:hidden}
+.article-image-button img{transition:transform var(--motion-media) var(--motion-ease)}
 .text-link>.icon,.btn>.icon,.tile-link>.icon,.usecase-grid>a>.icon:last-child,.resource-grid :is(a,button) span>.icon,.faq summary>span{transition:transform var(--motion-base) var(--motion-ease),color var(--motion-fast) var(--motion-ease)}
 input:focus-visible,select:focus-visible,textarea:focus-visible{border-color:var(--orange);box-shadow:0 0 0 3px #ae63461c}
 .search-field:focus-within{border-color:var(--orange);box-shadow:0 0 0 3px #ae63461c}.search-field input:focus-visible{box-shadow:none}
@@ -21,6 +24,8 @@ input:focus-visible,select:focus-visible,textarea:focus-visible{border-color:var
  /* Keep the category background requested by the site owner. */
  .category-tile:hover{background:#fff}
  .blog-card:hover .blog-card-image{box-shadow:var(--motion-shadow)}
+ .audience-grid article:hover>.icon,.audience-grid article:focus-within>.icon,.benefit-grid article:hover>.icon{transform:translateY(-3px);color:var(--orange)}
+ .article-image-button:hover img{transform:scale(1.025)}
  .text-link:hover>.icon,.btn:hover>.icon,.category-tile:hover .tile-link>.icon,.usecase-grid>a:hover>.icon:last-child{transform:translateX(3px)}
  .quick-button:hover,.sidebar-help button:hover{color:var(--orange)}
  .gallery-thumbs button:hover{border-color:var(--orange);box-shadow:0 3px 10px #20392912}
@@ -51,6 +56,7 @@ dialog.motion-closing::backdrop{animation:site-backdrop-out var(--motion-fast) v
  *,*::before,*::after{transition:none!important;animation:none!important;scroll-behavior:auto!important}
  .category-tile:hover,.product-card:hover,.subcategory-grid>a:hover,.partner-object:hover,.resource-grid>a:hover,.resource-grid>button:hover,.delivery-methods>a:hover,.usecase-grid>a:hover,.btn:hover,.btn:active,button:active,.back-top:hover{transform:none!important}
  .category-tile:hover>img,.product-img:hover img,.blog-card-image:hover img,.case-image:hover img,.certificate-preview:hover,.text-link:hover>.icon,.btn:hover>.icon,.category-tile:hover .tile-link>.icon{transform:none!important}
+ .audience-grid article:hover>.icon,.audience-grid article:focus-within>.icon,.benefit-grid article:hover>.icon,.article-image-button:hover img{transform:none!important}
 }
 
 /* Progressive, same-origin document fades; unsupported browsers retain native navigation. */

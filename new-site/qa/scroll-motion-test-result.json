@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-22T10:59:02.104Z",
+  "checks": [
+    "viewport reveal and bounded stagger",
+    "first screen entrance",
+    "content visible without enhancement",
+    "one-time playback",
+    "focus cancels reveal",
+    "dynamic filter cards and removed-node cleanup",
+    "live reduced motion",
+    "print and restored-page cleanup",
+    "no-JavaScript and no-IntersectionObserver fallbacks",
+    "responsive overflow"
+  ],
+  "viewports": [
+    320,
+    390,
+    768,
+    1440
+  ]
+}
