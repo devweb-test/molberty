@@ -88,9 +88,14 @@ articles=json.loads((ROOT/'data/articles.json').read_text())
 presentation=json.loads((ROOT/'data/article-presentation.json').read_text())
 for article in articles:article['presentation']=presentation[article['id']]
 prices=json.loads((ROOT/'data/prices.json').read_text())
+price_links=json.loads((ROOT/'data/price-product-links.json').read_text())
+price_ids={item['id'] for section in prices['sections'] for item in section['items']}
+assert set(price_links['links']).isdisjoint(price_links['unlinked'])
+assert set(price_links['links'])|set(price_links['unlinked'])==price_ids,'Review links for all price rows'
+assert set(price_links['links'].values())<={product['id'] for product in products},'Price link points to a missing product'
 sales=json.loads((ROOT/'data/sales.json').read_text())
 company=json.loads((ROOT/'data/company.json').read_text())
-data={'categories':cats,'products':products,'articles':articles,'showcase':showcase,'prices':prices,'sales':sales,'company':company,'legacyIdMap':source['legacyIdMap'],'categoryRoots':root_ids,'categoryRoles':roles}
+data={'categories':cats,'products':products,'articles':articles,'showcase':showcase,'prices':prices,'priceProductLinks':price_links['links'],'sales':sales,'company':company,'legacyIdMap':source['legacyIdMap'],'categoryRoots':root_ids,'categoryRoles':roles}
 (ROOT/'data/catalog.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
 (ROOT/'assets/data.js').write_text('window.CATALOG = '+json.dumps(data,ensure_ascii=False)+';')
 BASE='https://www.molberty.ru/'
