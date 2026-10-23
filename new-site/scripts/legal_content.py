@@ -2,6 +2,7 @@
 from pathlib import Path
 import json
 from html import escape
+from breadcrumbs import mobile_breadcrumb
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -16,4 +17,4 @@ def cookie_markup(prefix=''):
 def document_markup(id,prefix='../'):
  pages=json.loads((ROOT/'data/legal-pages.json').read_text());page=pages[id];title=escape(page['title'])
  controls=('<a class="text-link" href="'+prefix+'consent/">Соглашение на обработку персональных данных</a><button type="button" class="text-link" data-clear>Удалить сохранённые данные</button>') if id=='privacy' else '<a class="text-link" href="'+prefix+'privacy/">Политика конфиденциальности</a>'
- return '<div id="'+id+'"><section class="wrap page-intro legal-intro"><div class="breadcrumbs"><a href="'+prefix+'index.html">Главная</a><span>/</span>'+title+'</div><div class="eyebrow"><span>Мольберты.ру</span> ДОКУМЕНТЫ</div><h1>'+title+'</h1></section><section class="wrap reading legal-document">'+page['html']+'<div class="legal-actions">'+controls+'</div></section></div>'
+ return '<div id="'+id+'"><section class="wrap page-intro legal-intro"><div class="breadcrumbs"><a href="'+prefix+'index.html">Главная</a><span>/</span>'+title+'</div>'+mobile_breadcrumb(prefix+'index.html','Главная')+'<div class="eyebrow"><span>Мольберты.ру</span> ДОКУМЕНТЫ</div><h1>'+title+'</h1></section><section class="wrap reading legal-document">'+page['html']+'<div class="legal-actions">'+controls+'</div></section></div>'

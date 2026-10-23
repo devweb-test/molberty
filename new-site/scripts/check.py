@@ -198,3 +198,22 @@ for file in root.rglob('index.html'):
  mobile_pages+=1
 assert mobile_pages==139
 print('Мобильная нижняя навигация, ссылки и активные разделы: 139 страниц OK')
+from html import unescape
+from urllib.parse import urljoin
+compact_trails=0
+for file in root.rglob('index.html'):
+ text=file.read_text()
+ if 'class="breadcrumbs"' not in text:continue
+ assert text.count('class="mobile-breadcrumb"')==1,file
+ link=re.search(r'<a class="mobile-breadcrumb" href="([^"]+)" title="([^"]+)" aria-label="([^"]+)">.*?<span>(.*?)</span></a>',text)
+ assert link,file
+ canonical=re.search(r'<link rel="canonical" href="([^"]+)"',text)[1]
+ trail=next(s for s in Page(text).schemas if s['@type']=='BreadcrumbList')['itemListElement']
+ parent=trail[-2]
+ target=urljoin(canonical,unescape(link[1])).replace('/index.html','/')
+ assert target==parent['item'],file
+ assert unescape(link[2])==unescape(link[4])==parent['name'],file
+ assert unescape(link[3])=='Назад: '+parent['name'],file
+ compact_trails+=1
+assert compact_trails==138
+print('Компактные мобильные крошки и ссылки на родительский раздел: 138 страниц OK')

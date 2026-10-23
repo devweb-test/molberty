@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-23T15:46:03.854Z",
+  "mobileWidths": [
+    320,
+    390,
+    768,
+    900
+  ],
+  "desktopWidths": [
+    901,
+    1440
+  ],
+  "routes": [
+    "product/transformer-a0-buk/",
+    "molberty-transformery/",
+    "molberty-hlopushka/",
+    "catalog/",
+    "blog/kak-vybrat-molbert/",
+    "contacts/",
+    "privacy/"
+  ],
+  "exampleHeight": {
+    "before": 105.390625,
+    "after": 44,
+    "saved": 61.390625
+  },
+  "checks": [
+    "one-line parent link with a 44px target",
+    "long parent label truncation without overflow",
+    "correct parent links and full accessible label",
+    "working navigation up two category levels",
+    "full desktop trail retained",
+    "complete seven-level BreadcrumbList retained",
+    "static links without JavaScript",
+    "explicit prerender mode on products, catalogue, articles and legal pages"
+  ]
+}
