@@ -1,5 +1,294 @@
 {
+  "contacts/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://www.molberty.ru/#organization",
+      "name": "Мольберты.ру",
+      "alternateName": "Мастерская Иванова Д. В.",
+      "url": "https://www.molberty.ru/",
+      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "logo": "https://www.molberty.ru/assets/logo.svg",
+      "email": "molberty@gmail.com",
+      "telephone": "+7 (925) 880-95-39",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Проектируемый проезд 4530, строение 2, завод «СпецМашМонтаж»",
+        "addressLocality": "Мытищи",
+        "addressRegion": "Московская область",
+        "addressCountry": "RU"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Розничные продажи",
+          "telephone": "+7 (925) 880-95-39",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Оптовые продажи",
+          "telephone": "+7 (926) 211-93-63",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.molberty.ru/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Контакты",
+          "item": "https://www.molberty.ru/contacts/"
+        }
+      ]
+    }
+  ],
+  "index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://www.molberty.ru/#organization",
+      "name": "Мольберты.ру",
+      "alternateName": "Мастерская Иванова Д. В.",
+      "url": "https://www.molberty.ru/",
+      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "logo": "https://www.molberty.ru/assets/logo.svg",
+      "email": "molberty@gmail.com",
+      "telephone": "+7 (925) 880-95-39",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Проектируемый проезд 4530, строение 2, завод «СпецМашМонтаж»",
+        "addressLocality": "Мытищи",
+        "addressRegion": "Московская область",
+        "addressCountry": "RU"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Розничные продажи",
+          "telephone": "+7 (925) 880-95-39",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Оптовые продажи",
+          "telephone": "+7 (926) 211-93-63",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.molberty.ru/"
+        }
+      ]
+    }
+  ],
+  "molbert-iz-buka/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://www.molberty.ru/#organization",
+      "name": "Мольберты.ру",
+      "alternateName": "Мастерская Иванова Д. В.",
+      "url": "https://www.molberty.ru/",
+      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "logo": "https://www.molberty.ru/assets/logo.svg",
+      "email": "molberty@gmail.com",
+      "telephone": "+7 (925) 880-95-39",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Проектируемый проезд 4530, строение 2, завод «СпецМашМонтаж»",
+        "addressLocality": "Мытищи",
+        "addressRegion": "Московская область",
+        "addressCountry": "RU"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Розничные продажи",
+          "telephone": "+7 (925) 880-95-39",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Оптовые продажи",
+          "telephone": "+7 (926) 211-93-63",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.molberty.ru/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Каталог",
+          "item": "https://www.molberty.ru/catalog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Мольберты для выставок",
+          "item": "https://www.molberty.ru/molberty-dlya-vystavki/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Мольберты для выставок из бука",
+          "item": "https://www.molberty.ru/molbert-iz-buka/"
+        }
+      ]
+    }
+  ],
+  "molberty-dlya-hudozhestvennyh-shkol/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://www.molberty.ru/#organization",
+      "name": "Мольберты.ру",
+      "alternateName": "Мастерская Иванова Д. В.",
+      "url": "https://www.molberty.ru/",
+      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "logo": "https://www.molberty.ru/assets/logo.svg",
+      "email": "molberty@gmail.com",
+      "telephone": "+7 (925) 880-95-39",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Проектируемый проезд 4530, строение 2, завод «СпецМашМонтаж»",
+        "addressLocality": "Мытищи",
+        "addressRegion": "Московская область",
+        "addressCountry": "RU"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Розничные продажи",
+          "telephone": "+7 (925) 880-95-39",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Оптовые продажи",
+          "telephone": "+7 (926) 211-93-63",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.molberty.ru/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Каталог",
+          "item": "https://www.molberty.ru/catalog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Мольберты для художников",
+          "item": "https://www.molberty.ru/molberty-dlya-risovaniya-hudozhnikov/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Мольберты напольные",
+          "item": "https://www.molberty.ru/molberty-napolnye/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Мольберты для художественной школы",
+          "item": "https://www.molberty.ru/molberty-dlya-hudozhestvennyh-shkol/"
+        }
+      ]
+    }
+  ],
   "molberty-dlya-risovaniya-hudozhnikov/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://www.molberty.ru/#organization",
+      "name": "Мольберты.ру",
+      "alternateName": "Мастерская Иванова Д. В.",
+      "url": "https://www.molberty.ru/",
+      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "logo": "https://www.molberty.ru/assets/logo.svg",
+      "email": "molberty@gmail.com",
+      "telephone": "+7 (925) 880-95-39",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Проектируемый проезд 4530, строение 2, завод «СпецМашМонтаж»",
+        "addressLocality": "Мытищи",
+        "addressRegion": "Московская область",
+        "addressCountry": "RU"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Розничные продажи",
+          "telephone": "+7 (925) 880-95-39",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Оптовые продажи",
+          "telephone": "+7 (926) 211-93-63",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        }
+      ]
+    },
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -25,7 +314,275 @@
       ]
     }
   ],
-  "professionalnye-molberty/index.html": [
+  "molberty-hlopushka/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://www.molberty.ru/#organization",
+      "name": "Мольберты.ру",
+      "alternateName": "Мастерская Иванова Д. В.",
+      "url": "https://www.molberty.ru/",
+      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "logo": "https://www.molberty.ru/assets/logo.svg",
+      "email": "molberty@gmail.com",
+      "telephone": "+7 (925) 880-95-39",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Проектируемый проезд 4530, строение 2, завод «СпецМашМонтаж»",
+        "addressLocality": "Мытищи",
+        "addressRegion": "Московская область",
+        "addressCountry": "RU"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Розничные продажи",
+          "telephone": "+7 (925) 880-95-39",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Оптовые продажи",
+          "telephone": "+7 (926) 211-93-63",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.molberty.ru/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Каталог",
+          "item": "https://www.molberty.ru/catalog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Мольберты для художников",
+          "item": "https://www.molberty.ru/molberty-dlya-risovaniya-hudozhnikov/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Мольберты напольные",
+          "item": "https://www.molberty.ru/molberty-napolnye/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Мольберты для художественной школы",
+          "item": "https://www.molberty.ru/molberty-dlya-hudozhestvennyh-shkol/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Мольберты Хлопушка",
+          "item": "https://www.molberty.ru/molberty-hlopushka/"
+        }
+      ]
+    }
+  ],
+  "molberty-iz-sosny/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://www.molberty.ru/#organization",
+      "name": "Мольберты.ру",
+      "alternateName": "Мастерская Иванова Д. В.",
+      "url": "https://www.molberty.ru/",
+      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "logo": "https://www.molberty.ru/assets/logo.svg",
+      "email": "molberty@gmail.com",
+      "telephone": "+7 (925) 880-95-39",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Проектируемый проезд 4530, строение 2, завод «СпецМашМонтаж»",
+        "addressLocality": "Мытищи",
+        "addressRegion": "Московская область",
+        "addressCountry": "RU"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Розничные продажи",
+          "telephone": "+7 (925) 880-95-39",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Оптовые продажи",
+          "telephone": "+7 (926) 211-93-63",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.molberty.ru/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Каталог",
+          "item": "https://www.molberty.ru/catalog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Мольберты для выставок",
+          "item": "https://www.molberty.ru/molberty-dlya-vystavki/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Мольберты для выставок из сосны",
+          "item": "https://www.molberty.ru/molberty-iz-sosny/"
+        }
+      ]
+    }
+  ],
+  "molberty-s-polkoj/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://www.molberty.ru/#organization",
+      "name": "Мольберты.ру",
+      "alternateName": "Мастерская Иванова Д. В.",
+      "url": "https://www.molberty.ru/",
+      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "logo": "https://www.molberty.ru/assets/logo.svg",
+      "email": "molberty@gmail.com",
+      "telephone": "+7 (925) 880-95-39",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Проектируемый проезд 4530, строение 2, завод «СпецМашМонтаж»",
+        "addressLocality": "Мытищи",
+        "addressRegion": "Московская область",
+        "addressCountry": "RU"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Розничные продажи",
+          "telephone": "+7 (925) 880-95-39",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Оптовые продажи",
+          "telephone": "+7 (926) 211-93-63",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.molberty.ru/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Каталог",
+          "item": "https://www.molberty.ru/catalog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Мольберты для художников",
+          "item": "https://www.molberty.ru/molberty-dlya-risovaniya-hudozhnikov/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Мольберты напольные",
+          "item": "https://www.molberty.ru/molberty-napolnye/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Мольберты для художественной школы",
+          "item": "https://www.molberty.ru/molberty-dlya-hudozhestvennyh-shkol/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Мольберты с полкой",
+          "item": "https://www.molberty.ru/molberty-s-polkoj/"
+        }
+      ]
+    }
+  ],
+  "molberty-stankovye/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://www.molberty.ru/#organization",
+      "name": "Мольберты.ру",
+      "alternateName": "Мастерская Иванова Д. В.",
+      "url": "https://www.molberty.ru/",
+      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "logo": "https://www.molberty.ru/assets/logo.svg",
+      "email": "molberty@gmail.com",
+      "telephone": "+7 (925) 880-95-39",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Проектируемый проезд 4530, строение 2, завод «СпецМашМонтаж»",
+        "addressLocality": "Мытищи",
+        "addressRegion": "Московская область",
+        "addressCountry": "RU"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Розничные продажи",
+          "telephone": "+7 (925) 880-95-39",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Оптовые продажи",
+          "telephone": "+7 (926) 211-93-63",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        }
+      ]
+    },
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -59,11 +616,135 @@
           "position": 5,
           "name": "Профессиональные мольберты",
           "item": "https://www.molberty.ru/professionalnye-molberty/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Станковые мольберты",
+          "item": "https://www.molberty.ru/molberty-stankovye/"
+        }
+      ]
+    }
+  ],
+  "molberty-transformery/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://www.molberty.ru/#organization",
+      "name": "Мольберты.ру",
+      "alternateName": "Мастерская Иванова Д. В.",
+      "url": "https://www.molberty.ru/",
+      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "logo": "https://www.molberty.ru/assets/logo.svg",
+      "email": "molberty@gmail.com",
+      "telephone": "+7 (925) 880-95-39",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Проектируемый проезд 4530, строение 2, завод «СпецМашМонтаж»",
+        "addressLocality": "Мытищи",
+        "addressRegion": "Московская область",
+        "addressCountry": "RU"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Розничные продажи",
+          "telephone": "+7 (925) 880-95-39",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Оптовые продажи",
+          "telephone": "+7 (926) 211-93-63",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.molberty.ru/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Каталог",
+          "item": "https://www.molberty.ru/catalog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Мольберты для художников",
+          "item": "https://www.molberty.ru/molberty-dlya-risovaniya-hudozhnikov/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Мольберты напольные",
+          "item": "https://www.molberty.ru/molberty-napolnye/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Профессиональные мольберты",
+          "item": "https://www.molberty.ru/professionalnye-molberty/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Мольберты трансформеры",
+          "item": "https://www.molberty.ru/molberty-transformery/"
         }
       ]
     }
   ],
   "product/bolshoy-stankovyy-buk/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://www.molberty.ru/#organization",
+      "name": "Мольберты.ру",
+      "alternateName": "Мастерская Иванова Д. В.",
+      "url": "https://www.molberty.ru/",
+      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "logo": "https://www.molberty.ru/assets/logo.svg",
+      "email": "molberty@gmail.com",
+      "telephone": "+7 (925) 880-95-39",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Проектируемый проезд 4530, строение 2, завод «СпецМашМонтаж»",
+        "addressLocality": "Мытищи",
+        "addressRegion": "Московская область",
+        "addressCountry": "RU"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Розничные продажи",
+          "telephone": "+7 (925) 880-95-39",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Оптовые продажи",
+          "telephone": "+7 (926) 211-93-63",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        }
+      ]
+    },
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -129,11 +810,51 @@
         "@type": "Offer",
         "url": "https://www.molberty.ru/product/bolshoy-stankovyy-buk/",
         "priceCurrency": "RUB",
-        "price": 28000
+        "price": 28000,
+        "seller": {
+          "@id": "https://www.molberty.ru/#organization"
+        }
       }
     }
   ],
   "product/podium-dlya-natury/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://www.molberty.ru/#organization",
+      "name": "Мольберты.ру",
+      "alternateName": "Мастерская Иванова Д. В.",
+      "url": "https://www.molberty.ru/",
+      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "logo": "https://www.molberty.ru/assets/logo.svg",
+      "email": "molberty@gmail.com",
+      "telephone": "+7 (925) 880-95-39",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Проектируемый проезд 4530, строение 2, завод «СпецМашМонтаж»",
+        "addressLocality": "Мытищи",
+        "addressRegion": "Московская область",
+        "addressCountry": "RU"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Розничные продажи",
+          "telephone": "+7 (925) 880-95-39",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Оптовые продажи",
+          "telephone": "+7 (926) 211-93-63",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        }
+      ]
+    },
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -192,376 +913,51 @@
         "@type": "Offer",
         "url": "https://www.molberty.ru/product/podium-dlya-natury/",
         "priceCurrency": "RUB",
-        "price": 13500
-      }
-    }
-  ],
-  "molberty-stankovye/index.html": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Главная",
-          "item": "https://www.molberty.ru/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Каталог",
-          "item": "https://www.molberty.ru/catalog/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Мольберты для художников",
-          "item": "https://www.molberty.ru/molberty-dlya-risovaniya-hudozhnikov/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Мольберты напольные",
-          "item": "https://www.molberty.ru/molberty-napolnye/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 5,
-          "name": "Профессиональные мольберты",
-          "item": "https://www.molberty.ru/professionalnye-molberty/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 6,
-          "name": "Станковые мольберты",
-          "item": "https://www.molberty.ru/molberty-stankovye/"
+        "price": 13500,
+        "seller": {
+          "@id": "https://www.molberty.ru/#organization"
         }
-      ]
-    }
-  ],
-  "molberty-transformery/index.html": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Главная",
-          "item": "https://www.molberty.ru/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Каталог",
-          "item": "https://www.molberty.ru/catalog/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Мольберты для художников",
-          "item": "https://www.molberty.ru/molberty-dlya-risovaniya-hudozhnikov/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Мольберты напольные",
-          "item": "https://www.molberty.ru/molberty-napolnye/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 5,
-          "name": "Профессиональные мольберты",
-          "item": "https://www.molberty.ru/professionalnye-molberty/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 6,
-          "name": "Мольберты трансформеры",
-          "item": "https://www.molberty.ru/molberty-transformery/"
-        }
-      ]
-    }
-  ],
-  "molberty-hlopushka/index.html": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Главная",
-          "item": "https://www.molberty.ru/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Каталог",
-          "item": "https://www.molberty.ru/catalog/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Мольберты для художников",
-          "item": "https://www.molberty.ru/molberty-dlya-risovaniya-hudozhnikov/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Мольберты напольные",
-          "item": "https://www.molberty.ru/molberty-napolnye/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 5,
-          "name": "Мольберты для художественной школы",
-          "item": "https://www.molberty.ru/molberty-dlya-hudozhestvennyh-shkol/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 6,
-          "name": "Мольберты Хлопушка",
-          "item": "https://www.molberty.ru/molberty-hlopushka/"
-        }
-      ]
-    }
-  ],
-  "molberty-dlya-hudozhestvennyh-shkol/index.html": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Главная",
-          "item": "https://www.molberty.ru/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Каталог",
-          "item": "https://www.molberty.ru/catalog/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Мольберты для художников",
-          "item": "https://www.molberty.ru/molberty-dlya-risovaniya-hudozhnikov/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Мольберты напольные",
-          "item": "https://www.molberty.ru/molberty-napolnye/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 5,
-          "name": "Мольберты для художественной школы",
-          "item": "https://www.molberty.ru/molberty-dlya-hudozhestvennyh-shkol/"
-        }
-      ]
-    }
-  ],
-  "molberty-iz-sosny/index.html": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Главная",
-          "item": "https://www.molberty.ru/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Каталог",
-          "item": "https://www.molberty.ru/catalog/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Мольберты для выставок",
-          "item": "https://www.molberty.ru/molberty-dlya-vystavki/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Мольберты для выставок из сосны",
-          "item": "https://www.molberty.ru/molberty-iz-sosny/"
-        }
-      ]
-    }
-  ],
-  "molbert-iz-buka/index.html": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Главная",
-          "item": "https://www.molberty.ru/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Каталог",
-          "item": "https://www.molberty.ru/catalog/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Мольберты для выставок",
-          "item": "https://www.molberty.ru/molberty-dlya-vystavki/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Мольберты для выставок из бука",
-          "item": "https://www.molberty.ru/molbert-iz-buka/"
-        }
-      ]
-    }
-  ],
-  "molberty-s-polkoj/index.html": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Главная",
-          "item": "https://www.molberty.ru/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Каталог",
-          "item": "https://www.molberty.ru/catalog/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Мольберты для художников",
-          "item": "https://www.molberty.ru/molberty-dlya-risovaniya-hudozhnikov/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Мольберты напольные",
-          "item": "https://www.molberty.ru/molberty-napolnye/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 5,
-          "name": "Мольберты для художественной школы",
-          "item": "https://www.molberty.ru/molberty-dlya-hudozhestvennyh-shkol/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 6,
-          "name": "Мольберты с полкой",
-          "item": "https://www.molberty.ru/molberty-s-polkoj/"
-        }
-      ]
-    }
-  ],
-  "stoly-skulptora/index.html": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Главная",
-          "item": "https://www.molberty.ru/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Каталог",
-          "item": "https://www.molberty.ru/catalog/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Оборудование для изостудии",
-          "item": "https://www.molberty.ru/oborudovanie-dlya-kabineta-izo/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Столы скульптора",
-          "item": "https://www.molberty.ru/stoly-skulptora/"
-        }
-      ]
-    }
-  ],
-  "product/stolik-skulptora-buk-fanera/index.html": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Главная",
-          "item": "https://www.molberty.ru/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Каталог",
-          "item": "https://www.molberty.ru/catalog/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Оборудование для изостудии",
-          "item": "https://www.molberty.ru/oborudovanie-dlya-kabineta-izo/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Столы скульптора",
-          "item": "https://www.molberty.ru/stoly-skulptora/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 5,
-          "name": "Столик скульптора (Бук, фанера)",
-          "item": "https://www.molberty.ru/product/stolik-skulptora-buk-fanera/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      "@id": "https://www.molberty.ru/product/stolik-skulptora-buk-fanera/#product",
-      "url": "https://www.molberty.ru/product/stolik-skulptora-buk-fanera/",
-      "name": "Столик скульптора (Бук, фанера)",
-      "description": "Высота — 900-1050 мм Диаметр — 350 мм Стол скульптора изготовлен из бука и водостойкой фанеры с тремя ножками, расположенными под небольшим углом для хорошей устойчивости. Круглая крышка стола вращается для удобства работы скульптора. Высота стола может меняться в пределах 15 см.",
-      "image": [
-        "https://www.molberty.ru/assets/catalog/b76eab60266cc911.webp"
-      ],
-      "offers": {
-        "@type": "Offer",
-        "url": "https://www.molberty.ru/product/stolik-skulptora-buk-fanera/",
-        "priceCurrency": "RUB",
-        "price": 7200
       }
     }
   ],
   "product/stol-skulptora-profi/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://www.molberty.ru/#organization",
+      "name": "Мольберты.ру",
+      "alternateName": "Мастерская Иванова Д. В.",
+      "url": "https://www.molberty.ru/",
+      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "logo": "https://www.molberty.ru/assets/logo.svg",
+      "email": "molberty@gmail.com",
+      "telephone": "+7 (925) 880-95-39",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Проектируемый проезд 4530, строение 2, завод «СпецМашМонтаж»",
+        "addressLocality": "Мытищи",
+        "addressRegion": "Московская область",
+        "addressCountry": "RU"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Розничные продажи",
+          "telephone": "+7 (925) 880-95-39",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Оптовые продажи",
+          "telephone": "+7 (926) 211-93-63",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        }
+      ]
+    },
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -614,8 +1010,250 @@
         "@type": "Offer",
         "url": "https://www.molberty.ru/product/stol-skulptora-profi/",
         "priceCurrency": "RUB",
-        "price": 11000
+        "price": 11000,
+        "seller": {
+          "@id": "https://www.molberty.ru/#organization"
+        }
       }
+    }
+  ],
+  "product/stolik-skulptora-buk-fanera/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://www.molberty.ru/#organization",
+      "name": "Мольберты.ру",
+      "alternateName": "Мастерская Иванова Д. В.",
+      "url": "https://www.molberty.ru/",
+      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "logo": "https://www.molberty.ru/assets/logo.svg",
+      "email": "molberty@gmail.com",
+      "telephone": "+7 (925) 880-95-39",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Проектируемый проезд 4530, строение 2, завод «СпецМашМонтаж»",
+        "addressLocality": "Мытищи",
+        "addressRegion": "Московская область",
+        "addressCountry": "RU"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Розничные продажи",
+          "telephone": "+7 (925) 880-95-39",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Оптовые продажи",
+          "telephone": "+7 (926) 211-93-63",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.molberty.ru/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Каталог",
+          "item": "https://www.molberty.ru/catalog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Оборудование для изостудии",
+          "item": "https://www.molberty.ru/oborudovanie-dlya-kabineta-izo/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Столы скульптора",
+          "item": "https://www.molberty.ru/stoly-skulptora/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Столик скульптора (Бук, фанера)",
+          "item": "https://www.molberty.ru/product/stolik-skulptora-buk-fanera/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "@id": "https://www.molberty.ru/product/stolik-skulptora-buk-fanera/#product",
+      "url": "https://www.molberty.ru/product/stolik-skulptora-buk-fanera/",
+      "name": "Столик скульптора (Бук, фанера)",
+      "description": "Высота — 900-1050 мм Диаметр — 350 мм Стол скульптора изготовлен из бука и водостойкой фанеры с тремя ножками, расположенными под небольшим углом для хорошей устойчивости. Круглая крышка стола вращается для удобства работы скульптора. Высота стола может меняться в пределах 15 см.",
+      "image": [
+        "https://www.molberty.ru/assets/catalog/b76eab60266cc911.webp"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.molberty.ru/product/stolik-skulptora-buk-fanera/",
+        "priceCurrency": "RUB",
+        "price": 7200,
+        "seller": {
+          "@id": "https://www.molberty.ru/#organization"
+        }
+      }
+    }
+  ],
+  "professionalnye-molberty/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://www.molberty.ru/#organization",
+      "name": "Мольберты.ру",
+      "alternateName": "Мастерская Иванова Д. В.",
+      "url": "https://www.molberty.ru/",
+      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "logo": "https://www.molberty.ru/assets/logo.svg",
+      "email": "molberty@gmail.com",
+      "telephone": "+7 (925) 880-95-39",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Проектируемый проезд 4530, строение 2, завод «СпецМашМонтаж»",
+        "addressLocality": "Мытищи",
+        "addressRegion": "Московская область",
+        "addressCountry": "RU"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Розничные продажи",
+          "telephone": "+7 (925) 880-95-39",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Оптовые продажи",
+          "telephone": "+7 (926) 211-93-63",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.molberty.ru/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Каталог",
+          "item": "https://www.molberty.ru/catalog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Мольберты для художников",
+          "item": "https://www.molberty.ru/molberty-dlya-risovaniya-hudozhnikov/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Мольберты напольные",
+          "item": "https://www.molberty.ru/molberty-napolnye/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Профессиональные мольберты",
+          "item": "https://www.molberty.ru/professionalnye-molberty/"
+        }
+      ]
+    }
+  ],
+  "stoly-skulptora/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://www.molberty.ru/#organization",
+      "name": "Мольберты.ру",
+      "alternateName": "Мастерская Иванова Д. В.",
+      "url": "https://www.molberty.ru/",
+      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "logo": "https://www.molberty.ru/assets/logo.svg",
+      "email": "molberty@gmail.com",
+      "telephone": "+7 (925) 880-95-39",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Проектируемый проезд 4530, строение 2, завод «СпецМашМонтаж»",
+        "addressLocality": "Мытищи",
+        "addressRegion": "Московская область",
+        "addressCountry": "RU"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Розничные продажи",
+          "telephone": "+7 (925) 880-95-39",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Оптовые продажи",
+          "telephone": "+7 (926) 211-93-63",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.molberty.ru/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Каталог",
+          "item": "https://www.molberty.ru/catalog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Оборудование для изостудии",
+          "item": "https://www.molberty.ru/oborudovanie-dlya-kabineta-izo/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Столы скульптора",
+          "item": "https://www.molberty.ru/stoly-skulptora/"
+        }
+      ]
     }
   ]
 }

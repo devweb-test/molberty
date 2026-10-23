@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "pages": 139,
+  "redirectsExcluded": 25,
+  "jsonLdBlocks": 369,
+  "organizationNodes": 139,
+  "linkedProductOffers": 91,
+  "errors": [],
+  "warnings": [],
+  "logo": {
+    "file": "assets/logo.svg",
+    "width": 512,
+    "height": 512
+  },
+  "officialVocabulary": {
+    "types": 4,
+    "properties": 23
+  },
+  "checkedAt": "2026-10-23T16:00:47.205198+03:00",
+  "externalValidator": {
+    "service": "Schema.org Markup Validator",
+    "url": "https://validator.schema.org/",
+    "mode": "code input; full static page HTML",
+    "checkedAt": "2026-10-23T13:03:04.929Z",
+    "passed": true,
+    "results": [
+      {
+        "page": "/",
+        "httpStatus": 200,
+        "errors": 0,
+        "warnings": 0,
+        "items": 2,
+        "detectedTypes": [
+          "Organization",
+          "BreadcrumbList"
+        ]
+      },
+      {
+        "page": "/contacts/",
+        "httpStatus": 200,
+        "errors": 0,
+        "warnings": 0,
+        "items": 2,
+        "detectedTypes": [
+          "Organization",
+          "BreadcrumbList"
+        ]
+      },
+      {
+        "page": "/product/bolshoy-stankovyy-buk/",
+        "httpStatus": 200,
+        "errors": 0,
+        "warnings": 0,
+        "items": 2,
+        "detectedTypes": [
+          "BreadcrumbList",
+          "Product"
+        ]
+      }
+    ]
+  },
+  "browser": {
+    "passed": true,
+    "runtimePages": 3,
+    "noJavaScriptPages": 3,
+    "priceChanges": 3,
+    "sellerPreserved": true,
+    "logoHttpStatus": 200,
+    "errors": []
+  },
+  "generatorProductSchemasChecked": 91,
+  "schemaExamplePages": 16
+}

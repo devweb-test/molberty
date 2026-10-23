@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.molberty.ru/#organization",
+  "name": "Мольберты.ру",
+  "alternateName": "Мастерская Иванова Д. В.",
+  "url": "https://www.molberty.ru/",
+  "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+  "logo": "https://www.molberty.ru/assets/logo.svg",
+  "email": "molberty@gmail.com",
+  "telephone": "+7 (925) 880-95-39",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Проектируемый проезд 4530, строение 2, завод «СпецМашМонтаж»",
+    "addressLocality": "Мытищи",
+    "addressRegion": "Московская область",
+    "addressCountry": "RU"
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "Розничные продажи",
+      "telephone": "+7 (925) 880-95-39",
+      "email": "molberty@gmail.com",
+      "availableLanguage": "ru",
+      "url": "https://www.molberty.ru/contacts/"
+    },
+    {
+      "@type": "ContactPoint",
+      "contactType": "Оптовые продажи",
+      "telephone": "+7 (926) 211-93-63",
+      "email": "molberty@gmail.com",
+      "availableLanguage": "ru",
+      "url": "https://www.molberty.ru/contacts/"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 from pathlib import Path
-import json,html,os,hashlib
+import json,html,os,hashlib,re
 from legal_content import cookie_markup, document_markup
 ROOT=Path(__file__).resolve().parents[1]
 # Word taxonomy with the user's subsequent amendments; the original DOC stays unchanged.
@@ -102,15 +102,17 @@ data={'categories':cats,'products':products,'articles':articles,'showcase':showc
 legal_pages=json.loads((ROOT/'data/legal-pages.json').read_text())
 (ROOT/'assets/legal.js').write_text('window.LEGAL_PAGES='+json.dumps(legal_pages,ensure_ascii=False,separators=(',',':'))+';\n')
 BASE='https://www.molberty.ru/'
+ORGANIZATION=json.loads((ROOT/'data/organization.json').read_text())
 def category_trail(id):
  return [(by_id[c]['name'],c+'/') for c in by_id[id]['pathIds']]
 def structured(trail,product=None):
- blocks=[('breadcrumb-schema',{'@context':'https://schema.org','@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':i+1,'name':name,'item':BASE+route} for i,(name,route) in enumerate(trail)]})]
+ blocks=[('organization-schema',ORGANIZATION),('breadcrumb-schema',{'@context':'https://schema.org','@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':i+1,'name':name,'item':BASE+route} for i,(name,route) in enumerate(trail)]})]
  if product:
   offer={'@type':'Offer','url':BASE+'product/'+product['id']+'/','priceCurrency':'RUB','price':product['defaultPrice']}
   if product['retailFrom']:
    offer={'@type':'AggregateOffer','url':offer['url'],'priceCurrency':'RUB','lowPrice':product['defaultPrice']}
   elif product['minimumOrder']>1:offer['eligibleQuantity']={'@type':'QuantitativeValue','minValue':product['minimumOrder']}
+  offer['seller']={'@id':ORGANIZATION['@id']}
   blocks.append(('product-schema',{'@context':'https://schema.org','@type':'Product','@id':BASE+'product/'+product['id']+'/#product','url':BASE+'product/'+product['id']+'/','name':product['name'],'description':product['description'],'image':[BASE+'assets/'+img['file'] for img in product['gallery']],'offers':offer}))
  return ''.join('<script id="'+id+'" type="application/ld+json">'+json.dumps(obj,ensure_ascii=False).replace('<','\\u003c')+'</script>' for id,obj in blocks)
 def shell(title,content,prefix='',desc=None,trail=None,product=None):
@@ -156,4 +158,8 @@ for old,new in redirects.items():
 (ROOT/'data/redirects.json').write_text(json.dumps(redirects,ensure_ascii=False,indent=2))
 summary={'document':'data/catalog-structure.doc','documentSha256':structure['documentSha256'],'amendments':structure.get('amendments',[]),'categoryCount':len(cats),'productCount':len(products),'galleryCount':sum(len(p['gallery']) for p in products),'newCount':sum(p['isNew'] for p in products),'roots':{c['role']:sum(c['id'] in p['categories'] for p in products) for c in cats if not c['parentId']},'categoryProducts':{c['id']:[p['id'] for p in products if c['id'] in p['categories']] for c in cats},'redirectCount':len(redirects)}
 (ROOT/'data/structure-report.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2))
+examples_path=ROOT/'qa/generated-schema.json'
+example_routes=set(json.loads(examples_path.read_text()))|{'index.html','contacts/index.html'}
+examples={route:[json.loads(value) for value in re.findall(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>',(ROOT/route).read_text())] for route in sorted(example_routes)}
+examples_path.write_text(json.dumps(examples,ensure_ascii=False,indent=2)+'\n')
 print('Document hierarchy:',len(root_ids),'roots,',len(cats),'categories,',len(products),'current products.')
