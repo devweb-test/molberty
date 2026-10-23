@@ -1,3 +1,4 @@
+const {acceptCookieNotice}=require('./test-helpers.cjs');
 const {chromium}=require('playwright'),assert=require('node:assert/strict'),fs=require('node:fs');
 const base=process.env.PREVIEW_URL||'http://127.0.0.1:4173/';
 const audit=()=>{
@@ -8,7 +9,7 @@ const audit=()=>{
 (async()=>{
  const browser=await chromium.launch({headless:true}),errors=[];
  try{
-  const context=await browser.newContext({viewport:{width:1440,height:1000}});await context.addInitScript(audit);
+  const context=await browser.newContext({viewport:{width:1440,height:1000}});await acceptCookieNotice(context);await context.addInitScript(audit);
   const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
   const go=async route=>{await page.goto(new URL(route,base).href,{waitUntil:'domcontentloaded'});await page.evaluate(()=>document.documentElement.style.scrollBehavior='auto')};
   const count=selector=>page.locator(selector).first().evaluate(element=>window.motionAudit.filter(r=>r.element===element&&r.animation.id==='site-scroll-reveal').length);
@@ -51,7 +52,7 @@ const audit=()=>{
   for(const width of [320,390,768,1440]){await page.setViewportSize({width,height:950});for(const route of ['', 'catalog/','product/bolshoy-stankovyy-buk/','blog/','prices/']){await go(route);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),route+' '+width)}}
   const plainContext=await browser.newContext({javaScriptEnabled:false}),plain=await plainContext.newPage();
   await plain.goto(base);assert.ok(await plain.locator('main h1').isVisible());assert.equal(await plain.locator('.case-card').first().evaluate(e=>getComputedStyle(e).opacity),'1');
-  const noObserver=await browser.newContext();await noObserver.addInitScript(()=>{window.IntersectionObserver=undefined});const fallback=await noObserver.newPage();fallback.on('pageerror',e=>errors.push(e.message));
+  const noObserver=await browser.newContext();await acceptCookieNotice(noObserver);await noObserver.addInitScript(()=>{window.IntersectionObserver=undefined});const fallback=await noObserver.newPage();fallback.on('pageerror',e=>errors.push(e.message));
   await fallback.goto(base,{waitUntil:'domcontentloaded'});await fallback.locator('.category-tile').first().scrollIntoViewIfNeeded();assert.equal(await fallback.locator('.category-tile').first().evaluate(e=>getComputedStyle(e).opacity),'1');await fallback.locator('.header-contact [data-callback]').click();assert.ok(await fallback.locator('#request-dialog').isVisible());
   assert.deepEqual(errors,[]);
   fs.writeFileSync('qa/scroll-motion-test-result.json',JSON.stringify({passed:true,checkedAt:new Date().toISOString(),checks:['viewport reveal and bounded stagger','first screen entrance','content visible without enhancement','one-time playback','focus cancels reveal','dynamic filter cards and removed-node cleanup','live reduced motion','print and restored-page cleanup','no-JavaScript and no-IntersectionObserver fallbacks','responsive overflow'],viewports:[320,390,768,1440]},null,2));

@@ -6,6 +6,6 @@
   "scripts": {
     "start": "python3 serve.py",
     "build": "python3 scripts/draw.py && python3 scripts/build.py",
-    "check": "node --check assets/app.js && node --check assets/motion.js && python3 scripts/check.py"
+    "check": "node --check assets/app.js && node --check assets/cookies.js && node --check assets/legal.js && node --check assets/motion.js && python3 scripts/check.py"
   }
 }

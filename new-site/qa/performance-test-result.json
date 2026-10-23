@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "checkedAt": "2026-10-23T10:33:44.758Z",
+  "checkedAt": "2026-10-23T11:17:34.210Z",
   "routes": [
     "",
     "catalog/",
@@ -12,6 +12,7 @@
     "delivery/",
     "guide/",
     "privacy/",
+    "consent/",
     "blog/",
     "blog/kak-vybrat-molbert/"
   ],

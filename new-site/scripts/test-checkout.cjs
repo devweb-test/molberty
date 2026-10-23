@@ -1,8 +1,9 @@
+const {acceptCookieNotice}=require('./test-helpers.cjs');
 const {chromium}=require('playwright'),assert=require('node:assert/strict'),fs=require('node:fs');
 const base=process.env.PREVIEW_URL||'http://127.0.0.1:4173/';
 const amount=async locator=>Number((await locator.textContent()).replace(/\D/g,''));
 (async()=>{const browser=await chromium.launch({headless:true});try{
- const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
+ const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];await acceptCookieNotice(page);page.on('pageerror',e=>errors.push(e.message));
  const go=route=>page.goto(new URL(route,base).href,{waitUntil:'domcontentloaded'});
  const open=async()=>{await page.locator('.header-actions [data-selection]').click();await page.locator('#dialog-content [data-checkout]').click()};
  await go('');await page.evaluate(()=>{

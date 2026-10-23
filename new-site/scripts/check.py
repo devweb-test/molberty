@@ -166,3 +166,21 @@ for role,old,new in [('exhibitions/pine','vystavochnye-molberty-iz-sosny','molbe
   if '<main id="main">' in text:
    assert not any(old+'/' in href for href in re.findall(r'href="([^"]+)"',text)),str(file)+' old exhibition link'
 print('Переадресация старых категорий и карточек: OK')
+
+# Legal documents and the shared cookie component are delivered as static HTML.
+legal=json.loads((root/'data/legal-pages.json').read_text())
+assert (root/'assets/legal.js').read_text()=='window.LEGAL_PAGES='+json.dumps(legal,ensure_ascii=False,separators=(',',':'))+';\n'
+for id,document in legal.items():
+ text=(root/id/'index.html').read_text()
+ assert Page(text).heading==document['title']
+ assert document['html'] in text
+ assert 'assets/legal.js' in text
+ assert 'orlan' not in text.lower() and 'орлан' not in text.lower()
+ assert 'molberty@gmail.com' in text
+for file in root.rglob('index.html'):
+ text=file.read_text()
+ if '<main id="main">' not in text:continue
+ assert text.count('id="cookie-notice"')==1 and text.count('assets/cookies.js')==1,file
+ assert '>Обработка данных</a>' not in text,file
+ assert 'Политика конфиденциальности</a><span>Создано для творчества' in text,file
+print('Политика, соглашение, общий cookie-компонент и ссылки футера: OK')

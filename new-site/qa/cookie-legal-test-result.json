@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-23T11:16:27.256Z",
+  "checks": [
+    "exact cookie message and policy link",
+    "notice works before catalogue data loads",
+    "non-modal, no forced focus",
+    "responsive notice including 320×360",
+    "reduced motion",
+    "explicit acceptance only",
+    "persistence across reload and product/service pages",
+    "cross-tab decision synchronization",
+    "graceful disabled storage",
+    "reset through clear saved data",
+    "both legal documents and adapted contacts",
+    "updated footer link",
+    "static content without JavaScript",
+    "explicit export mode"
+  ],
+  "legalBlocks": {
+    "privacy": 56,
+    "consent": 5
+  }
+}

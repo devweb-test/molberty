@@ -1,9 +1,10 @@
+const {acceptCookieNotice}=require('./test-helpers.cjs');
 // Regression: the first screen must survive runtime initialization unchanged.
 const {chromium}=require('playwright'),assert=require('node:assert/strict'),fs=require('node:fs');
 const base=process.env.PREVIEW_URL||'http://127.0.0.1:4173/';
-const routes=['','catalog/','molberty-stankovye/','product/bolshoy-stankovyy-buk/','prices/','contacts/','about/','delivery/','guide/','privacy/','blog/','blog/kak-vybrat-molbert/'];
+const routes=['','catalog/','molberty-stankovye/','product/bolshoy-stankovyy-buk/','prices/','contacts/','about/','delivery/','guide/','privacy/','consent/','blog/','blog/kak-vybrat-molbert/'];
 (async()=>{const browser=await chromium.launch({headless:true});try{
- const context=await browser.newContext({viewport:{width:1440,height:1000},reducedMotion:'reduce'});await context.route('**/*',r=>new URL(r.request().url()).origin===new URL(base).origin?r.continue():r.abort());
+ const context=await browser.newContext({viewport:{width:1440,height:1000},reducedMotion:'reduce'});await acceptCookieNotice(context);await context.route('**/*',r=>new URL(r.request().url()).origin===new URL(base).origin?r.continue():r.abort());
  const errors=[],page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
  for(const route of routes){
   let release;const gate=new Promise(resolve=>{release=resolve});

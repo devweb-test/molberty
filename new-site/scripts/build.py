@@ -1,5 +1,6 @@
 from pathlib import Path
 import json,html,os,hashlib
+from legal_content import cookie_markup, document_markup
 ROOT=Path(__file__).resolve().parents[1]
 # Word taxonomy with the user's subsequent amendments; the original DOC stays unchanged.
 structure=json.loads((ROOT/'data/catalog-structure.json').read_text())
@@ -98,6 +99,8 @@ company=json.loads((ROOT/'data/company.json').read_text())
 data={'categories':cats,'products':products,'articles':articles,'showcase':showcase,'prices':prices,'priceProductLinks':price_links['links'],'sales':sales,'company':company,'legacyIdMap':source['legacyIdMap'],'categoryRoots':root_ids,'categoryRoles':roles}
 (ROOT/'data/catalog.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
 (ROOT/'assets/data.js').write_text('window.CATALOG = '+json.dumps(data,ensure_ascii=False)+';')
+legal_pages=json.loads((ROOT/'data/legal-pages.json').read_text())
+(ROOT/'assets/legal.js').write_text('window.LEGAL_PAGES='+json.dumps(legal_pages,ensure_ascii=False,separators=(',',':'))+';\n')
 BASE='https://www.molberty.ru/'
 def category_trail(id):
  return [(by_id[c]['name'],c+'/') for c in by_id[id]['pathIds']]
@@ -113,18 +116,21 @@ def structured(trail,product=None):
 def shell(title,content,prefix='',desc=None,trail=None,product=None):
  schema=structured(trail or [('Главная','')],product)
  canonical=BASE+(trail[-1][1] if trail else '')
- return f'''<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="{html.escape(desc or 'Мольберты и оборудование для изостудий из натурального дерева. Мастерская Иванова Д. В. С 1991 года.')}"><meta name="robots" content="noindex, nofollow"><meta name="theme-color" content="#34483d"><link rel="canonical" href="{canonical}">{schema}<title>{html.escape(title)} — Мольберты.ру</title><link rel="icon" href="{prefix}assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="{prefix}assets/style.css"><link rel="stylesheet" href="{prefix}assets/motion.css"><script>window.SITE_ROOT={json.dumps(prefix)};</script><script defer src="{prefix}assets/data.js"></script><script defer src="{prefix}assets/app.js"></script><script defer src="{prefix}assets/motion.js"></script></head><body><a class="skip" href="#main">Перейти к содержимому</a><div id="header"></div><main id="main">{content}</main><div id="footer"></div><dialog id="request-dialog"><button class="close" data-close aria-label="Закрыть">×</button><div id="dialog-content"></div></dialog><dialog id="image-dialog" aria-label="Просмотр изображения"><button class="close" data-image-close aria-label="Закрыть изображение">×</button><div class="image-viewer-toolbar"><button data-zoom="out" aria-label="Уменьшить">−</button><button data-zoom="reset">100%</button><button data-zoom="in" aria-label="Увеличить">+</button></div><div class="image-viewer-stage"><img id="viewer-image" alt=""></div><p id="viewer-caption"></p><a id="viewer-document" target="_blank" rel="noopener">Открыть PDF ↗</a></dialog><button class="back-top" data-top aria-label="Наверх страницы" hidden>↑</button><div id="toast" role="status"></div></body></html>'''
+ legal_script=f'<script defer src="{prefix}assets/legal.js"></script>' if trail and trail[-1][1] in ('privacy/','consent/') else ''
+ return f'''<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="{html.escape(desc or 'Мольберты и оборудование для изостудий из натурального дерева. Мастерская Иванова Д. В. С 1991 года.')}"><meta name="robots" content="noindex, nofollow"><meta name="theme-color" content="#34483d"><link rel="canonical" href="{canonical}">{schema}<title>{html.escape(title)} — Мольберты.ру</title><link rel="icon" href="{prefix}assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="{prefix}assets/style.css"><link rel="stylesheet" href="{prefix}assets/motion.css"><script>window.SITE_ROOT={json.dumps(prefix)};</script><script defer src="{prefix}assets/cookies.js"></script>{legal_script}<script defer src="{prefix}assets/data.js"></script><script defer src="{prefix}assets/app.js"></script><script defer src="{prefix}assets/motion.js"></script></head><body><a class="skip" href="#main">Перейти к содержимому</a><div id="header"></div><main id="main">{content}</main><div id="footer"></div>{cookie_markup(prefix)}<dialog id="request-dialog"><button class="close" data-close aria-label="Закрыть">×</button><div id="dialog-content"></div></dialog><dialog id="image-dialog" aria-label="Просмотр изображения"><button class="close" data-image-close aria-label="Закрыть изображение">×</button><div class="image-viewer-toolbar"><button data-zoom="out" aria-label="Уменьшить">−</button><button data-zoom="reset">100%</button><button data-zoom="in" aria-label="Увеличить">+</button></div><div class="image-viewer-stage"><img id="viewer-image" alt=""></div><p id="viewer-caption"></p><a id="viewer-document" target="_blank" rel="noopener">Открыть PDF ↗</a></dialog><button class="back-top" data-top aria-label="Наверх страницы" hidden>↑</button><div id="toast" role="status"></div></body></html>'''
 (ROOT/'index.html').write_text(shell('Место, где начинается творчество','<div id="home"></div>'))
 for c in cats:
  d=ROOT/c['id'];d.mkdir(exist_ok=True)
  body=f'<div id="category" data-id="{c["id"]}"></div>'
  (d/'index.html').write_text(shell(c['name'],body,'../',c['description'],[('Главная',''),('Каталог','catalog/')]+category_trail(c['id'])))
-for name,title in [('catalog','Каталог мольбертов и оборудования'),('about','Мастерская'),('contacts','Контакты'),('guide','Как выбрать мольберт'),('delivery','Доставка и оплата заказа'),('prices','Цены'),('privacy','Обработка данных')]:
- d=ROOT/name;d.mkdir(exist_ok=True);(d/'index.html').write_text(shell(title,f'<div id="{name}"></div>','../',trail=[('Главная',''),(title,name+'/')]))
+for name,title in [('catalog','Каталог мольбертов и оборудования'),('about','Мастерская'),('contacts','Контакты'),('guide','Как выбрать мольберт'),('delivery','Доставка и оплата заказа'),('prices','Цены'),('privacy','Политика конфиденциальности'),('consent','Соглашение на обработку персональных данных')]:
+ d=ROOT/name;d.mkdir(exist_ok=True)
+ body=document_markup(name) if name in legal_pages else f'<div id="{name}"></div>'
+ (d/'index.html').write_text(shell(title,body,'../',desc=legal_pages[name]['description'] if name in legal_pages else None,trail=[('Главная',''),(title,name+'/')]))
 for item in products:
  d=ROOT/'product'/item['id'];d.mkdir(parents=True,exist_ok=True)
  (d/'index.html').write_text(shell(item['name'],f'<div id="product" data-id="{item["id"]}"></div>','../../',item['description'],[('Главная',''),('Каталог','catalog/')]+category_trail(item['primaryCategoryId'])+[(item['name'],'product/'+item['id']+'/')],item))
-print(f'Built home, {len(cats)} categories, {len(products)} products, 7 service pages.')
+print(f'Built home, {len(cats)} categories, {len(products)} products, 8 service pages.')
 
 # Editorial routes share the global shell and are included in every rebuild.
 blog=ROOT/'blog';blog.mkdir(exist_ok=True)

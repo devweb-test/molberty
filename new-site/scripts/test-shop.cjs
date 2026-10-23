@@ -1,9 +1,10 @@
+const {acceptCookieNotice}=require('./test-helpers.cjs');
 // Run against serve.py: NODE_PATH=<playwright path> PREVIEW_URL=http://127.0.0.1:4175/ node scripts/test-shop.cjs
 const {chromium}=require('playwright');
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
 const data=require('../data/catalog.json'),base=process.env.PREVIEW_URL||'http://127.0.0.1:4173/';
 const number=async locator=>Number((await locator.textContent()).replace(/[^\d]/g,''));
-(async()=>{const browser=await chromium.launch({headless:true}),page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
+(async()=>{const browser=await chromium.launch({headless:true}),page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];await acceptCookieNotice(page);page.on('pageerror',e=>errors.push(e.message));
 const go=route=>page.goto(new URL(route,base).href,{waitUntil:'domcontentloaded'}).then(()=>page.locator('main h1').waitFor());
 await go('');await page.evaluate(()=>localStorage.setItem('molberty-selection',JSON.stringify({old:{productId:'taburet-vysokiy',tier:'retail',indices:[],quantity:2}})));await page.reload();await page.locator('[data-selection]').click();assert.equal(await page.locator('.selection-row').count(),1);assert.match(await page.locator('.selection-row a').textContent(),/Табурет высокий \(бук\)/);assert.equal(await page.locator('[data-qty]').inputValue(),'2');await page.evaluate(()=>localStorage.removeItem('molberty-selection'));
 await go('product/bolshoy-stankovyy-buk/');
