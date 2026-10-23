@@ -192,6 +192,7 @@ for file in root.rglob('index.html'):
  prefix='../'*len(file.relative_to(root).parts[:-1])
  canonical=re.search(r'<link rel="canonical" href="([^"]+)"',text)[1]
  assert text.count('id="mobile-bottom-nav"')==1,file
+ assert text.count('class="header-call"')==1 and 'class="header-call" href="tel:+79258809539"' in text,file
  assert mobile_navigation(prefix,canonical) in text,file
  assert 'width=device-width,initial-scale=1,viewport-fit=cover' in text,file
  mobile_pages+=1

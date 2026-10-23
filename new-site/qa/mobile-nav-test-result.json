@@ -1,10 +1,11 @@
 {
   "passed": true,
-  "checkedAt": "2026-10-23T14:34:30.605Z",
+  "checkedAt": "2026-10-23T14:53:34.228Z",
   "checks": [
     "four mobile destinations and active page/section",
     "fixed bar with 44px+ targets at 320–900px",
     "hidden on desktop",
+    "mobile header call link replaces duplicate cart; desktop cart stays functional",
     "working nested links and no-JavaScript navigation",
     "shared cart, quantity updates, removals and persistence",
     "closing header menu before cart",
