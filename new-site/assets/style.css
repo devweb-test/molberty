@@ -119,3 +119,6 @@ dialog.wide-dialog{width:min(1080px,calc(100% - 48px));max-width:none;padding:45
 .checkout-review>div>.text-link{background:transparent;padding:0;text-align:left;font-size:14px}
 @media(max-width:760px){.checkout-layout,.checkout-review{grid-template-columns:minmax(0,1fr);gap:26px}.checkout-summary{padding:18px}.checkout-submit{justify-self:stretch}.checkout-summary-heading h3{font-size:22px}}
 @media(max-width:360px){.checkout-summary{padding:14px}.checkout-item{grid-template-columns:48px minmax(0,1fr);gap:8px 10px}.checkout-item img{width:48px;height:65px}.checkout-item-info>a{font-size:14px}.checkout-total strong{font-size:23px}.checkout-summary-heading h3{font-size:20px}#request-form .delivery-choice{padding:12px}}
+
+/* Shared footer price notice. */
+.footer-disclaimer{margin-block:0;padding-bottom:22px;font-size:13px;line-height:1.7;color:#435640}
