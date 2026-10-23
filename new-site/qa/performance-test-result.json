@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-23T10:33:44.758Z",
+  "routes": [
+    "",
+    "catalog/",
+    "molberty-stankovye/",
+    "product/bolshoy-stankovyy-buk/",
+    "prices/",
+    "contacts/",
+    "about/",
+    "delivery/",
+    "guide/",
+    "privacy/",
+    "blog/",
+    "blog/kak-vybrat-molbert/"
+  ],
+  "checks": [
+    "first-screen DOM identity before and after delayed app.js",
+    "no reload of existing map, gallery, product results or price tables",
+    "header/footer preserved",
+    "description and canonical unchanged",
+    "catalog search and reset",
+    "price search and reset",
+    "callback form",
+    "explicit prerender mode"
+  ]
+}

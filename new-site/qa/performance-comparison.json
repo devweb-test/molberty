@@ -1,0 +1,1994 @@
+{
+  "checkedAt": "2026-10-23T10:37:18.527Z",
+  "method": {
+    "kind": "Three cold runs per version and URL; median, alternating before/after order; local laboratory comparison, not field CWV or Lighthouse",
+    "before": "Unmodified v20 ZIP, original uncompressed serve.py",
+    "after": "Current version, existing HTML retained and negotiated gzip",
+    "viewport": "390×844",
+    "cpuSlowdown": 4,
+    "latencyMs": 150,
+    "downloadBytesPerSecond": 204800,
+    "uploadBytesPerSecond": 96000,
+    "externalRequests": "Blocked in both versions; map vendor payload excluded",
+    "INP": "Not measured",
+    "CLS": "Maximum 5-second session window; 1-second gap; no recent user input"
+  },
+  "results": [
+    {
+      "route": "/catalog/",
+      "before": {
+        "lcpMs": 6596,
+        "cls": 0.017425745121576165,
+        "encodedBytes": 1213774,
+        "domContentLoadedMs": 6624,
+        "runs": [
+          {
+            "lcpMs": 6664,
+            "cls": 0.017425745121576165,
+            "encodedBytes": 1213774
+          },
+          {
+            "lcpMs": 6596,
+            "cls": 0.017425745121576165,
+            "encodedBytes": 1213774
+          },
+          {
+            "lcpMs": 6572,
+            "cls": 0.017425745121576165,
+            "encodedBytes": 1213774
+          }
+        ]
+      },
+      "after": {
+        "lcpMs": 684,
+        "cls": 0.017141885362079206,
+        "encodedBytes": 310970,
+        "domContentLoadedMs": 1729,
+        "runs": [
+          {
+            "lcpMs": 684,
+            "cls": 0,
+            "encodedBytes": 310970
+          },
+          {
+            "lcpMs": 684,
+            "cls": 0.017141885362079206,
+            "encodedBytes": 310970
+          },
+          {
+            "lcpMs": 664,
+            "cls": 0.017182436756293055,
+            "encodedBytes": 310970
+          }
+        ]
+      },
+      "lcpImprovementPercent": 90,
+      "transferReductionPercent": 74
+    },
+    {
+      "route": "/prices/",
+      "before": {
+        "lcpMs": 5760,
+        "cls": 0.015047882906309267,
+        "encodedBytes": 1078448,
+        "domContentLoadedMs": 5776,
+        "runs": [
+          {
+            "lcpMs": 5760,
+            "cls": 0.015047882906309267,
+            "encodedBytes": 1078448
+          },
+          {
+            "lcpMs": 5820,
+            "cls": 0.015047882906309267,
+            "encodedBytes": 1078448
+          },
+          {
+            "lcpMs": 5760,
+            "cls": 0.015047882906309267,
+            "encodedBytes": 1078448
+          }
+        ]
+      },
+      "after": {
+        "lcpMs": 740,
+        "cls": 0.015132386387524415,
+        "encodedBytes": 244881,
+        "domContentLoadedMs": 1395,
+        "runs": [
+          {
+            "lcpMs": 692,
+            "cls": 0.015132386387524415,
+            "encodedBytes": 244881
+          },
+          {
+            "lcpMs": 740,
+            "cls": 0.01517652430227395,
+            "encodedBytes": 244881
+          },
+          {
+            "lcpMs": 764,
+            "cls": 0.012978676081411306,
+            "encodedBytes": 244881
+          }
+        ]
+      },
+      "lcpImprovementPercent": 87,
+      "transferReductionPercent": 77
+    },
+    {
+      "route": "/contacts/",
+      "before": {
+        "lcpMs": 5652,
+        "cls": 0.0008647402025491859,
+        "encodedBytes": 1051689,
+        "domContentLoadedMs": 5665,
+        "runs": [
+          {
+            "lcpMs": 5652,
+            "cls": 0.0008647402025491859,
+            "encodedBytes": 1051689
+          },
+          {
+            "lcpMs": 5668,
+            "cls": 0.0008647402025491859,
+            "encodedBytes": 1051689
+          },
+          {
+            "lcpMs": 5628,
+            "cls": 0.0008647402025491859,
+            "encodedBytes": 1051689
+          }
+        ]
+      },
+      "after": {
+        "lcpMs": 684,
+        "cls": 0.0008647402025491859,
+        "encodedBytes": 242251,
+        "domContentLoadedMs": 1462,
+        "runs": [
+          {
+            "lcpMs": 704,
+            "cls": 0.0008647402025491859,
+            "encodedBytes": 242251
+          },
+          {
+            "lcpMs": 684,
+            "cls": 0.0008647402025491859,
+            "encodedBytes": 242251
+          },
+          {
+            "lcpMs": 672,
+            "cls": 0.0008647402025491859,
+            "encodedBytes": 242251
+          }
+        ]
+      },
+      "lcpImprovementPercent": 88,
+      "transferReductionPercent": 77
+    }
+  ],
+  "samples": [
+    {
+      "version": "before",
+      "route": "/catalog/",
+      "run": 1,
+      "metrics": {
+        "lcp": 6664,
+        "shifts": [
+          {
+            "value": 0.017425745121576165,
+            "time": 4452.699999928474
+          }
+        ],
+        "longTasks": [
+          {
+            "start": 1777.7999999523163,
+            "duration": 149
+          },
+          {
+            "start": 6182,
+            "duration": 435
+          }
+        ],
+        "lcpElement": "H1.",
+        "cls": 0.017425745121576165
+      },
+      "navigation": {
+        "ttfb": 15.899999976158142,
+        "domContentLoaded": 6689.600000023842,
+        "load": 6691.199999928474,
+        "encodedBodySize": 120430
+      },
+      "resources": [
+        {
+          "url": "/assets/style.css",
+          "type": "link",
+          "transferSize": 109751,
+          "encodedBodySize": 109451,
+          "decodedBodySize": 109451,
+          "duration": 1559.3000000715256
+        },
+        {
+          "url": "/assets/motion.css",
+          "type": "link",
+          "transferSize": 7173,
+          "encodedBodySize": 6873,
+          "decodedBodySize": 6873,
+          "duration": 282.90000009536743
+        },
+        {
+          "url": "/assets/data.js",
+          "type": "script",
+          "transferSize": 550684,
+          "encodedBodySize": 550384,
+          "decodedBodySize": 550384,
+          "duration": 5943.300000071526
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "script",
+          "transferSize": 95522,
+          "encodedBodySize": 95222,
+          "decodedBodySize": 95222,
+          "duration": 3811.7999999523163
+        },
+        {
+          "url": "/assets/motion.js",
+          "type": "script",
+          "transferSize": 11788,
+          "encodedBodySize": 11488,
+          "decodedBodySize": 11488,
+          "duration": 1898.5
+        },
+        {
+          "url": "/assets/manrope.ttf",
+          "type": "css",
+          "transferSize": 165000,
+          "encodedBodySize": 164700,
+          "decodedBodySize": 164700,
+          "duration": 3080.899999976158
+        },
+        {
+          "url": "/assets/prata.ttf",
+          "type": "css",
+          "transferSize": 96316,
+          "encodedBodySize": 96016,
+          "decodedBodySize": 96016,
+          "duration": 2415.2999999523163
+        },
+        {
+          "url": "/assets/catalog/9f4a20047a8be442.webp",
+          "type": "img",
+          "transferSize": 24614,
+          "encodedBodySize": 24314,
+          "decodedBodySize": 24314,
+          "duration": 895.8999999761581
+        },
+        {
+          "url": "/assets/catalog/ad0e02e6e4733301.webp",
+          "type": "img",
+          "transferSize": 35196,
+          "encodedBodySize": 34896,
+          "decodedBodySize": 34896,
+          "duration": 1167.2000000476837
+        }
+      ],
+      "totalEncodedBytes": 1213774
+    },
+    {
+      "version": "after",
+      "route": "/catalog/",
+      "run": 1,
+      "metrics": {
+        "lcp": 684,
+        "shifts": [],
+        "longTasks": [
+          {
+            "start": 503.1999999284744,
+            "duration": 172
+          },
+          {
+            "start": 1613.2999999523163,
+            "duration": 131
+          },
+          {
+            "start": 2128.6999999284744,
+            "duration": 232
+          }
+        ],
+        "lcpElement": "H1.",
+        "cls": 0
+      },
+      "navigation": {
+        "ttfb": 8.099999904632568,
+        "domContentLoaded": 1808.7999999523163,
+        "load": 2137.1999999284744,
+        "encodedBodySize": 14642
+      },
+      "resources": [
+        {
+          "url": "/assets/style.css",
+          "type": "link",
+          "transferSize": 20402,
+          "encodedBodySize": 20102,
+          "decodedBodySize": 109451,
+          "duration": 284.59999990463257
+        },
+        {
+          "url": "/assets/motion.css",
+          "type": "link",
+          "transferSize": 2141,
+          "encodedBodySize": 1841,
+          "decodedBodySize": 6873,
+          "duration": 187.5
+        },
+        {
+          "url": "/assets/data.js",
+          "type": "script",
+          "transferSize": 67806,
+          "encodedBodySize": 67506,
+          "decodedBodySize": 550384,
+          "duration": 1403.1000000238419
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "script",
+          "transferSize": 29112,
+          "encodedBodySize": 28812,
+          "decodedBodySize": 96238,
+          "duration": 949.1999999284744
+        },
+        {
+          "url": "/assets/motion.js",
+          "type": "script",
+          "transferSize": 3919,
+          "encodedBodySize": 3619,
+          "decodedBodySize": 11488,
+          "duration": 516.5
+        },
+        {
+          "url": "/assets/manrope.ttf",
+          "type": "css",
+          "transferSize": 68360,
+          "encodedBodySize": 68060,
+          "decodedBodySize": 164700,
+          "duration": 1381
+        },
+        {
+          "url": "/assets/prata.ttf",
+          "type": "css",
+          "transferSize": 47478,
+          "encodedBodySize": 47178,
+          "decodedBodySize": 96016,
+          "duration": 1263.5
+        },
+        {
+          "url": "/assets/catalog/9f4a20047a8be442.webp",
+          "type": "img",
+          "transferSize": 24614,
+          "encodedBodySize": 24314,
+          "decodedBodySize": 24314,
+          "duration": 814.1999999284744
+        },
+        {
+          "url": "/assets/catalog/ad0e02e6e4733301.webp",
+          "type": "img",
+          "transferSize": 35196,
+          "encodedBodySize": 34896,
+          "decodedBodySize": 34896,
+          "duration": 1025.7000000476837
+        }
+      ],
+      "totalEncodedBytes": 310970
+    },
+    {
+      "version": "before",
+      "route": "/prices/",
+      "run": 1,
+      "metrics": {
+        "lcp": 5760,
+        "shifts": [
+          {
+            "value": 0.0007886655620309402,
+            "time": 3632.4000000953674
+          },
+          {
+            "value": 0.014259217344278327,
+            "time": 4313.100000023842
+          }
+        ],
+        "longTasks": [
+          {
+            "start": 1318.5,
+            "duration": 272
+          },
+          {
+            "start": 5489.800000071526,
+            "duration": 155
+          }
+        ],
+        "lcpElement": "H1.",
+        "cls": 0.015047882906309267
+      },
+      "navigation": {
+        "ttfb": 5.5,
+        "domContentLoaded": 5770.300000071526,
+        "load": 5770.400000095367,
+        "encodedBodySize": 44314
+      },
+      "resources": [
+        {
+          "url": "/assets/style.css",
+          "type": "link",
+          "transferSize": 109751,
+          "encodedBodySize": 109451,
+          "decodedBodySize": 109451,
+          "duration": 1109.5
+        },
+        {
+          "url": "/assets/motion.css",
+          "type": "link",
+          "transferSize": 7173,
+          "encodedBodySize": 6873,
+          "decodedBodySize": 6873,
+          "duration": 258.89999997615814
+        },
+        {
+          "url": "/assets/data.js",
+          "type": "script",
+          "transferSize": 550684,
+          "encodedBodySize": 550384,
+          "decodedBodySize": 550384,
+          "duration": 5267.899999976158
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "script",
+          "transferSize": 95522,
+          "encodedBodySize": 95222,
+          "decodedBodySize": 95222,
+          "duration": 2944.899999976158
+        },
+        {
+          "url": "/assets/motion.js",
+          "type": "script",
+          "transferSize": 11788,
+          "encodedBodySize": 11488,
+          "decodedBodySize": 11488,
+          "duration": 1443.2999999523163
+        },
+        {
+          "url": "/assets/manrope.ttf",
+          "type": "css",
+          "transferSize": 165000,
+          "encodedBodySize": 164700,
+          "decodedBodySize": 164700,
+          "duration": 2834.5
+        },
+        {
+          "url": "/assets/prata.ttf",
+          "type": "css",
+          "transferSize": 96316,
+          "encodedBodySize": 96016,
+          "decodedBodySize": 96016,
+          "duration": 2148.4000000953674
+        }
+      ],
+      "totalEncodedBytes": 1078448
+    },
+    {
+      "version": "after",
+      "route": "/prices/",
+      "run": 1,
+      "metrics": {
+        "lcp": 692,
+        "shifts": [
+          {
+            "value": 0.0007703077602675546,
+            "time": 1608.4000000953674
+          },
+          {
+            "value": 0.01436207862725686,
+            "time": 1761.7000000476837
+          }
+        ],
+        "longTasks": [
+          {
+            "start": 491.2000000476837,
+            "duration": 185
+          },
+          {
+            "start": 1321.5,
+            "duration": 87
+          },
+          {
+            "start": 1623.8000000715256,
+            "duration": 116
+          }
+        ],
+        "lcpElement": "H1.",
+        "cls": 0.015132386387524415
+      },
+      "navigation": {
+        "ttfb": 5.100000023841858,
+        "domContentLoaded": 1429.9000000953674,
+        "load": 1630.7000000476837,
+        "encodedBodySize": 7763
+      },
+      "resources": [
+        {
+          "url": "/assets/style.css",
+          "type": "link",
+          "transferSize": 20402,
+          "encodedBodySize": 20102,
+          "decodedBodySize": 109451,
+          "duration": 284.39999997615814
+        },
+        {
+          "url": "/assets/motion.css",
+          "type": "link",
+          "transferSize": 2141,
+          "encodedBodySize": 1841,
+          "decodedBodySize": 6873,
+          "duration": 187.89999997615814
+        },
+        {
+          "url": "/assets/data.js",
+          "type": "script",
+          "transferSize": 67806,
+          "encodedBodySize": 67506,
+          "decodedBodySize": 550384,
+          "duration": 1124.1999999284744
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "script",
+          "transferSize": 29112,
+          "encodedBodySize": 28812,
+          "decodedBodySize": 96238,
+          "duration": 838.3999999761581
+        },
+        {
+          "url": "/assets/motion.js",
+          "type": "script",
+          "transferSize": 3919,
+          "encodedBodySize": 3619,
+          "decodedBodySize": 11488,
+          "duration": 515.7999999523163
+        },
+        {
+          "url": "/assets/manrope.ttf",
+          "type": "css",
+          "transferSize": 68360,
+          "encodedBodySize": 68060,
+          "decodedBodySize": 164700,
+          "duration": 1078.2999999523163
+        },
+        {
+          "url": "/assets/prata.ttf",
+          "type": "css",
+          "transferSize": 47478,
+          "encodedBodySize": 47178,
+          "decodedBodySize": 96016,
+          "duration": 954.3000000715256
+        }
+      ],
+      "totalEncodedBytes": 244881
+    },
+    {
+      "version": "before",
+      "route": "/contacts/",
+      "run": 1,
+      "metrics": {
+        "lcp": 5652,
+        "shifts": [
+          {
+            "value": 0.0005210376088725632,
+            "time": 3503
+          },
+          {
+            "value": 0.0003437025936766227,
+            "time": 4167.100000023842
+          }
+        ],
+        "longTasks": [
+          {
+            "start": 1300.3000000715256,
+            "duration": 131
+          },
+          {
+            "start": 1435.9000000953674,
+            "duration": 73
+          },
+          {
+            "start": 5469.300000071526,
+            "duration": 160
+          }
+        ],
+        "lcpElement": "P.",
+        "cls": 0.0008647402025491859
+      },
+      "navigation": {
+        "ttfb": 5.600000023841858,
+        "domContentLoaded": 5664.900000095367,
+        "load": 5689.900000095367,
+        "encodedBodySize": 17555
+      },
+      "resources": [
+        {
+          "url": "/assets/style.css",
+          "type": "link",
+          "transferSize": 109751,
+          "encodedBodySize": 109451,
+          "decodedBodySize": 109451,
+          "duration": 1092.7000000476837
+        },
+        {
+          "url": "/assets/motion.css",
+          "type": "link",
+          "transferSize": 7173,
+          "encodedBodySize": 6873,
+          "decodedBodySize": 6873,
+          "duration": 240.19999992847443
+        },
+        {
+          "url": "/assets/data.js",
+          "type": "script",
+          "transferSize": 550684,
+          "encodedBodySize": 550384,
+          "decodedBodySize": 550384,
+          "duration": 5249.600000023842
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "script",
+          "transferSize": 95522,
+          "encodedBodySize": 95222,
+          "decodedBodySize": 95222,
+          "duration": 3059.5999999046326
+        },
+        {
+          "url": "/assets/motion.js",
+          "type": "script",
+          "transferSize": 11788,
+          "encodedBodySize": 11488,
+          "decodedBodySize": 11488,
+          "duration": 1448
+        },
+        {
+          "url": "/assets/manrope.ttf",
+          "type": "css",
+          "transferSize": 165000,
+          "encodedBodySize": 164700,
+          "decodedBodySize": 164700,
+          "duration": 2778.2999999523163
+        },
+        {
+          "url": "/assets/prata.ttf",
+          "type": "css",
+          "transferSize": 96316,
+          "encodedBodySize": 96016,
+          "decodedBodySize": 96016,
+          "duration": 2118.8000000715256
+        }
+      ],
+      "totalEncodedBytes": 1051689
+    },
+    {
+      "version": "after",
+      "route": "/contacts/",
+      "run": 1,
+      "metrics": {
+        "lcp": 704,
+        "shifts": [
+          {
+            "value": 0.0005210376088725632,
+            "time": 1565.5
+          },
+          {
+            "value": 0.0003437025936766227,
+            "time": 1686.3999999761581
+          }
+        ],
+        "longTasks": [
+          {
+            "start": 503.39999997615814,
+            "duration": 188
+          },
+          {
+            "start": 1334.6000000238419,
+            "duration": 81
+          },
+          {
+            "start": 1615.7000000476837,
+            "duration": 62
+          }
+        ],
+        "lcpElement": "P.",
+        "cls": 0.0008647402025491859
+      },
+      "navigation": {
+        "ttfb": 5.799999952316284,
+        "domContentLoaded": 1435.2000000476837,
+        "load": 1622.5,
+        "encodedBodySize": 5133
+      },
+      "resources": [
+        {
+          "url": "/assets/style.css",
+          "type": "link",
+          "transferSize": 20402,
+          "encodedBodySize": 20102,
+          "decodedBodySize": 109451,
+          "duration": 289.2000000476837
+        },
+        {
+          "url": "/assets/motion.css",
+          "type": "link",
+          "transferSize": 2141,
+          "encodedBodySize": 1841,
+          "decodedBodySize": 6873,
+          "duration": 193.20000004768372
+        },
+        {
+          "url": "/assets/data.js",
+          "type": "script",
+          "transferSize": 67806,
+          "encodedBodySize": 67506,
+          "decodedBodySize": 550384,
+          "duration": 1129.9000000953674
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "script",
+          "transferSize": 29112,
+          "encodedBodySize": 28812,
+          "decodedBodySize": 96238,
+          "duration": 843.7999999523163
+        },
+        {
+          "url": "/assets/motion.js",
+          "type": "script",
+          "transferSize": 3919,
+          "encodedBodySize": 3619,
+          "decodedBodySize": 11488,
+          "duration": 520.3999999761581
+        },
+        {
+          "url": "/assets/manrope.ttf",
+          "type": "css",
+          "transferSize": 68360,
+          "encodedBodySize": 68060,
+          "decodedBodySize": 164700,
+          "duration": 1084.7999999523163
+        },
+        {
+          "url": "/assets/prata.ttf",
+          "type": "css",
+          "transferSize": 47478,
+          "encodedBodySize": 47178,
+          "decodedBodySize": 96016,
+          "duration": 974.2000000476837
+        }
+      ],
+      "totalEncodedBytes": 242251
+    },
+    {
+      "version": "after",
+      "route": "/catalog/",
+      "run": 2,
+      "metrics": {
+        "lcp": 684,
+        "shifts": [
+          {
+            "value": 0.017141885362079206,
+            "time": 2021.3999999761581
+          }
+        ],
+        "longTasks": [
+          {
+            "start": 497.60000002384186,
+            "duration": 177
+          },
+          {
+            "start": 1581.6000000238419,
+            "duration": 101
+          },
+          {
+            "start": 2035.5,
+            "duration": 163
+          }
+        ],
+        "lcpElement": "H1.",
+        "cls": 0.017141885362079206
+      },
+      "navigation": {
+        "ttfb": 7.100000023841858,
+        "domContentLoaded": 1729.2999999523163,
+        "load": 2041,
+        "encodedBodySize": 14642
+      },
+      "resources": [
+        {
+          "url": "/assets/style.css",
+          "type": "link",
+          "transferSize": 20402,
+          "encodedBodySize": 20102,
+          "decodedBodySize": 109451,
+          "duration": 291.60000002384186
+        },
+        {
+          "url": "/assets/motion.css",
+          "type": "link",
+          "transferSize": 2141,
+          "encodedBodySize": 1841,
+          "decodedBodySize": 6873,
+          "duration": 194.09999990463257
+        },
+        {
+          "url": "/assets/data.js",
+          "type": "script",
+          "transferSize": 67806,
+          "encodedBodySize": 67506,
+          "decodedBodySize": 550384,
+          "duration": 1387.2000000476837
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "script",
+          "transferSize": 29112,
+          "encodedBodySize": 28812,
+          "decodedBodySize": 96238,
+          "duration": 954.1999999284744
+        },
+        {
+          "url": "/assets/motion.js",
+          "type": "script",
+          "transferSize": 3919,
+          "encodedBodySize": 3619,
+          "decodedBodySize": 11488,
+          "duration": 522
+        },
+        {
+          "url": "/assets/manrope.ttf",
+          "type": "css",
+          "transferSize": 68360,
+          "encodedBodySize": 68060,
+          "decodedBodySize": 164700,
+          "duration": 1375.9000000953674
+        },
+        {
+          "url": "/assets/prata.ttf",
+          "type": "css",
+          "transferSize": 47478,
+          "encodedBodySize": 47178,
+          "decodedBodySize": 96016,
+          "duration": 1257.5
+        },
+        {
+          "url": "/assets/catalog/9f4a20047a8be442.webp",
+          "type": "img",
+          "transferSize": 24614,
+          "encodedBodySize": 24314,
+          "decodedBodySize": 24314,
+          "duration": 822
+        },
+        {
+          "url": "/assets/catalog/ad0e02e6e4733301.webp",
+          "type": "img",
+          "transferSize": 35196,
+          "encodedBodySize": 34896,
+          "decodedBodySize": 34896,
+          "duration": 1019.1000000238419
+        }
+      ],
+      "totalEncodedBytes": 310970
+    },
+    {
+      "version": "before",
+      "route": "/catalog/",
+      "run": 2,
+      "metrics": {
+        "lcp": 6596,
+        "shifts": [
+          {
+            "value": 0.017425745121576165,
+            "time": 4409.899999976158
+          }
+        ],
+        "longTasks": [
+          {
+            "start": 1780.5999999046326,
+            "duration": 121
+          },
+          {
+            "start": 6190.799999952316,
+            "duration": 365
+          }
+        ],
+        "lcpElement": "H1.",
+        "cls": 0.017425745121576165
+      },
+      "navigation": {
+        "ttfb": 4.699999928474426,
+        "domContentLoaded": 6624.199999928474,
+        "load": 6625.099999904633,
+        "encodedBodySize": 120430
+      },
+      "resources": [
+        {
+          "url": "/assets/style.css",
+          "type": "link",
+          "transferSize": 109751,
+          "encodedBodySize": 109451,
+          "decodedBodySize": 109451,
+          "duration": 1561.9000000953674
+        },
+        {
+          "url": "/assets/motion.css",
+          "type": "link",
+          "transferSize": 7173,
+          "encodedBodySize": 6873,
+          "decodedBodySize": 6873,
+          "duration": 284.5
+        },
+        {
+          "url": "/assets/data.js",
+          "type": "script",
+          "transferSize": 550684,
+          "encodedBodySize": 550384,
+          "decodedBodySize": 550384,
+          "duration": 5937.799999952316
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "script",
+          "transferSize": 95522,
+          "encodedBodySize": 95222,
+          "decodedBodySize": 95222,
+          "duration": 3827.6999999284744
+        },
+        {
+          "url": "/assets/motion.js",
+          "type": "script",
+          "transferSize": 11788,
+          "encodedBodySize": 11488,
+          "decodedBodySize": 11488,
+          "duration": 1915.1999999284744
+        },
+        {
+          "url": "/assets/manrope.ttf",
+          "type": "css",
+          "transferSize": 165000,
+          "encodedBodySize": 164700,
+          "decodedBodySize": 164700,
+          "duration": 3067.5
+        },
+        {
+          "url": "/assets/prata.ttf",
+          "type": "css",
+          "transferSize": 96316,
+          "encodedBodySize": 96016,
+          "decodedBodySize": 96016,
+          "duration": 2407.3000000715256
+        },
+        {
+          "url": "/assets/catalog/9f4a20047a8be442.webp",
+          "type": "img",
+          "transferSize": 24614,
+          "encodedBodySize": 24314,
+          "decodedBodySize": 24314,
+          "duration": 885.3000000715256
+        },
+        {
+          "url": "/assets/catalog/ad0e02e6e4733301.webp",
+          "type": "img",
+          "transferSize": 35196,
+          "encodedBodySize": 34896,
+          "decodedBodySize": 34896,
+          "duration": 1213.6999999284744
+        }
+      ],
+      "totalEncodedBytes": 1213774
+    },
+    {
+      "version": "after",
+      "route": "/prices/",
+      "run": 2,
+      "metrics": {
+        "lcp": 740,
+        "shifts": [
+          {
+            "value": 0.0007888455404796007,
+            "time": 1610.3000000715256
+          },
+          {
+            "value": 0.014387678761794349,
+            "time": 1750.7000000476837
+          }
+        ],
+        "longTasks": [
+          {
+            "start": 507.3000000715256,
+            "duration": 219
+          },
+          {
+            "start": 1290.7000000476837,
+            "duration": 84
+          },
+          {
+            "start": 1625.8000000715256,
+            "duration": 108
+          }
+        ],
+        "lcpElement": "H1.",
+        "cls": 0.01517652430227395
+      },
+      "navigation": {
+        "ttfb": 7,
+        "domContentLoaded": 1394.5,
+        "load": 1631.2000000476837,
+        "encodedBodySize": 7763
+      },
+      "resources": [
+        {
+          "url": "/assets/style.css",
+          "type": "link",
+          "transferSize": 20402,
+          "encodedBodySize": 20102,
+          "decodedBodySize": 109451,
+          "duration": 289.60000002384186
+        },
+        {
+          "url": "/assets/motion.css",
+          "type": "link",
+          "transferSize": 2141,
+          "encodedBodySize": 1841,
+          "decodedBodySize": 6873,
+          "duration": 191.59999990463257
+        },
+        {
+          "url": "/assets/data.js",
+          "type": "script",
+          "transferSize": 67806,
+          "encodedBodySize": 67506,
+          "decodedBodySize": 550384,
+          "duration": 1084.6000000238419
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "script",
+          "transferSize": 29112,
+          "encodedBodySize": 28812,
+          "decodedBodySize": 96238,
+          "duration": 812.6000000238419
+        },
+        {
+          "url": "/assets/motion.js",
+          "type": "script",
+          "transferSize": 3919,
+          "encodedBodySize": 3619,
+          "decodedBodySize": 11488,
+          "duration": 519
+        },
+        {
+          "url": "/assets/manrope.ttf",
+          "type": "css",
+          "transferSize": 68360,
+          "encodedBodySize": 68060,
+          "decodedBodySize": 164700,
+          "duration": 1075.7999999523163
+        },
+        {
+          "url": "/assets/prata.ttf",
+          "type": "css",
+          "transferSize": 47478,
+          "encodedBodySize": 47178,
+          "decodedBodySize": 96016,
+          "duration": 942.4000000953674
+        }
+      ],
+      "totalEncodedBytes": 244881
+    },
+    {
+      "version": "before",
+      "route": "/prices/",
+      "run": 2,
+      "metrics": {
+        "lcp": 5820,
+        "shifts": [
+          {
+            "value": 0.0007886655620309402,
+            "time": 3643.2000000476837
+          },
+          {
+            "value": 0.014259217344278327,
+            "time": 4346.900000095367
+          }
+        ],
+        "longTasks": [
+          {
+            "start": 1319.9000000953674,
+            "duration": 292
+          },
+          {
+            "start": 5495.800000071526,
+            "duration": 149
+          }
+        ],
+        "lcpElement": "H1.",
+        "cls": 0.015047882906309267
+      },
+      "navigation": {
+        "ttfb": 5.600000023841858,
+        "domContentLoaded": 5840.800000071526,
+        "load": 5840.800000071526,
+        "encodedBodySize": 44314
+      },
+      "resources": [
+        {
+          "url": "/assets/style.css",
+          "type": "link",
+          "transferSize": 109751,
+          "encodedBodySize": 109451,
+          "decodedBodySize": 109451,
+          "duration": 1110.2000000476837
+        },
+        {
+          "url": "/assets/motion.css",
+          "type": "link",
+          "transferSize": 7173,
+          "encodedBodySize": 6873,
+          "decodedBodySize": 6873,
+          "duration": 259.2999999523163
+        },
+        {
+          "url": "/assets/data.js",
+          "type": "script",
+          "transferSize": 550684,
+          "encodedBodySize": 550384,
+          "decodedBodySize": 550384,
+          "duration": 5268
+        },
+        {
+          "url": "/assets/motion.js",
+          "type": "script",
+          "transferSize": 11788,
+          "encodedBodySize": 11488,
+          "decodedBodySize": 11488,
+          "duration": 1444.1000000238419
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "script",
+          "transferSize": 95522,
+          "encodedBodySize": 95222,
+          "decodedBodySize": 95222,
+          "duration": 2930
+        },
+        {
+          "url": "/assets/manrope.ttf",
+          "type": "css",
+          "transferSize": 165000,
+          "encodedBodySize": 164700,
+          "decodedBodySize": 164700,
+          "duration": 2850.100000023842
+        },
+        {
+          "url": "/assets/prata.ttf",
+          "type": "css",
+          "transferSize": 96316,
+          "encodedBodySize": 96016,
+          "decodedBodySize": 96016,
+          "duration": 2169.5999999046326
+        }
+      ],
+      "totalEncodedBytes": 1078448
+    },
+    {
+      "version": "after",
+      "route": "/contacts/",
+      "run": 2,
+      "metrics": {
+        "lcp": 684,
+        "shifts": [
+          {
+            "value": 0.0005210376088725632,
+            "time": 1579.5
+          },
+          {
+            "value": 0.0003437025936766227,
+            "time": 1680.1000000238419
+          }
+        ],
+        "longTasks": [
+          {
+            "start": 502.2000000476837,
+            "duration": 166
+          },
+          {
+            "start": 1367.8000000715256,
+            "duration": 76
+          }
+        ],
+        "lcpElement": "P.",
+        "cls": 0.0008647402025491859
+      },
+      "navigation": {
+        "ttfb": 7,
+        "domContentLoaded": 1462.2000000476837,
+        "load": 1625.6000000238419,
+        "encodedBodySize": 5133
+      },
+      "resources": [
+        {
+          "url": "/assets/style.css",
+          "type": "link",
+          "transferSize": 20402,
+          "encodedBodySize": 20102,
+          "decodedBodySize": 109451,
+          "duration": 287.7000000476837
+        },
+        {
+          "url": "/assets/motion.css",
+          "type": "link",
+          "transferSize": 2141,
+          "encodedBodySize": 1841,
+          "decodedBodySize": 6873,
+          "duration": 198.39999997615814
+        },
+        {
+          "url": "/assets/data.js",
+          "type": "script",
+          "transferSize": 67806,
+          "encodedBodySize": 67506,
+          "decodedBodySize": 550384,
+          "duration": 1164.0999999046326
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "script",
+          "transferSize": 29112,
+          "encodedBodySize": 28812,
+          "decodedBodySize": 96238,
+          "duration": 870.5
+        },
+        {
+          "url": "/assets/motion.js",
+          "type": "script",
+          "transferSize": 3919,
+          "encodedBodySize": 3619,
+          "decodedBodySize": 11488,
+          "duration": 518.5
+        },
+        {
+          "url": "/assets/manrope.ttf",
+          "type": "css",
+          "transferSize": 68360,
+          "encodedBodySize": 68060,
+          "decodedBodySize": 164700,
+          "duration": 1094.5
+        },
+        {
+          "url": "/assets/prata.ttf",
+          "type": "css",
+          "transferSize": 47478,
+          "encodedBodySize": 47178,
+          "decodedBodySize": 96016,
+          "duration": 983.8999999761581
+        }
+      ],
+      "totalEncodedBytes": 242251
+    },
+    {
+      "version": "before",
+      "route": "/contacts/",
+      "run": 2,
+      "metrics": {
+        "lcp": 5668,
+        "shifts": [
+          {
+            "value": 0.0005210376088725632,
+            "time": 3552.2999999523163
+          },
+          {
+            "value": 0.0003437025936766227,
+            "time": 4212.399999976158
+          }
+        ],
+        "longTasks": [
+          {
+            "start": 1316.5,
+            "duration": 206
+          },
+          {
+            "start": 1530.1000000238419,
+            "duration": 105
+          },
+          {
+            "start": 5489.799999952316,
+            "duration": 157
+          }
+        ],
+        "lcpElement": "P.",
+        "cls": 0.0008647402025491859
+      },
+      "navigation": {
+        "ttfb": 6.600000023841858,
+        "domContentLoaded": 5680.399999976158,
+        "load": 5703.799999952316,
+        "encodedBodySize": 17555
+      },
+      "resources": [
+        {
+          "url": "/assets/style.css",
+          "type": "link",
+          "transferSize": 109751,
+          "encodedBodySize": 109451,
+          "decodedBodySize": 109451,
+          "duration": 1097.5
+        },
+        {
+          "url": "/assets/motion.css",
+          "type": "link",
+          "transferSize": 7173,
+          "encodedBodySize": 6873,
+          "decodedBodySize": 6873,
+          "duration": 246.20000004768372
+        },
+        {
+          "url": "/assets/data.js",
+          "type": "script",
+          "transferSize": 550684,
+          "encodedBodySize": 550384,
+          "decodedBodySize": 550384,
+          "duration": 5255.100000023842
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "script",
+          "transferSize": 95522,
+          "encodedBodySize": 95222,
+          "decodedBodySize": 95222,
+          "duration": 2991.7000000476837
+        },
+        {
+          "url": "/assets/motion.js",
+          "type": "script",
+          "transferSize": 11788,
+          "encodedBodySize": 11488,
+          "decodedBodySize": 11488,
+          "duration": 1430.6000000238419
+        },
+        {
+          "url": "/assets/manrope.ttf",
+          "type": "css",
+          "transferSize": 165000,
+          "encodedBodySize": 164700,
+          "decodedBodySize": 164700,
+          "duration": 2800
+        },
+        {
+          "url": "/assets/prata.ttf",
+          "type": "css",
+          "transferSize": 96316,
+          "encodedBodySize": 96016,
+          "decodedBodySize": 96016,
+          "duration": 2140.7999999523163
+        }
+      ],
+      "totalEncodedBytes": 1051689
+    },
+    {
+      "version": "before",
+      "route": "/catalog/",
+      "run": 3,
+      "metrics": {
+        "lcp": 6572,
+        "shifts": [
+          {
+            "value": 0.017425745121576165,
+            "time": 4410.899999976158
+          }
+        ],
+        "longTasks": [
+          {
+            "start": 1779.3999999761581,
+            "duration": 137
+          },
+          {
+            "start": 6179.700000047684,
+            "duration": 341
+          }
+        ],
+        "lcpElement": "H1.",
+        "cls": 0.017425745121576165
+      },
+      "navigation": {
+        "ttfb": 5,
+        "domContentLoaded": 6598.399999976158,
+        "load": 6599.600000023842,
+        "encodedBodySize": 120430
+      },
+      "resources": [
+        {
+          "url": "/assets/style.css",
+          "type": "link",
+          "transferSize": 109751,
+          "encodedBodySize": 109451,
+          "decodedBodySize": 109451,
+          "duration": 1566.6000000238419
+        },
+        {
+          "url": "/assets/motion.css",
+          "type": "link",
+          "transferSize": 7173,
+          "encodedBodySize": 6873,
+          "decodedBodySize": 6873,
+          "duration": 276.59999990463257
+        },
+        {
+          "url": "/assets/data.js",
+          "type": "script",
+          "transferSize": 550684,
+          "encodedBodySize": 550384,
+          "decodedBodySize": 550384,
+          "duration": 5945.399999976158
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "script",
+          "transferSize": 95522,
+          "encodedBodySize": 95222,
+          "decodedBodySize": 95222,
+          "duration": 3820.7000000476837
+        },
+        {
+          "url": "/assets/motion.js",
+          "type": "script",
+          "transferSize": 11788,
+          "encodedBodySize": 11488,
+          "decodedBodySize": 11488,
+          "duration": 1923.1000000238419
+        },
+        {
+          "url": "/assets/manrope.ttf",
+          "type": "css",
+          "transferSize": 165000,
+          "encodedBodySize": 164700,
+          "decodedBodySize": 164700,
+          "duration": 3070.2999999523163
+        },
+        {
+          "url": "/assets/prata.ttf",
+          "type": "css",
+          "transferSize": 96316,
+          "encodedBodySize": 96016,
+          "decodedBodySize": 96016,
+          "duration": 2410.4000000953674
+        },
+        {
+          "url": "/assets/catalog/9f4a20047a8be442.webp",
+          "type": "img",
+          "transferSize": 24614,
+          "encodedBodySize": 24314,
+          "decodedBodySize": 24314,
+          "duration": 886.3000000715256
+        },
+        {
+          "url": "/assets/catalog/ad0e02e6e4733301.webp",
+          "type": "img",
+          "transferSize": 35196,
+          "encodedBodySize": 34896,
+          "decodedBodySize": 34896,
+          "duration": 1215.3999999761581
+        }
+      ],
+      "totalEncodedBytes": 1213774
+    },
+    {
+      "version": "after",
+      "route": "/catalog/",
+      "run": 3,
+      "metrics": {
+        "lcp": 664,
+        "shifts": [
+          {
+            "value": 0.017182436756293055,
+            "time": 2025.3000000715256
+          }
+        ],
+        "longTasks": [
+          {
+            "start": 488.39999997615814,
+            "duration": 162
+          },
+          {
+            "start": 1587.2000000476837,
+            "duration": 84
+          },
+          {
+            "start": 2042.1000000238419,
+            "duration": 179
+          }
+        ],
+        "lcpElement": "H1.",
+        "cls": 0.017182436756293055
+      },
+      "navigation": {
+        "ttfb": 7.100000023841858,
+        "domContentLoaded": 1709,
+        "load": 2049.3000000715256,
+        "encodedBodySize": 14642
+      },
+      "resources": [
+        {
+          "url": "/assets/style.css",
+          "type": "link",
+          "transferSize": 20402,
+          "encodedBodySize": 20102,
+          "decodedBodySize": 109451,
+          "duration": 285.3000000715256
+        },
+        {
+          "url": "/assets/motion.css",
+          "type": "link",
+          "transferSize": 2141,
+          "encodedBodySize": 1841,
+          "decodedBodySize": 6873,
+          "duration": 189.19999992847443
+        },
+        {
+          "url": "/assets/data.js",
+          "type": "script",
+          "transferSize": 67806,
+          "encodedBodySize": 67506,
+          "decodedBodySize": 550384,
+          "duration": 1396.2999999523163
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "script",
+          "transferSize": 29112,
+          "encodedBodySize": 28812,
+          "decodedBodySize": 96238,
+          "duration": 949.3000000715256
+        },
+        {
+          "url": "/assets/motion.js",
+          "type": "script",
+          "transferSize": 3919,
+          "encodedBodySize": 3619,
+          "decodedBodySize": 11488,
+          "duration": 509.39999997615814
+        },
+        {
+          "url": "/assets/manrope.ttf",
+          "type": "css",
+          "transferSize": 68360,
+          "encodedBodySize": 68060,
+          "decodedBodySize": 164700,
+          "duration": 1380.6000000238419
+        },
+        {
+          "url": "/assets/prata.ttf",
+          "type": "css",
+          "transferSize": 47478,
+          "encodedBodySize": 47178,
+          "decodedBodySize": 96016,
+          "duration": 1256.6000000238419
+        },
+        {
+          "url": "/assets/catalog/9f4a20047a8be442.webp",
+          "type": "img",
+          "transferSize": 24614,
+          "encodedBodySize": 24314,
+          "decodedBodySize": 24314,
+          "duration": 780.0999999046326
+        },
+        {
+          "url": "/assets/catalog/ad0e02e6e4733301.webp",
+          "type": "img",
+          "transferSize": 35196,
+          "encodedBodySize": 34896,
+          "decodedBodySize": 34896,
+          "duration": 917.7999999523163
+        }
+      ],
+      "totalEncodedBytes": 310970
+    },
+    {
+      "version": "before",
+      "route": "/prices/",
+      "run": 3,
+      "metrics": {
+        "lcp": 5760,
+        "shifts": [
+          {
+            "value": 0.0007886655620309402,
+            "time": 3597.5
+          },
+          {
+            "value": 0.014259217344278327,
+            "time": 4301.300000071526
+          }
+        ],
+        "longTasks": [
+          {
+            "start": 1320.4000000953674,
+            "duration": 225
+          },
+          {
+            "start": 5492.900000095367,
+            "duration": 152
+          }
+        ],
+        "lcpElement": "H1.",
+        "cls": 0.015047882906309267
+      },
+      "navigation": {
+        "ttfb": 5.300000071525574,
+        "domContentLoaded": 5775.5,
+        "load": 5775.600000023842,
+        "encodedBodySize": 44314
+      },
+      "resources": [
+        {
+          "url": "/assets/style.css",
+          "type": "link",
+          "transferSize": 109751,
+          "encodedBodySize": 109451,
+          "decodedBodySize": 109451,
+          "duration": 1110.6999999284744
+        },
+        {
+          "url": "/assets/motion.css",
+          "type": "link",
+          "transferSize": 7173,
+          "encodedBodySize": 6873,
+          "decodedBodySize": 6873,
+          "duration": 258.90000009536743
+        },
+        {
+          "url": "/assets/data.js",
+          "type": "script",
+          "transferSize": 550684,
+          "encodedBodySize": 550384,
+          "decodedBodySize": 550384,
+          "duration": 5268
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "script",
+          "transferSize": 95522,
+          "encodedBodySize": 95222,
+          "decodedBodySize": 95222,
+          "duration": 3004.100000023842
+        },
+        {
+          "url": "/assets/motion.js",
+          "type": "script",
+          "transferSize": 11788,
+          "encodedBodySize": 11488,
+          "decodedBodySize": 11488,
+          "duration": 1443.6999999284744
+        },
+        {
+          "url": "/assets/manrope.ttf",
+          "type": "css",
+          "transferSize": 165000,
+          "encodedBodySize": 164700,
+          "decodedBodySize": 164700,
+          "duration": 2813.399999976158
+        },
+        {
+          "url": "/assets/prata.ttf",
+          "type": "css",
+          "transferSize": 96316,
+          "encodedBodySize": 96016,
+          "decodedBodySize": 96016,
+          "duration": 2125.8000000715256
+        }
+      ],
+      "totalEncodedBytes": 1078448
+    },
+    {
+      "version": "after",
+      "route": "/prices/",
+      "run": 3,
+      "metrics": {
+        "lcp": 764,
+        "shifts": [
+          {
+            "value": 0.0007825462947764782,
+            "time": 1617.8999999761581
+          },
+          {
+            "value": 0.012196129786634828,
+            "time": 1761.1999999284744
+          }
+        ],
+        "longTasks": [
+          {
+            "start": 487.5,
+            "duration": 263
+          },
+          {
+            "start": 1244.5,
+            "duration": 96
+          },
+          {
+            "start": 1635.6000000238419,
+            "duration": 107
+          }
+        ],
+        "lcpElement": "H1.",
+        "cls": 0.012978676081411306
+      },
+      "navigation": {
+        "ttfb": 5.299999952316284,
+        "domContentLoaded": 1360.3999999761581,
+        "load": 1642.5,
+        "encodedBodySize": 7763
+      },
+      "resources": [
+        {
+          "url": "/assets/style.css",
+          "type": "link",
+          "transferSize": 20402,
+          "encodedBodySize": 20102,
+          "decodedBodySize": 109451,
+          "duration": 287.7999999523163
+        },
+        {
+          "url": "/assets/motion.css",
+          "type": "link",
+          "transferSize": 2141,
+          "encodedBodySize": 1841,
+          "decodedBodySize": 6873,
+          "duration": 191.60000002384186
+        },
+        {
+          "url": "/assets/data.js",
+          "type": "script",
+          "transferSize": 67806,
+          "encodedBodySize": 67506,
+          "decodedBodySize": 550384,
+          "duration": 1054
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "script",
+          "transferSize": 29112,
+          "encodedBodySize": 28812,
+          "decodedBodySize": 96238,
+          "duration": 767
+        },
+        {
+          "url": "/assets/motion.js",
+          "type": "script",
+          "transferSize": 3919,
+          "encodedBodySize": 3619,
+          "decodedBodySize": 11488,
+          "duration": 510.7000000476837
+        },
+        {
+          "url": "/assets/manrope.ttf",
+          "type": "css",
+          "transferSize": 68360,
+          "encodedBodySize": 68060,
+          "decodedBodySize": 164700,
+          "duration": 1081.6000000238419
+        },
+        {
+          "url": "/assets/prata.ttf",
+          "type": "css",
+          "transferSize": 47478,
+          "encodedBodySize": 47178,
+          "decodedBodySize": 96016,
+          "duration": 949.3000000715256
+        }
+      ],
+      "totalEncodedBytes": 244881
+    },
+    {
+      "version": "before",
+      "route": "/contacts/",
+      "run": 3,
+      "metrics": {
+        "lcp": 5628,
+        "shifts": [
+          {
+            "value": 0.0005210376088725632,
+            "time": 3507.8000000715256
+          },
+          {
+            "value": 0.0003437025936766227,
+            "time": 4174.399999976158
+          }
+        ],
+        "longTasks": [
+          {
+            "start": 1304.8999999761581,
+            "duration": 139
+          },
+          {
+            "start": 1448.3999999761581,
+            "duration": 65
+          },
+          {
+            "start": 5470.600000023842,
+            "duration": 137
+          }
+        ],
+        "lcpElement": "P.",
+        "cls": 0.0008647402025491859
+      },
+      "navigation": {
+        "ttfb": 5.800000071525574,
+        "domContentLoaded": 5638.600000023842,
+        "load": 5663,
+        "encodedBodySize": 17555
+      },
+      "resources": [
+        {
+          "url": "/assets/style.css",
+          "type": "link",
+          "transferSize": 109751,
+          "encodedBodySize": 109451,
+          "decodedBodySize": 109451,
+          "duration": 1097.1999999284744
+        },
+        {
+          "url": "/assets/motion.css",
+          "type": "link",
+          "transferSize": 7173,
+          "encodedBodySize": 6873,
+          "decodedBodySize": 6873,
+          "duration": 238.10000002384186
+        },
+        {
+          "url": "/assets/data.js",
+          "type": "script",
+          "transferSize": 550684,
+          "encodedBodySize": 550384,
+          "decodedBodySize": 550384,
+          "duration": 5248.100000023842
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "script",
+          "transferSize": 95522,
+          "encodedBodySize": 95222,
+          "decodedBodySize": 95222,
+          "duration": 3064.7000000476837
+        },
+        {
+          "url": "/assets/motion.js",
+          "type": "script",
+          "transferSize": 11788,
+          "encodedBodySize": 11488,
+          "decodedBodySize": 11488,
+          "duration": 1437.7999999523163
+        },
+        {
+          "url": "/assets/manrope.ttf",
+          "type": "css",
+          "transferSize": 165000,
+          "encodedBodySize": 164700,
+          "decodedBodySize": 164700,
+          "duration": 2781.899999976158
+        },
+        {
+          "url": "/assets/prata.ttf",
+          "type": "css",
+          "transferSize": 96316,
+          "encodedBodySize": 96016,
+          "decodedBodySize": 96016,
+          "duration": 2122
+        }
+      ],
+      "totalEncodedBytes": 1051689
+    },
+    {
+      "version": "after",
+      "route": "/contacts/",
+      "run": 3,
+      "metrics": {
+        "lcp": 672,
+        "shifts": [
+          {
+            "value": 0.0005210376088725632,
+            "time": 1568
+          },
+          {
+            "value": 0.0003437025936766227,
+            "time": 1681.7999999523163
+          }
+        ],
+        "longTasks": [
+          {
+            "start": 512.5999999046326,
+            "duration": 152
+          },
+          {
+            "start": 1366.5999999046326,
+            "duration": 81
+          },
+          {
+            "start": 1621.5,
+            "duration": 52
+          }
+        ],
+        "lcpElement": "P.",
+        "cls": 0.0008647402025491859
+      },
+      "navigation": {
+        "ttfb": 7.5,
+        "domContentLoaded": 1467.3999999761581,
+        "load": 1627.5999999046326,
+        "encodedBodySize": 5133
+      },
+      "resources": [
+        {
+          "url": "/assets/style.css",
+          "type": "link",
+          "transferSize": 20402,
+          "encodedBodySize": 20102,
+          "decodedBodySize": 109451,
+          "duration": 294.40000009536743
+        },
+        {
+          "url": "/assets/motion.css",
+          "type": "link",
+          "transferSize": 2141,
+          "encodedBodySize": 1841,
+          "decodedBodySize": 6873,
+          "duration": 197.5
+        },
+        {
+          "url": "/assets/data.js",
+          "type": "script",
+          "transferSize": 67806,
+          "encodedBodySize": 67506,
+          "decodedBodySize": 550384,
+          "duration": 1162.3999999761581
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "script",
+          "transferSize": 29112,
+          "encodedBodySize": 28812,
+          "decodedBodySize": 96238,
+          "duration": 891.5999999046326
+        },
+        {
+          "url": "/assets/motion.js",
+          "type": "script",
+          "transferSize": 3919,
+          "encodedBodySize": 3619,
+          "decodedBodySize": 11488,
+          "duration": 524.8000000715256
+        },
+        {
+          "url": "/assets/manrope.ttf",
+          "type": "css",
+          "transferSize": 68360,
+          "encodedBodySize": 68060,
+          "decodedBodySize": 164700,
+          "duration": 1083.4000000953674
+        },
+        {
+          "url": "/assets/prata.ttf",
+          "type": "css",
+          "transferSize": 47478,
+          "encodedBodySize": 47178,
+          "decodedBodySize": 96016,
+          "duration": 972.3999999761581
+        }
+      ],
+      "totalEncodedBytes": 242251
+    }
+  ]
+}

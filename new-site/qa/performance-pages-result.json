@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "scope": "414 browser checks after performance changes; no new regressions compared with prior audit",
+  "summary": {
+    "contentPages": 138,
+    "viewports": [
+      320,
+      390,
+      1440
+    ],
+    "checks": 414,
+    "overflowChecks": [
+      {
+        "route": "/professionalnye-molberty/",
+        "width": 320,
+        "documentWidth": 349,
+        "offenders": [
+          {
+            "tag": "SPAN",
+            "class": "cta-sketch",
+            "text": "",
+            "left": 36,
+            "right": 384,
+            "parentOverflow": "hidden"
+          },
+          {
+            "tag": "svg",
+            "class": {},
+            "text": "",
+            "left": 36,
+            "right": 384,
+            "parentOverflow": "visible"
+          }
+        ]
+      }
+    ],
+    "sourceDifferenceChecks": [],
+    "jsErrors": [],
+    "badResponses": [],
+    "brokenImages": [],
+    "mobileSidebarVisible": []
+  },
+  "knownUnchangedIssues": [
+    {
+      "route": "/professionalnye-molberty/",
+      "width": 320,
+      "documentWidth": 349
+    }
+  ]
+}
