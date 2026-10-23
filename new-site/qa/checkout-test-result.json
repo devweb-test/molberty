@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "checkedAt": "2026-10-23T11:17:39.007Z",
+  "checkedAt": "2026-10-23T12:14:59.147Z",
   "checks": [
     "separate telephone and email fields",
     "three checkbox delivery choices",
@@ -12,6 +12,9 @@
     "email optional with native validation",
     "escaped user input",
     "generic callback preserved",
+    "mandatory consent in order, inquiry and callback",
+    "unchecked consent on reopening; no draft persistence",
+    "privacy and consent links preserve filled form",
     "clear saved checkout data",
     "empty basket",
     "responsive form"
