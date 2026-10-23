@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "checkedAt": "2026-10-23T11:38:29.497Z",
+  "checkedAt": "2026-10-23T14:34:30.100Z",
   "checks": [
     "exact cookie message and policy link",
     "notice works before catalogue data loads",

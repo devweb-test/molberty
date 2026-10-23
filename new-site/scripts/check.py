@@ -184,3 +184,16 @@ for file in root.rglob('index.html'):
  assert '>Обработка данных</a>' not in text,file
  assert 'Политика конфиденциальности</a><span>Создано для творчества' in text,file
 print('Политика, соглашение, общий cookie-компонент и ссылки футера: OK')
+from mobile_navigation import mobile_navigation
+mobile_pages=0
+for file in root.rglob('index.html'):
+ text=file.read_text()
+ if '<main id="main">' not in text:continue
+ prefix='../'*len(file.relative_to(root).parts[:-1])
+ canonical=re.search(r'<link rel="canonical" href="([^"]+)"',text)[1]
+ assert text.count('id="mobile-bottom-nav"')==1,file
+ assert mobile_navigation(prefix,canonical) in text,file
+ assert 'width=device-width,initial-scale=1,viewport-fit=cover' in text,file
+ mobile_pages+=1
+assert mobile_pages==139
+print('Мобильная нижняя навигация, ссылки и активные разделы: 139 страниц OK')
