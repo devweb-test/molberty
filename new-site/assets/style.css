@@ -112,6 +112,8 @@ dialog.wide-dialog{width:min(1080px,calc(100% - 48px));max-width:none;padding:45
 .checkout-total strong{font-size:25px;overflow-wrap:anywhere}
 .checkout-total small{line-height:1.7;color:#52614f}
 .checkout-submit{justify-self:start}
+input:focus-visible{outline-offset:0}
+#request-form input{background:#fff}
 #request-form .form-consent{display:flex;align-items:flex-start;gap:11px;line-height:1.7;color:var(--ink);cursor:pointer}
 #request-form .form-consent input{width:18px;height:18px;flex:0 0 18px;margin:3px 0 0;padding:0;accent-color:var(--green)}
 #request-form .form-consent span{min-width:0;overflow-wrap:anywhere}
