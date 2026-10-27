@@ -7,7 +7,7 @@
       "name": "Мольберты.ру",
       "alternateName": "Мастерская Иванова Д. В.",
       "url": "https://www.molberty.ru/",
-      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "description": "Собственное производство мольбертов и оборудования для изостудий из натурального дерева с 1991 года.",
       "logo": "https://www.molberty.ru/assets/logo.svg",
       "email": "molberty@gmail.com",
       "telephone": "+7 (925) 880-95-39",
@@ -56,6 +56,63 @@
       ]
     }
   ],
+  "documents/index.html": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://www.molberty.ru/#organization",
+      "name": "Мольберты.ру",
+      "alternateName": "Мастерская Иванова Д. В.",
+      "url": "https://www.molberty.ru/",
+      "description": "Собственное производство мольбертов и оборудования для изостудий из натурального дерева с 1991 года.",
+      "logo": "https://www.molberty.ru/assets/logo.svg",
+      "email": "molberty@gmail.com",
+      "telephone": "+7 (925) 880-95-39",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Проектируемый проезд 4530, строение 2, завод «СпецМашМонтаж»",
+        "addressLocality": "Мытищи",
+        "addressRegion": "Московская область",
+        "addressCountry": "RU"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Розничные продажи",
+          "telephone": "+7 (925) 880-95-39",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Оптовые продажи",
+          "telephone": "+7 (926) 211-93-63",
+          "email": "molberty@gmail.com",
+          "availableLanguage": "ru",
+          "url": "https://www.molberty.ru/contacts/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.molberty.ru/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Документы и реквизиты",
+          "item": "https://www.molberty.ru/documents/"
+        }
+      ]
+    }
+  ],
   "index.html": [
     {
       "@context": "https://schema.org",
@@ -64,7 +121,7 @@
       "name": "Мольберты.ру",
       "alternateName": "Мастерская Иванова Д. В.",
       "url": "https://www.molberty.ru/",
-      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "description": "Собственное производство мольбертов и оборудования для изостудий из натурального дерева с 1991 года.",
       "logo": "https://www.molberty.ru/assets/logo.svg",
       "email": "molberty@gmail.com",
       "telephone": "+7 (925) 880-95-39",
@@ -115,7 +172,7 @@
       "name": "Мольберты.ру",
       "alternateName": "Мастерская Иванова Д. В.",
       "url": "https://www.molberty.ru/",
-      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "description": "Собственное производство мольбертов и оборудования для изостудий из натурального дерева с 1991 года.",
       "logo": "https://www.molberty.ru/assets/logo.svg",
       "email": "molberty@gmail.com",
       "telephone": "+7 (925) 880-95-39",
@@ -184,7 +241,7 @@
       "name": "Мольберты.ру",
       "alternateName": "Мастерская Иванова Д. В.",
       "url": "https://www.molberty.ru/",
-      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "description": "Собственное производство мольбертов и оборудования для изостудий из натурального дерева с 1991 года.",
       "logo": "https://www.molberty.ru/assets/logo.svg",
       "email": "molberty@gmail.com",
       "telephone": "+7 (925) 880-95-39",
@@ -259,7 +316,7 @@
       "name": "Мольберты.ру",
       "alternateName": "Мастерская Иванова Д. В.",
       "url": "https://www.molberty.ru/",
-      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "description": "Собственное производство мольбертов и оборудования для изостудий из натурального дерева с 1991 года.",
       "logo": "https://www.molberty.ru/assets/logo.svg",
       "email": "molberty@gmail.com",
       "telephone": "+7 (925) 880-95-39",
@@ -322,7 +379,7 @@
       "name": "Мольберты.ру",
       "alternateName": "Мастерская Иванова Д. В.",
       "url": "https://www.molberty.ru/",
-      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "description": "Собственное производство мольбертов и оборудования для изостудий из натурального дерева с 1991 года.",
       "logo": "https://www.molberty.ru/assets/logo.svg",
       "email": "molberty@gmail.com",
       "telephone": "+7 (925) 880-95-39",
@@ -403,7 +460,7 @@
       "name": "Мольберты.ру",
       "alternateName": "Мастерская Иванова Д. В.",
       "url": "https://www.molberty.ru/",
-      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "description": "Собственное производство мольбертов и оборудования для изостудий из натурального дерева с 1991 года.",
       "logo": "https://www.molberty.ru/assets/logo.svg",
       "email": "molberty@gmail.com",
       "telephone": "+7 (925) 880-95-39",
@@ -472,7 +529,7 @@
       "name": "Мольберты.ру",
       "alternateName": "Мастерская Иванова Д. В.",
       "url": "https://www.molberty.ru/",
-      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "description": "Собственное производство мольбертов и оборудования для изостудий из натурального дерева с 1991 года.",
       "logo": "https://www.molberty.ru/assets/logo.svg",
       "email": "molberty@gmail.com",
       "telephone": "+7 (925) 880-95-39",
@@ -553,7 +610,7 @@
       "name": "Мольберты.ру",
       "alternateName": "Мастерская Иванова Д. В.",
       "url": "https://www.molberty.ru/",
-      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "description": "Собственное производство мольбертов и оборудования для изостудий из натурального дерева с 1991 года.",
       "logo": "https://www.molberty.ru/assets/logo.svg",
       "email": "molberty@gmail.com",
       "telephone": "+7 (925) 880-95-39",
@@ -634,7 +691,7 @@
       "name": "Мольберты.ру",
       "alternateName": "Мастерская Иванова Д. В.",
       "url": "https://www.molberty.ru/",
-      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "description": "Собственное производство мольбертов и оборудования для изостудий из натурального дерева с 1991 года.",
       "logo": "https://www.molberty.ru/assets/logo.svg",
       "email": "molberty@gmail.com",
       "telephone": "+7 (925) 880-95-39",
@@ -715,7 +772,7 @@
       "name": "Мольберты.ру",
       "alternateName": "Мастерская Иванова Д. В.",
       "url": "https://www.molberty.ru/",
-      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "description": "Собственное производство мольбертов и оборудования для изостудий из натурального дерева с 1991 года.",
       "logo": "https://www.molberty.ru/assets/logo.svg",
       "email": "molberty@gmail.com",
       "telephone": "+7 (925) 880-95-39",
@@ -807,10 +864,14 @@
         "https://www.molberty.ru/assets/catalog/f0d6e098523342fd.webp"
       ],
       "offers": {
-        "@type": "Offer",
+        "@type": "AggregateOffer",
         "url": "https://www.molberty.ru/product/bolshoy-stankovyy-buk/",
         "priceCurrency": "RUB",
-        "price": 28000,
+        "lowPrice": 24000,
+        "eligibleQuantity": {
+          "@type": "QuantitativeValue",
+          "minValue": 10
+        },
         "seller": {
           "@id": "https://www.molberty.ru/#organization"
         }
@@ -825,7 +886,7 @@
       "name": "Мольберты.ру",
       "alternateName": "Мастерская Иванова Д. В.",
       "url": "https://www.molberty.ru/",
-      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "description": "Собственное производство мольбертов и оборудования для изостудий из натурального дерева с 1991 года.",
       "logo": "https://www.molberty.ru/assets/logo.svg",
       "email": "molberty@gmail.com",
       "telephone": "+7 (925) 880-95-39",
@@ -910,10 +971,14 @@
         "https://www.molberty.ru/assets/catalog/ce16ec4e4abbd0a5.webp"
       ],
       "offers": {
-        "@type": "Offer",
+        "@type": "AggregateOffer",
         "url": "https://www.molberty.ru/product/podium-dlya-natury/",
         "priceCurrency": "RUB",
-        "price": 13500,
+        "lowPrice": 12000,
+        "eligibleQuantity": {
+          "@type": "QuantitativeValue",
+          "minValue": 5
+        },
         "seller": {
           "@id": "https://www.molberty.ru/#organization"
         }
@@ -928,7 +993,7 @@
       "name": "Мольберты.ру",
       "alternateName": "Мастерская Иванова Д. В.",
       "url": "https://www.molberty.ru/",
-      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "description": "Собственное производство мольбертов и оборудования для изостудий из натурального дерева с 1991 года.",
       "logo": "https://www.molberty.ru/assets/logo.svg",
       "email": "molberty@gmail.com",
       "telephone": "+7 (925) 880-95-39",
@@ -1007,10 +1072,14 @@
         "https://www.molberty.ru/assets/catalog/52ab74703e28b3f7.webp"
       ],
       "offers": {
-        "@type": "Offer",
+        "@type": "AggregateOffer",
         "url": "https://www.molberty.ru/product/stol-skulptora-profi/",
         "priceCurrency": "RUB",
-        "price": 11000,
+        "lowPrice": 9800,
+        "eligibleQuantity": {
+          "@type": "QuantitativeValue",
+          "minValue": 5
+        },
         "seller": {
           "@id": "https://www.molberty.ru/#organization"
         }
@@ -1025,7 +1094,7 @@
       "name": "Мольберты.ру",
       "alternateName": "Мастерская Иванова Д. В.",
       "url": "https://www.molberty.ru/",
-      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "description": "Собственное производство мольбертов и оборудования для изостудий из натурального дерева с 1991 года.",
       "logo": "https://www.molberty.ru/assets/logo.svg",
       "email": "molberty@gmail.com",
       "telephone": "+7 (925) 880-95-39",
@@ -1102,10 +1171,14 @@
         "https://www.molberty.ru/assets/catalog/b76eab60266cc911.webp"
       ],
       "offers": {
-        "@type": "Offer",
+        "@type": "AggregateOffer",
         "url": "https://www.molberty.ru/product/stolik-skulptora-buk-fanera/",
         "priceCurrency": "RUB",
-        "price": 7200,
+        "lowPrice": 6000,
+        "eligibleQuantity": {
+          "@type": "QuantitativeValue",
+          "minValue": 5
+        },
         "seller": {
           "@id": "https://www.molberty.ru/#organization"
         }
@@ -1120,7 +1193,7 @@
       "name": "Мольберты.ру",
       "alternateName": "Мастерская Иванова Д. В.",
       "url": "https://www.molberty.ru/",
-      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "description": "Собственное производство мольбертов и оборудования для изостудий из натурального дерева с 1991 года.",
       "logo": "https://www.molberty.ru/assets/logo.svg",
       "email": "molberty@gmail.com",
       "telephone": "+7 (925) 880-95-39",
@@ -1195,7 +1268,7 @@
       "name": "Мольберты.ру",
       "alternateName": "Мастерская Иванова Д. В.",
       "url": "https://www.molberty.ru/",
-      "description": "Мастерская по производству мольбертов и оборудования для изостудий из натурального дерева.",
+      "description": "Собственное производство мольбертов и оборудования для изостудий из натурального дерева с 1991 года.",
       "logo": "https://www.molberty.ru/assets/logo.svg",
       "email": "molberty@gmail.com",
       "telephone": "+7 (925) 880-95-39",

@@ -817,9 +817,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/46139268-1498486363994",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 28000,
-      "listingPrice": 28000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 24000,
+      "listingPrice": 24000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "stankovyy-statsionarnyy-sosna",
@@ -965,9 +967,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/46139268-1611226170060",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 16000,
-      "listingPrice": 16000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 14000,
+      "listingPrice": 14000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "stankovyy-statsionarnyy-buk",
@@ -1109,9 +1113,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/46139268-1501253736112",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 22500,
-      "listingPrice": 22500,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 20000,
+      "listingPrice": 20000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "malyy-stankovyy-buk",
@@ -1284,9 +1290,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/46139268-1655901040769",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 16500,
-      "listingPrice": 16500,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 14000,
+      "listingPrice": 14000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "stankovyy-2-storonniy",
@@ -1444,9 +1452,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/46139268-1762848599017",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 17000,
-      "listingPrice": 17000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 14500,
+      "listingPrice": 14500,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "stankovyy-skladnoy-sosna",
@@ -1604,9 +1614,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/46139268-1497456130776",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 12000,
-      "listingPrice": 12000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 10000,
+      "listingPrice": 10000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "stankovyy-skladnoy-buk",
@@ -1752,9 +1764,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/46139268-1498486301712",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 16500,
-      "listingPrice": 16500,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 14000,
+      "listingPrice": 14000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "transformer-a0-buk",
@@ -1901,9 +1915,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49043039-1498486363994",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 17000,
-      "listingPrice": 17000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 15000,
+      "listingPrice": 15000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "transformer-a1-buk",
@@ -2046,9 +2062,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49043039-1501253736112",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 15000,
-      "listingPrice": 15000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 13500,
+      "listingPrice": 13500,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "dizayner-a1-buk",
@@ -2122,9 +2140,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49043039-1497456130776",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 11000,
-      "listingPrice": 11000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 9000,
+      "listingPrice": 9000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "dizayner-a2-buk",
@@ -2202,9 +2222,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49043039-1498486301712",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 10000,
-      "listingPrice": 10000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 8500,
+      "listingPrice": 8500,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "studiya-a1",
@@ -2288,9 +2310,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49043039-1768727035995",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 6000,
-      "listingPrice": 6000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 5000,
+      "listingPrice": 5000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "studiya-a2",
@@ -2374,9 +2398,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49043039-1768727445494",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 5400,
-      "listingPrice": 5400,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 4600,
+      "listingPrice": 4600,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "lira-s-naklonnoy-shtangoy",
@@ -2517,9 +2543,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1498486363994",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 6500,
-      "listingPrice": 6500,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 5500,
+      "listingPrice": 5500,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "lira-s-naklonnoy-sht-buk",
@@ -2660,9 +2688,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1501253736112",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 9000,
-      "listingPrice": 9000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 8000,
+      "listingPrice": 8000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "raskladnoy-lira",
@@ -2826,9 +2856,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1497456130776",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 6000,
-      "listingPrice": 6000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 5000,
+      "listingPrice": 5000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "raskladnoy-lira-buk",
@@ -2992,9 +3024,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1498486301712",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 8500,
-      "listingPrice": 8500,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 7800,
+      "listingPrice": 7800,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "lira-s-podvizhnoy-shtangoy",
@@ -3154,9 +3188,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1522216368943",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 6500,
-      "listingPrice": 6500,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 5500,
+      "listingPrice": 5500,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "lira-s-podvizhnoy-shtangoy-buk",
@@ -3316,9 +3352,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1522216373437",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 9000,
-      "listingPrice": 9000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 8000,
+      "listingPrice": 8000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "lira-malyy",
@@ -3482,9 +3520,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1522216376309",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 5500,
-      "listingPrice": 5500,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 4500,
+      "listingPrice": 4500,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "lira-malyy-s-podvizhnoy-shtangoy",
@@ -3644,9 +3684,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1522216378019",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 5800,
-      "listingPrice": 5800,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 4800,
+      "listingPrice": 4800,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "lira-malyy-buk",
@@ -3806,9 +3848,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1522216379854",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 8500,
-      "listingPrice": 8500,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 7000,
+      "listingPrice": 7000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "lira-malyy-s-podvizhnoy-shtangoy-buk",
@@ -3968,9 +4012,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49043414-1522216381909",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 8800,
-      "listingPrice": 8800,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 7500,
+      "listingPrice": 7500,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "a-profi",
@@ -4129,9 +4175,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49044079-1498486363994",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 6000,
-      "listingPrice": 6000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 5000,
+      "listingPrice": 5000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "a-profi-buk",
@@ -4294,9 +4342,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49044079-1501253736112",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 8500,
-      "listingPrice": 8500,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 7000,
+      "listingPrice": 7000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "a-klass",
@@ -4405,9 +4455,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49044079-1497456130776",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 4800,
-      "listingPrice": 4800,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 4000,
+      "listingPrice": 4000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "khlopushka-a1h",
@@ -4481,9 +4533,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49044175-1498486363994",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 6000,
-      "listingPrice": 6000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 5000,
+      "listingPrice": 5000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "khlopushka-a1",
@@ -4581,9 +4635,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49044175-1501253736112",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 5500,
-      "listingPrice": 5500,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 4600,
+      "listingPrice": 4600,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "khlopushka-a1-dvustoronniy",
@@ -4657,9 +4713,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49044175-1497456130776",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 6200,
-      "listingPrice": 6200,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 5200,
+      "listingPrice": 5200,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "khlopushka-a2",
@@ -4757,9 +4815,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49044175-1498486301712",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 5000,
-      "listingPrice": 5000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 4200,
+      "listingPrice": 4200,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "khlopushka-a2-dvustoronniy",
@@ -4833,9 +4893,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49044175-1522219609187",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 5500,
-      "listingPrice": 5500,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 4600,
+      "listingPrice": 4600,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "khlopushka",
@@ -4909,9 +4971,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49044175-1522219651466",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 4000,
-      "listingPrice": 4000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 3200,
+      "listingPrice": 3200,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "khlopushka-detskiy-buk",
@@ -4998,9 +5062,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49044175-1522219690360",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 6000,
-      "listingPrice": 6000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 5000,
+      "listingPrice": 5000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "stol-dlya-chercheniya-i-risovaniya-chertezhnik",
@@ -5083,9 +5149,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49047569-1522219690360",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 9600,
-      "listingPrice": 9600,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 8000,
+      "listingPrice": 8000,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "stol-dlya-chercheniya-i-risovaniya-konstruktor",
@@ -5176,9 +5244,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/49047569-1524657106699",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 18000,
-      "listingPrice": 18000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 15000,
+      "listingPrice": 15000,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "nastolnyy-sosna",
@@ -5290,9 +5360,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/1570890501-9722490475690",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 3600,
-      "listingPrice": 3600,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 3000,
+      "listingPrice": 3000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "nastolnyy-buk",
@@ -5397,9 +5469,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/1570890501-9722490475691",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 4800,
-      "listingPrice": 4800,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 4000,
+      "listingPrice": 4000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "lira-nastolnyy-sosna",
@@ -5504,9 +5578,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/1570890501-9722490475692",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 2800,
-      "listingPrice": 2800,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 2200,
+      "listingPrice": 2200,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "lira-nastolnyy-buk",
@@ -5611,9 +5687,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/1570890501-9722490475693",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 3600,
-      "listingPrice": 3600,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 3000,
+      "listingPrice": 3000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "nastolnyy-mini-buk",
@@ -5685,9 +5763,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/1570890501-9722490475694",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 2500,
-      "listingPrice": 2500,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 2000,
+      "listingPrice": 2000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "nastolnyy-mini-xl-buk",
@@ -5763,9 +5843,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/1570890501-9722490475695",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 2700,
-      "listingPrice": 2700,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 2400,
+      "listingPrice": 2400,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "nastolnyy-akva",
@@ -5874,9 +5956,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/1570890501-9722490475696",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 4200,
-      "listingPrice": 4200,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 3500,
+      "listingPrice": 3500,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "planshet-nastolnyy-grafika",
@@ -5990,9 +6074,11 @@
       "source": "https://www.molberty.ru/for_artist#!/tproduct/1570890501-9722490475697",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 3400,
-      "listingPrice": 3400,
-      "listingFrom": true
+      "defaultTier": "wholesale",
+      "defaultPrice": 2800,
+      "listingPrice": 2800,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "maksi",
@@ -6068,9 +6154,11 @@
       "source": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1498486363994",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 17000,
-      "listingPrice": 17000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 15000,
+      "listingPrice": 15000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "ekspo-1",
@@ -6146,9 +6234,11 @@
       "source": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1501253736112",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 7000,
-      "listingPrice": 7000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 6000,
+      "listingPrice": 6000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "ekspo-2",
@@ -6220,9 +6310,11 @@
       "source": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1497456130776",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 8000,
-      "listingPrice": 8000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 7000,
+      "listingPrice": 7000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "machta",
@@ -6298,9 +6390,11 @@
       "source": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1498486301712",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 7000,
-      "listingPrice": 7000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 6000,
+      "listingPrice": 6000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "trenoga-1500",
@@ -6376,9 +6470,11 @@
       "source": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1522251739696",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 3200,
-      "listingPrice": 3200,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 2500,
+      "listingPrice": 2500,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "trenoga-vystavochnaya",
@@ -6458,9 +6554,11 @@
       "source": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1522251785894",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 5000,
-      "listingPrice": 5000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 4000,
+      "listingPrice": 4000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "vernisazh",
@@ -6540,9 +6638,11 @@
       "source": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1522251823207",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 7500,
-      "listingPrice": 7500,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 6500,
+      "listingPrice": 6500,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "delta",
@@ -6626,9 +6726,11 @@
       "source": "https://www.molberty.ru/for_exibition#!/tproduct/49052876-1563552682842",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 7500,
-      "listingPrice": 7500,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 6500,
+      "listingPrice": 6500,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "lira-podarochnyy-buk",
@@ -6688,9 +6790,11 @@
       "source": "https://www.molberty.ru/for_interior#!/tproduct/49126451-1498486363994",
       "minimumOrder": 1,
       "wholesaleOnly": false,
+      "defaultTier": "retail",
       "defaultPrice": 18000,
       "listingPrice": 18000,
-      "listingFrom": false
+      "listingFrom": true,
+      "defaultQuantity": 1
     },
     {
       "id": "molbert-ampir",
@@ -6742,9 +6846,11 @@
       "source": "https://www.molberty.ru/for_interior#!/tproduct/49126451-1522251823207",
       "minimumOrder": 1,
       "wholesaleOnly": false,
+      "defaultTier": "retail",
       "defaultPrice": 30000,
       "listingPrice": 30000,
-      "listingFrom": false
+      "listingFrom": true,
+      "defaultQuantity": 1
     },
     {
       "id": "molbert-eksklyuziv",
@@ -6800,9 +6906,11 @@
       "source": "https://www.molberty.ru/for_interior#!/tproduct/49126451-1522301588688",
       "minimumOrder": 1,
       "wholesaleOnly": false,
+      "defaultTier": "retail",
       "defaultPrice": 28000,
       "listingPrice": 28000,
-      "listingFrom": false
+      "listingFrom": true,
+      "defaultQuantity": 1
     },
     {
       "id": "molbert-plazma-xl",
@@ -6863,9 +6971,11 @@
       "source": "https://www.molberty.ru/for_interior#!/tproduct/49126451-1522301628609",
       "minimumOrder": 1,
       "wholesaleOnly": false,
+      "defaultTier": "retail",
       "defaultPrice": 38000,
       "listingPrice": 38000,
-      "listingFrom": true
+      "listingFrom": true,
+      "defaultQuantity": 1
     },
     {
       "id": "molbert-versal",
@@ -6929,9 +7039,11 @@
       "source": "https://www.molberty.ru/for_interior#!/tproduct/49126451-1563554523875",
       "minimumOrder": 1,
       "wholesaleOnly": false,
+      "defaultTier": "retail",
       "defaultPrice": 40000,
       "listingPrice": 40000,
-      "listingFrom": true
+      "listingFrom": true,
+      "defaultQuantity": 1
     },
     {
       "id": "trenogi-dlya-foto-ramok",
@@ -7037,9 +7149,11 @@
       "source": "https://www.molberty.ru/for_interior#!/tproduct/51369798-1498486363994",
       "minimumOrder": 1,
       "wholesaleOnly": false,
+      "defaultTier": "retail",
       "defaultPrice": 250,
       "listingPrice": 250,
-      "listingFrom": true
+      "listingFrom": true,
+      "defaultQuantity": 1
     },
     {
       "id": "mini-molberty-lira",
@@ -7116,9 +7230,11 @@
       "source": "https://www.molberty.ru/for_interior#!/tproduct/51369798-1501253736112",
       "minimumOrder": 1,
       "wholesaleOnly": false,
+      "defaultTier": "retail",
       "defaultPrice": 450,
       "listingPrice": 450,
-      "listingFrom": true
+      "listingFrom": true,
+      "defaultQuantity": 1
     },
     {
       "id": "stol-dlya-natyurmortov-s-planshetom-ugolok",
@@ -7225,9 +7341,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522251739696",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 6800,
-      "listingPrice": 6800,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 5700,
+      "listingPrice": 5700,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "stol-dlya-natyurmortov-50kh50-s-peremennoy-vysotoy-ekspozitsii",
@@ -7323,9 +7441,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1629798309149",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 9600,
-      "listingPrice": 9600,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 8000,
+      "listingPrice": 8000,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "stol-dlya-natyurmorta-s-peremennoy-vysotoy-ekspozitsii",
@@ -7428,9 +7548,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1561961803488",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 7800,
-      "listingPrice": 7800,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 6500,
+      "listingPrice": 6500,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "stol-transformer-dlya-natyurmorta",
@@ -7510,9 +7632,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1632207169730",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 10800,
-      "listingPrice": 10800,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 9000,
+      "listingPrice": 9000,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "stol-dlya-natyurmorta-skladnoy",
@@ -7607,9 +7731,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1574785349708",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 7200,
-      "listingPrice": 7200,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 6000,
+      "listingPrice": 6000,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "stol-tumba-dlya-natyurmorta",
@@ -7720,9 +7846,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1701931997821",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 12000,
-      "listingPrice": 12000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 10000,
+      "listingPrice": 10000,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "planshety",
@@ -7915,9 +8043,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1524485501356",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 2600,
-      "listingPrice": 600,
-      "listingFrom": true
+      "defaultTier": "wholesale",
+      "defaultPrice": 2000,
+      "listingPrice": 500,
+      "listingFrom": true,
+      "defaultQuantity": 15
     },
     {
       "id": "stolik-dlya-ekspozitsiy",
@@ -7990,9 +8120,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1498486301712",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 12000,
-      "listingPrice": 12000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 10000,
+      "listingPrice": 10000,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "sofit-dlya-podsvetki-natyurmorta",
@@ -8072,9 +8204,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1611754414386",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 13000,
-      "listingPrice": 13000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 11000,
+      "listingPrice": 11000,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "svetilnik-dlya-podsvetki-natyurmorta",
@@ -8158,9 +8292,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1653547243518",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 5500,
-      "listingPrice": 5500,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 4500,
+      "listingPrice": 4500,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "svetilnik-prishchepka",
@@ -8240,9 +8376,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1712751566388",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 4000,
-      "listingPrice": 4000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 3400,
+      "listingPrice": 3400,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "stolik-skulptora-buk-fanera",
@@ -8315,9 +8453,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522251785894",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 7200,
-      "listingPrice": 7200,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 6000,
+      "listingPrice": 6000,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "stol-skulptora-profi",
@@ -8399,9 +8539,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522251823207",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 11000,
-      "listingPrice": 11000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 9800,
+      "listingPrice": 9800,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "podstavka-dlya-risunkov",
@@ -8474,9 +8616,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1501253736112",
       "minimumOrder": 1,
       "wholesaleOnly": false,
+      "defaultTier": "wholesale",
       "defaultPrice": 5400,
       "listingPrice": 5400,
-      "listingFrom": false
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "plakatnitsy-a1-i-a2",
@@ -8576,9 +8720,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522304205093",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 9600,
-      "listingPrice": 6800,
-      "listingFrom": true
+      "defaultTier": "wholesale",
+      "defaultPrice": 8000,
+      "listingPrice": 6000,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "podstavka-dlya-risunkov-buk",
@@ -8651,9 +8797,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1497456130776",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 7000,
-      "listingPrice": 7000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 5800,
+      "listingPrice": 5800,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "plakatnitsa-nastennaya",
@@ -8726,9 +8874,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522304263614",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 6000,
-      "listingPrice": 6000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 5000,
+      "listingPrice": 5000,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "palitra",
@@ -8822,9 +8972,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1524658392476",
       "minimumOrder": 10,
       "wholesaleOnly": true,
+      "defaultTier": "wholesale",
       "defaultPrice": 250,
       "listingPrice": 250,
-      "listingFrom": true
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "klipbord",
@@ -8941,9 +9093,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1575974482586",
       "minimumOrder": 10,
       "wholesaleOnly": false,
-      "defaultPrice": 780,
-      "listingPrice": 780,
-      "listingFrom": true
+      "defaultTier": "wholesale",
+      "defaultPrice": 650,
+      "listingPrice": 650,
+      "listingFrom": true,
+      "defaultQuantity": 10
     },
     {
       "id": "shkatulka-dlya-kistey-i-krasok",
@@ -9020,9 +9174,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1498486363994",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 4800,
-      "listingPrice": 4800,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 4000,
+      "listingPrice": 4000,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "stolik-dlya-palitry",
@@ -9103,9 +9259,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522301546091",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 3900,
-      "listingPrice": 3900,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 3200,
+      "listingPrice": 3200,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "telezhka-dlya-khudozhestvennykh-prinadlezhnostey",
@@ -9178,9 +9336,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1610892209638",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 10800,
-      "listingPrice": 10800,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 9000,
+      "listingPrice": 9000,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "taburet-rabochiy",
@@ -9253,9 +9413,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522301588688",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 3850,
-      "listingPrice": 3850,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 3200,
+      "listingPrice": 3200,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "taburet-vysokiy-buk",
@@ -9327,9 +9489,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522301628609",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 8500,
-      "listingPrice": 8500,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 7000,
+      "listingPrice": 7000,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "taburet-vysokiy-sosna",
@@ -9405,9 +9569,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1792565100762",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 8500,
-      "listingPrice": 8500,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 7000,
+      "listingPrice": 7000,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "stul-khudozhnika",
@@ -9479,9 +9645,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522304058801",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 11500,
-      "listingPrice": 11500,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 9500,
+      "listingPrice": 9500,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "stellazh-dlya-sushki-i-khraneniya-listov-a1",
@@ -9570,9 +9738,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1617087436244",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 33000,
-      "listingPrice": 33000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 30000,
+      "listingPrice": 30000,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "stellazh-dlya-sushki-i-khraneniya-listov-a2",
@@ -9657,9 +9827,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1716877878229",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 32500,
-      "listingPrice": 32500,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 27000,
+      "listingPrice": 27000,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "stellazh-dlya-planshetov-i-podramnikov",
@@ -9747,9 +9919,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1707383785350",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 20500,
-      "listingPrice": 20500,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 17000,
+      "listingPrice": 17000,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "stellazh-dlya-dekora-i-gipsovykh-modeley",
@@ -9845,9 +10019,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1762852847044",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 19500,
-      "listingPrice": 19500,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 16000,
+      "listingPrice": 16000,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "podium-dlya-natury",
@@ -9936,9 +10112,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1792572231272",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 13500,
-      "listingPrice": 13500,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 12000,
+      "listingPrice": 12000,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "shirma",
@@ -10012,9 +10190,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522304345907",
       "minimumOrder": 1,
       "wholesaleOnly": false,
-      "defaultPrice": 6000,
-      "listingPrice": 6000,
-      "listingFrom": false
+      "defaultTier": "wholesale",
+      "defaultPrice": 5000,
+      "listingPrice": 5000,
+      "listingFrom": true,
+      "defaultQuantity": 5
     },
     {
       "id": "tumbochka-khudozhnika",
@@ -10073,9 +10253,11 @@
       "source": "https://www.molberty.ru/for_studio#!/tproduct/49170011-1522304387094",
       "minimumOrder": 1,
       "wholesaleOnly": false,
+      "defaultTier": "retail",
       "defaultPrice": 20000,
       "listingPrice": 20000,
-      "listingFrom": false
+      "listingFrom": true,
+      "defaultQuantity": 1
     }
   ],
   "articles": [
@@ -10200,7 +10382,11 @@
             "id": "a-stil",
             "title": "«А-стиль» для необычных решений",
             "start": 7,
-            "end": 8
+            "end": 8,
+            "productIds": [
+              "a-klass",
+              "a-profi"
+            ]
           }
         ],
         "highlights": [
@@ -10210,7 +10396,15 @@
         "previewHeight": 1024,
         "previewType": "generated",
         "previewVersion": 1,
-        "readingMinutes": 2
+        "readingMinutes": 2,
+        "imageOverrides": {
+          "4": {
+            "productIds": [
+              "lira-s-naklonnoy-shtangoy",
+              "lira-s-podvizhnoy-shtangoy-buk"
+            ]
+          }
+        }
       }
     },
     {
@@ -12179,7 +12373,8 @@
       "invoice": "В течение дня выставляется счёт и сообщается дата поставки.",
       "packagingRub": 200,
       "terminalDeliveryRubPerBatch": 1800,
-      "carrier": "Отправка в регионы через транспортные компании с терминалами в Москве. Услуги транспортной компании оплачиваются после доставки груза."
+      "carrier": "Отправка в регионы через транспортные компании с терминалами в Москве. Услуги транспортной компании оплачиваются после доставки груза.",
+      "competitiveProposals": "Для оптовых покупателей мы совместно с нашими дилерами можем оперативно подготовить 3 коммерческих предложения для проведения конкурсных процедур."
     },
     "retail": {
       "showroom": "Модели можно посмотреть в демонстрационном зале и приобрести в офисе. Выбранный мольберт могут вынести к проходной.",
@@ -12187,7 +12382,7 @@
       "weight": "0,5–8 кг в зависимости от модели",
       "courier": "Курьерская служба, в том числе Яндекс — грузовая доставка. Стоимость зависит от района и габаритов. Доставка — через день после приёма заказа, с 10:00 до 18:00.",
       "courierOrder": "Отправьте на почту название продукции, адрес, ФИО и мобильный телефон.",
-      "regionalOrder": "Для отправки в другой город направьте на почту заявку с паспортными данными получателя, контактным телефоном и адресом доставки.",
+      "regionalOrder": "Для отправки в другой город укажите ФИО получателя и мобильный номер телефона для связи и получения груза.",
       "regionalExtraRub": 500,
       "regionalPayment": "До отправки оплачиваются мольберт, упаковка и доставка до терминала: дополнительно 500 ₽ к розничной цене. Межтерминальную перевозку и доставку до подъезда оплачивают по прибытии груза в город получателя."
     }
@@ -12212,6 +12407,140 @@
     "guideLead": "Если Вы — начинающий художник или хотите сделать подарок своим друзьям или близким, прочитайте это краткое руководство по выбору мольберта.",
     "guidePath": "blog/kak-vybrat-molbert/",
     "verbatim": true
+  },
+  "production": {
+    "since": 1991,
+    "compliance": "Все изделия выпускаются в соответствии с ТУ 32.99.16-001-0115936521-2020 и ГОСТ 16371-2014. К каждому изделию прилагаются паспорт с указанием гарантийного срока, инструкция по сборке и необходимый комплект крепежа."
+  },
+  "businessDocuments": {
+    "title": "Документы и реквизиты",
+    "lead": "Реквизиты производителя и документы для подготовки договора и оформления закупки.",
+    "requisites": [
+      [
+        "Полное наименование",
+        "Индивидуальный предприниматель Иванов Дмитрий Витальевич"
+      ],
+      [
+        "Юридический адрес",
+        "127221, Москва, проезд Шокальского, 41-101"
+      ],
+      [
+        "Адрес местонахождения",
+        "129329, Московская область, г. Мытищи, проезд 4530, стр. 2, завод «СпецМашМонтаж»"
+      ],
+      [
+        "ИНН",
+        "771500295037"
+      ],
+      [
+        "КПП",
+        "0"
+      ],
+      [
+        "ОГРНИП",
+        "305770002505860"
+      ],
+      [
+        "Регистрация",
+        "Свидетельство № 006760697 от 16.08.2005, ИФНС РФ № 15 по г. Москве"
+      ],
+      [
+        "Расчётный счёт",
+        "40802810300810262058"
+      ],
+      [
+        "Банк",
+        "Филиал «Центральный» Банка ВТБ (ПАО)"
+      ],
+      [
+        "Адрес банка",
+        "Москва, ул. Рождественка, д. 10/2, строение 1"
+      ],
+      [
+        "Корреспондентский счёт",
+        "30101810145250000411"
+      ],
+      [
+        "БИК",
+        "044525411"
+      ],
+      [
+        "ОКПО",
+        "0115936521"
+      ],
+      [
+        "ОКОГУ",
+        "4210015"
+      ],
+      [
+        "ОКАТО",
+        "45280583000"
+      ],
+      [
+        "ОКТМО",
+        "45362000"
+      ],
+      [
+        "ОКВЭД",
+        "361 60.24"
+      ],
+      [
+        "ОКВЭД 2",
+        "16.29.14"
+      ],
+      [
+        "ОКФС",
+        "16"
+      ],
+      [
+        "ОКОПФ",
+        "50102"
+      ],
+      [
+        "ОКПД",
+        "16.23.19"
+      ],
+      [
+        "ТН ВЭД",
+        "441860"
+      ],
+      [
+        "Налогообложение",
+        "АУСН. Без НДС. Справка о применении автоматизированной упрощённой системы налогообложения от 22.07.2026 № 75531"
+      ],
+      [
+        "Сайт",
+        "www.molberty.ru"
+      ],
+      [
+        "Электронная почта",
+        "molberty@gmail.com, molberty@mail.ru"
+      ],
+      [
+        "Телефоны",
+        "+7 (926) 211-93-63, +7 (925) 880-95-39"
+      ]
+    ],
+    "downloads": [
+      {
+        "file": "documents/company-details.pdf",
+        "title": "Реквизиты производителя",
+        "description": "Карточка основных сведений о предприятии.",
+        "bytes": 74530
+      },
+      {
+        "file": "documents/egrip-extract.pdf",
+        "title": "Выписка из ЕГРИП",
+        "description": "Сведения об индивидуальном предпринимателе.",
+        "bytes": 151518
+      },
+      {
+        "file": "documents/sme-register-extract.pdf",
+        "title": "Выписка из реестра СМП",
+        "description": "Сведения из единого реестра субъектов малого и среднего предпринимательства.",
+        "bytes": 131995
+      }
+    ]
   },
   "legacyIdMap": {
     "lira-classic": "raskladnoy-lira",

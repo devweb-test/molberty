@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-27T15:34:32.808Z",
+  "products": 91,
+  "wholesaleDefaults": 83,
+  "retailOnlyPrices": 8,
+  "documents": 3,
+  "widths": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "checks": [
+    "production logo and marketing",
+    "protected company prose",
+    "standards and product completeness",
+    "all default configurations and minimum quantities",
+    "wholesale cards with honest retail fallback",
+    "recipient name and mobile only",
+    "three competitive proposals",
+    "requisites and exact PDF downloads",
+    "Lira and A-style photos with zoom",
+    "responsive layout"
+  ],
+  "screenshots": "/home/v_chernyshov/molberty/.clone-work/production-v34-preview"
+}

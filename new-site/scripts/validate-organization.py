@@ -133,7 +133,7 @@ def validate(vocabulary=None):
             products += 1
         pages += 1
         blocks += len(schemas)
-    assert pages == 139 and redirects == 25 and products == 91
+    assert pages == 140 and redirects == 25 and products == 91
     result = {'passed': True, 'pages': pages, 'redirectsExcluded': redirects,
               'jsonLdBlocks': blocks, 'organizationNodes': pages, 'linkedProductOffers': products,
               'errors': [], 'warnings': [], 'logo': {'file': str(logo_path.relative_to(ROOT)), 'width': 512, 'height': 512}}
@@ -151,4 +151,4 @@ if __name__ == '__main__':
     if args.report:
         result['checkedAt'] = datetime.now(ZoneInfo('Europe/Moscow')).isoformat()
         (ROOT / 'qa/organization-schema-validation.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n')
-    print('Organization: 139 страниц, 91 связь Product → seller, JSON-LD и контакты: OK')
+    print('Organization: 140 страниц, 91 связь Product → seller, JSON-LD и контакты: OK')

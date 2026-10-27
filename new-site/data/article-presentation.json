@@ -26,7 +26,11 @@
         "id": "a-stil",
         "title": "«А-стиль» для необычных решений",
         "start": 7,
-        "end": 8
+        "end": 8,
+        "productIds": [
+          "a-klass",
+          "a-profi"
+        ]
       }
     ],
     "highlights": [
@@ -36,7 +40,15 @@
     "previewHeight": 1024,
     "previewType": "generated",
     "previewVersion": 1,
-    "readingMinutes": 2
+    "readingMinutes": 2,
+    "imageOverrides": {
+      "4": {
+        "productIds": [
+          "lira-s-naklonnoy-shtangoy",
+          "lira-s-podvizhnoy-shtangoy-buk"
+        ]
+      }
+    }
   },
   "instrument-dlya-tvorchestva-molbert": {
     "previewImage": "blog-previews/construction-v1.webp",

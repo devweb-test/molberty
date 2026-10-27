@@ -51,22 +51,31 @@ for item in products:
  for option in item['options']:
   if option['name']=='Наклонная штанга' and len(option['values'])==1:
    option['values'].insert(0,dict(label='Без наклонной штанги',price=None,mode='none',priceSource='description',rawVariantPrice=''))
- def initial_price(product):
-  base=product['retailPrice'];delta=0
-  for j,opt in enumerate(product['options']):
-   if j==product['priceOptionIndex'] or opt.get('priceTier')=='wholesale':continue
-   vals=[v for v in opt['values'] if v['label'].strip()]
-   if opt.get('priceTier') or (vals and all(v['mode']=='absolute' for v in vals if v['label'] not in ['–','-'])):
-    vals=[v for v in vals if v['mode']=='absolute']
-   if not vals:continue
-   v=vals[0]
-   if v['mode']=='absolute':base=v['price']
-   elif v['mode']=='delta':delta+=v['price']
-  return base+delta
- item['defaultPrice']=initial_price(item)
- retail_variants=[v['price'] for j,o in enumerate(item['options']) if j!=item['priceOptionIndex'] and o.get('priceTier')!='wholesale' for v in o['values'] if v['mode']=='absolute']
- item['listingPrice']=min(retail_variants) if retail_variants else item['defaultPrice']
- item['listingFrom']=item['retailFrom'] or len(set(retail_variants))>1
+ def option_values(option):
+  values=[v for v in option['values'] if v['label'].strip()]
+  return [v for v in values if v['mode']=='absolute'] if any(v['mode']=='absolute' for v in values) else values
+ tier='wholesale' if item['wholesalePrice'] is not None or item['wholesaleOnly'] else 'retail'
+ item['defaultTier']=tier
+ base=item['wholesalePrice'] if tier=='wholesale' and item['wholesalePrice'] is not None else item['retailPrice']
+ if item['priceOptionIndex'] is not None:
+  tier_value=next((v for v in item['options'][item['priceOptionIndex']]['values'] if ('опт' if tier=='wholesale' else 'розниц') in v['label'].lower()),None)
+  if tier_value and tier_value['price'] is not None:base=tier_value['price']
+ default_base=listing_base=base;default_delta=listing_delta=0
+ for j,opt in enumerate(item['options']):
+  if j==item['priceOptionIndex'] or opt.get('priceTier',tier)!=tier:continue
+  vals=option_values(opt)
+  if not vals:continue
+  first=vals[0]
+  if first['mode']=='absolute':default_base=first['price']
+  elif first['mode']=='delta':default_delta+=first['price']
+  # Each option's cheapest available value, including a genuine no-addition choice.
+  cheapest=min(vals,key=lambda v:0 if v['price'] is None else v['price'])
+  if cheapest['mode']=='absolute':listing_base=cheapest['price']
+  elif cheapest['mode']=='delta':listing_delta+=cheapest['price']
+ item['defaultPrice']=default_base+default_delta
+ item['listingPrice']=listing_base+listing_delta
+ item['listingFrom']=True
+ item['defaultQuantity']=max(item['minimumOrder'],(item['wholesaleMin'] or 1) if tier=='wholesale' else 1)
 
 for category in cats:
  match=next((item for item in products if item['primaryCategoryId']==category['id']),None) or next((item for item in products if category['id'] in item['categories']),None)
@@ -97,7 +106,9 @@ assert set(price_links['links'])|set(price_links['unlinked'])==price_ids,'Review
 assert set(price_links['links'].values())<={product['id'] for product in products},'Price link points to a missing product'
 sales=json.loads((ROOT/'data/sales.json').read_text())
 company=json.loads((ROOT/'data/company.json').read_text())
-data={'categories':cats,'products':products,'articles':articles,'showcase':showcase,'prices':prices,'priceProductLinks':price_links['links'],'sales':sales,'company':company,'legacyIdMap':source['legacyIdMap'],'categoryRoots':root_ids,'categoryRoles':roles}
+production=json.loads((ROOT/'data/production.json').read_text())
+business_documents=json.loads((ROOT/'data/business-documents.json').read_text())
+data={'categories':cats,'products':products,'articles':articles,'showcase':showcase,'prices':prices,'priceProductLinks':price_links['links'],'sales':sales,'company':company,'production':production,'businessDocuments':business_documents,'legacyIdMap':source['legacyIdMap'],'categoryRoots':root_ids,'categoryRoles':roles}
 (ROOT/'data/catalog.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
 (ROOT/'assets/data.js').write_text('window.CATALOG = '+json.dumps(data,ensure_ascii=False)+';')
 legal_pages=json.loads((ROOT/'data/legal-pages.json').read_text())
@@ -110,9 +121,9 @@ def structured(trail,product=None):
  blocks=[('organization-schema',ORGANIZATION),('breadcrumb-schema',{'@context':'https://schema.org','@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':i+1,'name':name,'item':BASE+route} for i,(name,route) in enumerate(trail)]})]
  if product:
   offer={'@type':'Offer','url':BASE+'product/'+product['id']+'/','priceCurrency':'RUB','price':product['defaultPrice']}
-  if product['retailFrom']:
+  if product['defaultTier']=='wholesale' or product['retailFrom']:
    offer={'@type':'AggregateOffer','url':offer['url'],'priceCurrency':'RUB','lowPrice':product['defaultPrice']}
-  elif product['minimumOrder']>1:offer['eligibleQuantity']={'@type':'QuantitativeValue','minValue':product['minimumOrder']}
+  if product['defaultQuantity']>1:offer['eligibleQuantity']={'@type':'QuantitativeValue','minValue':product['defaultQuantity']}
   offer['seller']={'@id':ORGANIZATION['@id']}
   blocks.append(('product-schema',{'@context':'https://schema.org','@type':'Product','@id':BASE+'product/'+product['id']+'/#product','url':BASE+'product/'+product['id']+'/','name':product['name'],'description':product['description'],'image':[BASE+'assets/'+img['file'] for img in product['gallery']],'offers':offer}))
  return ''.join('<script id="'+id+'" type="application/ld+json">'+json.dumps(obj,ensure_ascii=False).replace('<','\\u003c')+'</script>' for id,obj in blocks)
@@ -120,20 +131,20 @@ def shell(title,content,prefix='',desc=None,trail=None,product=None):
  schema=structured(trail or [('Главная','')],product)
  canonical=BASE+(trail[-1][1] if trail else '')
  legal_script=f'<script defer src="{prefix}assets/legal.js"></script>' if trail and trail[-1][1] in ('privacy/','consent/') else ''
- return f'''<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="description" content="{html.escape(desc or 'Мольберты и оборудование для изостудий из натурального дерева. Мастерская Иванова Д. В. С 1991 года.')}"><meta name="robots" content="noindex, nofollow"><meta name="theme-color" content="#34483d"><link rel="canonical" href="{canonical}">{schema}<title>{html.escape(title)} — Мольберты.ру</title><link rel="icon" href="{prefix}assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="{prefix}assets/style.css"><link rel="stylesheet" href="{prefix}assets/motion.css"><script>window.SITE_ROOT={json.dumps(prefix)};</script><script defer src="{prefix}assets/cookies.js"></script>{legal_script}<script defer src="{prefix}assets/data.js"></script><script defer src="{prefix}assets/app.js"></script><script defer src="{prefix}assets/motion.js"></script></head><body><a class="skip" href="#main">Перейти к содержимому</a><div id="header"></div><main id="main">{content}</main><div id="footer"></div>{cookie_markup(prefix)}{mobile_navigation(prefix,canonical)}<dialog id="request-dialog"><button class="close" data-close aria-label="Закрыть">×</button><div id="dialog-content"></div></dialog><dialog id="image-dialog" aria-label="Просмотр изображения"><button class="close" data-image-close aria-label="Закрыть изображение">×</button><div class="image-viewer-toolbar"><button data-zoom="out" aria-label="Уменьшить">−</button><button data-zoom="reset">100%</button><button data-zoom="in" aria-label="Увеличить">+</button></div><div class="image-viewer-stage"><img id="viewer-image" alt=""></div><p id="viewer-caption"></p><a id="viewer-document" target="_blank" rel="noopener">Открыть PDF ↗</a></dialog><button class="back-top" data-top aria-label="Наверх страницы" hidden>↑</button><div id="toast" role="status"></div></body></html>'''
+ return f'''<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="description" content="{html.escape(desc or 'Мольберты и оборудование для изостудий из натурального дерева. Собственное производство с 1991 года.')}"><meta name="robots" content="noindex, nofollow"><meta name="theme-color" content="#34483d"><link rel="canonical" href="{canonical}">{schema}<title>{html.escape(title)} — Мольберты.ру</title><link rel="icon" href="{prefix}assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="{prefix}assets/style.css"><link rel="stylesheet" href="{prefix}assets/motion.css"><script>window.SITE_ROOT={json.dumps(prefix)};</script><script defer src="{prefix}assets/cookies.js"></script>{legal_script}<script defer src="{prefix}assets/data.js"></script><script defer src="{prefix}assets/app.js"></script><script defer src="{prefix}assets/motion.js"></script></head><body><a class="skip" href="#main">Перейти к содержимому</a><div id="header"></div><main id="main">{content}</main><div id="footer"></div>{cookie_markup(prefix)}{mobile_navigation(prefix,canonical)}<dialog id="request-dialog"><button class="close" data-close aria-label="Закрыть">×</button><div id="dialog-content"></div></dialog><dialog id="image-dialog" aria-label="Просмотр изображения"><button class="close" data-image-close aria-label="Закрыть изображение">×</button><div class="image-viewer-toolbar"><button data-zoom="out" aria-label="Уменьшить">−</button><button data-zoom="reset">100%</button><button data-zoom="in" aria-label="Увеличить">+</button></div><div class="image-viewer-stage"><img id="viewer-image" alt=""></div><p id="viewer-caption"></p><a id="viewer-document" target="_blank" rel="noopener">Открыть PDF ↗</a></dialog><button class="back-top" data-top aria-label="Наверх страницы" hidden>↑</button><div id="toast" role="status"></div></body></html>'''
 (ROOT/'index.html').write_text(shell('Место, где начинается творчество','<div id="home"></div>'))
 for c in cats:
  d=ROOT/c['id'];d.mkdir(exist_ok=True)
  body=f'<div id="category" data-id="{c["id"]}"></div>'
  (d/'index.html').write_text(shell(c['name'],body,'../',c['description'],[('Главная',''),('Каталог','catalog/')]+category_trail(c['id'])))
-for name,title in [('catalog','Каталог мольбертов и оборудования'),('about','Мастерская'),('contacts','Контакты'),('guide','Как выбрать мольберт'),('delivery','Доставка и оплата заказа'),('prices','Цены'),('privacy','Политика конфиденциальности'),('consent','Соглашение на обработку персональных данных')]:
+for name,title in [('catalog','Каталог мольбертов и оборудования'),('about','Собственное производство'),('documents','Документы и реквизиты'),('contacts','Контакты'),('guide','Как выбрать мольберт'),('delivery','Доставка и оплата заказа'),('prices','Цены'),('privacy','Политика конфиденциальности'),('consent','Соглашение на обработку персональных данных')]:
  d=ROOT/name;d.mkdir(exist_ok=True)
  body=document_markup(name) if name in legal_pages else f'<div id="{name}"></div>'
  (d/'index.html').write_text(shell(title,body,'../',desc=legal_pages[name]['description'] if name in legal_pages else None,trail=[('Главная',''),(title,name+'/')]))
 for item in products:
  d=ROOT/'product'/item['id'];d.mkdir(parents=True,exist_ok=True)
  (d/'index.html').write_text(shell(item['name'],f'<div id="product" data-id="{item["id"]}"></div>','../../',item['description'],[('Главная',''),('Каталог','catalog/')]+category_trail(item['primaryCategoryId'])+[(item['name'],'product/'+item['id']+'/')],item))
-print(f'Built home, {len(cats)} categories, {len(products)} products, 8 service pages.')
+print(f'Built home, {len(cats)} categories, {len(products)} products, 9 service pages.')
 
 # Editorial routes share the global shell and are included in every rebuild.
 blog=ROOT/'blog';blog.mkdir(exist_ok=True)
@@ -160,7 +171,7 @@ for old,new in redirects.items():
 summary={'document':'data/catalog-structure.doc','documentSha256':structure['documentSha256'],'amendments':structure.get('amendments',[]),'categoryCount':len(cats),'productCount':len(products),'galleryCount':sum(len(p['gallery']) for p in products),'newCount':sum(p['isNew'] for p in products),'roots':{c['role']:sum(c['id'] in p['categories'] for p in products) for c in cats if not c['parentId']},'categoryProducts':{c['id']:[p['id'] for p in products if c['id'] in p['categories']] for c in cats},'redirectCount':len(redirects)}
 (ROOT/'data/structure-report.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2))
 examples_path=ROOT/'qa/generated-schema.json'
-example_routes=set(json.loads(examples_path.read_text()))|{'index.html','contacts/index.html'}
+example_routes=set(json.loads(examples_path.read_text()))|{'index.html','contacts/index.html','documents/index.html'}
 examples={route:[json.loads(value) for value in re.findall(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>',(ROOT/route).read_text())] for route in sorted(example_routes)}
 examples_path.write_text(json.dumps(examples,ensure_ascii=False,indent=2)+'\n')
 print('Document hierarchy:',len(root_ids),'roots,',len(cats),'categories,',len(products),'current products.')

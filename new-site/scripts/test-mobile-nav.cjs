@@ -24,7 +24,7 @@ const base=process.env.PREVIEW_URL||'http://127.0.0.1:4175/';
  await dock.getByRole('link',{name:'Контакты',exact:true}).click();await page.waitForURL('**/contacts/');assert.equal(await dock.locator('[aria-current]').textContent(),'Контакты');
  await dock.getByRole('link',{name:'Главная',exact:true}).click();await page.waitForURL('**/index.html');
  await go('product/bolshoy-stankovyy-buk/');assert.equal(await dock.locator('[aria-current]').textContent(),'Каталог');
- await page.locator('[data-order]').click();assert.equal(await dock.isVisible(),false);await close();assert.equal(await dock.locator('[data-mobile-count]').textContent(),'1');
+ await page.selectOption('[data-tier]','retail');await page.locator('[data-config-qty]').fill('1');await page.locator('[data-order]').click();assert.equal(await dock.isVisible(),false);await close();assert.equal(await dock.locator('[data-mobile-count]').textContent(),'1');
  await page.locator('.mobile-menu').click();assert.equal(await page.locator('.mobile-menu').getAttribute('aria-expanded'),'true');
  await cart.click();assert.equal(await page.locator('#dialog-content h2').textContent(),'Ваша корзина');assert.equal(await page.locator('.mobile-menu').getAttribute('aria-expanded'),'false');
  await page.locator('[data-qty]').fill('3');await page.locator('[data-qty]').dispatchEvent('change');await close();

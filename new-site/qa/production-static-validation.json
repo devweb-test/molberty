@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "contentPages": 140,
+  "listingCardsChecked": 706,
+  "unchanged": [
+    "home company HTML",
+    "company.json",
+    "articles.json",
+    "products-source.json",
+    "catalog-structure.doc"
+  ],
+  "downloadsByteIdentical": 3,
+  "wholesaleDefaults": 83,
+  "retailFallbacks": 8
+}
