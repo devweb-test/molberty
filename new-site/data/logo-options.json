@@ -1,0 +1,41 @@
+{
+  "status": "review",
+  "defaultId": "current",
+  "options": [
+    {
+      "id": "current",
+      "title": "Текущий",
+      "description": "Действующий логотип для сравнения.",
+      "reference": null,
+      "asset": "logo-options/current.svg"
+    },
+    {
+      "id": "stanok",
+      "title": "Станок",
+      "description": "Станковый мольберт и классическая надпись.",
+      "reference": "ЛОГО.JPG",
+      "asset": "logo-options/stanok.svg"
+    },
+    {
+      "id": "holst",
+      "title": "Холст",
+      "description": "Мольберт с холстом и современный плотный шрифт.",
+      "reference": "лого 2.JPG",
+      "asset": "logo-options/holst.svg"
+    },
+    {
+      "id": "lira",
+      "title": "Лира",
+      "description": "А-образная опора, тёплый акцент полки и шрифт с засечками.",
+      "reference": "лого 3.JPG",
+      "asset": "logo-options/lira.svg"
+    },
+    {
+      "id": "chertezh",
+      "title": "Чертёж",
+      "description": "Объёмный станок тонкими линиями и строгая надпись.",
+      "reference": "лого 4.JPG",
+      "asset": "logo-options/chertezh.svg"
+    }
+  ]
+}

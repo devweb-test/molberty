@@ -212,3 +212,12 @@ if($('#prices'))pricesPage();
 
 function articleModelImages(ids){return `<div class="article-model-gallery">${ids.map(id=>{const p=productById(id);return `<div class="article-model-image"><button class="article-image-button" data-image="${esc(p.image)}" data-caption="${esc(p.name)}" aria-label="Увеличить: ${esc(p.name)}"><img src="${asset(p.image)}" alt="${esc(p.name)}" title="${esc(p.name)}" width="420" height="560" loading="lazy"></button><span class="article-model-caption">${esc(p.name)}</span></div>`}).join('')}</div>`}
 function businessDocumentsBody(){const d=D.businessDocuments;return `<section class="wrap business-documents"><p class="documents-lead">${esc(d.lead)}</p><div class="business-downloads">${d.downloads.map(doc=>`<a class="business-download" href="${asset(doc.file)}" download>${icon('download')}<div><strong>${esc(doc.title)}</strong><p>${esc(doc.description)}</p><span>Скачать PDF · ${Math.ceil(doc.bytes/1024)} КБ</span></div>${icon('arrow')}</a>`).join('')}</div><section class="requisites-section"><h2>Реквизиты производителя</h2><dl class="company-requisites">${d.requisites.map(([label,value])=>`<div><dt>${esc(label)}</dt><dd>${esc(value)}</dd></div>`).join('')}</dl></section></section>`}
+
+// Logo proposals are opt-in; the approved logo remains the default on every page.
+(function maybeLoadLogoReview(){
+ if(window.SITE_PRERENDER)return;
+ const query=new URLSearchParams(location.search);let enabled=query.get('logo-preview')==='1';
+ try{if(query.get('logo-preview')==='0')sessionStorage.removeItem('molberty-logo-review');else enabled=enabled||!!JSON.parse(sessionStorage.getItem('molberty-logo-review')||'null')?.active}catch{}
+ if(!enabled)return;
+ const script=document.createElement('script');script.src=asset('logo-preview.js');document.head.appendChild(script);
+})();

@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-28T09:30:45.513Z",
+  "options": 5,
+  "newLogos": 4,
+  "viewports": [
+    320,
+    390,
+    600,
+    768,
+    900,
+    901,
+    1100,
+    1280,
+    1440
+  ],
+  "checks": [
+    "default markup retained, no preview requests outside review",
+    "all five choices, both header/footer",
+    "no overlap or overflow for every logo",
+    "current logo restored exactly",
+    "previous/next and wraparound",
+    "page/reload/tab selection and shareable URL",
+    "nested product and contacts routes",
+    "working cart and mobile navigation",
+    "collapse/reopen/persistence",
+    "sticky controller below sticky header",
+    "gallery selection, active state and Escape",
+    "exit restores default and clears state",
+    "unknown IDs and unavailable storage"
+  ],
+  "screenshots": "/home/v_chernyshov/molberty/.clone-work/logo-v37-preview"
+}
