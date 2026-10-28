@@ -195,3 +195,13 @@ input:focus-visible,textarea:focus-visible{outline-offset:0}
 @media(max-width:1000px){.business-downloads{grid-template-columns:1fr}.business-download{padding:24px}.business-download p{margin:7px 0}}
 @media(max-width:600px){.production-quality{padding:22px 18px;gap:14px}.company-requisites>div{grid-template-columns:1fr;gap:5px;padding:16px 0}.business-downloads{margin-bottom:40px}.article-model-gallery{gap:12px}.article-model-gallery .article-image-button img{height:250px}.article-model-caption{font-size:12px}.documents-lead{font-size:17px}}
 @media(prefers-reduced-motion:reduce){.business-download{transition:none}.business-download:hover{transform:none}}
+
+/* Compact production standards on the opening screen. */
+.hero-standards{max-width:500px;margin:18px 0 0;padding:14px 18px;border:1px solid var(--line);border-left:3px solid var(--orange);background:var(--cream);color:var(--ink)}
+.hero-standards-title{font-size:15px;font-weight:700;line-height:1.5}
+.hero-standards .hero-standards-codes{display:flex;flex-wrap:wrap;gap:0 12px;margin:7px 0 5px;font-size:13px;line-height:1.65;color:var(--green)}
+.hero-standards-codes span{white-space:nowrap}
+.hero-standards .hero-standards-kit{font-size:14px;line-height:1.65;margin:0;color:var(--ink)}
+.hero-standards+.hero-buttons{margin-top:22px}.hero-copy:has(.hero-standards) .hero-proof{margin-top:25px}
+@media(max-width:600px){.hero-standards{margin-top:16px;padding:12px 14px}.hero-standards-title{font-size:14px}.hero-standards .hero-standards-kit{font-size:13px}.hero-standards+.hero-buttons{margin-top:18px}.hero-copy:has(.hero-standards) .hero-proof{margin-top:22px}}
+@media(max-width:360px){.hero-standards{padding:11px 12px}.hero-standards .hero-standards-codes{font-size:12px}}
