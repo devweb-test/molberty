@@ -52,7 +52,7 @@ if($('#mobile-bottom-nav')&&window.visualViewport){
 }
 const btn=(text,attrs='',outline=false)=>`<button class="btn ${outline?'btn-outline':''}" ${attrs}>${text}${icon('arrow')}</button>`;
 const link=(text,href,outline=false)=>`<a class="btn ${outline?'btn-outline':''}" href="${url(href)}">${text}${icon('arrow')}</a>`;
-const eyebrow=(n,text)=>`<div class="eyebrow"><span>${n}</span> ${text}</div>`;
+const eyebrow=(n,text)=>`<div class="eyebrow">${$('#home')&&/^\d+$/.test(String(n))?'':`<span>${n}</span> `}${text}</div>`;
 const heading=(n,tag,title,sub='',element='h2')=>`<div class="section-heading"><div>${eyebrow(n,tag)}<${element} class="text-h2">${title}</${element}></div>${sub?`<p>${sub}</p>`:''}</div>`;
 const plainHeading=(n,tag,title,sub='')=>heading(n,tag,title,sub,'div');
 const mobileBread=(href,label)=>`<a class="mobile-breadcrumb" href="${esc(href)}" title="${esc(label)}" aria-label="Назад: ${esc(label)}">${icon('arrow')}<span>${esc(label)}</span></a>`;
