@@ -196,8 +196,8 @@ for file in root.rglob('index.html'):
  assert mobile_navigation(prefix,canonical) in text,file
  assert 'width=device-width,initial-scale=1,viewport-fit=cover' in text,file
  mobile_pages+=1
-assert mobile_pages==140
-print('Мобильная нижняя навигация, ссылки и активные разделы: 140 страниц OK')
+assert mobile_pages==141
+print('Мобильная нижняя навигация, ссылки и активные разделы: 141 страница OK')
 from html import unescape
 from urllib.parse import urljoin
 compact_trails=0
@@ -215,5 +215,5 @@ for file in root.rglob('index.html'):
  assert unescape(link[2])==unescape(link[4])==parent['name'],file
  assert unescape(link[3])=='Назад: '+parent['name'],file
  compact_trails+=1
-assert compact_trails==139
-print('Компактные мобильные крошки и ссылки на родительский раздел: 139 страниц OK')
+assert compact_trails==140
+print('Компактные мобильные крошки и ссылки на родительский раздел: 140 страниц OK')

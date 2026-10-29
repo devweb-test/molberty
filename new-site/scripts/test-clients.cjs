@@ -1,0 +1,62 @@
+// Functional checks for the real-client directory, not a snapshot of its markup.
+const {chromium}=require('playwright');
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const root=path.resolve(__dirname,'..'),base=process.env.PREVIEW_URL||'http://127.0.0.1:4175/';
+const directory=JSON.parse(fs.readFileSync(path.join(root,'data/clients.json'),'utf8'));
+const output=path.resolve(root,'../.clone-work/clients-v41-preview');
+(async()=>{
+ fs.mkdirSync(output,{recursive:true});
+ assert.equal(directory.clients.length,48);assert.equal(new Set(directory.clients.map(c=>c.id)).size,48);
+ assert.deepEqual(directory.clients.flatMap(c=>c.sourceRows).sort((a,b)=>a-b),Array.from({length:49},(_,i)=>i+1));
+ const browser=await chromium.launch({headless:true}),context=await browser.newContext({reducedMotion:'reduce'});
+ await context.addInitScript(()=>localStorage.setItem('molberty-cookie-consent','accepted-v1'));
+ const page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(base,{waitUntil:'networkidle'});
+ assert.equal(await page.locator('.documents-grid').first().evaluate(el=>el.nextElementSibling.id),'clients');
+ assert.equal(await page.locator('#clients .client-logo-tile img').count(),11);
+ assert.equal(await page.locator('#clients h1,#clients h2,#clients h3').count(),0);
+ const company=await page.locator('#company').innerHTML();assert.match(company,/09<\/span> ПРОИЗВОДСТВО С 1991 ГОДА/);
+ await page.locator('#clients').scrollIntoViewIfNeeded();
+ await page.waitForFunction(()=>[...document.querySelectorAll('#clients img')].every(i=>i.complete&&i.naturalWidth>0));
+ await page.locator('#clients').screenshot({path:path.join(output,'home-clients-desktop.png')});
+ await page.locator('#clients .client-logo-tile').first().click();
+ await page.waitForURL(new URL('clients/#'+directory.featuredIds[0],base).href);
+ assert.equal(await page.locator('.client-card:target').getAttribute('id'),directory.featuredIds[0]);
+ assert.equal(await page.locator('.client-card').count(),48);
+ assert.equal(await page.locator('.client-card img').count(),directory.clients.filter(c=>c.logo).length);
+ assert.equal(await page.locator('h1').count(),1);
+ const search=page.locator('[data-client-search]');
+ await search.fill('с. ю. Витте');assert.equal(await page.locator('.client-card:visible').count(),1);
+ assert.equal(await page.locator('.client-card:visible').getAttribute('id'),'client-02');
+ await search.fill('Семенов');assert.equal(await page.locator('.client-card:visible').getAttribute('id'),'client-35');
+ await search.fill('');await page.locator('[data-client-filter="universities"]').click();
+ assert.equal(await page.locator('.client-card:visible').count(),directory.clients.filter(c=>c.group==='universities').length);
+ await search.fill('zzzzzzzzzz');assert.equal(await page.locator('.client-card:visible').count(),0);assert.equal(await page.locator('.clients-empty').isVisible(),true);
+ await page.locator('[data-client-reset]').click();assert.equal(await page.locator('.client-card:visible').count(),48);assert.equal(await search.inputValue(),'');assert.equal(await search.evaluate(el=>el===document.activeElement),true);
+ // Every image must decode locally, including logos far below the initial viewport.
+ await page.locator('.client-card img').evaluateAll(nodes=>nodes.forEach(img=>img.loading='eager'));
+ await page.waitForFunction(()=>[...document.querySelectorAll('.client-card img')].every(i=>i.complete&&i.naturalWidth>0));
+ assert.equal(await page.locator('.client-card img').evaluateAll(nodes=>nodes.some(i=>new URL(i.src).origin!==location.origin)),false);
+ assert.equal(await page.locator('.client-card img').evaluateAll(nodes=>nodes.every(i=>i.alt&&i.title&&i.width&&i.height)),true);
+ const layouts=[];
+ for(const width of [1440,768,390,320]){
+  await page.setViewportSize({width,height:900});await page.goto(new URL('clients/',base).href,{waitUntil:'networkidle'});
+  const dimensions=await page.evaluate(()=>({viewport:innerWidth,width:document.documentElement.scrollWidth}));assert.ok(dimensions.width<=width,JSON.stringify(dimensions));layouts.push(dimensions);
+  await page.screenshot({path:path.join(output,'clients-'+width+'.png')});
+  await page.goto(base);await page.locator('#clients').scrollIntoViewIfNeeded();
+  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+  if(width===390)await page.locator('#clients').screenshot({path:path.join(output,'home-clients-mobile.png')});
+ }
+ await page.goto(new URL('clients/',base).href);await page.locator('main [data-request]').last().click();
+ await page.locator('#request-dialog[open] form').waitFor();
+ assert.equal(await page.locator('#request-dialog input[type=checkbox][required]').isChecked(),false);
+ await context.close();
+ const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:844}}),staticPage=await nojs.newPage();
+ await staticPage.goto(new URL('clients/',base).href);assert.equal(await staticPage.locator('.client-card:visible').count(),48);assert.equal(await staticPage.locator('.clients-tools').isVisible(),false);
+ assert.equal(await staticPage.locator('.client-card img').count(),directory.clients.filter(c=>c.logo).length);
+ await staticPage.goto(base);assert.equal(await staticPage.locator('#clients .client-logo-tile').count(),12);assert.equal(await staticPage.locator('#footer a[href="clients/"]').count(),1);
+ await nojs.close();await browser.close();assert.deepEqual(errors,[]);
+ const result={passed:true,organizations:48,sourceRecords:49,logos:directory.clients.filter(c=>c.logo).length,missingLogoIds:directory.clients.filter(c=>!c.logo).map(c=>c.id),featuredLogos:11,layouts,checks:['placement immediately after documents','complete deduplicated source list','local logos decode','home links to individual client anchors','search by legal name and city with punctuation and ё normalization','group filters and empty reset','request form and required consent','no JavaScript fallback','mobile layout without overflow'],browserErrors:errors};
+ fs.writeFileSync(path.join(root,'qa/clients-test-result.json'),JSON.stringify(result,null,2)+'\n');
+ console.log(JSON.stringify(result));
+})().catch(error=>{console.error(error);process.exit(1)});

@@ -19,6 +19,7 @@ def copy_deployment_page(root=ROOT):
 
 def write_error_page(root=ROOT):
     source = (root / 'index.html').read_text()
+    source = re.sub(r'<link rel="stylesheet" href="assets/clients.css">|<script defer src="assets/clients-data.js"></script>', '', source)
     source = re.sub(r'<title>.*?</title>', '<title>Страница не найдена — Мольберты.ру</title>', source, count=1)
     source = re.sub(r'<meta name="description"[^>]*>', '<meta name="description" content="Такой страницы не существует. Вернитесь на главную, выберите раздел каталога или посмотрите новинки нашего производства.">', source, count=1)
     source = re.sub(r'<link rel="canonical"[^>]*>', '', source, count=1)

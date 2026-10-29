@@ -1,9 +1,9 @@
 {
   "passed": true,
-  "pages": 141,
+  "pages": 142,
   "redirectsExcluded": 25,
-  "jsonLdBlocks": 373,
-  "organizationNodes": 141,
+  "jsonLdBlocks": 375,
+  "organizationNodes": 142,
   "linkedProductOffers": 91,
   "errors": [],
   "warnings": [],
@@ -12,5 +12,5 @@
     "width": 512,
     "height": 512
   },
-  "checkedAt": "2026-10-29T12:12:24.264768+03:00"
+  "checkedAt": "2026-10-29T12:44:07.938204+03:00"
 }

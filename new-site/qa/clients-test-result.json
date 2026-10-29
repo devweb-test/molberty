@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "organizations": 48,
+  "sourceRecords": 49,
+  "logos": 42,
+  "missingLogoIds": [
+    "client-31",
+    "client-35",
+    "client-36",
+    "client-43",
+    "client-46",
+    "client-48"
+  ],
+  "featuredLogos": 11,
+  "layouts": [
+    {
+      "viewport": 1440,
+      "width": 1440
+    },
+    {
+      "viewport": 768,
+      "width": 768
+    },
+    {
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "viewport": 320,
+      "width": 320
+    }
+  ],
+  "checks": [
+    "placement immediately after documents",
+    "complete deduplicated source list",
+    "local logos decode",
+    "home links to individual client anchors",
+    "search by legal name and city with punctuation and ё normalization",
+    "group filters and empty reset",
+    "request form and required consent",
+    "no JavaScript fallback",
+    "mobile layout without overflow"
+  ],
+  "browserErrors": []
+}
