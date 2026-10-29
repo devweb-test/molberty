@@ -182,7 +182,7 @@ for file in root.rglob('index.html'):
  if '<main id="main">' not in text:continue
  assert text.count('id="cookie-notice"')==1 and text.count('assets/cookies.js')==1,file
  assert '>Обработка данных</a>' not in text,file
- assert 'Политика конфиденциальности</a><span>Создано для творчества' in text,file
+ assert re.search(r'Политика конфиденциальности</a><a href="[^"]*consent/">Согласие на обработку персональных данных</a><span>Создано для творчества',text),file
 print('Политика, соглашение, общий cookie-компонент и ссылки футера: OK')
 from mobile_navigation import mobile_navigation
 mobile_pages=0
