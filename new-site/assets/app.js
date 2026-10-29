@@ -57,7 +57,7 @@ const heading=(n,tag,title,sub='',element='h2')=>`<div class="section-heading"><
 const plainHeading=(n,tag,title,sub='')=>heading(n,tag,title,sub,'div');
 const mobileBread=(href,label)=>`<a class="mobile-breadcrumb" href="${esc(href)}" title="${esc(label)}" aria-label="Назад: ${esc(label)}">${icon('arrow')}<span>${esc(label)}</span></a>`;
 const bread=t=>{const trail=document.createElement('template');trail.innerHTML=`<a href="${url('index.html')}">Главная</a><span>/</span>${t}`;const parent=Array.from(trail.content.querySelectorAll('a')).pop();return `<div class="breadcrumbs">${trail.innerHTML}</div>${mobileBread(parent.getAttribute('href'),parent.textContent.trim())}`};
-const cta=()=>`<section class="wrap cta-section"><div>${eyebrow('Давайте создадим','вашу мастерскую')}<div class="text-h2">С чего начнётся<br> <em>ваша следующая работа?</em></div><p>Расскажите о пространстве, формате и задачах.<br> Вместе найдём подходящее решение.</p></div><div>${btn('Обсудить заказ','data-request')}<a href="tel:+79258809539">или позвоните +7 (925) 880-95-39</a></div><span class="cta-sketch">${icon('easel')}</span></section>`;
+const cta=()=>`<section class="wrap cta-section"><div><div class="text-h2">С чего начнётся<br> <em>ваша следующая работа?</em></div><p>Расскажите о пространстве, формате и задачах.<br> Вместе найдём подходящее решение.</p></div><div>${btn('Обсудить заказ','data-request')}<a href="tel:+79258809539">или позвоните +7 (925) 880-95-39</a></div><span class="cta-sketch">${icon('easel')}</span></section>`;
 function notFound(){
 const host=$('#not-found');
 if(window.SITE_PRERENDER||!host.querySelector('h1')){
