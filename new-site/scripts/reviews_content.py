@@ -9,7 +9,7 @@ def reviews_assets(root, content):
         return ''
     data = json.loads((root / 'data/reviews.json').read_text())
     payload = json.dumps(data, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c')
-    return '<link rel="stylesheet" href="assets/reviews.css?v=54"><script id="reviews-data" type="application/json">' + payload + '</script><script defer src="assets/reviews.js?v=51"></script>'
+    return '<link rel="stylesheet" href="assets/reviews.css?v=55"><script id="reviews-data" type="application/json">' + payload + '</script><script defer src="assets/reviews.js?v=51"></script>'
 
 
 def update_home(root):

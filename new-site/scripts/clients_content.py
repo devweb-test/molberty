@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def clients_assets(prefix, content):
     if 'id="home"' not in content and 'id="clients-page"' not in content:
         return ''
-    return f'<link rel="stylesheet" href="{prefix}assets/clients.css?v=54"><script defer src="{prefix}assets/clients-data.js"></script>'
+    return f'<link rel="stylesheet" href="{prefix}assets/clients.css?v=55"><script defer src="{prefix}assets/clients-data.js"></script>'
 
 
 def sync_clients_data(root=ROOT):

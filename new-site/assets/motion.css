@@ -1,7 +1,7 @@
 /* Shared interaction timing. Colour/opacity changes never alter the page layout. */
 :root{--motion-fast:180ms;--motion-base:260ms;--motion-media:420ms;--motion-ease:cubic-bezier(.2,.7,.2,1);--motion-shadow:0 8px 24px #20392914}
 a,button,input,select,textarea,summary,.btn,.text-link,.callback-link,.selection-btn,.back-top,.category-tile,.product-card,.blog-card,.case-card,.partner-object,.certificate-preview,.search-field,.resource-grid>a,.resource-grid>button,.delivery-methods>a,.usecase-grid>a,.subcategory-grid>a,.category-links a,.category-tree a,.sidebar>a,.article-contents nav a,.gallery-thumbs button,.quiz-options button,.image-viewer-toolbar button,.viewer-gallery-nav button,#header{
- transition-property:color,background-color,border-color,box-shadow,opacity,transform,text-decoration-color,outline-color;
+ transition-property:color,background-color,background-position,border-color,box-shadow,opacity,transform,text-decoration-color,outline-color;
  transition-duration:var(--motion-fast);transition-timing-function:var(--motion-ease)
 }
 .product-img img,.blog-card-image img,.case-image img,.category-tile>img,.partner-object img,.certificate-preview img{transition:transform var(--motion-media) var(--motion-ease),opacity var(--motion-base) var(--motion-ease)}

@@ -228,3 +228,53 @@ input:focus-visible,textarea:focus-visible{outline-offset:0}
 }
 
 .hero-standards>.standards-certificate{width:24px;height:31px;object-fit:contain;flex:0 0 24px}
+
+/* Shared, restrained gradients in the existing production palette. */
+:root{
+ --gradient-green:linear-gradient(115deg,#3b5345 0%,#344b3f 48%,#293f33 100%);
+ --gradient-orange:linear-gradient(115deg,#ad5b3d 0%,#9d5034 48%,#83412c 100%);
+ --gradient-soft:linear-gradient(125deg,#f4f4ed 0%,#eef0e6 52%,#e5eadc 100%);
+ --gradient-warm:linear-gradient(125deg,#f8f3ea 0%,#f2ecdf 52%,#ede4d6 100%);
+ --gradient-card:linear-gradient(150deg,#fff 0%,#fdfdf9 55%,#f3f5ed 100%);
+ --gradient-footer:linear-gradient(125deg,#f2f3eb 0%,#ecefe4 55%,#e3e9da 100%);
+}
+.topbar,.workshop-section,.home-contact-details,.price-table thead th,#toast,.skip{
+ background-image:var(--gradient-green)
+}
+.soft-section,.quiz-banner,.cta-section,.sidebar-help,.empty,.rental,.contact-message,
+.blog-guide,.article-catalog-link,.price-section,.partner-showcase,.contacts-hours,
+.sales-card:first-child,.payment-summary,.company-original-closing,.article-contents,
+.article-original-body .article-highlight,.production-quality{
+ background-image:var(--gradient-soft)
+}
+.usecase-grid>a{background-image:var(--gradient-soft)}
+.usecase-grid>a:last-child,.partner,.visit-callout,.company-guide{background-image:var(--gradient-warm)}
+.product-card,.case-card,.partner-object,.sales-card,.business-download{background-image:var(--gradient-card)}
+footer{background-image:var(--gradient-footer)}
+.subcategory-grid>a,.subcategory-grid>a:hover,
+.sidebar>a.active,.category-tree a.active,
+#request-form .delivery-choice:has(input:checked){background-image:var(--gradient-soft)}
+.resource-grid>a:hover,.resource-grid>button:hover,.delivery-methods>a:hover,
+.quiz-options>button:hover,.image-viewer-toolbar button,
+.article-contents nav a:hover,.article-contents nav a[aria-current=location]{background-image:var(--gradient-soft)}
+
+/* Move the same gradient on hover so the transition stays smooth. */
+.btn,.btn:hover,.btn-outline:hover{
+ background-image:var(--gradient-green);background-size:180% 100%;background-position:0 50%;color:#fff
+}
+.btn-outline{background-image:none;color:var(--green)}
+.btn:hover,.btn-outline:hover{background-position:100% 50%}
+.workshop-copy .btn:hover,.home-contact-details .btn:hover{color:#fff}
+.detail-actions .order-button,.detail-actions .order-button:hover,
+.header-actions .selection-btn,.header-actions .selection-btn:hover,
+.header-actions .header-call,.header-actions .header-call:hover,
+.new-badge,.mobile-nav-count{
+ background-image:var(--gradient-orange);background-size:180% 100%;background-position:0 50%
+}
+.detail-actions .order-button:hover,.header-actions .selection-btn:hover,
+.header-actions .header-call:hover{background-position:100% 50%}
+.selection-btn span,.certificate-preview>span,.back-top,.back-top:hover{
+ background-image:var(--gradient-green);background-size:180% 100%;background-position:0 50%
+}
+.back-top:hover{background-position:100% 50%}
+
