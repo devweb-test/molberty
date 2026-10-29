@@ -3,7 +3,7 @@ const {chromium}=require('playwright');
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'..'),base=process.env.PREVIEW_URL||'http://127.0.0.1:4175/';
 const directory=JSON.parse(fs.readFileSync(path.join(root,'data/clients.json'),'utf8'));
-const output=path.resolve(root,'../.clone-work/clients-v41-preview');
+const output=path.resolve(root,'../.clone-work/clients-v43-preview');
 (async()=>{
  fs.mkdirSync(output,{recursive:true});
  assert.equal(directory.clients.length,48);assert.equal(new Set(directory.clients.map(c=>c.id)).size,48);
@@ -19,20 +19,31 @@ const output=path.resolve(root,'../.clone-work/clients-v41-preview');
  await page.locator('#clients').scrollIntoViewIfNeeded();
  await page.waitForFunction(()=>[...document.querySelectorAll('#clients img')].every(i=>i.complete&&i.naturalWidth>0));
  await page.locator('#clients').screenshot({path:path.join(output,'home-clients-desktop.png')});
- await page.locator('#clients .client-logo-tile').first().click();
- await page.waitForURL(new URL('clients/#'+directory.featuredIds[0],base).href);
- assert.equal(await page.locator('.client-card:target').getAttribute('id'),directory.featuredIds[0]);
+ assert.equal(await page.locator('#clients .client-logo-tile:not(a)').count(),11);
+ assert.equal(await page.locator('#clients a').count(),1);
+ assert.equal(await page.locator('#clients a img').count(),0);
+ assert.equal(await page.locator('.clients-home-link').count(),0);
+ await page.locator('#clients .client-logo-all').click();
+ await page.waitForURL(new URL('clients/',base).href);
  assert.equal(await page.locator('.client-card').count(),48);
  assert.equal(await page.locator('.client-card img').count(),directory.clients.filter(c=>c.logo).length);
  assert.equal(await page.locator('h1').count(),1);
- const search=page.locator('[data-client-search]');
- await search.fill('с. ю. Витте');assert.equal(await page.locator('.client-card:visible').count(),1);
- assert.equal(await page.locator('.client-card:visible').getAttribute('id'),'client-02');
- await search.fill('Семенов');assert.equal(await page.locator('.client-card:visible').getAttribute('id'),'client-35');
- await search.fill('');await page.locator('[data-client-filter="universities"]').click();
- assert.equal(await page.locator('.client-card:visible').count(),directory.clients.filter(c=>c.group==='universities').length);
- await search.fill('zzzzzzzzzz');assert.equal(await page.locator('.client-card:visible').count(),0);assert.equal(await page.locator('.clients-empty').isVisible(),true);
- await page.locator('[data-client-reset]').click();assert.equal(await page.locator('.client-card:visible').count(),48);assert.equal(await search.inputValue(),'');assert.equal(await search.evaluate(el=>el===document.activeElement),true);
+ assert.equal(await page.locator('#clients-page input[type=search],#clients-page [data-client-search]').count(),0);
+ assert.equal(await page.locator('.client-card-site').evaluateAll(nodes=>nodes.every(a=>a.relList.contains('nofollow')&&a.relList.contains('noopener'))),true);
+ for(const group of Object.keys(directory.groups)){
+  await page.locator('[data-client-filter="'+group+'"]').click();
+  assert.equal(await page.locator('.client-card:visible').count(),directory.clients.filter(c=>c.group===group).length);
+ }
+ await page.locator('[data-client-filter="all"]').click();assert.equal(await page.locator('.client-card:visible').count(),48);
+ for(const [id,href] of Object.entries({'client-35':'http://cks-semenovsk.nnov.muzkult.ru/','client-43':'https://dshi-lensk.obr.sakha.gov.ru/','client-46':'https://rovesnik-istra.edumsko.ru/'}))assert.equal(await page.locator('#'+id+' .client-card-site').getAttribute('href'),href);
+ assert.equal(await page.locator('#client-46 .client-card-name').innerText(),'МОУ ДО «ЦРТДиЮ «Ровесник»»');
+ for(const id of ['client-35','client-36','client-43']){
+  const client=directory.clients.find(c=>c.id===id),logo=client.logo;
+  assert.ok(logo&&logo.sourceType==='user-provided');
+  const actual=require('node:crypto').createHash('sha256').update(fs.readFileSync(path.join(root,'assets',logo.file))).digest('hex');
+  assert.equal(actual,logo.sha256,'Supplied logo remains byte-identical: '+id);
+  assert.equal(await page.locator('#'+id+' img').count(),1);
+ }
  // Every image must decode locally, including logos far below the initial viewport.
  await page.locator('.client-card img').evaluateAll(nodes=>nodes.forEach(img=>img.loading='eager'));
  await page.waitForFunction(()=>[...document.querySelectorAll('.client-card img')].every(i=>i.complete&&i.naturalWidth>0));
@@ -56,7 +67,7 @@ const output=path.resolve(root,'../.clone-work/clients-v41-preview');
  assert.equal(await staticPage.locator('.client-card img').count(),directory.clients.filter(c=>c.logo).length);
  await staticPage.goto(base);assert.equal(await staticPage.locator('#clients .client-logo-tile').count(),12);assert.equal(await staticPage.locator('#footer a[href="clients/"]').count(),1);
  await nojs.close();await browser.close();assert.deepEqual(errors,[]);
- const result={passed:true,organizations:48,sourceRecords:49,logos:directory.clients.filter(c=>c.logo).length,missingLogoIds:directory.clients.filter(c=>!c.logo).map(c=>c.id),featuredLogos:11,layouts,checks:['placement immediately after documents','complete deduplicated source list','local logos decode','home links to individual client anchors','search by legal name and city with punctuation and ё normalization','group filters and empty reset','request form and required consent','no JavaScript fallback','mobile layout without overflow'],browserErrors:errors};
+ const result={passed:true,organizations:48,sourceRecords:49,logos:directory.clients.filter(c=>c.logo).length,missingLogoIds:directory.clients.filter(c=>!c.logo).map(c=>c.id),featuredLogos:11,layouts,checks:['placement immediately after documents','complete deduplicated source list','local logos decode','home logos have no links; only all-clients tile remains','client search removed; group filters work','organization links have nofollow','three supplied logos remain byte-identical','updated organization URLs and Rovesnik name','request form and required consent','no JavaScript fallback','mobile layout without overflow'],browserErrors:errors};
  fs.writeFileSync(path.join(root,'qa/clients-test-result.json'),JSON.stringify(result,null,2)+'\n');
  console.log(JSON.stringify(result));
 })().catch(error=>{console.error(error);process.exit(1)});

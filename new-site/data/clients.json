@@ -766,13 +766,25 @@
       "name": "Централизованная клубная система г.о. Семёновский",
       "group": "culture",
       "city": "Семёнов",
-      "website": "https://mbukcks.ucoz.net/",
-      "logo": null,
+      "website": "http://cks-semenovsk.nnov.muzkult.ru/",
+      "logo": {
+        "file": "clients/client-35.png",
+        "sourceFile": "Logotip_MBUK_CZKS_cherny_j.png",
+        "sourceType": "user-provided",
+        "providedOn": "2026-10-29",
+        "sha256": "3ef4a8ca9a78bc9e6a41dd828c437f4894edf76d91050bea7717e6e4269fb228",
+        "width": 877,
+        "height": 768
+      },
       "identitySources": [
-        "https://mbukcks.ucoz.net/index/informacija_o_sajte/0-2"
+        "https://mbukcks.ucoz.net/index/informacija_o_sajte/0-2",
+        "http://cks-semenovsk.nnov.muzkult.ru/"
       ],
-      "notes": "Юридическое лицо установлено. На официальном сайте только типовая лира 72×92; подтверждённый фирменный логотип не найден.",
-      "shortName": "ЦКС Семёновского округа"
+      "notes": "Логотип предоставлен пользователем; файл сохранён без изменения изображения.",
+      "shortName": "ЦКС Семёновского округа",
+      "websiteActive": true,
+      "websiteSource": "user-provided",
+      "websiteUpdatedOn": "2026-10-29"
     },
     {
       "id": "client-36",
@@ -784,12 +796,20 @@
       "group": "schools",
       "city": "Красногорск",
       "website": "https://www.izostart.ru/",
-      "logo": null,
+      "logo": {
+        "file": "clients/client-36.png",
+        "sourceFile": "logo.png",
+        "sourceType": "user-provided",
+        "providedOn": "2026-10-29",
+        "sha256": "2951d66f0d1dbc9579f26c61fa12100df6cadac9de9736f33e14e7fb18009d4d",
+        "width": 98,
+        "height": 106
+      },
       "identitySources": [
         "https://izostart.ru/info_general_2015.html",
         "https://krasnogorsk-adm.ru/adm/org/detskaya-hudozhestvennaya-shkola.html"
       ],
-      "notes": "Юридическое лицо и официальный сайт подтверждены муниципалитетом. Отдельный фирменный логотип не найден.",
+      "notes": "Логотип предоставлен пользователем; файл сохранён без изменения изображения.",
       "shortName": "Красногорская ДХШ"
     },
     {
@@ -936,16 +956,27 @@
       "name": "Детская школа искусств г. Ленска",
       "group": "schools",
       "city": "Ленск",
-      "website": "https://school-art.saha.muzkult.ru/",
-      "logo": null,
+      "website": "https://dshi-lensk.obr.sakha.gov.ru/",
+      "logo": {
+        "file": "clients/client-43.png",
+        "sourceFile": "large_802d0f1315d04837e2476d190f5aa11ec5443b5c.png",
+        "sourceType": "user-provided",
+        "providedOn": "2026-10-29",
+        "sha256": "773f390c8e64d3aa574f72889d729fe4bbea07af4f06df92af61601986128dc6",
+        "width": 180,
+        "height": 180
+      },
       "identitySources": [
         "https://instgeokult.ru/ленская-дши/",
         "https://zakupki.kontur.ru/customers/1414011464",
-        "https://lenskrayon.ru/index.php/allnews/2192-na-meste-budushchej-shkoly-iskusstv-v-g-lenske-razvernuli-stroitelnye-raboty"
+        "https://lenskrayon.ru/index.php/allnews/2192-na-meste-budushchej-shkoly-iskusstv-v-g-lenske-razvernuli-stroitelnye-raboty",
+        "https://dshi-lensk.obr.sakha.gov.ru/"
       ],
-      "notes": "Организация подтверждена, ИНН 1414011464. Указанный официальный сайт возвращает 404; проверяемый логотип не найден.",
+      "notes": "Логотип предоставлен пользователем; файл сохранён без изменения изображения.",
       "shortName": "ДШИ г. Ленска",
-      "websiteActive": false
+      "websiteActive": true,
+      "websiteSource": "user-provided",
+      "websiteUpdatedOn": "2026-10-29"
     },
     {
       "id": "client-44",
@@ -995,18 +1026,21 @@
         46
       ],
       "legalName": "МОУ ДО \"ЦРТДИЮ \"РОВЕСНИК\"",
-      "name": "Центр «Ровесник»",
+      "name": "МОУ ДО «ЦРТДиЮ «Ровесник»»",
       "group": "schools",
       "city": "Истра",
-      "website": "https://rovesnik-istra.edusite.ru/",
+      "website": "https://rovesnik-istra.edumsko.ru/",
       "logo": null,
       "identitySources": [
         "https://festivalnauki.ru/o-festivale/participants/munitsipalnoe-obrazovatelnoe-uchrezhdenie-dopolnitelnogo-obrazovaniya-tsentr-razvitiya-tvorchestva-d/",
-        "https://istra-adm.ru/docs/doc/postanovlenie-glavy-munitsipalnogo-okruga-istra-ot-06-05-2026-no-183-5-o-reorganizatsii-munitsipalno-509175"
+        "https://istra-adm.ru/docs/doc/postanovlenie-glavy-munitsipalnogo-okruga-istra-ot-06-05-2026-no-183-5-o-reorganizatsii-munitsipalno-509175",
+        "https://rovesnik-istra.edumsko.ru/"
       ],
-      "notes": "Идентифицирован ЦРТДиЮ г. Истры, ИНН 5017048426, Первомайская, 16; не омский одноимённый центр. Старый сайт недоступен, эмблема не получена. В 2026 реорганизован присоединением к ЦДЮТиК.",
-      "shortName": "Центр «Ровесник»",
-      "websiteActive": false
+      "notes": "Название и действующий сайт обновлены по указанию пользователя. Логотип пока не предоставлен.",
+      "shortName": "МОУ ДО «ЦРТДиЮ «Ровесник»»",
+      "websiteActive": true,
+      "websiteSource": "user-provided",
+      "websiteUpdatedOn": "2026-10-29"
     },
     {
       "id": "client-47",

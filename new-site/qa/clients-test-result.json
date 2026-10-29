@@ -2,12 +2,9 @@
   "passed": true,
   "organizations": 48,
   "sourceRecords": 49,
-  "logos": 42,
+  "logos": 45,
   "missingLogoIds": [
     "client-31",
-    "client-35",
-    "client-36",
-    "client-43",
     "client-46",
     "client-48"
   ],
@@ -34,9 +31,11 @@
     "placement immediately after documents",
     "complete deduplicated source list",
     "local logos decode",
-    "home links to individual client anchors",
-    "search by legal name and city with punctuation and ё normalization",
-    "group filters and empty reset",
+    "home logos have no links; only all-clients tile remains",
+    "client search removed; group filters work",
+    "organization links have nofollow",
+    "three supplied logos remain byte-identical",
+    "updated organization URLs and Rovesnik name",
     "request form and required consent",
     "no JavaScript fallback",
     "mobile layout without overflow"
