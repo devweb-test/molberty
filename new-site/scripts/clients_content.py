@@ -12,14 +12,19 @@ ROOT = Path(__file__).resolve().parents[1]
 def clients_assets(prefix, content):
     if 'id="home"' not in content and 'id="clients-page"' not in content:
         return ''
-    return f'<link rel="stylesheet" href="{prefix}assets/clients.css?v=55"><script defer src="{prefix}assets/clients-data.js"></script>'
+    return f'<link rel="stylesheet" href="{prefix}assets/clients.css?v=57"><script defer src="{prefix}assets/clients-data.js?v=57"></script>'
 
 
 def sync_clients_data(root=ROOT):
     directory = json.loads((root / 'data/clients.json').read_text())
     clients = directory['clients']
-    assert len(clients) == len({c['id'] for c in clients}) == 48
-    assert sorted(row for c in clients for row in c['sourceRows']) == list(range(1, 50))
+    source = directory['source']
+    assert len(clients) == len({c['id'] for c in clients})
+    assert len([c for c in clients if c['sourceRows']]) == source['uniqueOrganizations']
+    assert {c['id'] for c in clients if not c['sourceRows']} == set(source.get('additionalClientIds', []))
+    assert sorted(row for c in clients for row in c['sourceRows']) == list(range(1, source['sourceRows'] + 1))
+    assert len(directory['featuredIds']) == len(set(directory['featuredIds']))
+    assert set(directory['featuredIds']) <= {c['id'] for c in clients}
     assert all(c['group'] in directory['groups'] and c['name'] and c['identitySources'] for c in clients)
     for client in clients:
         logo = client.get('logo')

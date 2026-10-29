@@ -1,14 +1,14 @@
 {
   "passed": true,
-  "organizations": 48,
+  "organizations": 49,
   "sourceRecords": 49,
-  "logos": 45,
+  "logos": 46,
   "missingLogoIds": [
     "client-31",
     "client-46",
     "client-48"
   ],
-  "featuredLogos": 11,
+  "featuredLogos": 12,
   "layouts": [
     {
       "viewport": 1440,
@@ -36,6 +36,7 @@
     "organization links have nofollow",
     "three supplied logos remain byte-identical",
     "updated organization URLs and Rovesnik name",
+    "VGIK official logo and website present",
     "request form and required consent",
     "no JavaScript fallback",
     "mobile layout without overflow"

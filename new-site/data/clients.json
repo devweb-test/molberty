@@ -11,7 +11,10 @@
       ]
     ],
     "checkedOn": "2026-10-29",
-    "notes": "Наименования из документа пользователя. Внутренние ссылки учётной системы не публикуются. Две записи музея Остафьево объединены."
+    "notes": "Наименования из документа пользователя. Внутренние ссылки учётной системы не публикуются. Две записи музея Остафьево объединены.",
+    "additionalClientIds": [
+      "client-50"
+    ]
   },
   "groups": {
     "universities": "Университеты и колледжи",
@@ -30,7 +33,8 @@
     "client-10",
     "client-08",
     "client-21",
-    "client-04"
+    "client-04",
+    "client-50"
   ],
   "clients": [
     {
@@ -1103,6 +1107,30 @@
         "https://www.culture.ru/institutes/37084/detskaya-shkola-iskusstv-im-m-a-balakireva-g-yaroslavlya"
       ],
       "notes": "Оригинальная эмблема из шапки официального сайта; Ярославль, не Тольятти."
+    },
+    {
+      "id": "client-50",
+      "sourceRows": [],
+      "sourceType": "user-request",
+      "addedOn": "2026-10-29",
+      "legalName": "Всероссийский государственный университет кинематографии имени С. А. Герасимова",
+      "name": "ВГИК им. С. А. Герасимова",
+      "group": "universities",
+      "city": "Москва",
+      "website": "https://vgik.info/",
+      "logo": {
+        "file": "clients/client-50.png",
+        "sourceUrl": "https://vgik.info/upload/advertising/%D0%BB%D0%BE%D0%B3%D0%BE_%D0%92%D0%93%D0%98%D0%9A_%D0%900.pdf",
+        "width": 465,
+        "height": 749,
+        "sha256": "9b9eac340fab4c43e1fe1c03df1e074044d6a65b2041501b2b80074849f747df"
+      },
+      "identitySources": [
+        "https://vgik.info/",
+        "https://vgik.info/press_service/Logo.php",
+        "https://vgik.info/upload/advertising/%D0%BB%D0%BE%D0%B3%D0%BE_%D0%92%D0%93%D0%98%D0%9A_%D0%900.pdf"
+      ],
+      "notes": "Добавлен по запросу пользователя 29.10.2026, вне исходного документа. Официальный синий логотип из PDF пресс-кита ВГИК: уменьшен и обрезаны белые поля, пропорции и цвет сохранены."
     }
   ]
 }
