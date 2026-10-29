@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "width": 320,
+      "steps": 4,
+      "validation": true,
+      "backPreservesValues": true,
+      "consentRequired": true,
+      "requestContainsAllMeasurements": true,
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "steps": 4,
+      "validation": true,
+      "backPreservesValues": true,
+      "consentRequired": true,
+      "requestContainsAllMeasurements": true,
+      "noOverflow": true
+    },
+    {
+      "width": 1440,
+      "steps": 4,
+      "validation": true,
+      "backPreservesValues": true,
+      "consentRequired": true,
+      "requestContainsAllMeasurements": true,
+      "noOverflow": true
+    }
+  ],
+  "recommendationBoundaries": true,
+  "manualSelectionFallback": true,
+  "originalGuideQuizUnchanged": true,
+  "noJavaScriptGuide": true,
+  "prerender": true,
+  "browserErrors": []
+}

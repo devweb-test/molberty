@@ -1,0 +1,44 @@
+/* Reuse the guide page's numbered steps, typography and the shared palette. */
+.interior-guide.reading{max-width:none;margin-bottom:0}
+.interior-guide>.eyebrow{margin-top:6px}
+.category-description .interior-guide>h2{font-size:clamp(28px,3vw,40px);line-height:1.4;margin:20px 0}
+.category-description .interior-guide>.lead{font-size:21px;line-height:1.8;max-width:700px;margin-bottom:30px}
+.interior-guide .guide-step .text-h2{font-size:24px;font-family:var(--serif);font-weight:400;line-height:1.55}
+.category-description .interior-guide .guide-step p{font-size:16px;line-height:1.9}
+.interior-guide-choice{display:flex;align-items:center;flex-wrap:wrap;gap:20px;padding:28px;margin-top:24px;border:1px solid var(--line);background:var(--cream);background-image:var(--gradient-soft)}
+.interior-guide-choice>.icon{width:36px;height:36px;color:var(--orange)}
+.interior-guide-choice>div{flex:1;min-width:190px}
+.interior-guide-choice .text-h3{margin:0 0 8px;font-size:19px}
+.category-description .interior-guide-choice p{margin:0;font-size:14px;line-height:1.8}
+.interior-guide-choice .btn{gap:12px}
+.interior-quiz-form .interior-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}
+.interior-quiz-form .interior-fields>label:only-child{grid-column:1/-1}
+.interior-quiz-form input{min-width:0}
+.interior-quiz-form .dialog-actions{margin-top:6px}
+.interior-quiz-form .dialog-actions>.text-link{margin-right:auto}
+.interior-quiz-summary{margin:24px 0;padding:20px;border:1px solid var(--line);background:var(--cream);background-image:var(--gradient-soft)}
+.interior-quiz-summary>div{display:flex;justify-content:space-between;gap:20px;padding:9px 0;border-bottom:1px solid var(--line);font-size:14px;line-height:1.8}
+.interior-quiz-summary>div:last-child{border:0}
+.interior-quiz-summary dt{color:var(--muted)}
+.interior-quiz-summary dd{margin:0;text-align:right;font-weight:600}
+.interior-quiz-models{display:grid;gap:14px;margin-top:22px}
+.interior-quiz-model{display:grid;grid-template-columns:75px minmax(0,1fr);gap:17px;align-items:center;padding:15px;border:1px solid var(--line);background:#fff;background-image:var(--gradient-card)}
+.interior-quiz-model img{width:75px;height:95px;object-fit:contain;background:#fff}
+.interior-quiz-model strong{font-size:16px;line-height:1.6}
+.interior-quiz-model small{display:block;margin-top:7px;font-size:13px;line-height:1.8;color:var(--green)}
+.interior-quiz-price{display:block;margin-top:8px;font-size:16px;font-weight:700;color:var(--ink)}
+.interior-quiz-model:hover{border-color:var(--green)}
+.interior-quiz-note{font-size:14px;line-height:1.9}
+@media(max-width:700px){
+ .interior-guide .guide-step{gap:15px}
+ .interior-guide .guide-step>span{font-size:24px}
+ .interior-guide .guide-step .text-h2{font-size:21px}
+ .category-description .interior-guide .guide-step p{font-size:15px}
+ .category-description .interior-guide>.lead{font-size:19px}
+ .interior-guide-choice{padding:22px;gap:15px}
+ .interior-guide-choice>.btn{width:100%}
+ .interior-guide-choice>div{min-width:0;flex-basis:calc(100% - 55px)}
+ .interior-quiz-summary{padding:15px}
+ .interior-quiz-summary>div{gap:12px;font-size:13px}
+}
+@media(max-width:380px){.interior-quiz-form .interior-fields{grid-template-columns:minmax(0,1fr)}.interior-quiz-model{grid-template-columns:58px minmax(0,1fr);gap:12px;padding:12px}.interior-quiz-model img{width:58px;height:82px}}

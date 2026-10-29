@@ -6,6 +6,6 @@
   "scripts": {
     "start": "python3 serve.py",
     "build": "python3 scripts/draw.py && python3 scripts/build.py",
-    "check": "node --check assets/app.js && node --check assets/logo-preview.js && node --check assets/cookies.js && node --check assets/legal.js && node --check assets/motion.js && node --check assets/reviews.js && python3 scripts/check.py && python3 scripts/validate-organization.py"
+    "check": "node --check assets/app.js && node --check assets/logo-preview.js && node --check assets/cookies.js && node --check assets/legal.js && node --check assets/motion.js && node --check assets/reviews.js && node --check assets/interior-guide.js && python3 scripts/check.py && python3 scripts/validate-organization.py"
   }
 }
