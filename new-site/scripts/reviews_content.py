@@ -9,13 +9,14 @@ def reviews_assets(root, content):
         return ''
     data = json.loads((root / 'data/reviews.json').read_text())
     payload = json.dumps(data, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c')
-    return '<link rel="stylesheet" href="assets/reviews.css"><script id="reviews-data" type="application/json">' + payload + '</script>'
+    return '<link rel="stylesheet" href="assets/reviews.css?v=51"><script id="reviews-data" type="application/json">' + payload + '</script><script defer src="assets/reviews.js?v=51"></script>'
 
 
 def update_home(root):
     page = root / 'index.html'
     content = page.read_text()
-    content = re.sub(r'<link rel="stylesheet" href="assets/reviews\.css">', '', content)
+    content = re.sub(r'<link rel="stylesheet" href="assets/reviews\.css(?:\?[^\"]*)?">', '', content)
+    content = re.sub(r'<script defer src="assets/reviews\.js(?:\?[^\"]*)?"></script>', '', content)
     content = re.sub(r'<script id="reviews-data" type="application/json">.*?</script>', '', content, flags=re.S)
     content = content.replace('</head>', reviews_assets(root, content) + '</head>')
     page.write_text(content)

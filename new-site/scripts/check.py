@@ -1,5 +1,6 @@
 from pathlib import Path
 import json,re,sys
+from urllib.parse import urlsplit, unquote
 root=Path(__file__).resolve().parents[1]
 d=json.loads((root/'data/catalog.json').read_text());errors=[]
 structure=json.loads((root/'data/catalog-structure.json').read_text())
@@ -45,7 +46,7 @@ for f in root.rglob('*.html'):
  s=f.read_text()
  for href in re.findall(r'(?:href|src)="([^"]+)"',s):
   if href.startswith(('http:','https:','mailto:','tel:','#','data:')):continue
-  target=(f.parent/href.split('#')[0]).resolve()
+  target=(f.parent/unquote(urlsplit(href).path)).resolve()
   if not target.exists():errors.append(f'{f}: {href}')
 print(f'{len(list(root.rglob("*.html")))} страниц; {len(d["categories"])} категории; {len(d["products"])} товаров.')
 if errors:print('\n'.join(errors));sys.exit(1)
