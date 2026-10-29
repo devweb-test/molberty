@@ -6,20 +6,14 @@
  const section=document.querySelector('#reviews'),track=section?.querySelector('#reviews-track');
  if(!track)return;
  const cards=[...track.querySelectorAll('.review-card')],controls=section.querySelector('.reviews-controls');
- const previous=section.querySelector('[data-reviews-prev]'),next=section.querySelector('[data-reviews-next]'),position=section.querySelector('.reviews-position');
- if(!cards.length||!controls||!previous||!next||!position)return;
+ const previous=section.querySelector('[data-reviews-prev]'),next=section.querySelector('[data-reviews-next]');
+ if(!cards.length||!controls||!previous||!next)return;
  const preference=matchMedia('(prefers-reduced-motion: reduce)');
- let frame=0,announceTimer=0;
+ let frame=0;
  const step=()=>cards.length>1?cards[1].offsetLeft-cards[0].offsetLeft:cards[0].getBoundingClientRect().width;
- function sync(announce=true){
+ function sync(){
   const maximum=Math.max(0,track.scrollWidth-track.clientWidth),offset=track.scrollLeft;
   previous.disabled=offset<=2;next.disabled=maximum-offset<=2;
-  if(!announce)return;
-  const distance=step(),gap=parseFloat(getComputedStyle(track).columnGap)||0;
-  const visible=Math.max(1,Math.floor((track.clientWidth+gap+1)/distance));
-  const first=Math.min(Math.max(0,cards.length-visible),Math.max(0,Math.round(offset/distance)));
-  const last=Math.min(cards.length,first+visible);
-  position.textContent=(first+1===last?String(last):`${first+1}–${last}`)+` из ${cards.length}`;
  }
  function move(direction){
   const distance=step(),maximum=track.scrollWidth-track.clientWidth;
@@ -36,8 +30,7 @@
   }
  });
  track.addEventListener('scroll',()=>{
-  if(!frame)frame=requestAnimationFrame(()=>{frame=0;sync(false)});
-  clearTimeout(announceTimer);announceTimer=setTimeout(()=>sync(),120);
+  if(!frame)frame=requestAnimationFrame(()=>{frame=0;sync()});
  },{passive:true});
  if('ResizeObserver' in window)new ResizeObserver(()=>sync()).observe(track);
  else addEventListener('resize',()=>sync());
