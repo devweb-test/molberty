@@ -33,6 +33,20 @@ class PreviewHandler(SimpleHTTPRequestHandler):
    encodings[name]=quality
   return encodings.get('gzip',encodings.get('*',0))>0
 
+ def send_error(self,code,message=None,explain=None):
+  if code!=404:return super().send_error(code,message,explain)
+  try:data=(Path(self.directory)/'404.html').read_bytes()
+  except OSError:return super().send_error(code,message,explain)
+  self.send_response(404)
+  self.send_header('Content-Type','text/html; charset=utf-8')
+  self.send_header('X-Robots-Tag','noindex, nofollow')
+  if self.accepts_gzip():
+   data=gzip.compress(data,compresslevel=6,mtime=0)
+   self.send_header('Content-Encoding','gzip')
+  self.send_header('Content-Length',str(len(data)))
+  self.end_headers()
+  if self.command!='HEAD':self.wfile.write(data)
+
  def send_head(self):
   path=Path(self.translate_path(self.path))
   if path.is_dir():

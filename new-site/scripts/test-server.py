@@ -34,7 +34,16 @@ for route,file in [('/catalog/','catalog/index.html'),('/prices/','prices/index.
 photo=json.loads((root/'data/catalog.json').read_text())['products'][0]['image']
 status,headers,data=fetch('/assets/'+photo,{'Accept-Encoding':'gzip'})
 assert status==200 and 'Content-Encoding' not in headers and data==(root/'assets'/photo).read_bytes()
-assert fetch('/missing-performance-test/')[0]==404
+error_page=(root/'404.html').read_bytes()
+for missing in ['/missing-performance-test/','/catalog/no-such-category/item/','/no-such-file.html']:
+ for encoding in ['identity','gzip','gzip;q=0, identity;q=1']:
+  status,headers,body=fetch(missing,{'Accept-Encoding':encoding})
+  assert status==404 and 'Location' not in headers,missing
+  assert headers['Content-Type']=='text/html; charset=utf-8'
+  assert headers['X-Robots-Tag']=='noindex, nofollow'
+  assert (gzip.decompress(body) if headers.get('Content-Encoding')=='gzip' else body)==error_page
+  status,head_headers,head_body=fetch(missing,{'Accept-Encoding':encoding},'HEAD')
+  assert status==404 and not head_body and head_headers['Content-Length']==headers['Content-Length']
 
 class NoRedirect(HTTPRedirectHandler):
  def redirect_request(self,*args,**kwargs):return None

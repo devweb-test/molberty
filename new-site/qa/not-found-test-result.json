@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "missingHttpStatus": 404,
+  "novelties": [
+    "bolshoy-stankovyy-buk",
+    "malyy-stankovyy-buk",
+    "stankovyy-2-storonniy",
+    "studiya-a1"
+  ],
+  "layouts": [
+    {
+      "viewport": 320,
+      "width": 320
+    },
+    {
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "viewport": 768,
+      "width": 768
+    },
+    {
+      "viewport": 1440,
+      "width": 1440
+    }
+  ],
+  "checks": [
+    "nested URLs and asset bases",
+    "shared navigation",
+    "back and home fallback",
+    "original new products and wholesale prices",
+    "quick view",
+    "request form and required consent",
+    "static HTML without JavaScript",
+    "GitHub Pages root fallback with and without JavaScript",
+    "no horizontal overflow"
+  ],
+  "browserErrors": []
+}

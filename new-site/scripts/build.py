@@ -170,6 +170,8 @@ for old,new in redirects.items():
 (ROOT/'data/redirects.json').write_text(json.dumps(redirects,ensure_ascii=False,indent=2))
 summary={'document':'data/catalog-structure.doc','documentSha256':structure['documentSha256'],'amendments':structure.get('amendments',[]),'categoryCount':len(cats),'productCount':len(products),'galleryCount':sum(len(p['gallery']) for p in products),'newCount':sum(p['isNew'] for p in products),'roots':{c['role']:sum(c['id'] in p['categories'] for p in products) for c in cats if not c['parentId']},'categoryProducts':{c['id']:[p['id'] for p in products if c['id'] in p['categories']] for c in cats},'redirectCount':len(redirects)}
 (ROOT/'data/structure-report.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2))
+from error_page import write_error_page
+write_error_page(ROOT)
 examples_path=ROOT/'qa/generated-schema.json'
 example_routes=set(json.loads(examples_path.read_text()))|{'index.html','contacts/index.html','documents/index.html'}
 examples={route:[json.loads(value) for value in re.findall(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>',(ROOT/route).read_text())] for route in sorted(example_routes)}
