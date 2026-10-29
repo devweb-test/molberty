@@ -1,0 +1,18 @@
+{
+  "method": "built-in image_gen",
+  "use": "Portraits of fictional testimonial authors for a clearly labelled prototype block",
+  "images": [
+    {
+      "file": "assets/reviews/alexander-krylov.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: square portrait avatar for an explicitly labelled fictional B2B testimonial in a Russian wooden easel manufacturer's website prototype. Primary request: create a realistic portrait of a fictional man aged about 48, the facilities coordinator of an art school. Subject: warm approachable expression, short salt-and-pepper hair, clean shaven, navy casual jacket over a pale shirt, looking at camera. Composition: centered head and shoulders, entire head within frame with comfortable space around it, square composition, suitable for circular cropping. Scene/backdrop: softly blurred light art classroom with a hint of natural wood and off-white walls, no other people. Style: natural editorial photography with visible skin texture, subtle asymmetry, understated professional appearance; soft daylight, muted cream and forest green palette. Constraints: invented person, no resemblance to any named real person, no real organization branding, no text, no logos, no watermark."
+    },
+    {
+      "file": "assets/reviews/marina-sokolova.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: square portrait avatar for an explicitly labelled fictional B2B testimonial in a Russian wooden easel manufacturer's website prototype. Primary request: create a realistic portrait of a fictional woman aged about 43, a deputy director of a children's supplementary education centre. Subject: kind confident expression, medium-length chestnut hair tucked behind one ear, muted sage blouse, small unobtrusive earrings, looking at camera. Composition: centered head and shoulders, entire head within frame with comfortable space around it, square composition, suitable for circular cropping. Scene/backdrop: softly blurred bright creative classroom in warm neutral colours, no other people. Style: natural editorial photography with realistic skin texture and subtle imperfections, professional and approachable; soft daylight, subdued cream and sage palette. Constraints: invented person, no resemblance to any named real person, no real organization branding, no text, no logos, no watermark."
+    },
+    {
+      "file": "assets/reviews/irina-belyaeva.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: square portrait avatar for an explicitly labelled fictional B2B testimonial in a Russian wooden easel manufacturer's website prototype. Primary request: create a realistic portrait of a fictional woman aged about 56, a coordinator of exhibition projects at a municipal cultural centre. Subject: thoughtful friendly smile, short dark blonde hair with a little grey, dark green blouse and light beige cardigan, looking at camera. Composition: centered head and shoulders, entire head within frame with comfortable space around it, square composition, suitable for circular cropping. Scene/backdrop: softly blurred calm gallery interior with pale walls, no legible artwork or signage, no other people. Style: natural editorial photography with authentic skin texture, understated and professional; soft daylight, muted cream and forest green palette. Constraints: invented person, no resemblance to any named real person, no real organization branding, no text, no logos, no watermark."
+    }
+  ]
+}

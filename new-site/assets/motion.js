@@ -73,7 +73,7 @@
  // only running Web Animations change opacity, so a missing API cannot hide content.
  const revealSelector=[
   '.hero-copy>.eyebrow','.hero-copy>h1','.hero-copy>p','.hero-buttons','.hero-proof','.hero-visual',
-  '.page-intro','.section-heading','.trust-strip>div','.category-tile','.product-card','.client-logo-tile','.client-card',
+  '.page-intro','.section-heading','.trust-strip>div','.category-tile','.product-card','.client-logo-tile','.client-card','.review-card',
   '.audience-grid>article','.steps>article','.production-gallery>figure','.workshop-copy',
   '.usecase-grid>a','.benefit-grid>article','.quiz-banner','.partner>div','.partner-list',
   '.company-original-history','.company-original-craft','.company-original-closing','.company-guide',
