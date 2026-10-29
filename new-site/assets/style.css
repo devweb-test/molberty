@@ -206,3 +206,12 @@ input:focus-visible,textarea:focus-visible{outline-offset:0}
 .hero-standards .hero-standards-kit{margin:4px 0 0;font-size:13px;line-height:1.7;color:var(--ink)}
 .hero-copy:has(.hero-standards) .hero-proof{margin-top:25px}
 @media(max-width:600px){.hero-standards{gap:9px;margin-top:15px}.hero-standards>.hero-standards-icon{width:20px;height:24px}.hero-standards-heading{gap:2px 10px}.hero-copy:has(.hero-standards) .hero-proof{margin-top:22px}}
+
+/* Contact rows and standards document icon. */
+.footer-grid>div>a.footer-contact,.footer-grid .footer-contact-address{display:flex;align-items:flex-start;gap:11px}
+.footer-grid .footer-contact>.icon{width:20px;height:24px;flex:0 0 20px;color:var(--orange)}
+.footer-grid .footer-contact>span{min-width:0;overflow-wrap:anywhere}
+.footer-grid .footer-contact-address{margin:17px 0 0}
+.footer-grid .footer-phone>.icon{margin-top:3px}
+.production-quality>.icon{width:36px;height:36px;flex:0 0 36px;margin-top:1px}
+@media(max-width:600px){.production-quality>.icon{width:30px;height:30px;flex-basis:30px}}
