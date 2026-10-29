@@ -16,7 +16,7 @@ input:focus-visible,select:focus-visible,textarea:focus-visible{border-color:var
 .product-card:focus-within,.blog-card:focus-within .blog-card-image{box-shadow:var(--motion-shadow)}
 .category-links a:focus-visible,.category-tree a:focus-visible,.sidebar>a:focus-visible,.breadcrumbs a:focus-visible,.header nav a:focus-visible{color:var(--orange)}
 @media(hover:hover){
- a:hover{color:var(--orange)}
+ a:where(:not(.btn)):hover{color:var(--orange)}
  .logo:hover{color:var(--green);opacity:.85}
  .footer-grid>div>a:not(.logo):hover,.footer-bottom a:hover,.footer-grid .footer-phone:hover{color:var(--orange)!important}
  .btn:hover{box-shadow:var(--motion-shadow)}
