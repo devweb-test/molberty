@@ -1,13 +1,13 @@
 {
   "passed": true,
-  "checkedAt": "2026-11-03T10:58:00.562Z",
+  "checkedAt": "2026-11-03T11:03:29.635Z",
   "checks": [
     "separate telephone and email fields",
     "three checkbox delivery choices",
     "conditional city/address validation",
     "images, selected variants, quantities and exact subtotal",
     "draft persistence and basket editing",
-    "structured email and downloadable order",
+    "demo confirmation without email or submission",
     "free pickup excludes address and shipping charge",
     "email optional with native validation",
     "escaped user input",
