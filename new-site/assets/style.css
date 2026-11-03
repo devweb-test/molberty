@@ -286,10 +286,8 @@ footer{background-image:var(--gradient-footer)}
 @media(max-width:600px){.header .brand-logo-image{width:184px}}
 @media(max-width:360px){.header .brand-logo-image{width:168px}}
 
-/* Shared announcement in the brown topbar. */
-.topbar{background:var(--orange);background-image:var(--gradient-orange);color:#fff;letter-spacing:0}
-.topbar .topbar-content{height:auto;min-height:44px;display:flex;align-items:center;justify-content:space-between;gap:20px;font-size:13px;padding-block:4px}
-.topbar-message{flex:1;min-width:0;margin:0;color:#fff;font-size:13px;line-height:1.55}.topbar-label{font-weight:700}.topbar-description{margin-left:7px}
-.topbar .topbar-catalog{display:inline-flex;align-items:center;justify-content:center;gap:8px;flex:none;min-height:36px;font-size:13px;color:#fff;transition:opacity .2s}.topbar-catalog .icon{width:17px;height:17px;transition:transform .2s}.topbar .topbar-catalog:hover{color:#fff;opacity:.85;text-decoration:underline;text-underline-offset:4px}.topbar-catalog:hover .icon{transform:translateX(3px)}
-@media(max-width:600px){.topbar .topbar-content{min-height:40px;gap:12px;padding-block:0}.topbar-message,.topbar .topbar-catalog{font-size:12px}.topbar-description{display:none}.topbar .topbar-catalog{min-height:40px}.topbar-catalog .icon{width:16px;height:16px}}
-@media(prefers-reduced-motion:reduce){.topbar .topbar-catalog,.topbar-catalog .icon{transition:none}.topbar-catalog:hover .icon{transform:none}}
+/* Original green topbar with a compact brown-text announcement. */
+.topbar .wrap{gap:16px}.topbar .topbar-tagline{min-width:0}.topbar .topbar-region{white-space:nowrap}
+.topbar .topbar-update{display:inline-flex;align-items:center;justify-content:center;gap:9px;flex:none;padding:3px 9px;background:var(--paper);color:var(--orange);font-size:11px;font-weight:600;line-height:1.5;letter-spacing:0;white-space:nowrap;transition:background-color .2s,color .2s}.topbar .topbar-update span{color:inherit}.topbar-update .icon{width:14px;height:14px;transition:transform .2s}.topbar-update .topbar-update-short{display:none}.topbar-update-catalog{text-decoration:underline;text-underline-offset:3px}.topbar .topbar-update:hover{background:#fff;color:#83412c}.topbar-update:hover .icon{transform:translateX(2px)}
+@media(max-width:600px){.topbar .wrap{gap:10px}.topbar .topbar-tagline{font-size:10px;line-height:1.3}.topbar .topbar-update{gap:7px;font-size:10px;padding:3px 7px}.topbar-update .topbar-update-long{display:none}.topbar-update .topbar-update-short{display:inline}.topbar-update .icon{width:12px;height:12px}}
+@media(prefers-reduced-motion:reduce){.topbar .topbar-update,.topbar-update .icon{transition:none}.topbar-update:hover .icon{transform:none}}
