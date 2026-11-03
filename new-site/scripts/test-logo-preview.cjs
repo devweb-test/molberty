@@ -2,7 +2,7 @@
 const {chromium}=require('playwright'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
 const {acceptCookieNotice}=require('./test-helpers.cjs');
 const manifest=require('../data/logo-options.json'),base=process.env.PREVIEW_URL||'http://127.0.0.1:4175/';
-const shots=path.resolve(__dirname,'../../.clone-work/logo-v64-approved');
+const shots=path.resolve(__dirname,'../../.clone-work/logo-v65-approved');
 (async()=>{
  assert.equal(manifest.status,'approved');assert.equal(manifest.defaultId,'lira');
  const browser=await chromium.launch({headless:true});const errors=[],requests=[],checks=[];
@@ -15,7 +15,7 @@ const shots=path.resolve(__dirname,'../../.clone-work/logo-v64-approved');
    await page.locator('main h1').waitFor();
    await page.waitForFunction(()=>document.querySelectorAll('.brand-logo-image').length===2&&[...document.querySelectorAll('.brand-logo-image')].every(img=>img.complete&&img.naturalWidth>0));
    assert.equal(await page.locator('.logo-preview-toolbar,.logo-compare-dialog').count(),0);
-   for(const img of await page.locator('.brand-logo-image').all())assert.match(await img.getAttribute('src'),/assets\/logo\.svg\?v=64$/);
+   for(const img of await page.locator('.brand-logo-image').all()){assert.match(await img.getAttribute('src'),/assets\/logo\.svg\?v=65$/);assert.equal(await img.getAttribute('alt'),'Мольберты.ру');assert.equal(await img.getAttribute('title'),'Мольберты.ру');}
    assert.equal(await page.evaluate(()=>sessionStorage.getItem('molberty-logo-review')),null);
    const layout=await page.evaluate(()=>{
     const logo=document.querySelector('.header>.logo').getBoundingClientRect(),actions=document.querySelector('.header-actions').getBoundingClientRect(),menu=document.querySelector('.header nav');
@@ -39,7 +39,7 @@ const shots=path.resolve(__dirname,'../../.clone-work/logo-v64-approved');
   await page.setViewportSize({width:390,height:844});await page.locator('.mobile-menu').click();assert.equal(await page.locator('.mobile-menu').getAttribute('aria-expanded'),'true');await page.locator('.header nav a[href="catalog/"]').first().click();await page.waitForURL('**/catalog/*');await verify();
   await page.locator('.header>.logo').click();await page.waitForURL('**/index.html');await verify();
   const iconResponse=await context.request.get(new URL('assets/favicon.svg?v=64',base).href);assert.ok(iconResponse.ok());assert.ok((await iconResponse.text()).includes('M25 5v55'));
-  const logoResponse=await context.request.get(new URL('assets/logo.svg?v=64',base).href);assert.ok(logoResponse.ok());const logo=await logoResponse.text();assert.ok(logo.includes('Мольберты.ру — Лира'));assert.ok(logo.includes('width="560" height="144"'));
+  const logoResponse=await context.request.get(new URL('assets/logo.svg?v=65',base).href);assert.ok(logoResponse.ok());const logo=await logoResponse.text();assert.ok(logo.includes('<title id="title">Мольберты.ру</title>'));assert.ok(logo.includes('width="560" height="144"'));
   assert.ok(!requests.some(u=>/logo-preview\.(?:css|js)|logo-options/.test(u)));
   const noJS=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:844}});
   const staticPage=await noJS.newPage();

@@ -284,3 +284,9 @@ footer{background-image:var(--gradient-footer)}
 @media(max-width:900px){.header .brand-logo-image{width:194px}}
 @media(max-width:600px){.header .brand-logo-image{width:184px}}
 @media(max-width:360px){.header .brand-logo-image{width:168px}}
+
+/* A small home-page notice helps returning customers recognise the new site. */
+.site-update-note{display:flex;align-items:center;gap:16px;margin-top:18px;padding:13px 20px;background:var(--gradient-soft,linear-gradient(110deg,#e9ede3,#f1f2eb));border:1px solid var(--line);color:var(--green)}
+.site-update-note>.site-update-icon{width:26px;height:26px}.site-update-note p{display:flex;align-items:baseline;flex-wrap:wrap;gap:3px 14px;flex:1;min-width:0;margin:0;color:var(--green);font-size:14px;line-height:1.65}.site-update-note strong{font-size:14px;font-weight:700}.site-update-note p>span{color:#435640}.site-update-link{display:inline-flex;align-items:center;justify-content:center;gap:10px;flex:none;min-height:44px;font-size:13px;transition:color .2s}.site-update-link .icon{width:19px;height:19px;transition:transform .2s}.site-update-link:hover{color:var(--orange)}.site-update-link:hover .icon{transform:translateX(3px)}
+@media(max-width:600px){.site-update-note{gap:10px;margin-top:10px;padding:12px}.site-update-note>.site-update-icon{width:22px;height:22px}.site-update-note p{display:block;font-size:13px;line-height:1.55}.site-update-note strong{display:block;margin-bottom:3px}.site-update-link{width:36px}.site-update-link>span{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}}
+@media(prefers-reduced-motion:reduce){.site-update-link,.site-update-link .icon{transition:none}.site-update-link:hover .icon{transform:none}}

@@ -70,7 +70,9 @@ for option in options:
     subtitle_size, spacing = 10.2, .6
     subtitle_size *= min(1, 218 / width(subtitle_font, subtitle, subtitle_size, spacing))
     caption, _ = outline(subtitle_font, subtitle, 58, 60, subtitle_size, spacing)
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 72" width="280" height="72" role="img" aria-labelledby="title desc"><title id="title">Мольберты.ру — {html.escape(option['title'])}</title><desc id="desc">{html.escape(option['description'])} Производство с 1991 года.</desc>{marks[id]}<path fill="{GREEN}" d="{first}"/><path fill="{ORANGE}" d="{last}"/><path fill="{GREEN}" d="{caption}"/></svg>'''
+    # Align the visible left edges of М and П, compensating their side bearings.
+    caption_shift = ' transform="translate(-0.774 0)"' if id == 'lira' else ''
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 72" width="280" height="72" role="img" aria-labelledby="title desc"><title id="title">Мольберты.ру — {html.escape(option['title'])}</title><desc id="desc">{html.escape(option['description'])} Производство с 1991 года.</desc>{marks[id]}<path fill="{GREEN}" d="{first}"/><path fill="{ORANGE}" d="{last}"/><path fill="{GREEN}"{caption_shift} d="{caption}"/></svg>'''
     option['asset'] = 'logo-options/' + id + '.svg'
     (ROOT / 'assets' / option['asset']).write_text(svg + '\n')
 manifest_path = ROOT / 'data/logo-options.json'
