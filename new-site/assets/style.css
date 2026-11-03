@@ -307,3 +307,9 @@ footer{background-image:var(--gradient-footer)}
 
 @media(max-width:700px){.hero-control-arrow{width:40px;height:40px;flex-basis:40px}}
 @media(prefers-reduced-motion:reduce){.hero-control-arrow{transition:none}}
+
+/* Сообщение об обновлении на первом слайде. */
+.hero-update{position:absolute;left:28px;bottom:28px;display:flex;flex-direction:column;align-items:flex-start;gap:5px;max-width:min(355px,calc(100% - 56px));padding:18px 21px;background:rgba(249,247,241,.96);color:var(--green);box-shadow:0 8px 30px rgba(30,43,35,.12)}
+.hero-update-title{font-family:var(--serif);font-size:21px;line-height:1.35}.hero-update-copy{font-size:13px;line-height:1.6}.hero-update-link{display:inline-flex;align-items:center;gap:9px;margin-top:5px;color:var(--orange);font-size:13px;font-weight:700}.hero-update-link .icon{width:17px;height:17px;transition:transform .2s}.hero-update-link:hover .icon{transform:translateX(4px)}
+@media(max-width:600px){.hero-update{left:16px;bottom:16px;max-width:calc(100% - 32px);padding:13px 16px;gap:3px}.hero-update-title{font-size:18px}.hero-update-copy,.hero-update-link{font-size:12px}.hero-update-link{margin-top:3px}}
+@media(prefers-reduced-motion:reduce){.hero-update-link .icon{transition:none}.hero-update-link:hover .icon{transform:none}}
