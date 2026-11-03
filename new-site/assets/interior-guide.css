@@ -24,14 +24,14 @@
 .interior-quiz-models{display:grid;gap:14px;margin-top:22px}
 .interior-quiz-model{display:grid;grid-template-columns:75px minmax(0,1fr);gap:17px;align-items:center;padding:15px;border:1px solid var(--line);background:#fff;background-image:var(--gradient-card)}
 .interior-quiz-model img{width:75px;height:95px;object-fit:contain;background:#fff}
-.interior-quiz-model strong{font-size:16px;line-height:1.6}
+.interior-quiz-model .text-strong{font-size:16px;line-height:1.6}
 .interior-quiz-model small{display:block;margin-top:7px;font-size:13px;line-height:1.8;color:var(--green)}
 .interior-quiz-price{display:block;margin-top:8px;font-size:16px;font-weight:700;color:var(--ink)}
 .interior-quiz-model:hover{border-color:var(--green)}
 .interior-quiz-note{font-size:14px;line-height:1.9}
 @media(max-width:700px){
  .interior-guide .guide-step{gap:15px}
- .interior-guide .guide-step>span{font-size:24px}
+ .interior-guide .guide-step>span:where(:not(.text-strong)){font-size:24px}
  .interior-guide .guide-step .text-h2{font-size:21px}
  .category-description .interior-guide .guide-step p{font-size:15px}
  .category-description .interior-guide>.lead{font-size:19px}
