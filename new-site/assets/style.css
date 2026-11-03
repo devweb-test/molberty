@@ -292,3 +292,9 @@ footer{background-image:var(--gradient-footer)}
 @media(max-width:1150px){.topbar .wrap{min-height:29px}}
 @media(max-width:600px){.topbar .wrap{display:grid;grid-template-columns:minmax(0,1fr);gap:3px;padding-block:4px}.topbar .topbar-tagline{font-size:10px;line-height:1.35}.topbar .topbar-update{width:100%;max-width:none;gap:7px;font-size:10.5px;line-height:1.4;justify-content:flex-start}.topbar-update .topbar-update-long{display:none}.topbar-update .topbar-update-short{display:inline}.topbar-update .icon{width:12px;height:12px}html{scroll-padding-top:155px}.header nav{max-height:calc(100dvh - 155px)}}
 @media(prefers-reduced-motion:reduce){.topbar .topbar-update,.topbar-update .icon{transition:none}.topbar-update:hover .icon{transform:none}}
+
+/* Only the main menu sticks; the separate topbar stays in document flow. */
+#topbar{position:static}html{scroll-padding-top:118px}
+@media(max-width:1150px){html{scroll-padding-top:110px}}
+@media(max-width:900px){.topbar .topbar-tagline{display:none}}
+@media(max-width:600px){html{scroll-padding-top:103px}}
