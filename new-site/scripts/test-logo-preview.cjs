@@ -1,33 +1,51 @@
+// The review is complete: verify the approved logo cannot be overridden.
 const {chromium}=require('playwright'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
 const {acceptCookieNotice}=require('./test-helpers.cjs');
 const manifest=require('../data/logo-options.json'),base=process.env.PREVIEW_URL||'http://127.0.0.1:4175/';
-const shots=path.resolve(__dirname,'../../.clone-work/logo-v37-preview');
-(async()=>{const browser=await chromium.launch({headless:true});try{
- const context=await browser.newContext({viewport:{width:1440,height:1000},reducedMotion:'reduce'});await acceptCookieNotice(context);
- await context.route('**/*',r=>new URL(r.request().url()).origin===new URL(base).origin?r.continue():r.abort());
- const page=await context.newPage(),errors=[],requests=[];page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>requests.push(r.url()));
- const go=async route=>{await page.goto(new URL(route,base).href,{waitUntil:'domcontentloaded'});await page.locator('main h1').waitFor()};
- const select=page.locator('[data-logo-select]');
- const waitChoice=async id=>{await page.waitForFunction(id=>new URL(location.href).searchParams.get('logo')===id&&document.querySelector('[data-logo-select]')?.value===id,id);if(id!=='current')await page.waitForFunction(id=>[...document.querySelectorAll('.logo-variant-image')].length===2&&[...document.querySelectorAll('.logo-variant-image')].every(img=>img.src.endsWith('/'+id+'.svg')&&img.complete&&img.naturalWidth>0),id)};
- const choose=async id=>{await select.selectOption(id);await waitChoice(id)};
- fs.mkdirSync(shots,{recursive:true});
- await go('');assert.equal(await page.locator('.logo-preview-toolbar').count(),0);assert.equal(await page.locator('.logo-variant-image').count(),0);assert.ok(!requests.some(u=>/logo-preview\.(?:css|js)|logo-options/.test(u)));const originalHeader=await page.locator('.header>.logo').innerHTML();
- await go('?logo-preview=1&logo=stanok');await select.waitFor();await waitChoice('stanok');assert.equal(await select.locator('option').count(),5);assert.equal(await page.locator('.header>.logo').getAttribute('href'),'index.html');
- await choose('current');assert.equal(await page.locator('.header>.logo').innerHTML(),originalHeader);await page.locator('[data-logo-next]').click();await waitChoice('stanok');await page.locator('[data-logo-prev]').click();await waitChoice('current');await page.locator('[data-logo-prev]').click();await waitChoice('chertezh');
- for(const width of [320,390,600,768,900,901,1100,1280,1440]){
-  await page.setViewportSize({width,height:1000});
-  for(const option of manifest.options){await choose(option.id);const layout=await page.evaluate(()=>{const logo=document.querySelector('.header>.logo').getBoundingClientRect(),actions=document.querySelector('.header-actions').getBoundingClientRect(),menu=document.querySelector('.header nav'),nav=getComputedStyle(menu).display==='none'||getComputedStyle(menu).position==='absolute'?null:menu.getBoundingClientRect();return {overflow:document.documentElement.scrollWidth-innerWidth,logoRight:logo.right,actionsLeft:actions.left,navLeft:nav?.left}});assert.ok(layout.overflow<=1,option.id+' overflow '+width);assert.ok(layout.logoRight<=layout.actionsLeft+1,option.id+' actions overlap '+width);if(layout.navLeft)assert.ok(layout.logoRight<=layout.navLeft+1,option.id+' menu overlap '+width);if([390,1440].includes(width)){await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:path.join(shots,option.id+'-'+width+'.png'),animations:'disabled'})}}
- }
- await page.setViewportSize({width:1440,height:1000});await choose('lira');await page.reload();await select.waitFor();await waitChoice('lira');
- await go('product/bolshoy-stankovyy-buk/');await select.waitFor();await waitChoice('lira');assert.equal(await page.locator('.header>.logo').getAttribute('href'),'../../index.html');assert.ok((await page.locator('.header .logo-variant-image').getAttribute('src')).includes('/assets/logo-options/lira.svg'));await page.selectOption('[data-tier]','retail');await page.locator('[data-config-qty]').fill('1');await page.locator('[data-order]').click();assert.equal(await page.locator('.selection-row').count(),1);await page.keyboard.press('Escape');
- await go('contacts/');await select.waitFor();await waitChoice('lira');await page.locator('[data-logo-collapse]').click();assert.equal(await page.locator('.logo-preview-settings').isVisible(),false);await page.reload();await select.waitFor({state:'attached'});assert.equal(await page.locator('.logo-preview-settings').isVisible(),false);await page.locator('[data-logo-collapse]').click();assert.ok(await select.isVisible());
- await page.evaluate(()=>scrollTo(0,700));await page.waitForTimeout(150);const sticky=await page.locator('.logo-preview-toolbar').boundingBox(),header=await page.locator('#header').boundingBox();assert.ok(sticky.y>=header.y+header.height-1);
- await page.locator('[data-logo-compare]').click();await page.locator('.logo-compare-dialog').waitFor({state:'visible'});assert.equal(await page.locator('[data-logo-choice]').count(),5);for(const option of manifest.options){const button=page.locator('[data-logo-choice="'+option.id+'"]');await button.scrollIntoViewIfNeeded();await page.waitForFunction(id=>document.querySelector('[data-logo-choice="'+id+'"] img').complete,option.id)}await page.locator('.logo-compare-dialog').evaluate(e=>e.scrollTop=0);await page.screenshot({path:path.join(shots,'all-variants-desktop.png'),animations:'disabled'});await page.locator('[data-logo-choice="holst"]').click();await page.locator('.logo-compare-dialog').waitFor({state:'hidden'});await waitChoice('holst');
- await page.locator('[data-logo-compare]').click();await page.keyboard.press('Escape');await page.locator('.logo-compare-dialog').waitFor({state:'hidden'});
- const address=page.url();const separate=await browser.newContext({viewport:{width:390,height:844}});await acceptCookieNotice(separate);const shared=await separate.newPage();await shared.goto(address);await shared.waitForFunction(()=>document.querySelector('.header .logo-variant-image')?.src.endsWith('/holst.svg'));await separate.close();
- await page.setViewportSize({width:390,height:844});await page.evaluate(()=>scrollTo(0,0));await page.locator('.mobile-menu').click();assert.equal(await page.locator('.mobile-menu').getAttribute('aria-expanded'),'true');await page.locator('.header nav a[href="../catalog/"]').first().click();await page.waitForURL('**/catalog/*');await select.waitFor();await waitChoice('holst');assert.ok(await page.locator('#mobile-bottom-nav').isVisible());assert.ok(await page.locator('.header-call').isVisible());
- await page.locator('[data-logo-exit]').click();assert.equal(await page.locator('.logo-preview-toolbar').count(),0);assert.equal(await page.locator('.logo-variant-image').count(),0);assert.equal(await page.evaluate(()=>sessionStorage.getItem('molberty-logo-review')),null);assert.ok(!page.url().includes('logo-preview'));await page.reload();assert.equal(await page.locator('.logo-preview-toolbar').count(),0);
- await go('?logo-preview=1&logo=unknown');await select.waitFor();await waitChoice('current');assert.equal(await page.locator('.logo-variant-image').count(),0);await go('?logo-preview=0');assert.equal(await page.locator('.logo-preview-toolbar').count(),0);
- const blocked=await browser.newContext();await acceptCookieNotice(blocked);await blocked.addInitScript(()=>Object.defineProperty(window,'sessionStorage',{get(){throw Error('Storage unavailable')}}));const privatePage=await blocked.newPage();await privatePage.goto(new URL('?logo-preview=1&logo=chertezh',base).href);await privatePage.waitForFunction(()=>document.querySelector('.header .logo-variant-image')?.src.endsWith('/chertezh.svg'));await blocked.close();
- assert.deepEqual(errors,[]);fs.writeFileSync('qa/logo-preview-test-result.json',JSON.stringify({passed:true,checkedAt:new Date().toISOString(),options:5,newLogos:4,viewports:[320,390,600,768,900,901,1100,1280,1440],checks:['default markup retained, no preview requests outside review','all five choices, both header/footer','no overlap or overflow for every logo','current logo restored exactly','previous/next and wraparound','page/reload/tab selection and shareable URL','nested product and contacts routes','working cart and mobile navigation','collapse/reopen/persistence','sticky controller below sticky header','gallery selection, active state and Escape','exit restores default and clears state','unknown IDs and unavailable storage'],screenshots:shots},null,2)+'\n');console.log('Logo preview, responsive headers, session state and existing navigation: PASS');
- }finally{await browser.close()}})().catch(e=>{console.error(e);process.exit(1)});
+const shots=path.resolve(__dirname,'../../.clone-work/logo-v64-approved');
+(async()=>{
+ assert.equal(manifest.status,'approved');assert.equal(manifest.defaultId,'lira');
+ const browser=await chromium.launch({headless:true});const errors=[],requests=[],checks=[];
+ try{
+  const context=await browser.newContext({viewport:{width:1440,height:1000},reducedMotion:'reduce'});
+  await acceptCookieNotice(context);
+  await context.addInitScript(()=>sessionStorage.setItem('molberty-logo-review',JSON.stringify({active:true,id:'holst'})));
+  const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>requests.push(r.url()));
+  const verify=async()=>{
+   await page.locator('main h1').waitFor();
+   await page.waitForFunction(()=>document.querySelectorAll('.brand-logo-image').length===2&&[...document.querySelectorAll('.brand-logo-image')].every(img=>img.complete&&img.naturalWidth>0));
+   assert.equal(await page.locator('.logo-preview-toolbar,.logo-compare-dialog').count(),0);
+   for(const img of await page.locator('.brand-logo-image').all())assert.match(await img.getAttribute('src'),/assets\/logo\.svg\?v=64$/);
+   assert.equal(await page.evaluate(()=>sessionStorage.getItem('molberty-logo-review')),null);
+   const layout=await page.evaluate(()=>{
+    const logo=document.querySelector('.header>.logo').getBoundingClientRect(),actions=document.querySelector('.header-actions').getBoundingClientRect(),menu=document.querySelector('.header nav');
+    const nav=getComputedStyle(menu).display==='none'||getComputedStyle(menu).position==='absolute'?null:menu.getBoundingClientRect();
+    return {width:innerWidth,overflow:document.documentElement.scrollWidth-innerWidth,logoRight:logo.right,actionsLeft:actions.left,navLeft:nav?.left};
+   });
+   assert.ok(layout.overflow<=1,JSON.stringify(layout));assert.ok(layout.logoRight<=layout.actionsLeft+1,JSON.stringify(layout));if(layout.navLeft)assert.ok(layout.logoRight<=layout.navLeft+1,JSON.stringify(layout));
+   return layout;
+  };
+  const routes=['','catalog/','product/bolshoy-stankovyy-buk/','contacts/','prices/','clients/','privacy/','404.html'];
+  for(const route of routes){await page.goto(new URL(route,base).href,{waitUntil:'domcontentloaded'});checks.push({route,...await verify()});}
+  await page.goto(new URL('?logo-preview=1&logo=chertezh',base).href,{waitUntil:'domcontentloaded'});
+  fs.mkdirSync(shots,{recursive:true});
+  for(const width of [320,360,390,600,768,900,901,1100,1280,1440,1920]){
+   await page.setViewportSize({width,height:1000});checks.push({route:'legacy-preview-url',...await verify()});
+   if([390,1440].includes(width)){
+    await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:path.join(shots,'header-'+width+'.png'),animations:'disabled'});
+    await page.locator('#footer').scrollIntoViewIfNeeded();await page.screenshot({path:path.join(shots,'footer-'+width+'.png'),animations:'disabled'});await page.evaluate(()=>scrollTo(0,0));
+   }
+  }
+  await page.setViewportSize({width:390,height:844});await page.locator('.mobile-menu').click();assert.equal(await page.locator('.mobile-menu').getAttribute('aria-expanded'),'true');await page.locator('.header nav a[href="catalog/"]').first().click();await page.waitForURL('**/catalog/*');await verify();
+  await page.locator('.header>.logo').click();await page.waitForURL('**/index.html');await verify();
+  const iconResponse=await context.request.get(new URL('assets/favicon.svg?v=64',base).href);assert.ok(iconResponse.ok());assert.ok((await iconResponse.text()).includes('M25 5v55'));
+  const logoResponse=await context.request.get(new URL('assets/logo.svg?v=64',base).href);assert.ok(logoResponse.ok());const logo=await logoResponse.text();assert.ok(logo.includes('Мольберты.ру — Лира'));assert.ok(logo.includes('width="560" height="144"'));
+  assert.ok(!requests.some(u=>/logo-preview\.(?:css|js)|logo-options/.test(u)));
+  const noJS=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:844}});
+  const staticPage=await noJS.newPage();
+  for(const route of ['','product/bolshoy-stankovyy-buk/']){await staticPage.goto(new URL(route,base).href,{waitUntil:'load'});assert.equal(await staticPage.locator('.brand-logo-image').count(),2);assert.ok(await staticPage.locator('.header .brand-logo-image').evaluate(img=>img.complete&&img.naturalWidth>0));}
+  await noJS.close();assert.deepEqual(errors,[]);
+  const result={passed:true,checkedAt:new Date().toISOString(),approvedLogo:'03 Лира',viewports:[320,360,390,600,768,900,901,1100,1280,1440,1920],routes,checks,oldPreviewCannotOverride:true,noPreviewAssetsRequested:true,noJavaScript:true,faviconMatches:true,screenshots:shots};
+  fs.writeFileSync(path.resolve(__dirname,'../qa/logo-preview-test-result.json'),JSON.stringify(result,null,2)+'\n');console.log('Approved Lira logo: header, footer, mobile navigation, favicon, legacy preview and no-JS — PASS');
+ }finally{await browser.close()}
+})().catch(e=>{console.error(e);process.exit(1)});

@@ -136,7 +136,7 @@ def validate(vocabulary=None):
     assert pages == 142 and redirects == 25 and products == 91
     result = {'passed': True, 'pages': pages, 'redirectsExcluded': redirects,
               'jsonLdBlocks': blocks, 'organizationNodes': pages, 'linkedProductOffers': products,
-              'errors': [], 'warnings': [], 'logo': {'file': str(logo_path.relative_to(ROOT)), 'width': 512, 'height': 512}}
+              'errors': [], 'warnings': [], 'logo': {'file': str(logo_path.relative_to(ROOT)), 'width': int(logo.attrib['width']), 'height': int(logo.attrib['height'])}}
     if vocabulary:
         result['officialVocabulary'] = vocabulary_check(org, vocabulary)
     return result

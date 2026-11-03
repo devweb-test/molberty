@@ -73,5 +73,8 @@ for option in options:
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 72" width="280" height="72" role="img" aria-labelledby="title desc"><title id="title">Мольберты.ру — {html.escape(option['title'])}</title><desc id="desc">{html.escape(option['description'])} Производство с 1991 года.</desc>{marks[id]}<path fill="{GREEN}" d="{first}"/><path fill="{ORANGE}" d="{last}"/><path fill="{GREEN}" d="{caption}"/></svg>'''
     option['asset'] = 'logo-options/' + id + '.svg'
     (ROOT / 'assets' / option['asset']).write_text(svg + '\n')
-(ROOT / 'data/logo-options.json').write_text(json.dumps({'status': 'review', 'defaultId': 'current', 'options': options}, ensure_ascii=False, indent=2) + '\n')
+manifest_path = ROOT / 'data/logo-options.json'
+manifest = json.loads(manifest_path.read_text()) if manifest_path.exists() else {'status': 'review', 'defaultId': 'current'}
+manifest['options'] = options
+manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
 print('Generated 4 new outlined SVG logos and the comparison image of the current logo.')

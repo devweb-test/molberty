@@ -1,10 +1,10 @@
 {
   "passed": true,
-  "checkedAt": "2026-10-28T09:30:45.513Z",
-  "options": 5,
-  "newLogos": 4,
+  "checkedAt": "2026-11-03T08:20:48.988Z",
+  "approvedLogo": "03 Лира",
   "viewports": [
     320,
+    360,
     390,
     600,
     768,
@@ -12,22 +12,167 @@
     901,
     1100,
     1280,
-    1440
+    1440,
+    1920
+  ],
+  "routes": [
+    "",
+    "catalog/",
+    "product/bolshoy-stankovyy-buk/",
+    "contacts/",
+    "prices/",
+    "clients/",
+    "privacy/",
+    "404.html"
   ],
   "checks": [
-    "default markup retained, no preview requests outside review",
-    "all five choices, both header/footer",
-    "no overlap or overflow for every logo",
-    "current logo restored exactly",
-    "previous/next and wraparound",
-    "page/reload/tab selection and shareable URL",
-    "nested product and contacts routes",
-    "working cart and mobile navigation",
-    "collapse/reopen/persistence",
-    "sticky controller below sticky header",
-    "gallery selection, active state and Escape",
-    "exit restores default and clears state",
-    "unknown IDs and unavailable storage"
+    {
+      "route": "",
+      "width": 1440,
+      "overflow": 0,
+      "logoRight": 292,
+      "actionsLeft": 1195,
+      "navLeft": 369
+    },
+    {
+      "route": "catalog/",
+      "width": 1440,
+      "overflow": 0,
+      "logoRight": 292,
+      "actionsLeft": 1195,
+      "navLeft": 369
+    },
+    {
+      "route": "product/bolshoy-stankovyy-buk/",
+      "width": 1440,
+      "overflow": 0,
+      "logoRight": 292,
+      "actionsLeft": 1195,
+      "navLeft": 369
+    },
+    {
+      "route": "contacts/",
+      "width": 1440,
+      "overflow": 0,
+      "logoRight": 292,
+      "actionsLeft": 1195,
+      "navLeft": 369
+    },
+    {
+      "route": "prices/",
+      "width": 1440,
+      "overflow": 0,
+      "logoRight": 292,
+      "actionsLeft": 1195,
+      "navLeft": 369
+    },
+    {
+      "route": "clients/",
+      "width": 1440,
+      "overflow": 0,
+      "logoRight": 292,
+      "actionsLeft": 1195,
+      "navLeft": 369
+    },
+    {
+      "route": "privacy/",
+      "width": 1440,
+      "overflow": 0,
+      "logoRight": 292,
+      "actionsLeft": 1195,
+      "navLeft": 369
+    },
+    {
+      "route": "404.html",
+      "width": 1440,
+      "overflow": 0,
+      "logoRight": 292,
+      "actionsLeft": 1195,
+      "navLeft": 369
+    },
+    {
+      "route": "legacy-preview-url",
+      "width": 320,
+      "overflow": 0,
+      "logoRight": 188,
+      "actionsLeft": 205
+    },
+    {
+      "route": "legacy-preview-url",
+      "width": 360,
+      "overflow": 0,
+      "logoRight": 188,
+      "actionsLeft": 245
+    },
+    {
+      "route": "legacy-preview-url",
+      "width": 390,
+      "overflow": 0,
+      "logoRight": 204,
+      "actionsLeft": 275
+    },
+    {
+      "route": "legacy-preview-url",
+      "width": 600,
+      "overflow": 0,
+      "logoRight": 204,
+      "actionsLeft": 485
+    },
+    {
+      "route": "legacy-preview-url",
+      "width": 768,
+      "overflow": 0,
+      "logoRight": 226,
+      "actionsLeft": 642
+    },
+    {
+      "route": "legacy-preview-url",
+      "width": 900,
+      "overflow": 0,
+      "logoRight": 226,
+      "actionsLeft": 774
+    },
+    {
+      "route": "legacy-preview-url",
+      "width": 901,
+      "overflow": 0,
+      "logoRight": 264,
+      "actionsLeft": 634
+    },
+    {
+      "route": "legacy-preview-url",
+      "width": 1100,
+      "overflow": 0,
+      "logoRight": 264,
+      "actionsLeft": 833
+    },
+    {
+      "route": "legacy-preview-url",
+      "width": 1280,
+      "overflow": 0,
+      "logoRight": 280,
+      "actionsLeft": 997
+    },
+    {
+      "route": "legacy-preview-url",
+      "width": 1440,
+      "overflow": 0,
+      "logoRight": 292,
+      "actionsLeft": 1195,
+      "navLeft": 369
+    },
+    {
+      "route": "legacy-preview-url",
+      "width": 1920,
+      "overflow": 0,
+      "logoRight": 532,
+      "actionsLeft": 1435,
+      "navLeft": 609
+    }
   ],
-  "screenshots": "/home/v_chernyshov/molberty/.clone-work/logo-v37-preview"
+  "oldPreviewCannotOverride": true,
+  "noPreviewAssetsRequested": true,
+  "noJavaScript": true,
+  "faviconMatches": true,
+  "screenshots": "/home/v_chernyshov/molberty/.clone-work/logo-v64-approved"
 }
