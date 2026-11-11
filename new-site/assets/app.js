@@ -126,9 +126,10 @@ function categoryGuideText(step){
  for(const [label,id] of step.links||[]){const product=productById(id);if(product)text=text.replace(esc(label),`<a href="${url(productRoute(product))}" title="${esc(product.name)}">${esc(label)}</a>`);}
  return text;
 }
+function categoryCopyParagraphs(c){return (window.CATEGORY_COPY?.[c?.id]?.paragraphs||[]).map(paragraph=>`<p>${esc(paragraph)}</p>`).join('')}
 function categoryGuide(c){
  const guide=window.CATEGORY_GUIDES?.[c?.id];if(!guide)return '';
- return `${guide.summaryTitle?`<div class="category-guide-summary"><h2>${esc(guide.summaryTitle)}</h2><p>${esc(c.description)}</p></div>`:''}<section class="category-guide reading" id="category-guide" aria-labelledby="category-guide-title"><div class="eyebrow"><span>Советы</span> ПЕРЕД ВЫБОРОМ</div><h2 id="category-guide-title">${esc(guide.title)}</h2>${guide.subtitle?`<p class="lead">${esc(guide.subtitle)}</p>`:''}${guide.steps.map((step,index)=>`<article class="guide-step"><span aria-hidden="true">${String(index+1).padStart(2,'0')}</span><div><h3 class="text-h2">${esc(step.title)}</h3>${step.text?`<p>${categoryGuideText(step)}</p>`:''}</div></article>`).join('')}<div class="category-guide-action"><p>Обсудим размеры, комплектацию и условия заказа.</p>${btn('Согласовать детали',`data-request="${esc('Подбор: '+c.name+'. '+guide.title)}"`)}</div></section>`;
+ return `${guide.summaryTitle?`<div class="category-guide-summary"><h2>${esc(guide.summaryTitle)}</h2>${categoryCopyParagraphs(c)}</div>`:categoryCopyParagraphs(c)}<section class="category-guide reading" id="category-guide" aria-labelledby="category-guide-title"><div class="eyebrow"><span>Советы</span> ПЕРЕД ВЫБОРОМ</div><h2 id="category-guide-title">${esc(guide.title)}</h2>${guide.subtitle?`<p class="lead">${esc(guide.subtitle)}</p>`:''}${guide.steps.map((step,index)=>`<article class="guide-step"><span aria-hidden="true">${String(index+1).padStart(2,'0')}</span><div><h3 class="text-h2">${esc(step.title)}</h3>${step.text?`<p>${categoryGuideText(step)}</p>`:''}</div></article>`).join('')}<div class="category-guide-action"><p>${esc(window.CATEGORY_COPY?.[c.id]?.actionText||'Уточним параметры изделия перед заказом.')}</p>${btn('Согласовать детали',`data-request="${esc('Подбор: '+c.name+'. '+guide.title)}"`)}</div></section>`;
 }
 const categorySectionHeadings={
  "molberty-napolnye": "Напольные мольберты для работы стоя и сидя",
@@ -157,9 +158,10 @@ const categorySectionHeadings={
 };
 function categorySectionHeading(c){return categorySectionHeadings[c.id]||c.name+' от производителя'}
 function categoryDescription(c){
- if(c?.role==='interiors')return interiorGuide();
+ if(c?.role==='interiors')return categoryCopyParagraphs(c)+interiorGuide();
  if(window.CATEGORY_GUIDES?.[c?.id])return categoryGuide(c);
- return (c?.seo?`<h2>${esc(c.seo.title)}</h2>${c.seo.paragraphs.map(p=>`<p>${esc(p)}</p>`).join('')}`:`<h2>${c?esc(categorySectionHeading(c)):'Выбираем оборудование осознанно'}</h2><p>${c?esc(c.description):'Подбирайте мольберт по рабочему формату, устойчивости основания и возможности хранения.'}</p><p>Перед заказом согласуем комплектацию и условия получения. Для нестандартной задачи можно прислать размерный эскиз.</p>`)+link('Руководство по выбору','guide/',true);
+ if(c&&!c.seo)return `<h2>${esc(categorySectionHeading(c))}</h2>${categoryCopyParagraphs(c)}`+link('Руководство по выбору','guide/',true);
+ return (c?.seo?`<h2>${esc(c.seo.title)}</h2>${c.seo.paragraphs.map(p=>`<p>${esc(p)}</p>`).join('')}`:`<h2>Выбираем оборудование осознанно</h2><p>Подбирайте мольберт по рабочему формату, устойчивости основания и возможности хранения.</p><p>Перед заказом согласуем комплектацию и условия получения. Для нестандартной задачи можно прислать размерный эскиз.</p>`)+link('Руководство по выбору','guide/',true);
 }
 
 function categoryHeading(c){return c.id==='khranenie-dlya-izostudii'?'Оборудование для хранения в изостудии':c.name}
