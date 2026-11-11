@@ -331,3 +331,21 @@ footer{background-image:var(--gradient-footer)}
 /* Contact link shares the menu typography and hover color. */
 .header nav .nav-contacts{display:inline-flex;align-items:center;gap:7px}.header nav .nav-contacts .icon{width:18px;height:18px}
 @media(min-width:1351px) and (max-width:1450px){.header nav{gap:13px}}
+
+/* Compact scrollbars in product previews, the cart and other dialogs. */
+dialog{scrollbar-gutter:stable}
+dialog,dialog textarea,dialog .image-viewer-stage{
+ scrollbar-width:thin;scrollbar-color:var(--green) var(--cream)
+}
+@supports selector(::-webkit-scrollbar){
+ dialog,dialog textarea,dialog .image-viewer-stage{scrollbar-width:auto;scrollbar-color:auto}
+ :is(dialog,dialog textarea,dialog .image-viewer-stage)::-webkit-scrollbar{width:8px;height:8px}
+ :is(dialog,dialog textarea,dialog .image-viewer-stage)::-webkit-scrollbar-track{background:var(--cream)}
+ :is(dialog,dialog textarea,dialog .image-viewer-stage)::-webkit-scrollbar-thumb{
+  background:var(--green);border:2px solid var(--cream);border-radius:0
+ }
+ :is(dialog,dialog textarea,dialog .image-viewer-stage)::-webkit-scrollbar-thumb:hover{background:var(--orange)}
+ :is(dialog,dialog textarea,dialog .image-viewer-stage)::-webkit-scrollbar-thumb:active{background:var(--orange)}
+ :is(dialog,dialog textarea,dialog .image-viewer-stage)::-webkit-scrollbar-button{display:none;width:0;height:0}
+ :is(dialog,dialog textarea,dialog .image-viewer-stage)::-webkit-scrollbar-corner{background:var(--cream)}
+}
