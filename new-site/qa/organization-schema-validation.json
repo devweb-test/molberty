@@ -1,7 +1,7 @@
 {
   "passed": true,
   "pages": 142,
-  "redirectsExcluded": 25,
+  "redirectsExcluded": 76,
   "jsonLdBlocks": 375,
   "organizationNodes": 142,
   "linkedProductOffers": 91,
@@ -12,5 +12,9 @@
     "width": 560,
     "height": 144
   },
-  "checkedAt": "2026-11-03T11:21:14.253209+03:00"
+  "officialVocabulary": {
+    "types": 4,
+    "properties": 23
+  },
+  "checkedAt": "2026-11-11T17:09:05.506287+03:00"
 }
