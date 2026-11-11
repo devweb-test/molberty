@@ -19,14 +19,14 @@ const base=process.env.PREVIEW_URL||'http://127.0.0.1:4175/';
   for(const item of await dock.locator('a,button').all()){const box=await item.boundingBox();assert.ok(box.width>=44&&box.height>=44)}
  }
  await page.setViewportSize({width:901,height:844});assert.equal(await dock.isVisible(),false);assert.equal(await page.evaluate(()=>getComputedStyle(document.body).paddingBottom),'0px');
- assert.equal(await page.locator('.header-actions .header-call').isVisible(),false);assert.ok(await page.locator('.header-actions .selection-btn').isVisible());await page.locator('.header-actions .selection-btn').click();assert.equal(await page.locator('#dialog-content h2').textContent(),'Ваша корзина');await close();
+ assert.equal(await page.locator('.header-actions .header-call').isVisible(),false);assert.ok(await page.locator('.header-actions .selection-btn').isVisible());await page.locator('.header-actions .selection-btn').click();assert.equal(await page.locator('#dialog-content .cart-dialog-title').textContent(),'Ваша корзина');await close();
  await page.setViewportSize({width:390,height:844});await dock.getByRole('link',{name:'Каталог',exact:true}).click();await page.waitForURL('**/catalog/');assert.equal(await dock.locator('[aria-current]').textContent(),'Каталог');
  await dock.getByRole('link',{name:'Контакты',exact:true}).click();await page.waitForURL('**/contacts/');assert.equal(await dock.locator('[aria-current]').textContent(),'Контакты');
  await dock.getByRole('link',{name:'Главная',exact:true}).click();await page.waitForURL('**/index.html');
  await go('product/bolshoy-stankovyy-buk/');assert.equal(await dock.locator('[aria-current]').textContent(),'Каталог');
  await page.selectOption('[data-tier]','retail');await page.locator('[data-config-qty]').fill('1');await page.locator('[data-order]').click();assert.equal(await dock.isVisible(),false);await close();assert.equal(await dock.locator('[data-mobile-count]').textContent(),'1');
  await page.locator('.mobile-menu').click();assert.equal(await page.locator('.mobile-menu').getAttribute('aria-expanded'),'true');
- await cart.click();assert.equal(await page.locator('#dialog-content h2').textContent(),'Ваша корзина');assert.equal(await page.locator('.mobile-menu').getAttribute('aria-expanded'),'false');
+ await cart.click();assert.equal(await page.locator('#dialog-content .cart-dialog-title').textContent(),'Ваша корзина');assert.equal(await page.locator('.mobile-menu').getAttribute('aria-expanded'),'false');
  await page.locator('[data-qty]').fill('3');await page.locator('[data-qty]').dispatchEvent('change');await close();
  assert.equal(await dock.locator('[data-mobile-count]').textContent(),'3');assert.equal(await page.locator('[data-count]').textContent(),'3');assert.match(await cart.getAttribute('aria-label'),/3/);
  await page.reload();assert.equal(await dock.locator('[data-mobile-count]').textContent(),'3');
