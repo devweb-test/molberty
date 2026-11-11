@@ -1,8 +1,10 @@
+from page_seo import load_page_seo
 from product_content import product_heading, product_slug, product_route
 from pathlib import Path
 import json,re,sys
 from urllib.parse import urlsplit, unquote
 root=Path(__file__).resolve().parents[1]
+page_seo=load_page_seo(root)
 d=json.loads((root/'data/catalog.json').read_text());errors=[]
 structure=json.loads((root/'data/catalog-structure.json').read_text())
 review=json.loads((root/'data/structure-product-review.json').read_text())
@@ -180,7 +182,7 @@ legal=json.loads((root/'data/legal-pages.json').read_text())
 assert (root/'assets/legal.js').read_text()=='window.LEGAL_PAGES='+json.dumps(legal,ensure_ascii=False,separators=(',',':'))+';\n'
 for id,document in legal.items():
  text=(root/id/'index.html').read_text()
- assert Page(text).heading==document['title']
+ assert Page(text).heading==page_seo.get(id+'/',{}).get('h1',document['title'])
  assert document['html'] in text
  assert 'assets/legal.js' in text
  assert 'orlan' not in text.lower() and 'орлан' not in text.lower()

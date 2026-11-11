@@ -334,3 +334,13 @@ try{sessionStorage.removeItem('molberty-logo-review')}catch{}
  document.addEventListener('focusin',event=>{const anchor=event.target.closest?.('.product-img');if(anchor&&anchor.matches(':focus-visible'))show(anchor,'focus')});
  document.addEventListener('focusout',event=>{const anchor=event.target.closest?.('.product-img');if(anchor&&!within(anchor,event.relatedTarget))hide(anchor,'focus')});
 })();
+
+// Spreadsheet fields override only the explicitly supplied values after page rendering.
+function applyPageSeo(){
+ const data=document.getElementById('page-seo-data');if(!data)return;
+ const fields=JSON.parse(data.textContent),has=key=>Object.prototype.hasOwnProperty.call(fields,key);
+ if(has('title'))document.title=fields.title;
+ for(const name of ['description','keywords'])if(has(name)){let meta=document.querySelector('meta[name="'+name+'"]');if(!meta){meta=document.createElement('meta');meta.name=name;document.head.append(meta)}meta.content=fields[name]}
+ if(has('h1')){const heading=document.querySelector('main h1');if(heading)heading.textContent=fields.h1}
+}
+applyPageSeo();

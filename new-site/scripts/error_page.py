@@ -1,3 +1,4 @@
+from page_seo import load_page_seo, apply_page_seo, DATA_PATTERN
 """Generate the error page from the current shared shell; keep Pages' root copy."""
 from pathlib import Path
 import argparse
@@ -19,6 +20,9 @@ def copy_deployment_page(root=ROOT):
 
 def write_error_page(root=ROOT):
     source = (root / 'index.html').read_text()
+    # The error page has its own fields; never inherit homepage SEO/keywords.
+    source = re.sub(DATA_PATTERN, '', source, flags=re.S)
+    source = re.sub(r'<meta\b(?=[^>]*\bname="keywords")[^>]*>', '', source, flags=re.I)
     source = re.sub(r'<script defer src="assets/hero-carousel\.js(?:\?v=\d+)?"></script>', '', source)
     source = re.sub(r'<link rel="stylesheet" href="assets/clients.css">|<script defer src="assets/clients-data.js"></script>', '', source)
     source = re.sub(r'<title>.*?</title>', '<title>Страница не найдена — Мольберты.ру</title>', source, count=1)
@@ -35,6 +39,7 @@ def write_error_page(root=ROOT):
     source = source.replace('<link rel="stylesheet" href="assets/motion.css">', '<link rel="stylesheet" href="assets/motion.css"><link rel="stylesheet" href="assets/not-found.css">', 1)
     source = re.sub(r'<main id="main">.*?</main>', '<main id="main"><div id="not-found"></div></main>', source, count=1, flags=re.S)
     source = re.sub(r'<nav id="mobile-bottom-nav".*?</nav>', lambda _: mobile_navigation('', 'https://www.molberty.ru/404.html'), source, count=1, flags=re.S)
+    source = apply_page_seo(source, load_page_seo(root).get('404.html'))
     (root / '404.html').write_text(source)
     copy_deployment_page(root)
     examples_path = root / 'qa/generated-schema.json'
