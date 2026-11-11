@@ -327,3 +327,7 @@ footer{background-image:var(--gradient-footer)}
 @media(max-width:900px){.hero-headline{font-size:48px;letter-spacing:-1px}}
 @media(max-width:600px){.hero-headline{font-size:50px;line-height:1.22;margin-top:25px;margin-bottom:21px}}
 @media(max-width:360px){.hero-headline{font-size:43px}}
+
+/* Delivery link shares the menu typography and hover color. */
+.header nav .nav-delivery{display:inline-flex;align-items:center;gap:7px}.header nav .nav-delivery .icon{width:18px;height:18px}
+@media(min-width:1351px) and (max-width:1450px){.header nav{gap:13px}}
