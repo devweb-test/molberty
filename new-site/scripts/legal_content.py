@@ -12,7 +12,7 @@ def cookie_markup(prefix=''):
  text=text.replace(linked,'<a href="'+prefix+'privacy/">'+linked+'</a>')
  consent=escape(data['consentLinkText'])
  text=text.replace(consent,'<a href="'+prefix+'consent/">'+consent+'</a>',1)
- return '<aside id="cookie-notice" class="cookie-notice" role="region" aria-label="Использование файлов cookie" aria-describedby="cookie-message" hidden><p id="cookie-message">'+text+'</p><div class="cookie-actions"><button type="button" class="btn" data-cookie-accept>'+escape(data['button'])+'</button></div></aside>'
+ return '<!--noindex--><aside id="cookie-notice" class="cookie-notice" role="region" aria-label="Использование файлов cookie" aria-describedby="cookie-message" hidden><p id="cookie-message">'+text+'</p><div class="cookie-actions"><button type="button" class="btn" data-cookie-accept>'+escape(data['button'])+'</button></div></aside><!--/noindex-->'
 
 def document_markup(id,prefix='../'):
  pages=json.loads((ROOT/'data/legal-pages.json').read_text());page=pages[id];title=escape(page['title'])
