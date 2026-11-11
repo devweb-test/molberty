@@ -20,9 +20,22 @@ def load_page_seo(root):
     return data
 
 
-def apply_page_seo(document, fields):
-    if not fields:
+def category_heading(category):
+    return 'Оборудование для хранения в изостудии' if category['id'] == 'khranenie-dlya-izostudii' else category['name']
+
+
+def category_meta_defaults(heading):
+    return {
+        'title': heading + ' - купить с доставкой от производителя',
+        'description': heading + ' купить по выгодной цене от производителя с доставкой по Москве и во все регионы России. Каталог, описание, характеристики.',
+    }
+
+
+def apply_page_seo(document, fields, defaults=None):
+    if not fields and not defaults:
         return document
+    overrides = fields or {}
+    fields = {**(defaults or {}), **overrides}
     if 'title' in fields:
         document, count = re.subn(r'<title>.*?</title>', lambda _: '<title>' + escape(fields['title']) + '</title>', document, flags=re.S)
         assert count == 1, 'Expected one title'
@@ -39,7 +52,8 @@ def apply_page_seo(document, fields):
         # Fresh build shells get their H1 from the browser/prerender template.
         document, count = re.subn(r'(<h1\b[^>]*>).*?(</h1>)', lambda m: m[1] + escape(fields['h1'], quote=False) + m[2], document, flags=re.S)
         assert count <= 1, 'Duplicate H1'
-    payload = json.dumps(fields, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c')
+    # Only editorial overrides are serialized; template defaults follow the rendered H1.
+    payload = json.dumps(overrides, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c')
     data = '<script id="page-seo-data" type="application/json">' + payload + '</script>'
     document, count = re.subn(DATA_PATTERN, lambda _: data, document, flags=re.S)
     assert count <= 1, 'Duplicate page SEO data'

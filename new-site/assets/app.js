@@ -339,8 +339,16 @@ try{sessionStorage.removeItem('molberty-logo-review')}catch{}
 
 // Spreadsheet fields override only the explicitly supplied values after page rendering.
 function applyPageSeo(){
- const data=document.getElementById('page-seo-data');if(!data)return;
- const fields=JSON.parse(data.textContent),has=key=>Object.prototype.hasOwnProperty.call(fields,key);
+ const data=document.getElementById('page-seo-data');
+ const fields=data?JSON.parse(data.textContent):{},has=key=>Object.prototype.hasOwnProperty.call(fields,key);
+ const category=document.getElementById('category');
+ if(category){
+  const heading=fields.h1||category.querySelector('h1')?.textContent.trim();
+  if(heading){
+   if(!has('title'))fields.title=heading+' - купить с доставкой от производителя';
+   if(!has('description'))fields.description=heading+' купить по выгодной цене от производителя с доставкой по Москве и во все регионы России. Каталог, описание, характеристики.';
+  }
+ }
  if(has('title'))document.title=fields.title;
  for(const name of ['description','keywords'])if(has(name)){let meta=document.querySelector('meta[name="'+name+'"]');if(!meta){meta=document.createElement('meta');meta.name=name;document.head.append(meta)}meta.content=fields[name]}
  if(has('h1')){const heading=document.querySelector('main h1');if(heading)heading.textContent=fields.h1}
