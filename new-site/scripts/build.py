@@ -1,3 +1,4 @@
+from product_content import product_heading, product_meta_description, product_slug, product_route
 from category_guides_content import category_guides_assets, sync_category_guides
 from interior_guide_content import interior_guide_assets
 from reviews_content import reviews_assets
@@ -113,9 +114,10 @@ sales=json.loads((ROOT/'data/sales.json').read_text())
 company=json.loads((ROOT/'data/company.json').read_text())
 production=json.loads((ROOT/'data/production.json').read_text())
 business_documents=json.loads((ROOT/'data/business-documents.json').read_text())
+for product in products:product['slug']=product_slug(product)
 data={'categories':cats,'products':products,'articles':articles,'showcase':showcase,'prices':prices,'priceProductLinks':price_links['links'],'sales':sales,'company':company,'production':production,'businessDocuments':business_documents,'legacyIdMap':source['legacyIdMap'],'categoryRoots':root_ids,'categoryRoles':roles}
 (ROOT/'data/catalog.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
-(ROOT/'assets/data.js?v=87').write_text('window.CATALOG = '+json.dumps(data,ensure_ascii=False)+';')
+(ROOT/'assets/data.js').write_text('window.CATALOG = '+json.dumps(data,ensure_ascii=False)+';')
 sync_clients_data(ROOT)
 legal_pages=json.loads((ROOT/'data/legal-pages.json').read_text())
 (ROOT/'assets/legal.js').write_text('window.LEGAL_PAGES='+json.dumps(legal_pages,ensure_ascii=False,separators=(',',':'))+';\n')
@@ -126,21 +128,13 @@ def category_trail(id):
 def structured(trail,product=None):
  blocks=[('organization-schema',ORGANIZATION),('breadcrumb-schema',{'@context':'https://schema.org','@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':i+1,'name':name,'item':BASE+route} for i,(name,route) in enumerate(trail)]})]
  if product:
-  offer={'@type':'Offer','url':BASE+'product/'+product['id']+'/','priceCurrency':'RUB','price':product['defaultPrice']}
+  offer={'@type':'Offer','url':BASE+product_route(product),'priceCurrency':'RUB','price':product['defaultPrice']}
   if product['defaultTier']=='wholesale' or product['retailFrom']:
    offer={'@type':'AggregateOffer','url':offer['url'],'priceCurrency':'RUB','lowPrice':product['defaultPrice']}
   if product['defaultQuantity']>1:offer['eligibleQuantity']={'@type':'QuantitativeValue','minValue':product['defaultQuantity']}
   offer['seller']={'@id':ORGANIZATION['@id']}
-  blocks.append(('product-schema',{'@context':'https://schema.org','@type':'Product','@id':BASE+'product/'+product['id']+'/#product','url':BASE+'product/'+product['id']+'/','name':product_heading(product),'description':product_meta_description(product),'image':[BASE+'assets/'+img['file'] for img in product['gallery']],'offers':offer}))
+  blocks.append(('product-schema',{'@context':'https://schema.org','@type':'Product','@id':BASE+product_route(product)+'#product','url':BASE+product_route(product),'name':product_heading(product),'description':product_meta_description(product),'image':[BASE+'assets/'+img['file'] for img in product['gallery']],'offers':offer}))
  return ''.join('<script id="'+id+'" type="application/ld+json">'+json.dumps(obj,ensure_ascii=False).replace('<','\\u003c')+'</script>' for id,obj in blocks)
-def product_heading(product):
- easel_roots={'molberty-dlya-risovaniya-hudozhnikov','molberty-dlya-vystavki','molberty-dekorativnye'}
- if not easel_roots.intersection(product['categories']) or re.search('мольберт',product['name'],re.I):return product['name']
- if product['id']=='planshet-nastolnyy-grafika':return 'Мольберт-планшет настольный "Графика"'
- if product['id']=='trenogi-dlya-foto-ramok':return 'Мольберты-треноги для фото-рамок'
- return 'Мольберт '+product['name']
-def product_meta_description(product):
- return product_heading(product)+' купить по выгодной цене от производителя Мольберты.ру. Описание и характеристики. Доставка по Москве и во все регионы России.'
 def shell(title,content,prefix='',desc=None,trail=None,product=None):
  if product:
   heading=product_heading(product)
@@ -151,7 +145,7 @@ def shell(title,content,prefix='',desc=None,trail=None,product=None):
  canonical=BASE+(trail[-1][1] if trail else '')
  legal_script=f'<script defer src="{prefix}assets/legal.js"></script>' if trail and trail[-1][1] in ('privacy/','consent/') else ''
  hero_script=f'<script defer src="{prefix}assets/hero-carousel.js?v=71"></script>' if 'id="home"' in content else ''
- return f'''<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="description" content="{html.escape(desc or 'Мольберты и оборудование для изостудий из натурального дерева. Собственное производство с 1991 года.')}"><meta name="robots" content="noindex, nofollow"><meta name="theme-color" content="#34483d"><link rel="canonical" href="{canonical}">{schema}<title>{html.escape(title)}</title><link rel="icon" href="{prefix}assets/favicon.svg?v=66" type="image/svg+xml"><link rel="stylesheet" href="{prefix}assets/style.css?v=94"><link rel="stylesheet" href="{prefix}assets/motion.css">{clients_assets(prefix,content)}{reviews_assets(ROOT,content)}<script>window.SITE_ROOT={json.dumps(prefix)};</script><script defer src="{prefix}assets/cookies.js"></script>{legal_script}<script defer src="{prefix}assets/data.js?v=87"></script>{category_guides_assets(prefix,content)}<script defer src="{prefix}assets/app.js?v=95"></script>{hero_script}{interior_guide_assets(prefix,content)}<script defer src="{prefix}assets/motion.js"></script></head><body><a class="skip" href="#main">Перейти к содержимому</a><!--noindex--><div id="topbar" class="topbar"></div><!--/noindex--><div id="header"></div><main id="main">{content}</main><div id="footer"></div>{cookie_markup(prefix)}{mobile_navigation(prefix,canonical)}<dialog id="request-dialog"><button class="close" data-close aria-label="Закрыть">×</button><div id="dialog-content"></div></dialog><dialog id="image-dialog" aria-label="Просмотр изображения"><button class="close" data-image-close aria-label="Закрыть изображение">×</button><div class="image-viewer-toolbar"><button data-zoom="out" aria-label="Уменьшить">−</button><button data-zoom="reset">100%</button><button data-zoom="in" aria-label="Увеличить">+</button></div><div class="image-viewer-stage"><img id="viewer-image" alt=""></div><p id="viewer-caption"></p><a id="viewer-document" target="_blank" rel="noopener">Открыть PDF ↗</a></dialog><button class="back-top" data-top aria-label="Наверх страницы" hidden>↑</button><div id="toast" role="status"></div></body></html>'''
+ return f'''<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="description" content="{html.escape(desc or 'Мольберты и оборудование для изостудий из натурального дерева. Собственное производство с 1991 года.')}"><meta name="robots" content="noindex, nofollow"><meta name="theme-color" content="#34483d"><link rel="canonical" href="{canonical}">{schema}<title>{html.escape(title)}</title><link rel="icon" href="{prefix}assets/favicon.svg?v=66" type="image/svg+xml"><link rel="stylesheet" href="{prefix}assets/style.css?v=94"><link rel="stylesheet" href="{prefix}assets/motion.css">{clients_assets(prefix,content)}{reviews_assets(ROOT,content)}<script>window.SITE_ROOT={json.dumps(prefix)};</script><script defer src="{prefix}assets/cookies.js"></script>{legal_script}<script defer src="{prefix}assets/data.js?v=98"></script>{category_guides_assets(prefix,content)}<script defer src="{prefix}assets/app.js?v=98"></script>{hero_script}{interior_guide_assets(prefix,content)}<script defer src="{prefix}assets/motion.js"></script></head><body><a class="skip" href="#main">Перейти к содержимому</a><!--noindex--><div id="topbar" class="topbar"></div><!--/noindex--><div id="header"></div><main id="main">{content}</main><div id="footer"></div>{cookie_markup(prefix)}{mobile_navigation(prefix,canonical)}<dialog id="request-dialog"><button class="close" data-close aria-label="Закрыть">×</button><div id="dialog-content"></div></dialog><dialog id="image-dialog" aria-label="Просмотр изображения"><button class="close" data-image-close aria-label="Закрыть изображение">×</button><div class="image-viewer-toolbar"><button data-zoom="out" aria-label="Уменьшить">−</button><button data-zoom="reset">100%</button><button data-zoom="in" aria-label="Увеличить">+</button></div><div class="image-viewer-stage"><img id="viewer-image" alt=""></div><p id="viewer-caption"></p><a id="viewer-document" target="_blank" rel="noopener">Открыть PDF ↗</a></dialog><button class="back-top" data-top aria-label="Наверх страницы" hidden>↑</button><div id="toast" role="status"></div></body></html>'''
 (ROOT/'index.html').write_text(shell('Место, где начинается творчество','<div id="home"></div>'))
 for c in cats:
  d=ROOT/c['id'];d.mkdir(exist_ok=True)
@@ -162,8 +156,8 @@ for name,title in [('catalog','Каталог мольбертов и обору
  body=document_markup(name) if name in legal_pages else f'<div id="{name}"></div>'
  (d/'index.html').write_text(shell(title,body,'../',desc=legal_pages[name]['description'] if name in legal_pages else None,trail=[('Главная',''),(title,('clients' if name=='clients-page' else name)+'/')]))
 for item in products:
- d=ROOT/'product'/item['id'];d.mkdir(parents=True,exist_ok=True)
- (d/'index.html').write_text(shell(item['name'],f'<div id="product" data-id="{item["id"]}"></div>','../../',item['description'],[('Главная',''),('Каталог','catalog/')]+category_trail(item['primaryCategoryId'])+[(item['name'],'product/'+item['id']+'/')],item))
+ d=ROOT/product_route(item);d.mkdir(parents=True,exist_ok=True)
+ (d/'index.html').write_text(shell(item['name'],f'<div id="product" data-id="{item["id"]}"></div>','../../',item['description'],[('Главная',''),('Каталог','catalog/')]+category_trail(item['primaryCategoryId'])+[(item['name'],product_route(item))],item))
 print(f'Built home, {len(cats)} categories, {len(products)} products, 10 service pages.')
 
 # Editorial routes share the global shell and are included in every rebuild.
@@ -176,7 +170,9 @@ print(f'Built blog and {len(articles)} article pages.')
 
 # Preserve local product links and merge the former flat categories into document branches.
 BASE='https://www.molberty.ru/'
-redirects={'/product/'+old+'/':'/product/'+new+'/' for old,new in source['legacyIdMap'].items() if old!=new}
+routes={p['id']:product_route(p) for p in products}
+redirects={'/product/'+old+'/':'/'+routes[new] for old,new in source['legacyIdMap'].items() if '/product/'+old+'/'!='/'+routes[new]}
+redirects.update({'/product/'+p['id']+'/':'/'+product_route(p) for p in products if p['id']!=product_slug(p)})
 for old,role in structure['legacyCategoryRoles'].items():
  assert old not in by_id and old not in excluded
  redirects['/'+old+'/']='/'+roles[role]+'/'
@@ -194,6 +190,7 @@ from error_page import write_error_page
 write_error_page(ROOT)
 examples_path=ROOT/'qa/generated-schema.json'
 example_routes=set(json.loads(examples_path.read_text()))|{'index.html','contacts/index.html','documents/index.html','clients/index.html'}
+example_routes={next((new.lstrip('/')+'index.html' for old,new in redirects.items() if route==old.lstrip('/')+'index.html'),route) for route in example_routes}
 examples={route:[json.loads(value) for value in re.findall(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>',(ROOT/route).read_text())] for route in sorted(example_routes)}
 examples_path.write_text(json.dumps(examples,ensure_ascii=False,indent=2)+'\n')
 print('Document hierarchy:',len(root_ids),'roots,',len(cats),'categories,',len(products),'current products.')

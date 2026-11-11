@@ -133,7 +133,7 @@ def validate(vocabulary=None):
             products += 1
         pages += 1
         blocks += len(schemas)
-    assert pages == 142 and redirects == 25 and products == 91
+    assert pages == 142 and redirects == len(json.loads((ROOT / 'data/redirects.json').read_text())) and products == 91
     result = {'passed': True, 'pages': pages, 'redirectsExcluded': redirects,
               'jsonLdBlocks': blocks, 'organizationNodes': pages, 'linkedProductOffers': products,
               'errors': [], 'warnings': [], 'logo': {'file': str(logo_path.relative_to(ROOT)), 'width': int(logo.attrib['width']), 'height': int(logo.attrib['height'])}}

@@ -764,7 +764,7 @@
       ]
     }
   ],
-  "product/bolshoy-stankovyy-buk/index.html": [
+  "product/molbert-bolshoy-stankovyy-buk/index.html": [
     {
       "@context": "https://schema.org",
       "@type": "Organization",
@@ -846,15 +846,15 @@
           "@type": "ListItem",
           "position": 7,
           "name": "Большой станковый (бук)",
-          "item": "https://www.molberty.ru/product/bolshoy-stankovyy-buk/"
+          "item": "https://www.molberty.ru/product/molbert-bolshoy-stankovyy-buk/"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "Product",
-      "@id": "https://www.molberty.ru/product/bolshoy-stankovyy-buk/#product",
-      "url": "https://www.molberty.ru/product/bolshoy-stankovyy-buk/",
+      "@id": "https://www.molberty.ru/product/molbert-bolshoy-stankovyy-buk/#product",
+      "url": "https://www.molberty.ru/product/molbert-bolshoy-stankovyy-buk/",
       "name": "Мольберт Большой станковый (бук)",
       "description": "Мольберт Большой станковый (бук) купить по выгодной цене от производителя Мольберты.ру. Описание и характеристики. Доставка по Москве и во все регионы России.",
       "image": [
@@ -865,7 +865,7 @@
       ],
       "offers": {
         "@type": "AggregateOffer",
-        "url": "https://www.molberty.ru/product/bolshoy-stankovyy-buk/",
+        "url": "https://www.molberty.ru/product/molbert-bolshoy-stankovyy-buk/",
         "priceCurrency": "RUB",
         "lowPrice": 24000,
         "eligibleQuantity": {

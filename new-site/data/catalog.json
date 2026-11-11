@@ -821,7 +821,8 @@
       "defaultPrice": 24000,
       "listingPrice": 24000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-bolshoy-stankovyy-buk"
     },
     {
       "id": "stankovyy-statsionarnyy-sosna",
@@ -971,7 +972,8 @@
       "defaultPrice": 14000,
       "listingPrice": 14000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-stankovyy-statsionarnyy-sosna"
     },
     {
       "id": "stankovyy-statsionarnyy-buk",
@@ -1117,7 +1119,8 @@
       "defaultPrice": 20000,
       "listingPrice": 20000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-stankovyy-statsionarnyy-buk"
     },
     {
       "id": "malyy-stankovyy-buk",
@@ -1294,7 +1297,8 @@
       "defaultPrice": 14000,
       "listingPrice": 14000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-malyy-stankovyy-buk"
     },
     {
       "id": "stankovyy-2-storonniy",
@@ -1456,7 +1460,8 @@
       "defaultPrice": 14500,
       "listingPrice": 14500,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "molbert-stankovyy-2-storonniy"
     },
     {
       "id": "stankovyy-skladnoy-sosna",
@@ -1618,7 +1623,8 @@
       "defaultPrice": 10000,
       "listingPrice": 10000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-stankovyy-skladnoy-sosna"
     },
     {
       "id": "stankovyy-skladnoy-buk",
@@ -1768,7 +1774,8 @@
       "defaultPrice": 14000,
       "listingPrice": 14000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-stankovyy-skladnoy-buk"
     },
     {
       "id": "transformer-a0-buk",
@@ -1919,7 +1926,8 @@
       "defaultPrice": 15000,
       "listingPrice": 15000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-transformer-a0-buk"
     },
     {
       "id": "transformer-a1-buk",
@@ -2066,7 +2074,8 @@
       "defaultPrice": 13500,
       "listingPrice": 13500,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-transformer-a1-buk"
     },
     {
       "id": "dizayner-a1-buk",
@@ -2144,7 +2153,8 @@
       "defaultPrice": 9000,
       "listingPrice": 9000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-dizayner-a1-buk"
     },
     {
       "id": "dizayner-a2-buk",
@@ -2226,7 +2236,8 @@
       "defaultPrice": 8500,
       "listingPrice": 8500,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-dizayner-a2-buk"
     },
     {
       "id": "studiya-a1",
@@ -2314,7 +2325,8 @@
       "defaultPrice": 5000,
       "listingPrice": 5000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-studiya-a1"
     },
     {
       "id": "studiya-a2",
@@ -2402,7 +2414,8 @@
       "defaultPrice": 4600,
       "listingPrice": 4600,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-studiya-a2"
     },
     {
       "id": "lira-s-naklonnoy-shtangoy",
@@ -2547,7 +2560,8 @@
       "defaultPrice": 5500,
       "listingPrice": 5500,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-lira-s-naklonnoy-shtangoy"
     },
     {
       "id": "lira-s-naklonnoy-sht-buk",
@@ -2692,7 +2706,8 @@
       "defaultPrice": 8000,
       "listingPrice": 8000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-lira-s-naklonnoy-sht-buk"
     },
     {
       "id": "raskladnoy-lira",
@@ -2860,7 +2875,8 @@
       "defaultPrice": 5000,
       "listingPrice": 5000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-raskladnoy-lira"
     },
     {
       "id": "raskladnoy-lira-buk",
@@ -3028,7 +3044,8 @@
       "defaultPrice": 7800,
       "listingPrice": 7800,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-raskladnoy-lira-buk"
     },
     {
       "id": "lira-s-podvizhnoy-shtangoy",
@@ -3192,7 +3209,8 @@
       "defaultPrice": 5500,
       "listingPrice": 5500,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-lira-s-podvizhnoy-shtangoy"
     },
     {
       "id": "lira-s-podvizhnoy-shtangoy-buk",
@@ -3356,7 +3374,8 @@
       "defaultPrice": 8000,
       "listingPrice": 8000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-lira-s-podvizhnoy-shtangoy-buk"
     },
     {
       "id": "lira-malyy",
@@ -3524,7 +3543,8 @@
       "defaultPrice": 4500,
       "listingPrice": 4500,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-lira-malyy"
     },
     {
       "id": "lira-malyy-s-podvizhnoy-shtangoy",
@@ -3688,7 +3708,8 @@
       "defaultPrice": 4800,
       "listingPrice": 4800,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-lira-malyy-s-podvizhnoy-shtangoy"
     },
     {
       "id": "lira-malyy-buk",
@@ -3852,7 +3873,8 @@
       "defaultPrice": 7000,
       "listingPrice": 7000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-lira-malyy-buk"
     },
     {
       "id": "lira-malyy-s-podvizhnoy-shtangoy-buk",
@@ -4016,7 +4038,8 @@
       "defaultPrice": 7500,
       "listingPrice": 7500,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-lira-malyy-s-podvizhnoy-shtangoy-buk"
     },
     {
       "id": "a-profi",
@@ -4179,7 +4202,8 @@
       "defaultPrice": 5000,
       "listingPrice": 5000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-a-profi"
     },
     {
       "id": "a-profi-buk",
@@ -4346,7 +4370,8 @@
       "defaultPrice": 7000,
       "listingPrice": 7000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-a-profi-buk"
     },
     {
       "id": "a-klass",
@@ -4459,7 +4484,8 @@
       "defaultPrice": 4000,
       "listingPrice": 4000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-a-klass"
     },
     {
       "id": "khlopushka-a1h",
@@ -4537,7 +4563,8 @@
       "defaultPrice": 5000,
       "listingPrice": 5000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-khlopushka-a1h"
     },
     {
       "id": "khlopushka-a1",
@@ -4639,7 +4666,8 @@
       "defaultPrice": 4600,
       "listingPrice": 4600,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-khlopushka-a1"
     },
     {
       "id": "khlopushka-a1-dvustoronniy",
@@ -4717,7 +4745,8 @@
       "defaultPrice": 5200,
       "listingPrice": 5200,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-khlopushka-a1-dvustoronniy"
     },
     {
       "id": "khlopushka-a2",
@@ -4819,7 +4848,8 @@
       "defaultPrice": 4200,
       "listingPrice": 4200,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-khlopushka-a2"
     },
     {
       "id": "khlopushka-a2-dvustoronniy",
@@ -4897,7 +4927,8 @@
       "defaultPrice": 4600,
       "listingPrice": 4600,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-khlopushka-a2-dvustoronniy"
     },
     {
       "id": "khlopushka",
@@ -4975,7 +5006,8 @@
       "defaultPrice": 3200,
       "listingPrice": 3200,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-khlopushka"
     },
     {
       "id": "khlopushka-detskiy-buk",
@@ -5066,7 +5098,8 @@
       "defaultPrice": 5000,
       "listingPrice": 5000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-khlopushka-detskiy-buk"
     },
     {
       "id": "stol-dlya-chercheniya-i-risovaniya-chertezhnik",
@@ -5153,7 +5186,8 @@
       "defaultPrice": 8000,
       "listingPrice": 8000,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "stol-dlya-chercheniya-i-risovaniya-chertezhnik"
     },
     {
       "id": "stol-dlya-chercheniya-i-risovaniya-konstruktor",
@@ -5248,7 +5282,8 @@
       "defaultPrice": 15000,
       "listingPrice": 15000,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "stol-dlya-chercheniya-i-risovaniya-konstruktor"
     },
     {
       "id": "nastolnyy-sosna",
@@ -5364,7 +5399,8 @@
       "defaultPrice": 3000,
       "listingPrice": 3000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-nastolnyy-sosna"
     },
     {
       "id": "nastolnyy-buk",
@@ -5473,7 +5509,8 @@
       "defaultPrice": 4000,
       "listingPrice": 4000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-nastolnyy-buk"
     },
     {
       "id": "lira-nastolnyy-sosna",
@@ -5582,7 +5619,8 @@
       "defaultPrice": 2200,
       "listingPrice": 2200,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-lira-nastolnyy-sosna"
     },
     {
       "id": "lira-nastolnyy-buk",
@@ -5691,7 +5729,8 @@
       "defaultPrice": 3000,
       "listingPrice": 3000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-lira-nastolnyy-buk"
     },
     {
       "id": "nastolnyy-mini-buk",
@@ -5767,7 +5806,8 @@
       "defaultPrice": 2000,
       "listingPrice": 2000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-nastolnyy-mini-buk"
     },
     {
       "id": "nastolnyy-mini-xl-buk",
@@ -5847,7 +5887,8 @@
       "defaultPrice": 2400,
       "listingPrice": 2400,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-nastolnyy-mini-xl-buk"
     },
     {
       "id": "nastolnyy-akva",
@@ -5960,7 +6001,8 @@
       "defaultPrice": 3500,
       "listingPrice": 3500,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-nastolnyy-akva"
     },
     {
       "id": "planshet-nastolnyy-grafika",
@@ -6078,7 +6120,8 @@
       "defaultPrice": 2800,
       "listingPrice": 2800,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-planshet-nastolnyy-grafika"
     },
     {
       "id": "maksi",
@@ -6158,7 +6201,8 @@
       "defaultPrice": 15000,
       "listingPrice": 15000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-maksi"
     },
     {
       "id": "ekspo-1",
@@ -6238,7 +6282,8 @@
       "defaultPrice": 6000,
       "listingPrice": 6000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-ekspo-1"
     },
     {
       "id": "ekspo-2",
@@ -6314,7 +6359,8 @@
       "defaultPrice": 7000,
       "listingPrice": 7000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-ekspo-2"
     },
     {
       "id": "machta",
@@ -6394,7 +6440,8 @@
       "defaultPrice": 6000,
       "listingPrice": 6000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-machta"
     },
     {
       "id": "trenoga-1500",
@@ -6474,7 +6521,8 @@
       "defaultPrice": 2500,
       "listingPrice": 2500,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-trenoga-1500"
     },
     {
       "id": "trenoga-vystavochnaya",
@@ -6558,7 +6606,8 @@
       "defaultPrice": 4000,
       "listingPrice": 4000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-trenoga-vystavochnaya"
     },
     {
       "id": "vernisazh",
@@ -6642,7 +6691,8 @@
       "defaultPrice": 6500,
       "listingPrice": 6500,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-vernisazh"
     },
     {
       "id": "delta",
@@ -6730,7 +6780,8 @@
       "defaultPrice": 6500,
       "listingPrice": 6500,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "molbert-delta"
     },
     {
       "id": "lira-podarochnyy-buk",
@@ -6794,7 +6845,8 @@
       "defaultPrice": 18000,
       "listingPrice": 18000,
       "listingFrom": true,
-      "defaultQuantity": 1
+      "defaultQuantity": 1,
+      "slug": "molbert-lira-podarochnyy-buk"
     },
     {
       "id": "molbert-ampir",
@@ -6850,7 +6902,8 @@
       "defaultPrice": 30000,
       "listingPrice": 30000,
       "listingFrom": true,
-      "defaultQuantity": 1
+      "defaultQuantity": 1,
+      "slug": "molbert-ampir"
     },
     {
       "id": "molbert-eksklyuziv",
@@ -6910,7 +6963,8 @@
       "defaultPrice": 28000,
       "listingPrice": 28000,
       "listingFrom": true,
-      "defaultQuantity": 1
+      "defaultQuantity": 1,
+      "slug": "molbert-eksklyuziv"
     },
     {
       "id": "molbert-plazma-xl",
@@ -6975,7 +7029,8 @@
       "defaultPrice": 38000,
       "listingPrice": 38000,
       "listingFrom": true,
-      "defaultQuantity": 1
+      "defaultQuantity": 1,
+      "slug": "molbert-plazma-xl"
     },
     {
       "id": "molbert-versal",
@@ -7043,7 +7098,8 @@
       "defaultPrice": 40000,
       "listingPrice": 40000,
       "listingFrom": true,
-      "defaultQuantity": 1
+      "defaultQuantity": 1,
+      "slug": "molbert-versal"
     },
     {
       "id": "trenogi-dlya-foto-ramok",
@@ -7153,7 +7209,8 @@
       "defaultPrice": 250,
       "listingPrice": 250,
       "listingFrom": true,
-      "defaultQuantity": 1
+      "defaultQuantity": 1,
+      "slug": "molberty-trenogi-dlya-foto-ramok"
     },
     {
       "id": "mini-molberty-lira",
@@ -7234,7 +7291,8 @@
       "defaultPrice": 450,
       "listingPrice": 450,
       "listingFrom": true,
-      "defaultQuantity": 1
+      "defaultQuantity": 1,
+      "slug": "mini-molberty-lira"
     },
     {
       "id": "stol-dlya-natyurmortov-s-planshetom-ugolok",
@@ -7345,7 +7403,8 @@
       "defaultPrice": 5700,
       "listingPrice": 5700,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "stol-dlya-natyurmortov-s-planshetom-ugolok"
     },
     {
       "id": "stol-dlya-natyurmortov-50kh50-s-peremennoy-vysotoy-ekspozitsii",
@@ -7445,7 +7504,8 @@
       "defaultPrice": 8000,
       "listingPrice": 8000,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "stol-dlya-natyurmortov-50kh50-s-peremennoy-vysotoy-ekspozitsii"
     },
     {
       "id": "stol-dlya-natyurmorta-s-peremennoy-vysotoy-ekspozitsii",
@@ -7552,7 +7612,8 @@
       "defaultPrice": 6500,
       "listingPrice": 6500,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "stol-dlya-natyurmorta-s-peremennoy-vysotoy-ekspozitsii"
     },
     {
       "id": "stol-transformer-dlya-natyurmorta",
@@ -7636,7 +7697,8 @@
       "defaultPrice": 9000,
       "listingPrice": 9000,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "stol-transformer-dlya-natyurmorta"
     },
     {
       "id": "stol-dlya-natyurmorta-skladnoy",
@@ -7735,7 +7797,8 @@
       "defaultPrice": 6000,
       "listingPrice": 6000,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "stol-dlya-natyurmorta-skladnoy"
     },
     {
       "id": "stol-tumba-dlya-natyurmorta",
@@ -7850,7 +7913,8 @@
       "defaultPrice": 10000,
       "listingPrice": 10000,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "stol-tumba-dlya-natyurmorta"
     },
     {
       "id": "planshety",
@@ -8047,7 +8111,8 @@
       "defaultPrice": 2000,
       "listingPrice": 500,
       "listingFrom": true,
-      "defaultQuantity": 15
+      "defaultQuantity": 15,
+      "slug": "planshety"
     },
     {
       "id": "stolik-dlya-ekspozitsiy",
@@ -8124,7 +8189,8 @@
       "defaultPrice": 10000,
       "listingPrice": 10000,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "stolik-dlya-ekspozitsiy"
     },
     {
       "id": "sofit-dlya-podsvetki-natyurmorta",
@@ -8208,7 +8274,8 @@
       "defaultPrice": 11000,
       "listingPrice": 11000,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "sofit-dlya-podsvetki-natyurmorta"
     },
     {
       "id": "svetilnik-dlya-podsvetki-natyurmorta",
@@ -8296,7 +8363,8 @@
       "defaultPrice": 4500,
       "listingPrice": 4500,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "svetilnik-dlya-podsvetki-natyurmorta"
     },
     {
       "id": "svetilnik-prishchepka",
@@ -8380,7 +8448,8 @@
       "defaultPrice": 3400,
       "listingPrice": 3400,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "svetilnik-prishchepka"
     },
     {
       "id": "stolik-skulptora-buk-fanera",
@@ -8457,7 +8526,8 @@
       "defaultPrice": 6000,
       "listingPrice": 6000,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "stolik-skulptora-buk-fanera"
     },
     {
       "id": "stol-skulptora-profi",
@@ -8543,7 +8613,8 @@
       "defaultPrice": 9800,
       "listingPrice": 9800,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "stol-skulptora-profi"
     },
     {
       "id": "podstavka-dlya-risunkov",
@@ -8620,7 +8691,8 @@
       "defaultPrice": 5400,
       "listingPrice": 5400,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "podstavka-dlya-risunkov"
     },
     {
       "id": "plakatnitsy-a1-i-a2",
@@ -8724,7 +8796,8 @@
       "defaultPrice": 8000,
       "listingPrice": 6000,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "plakatnitsy-a1-i-a2"
     },
     {
       "id": "podstavka-dlya-risunkov-buk",
@@ -8801,7 +8874,8 @@
       "defaultPrice": 5800,
       "listingPrice": 5800,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "podstavka-dlya-risunkov-buk"
     },
     {
       "id": "plakatnitsa-nastennaya",
@@ -8878,7 +8952,8 @@
       "defaultPrice": 5000,
       "listingPrice": 5000,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "plakatnitsa-nastennaya"
     },
     {
       "id": "palitra",
@@ -8976,7 +9051,8 @@
       "defaultPrice": 250,
       "listingPrice": 250,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "palitra"
     },
     {
       "id": "klipbord",
@@ -9097,7 +9173,8 @@
       "defaultPrice": 650,
       "listingPrice": 650,
       "listingFrom": true,
-      "defaultQuantity": 10
+      "defaultQuantity": 10,
+      "slug": "klipbord"
     },
     {
       "id": "shkatulka-dlya-kistey-i-krasok",
@@ -9178,7 +9255,8 @@
       "defaultPrice": 4000,
       "listingPrice": 4000,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "shkatulka-dlya-kistey-i-krasok"
     },
     {
       "id": "stolik-dlya-palitry",
@@ -9263,7 +9341,8 @@
       "defaultPrice": 3200,
       "listingPrice": 3200,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "stolik-dlya-palitry"
     },
     {
       "id": "telezhka-dlya-khudozhestvennykh-prinadlezhnostey",
@@ -9340,7 +9419,8 @@
       "defaultPrice": 9000,
       "listingPrice": 9000,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "telezhka-dlya-khudozhestvennykh-prinadlezhnostey"
     },
     {
       "id": "taburet-rabochiy",
@@ -9417,7 +9497,8 @@
       "defaultPrice": 3200,
       "listingPrice": 3200,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "taburet-rabochiy"
     },
     {
       "id": "taburet-vysokiy-buk",
@@ -9493,7 +9574,8 @@
       "defaultPrice": 7000,
       "listingPrice": 7000,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "taburet-vysokiy-buk"
     },
     {
       "id": "taburet-vysokiy-sosna",
@@ -9573,7 +9655,8 @@
       "defaultPrice": 7000,
       "listingPrice": 7000,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "taburet-vysokiy-sosna"
     },
     {
       "id": "stul-khudozhnika",
@@ -9649,7 +9732,8 @@
       "defaultPrice": 9500,
       "listingPrice": 9500,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "stul-khudozhnika"
     },
     {
       "id": "stellazh-dlya-sushki-i-khraneniya-listov-a1",
@@ -9742,7 +9826,8 @@
       "defaultPrice": 30000,
       "listingPrice": 30000,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "stellazh-dlya-sushki-i-khraneniya-listov-a1"
     },
     {
       "id": "stellazh-dlya-sushki-i-khraneniya-listov-a2",
@@ -9831,7 +9916,8 @@
       "defaultPrice": 27000,
       "listingPrice": 27000,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "stellazh-dlya-sushki-i-khraneniya-listov-a2"
     },
     {
       "id": "stellazh-dlya-planshetov-i-podramnikov",
@@ -9923,7 +10009,8 @@
       "defaultPrice": 17000,
       "listingPrice": 17000,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "stellazh-dlya-planshetov-i-podramnikov"
     },
     {
       "id": "stellazh-dlya-dekora-i-gipsovykh-modeley",
@@ -10023,7 +10110,8 @@
       "defaultPrice": 16000,
       "listingPrice": 16000,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "stellazh-dlya-dekora-i-gipsovykh-modeley"
     },
     {
       "id": "podium-dlya-natury",
@@ -10116,7 +10204,8 @@
       "defaultPrice": 12000,
       "listingPrice": 12000,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "podium-dlya-natury"
     },
     {
       "id": "shirma",
@@ -10194,7 +10283,8 @@
       "defaultPrice": 5000,
       "listingPrice": 5000,
       "listingFrom": true,
-      "defaultQuantity": 5
+      "defaultQuantity": 5,
+      "slug": "shirma"
     },
     {
       "id": "tumbochka-khudozhnika",
@@ -10257,7 +10347,8 @@
       "defaultPrice": 20000,
       "listingPrice": 20000,
       "listingFrom": true,
-      "defaultQuantity": 1
+      "defaultQuantity": 1,
+      "slug": "tumbochka-khudozhnika"
     }
   ],
   "articles": [

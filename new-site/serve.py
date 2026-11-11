@@ -9,6 +9,7 @@ from datetime import timezone
 from io import BytesIO
 import argparse
 import gzip
+import json
 
 
 class PreviewHandler(SimpleHTTPRequestHandler):
@@ -48,6 +49,18 @@ class PreviewHandler(SimpleHTTPRequestHandler):
   if self.command!='HEAD':self.wfile.write(data)
 
  def send_head(self):
+  request_url=urlsplit(self.path)
+  request_route=request_url.path
+  if request_route.endswith('/index.html'):request_route=request_route[:-10]
+  request_route=request_route.rstrip('/')+'/'
+  target=self.redirects.get(request_route)
+  if target:
+   if request_url.query:target+='?'+request_url.query
+   self.send_response(301)
+   self.send_header('Location',target)
+   self.send_header('Content-Length','0')
+   self.end_headers()
+   return None
   path=Path(self.translate_path(self.path))
   if path.is_dir():
    if not urlsplit(self.path).path.endswith('/'):return super().send_head()
@@ -77,6 +90,7 @@ class PreviewHandler(SimpleHTTPRequestHandler):
 
 parser=argparse.ArgumentParser();parser.add_argument('--port',type=int,default=4173);args=parser.parse_args()
 root=Path(__file__).resolve().parent
+PreviewHandler.redirects=json.loads((root/'data/redirects.json').read_text())
 try:
  server=ThreadingHTTPServer(('127.0.0.1',args.port),partial(PreviewHandler,directory=str(root)))
 except OSError as exc:

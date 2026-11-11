@@ -4,4 +4,4 @@ def interior_guide_assets(prefix, content):
     if 'id="category" data-id="molberty-dekorativnye"' not in content:
         return ''
     return (f'<link rel="stylesheet" href="{prefix}assets/interior-guide.css?v=67">'
-            f'<script defer src="{prefix}assets/interior-guide.js?v=89"></script>')
+            f'<script defer src="{prefix}assets/interior-guide.js?v=98"></script>')

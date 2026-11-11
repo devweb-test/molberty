@@ -1,3 +1,4 @@
+from product_content import product_heading, product_slug, product_route
 from pathlib import Path
 import json,re,sys
 from urllib.parse import urlsplit, unquote
@@ -29,7 +30,7 @@ assert all(not (root/id/'index.html').exists() for id in excluded)
 for c in d['categories']:
  if not (root/c['id']/'index.html').is_file(): errors.append(c['id'])
 for p in d['products']:
- for f in [root/'assets'/p['image'],root/'product'/p['id']/'index.html']:
+ for f in [root/'assets'/p['image'],root/product_route(p)/'index.html']:
   if not f.is_file():errors.append(str(f))
 for a in d.get('articles',[]):
  if not (root/'blog'/a['id']/'index.html').is_file():errors.append(a['id'])
@@ -98,24 +99,22 @@ for id,parent,source_group,name in [
  html=(root/id/'index.html').read_text()
  assert 'http-equiv="refresh"' not in html and Page(html).heading==name
 assert Page((root/'molberty-dlya-hudozhestvennyh-shkol/index.html').read_text()).heading=='Мольберты для художественной школы'
-def product_heading(product):
- easel_roots={'molberty-dlya-risovaniya-hudozhnikov','molberty-dlya-vystavki','molberty-dekorativnye'}
- if not easel_roots.intersection(product['categories']) or re.search('мольберт',product['name'],re.I):return product['name']
- if product['id']=='planshet-nastolnyy-grafika':return 'Мольберт-планшет настольный "Графика"'
- if product['id']=='trenogi-dlya-foto-ramok':return 'Мольберты-треноги для фото-рамок'
- return 'Мольберт '+product['name']
+assert len({product_slug(p) for p in d['products']})==len(d['products'])
 for product in d['products']:
+ assert product['slug']==product_slug(product)
  original=next(x for x in source['products'] if x['sourceId']==product['sourceId'])
  for key in ['name','description','descriptionHtml','gallery','isNew']:assert product[key]==original[key],product['id']+' '+key
  assert re.fullmatch('[a-z0-9]+(?:-[a-z0-9]+)*',product['id'])
  for image in product['gallery']:assert (root/'assets'/image['file']).is_file()
- page=Page((root/'product'/product['id']/'index.html').read_text())
+ page=Page((root/product_route(product)/'index.html').read_text())
  assert page.heading==product_heading(product) and not page.nested_heading,product['id']+' h1'
  schema=next(s for s in page.schemas if s['@type']=='Product')
  assert page.descriptions==[page.heading+' купить по выгодной цене от производителя Мольберты.ру. Описание и характеристики. Доставка по Москве и во все регионы России.'],product['id']+' meta description'
  assert schema['name']==page.heading and schema['description']==page.descriptions[0],product['id']+' Product name/description'
  assert len(schema['image'])==len(product['gallery'])
  assert schema['offers'].get('price',schema['offers'].get('lowPrice'))==product['defaultPrice'],product['id']+' price'
+ assert schema['url']=='https://www.molberty.ru/'+product_route(product) and schema['@id']==schema['url']+'#product'
+ assert schema['offers']['url']==schema['url']
  assert schema['offers']['priceCurrency']=='RUB'
  trail=next(s for s in page.schemas if s['@type']=='BreadcrumbList')['itemListElement']
  assert [x['item'] for x in trail][2:-1]==['https://www.molberty.ru/'+id+'/' for id in by_id[product['primaryCategoryId']]['pathIds']]
