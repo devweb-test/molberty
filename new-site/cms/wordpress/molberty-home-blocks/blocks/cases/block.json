@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "molberty/cases",
+  "version": "1.0.0",
+  "title": "Мольберты.ру - Кейсы",
+  "category": "design",
+  "icon": "portfolio",
+  "description": "Проекты оснащения: изображения, название, описание и состав оборудования. По умолчанию скрыт.",
+  "textdomain": "molberty-home-blocks",
+  "attributes": {"enabled": {"type": "boolean", "default": false}},
+  "supports": {"html": false},
+  "editorScript": "molberty-home-blocks-editor",
+  "style": "molberty-home-blocks"
+}

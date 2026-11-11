@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "molberty/partners",
+  "version": "1.0.0",
+  "title": "Мольберты.ру - Творчество объединяет",
+  "category": "design",
+  "icon": "groups",
+  "description": "Организации и творческие пространства: собственные изображения, названия и описания. По умолчанию скрыт.",
+  "textdomain": "molberty-home-blocks",
+  "attributes": {"enabled": {"type": "boolean", "default": false}},
+  "supports": {"html": false},
+  "editorScript": "molberty-home-blocks-editor",
+  "style": "molberty-home-blocks"
+}

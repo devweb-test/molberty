@@ -1,0 +1,19 @@
+/* Uses the theme palette and typography; scoped to these two optional sections. */
+.molberty-home-block{color:var(--ink,#2c3a32);font-family:var(--sans,Manrope,Arial,sans-serif);background:var(--paper,#f9f7f1)}
+.molberty-home-block.partner-showcase{background:var(--gradient-soft,var(--cream,#f0eee5))}
+.molberty-home-block .wrap{width:min(1320px,calc(100% - 96px));margin-inline:auto}
+.molberty-home-block .section{padding-block:clamp(48px,6vw,91px)}
+.molberty-home-block .section-heading{display:block;margin-bottom:39px}
+.molberty-home-block .eyebrow{color:var(--orange,#ae6346);font-size:12px;letter-spacing:1px;text-transform:uppercase}
+.molberty-home-block .text-h2{font-family:var(--serif,Prata,Georgia,serif);font-size:clamp(32px,3.2vw,46px);font-weight:400;line-height:1.25;letter-spacing:-1.8px;color:var(--ink,#2c3a32);margin:19px 0 23px}
+.molberty-home-block .text-h3{font-family:var(--serif,Prata,Georgia,serif);font-size:24px;font-weight:400;line-height:1.5;color:var(--ink,#2c3a32)}
+.molberty-home-block .molberty-cards.wp-block-columns{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.molberty-home-block .molberty-cards>.wp-block-column{min-width:0;margin:0;border:1px solid var(--line,#dcded3);border-radius:0;background:var(--paper,#f9f7f1)}
+.molberty-home-block .molberty-block-image{margin:0}
+.molberty-home-block .molberty-block-image img{display:block;width:100%;aspect-ratio:1.5;object-fit:cover;border-radius:0}
+.molberty-home-block .case-card-body{padding:25px}
+.molberty-home-block .case-card-body p{font-size:14px;line-height:1.85}
+.molberty-home-block .case-card-body .text-h3{font-size:24px;line-height:1.5}
+.molberty-home-block .case-name{color:var(--orange,#ae6346)}
+@media(max-width:900px){.molberty-home-block .wrap{width:calc(100% - 48px)}.molberty-home-block .molberty-cards.wp-block-columns{grid-template-columns:1fr}}
+@media(max-width:600px){.molberty-home-block .wrap{width:calc(100% - 40px)}.molberty-home-block .case-card-body{padding:22px}}
