@@ -349,3 +349,20 @@ dialog,dialog textarea,dialog .image-viewer-stage{
  :is(dialog,dialog textarea,dialog .image-viewer-stage)::-webkit-scrollbar-button{display:none;width:0;height:0}
  :is(dialog,dialog textarea,dialog .image-viewer-stage)::-webkit-scrollbar-corner{background:var(--cream)}
 }
+
+/* Visible, accessible cart removal controls; clear only the cart contents. */
+.cart-dialog-heading{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}
+.cart-dialog-heading .cart-dialog-title{margin:12px 0}
+.cart-dialog-heading .cart-clear{flex:none;gap:9px;padding:10px 14px;font-size:13px;line-height:1.5;border-color:var(--line);background:transparent;color:var(--green)}
+.cart-dialog-heading .cart-clear .icon{width:18px;height:18px}
+.cart-dialog-heading .cart-clear:hover{background:var(--gradient-green);border-color:var(--green);color:#fff}
+.selection-row{grid-template-columns:65px minmax(0,1fr) 85px 44px}
+.selection-row .cart-remove{display:inline-grid;place-items:center;width:44px;height:44px;min-width:44px;padding:0;border:1px solid var(--orange);border-radius:0;background:var(--gradient-orange);color:#fff;transition:background .2s,color .2s,transform .2s}
+.selection-row .cart-remove .icon{width:22px;height:22px}
+.selection-row .cart-remove:hover{background:var(--gradient-green);border-color:var(--green);color:#fff;transform:translateY(-1px)}
+@media(max-width:600px){
+ .selection-row{grid-template-columns:43px minmax(0,1fr) 60px 44px}
+ .cart-dialog-heading{gap:8px 14px}
+ .cart-dialog-heading .cart-clear{margin-bottom:4px}
+}
+@media(prefers-reduced-motion:reduce){.selection-row .cart-remove{transition:none}.selection-row .cart-remove:hover{transform:none}}
