@@ -97,13 +97,19 @@ for id,parent,source_group,name in [
  html=(root/id/'index.html').read_text()
  assert 'http-equiv="refresh"' not in html and Page(html).heading==name
 assert Page((root/'molberty-dlya-hudozhestvennyh-shkol/index.html').read_text()).heading=='Мольберты для художественной школы'
+def product_heading(product):
+ easel_roots={'molberty-dlya-risovaniya-hudozhnikov','molberty-dlya-vystavki','molberty-dekorativnye'}
+ if not easel_roots.intersection(product['categories']) or re.search('мольберт',product['name'],re.I):return product['name']
+ if product['id']=='planshet-nastolnyy-grafika':return 'Мольберт-планшет настольный "Графика"'
+ if product['id']=='trenogi-dlya-foto-ramok':return 'Мольберты-треноги для фото-рамок'
+ return 'Мольберт '+product['name']
 for product in d['products']:
  original=next(x for x in source['products'] if x['sourceId']==product['sourceId'])
  for key in ['name','description','descriptionHtml','gallery','isNew']:assert product[key]==original[key],product['id']+' '+key
  assert re.fullmatch('[a-z0-9]+(?:-[a-z0-9]+)*',product['id'])
  for image in product['gallery']:assert (root/'assets'/image['file']).is_file()
  page=Page((root/'product'/product['id']/'index.html').read_text())
- assert page.heading==product['name'] and not page.nested_heading,product['id']+' h1'
+ assert page.heading==product_heading(product) and not page.nested_heading,product['id']+' h1'
  schema=next(s for s in page.schemas if s['@type']=='Product')
  assert schema['name']==product['name'] and schema['description']==product['description']
  assert len(schema['image'])==len(product['gallery'])
