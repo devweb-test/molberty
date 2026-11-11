@@ -14,7 +14,8 @@ import json
 
 class PreviewHandler(SimpleHTTPRequestHandler):
  """Serve the same static files, with negotiated gzip and normal revalidation."""
- compressible={'.html','.css','.js','.json','.svg','.xml','.txt','.ttf'}
+ extensions_map={**SimpleHTTPRequestHandler.extensions_map,'.webmanifest':'application/manifest+json','.ico':'image/x-icon'}
+ compressible={'.html','.css','.js','.json','.webmanifest','.svg','.xml','.txt','.ttf'}
 
  def end_headers(self):
   # Files have stable names while the prototype is edited: revalidate, do not

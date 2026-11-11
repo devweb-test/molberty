@@ -20,4 +20,5 @@ for k,v in shapes.items():
  if not v:continue
  svg=f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 440"><defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#ceaa7c"/><stop offset="1" stop-color="#99754d"/></linearGradient></defs><ellipse cx="211" cy="398" rx="125" ry="13" fill="#34483d" opacity=".07"/><g fill="none" stroke="url(#g)" stroke-width="13" stroke-linejoin="round" stroke-linecap="round">{v}</g><g fill="#554a36"><circle cx="200" cy="250" r="4"/><circle cx="200" cy="140" r="4"/></g></svg>'
  (P/(k+'.svg')).write_text(svg)
-(P/'favicon.svg').write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><rect width="48" height="48" rx="12" fill="#34483d"/><path d="m12 36 12-26 12 26M17 26h14M24 8v22" stroke="#f8f4ec" stroke-width="3" fill="none"/></svg>')
+
+# The M favicon family is maintained by scripts/create-icons.py.

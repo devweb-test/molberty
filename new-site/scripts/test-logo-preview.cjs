@@ -38,7 +38,7 @@ const shots=path.resolve(__dirname,'../../.clone-work/logo-v66-approved');
   }
   await page.setViewportSize({width:390,height:844});await page.locator('.mobile-menu').click();assert.equal(await page.locator('.mobile-menu').getAttribute('aria-expanded'),'true');await page.locator('.header nav a[href="catalog/"]').first().click();await page.waitForURL('**/catalog/*');await verify();
   await page.locator('.header>.logo').click();await page.waitForURL('**/index.html');await verify();
-  const iconResponse=await context.request.get(new URL('assets/favicon.svg?v=66',base).href);assert.ok(iconResponse.ok());assert.ok((await iconResponse.text()).includes('M25 5v55'));
+  const iconResponse=await context.request.get(new URL('assets/favicon.svg?v=114',base).href);assert.ok(iconResponse.ok());const favicon=await iconResponse.text();assert.ok(favicon.includes('viewBox="0 0 1024 1024"'));assert.ok(favicon.includes('<path '));assert.ok(favicon.includes('Мольберты.ру'));
   const logoResponse=await context.request.get(new URL('assets/logo.svg?v=66',base).href);assert.ok(logoResponse.ok());const logo=await logoResponse.text();assert.ok(logo.includes('<title id="title">Мольберты.ру</title>'));assert.ok(logo.includes('width="560" height="144"'));
   assert.ok(!requests.some(u=>/logo-preview\.(?:css|js)|logo-options/.test(u)));
   const noJS=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:844}});
