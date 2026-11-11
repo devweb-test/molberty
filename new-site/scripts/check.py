@@ -55,11 +55,12 @@ print('Локальные файлы, ссылки и изображения: OK
 from html.parser import HTMLParser
 class Page(HTMLParser):
  def __init__(self,text):
-  super().__init__();self.in_json=False;self.in_h1=False;self.json_text='';self.schemas=[];self.heading='';self.nested_heading=False;self.feed(text)
+  super().__init__();self.in_json=False;self.in_h1=False;self.json_text='';self.schemas=[];self.heading='';self.descriptions=[];self.nested_heading=False;self.feed(text)
  def handle_starttag(self,tag,attrs):
   attrs=dict(attrs)
   if self.in_h1:self.nested_heading=True
   if tag=='h1':self.in_h1=True
+  if tag=='meta' and attrs.get('name')=='description':self.descriptions.append(attrs.get('content'))
   if tag=='script' and attrs.get('type')=='application/ld+json':self.in_json=True;self.json_text=''
  def handle_endtag(self,tag):
   if tag=='h1':self.in_h1=False
@@ -111,7 +112,8 @@ for product in d['products']:
  page=Page((root/'product'/product['id']/'index.html').read_text())
  assert page.heading==product_heading(product) and not page.nested_heading,product['id']+' h1'
  schema=next(s for s in page.schemas if s['@type']=='Product')
- assert schema['name']==product['name'] and schema['description']==product['description']
+ assert page.descriptions==[page.heading+' купить по выгодной цене от производителя Мольберты.ру. Описание и характеристики. Доставка по Москве и во все регионы России.'],product['id']+' meta description'
+ assert schema['name']==page.heading and schema['description']==page.descriptions[0],product['id']+' Product name/description'
  assert len(schema['image'])==len(product['gallery'])
  assert schema['offers'].get('price',schema['offers'].get('lowPrice'))==product['defaultPrice'],product['id']+' price'
  assert schema['offers']['priceCurrency']=='RUB'

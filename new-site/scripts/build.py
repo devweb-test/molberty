@@ -131,7 +131,7 @@ def structured(trail,product=None):
    offer={'@type':'AggregateOffer','url':offer['url'],'priceCurrency':'RUB','lowPrice':product['defaultPrice']}
   if product['defaultQuantity']>1:offer['eligibleQuantity']={'@type':'QuantitativeValue','minValue':product['defaultQuantity']}
   offer['seller']={'@id':ORGANIZATION['@id']}
-  blocks.append(('product-schema',{'@context':'https://schema.org','@type':'Product','@id':BASE+'product/'+product['id']+'/#product','url':BASE+'product/'+product['id']+'/','name':product['name'],'description':product['description'],'image':[BASE+'assets/'+img['file'] for img in product['gallery']],'offers':offer}))
+  blocks.append(('product-schema',{'@context':'https://schema.org','@type':'Product','@id':BASE+'product/'+product['id']+'/#product','url':BASE+'product/'+product['id']+'/','name':product_heading(product),'description':product_meta_description(product),'image':[BASE+'assets/'+img['file'] for img in product['gallery']],'offers':offer}))
  return ''.join('<script id="'+id+'" type="application/ld+json">'+json.dumps(obj,ensure_ascii=False).replace('<','\\u003c')+'</script>' for id,obj in blocks)
 def product_heading(product):
  easel_roots={'molberty-dlya-risovaniya-hudozhnikov','molberty-dlya-vystavki','molberty-dekorativnye'}
@@ -139,11 +139,13 @@ def product_heading(product):
  if product['id']=='planshet-nastolnyy-grafika':return 'Мольберт-планшет настольный "Графика"'
  if product['id']=='trenogi-dlya-foto-ramok':return 'Мольберты-треноги для фото-рамок'
  return 'Мольберт '+product['name']
+def product_meta_description(product):
+ return product_heading(product)+' купить по выгодной цене от производителя Мольберты.ру. Описание и характеристики. Доставка по Москве и во все регионы России.'
 def shell(title,content,prefix='',desc=None,trail=None,product=None):
  if product:
   heading=product_heading(product)
   title=heading+' - купить, цена, описание'
-  desc=heading+' купить по выгодной цене от производителя Мольберты.ру. Описание и характеристики. Доставка по Москве и во все регионы России.'
+  desc=product_meta_description(product)
  else:title+=' — Мольберты.ру'
  schema=structured(trail or [('Главная','')],product)
  canonical=BASE+(trail[-1][1] if trail else '')
