@@ -443,3 +443,14 @@ dialog,dialog textarea,dialog .image-viewer-stage{
 .sales-form-status[hidden]{display:none}
 .sales-form-status p{margin:8px 0 0;font-size:14px;line-height:1.7}
 @media(max-width:600px){.sales-form-row{grid-template-columns:1fr;gap:17px}.sales-order .sales-order-title{font-size:21px}.sales-order-form .btn{width:100%}}
+
+/* Homepage shortcuts stay in one evenly distributed row; smaller screens can swipe it. */
+#directions .category-links{display:flex;flex-wrap:nowrap;align-items:stretch;gap:8px;width:100%;overflow-x:auto;margin-top:24px;padding-block:2px 6px;scroll-snap-type:x proximity;scroll-padding-inline:2px}
+#directions .category-links>a{display:flex;align-items:center;justify-content:center;flex:1 0 auto;width:auto;margin:0;padding:10px 9px;border:1px solid var(--line);border-radius:0;font-size:12px;line-height:1.6;white-space:nowrap;scroll-snap-align:start}
+#directions .category-links>.all-link{color:var(--orange)}
+#solutions .task-strip>span{display:inline-flex;align-items:center;gap:10px}
+#solutions .task-strip>span::before{content:none;padding:0}
+#solutions .task-strip>span>.icon{width:21px;height:21px;color:var(--orange);flex-shrink:0}
+@media(max-width:767px){#directions .category-links{gap:8px;margin-top:20px}#directions .category-links>a{padding:10px 12px}}
+
+@media(min-width:1280px) and (max-width:1359px){#directions .category-links{gap:6px}#directions .category-links>a{padding-inline:6px}}
