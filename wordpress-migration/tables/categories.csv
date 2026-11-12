@@ -1,0 +1,35 @@
+﻿id,name,parentId,depth,route,pathIds,childIds
+molberty-dlya-risovaniya-hudozhnikov,Мольберты для художников,,0,/molberty-dlya-risovaniya-hudozhnikov/,"[""molberty-dlya-risovaniya-hudozhnikov""]","[""molberty-napolnye"", ""molberty-nastolnye""]"
+molberty-napolnye,Мольберты напольные,molberty-dlya-risovaniya-hudozhnikov,1,/molberty-napolnye/,"[""molberty-dlya-risovaniya-hudozhnikov"", ""molberty-napolnye""]","[""professionalnye-molberty"", ""molberty-lira"", ""molberty-dlya-hudozhestvennyh-shkol""]"
+professionalnye-molberty,Профессиональные мольберты,molberty-napolnye,2,/professionalnye-molberty/,"[""molberty-dlya-risovaniya-hudozhnikov"", ""molberty-napolnye"", ""professionalnye-molberty""]","[""molberty-stankovye"", ""molberty-transformery""]"
+molberty-stankovye,Станковые мольберты,professionalnye-molberty,3,/molberty-stankovye/,"[""molberty-dlya-risovaniya-hudozhnikov"", ""molberty-napolnye"", ""professionalnye-molberty"", ""molberty-stankovye""]",[]
+molberty-transformery,Мольберты трансформеры,professionalnye-molberty,3,/molberty-transformery/,"[""molberty-dlya-risovaniya-hudozhnikov"", ""molberty-napolnye"", ""professionalnye-molberty"", ""molberty-transformery""]",[]
+molberty-lira,Мольберты «Лира»,molberty-napolnye,2,/molberty-lira/,"[""molberty-dlya-risovaniya-hudozhnikov"", ""molberty-napolnye"", ""molberty-lira""]",[]
+molberty-dlya-hudozhestvennyh-shkol,Мольберты для художественной школы,molberty-napolnye,2,/molberty-dlya-hudozhestvennyh-shkol/,"[""molberty-dlya-risovaniya-hudozhnikov"", ""molberty-napolnye"", ""molberty-dlya-hudozhestvennyh-shkol""]","[""molberty-hlopushka"", ""molberty-s-polkoj""]"
+molberty-hlopushka,Мольберты Хлопушка,molberty-dlya-hudozhestvennyh-shkol,3,/molberty-hlopushka/,"[""molberty-dlya-risovaniya-hudozhnikov"", ""molberty-napolnye"", ""molberty-dlya-hudozhestvennyh-shkol"", ""molberty-hlopushka""]",[]
+molberty-s-polkoj,Мольберты с полкой,molberty-dlya-hudozhestvennyh-shkol,3,/molberty-s-polkoj/,"[""molberty-dlya-risovaniya-hudozhnikov"", ""molberty-napolnye"", ""molberty-dlya-hudozhestvennyh-shkol"", ""molberty-s-polkoj""]",[]
+molberty-nastolnye,Мольберты настольные,molberty-dlya-risovaniya-hudozhnikov,1,/molberty-nastolnye/,"[""molberty-dlya-risovaniya-hudozhnikov"", ""molberty-nastolnye""]",[]
+stoly-dlya-chercheniya-i-risovaniya,Столы для черчения и рисования,,0,/stoly-dlya-chercheniya-i-risovaniya/,"[""stoly-dlya-chercheniya-i-risovaniya""]",[]
+molberty-dlya-vystavki,Мольберты для выставок,,0,/molberty-dlya-vystavki/,"[""molberty-dlya-vystavki""]","[""molberty-iz-sosny"", ""molbert-iz-buka""]"
+molberty-iz-sosny,Мольберты для выставок из сосны,molberty-dlya-vystavki,1,/molberty-iz-sosny/,"[""molberty-dlya-vystavki"", ""molberty-iz-sosny""]",[]
+molbert-iz-buka,Мольберты для выставок из бука,molberty-dlya-vystavki,1,/molbert-iz-buka/,"[""molberty-dlya-vystavki"", ""molbert-iz-buka""]",[]
+molberty-dekorativnye,Мольберты для интерьера,,0,/molberty-dekorativnye/,"[""molberty-dekorativnye""]","[""molberty-s-reznymi-elementami"", ""molberty-dlya-televizora"", ""mini-molberty""]"
+molberty-s-reznymi-elementami,Мольберты с резными элементами,molberty-dekorativnye,1,/molberty-s-reznymi-elementami/,"[""molberty-dekorativnye"", ""molberty-s-reznymi-elementami""]",[]
+molberty-dlya-televizora,Мольберты для телевизора,molberty-dekorativnye,1,/molberty-dlya-televizora/,"[""molberty-dekorativnye"", ""molberty-dlya-televizora""]",[]
+mini-molberty,Мини-мольберты,molberty-dekorativnye,1,/mini-molberty/,"[""molberty-dekorativnye"", ""mini-molberty""]","[""mini-molberty-trenogi"", ""mini-molberty-lira""]"
+mini-molberty-trenogi,Мини-мольберты треноги,mini-molberty,2,/mini-molberty-trenogi/,"[""molberty-dekorativnye"", ""mini-molberty"", ""mini-molberty-trenogi""]",[]
+mini-molberty-lira,Мини-мольберты «Лира»,mini-molberty,2,/mini-molberty-lira/,"[""molberty-dekorativnye"", ""mini-molberty"", ""mini-molberty-lira""]",[]
+oborudovanie-dlya-kabineta-izo,Оборудование для изостудии,,0,/oborudovanie-dlya-kabineta-izo/,"[""oborudovanie-dlya-kabineta-izo""]","[""planshety-i-palitry"", ""stoly-dlya-natyurmorta"", ""svetilniki-dlya-izostudii"", ""stoly-skulptora"", ""khranenie-dlya-izostudii"", ""taburety-i-stulya"", ""rabochee-mesto-khudozhnika"", ""vspomogatelnoe-oborudovanie""]"
+planshety-i-palitry,Планшеты и палитры,oborudovanie-dlya-kabineta-izo,1,/planshety-i-palitry/,"[""oborudovanie-dlya-kabineta-izo"", ""planshety-i-palitry""]",[]
+stoly-dlya-natyurmorta,Столы и тумбы для натюрморта,oborudovanie-dlya-kabineta-izo,1,/stoly-dlya-natyurmorta/,"[""oborudovanie-dlya-kabineta-izo"", ""stoly-dlya-natyurmorta""]",[]
+svetilniki-dlya-izostudii,Светильники,oborudovanie-dlya-kabineta-izo,1,/svetilniki-dlya-izostudii/,"[""oborudovanie-dlya-kabineta-izo"", ""svetilniki-dlya-izostudii""]",[]
+stoly-skulptora,Столы скульптора,oborudovanie-dlya-kabineta-izo,1,/stoly-skulptora/,"[""oborudovanie-dlya-kabineta-izo"", ""stoly-skulptora""]",[]
+khranenie-dlya-izostudii,Хранение,oborudovanie-dlya-kabineta-izo,1,/khranenie-dlya-izostudii/,"[""oborudovanie-dlya-kabineta-izo"", ""khranenie-dlya-izostudii""]","[""podstavki-dlya-risunkov"", ""plakatnitsy"", ""stellazhi-dlya-izostudii""]"
+podstavki-dlya-risunkov,Подставки для рисунков,khranenie-dlya-izostudii,2,/podstavki-dlya-risunkov/,"[""oborudovanie-dlya-kabineta-izo"", ""khranenie-dlya-izostudii"", ""podstavki-dlya-risunkov""]",[]
+plakatnitsy,Плакатницы,khranenie-dlya-izostudii,2,/plakatnitsy/,"[""oborudovanie-dlya-kabineta-izo"", ""khranenie-dlya-izostudii"", ""plakatnitsy""]",[]
+stellazhi-dlya-izostudii,Стеллажи,khranenie-dlya-izostudii,2,/stellazhi-dlya-izostudii/,"[""oborudovanie-dlya-kabineta-izo"", ""khranenie-dlya-izostudii"", ""stellazhi-dlya-izostudii""]",[]
+taburety-i-stulya,Табуреты и стулья,oborudovanie-dlya-kabineta-izo,1,/taburety-i-stulya/,"[""oborudovanie-dlya-kabineta-izo"", ""taburety-i-stulya""]",[]
+rabochee-mesto-khudozhnika,Рабочее место художника,oborudovanie-dlya-kabineta-izo,1,/rabochee-mesto-khudozhnika/,"[""oborudovanie-dlya-kabineta-izo"", ""rabochee-mesto-khudozhnika""]",[]
+vspomogatelnoe-oborudovanie,Вспомогательное оборудование,oborudovanie-dlya-kabineta-izo,1,/vspomogatelnoe-oborudovanie/,"[""oborudovanie-dlya-kabineta-izo"", ""vspomogatelnoe-oborudovanie""]","[""shirmy-dlya-izostudii"", ""podiumy-dlya-natury""]"
+shirmy-dlya-izostudii,Ширмы,vspomogatelnoe-oborudovanie,2,/shirmy-dlya-izostudii/,"[""oborudovanie-dlya-kabineta-izo"", ""vspomogatelnoe-oborudovanie"", ""shirmy-dlya-izostudii""]",[]
+podiumy-dlya-natury,Подиумы для натуры,vspomogatelnoe-oborudovanie,2,/podiumy-dlya-natury/,"[""oborudovanie-dlya-kabineta-izo"", ""vspomogatelnoe-oborudovanie"", ""podiumy-dlya-natury""]",[]

@@ -1,0 +1,6 @@
+/reference/
+/source-documents/
+__pycache__/
+*.pyc
+/target-check*.json
+/progress.md

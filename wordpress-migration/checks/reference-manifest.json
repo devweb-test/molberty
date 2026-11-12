@@ -1,0 +1,4032 @@
+[
+  {
+    "path": "404.html",
+    "bytes": 30808,
+    "sha256": "0e3625690d3b192008f137dcd60956869f87832f1161fbd6bc2a48678b798fae"
+  },
+  {
+    "path": "new-site/.gitignore",
+    "bytes": 13,
+    "sha256": "7bf2930c0fd0cfe98344065d677a47e405a1c0e630847269d0abcc1a1e0644d2"
+  },
+  {
+    "path": "new-site/404.html",
+    "bytes": 30790,
+    "sha256": "6cebebfde3d9ea00b0d73eb2ff694689fac304c701f0bc6587bfbff387063def"
+  },
+  {
+    "path": "new-site/CMS-MIGRATION.md",
+    "bytes": 91724,
+    "sha256": "177a5c98aefbdf81a7f18da74f643fd232ca240561fca101e4d12f813dac02ff"
+  },
+  {
+    "path": "new-site/README.md",
+    "bytes": 88998,
+    "sha256": "c1dbd73df5e1dd82f977daa8262ea51a8ec5ed01582720f481f1b27031807863"
+  },
+  {
+    "path": "new-site/about/index.html",
+    "bytes": 21569,
+    "sha256": "6453f5102a2507c645f541d961bea089874d11b37cdd091c26189eb959b89181"
+  },
+  {
+    "path": "new-site/assets/app.js",
+    "bytes": 133058,
+    "sha256": "756e2d8c74e7608589ce8189675022bfddc61787812ebc239d3526c48fe43935"
+  },
+  {
+    "path": "new-site/assets/articles/0e2d019beb2d8e04.webp",
+    "bytes": 35856,
+    "sha256": "36f79a85547897240e78b3b04dc4af8226bf9322856e029b9ceac890764bc28f"
+  },
+  {
+    "path": "new-site/assets/articles/14be5bbc9f3f053e.webp",
+    "bytes": 11216,
+    "sha256": "85ae1b6e15c1e723e6ea9b960e1693be894576759596d7728ebc537a6a2de15a"
+  },
+  {
+    "path": "new-site/assets/articles/22d3efe9e303239b.webp",
+    "bytes": 233444,
+    "sha256": "6fd5fbe018b640cf5d51a8058a31d6c1ad847a31166910c67495a4627211b607"
+  },
+  {
+    "path": "new-site/assets/articles/3a344f37a1288e34.webp",
+    "bytes": 23814,
+    "sha256": "27b5e55a8dfa45ea368e5609ea919c35197e75edef14e7e949c13c1ab6126f42"
+  },
+  {
+    "path": "new-site/assets/articles/3e1e4942d27dc0b0.webp",
+    "bytes": 488018,
+    "sha256": "b2549d20be6d98b2efe22c929aaf60eec6f032c0695ecbfb50864c87bab221dd"
+  },
+  {
+    "path": "new-site/assets/articles/52cc8d0456bf6459.webp",
+    "bytes": 19622,
+    "sha256": "5482a854aaffd436ffa9691b8290ce99aa3ec0543d81ec9a2e9b4eea0730b8cf"
+  },
+  {
+    "path": "new-site/assets/articles/560f1e445d62aec0.webp",
+    "bytes": 420098,
+    "sha256": "565ea0a626e4763f79151c3540fd9d19c27cbbde547bae64486a402bb2434d7c"
+  },
+  {
+    "path": "new-site/assets/articles/577e1badd1aa9f7f.webp",
+    "bytes": 12482,
+    "sha256": "7d205f05d9617a7f8fc0acb81bbc4eccb774edfb21f80b5a4ed78f37106c1e10"
+  },
+  {
+    "path": "new-site/assets/articles/5832c3704acc9b93.webp",
+    "bytes": 12498,
+    "sha256": "6d5a8477306b067051e101654d48515b47bd429457e631b38382c0f8f648e3ad"
+  },
+  {
+    "path": "new-site/assets/articles/7b2236e2dda451b5.webp",
+    "bytes": 23266,
+    "sha256": "ce5d6ca2486168cdf0858993bc124dc8e399d52ea02f19bcaa5affe03d6334bd"
+  },
+  {
+    "path": "new-site/assets/articles/830391f33d625160.webp",
+    "bytes": 27712,
+    "sha256": "d24020d3b6646692d35ce018abb71e700b4977b1e0acd00c8d9dcc9d0aed23c9"
+  },
+  {
+    "path": "new-site/assets/articles/83f7a7bcb79d266f.webp",
+    "bytes": 13060,
+    "sha256": "cef86805443f75e9c97235071f8e70f66001655cc2f593cbb6d4990f311826ac"
+  },
+  {
+    "path": "new-site/assets/articles/8688deb1f9dfd0b1.webp",
+    "bytes": 23518,
+    "sha256": "bfb06d3095a8c61cc1c6104ff2de4e3fe4bec66bf95b683565f7d314a693cb58"
+  },
+  {
+    "path": "new-site/assets/articles/9db35404b5bc6e86.webp",
+    "bytes": 47852,
+    "sha256": "f21f6339a36265d6f37f71a88681966810b40f1e9fb8e48d3a3bf6c5f9409ccc"
+  },
+  {
+    "path": "new-site/assets/articles/ad88a7ff1ae337fd.webp",
+    "bytes": 19032,
+    "sha256": "6b12a59e0dae46bf8f1942daf2d990e71b0f3a7b9afd6a94bed9d97351282e6a"
+  },
+  {
+    "path": "new-site/assets/articles/d16447c92ba9a4ba.webp",
+    "bytes": 28218,
+    "sha256": "187968bb8ebc82d58984b149f44cfacdd0efd4c0eed85ef54729d018436096b0"
+  },
+  {
+    "path": "new-site/assets/articles/d2222e59be2fd07d.webp",
+    "bytes": 59444,
+    "sha256": "aab4654a345de2082f2fc7ff9e04e042a57e1994bc3e5147f31c188912c4117d"
+  },
+  {
+    "path": "new-site/assets/articles/db7bb83f80c8c2a1.webp",
+    "bytes": 198820,
+    "sha256": "68025e26fc6f8494a149adaf3b3e77ba7f6de9d1db2d22e633184780fbf3b0db"
+  },
+  {
+    "path": "new-site/assets/articles/fa8a499eacdb8ce8.webp",
+    "bytes": 32294,
+    "sha256": "09842c3cd67b8a8e70dff798a532a9b973a80c56307dcae008add0ff1744e346"
+  },
+  {
+    "path": "new-site/assets/blog-previews/choice-v1.webp",
+    "bytes": 228138,
+    "sha256": "392c456b35bd5c55888e890be2784345b398be5f6d1141b18e773ae128388f2b"
+  },
+  {
+    "path": "new-site/assets/blog-previews/construction-v1.webp",
+    "bytes": 238022,
+    "sha256": "d004361d9c54ce58609747d432ca7b1f8e4a74ff853148d71ca1bec1946b5726"
+  },
+  {
+    "path": "new-site/assets/blog-previews/interior-v1.webp",
+    "bytes": 229822,
+    "sha256": "799ae1bec577b19d42b62cc0080e14cf194b2b508dc7ea27fdfec90e125e95ef"
+  },
+  {
+    "path": "new-site/assets/blog-previews/workshop-v1.webp",
+    "bytes": 211482,
+    "sha256": "a25aeace7d8f1ee7656aadccb90cb7bdc09eb6838a1958e4a99ccc016e5eb582"
+  },
+  {
+    "path": "new-site/assets/box.svg",
+    "bytes": 614,
+    "sha256": "6999f9ac1c32342f135bbd4d730ccc29093e7ddd730b51fa598154ed33f0a47a"
+  },
+  {
+    "path": "new-site/assets/case-classroom.png",
+    "bytes": 2244004,
+    "sha256": "54371fef8ffe514072fdb9238238182933cf5fda52c65bd3268a34af69c0d272"
+  },
+  {
+    "path": "new-site/assets/case-classroom.webp",
+    "bytes": 88150,
+    "sha256": "6052c3ee79c010e2e2e6d397503a42bca137ee8e640f6d4ce9d4259b13b09d77"
+  },
+  {
+    "path": "new-site/assets/case-gallery.png",
+    "bytes": 2372082,
+    "sha256": "b68271e91c071636f6f3fc6569b3e0e1fc2e900c819b7e84d5c4776eee2fcdfe"
+  },
+  {
+    "path": "new-site/assets/case-gallery.webp",
+    "bytes": 81192,
+    "sha256": "5a2b4984c75f7a0bd9973fbcfafed23523d563a967411a31112e43230e7b86ee"
+  },
+  {
+    "path": "new-site/assets/case-studio.png",
+    "bytes": 2827810,
+    "sha256": "8852c4655543036fc22a1113d553c1801c3cd70c42929621c40742f5745f285f"
+  },
+  {
+    "path": "new-site/assets/case-studio.webp",
+    "bytes": 190882,
+    "sha256": "d91aa64d97aaf78413ad6fca71bc6e42d005ee6e99f885a675e6f3a6a0d30c02"
+  },
+  {
+    "path": "new-site/assets/catalog/0109a9b362bbbfd5.webp",
+    "bytes": 14004,
+    "sha256": "80eb04057ec2a29c18f31ead2e5391538d9c4dfdc3be2189f42e6e48e7f968d4"
+  },
+  {
+    "path": "new-site/assets/catalog/019886578a3851b5.webp",
+    "bytes": 46374,
+    "sha256": "d5d0434c20b09f106680917a067138d25bfcb8b552097403873a23cc2b65cd62"
+  },
+  {
+    "path": "new-site/assets/catalog/0267e4d25bd82af5.webp",
+    "bytes": 23228,
+    "sha256": "343c6d039eff9b8eb63d39d559235dbea430262679bc3c817a631000018e4527"
+  },
+  {
+    "path": "new-site/assets/catalog/049299ce35b72f51.webp",
+    "bytes": 30664,
+    "sha256": "c46e4a78614a4edf39d831c8d1151bd86de8bf5f39e532a31feb39f06cf99e69"
+  },
+  {
+    "path": "new-site/assets/catalog/0664f48681fe25c3.webp",
+    "bytes": 9300,
+    "sha256": "be403040af312e7339161606d4f31be56cc2d2fd38853fc901db369d27b19508"
+  },
+  {
+    "path": "new-site/assets/catalog/06a9e0ba728c302d.webp",
+    "bytes": 42450,
+    "sha256": "ac057e79c813787a2b9fc5fe6fd5b229316d1585ca0abea91ca443351b0c72e9"
+  },
+  {
+    "path": "new-site/assets/catalog/07d2e8976e0a918c.webp",
+    "bytes": 6066,
+    "sha256": "978dde89eb4c5679afbf3d561b30e33a66216b2da64c93973efba9c2510ea35d"
+  },
+  {
+    "path": "new-site/assets/catalog/08e1c3e1c7563f7b.webp",
+    "bytes": 46320,
+    "sha256": "17ebd9911abc88d287c8faa9aab5673297a890963f8918bd9ae1be075a523cfb"
+  },
+  {
+    "path": "new-site/assets/catalog/090e9a4cb7acff4a.webp",
+    "bytes": 33174,
+    "sha256": "65b93ceb35d6bb36edaaa83105c31667314dac5bf4416342721d31e6acfc3945"
+  },
+  {
+    "path": "new-site/assets/catalog/0d063bb5541930ad.webp",
+    "bytes": 40492,
+    "sha256": "e0005f86a067835791abd146ffe2c280459e99c94bad56db1eff4219093abb27"
+  },
+  {
+    "path": "new-site/assets/catalog/0e85756b61fd83ca.webp",
+    "bytes": 58664,
+    "sha256": "c6c0b30068f8055ec6361b56eb651b242451efa28ef862b459683c9fc63ad80f"
+  },
+  {
+    "path": "new-site/assets/catalog/0ed28f112b2a204a.webp",
+    "bytes": 36002,
+    "sha256": "649b575d5144be4d9a5ba75b7c029f6d344a203ee54dead49f2930274a49128e"
+  },
+  {
+    "path": "new-site/assets/catalog/12b4ee3d1f9962dc.webp",
+    "bytes": 43168,
+    "sha256": "913ce635490c1fd58ab007c63ea2be5ff36b109d7cc73069730a069c22cc4d69"
+  },
+  {
+    "path": "new-site/assets/catalog/1435338e0127e320.webp",
+    "bytes": 11098,
+    "sha256": "33b02ce3a31f537c333f67dfd8079617dc3b2811100bb41dcffe731c77834e7e"
+  },
+  {
+    "path": "new-site/assets/catalog/14be5bbc9f3f053e.webp",
+    "bytes": 9300,
+    "sha256": "be403040af312e7339161606d4f31be56cc2d2fd38853fc901db369d27b19508"
+  },
+  {
+    "path": "new-site/assets/catalog/14e573871e8192ae.webp",
+    "bytes": 27734,
+    "sha256": "9416868e56c026f4405c20fc79df5ca70f02a5cd8bff24aad779d89e0edb37f0"
+  },
+  {
+    "path": "new-site/assets/catalog/160870e4d25ace7f.webp",
+    "bytes": 35540,
+    "sha256": "dceaebff421b7b1c23a5cf1d274df3016a77bb3a1c1a02bef1b77f5e57c8fa51"
+  },
+  {
+    "path": "new-site/assets/catalog/18498c79996af22a.webp",
+    "bytes": 56156,
+    "sha256": "5551428bcaac213540de1e0e05973b4370fa871d481cb5427b0281b557e97433"
+  },
+  {
+    "path": "new-site/assets/catalog/1891ef94fbb06389.webp",
+    "bytes": 26066,
+    "sha256": "5ff99ecbdf2f14b51eaec8f6b0cd7b3f438d2d2c6dcd2b1465923c508ad889c5"
+  },
+  {
+    "path": "new-site/assets/catalog/18a553f5c99e0658.webp",
+    "bytes": 61138,
+    "sha256": "b9df457f5b09dc9079be9f9ce784cc0f0295a72b7df73953bc4b7b8fd92730eb"
+  },
+  {
+    "path": "new-site/assets/catalog/18abdc68a0319d66.webp",
+    "bytes": 33192,
+    "sha256": "77f36ecee8ea2f248448fbad931e683fd5d855bc48968415a586459cfe147b6f"
+  },
+  {
+    "path": "new-site/assets/catalog/1ab2989998784e0d.webp",
+    "bytes": 11098,
+    "sha256": "3247dac7da18cbe94e1ae4ae5f4602be3d6fbae00c6830be2582a26e01e83766"
+  },
+  {
+    "path": "new-site/assets/catalog/1b753c3a0f93c845.webp",
+    "bytes": 32382,
+    "sha256": "454581ab128ac192e3978c3b726d267b001857356b44e3d045c69d9d17780576"
+  },
+  {
+    "path": "new-site/assets/catalog/1b8374a43f8f148c.webp",
+    "bytes": 30002,
+    "sha256": "0927d6cf958965a482dc46654a72bd8940dfef4e93a5d75824610225ab6c76b3"
+  },
+  {
+    "path": "new-site/assets/catalog/1c634a9ca2fb6caf.webp",
+    "bytes": 80964,
+    "sha256": "9df1979ca97180bd15e3c8e207a4f78864c598b7439cea46bfbd8acabfec5318"
+  },
+  {
+    "path": "new-site/assets/catalog/1d4002cdee62403b.webp",
+    "bytes": 31794,
+    "sha256": "ec83b741f369a36a5dfba72d181dabc46fe6334a09572222d687a650c8b6aed4"
+  },
+  {
+    "path": "new-site/assets/catalog/1ed8c4cee435a912.webp",
+    "bytes": 11956,
+    "sha256": "e2649211abb8202b023ba666656adc4726fb4e8cf586d0d59917b0863239bed4"
+  },
+  {
+    "path": "new-site/assets/catalog/1f0bff4e986f5c58.webp",
+    "bytes": 33614,
+    "sha256": "45049538df246cf17725e955ff9ed896cd541e6d7513d9b6e69e9ff7cef11316"
+  },
+  {
+    "path": "new-site/assets/catalog/2175f861591fe23c.webp",
+    "bytes": 22650,
+    "sha256": "13089e5fce78ef365212067e327f6c0ec82cedacc9e75b60ad5af1897670ef34"
+  },
+  {
+    "path": "new-site/assets/catalog/23e0da70f894107b.webp",
+    "bytes": 93472,
+    "sha256": "96a85e4e0efa684c4dfcd4838155292f245ea99cb4a2b835ac77af68d1835a0a"
+  },
+  {
+    "path": "new-site/assets/catalog/2419821c5dabf073.webp",
+    "bytes": 102290,
+    "sha256": "89f27aaeeb517bd279f7be8fbab9fc7573c34d9ba3dd717db5fcd2c87e2ba5fe"
+  },
+  {
+    "path": "new-site/assets/catalog/2467f08a9341bb16.webp",
+    "bytes": 41528,
+    "sha256": "b1354618e28f570ff2a634bfbce0ed1499b46a428815cededcc964db4e728437"
+  },
+  {
+    "path": "new-site/assets/catalog/246c9685a473651d.webp",
+    "bytes": 68928,
+    "sha256": "bea71be1efad4d8d4fb5e26c60fd31081c2992956a6f4c77be463aa4e2973395"
+  },
+  {
+    "path": "new-site/assets/catalog/2759fa08153e3d4e.webp",
+    "bytes": 106326,
+    "sha256": "8c0bfadc89eea65bd4a71f2b1a79180ba48e6dfb696a230a87deb8129d1f4a6e"
+  },
+  {
+    "path": "new-site/assets/catalog/28252d5cdfabb971.webp",
+    "bytes": 10752,
+    "sha256": "75f973796e00a227a4f94db262ff59febd9e568bf7c3b95045cc716bd6977f3a"
+  },
+  {
+    "path": "new-site/assets/catalog/29490ad3455316ae.webp",
+    "bytes": 23544,
+    "sha256": "ccb6722d3af69894cd68c0b10053fae2cee705ff802376d30b7e414d3b151d77"
+  },
+  {
+    "path": "new-site/assets/catalog/298a1142c6b86bc2.webp",
+    "bytes": 53648,
+    "sha256": "16a0d717175be8e758569d1b17d1417c182d27ab375f8661a8dc77d049670235"
+  },
+  {
+    "path": "new-site/assets/catalog/29d1654dd72c69f3.webp",
+    "bytes": 62498,
+    "sha256": "0065789411ed14419f3607246b546b88324c685711592001571cafe43ecc2d4c"
+  },
+  {
+    "path": "new-site/assets/catalog/2a4566b5f755e94f.webp",
+    "bytes": 93176,
+    "sha256": "7c50052dd54af0e23431f148d3dcac66e0be2f15005c484fe6c956ea585e9e21"
+  },
+  {
+    "path": "new-site/assets/catalog/2a61070ab8f5b9b1.webp",
+    "bytes": 40718,
+    "sha256": "146c601d50e871ea6b7630f9e85675274fe8f271095d31fae999b344f7dbbf7c"
+  },
+  {
+    "path": "new-site/assets/catalog/2aaf0ff7335be1e5.webp",
+    "bytes": 25292,
+    "sha256": "cc3d300e4d8c3c78dcd465314f9c2c3e016f3f43c19eaaf5e67c88fea5efaccf"
+  },
+  {
+    "path": "new-site/assets/catalog/2ba5819006515241.webp",
+    "bytes": 27136,
+    "sha256": "b967037410bafda5fca4d2c500c404f57c4fce3621bb811e70439e6e64748392"
+  },
+  {
+    "path": "new-site/assets/catalog/2bcbe0af18375fec.webp",
+    "bytes": 111124,
+    "sha256": "69b60dc55672d2c41c6437532ddbae0dadf3ac7795dc93210c978bcf172c0eed"
+  },
+  {
+    "path": "new-site/assets/catalog/2be9b3f26fbc8c3c.webp",
+    "bytes": 18898,
+    "sha256": "35a301164023f99ad257f4f1eab28bf64c831cf7ba394facee9c0380ef9e568c"
+  },
+  {
+    "path": "new-site/assets/catalog/2d8b5512f40d317c.webp",
+    "bytes": 4622,
+    "sha256": "7ab96d90cab84673953b5cd377cdbc3ab06dc0e19f3c7b32675572bda9fd0a12"
+  },
+  {
+    "path": "new-site/assets/catalog/2da5f00387acb279.webp",
+    "bytes": 53016,
+    "sha256": "0fbebd93f1e9ec89f0cfa1e07a316de092f69c56e762fd277ea285cf34c3e6b5"
+  },
+  {
+    "path": "new-site/assets/catalog/2f2325cc9eef615f.webp",
+    "bytes": 24270,
+    "sha256": "9947816d446b605206d4c18816b6ab8ff79199f805557d01ae14cd68db92cd5d"
+  },
+  {
+    "path": "new-site/assets/catalog/2f2fd4e91d0ccd34.webp",
+    "bytes": 22330,
+    "sha256": "676140d6869c7d4804083215ab6a2dcc6beaddcc20ae5d3db4f1a4bc8755b5a0"
+  },
+  {
+    "path": "new-site/assets/catalog/30c4db7cdf12ab08.webp",
+    "bytes": 67174,
+    "sha256": "92890dcd882327fb54128a24d1033b5a5eb087ffcf738e7ab611f587e3086f4a"
+  },
+  {
+    "path": "new-site/assets/catalog/30da18b063245974.webp",
+    "bytes": 19002,
+    "sha256": "0b6a439e68fd3094a6b676f37308610eb6b758cee0a1d54881b2a8764390b6f8"
+  },
+  {
+    "path": "new-site/assets/catalog/322133e670e71cd2.webp",
+    "bytes": 115752,
+    "sha256": "a81e4147922bde85361171d10f0a71a45c68cd51ee80674ed904cb2b607600c9"
+  },
+  {
+    "path": "new-site/assets/catalog/32b3e3711a82f516.webp",
+    "bytes": 21112,
+    "sha256": "cd7924d5c26f02fc85bf230bb7caf3ef099ff55b467fa0a9041f7027a792f1d1"
+  },
+  {
+    "path": "new-site/assets/catalog/32ba5c5b938c00bc.webp",
+    "bytes": 102492,
+    "sha256": "13ad04147bb02eeb77b91bf2db6b4c0bf2391f6df0c714e0d44e7763926df3e3"
+  },
+  {
+    "path": "new-site/assets/catalog/386c6afce55ac1d6.webp",
+    "bytes": 20736,
+    "sha256": "1f4529dd275362a68d86d74bf89abb101b8d571f53a1bba403b3458bda8caad3"
+  },
+  {
+    "path": "new-site/assets/catalog/386e5162e48c24e7.webp",
+    "bytes": 41518,
+    "sha256": "24bc947de5debb3029370a7ab2a08661159f37be2e07d59863e5c6f5913e38b3"
+  },
+  {
+    "path": "new-site/assets/catalog/39f0b3c77db2c6ca.webp",
+    "bytes": 27800,
+    "sha256": "9baef89311c80b74214bfad0ccebedae60e1d7d91d5eae1c0afcc4558fb82f5d"
+  },
+  {
+    "path": "new-site/assets/catalog/3b1388cbd3efd4f1.webp",
+    "bytes": 3726,
+    "sha256": "5763ba42cc186013a44de2a531d4655f1ff62004b49ebd9b4e50eaf63ef532c9"
+  },
+  {
+    "path": "new-site/assets/catalog/3dbd1ecb49f8f327.webp",
+    "bytes": 46172,
+    "sha256": "9668e68d7d03fbbd3266e724d420b20ed511de958654ae89e8a9cecd610e5dc5"
+  },
+  {
+    "path": "new-site/assets/catalog/3e3a36038d471cae.webp",
+    "bytes": 45684,
+    "sha256": "922eeaf48a7837c6669e0526e6549d552ca48f703680660092da2944c4c07ea7"
+  },
+  {
+    "path": "new-site/assets/catalog/3f9458f473a4727b.webp",
+    "bytes": 12420,
+    "sha256": "0ac029e69c9139e16d187b648104fd313c5c24e5747b1dd8ff6e321161d0c372"
+  },
+  {
+    "path": "new-site/assets/catalog/41ed2a09c0ccefd6.webp",
+    "bytes": 36972,
+    "sha256": "650ba8d03e3768cc8054b449c55044d15b990982535028a5e6eda96a89b1a445"
+  },
+  {
+    "path": "new-site/assets/catalog/42e5abad35b443fc.webp",
+    "bytes": 9938,
+    "sha256": "7ef2f9acf55ff02fda5765dbe8f097be0db6244205f6cf1accbe2d3535efe00a"
+  },
+  {
+    "path": "new-site/assets/catalog/4502d4d9c09ba7c4.webp",
+    "bytes": 27486,
+    "sha256": "fb85f27042123bf2674c21f99c077d7ba5c0439f785a85ea5499c97c3290c8f9"
+  },
+  {
+    "path": "new-site/assets/catalog/4550e5afb691f2cc.webp",
+    "bytes": 24722,
+    "sha256": "89eb5da1c0ec0e6caabbe336eed51638d4c1b779b81e3e45cc84cb877b31dc2b"
+  },
+  {
+    "path": "new-site/assets/catalog/45eba400c5bc0b83.webp",
+    "bytes": 34776,
+    "sha256": "179e8590e24e54ec53667f9bfa757762f1474078223fbd9571261e32c78db258"
+  },
+  {
+    "path": "new-site/assets/catalog/47aaec3cb5b3d045.webp",
+    "bytes": 16966,
+    "sha256": "3dca149e05549ce5aca03dabfb90a89e77a0e8b58bbf887e4863fb05d4e3d6fd"
+  },
+  {
+    "path": "new-site/assets/catalog/47e79c80ef043e73.webp",
+    "bytes": 30902,
+    "sha256": "8f5592bdc8b0d11994469202290707d42e2758af5eecfb480717d9570f0772b9"
+  },
+  {
+    "path": "new-site/assets/catalog/48406a107f1acf99.webp",
+    "bytes": 9354,
+    "sha256": "b2847183fa71466e260d49c183a4e1983360c111ecfb6ebf318db99461a2aa09"
+  },
+  {
+    "path": "new-site/assets/catalog/48ac8caf89bb02c8.webp",
+    "bytes": 61800,
+    "sha256": "460b8348979186c40112b7c5bda3fb97ee171b1c452fce95c3f70b99d4b6b018"
+  },
+  {
+    "path": "new-site/assets/catalog/4b36ecb2a94a139b.webp",
+    "bytes": 17576,
+    "sha256": "311db695002b852e6c30f3dd044c472cf8f8a712a81e7b09aa8bda28bc60e4bc"
+  },
+  {
+    "path": "new-site/assets/catalog/4e00c173e3d1ee05.webp",
+    "bytes": 11316,
+    "sha256": "fcd85cf729c4d61d1c0a51c527aef131c635a02abc6247126592a78705037d93"
+  },
+  {
+    "path": "new-site/assets/catalog/4e5bc64f1cb18813.webp",
+    "bytes": 10820,
+    "sha256": "f5464f90260b16d21d8616728d042229c97dab7731627c5d6b52d3cf6e2698f2"
+  },
+  {
+    "path": "new-site/assets/catalog/5034eeca57841ab6.webp",
+    "bytes": 3374,
+    "sha256": "1c87eb49e8ff1144c5ea79da4e69aabd572076a9da69b6eaf4898874b6e8c6f1"
+  },
+  {
+    "path": "new-site/assets/catalog/51ab1a8c95c949a5.webp",
+    "bytes": 30190,
+    "sha256": "9e7ad0ff8c80102a49260c08c9e7f4824e1886b1bf773f74c72b9782a7a31f4c"
+  },
+  {
+    "path": "new-site/assets/catalog/52ab74703e28b3f7.webp",
+    "bytes": 24678,
+    "sha256": "55fff835bcb85f1ced64117d3b46802272ac0f3c40c7375d212428ce179c8f06"
+  },
+  {
+    "path": "new-site/assets/catalog/53a04962d694ff2f.webp",
+    "bytes": 116348,
+    "sha256": "6f4f774d896ed847cc51c17c4f1cc9b2663f0b24127d3cd396bbe34711db0efe"
+  },
+  {
+    "path": "new-site/assets/catalog/5496aefa1ecabf6a.webp",
+    "bytes": 5204,
+    "sha256": "96cd66a9a459a751bb272645c2599699727b5a8cd6c96696521449196b1a7fe1"
+  },
+  {
+    "path": "new-site/assets/catalog/54bf179ca0ecb6b0.webp",
+    "bytes": 14248,
+    "sha256": "6aea40a177148fa5616a0977969d5692e4b32fef9bea8da60688004a0e888295"
+  },
+  {
+    "path": "new-site/assets/catalog/5605770f8b500113.webp",
+    "bytes": 42740,
+    "sha256": "642f734d458d6356a1ad441d12eb0f3d45030c30df76cf7dd00ef2785f8f9c2a"
+  },
+  {
+    "path": "new-site/assets/catalog/56f85f1c6aebc8d6.webp",
+    "bytes": 19548,
+    "sha256": "339cb7bae922e2bb6ec115cb3fa8bbc64fcd6c5a67a546b1a9bc9e065946f36c"
+  },
+  {
+    "path": "new-site/assets/catalog/57284515811fdbfc.webp",
+    "bytes": 26424,
+    "sha256": "f2848fe5e84f272e7708d7f5788f70bc626b5b279286767322adbc23c522ee91"
+  },
+  {
+    "path": "new-site/assets/catalog/5832c3704acc9b93.webp",
+    "bytes": 10258,
+    "sha256": "c7f7c1a1cc14acc11c30ad8caad858646dd34b67f87c6bed8c3944eeed9e877c"
+  },
+  {
+    "path": "new-site/assets/catalog/5890248f314f06fc.webp",
+    "bytes": 8280,
+    "sha256": "1a7f4f0ba9e5ee129cd87d0faf390d1da966d24d328fcc8c564f8a7b09f7d011"
+  },
+  {
+    "path": "new-site/assets/catalog/591c0c705135cf5e.webp",
+    "bytes": 60574,
+    "sha256": "7a57b35d946a822eb9c17e19189f2dc3085ec68906e5fed4a66e0b37d1cc9714"
+  },
+  {
+    "path": "new-site/assets/catalog/594efd268a51779a.webp",
+    "bytes": 27330,
+    "sha256": "a29bf50c10047059584575cb6f2dec1255918afda8042a6e429cd1d86c5ae975"
+  },
+  {
+    "path": "new-site/assets/catalog/5b173e870ab7d900.webp",
+    "bytes": 81782,
+    "sha256": "101f8b944c7a5d58d0a3cd7363e5ff8ab1daa5b7615a3ed218c3f7f72f2899c0"
+  },
+  {
+    "path": "new-site/assets/catalog/5b9331ff1f37ddda.webp",
+    "bytes": 86454,
+    "sha256": "061afcaa9448e9ad489deb02824d766371047ee70b1f32e3a7cde0c7254f72e5"
+  },
+  {
+    "path": "new-site/assets/catalog/604068c514852622.webp",
+    "bytes": 102492,
+    "sha256": "13ad04147bb02eeb77b91bf2db6b4c0bf2391f6df0c714e0d44e7763926df3e3"
+  },
+  {
+    "path": "new-site/assets/catalog/642ef81c03e01b55.webp",
+    "bytes": 36912,
+    "sha256": "0a76a3b47882d38e17d0afb08d45970192f490a400457b8d6f98dcd87871985e"
+  },
+  {
+    "path": "new-site/assets/catalog/66d153179c46f14e.webp",
+    "bytes": 25964,
+    "sha256": "cc202df4347642a59f16e3785374a495632f0dd303412928e6c8caa6869ac21b"
+  },
+  {
+    "path": "new-site/assets/catalog/6725798328c1055f.webp",
+    "bytes": 11360,
+    "sha256": "31331fcb4a23e7538c1687df5419e6e8670c04f9b6c4b29f91416bcb7ab1655b"
+  },
+  {
+    "path": "new-site/assets/catalog/673f73d6d0b8bdb5.webp",
+    "bytes": 21304,
+    "sha256": "756319134f4835fcc89254dbc9c16590f9c828d257637bee516dc5b5712a31f0"
+  },
+  {
+    "path": "new-site/assets/catalog/688325efc4d53480.webp",
+    "bytes": 27972,
+    "sha256": "33c4cc7b1d87adf9b6658401a2a37c76257e2ffcd0e939cd8e3c0ef6425566e5"
+  },
+  {
+    "path": "new-site/assets/catalog/696571fb25d7b667.webp",
+    "bytes": 25780,
+    "sha256": "52ea250055d9f443533b29a4fe29524327dd07a794a1f267d21bfb1180856e94"
+  },
+  {
+    "path": "new-site/assets/catalog/6c59715ab3dd03ea.webp",
+    "bytes": 30418,
+    "sha256": "6589f9204a6fe9182c56ee6af8f70ef90a2fbdb9a0eea720297c05de9bc8ba7b"
+  },
+  {
+    "path": "new-site/assets/catalog/6cacb75874feaa06.webp",
+    "bytes": 38780,
+    "sha256": "3c319b424c040c65d90548794bf20d1f669bf04ffca57fc78416f36340af4ef4"
+  },
+  {
+    "path": "new-site/assets/catalog/6d20e74b0630aee9.webp",
+    "bytes": 39028,
+    "sha256": "01bbe20f2fc8cd21f01234c3ed7e5f8d63af55565f69ff60f66656b3424e3295"
+  },
+  {
+    "path": "new-site/assets/catalog/6ec2bf59166d8b02.webp",
+    "bytes": 62654,
+    "sha256": "975bb965281bd138fd201d4eff4a7bd3a19977d2a960fe9d7f287cd0d64ae095"
+  },
+  {
+    "path": "new-site/assets/catalog/6fba4b2a4e3e2be1.webp",
+    "bytes": 99332,
+    "sha256": "654b2f2084879ba05f98236c426990b2f8f0082bbc16c9b2cf44fe04e2878ca2"
+  },
+  {
+    "path": "new-site/assets/catalog/708de0694446cc0d.webp",
+    "bytes": 27034,
+    "sha256": "94fe92f9ef0cc1a64e450b0f109ccf12e06dd1c2e03fd206fa103dd08b6716f0"
+  },
+  {
+    "path": "new-site/assets/catalog/70b95cf8b782bd82.webp",
+    "bytes": 22044,
+    "sha256": "da43fccd789f57e984d57c04ef9629891da8accd5a28a7db8cc842e7f6d29483"
+  },
+  {
+    "path": "new-site/assets/catalog/71e0e663b23c56fa.webp",
+    "bytes": 39796,
+    "sha256": "ecf1718bbaf219fdce39d3fb375e0300b278d18ab99ee04a7248815e453662aa"
+  },
+  {
+    "path": "new-site/assets/catalog/747eb63769cfc4d5.webp",
+    "bytes": 18938,
+    "sha256": "edf5e809e5028f501f0f29f60df38404a9af584db8d2c82985847662f64ab4dc"
+  },
+  {
+    "path": "new-site/assets/catalog/74d487c05417e888.webp",
+    "bytes": 102492,
+    "sha256": "13ad04147bb02eeb77b91bf2db6b4c0bf2391f6df0c714e0d44e7763926df3e3"
+  },
+  {
+    "path": "new-site/assets/catalog/767a6be2c2540aef.webp",
+    "bytes": 10258,
+    "sha256": "c7f7c1a1cc14acc11c30ad8caad858646dd34b67f87c6bed8c3944eeed9e877c"
+  },
+  {
+    "path": "new-site/assets/catalog/78d8e8f756806921.webp",
+    "bytes": 15834,
+    "sha256": "c4fa7c1bebbdff34355c589caca1d166932859a47634b3c0059fe44fa8093544"
+  },
+  {
+    "path": "new-site/assets/catalog/792287665e425f3d.webp",
+    "bytes": 48500,
+    "sha256": "2627d609214196d417b8d24483297c840fc715dafeb71b46af157e59a4c4c04d"
+  },
+  {
+    "path": "new-site/assets/catalog/796be30c1b83f0a6.webp",
+    "bytes": 7706,
+    "sha256": "5c5581540eb8c6ddde8e23e0cebe18dc677c512003113cd0932e5e800e219a72"
+  },
+  {
+    "path": "new-site/assets/catalog/7b2c6fd98b8fe3c0.webp",
+    "bytes": 23020,
+    "sha256": "9bab5cad798408dcd9070c69b03bb98e7635e2571a25f97664647d9e27460dc4"
+  },
+  {
+    "path": "new-site/assets/catalog/7b9127fcb30baa10.webp",
+    "bytes": 24808,
+    "sha256": "ef17f1982af44679c84f6cc46b82f1d8a8734ae6545b0e3e81dc5ef1534b4774"
+  },
+  {
+    "path": "new-site/assets/catalog/7b960c55624ca2b7.webp",
+    "bytes": 4958,
+    "sha256": "e0e0bea821d7dfb185573c1d73edc32af2b67a11ab1cf869a6869c3f6ce137ba"
+  },
+  {
+    "path": "new-site/assets/catalog/7da7a201695c86bb.webp",
+    "bytes": 30988,
+    "sha256": "9b132d1de1ab704967a91f282ed216666b847aedfe6afdee8dfd74972451f5f6"
+  },
+  {
+    "path": "new-site/assets/catalog/81027507c9650873.webp",
+    "bytes": 85256,
+    "sha256": "4a6d312bcca796e10e17836b35cbfbf850407a6409d9f1e139a3cfbba193c9ea"
+  },
+  {
+    "path": "new-site/assets/catalog/8278a1076d1b85a4.webp",
+    "bytes": 28628,
+    "sha256": "51c30c2804542d70ef13c68be8bffa54713f4667321c7c23f92c7f7f4b968cf8"
+  },
+  {
+    "path": "new-site/assets/catalog/82b382a9d5425276.webp",
+    "bytes": 135830,
+    "sha256": "cfdf081eb90bd1c10dfa9c04eff5a5272ba8a71ed4d70cd2a38dbd55be4c37d6"
+  },
+  {
+    "path": "new-site/assets/catalog/83f7a7bcb79d266f.webp",
+    "bytes": 10622,
+    "sha256": "1d5a389c66d5634d2fd430024334c67555c8c1dc47c528fdbc9ef527e5839a95"
+  },
+  {
+    "path": "new-site/assets/catalog/846c623718df2423.webp",
+    "bytes": 24568,
+    "sha256": "809dab3c0a0023db174135485ef0b68195cb4573238a465ff5a813d677674914"
+  },
+  {
+    "path": "new-site/assets/catalog/86936d34511c2b5d.webp",
+    "bytes": 76500,
+    "sha256": "1dfb402bfadb56f5fa5dff1e47c722c2bf33e88021155fb102c2e12f01582270"
+  },
+  {
+    "path": "new-site/assets/catalog/882a631630945cc9.webp",
+    "bytes": 29070,
+    "sha256": "417ee8be5ac58358ab50e0c3a44162c27a274082204c45660e1c0f01516d83c2"
+  },
+  {
+    "path": "new-site/assets/catalog/89dff5ad2aabec83.webp",
+    "bytes": 25734,
+    "sha256": "666174841436633071a53c4eba208f7904dac9c36f30cb9fc4b4afc2c3fd9ca4"
+  },
+  {
+    "path": "new-site/assets/catalog/8eeb2e40ac93cc71.webp",
+    "bytes": 12752,
+    "sha256": "d74639c1d495d33c62f41cce733b02c2aeed835ba9acbe46b7253dd8f1dc653b"
+  },
+  {
+    "path": "new-site/assets/catalog/8f44f3dec61ac790.webp",
+    "bytes": 33540,
+    "sha256": "e2d86a10af95c0cd235d38a5b062f29dd587a6a2b15a78c11d22ab7a9e1fa81b"
+  },
+  {
+    "path": "new-site/assets/catalog/8f6cde6b58578be5.webp",
+    "bytes": 26378,
+    "sha256": "896b82bf0d788bd2fea44d6e7413c856996fc0fd9e94e42893e1991d9ef8271f"
+  },
+  {
+    "path": "new-site/assets/catalog/916c20dd5bf15ff1.webp",
+    "bytes": 30122,
+    "sha256": "8fc2956b517d4ce7d93eaa67425664ebc9dfc81769ce7e8d96e5fa570454797c"
+  },
+  {
+    "path": "new-site/assets/catalog/92c3b2cff97aceb3.webp",
+    "bytes": 7162,
+    "sha256": "be497377edc12bd40a5a64fd7678e11b8858efa429ae7af75a76d0bd6d04f9ff"
+  },
+  {
+    "path": "new-site/assets/catalog/9438290b0d145da9.webp",
+    "bytes": 15448,
+    "sha256": "084c719771d4e3bd06a5c6c4cf8df6d229fc2ec095e90cc8499ca2bc2835afd8"
+  },
+  {
+    "path": "new-site/assets/catalog/94defd8b77367d58.webp",
+    "bytes": 31978,
+    "sha256": "9f6b16da84dd8c53430c0264d954a77384483ef0addc140d67fdffa7371827f0"
+  },
+  {
+    "path": "new-site/assets/catalog/96f7a64e82e24a7f.webp",
+    "bytes": 13990,
+    "sha256": "121ff873f6176baa98213d14c74a2912e71e62f39a7b547d706199795c91f280"
+  },
+  {
+    "path": "new-site/assets/catalog/97af093cefc888da.webp",
+    "bytes": 18936,
+    "sha256": "d0e14d18f02fb35e981760a86e61dee600d3ed9591f0985518bd6a44591e5db1"
+  },
+  {
+    "path": "new-site/assets/catalog/98de853f8fdb1397.webp",
+    "bytes": 40564,
+    "sha256": "1504ccba9bd49767f9cd322cf8a7d21e8c369bf35e77b029df75866d18b26e38"
+  },
+  {
+    "path": "new-site/assets/catalog/9aa7b8933e308643.webp",
+    "bytes": 177116,
+    "sha256": "01f952d1bbe8072a673efd2476eddc095d713cca2ad3a3eb60519533aeb1be8c"
+  },
+  {
+    "path": "new-site/assets/catalog/9ac1ff7f06a85c1b.webp",
+    "bytes": 22492,
+    "sha256": "29869a4dd20b753a963c5afd0ef0ba1f35dddd457b631901e88eb7b378382b52"
+  },
+  {
+    "path": "new-site/assets/catalog/9af5ed4d2dfd6abc.webp",
+    "bytes": 20602,
+    "sha256": "8b5719dcb06e01b37e5ba8f207d196187ad79722d150c0ce0aebd7acaf437705"
+  },
+  {
+    "path": "new-site/assets/catalog/9e3331958d5816cb.webp",
+    "bytes": 13252,
+    "sha256": "dc376d38f8ae53677b8ff83b9016150cc8c11a497f989692edbb64f7fbd81552"
+  },
+  {
+    "path": "new-site/assets/catalog/9f4a20047a8be442.webp",
+    "bytes": 24314,
+    "sha256": "69512cb72fb28e24c4b82656508bf76b3f12b67004f1f0431800cff47c0f7701"
+  },
+  {
+    "path": "new-site/assets/catalog/a229f9e634f572b1.webp",
+    "bytes": 78500,
+    "sha256": "a2a3645dae3d904f90f3c721319646f7cde4d8ef3f8735c6f9faa97f75137504"
+  },
+  {
+    "path": "new-site/assets/catalog/a29ffacf02e4e522.webp",
+    "bytes": 16492,
+    "sha256": "8ab3a1d57062bc9c18f2284ab732b1708babb85feb8d33a5d0448b18ea2c7916"
+  },
+  {
+    "path": "new-site/assets/catalog/a4b9976db2aaf0b7.webp",
+    "bytes": 16814,
+    "sha256": "6583dfb829acbee8466d2c21954f06091c9441af796c54835e57607d54420de5"
+  },
+  {
+    "path": "new-site/assets/catalog/a61eca3ea602d77b.webp",
+    "bytes": 33462,
+    "sha256": "d8b7a5d16f15a24b8ce3f93ae58131cb90cbe9e8b98b2d25ffe45d46b5c87ccc"
+  },
+  {
+    "path": "new-site/assets/catalog/a627aa5ffb252ff1.webp",
+    "bytes": 24890,
+    "sha256": "fca2baa056a6628b37c0b4fc865e0dd7ab29d6e42b4c7b97d0a2184f6c08edf1"
+  },
+  {
+    "path": "new-site/assets/catalog/a654282c9b839f82.webp",
+    "bytes": 14994,
+    "sha256": "25322ad161a641761e4a2331f9c07ec924e29525a510ff7a2850a34bd9ad4905"
+  },
+  {
+    "path": "new-site/assets/catalog/aa7701b28cf7765e.webp",
+    "bytes": 54722,
+    "sha256": "9f1f3e1025a420e020e1917d5982baa8f8d6b5d76d7e369fd4ee13d2c7330f0c"
+  },
+  {
+    "path": "new-site/assets/catalog/aaef180eb9728eb7.webp",
+    "bytes": 24146,
+    "sha256": "7d718b3372d37b65bcb53fe9ee005d06dbd515afa826724c2b51202783da9511"
+  },
+  {
+    "path": "new-site/assets/catalog/ab552b16f45f9c92.webp",
+    "bytes": 11090,
+    "sha256": "fc9d10bc4fc3d0ccea4ed15fb8b6e498ed9aefa86da2262b3d0ccfca731b1683"
+  },
+  {
+    "path": "new-site/assets/catalog/ad0e02e6e4733301.webp",
+    "bytes": 34896,
+    "sha256": "40456cfc2a044f534a5b37af6133aeb881e633fa111c7ae156e1bdbdf3bf84f0"
+  },
+  {
+    "path": "new-site/assets/catalog/ad5a591db30f4fe9.webp",
+    "bytes": 22908,
+    "sha256": "9c7de8a67ced67b8840abd60aec0c5b006f65111df448d0f0afb73f531d312f8"
+  },
+  {
+    "path": "new-site/assets/catalog/aead3b6d73c606bc.webp",
+    "bytes": 26578,
+    "sha256": "3edd0fe6a64f733b30633d54354db6a99464531b2adb1b140743556139766f7a"
+  },
+  {
+    "path": "new-site/assets/catalog/af63cea76a7d5261.webp",
+    "bytes": 52478,
+    "sha256": "ae5d26124e26073fe40cfe5dd95199610d6db97d9113feffb82088fc4b953c47"
+  },
+  {
+    "path": "new-site/assets/catalog/b3342431fa8fef0b.webp",
+    "bytes": 22908,
+    "sha256": "9c7de8a67ced67b8840abd60aec0c5b006f65111df448d0f0afb73f531d312f8"
+  },
+  {
+    "path": "new-site/assets/catalog/b55cee790990964c.webp",
+    "bytes": 45316,
+    "sha256": "6e1c8bf6a2ff6e7755f42e795fc3b64cd6f9c282403a59b9c373a79dd5a136b4"
+  },
+  {
+    "path": "new-site/assets/catalog/b76eab60266cc911.webp",
+    "bytes": 33544,
+    "sha256": "54548920ec97803d51f9c0ae7d0e520e54a63161424a11fd9af75d54b4d5f69f"
+  },
+  {
+    "path": "new-site/assets/catalog/b776fc506b8ed62f.webp",
+    "bytes": 53860,
+    "sha256": "13b0d6e87fda1f3afc297fb090607b4f22fbf961a8ee45a4c4329c757c658f06"
+  },
+  {
+    "path": "new-site/assets/catalog/b8079ecd4d920b01.webp",
+    "bytes": 31512,
+    "sha256": "df899c3a4fadd9c5b5610d2a0ae443be4ea53f9ee9c65fec774d6f50fa0f5bc7"
+  },
+  {
+    "path": "new-site/assets/catalog/b95d97f32f1ade91.webp",
+    "bytes": 7706,
+    "sha256": "5c5581540eb8c6ddde8e23e0cebe18dc677c512003113cd0932e5e800e219a72"
+  },
+  {
+    "path": "new-site/assets/catalog/b9e1e85aec7b1750.webp",
+    "bytes": 24136,
+    "sha256": "f6a650151170b69edeff86a9e0ecf28f90399bff9cbf5671a105f9c77ea861dd"
+  },
+  {
+    "path": "new-site/assets/catalog/ba12ef5d93c2ca7c.webp",
+    "bytes": 45826,
+    "sha256": "a1b5a55c94fa7d45287b21312aa55ca3e682d77526da74f0165f867b01ea3828"
+  },
+  {
+    "path": "new-site/assets/catalog/bba66ef76493d817.webp",
+    "bytes": 13344,
+    "sha256": "dcda3f48b71e8a06033f0a33b3960e46fb0c062bfacfa63f14b42ef230257341"
+  },
+  {
+    "path": "new-site/assets/catalog/bcc8ce40bfd9ef54.webp",
+    "bytes": 12960,
+    "sha256": "f1703f8a2f76d154b23ee0b657e1304b10f1b87f45833c0a3ff419a40d3b88b0"
+  },
+  {
+    "path": "new-site/assets/catalog/bdcdcf373a6b2527.webp",
+    "bytes": 21458,
+    "sha256": "9e1df1f192624a4e9d0c25c3f63c0da734678365f78702029c2aac621169d08f"
+  },
+  {
+    "path": "new-site/assets/catalog/c355f95d81076b33.webp",
+    "bytes": 13326,
+    "sha256": "733f9c4d5ca61d653311f6c4505451a27f9097718c99c31d0e046c1a04709675"
+  },
+  {
+    "path": "new-site/assets/catalog/c3913b293c798d4d.webp",
+    "bytes": 26244,
+    "sha256": "a10a908d142d08f83e8190ea66f88ac3beb37dadb1e51eaf3f0178b650e7fa06"
+  },
+  {
+    "path": "new-site/assets/catalog/c4cb6f165532fc64.webp",
+    "bytes": 3726,
+    "sha256": "5763ba42cc186013a44de2a531d4655f1ff62004b49ebd9b4e50eaf63ef532c9"
+  },
+  {
+    "path": "new-site/assets/catalog/c812f7f38d430c8d.webp",
+    "bytes": 33046,
+    "sha256": "b6a0a8d6fc400b3bd26a999d54f1271595cd4b6ba062fb96181f2a8073e1e176"
+  },
+  {
+    "path": "new-site/assets/catalog/c9ba731d553f6a41.webp",
+    "bytes": 115308,
+    "sha256": "6dce42f70376a86790d52172272c0a880ade9a49fb6fe243c2619341808e34b4"
+  },
+  {
+    "path": "new-site/assets/catalog/cbdaadf85b0eee18.webp",
+    "bytes": 28924,
+    "sha256": "42eb214931534222142d1b06b066d0b356ca1cdf645c1f82e7f16d2c470134fe"
+  },
+  {
+    "path": "new-site/assets/catalog/cc47bcfe4e2aca74.webp",
+    "bytes": 36172,
+    "sha256": "bc7eca8c5bf5aec60e459e81de67025e996ed513c9368f0cc27b1dbf8e0514f4"
+  },
+  {
+    "path": "new-site/assets/catalog/cc89ddd87bc27bcc.webp",
+    "bytes": 53772,
+    "sha256": "8de4d82a540eaccff3353ad160b213021f4a2f092902d50a22ea8a5c11721bbe"
+  },
+  {
+    "path": "new-site/assets/catalog/cd139d0d1e8a6398.webp",
+    "bytes": 30204,
+    "sha256": "bd7d6f1e54eeed41198065b7ce170e66845e853043e13cff79df3c2e1413fd1d"
+  },
+  {
+    "path": "new-site/assets/catalog/cd2a28acfa720c5d.webp",
+    "bytes": 7558,
+    "sha256": "bc724965e400e328734b86628bb8c3c0e2df8105e87e1535553ace7106263a8e"
+  },
+  {
+    "path": "new-site/assets/catalog/ce16ec4e4abbd0a5.webp",
+    "bytes": 41134,
+    "sha256": "96e3bc919613390a389e3cb6929f62d816769c275429543eee89a919f74d8c5e"
+  },
+  {
+    "path": "new-site/assets/catalog/d275ae916369b37c.webp",
+    "bytes": 22640,
+    "sha256": "591e27d85588a3f0b8800522da44721bff33c9144beabdf806acf5008d974a34"
+  },
+  {
+    "path": "new-site/assets/catalog/d2e801c32575c331.webp",
+    "bytes": 41910,
+    "sha256": "eef3b5f9af6fd560e3fce2ae88aa31fd23e7365c98480b11f86ec5e4777c3142"
+  },
+  {
+    "path": "new-site/assets/catalog/d3c44b474ad019e2.webp",
+    "bytes": 31060,
+    "sha256": "18f80bac11bad28dd6e0f1c09d4e66069a4667d2e6fe73836960935404b838ad"
+  },
+  {
+    "path": "new-site/assets/catalog/d43f3c9bd16b22a8.webp",
+    "bytes": 31270,
+    "sha256": "339450b42cd40797292346a6be59bb16c497abf23c2acd149fe5653dfcc350be"
+  },
+  {
+    "path": "new-site/assets/catalog/d56332bb16a8ca3d.webp",
+    "bytes": 10622,
+    "sha256": "1d5a389c66d5634d2fd430024334c67555c8c1dc47c528fdbc9ef527e5839a95"
+  },
+  {
+    "path": "new-site/assets/catalog/d72562f5843e186f.webp",
+    "bytes": 78584,
+    "sha256": "d50201257b4814bd5fdf755d2a5a7420bf1fcd629d734b5b1d3744e23af789ac"
+  },
+  {
+    "path": "new-site/assets/catalog/d9e71c9596f35b81.webp",
+    "bytes": 24634,
+    "sha256": "6ab4961b2e30e1356c792c4e2d7f250e99758249e375cc7fda5a684986e7825a"
+  },
+  {
+    "path": "new-site/assets/catalog/e77e0892e1dd2ea6.webp",
+    "bytes": 60842,
+    "sha256": "f2178d7cbd13fbd81168eb4d2f5b350be87629ba2414b3822c3433b3d897336d"
+  },
+  {
+    "path": "new-site/assets/catalog/e838089dde9fc194.webp",
+    "bytes": 41268,
+    "sha256": "3e8c166c2dc87181b62f02fff4674fc5bed33c75798e964ea09ba3efff0a6241"
+  },
+  {
+    "path": "new-site/assets/catalog/e83deaf5ecc7004e.webp",
+    "bytes": 18698,
+    "sha256": "083f116cc88d6fcaa7249d6eb9a528bbc79ad108ef0815b1e14fe278e0f4d599"
+  },
+  {
+    "path": "new-site/assets/catalog/e90e2539ac827ecf.webp",
+    "bytes": 67438,
+    "sha256": "de09ade885b3f62eda82423dbc4239708652ed84cdace46a8e73895d4aa23b79"
+  },
+  {
+    "path": "new-site/assets/catalog/e91187f8b4f92204.webp",
+    "bytes": 36106,
+    "sha256": "fbd5e29eee4a0c94c21fc68e1f883e2d3dd220466ad30a22980ec0c94926ebfd"
+  },
+  {
+    "path": "new-site/assets/catalog/ea6f75364d222c6d.webp",
+    "bytes": 81102,
+    "sha256": "b54d567826e3944c4296ae6302015ff3e1b0312906a7442debc14ad828b4bdcf"
+  },
+  {
+    "path": "new-site/assets/catalog/eb05eb92ed42dab2.webp",
+    "bytes": 229826,
+    "sha256": "bccd88153291aac81f54951dbc572c7ca346a1fdbee9925405bcd52a0e9287f5"
+  },
+  {
+    "path": "new-site/assets/catalog/eb1ed888af0670b3.webp",
+    "bytes": 23846,
+    "sha256": "9b0c71fa0dc79da4f5c3fc21517c44d9ccf59d73eb6a6523b1cdaa345b23fad8"
+  },
+  {
+    "path": "new-site/assets/catalog/ec41bb5243aedef7.webp",
+    "bytes": 19292,
+    "sha256": "b398ec490a992420fb116fcb942f8eed4284efcd0f6ebb61192c37409e066bf7"
+  },
+  {
+    "path": "new-site/assets/catalog/ecb923e9db5d18f7.webp",
+    "bytes": 40676,
+    "sha256": "7f5fa932010c6da49e18e3dc048abe65a84e230f47b7cdbb5a6cecea934604ff"
+  },
+  {
+    "path": "new-site/assets/catalog/ed2bc7bdbd38340b.webp",
+    "bytes": 10010,
+    "sha256": "d807cce462cfc78ef8f338482c14c6ddbe1fac026aece1392f79a178371ff28f"
+  },
+  {
+    "path": "new-site/assets/catalog/eecebfba1b3fb012.webp",
+    "bytes": 19082,
+    "sha256": "658eb4cc87dec81052a2a524dced341f4cb5478d634073e39fd5ba3eda00287e"
+  },
+  {
+    "path": "new-site/assets/catalog/efbacf43940eb697.webp",
+    "bytes": 22044,
+    "sha256": "0cad4eb5621eb454954ba1c1d2946d24f864bcaf1862deb410c61d147980b0f2"
+  },
+  {
+    "path": "new-site/assets/catalog/f07eff793a92209e.webp",
+    "bytes": 91892,
+    "sha256": "3db3c3dfc573ced3ff88af6e1adc496dffbdfebd9b523c57b757b85beb384b49"
+  },
+  {
+    "path": "new-site/assets/catalog/f0d6e098523342fd.webp",
+    "bytes": 268446,
+    "sha256": "0b81301f69b4d8fc7551b0725013ca8e03a8c4e06d047dc380ca7cf1e292d648"
+  },
+  {
+    "path": "new-site/assets/catalog/f1d4877631effa87.webp",
+    "bytes": 31650,
+    "sha256": "d1c70e61dbd6005ab150236b46c049d539eb0b5823c434b25db5fa2f10a1aa68"
+  },
+  {
+    "path": "new-site/assets/catalog/f35de7bdd89b02a6.webp",
+    "bytes": 9714,
+    "sha256": "ca4d2ac96c5dbc433e0609372aea4cfc7c6c1f1f7ea596e388ad3c86627e7326"
+  },
+  {
+    "path": "new-site/assets/catalog/f36855d8af53a9cc.webp",
+    "bytes": 51684,
+    "sha256": "de8db6a55d932d9ae5656fcd93f57e422bf9b3e3bef3d635b528a401d35d705c"
+  },
+  {
+    "path": "new-site/assets/catalog/f48f57f345a48513.webp",
+    "bytes": 54700,
+    "sha256": "3ef58f0e3d8fe918937f12b6368377581eeb1383e64f88a9b964ca1eec14bbac"
+  },
+  {
+    "path": "new-site/assets/catalog/f4bb91b774e99216.webp",
+    "bytes": 126862,
+    "sha256": "163307b122fa39d42e5a6862b4768c4ff115dea06d7b9cd946814ba5b32c6fdd"
+  },
+  {
+    "path": "new-site/assets/catalog/f4c551993350ebdf.webp",
+    "bytes": 50810,
+    "sha256": "9ef4abae361a240abae830c422ee7abd23ff3c5fe1fd67713965e2be15b0c8e3"
+  },
+  {
+    "path": "new-site/assets/catalog/f55afb2054c840db.webp",
+    "bytes": 30892,
+    "sha256": "795e23595a622265508c1cb71da0f44e5e70c30c0e79a7abe1aa34ae55d7864a"
+  },
+  {
+    "path": "new-site/assets/catalog/f6434d9e38bd981b.webp",
+    "bytes": 74186,
+    "sha256": "b6f1a138f1076f539019b9ead46d66e20a9fdaefffa3664920921b0696702ebb"
+  },
+  {
+    "path": "new-site/assets/catalog/f71061ca160f138c.webp",
+    "bytes": 51408,
+    "sha256": "0ce8246ea6232076da4881876cf8d129f0124e97c26de3368b5bdee687501e69"
+  },
+  {
+    "path": "new-site/assets/catalog/f80e995c86164720.webp",
+    "bytes": 224976,
+    "sha256": "81520c38f1bcbbd37a5952a00077d025ba5729a45f883b944d24dd6d5c1875bd"
+  },
+  {
+    "path": "new-site/assets/catalog/fa238c42dc5d0130.webp",
+    "bytes": 38210,
+    "sha256": "68f0fe710b01b8bff51ca3ee20222f1a8307b04f01352f09e70ad318ccd8de43"
+  },
+  {
+    "path": "new-site/assets/catalog/fa4e7bc843e50da9.webp",
+    "bytes": 32478,
+    "sha256": "59e2a265959a8543fdf2bea6549e5c6ea3184364c7856992a7e7f1a233e5fb87"
+  },
+  {
+    "path": "new-site/assets/catalog/fcb72625e5ce4712.webp",
+    "bytes": 38430,
+    "sha256": "3036bdf2f655ee464301db227bd7e511979aa63bda11bb5ff938e06e299a0a03"
+  },
+  {
+    "path": "new-site/assets/catalog/fe173a0e8e21d9dd.webp",
+    "bytes": 13562,
+    "sha256": "857f71c68fd54d40048c9fc83b3fd4705354e0b7180a04378416dce4a1f6b3f5"
+  },
+  {
+    "path": "new-site/assets/catalog/feff580d8c68288e.webp",
+    "bytes": 32696,
+    "sha256": "da5354e622edd15f1c7dd261c2c6a58b2168941119c446c8042b09f006841079"
+  },
+  {
+    "path": "new-site/assets/catalog/ff48e541a0f75b57.webp",
+    "bytes": 28526,
+    "sha256": "f31188b57ebccdc2578dfab22432bab29c1c73a979e3d7439f41f9030dbda75c"
+  },
+  {
+    "path": "new-site/assets/catalog/ff52a484dfc05ee8.webp",
+    "bytes": 4052,
+    "sha256": "e01ed4a7d2dbf4afe714d8571a54daeaddf24c765cb1d7d13cdbc42378b2d5fc"
+  },
+  {
+    "path": "new-site/assets/category-guides-data.js",
+    "bytes": 10023,
+    "sha256": "b934c8fb662adea982e04bd72df56ec8fbe0da4ebd15b18034b86321d46af315"
+  },
+  {
+    "path": "new-site/assets/category-guides.css",
+    "bytes": 1843,
+    "sha256": "913775908bf4a8f94065cb6899b1ac882f2e0893bb49789a55e3da45327fd60a"
+  },
+  {
+    "path": "new-site/assets/category-previews/home-artists.webp",
+    "bytes": 48818,
+    "sha256": "1d5fb5dabfee2901137952726d4c0845984b1be9b490fb4fcb77e6ae0907d648"
+  },
+  {
+    "path": "new-site/assets/category-previews/home-exhibitions.webp",
+    "bytes": 55650,
+    "sha256": "73ef5de6f1aa8a5d0124a3a4d6a88be63016c93e8015e9b8537b5ce165254d7d"
+  },
+  {
+    "path": "new-site/assets/category-previews/home-interiors.webp",
+    "bytes": 50308,
+    "sha256": "2b1f278e997626464b79d8bcd7020ce46b4163963903ac24aac41325f802d6ab"
+  },
+  {
+    "path": "new-site/assets/category-previews/home-studio.webp",
+    "bytes": 53880,
+    "sha256": "b7df18f94f1f06404da5eb3c618b7bb9c831617fc2446bf775229ed0d16bd4a6"
+  },
+  {
+    "path": "new-site/assets/clapper-photo.png",
+    "bytes": 1726380,
+    "sha256": "81f8fd37353540766de4dc56b5f7c4132f832d7e40aa62904642a2ab173859bc"
+  },
+  {
+    "path": "new-site/assets/clapper-photo.webp",
+    "bytes": 17022,
+    "sha256": "b2298da1865d5fec815173a9fc982cd7ced10270460453519d7dd20699175171"
+  },
+  {
+    "path": "new-site/assets/clapper.svg",
+    "bytes": 617,
+    "sha256": "2b50da179d34251327ffca8ab48434f997881271890accb52e14094dda72c167"
+  },
+  {
+    "path": "new-site/assets/clients-data.js",
+    "bytes": 41594,
+    "sha256": "1ea95bf0e2f93513a82b59e8670fac4d0db88f4c512190e96e3d2b09fd45801e"
+  },
+  {
+    "path": "new-site/assets/clients.css",
+    "bytes": 5208,
+    "sha256": "ee7c8c4bfde50d52e914d26e2a86d194e0c84cd655cf72ba625049f7102c6738"
+  },
+  {
+    "path": "new-site/assets/clients/client-01.svg",
+    "bytes": 878,
+    "sha256": "1e1f5d6f9af2d6746f22bc07295f6529ac2f128020d8c78bb445302a5c6438da"
+  },
+  {
+    "path": "new-site/assets/clients/client-02.png",
+    "bytes": 21127,
+    "sha256": "48ba6e823a263a3bdc20ca96081dffab846b6c7f6df66ad3ac7ed8dd554cdf04"
+  },
+  {
+    "path": "new-site/assets/clients/client-03.svg",
+    "bytes": 101248,
+    "sha256": "81ea88c8aa138b9490dd6e60dcdbc28bc1f0fd04a77d06b60dea130b058ec227"
+  },
+  {
+    "path": "new-site/assets/clients/client-04.png",
+    "bytes": 11899,
+    "sha256": "392f8abf5342214da5c1a4c72de67e4a9f3908b83129609bd1a5df98ff1be150"
+  },
+  {
+    "path": "new-site/assets/clients/client-05.svg",
+    "bytes": 6776,
+    "sha256": "40efd62e58ec758a7addb6ce45b6480cff02eb5a159c64b9223712b1a8c3c0cd"
+  },
+  {
+    "path": "new-site/assets/clients/client-06.svg",
+    "bytes": 23945,
+    "sha256": "cf7c5534f9de7c022b7aeb80413d8621d545c540b8d038cc295451c8f758996a"
+  },
+  {
+    "path": "new-site/assets/clients/client-07.jpg",
+    "bytes": 12285,
+    "sha256": "7b4e6b62624e5edcde61e4156be17ebb47401500a15bd616f96e969d85ea4277"
+  },
+  {
+    "path": "new-site/assets/clients/client-08.png",
+    "bytes": 8349,
+    "sha256": "06529e8550186a191ce9f20dd4d1e8767e279025dd4d268c0d483c02cc06048b"
+  },
+  {
+    "path": "new-site/assets/clients/client-09.png",
+    "bytes": 6553,
+    "sha256": "0023b6be197900ee79f47dfa51dd55469d1fa21fda507d01ea5349b4d2641a10"
+  },
+  {
+    "path": "new-site/assets/clients/client-10.png",
+    "bytes": 5398,
+    "sha256": "15ed5eed62c9fbea442f66bf0b484b9ac23bfc3fd362df7806c22d8daaf971f0"
+  },
+  {
+    "path": "new-site/assets/clients/client-11.png",
+    "bytes": 6071,
+    "sha256": "26be1f4c405114e86de85c911891101f7dd4364734ca449720658775b3e5908c"
+  },
+  {
+    "path": "new-site/assets/clients/client-12.svg",
+    "bytes": 45629,
+    "sha256": "5d281dc079cb382ff0eb7fe1e16885d07757bc735fe165160519b94c26a91ad7"
+  },
+  {
+    "path": "new-site/assets/clients/client-13.svg",
+    "bytes": 18902,
+    "sha256": "b5d581ec3b59e86eb7029cabecee96237f89acf9089949f1a99eaebb3cbf78bc"
+  },
+  {
+    "path": "new-site/assets/clients/client-14.svg",
+    "bytes": 28589,
+    "sha256": "67b819040c8df04552c393cbfdd56c9b5b7cd1a77beacab7413d631c458203e3"
+  },
+  {
+    "path": "new-site/assets/clients/client-15.png",
+    "bytes": 112009,
+    "sha256": "bf846382279a0fbfb427eefe37591d100dfdf852685dc7403bf1c0605dde69b1"
+  },
+  {
+    "path": "new-site/assets/clients/client-16.svg",
+    "bytes": 2800,
+    "sha256": "7f22780b135da346628c871eb1347b369fd4bc6e7ed56de75fb6ae6b5d5524e6"
+  },
+  {
+    "path": "new-site/assets/clients/client-17.png",
+    "bytes": 82633,
+    "sha256": "729fe2fc262b98293379294cb2fdba90856786d04874379d6de4a775bad0ec33"
+  },
+  {
+    "path": "new-site/assets/clients/client-18.svg",
+    "bytes": 413145,
+    "sha256": "acd9ec38d0d3785a896151e35edcec4f3f8092183712176477a59e649e586868"
+  },
+  {
+    "path": "new-site/assets/clients/client-19.svg",
+    "bytes": 52149,
+    "sha256": "9319357f95ebe771309859397ed9f9cfb1b43c6ab889d761a4cd8c57ca29faa9"
+  },
+  {
+    "path": "new-site/assets/clients/client-20.jpg",
+    "bytes": 208945,
+    "sha256": "9083031da4d712ec3f6c865e519c2493f41acb9d67be9e7c8e727fbf266d766a"
+  },
+  {
+    "path": "new-site/assets/clients/client-21.webp",
+    "bytes": 16508,
+    "sha256": "2cf8b5bb1700e25fbbaa569209de7a9eb5aaef7c5e27752b3b1c588471f8ff93"
+  },
+  {
+    "path": "new-site/assets/clients/client-22.svg",
+    "bytes": 83009,
+    "sha256": "52378f4699ab5c0a8f366154e06ac376d5178f4d65612c93dfc2e6d2b89e6bb3"
+  },
+  {
+    "path": "new-site/assets/clients/client-23.svg",
+    "bytes": 2032,
+    "sha256": "c804047c505db96149e3895d9530994b0ce0c23c39a2958c9e58b302da6b1772"
+  },
+  {
+    "path": "new-site/assets/clients/client-24.svg",
+    "bytes": 2034,
+    "sha256": "f63d53282d1626f08a5671b9da489c75dad7a9e423d8648b4b41cf7b2372232e"
+  },
+  {
+    "path": "new-site/assets/clients/client-25.png",
+    "bytes": 9124,
+    "sha256": "47320c09adb0066d302b8ae31eba38f97fd622e38526af00882eeb970fe9e49a"
+  },
+  {
+    "path": "new-site/assets/clients/client-26.svg",
+    "bytes": 8011,
+    "sha256": "2e283704f7b7dafc5b1dae5c95086aede54f8504f4cc711827eff57e18a548fe"
+  },
+  {
+    "path": "new-site/assets/clients/client-27.svg",
+    "bytes": 4678,
+    "sha256": "c678c26ab0a6b102b7c3e96f92da9bad39a08db7635b271923257377005e5617"
+  },
+  {
+    "path": "new-site/assets/clients/client-28.png",
+    "bytes": 9968,
+    "sha256": "f58d066e18ae099e4b925fd41e801d669b832af912148a34ab06c1b3cd3fc49f"
+  },
+  {
+    "path": "new-site/assets/clients/client-30.webp",
+    "bytes": 10032,
+    "sha256": "fd82a4f0ec6046afa282f14f3209d7c9e9de43ebd04955afb3d8647d11c81136"
+  },
+  {
+    "path": "new-site/assets/clients/client-32.webp",
+    "bytes": 32748,
+    "sha256": "5da827ace32e78fa2feb69a5c17365b8c9874e9b33aa28dcd16b40d4c0e39d48"
+  },
+  {
+    "path": "new-site/assets/clients/client-33.jpg",
+    "bytes": 24837,
+    "sha256": "b0afe747e3c79460bcd935bf41f8a513df55faf468d9b73c5618624d0d691f2b"
+  },
+  {
+    "path": "new-site/assets/clients/client-34.png",
+    "bytes": 34755,
+    "sha256": "3f82b579f99fec112b0c6dd6428b40adcb678205ea97ee23123e6142c3f2213c"
+  },
+  {
+    "path": "new-site/assets/clients/client-35.png",
+    "bytes": 138069,
+    "sha256": "3ef4a8ca9a78bc9e6a41dd828c437f4894edf76d91050bea7717e6e4269fb228"
+  },
+  {
+    "path": "new-site/assets/clients/client-36.png",
+    "bytes": 15475,
+    "sha256": "2951d66f0d1dbc9579f26c61fa12100df6cadac9de9736f33e14e7fb18009d4d"
+  },
+  {
+    "path": "new-site/assets/clients/client-37.svg",
+    "bytes": 2267,
+    "sha256": "97376ff87fcf0f5aff862a1aebc6fa0f519e0a72ef9aa3feb0ca807ac9ff2212"
+  },
+  {
+    "path": "new-site/assets/clients/client-38.png",
+    "bytes": 39385,
+    "sha256": "7db75a851ec18357dc760ff6b9fddbe059bac0fad6bc60b980afc93a14423f17"
+  },
+  {
+    "path": "new-site/assets/clients/client-39.svg",
+    "bytes": 5797,
+    "sha256": "fa934e9304fef29e0eafdc7970b4a9e4f7f3455286042ae0ab536af0e8dbc233"
+  },
+  {
+    "path": "new-site/assets/clients/client-40.png",
+    "bytes": 214493,
+    "sha256": "84ed695dee0e875e38cf70b9c606029d6a55ad17c995892cded21b10b2a43f29"
+  },
+  {
+    "path": "new-site/assets/clients/client-41.png",
+    "bytes": 543295,
+    "sha256": "425fd47b01fa6ff9ddce8ddbd478794a01d5f4b56923067d0895ff99463a0bc5"
+  },
+  {
+    "path": "new-site/assets/clients/client-42.svg",
+    "bytes": 4984,
+    "sha256": "07c01464eea97ca61ec17cc003fb98d96eb10b2aead1948f884ca021e042eb86"
+  },
+  {
+    "path": "new-site/assets/clients/client-43.png",
+    "bytes": 27428,
+    "sha256": "773f390c8e64d3aa574f72889d729fe4bbea07af4f06df92af61601986128dc6"
+  },
+  {
+    "path": "new-site/assets/clients/client-44.svg",
+    "bytes": 71576,
+    "sha256": "2276e5e07472e3f630058afd7de6c757f84f349d1231ecba198b7a0ef2a4266a"
+  },
+  {
+    "path": "new-site/assets/clients/client-45.svg",
+    "bytes": 166934,
+    "sha256": "1fa5c722eab779adb53dc6a0b140b2263ee9a9adfa4ce5025461518e2ae83845"
+  },
+  {
+    "path": "new-site/assets/clients/client-47.png",
+    "bytes": 73218,
+    "sha256": "bbfd3bb0800d70acd794f77c4f3907b153281120b62e0a9329b84254a1e8d89a"
+  },
+  {
+    "path": "new-site/assets/clients/client-49.png",
+    "bytes": 55842,
+    "sha256": "3cd6158dc2b1af8b52bff53f1e257dec7f4febdd5bf5e44611da9977ab46fdbb"
+  },
+  {
+    "path": "new-site/assets/clients/client-50.png",
+    "bytes": 35197,
+    "sha256": "9b9eac340fab4c43e1fe1c03df1e074044d6a65b2041501b2b80074849f747df"
+  },
+  {
+    "path": "new-site/assets/cookies.js",
+    "bytes": 717,
+    "sha256": "6481fca7914b227cdbc7269608a3db863933765b431dcfd57970f5b18e336b4c"
+  },
+  {
+    "path": "new-site/assets/data.js",
+    "bytes": 562056,
+    "sha256": "d9b1730dce3b2be4cdc19b3ef64ce0f624be1d390e39a7c981e03274d1cba2ae"
+  },
+  {
+    "path": "new-site/assets/desktop-photo.png",
+    "bytes": 1764907,
+    "sha256": "fe448c41a1cba029faa64b027a1c7a9758f48f73fc0bcca6ec755bb3ff792324"
+  },
+  {
+    "path": "new-site/assets/desktop-photo.webp",
+    "bytes": 21016,
+    "sha256": "0fbd2a40fc59376bc999759e2408e51c3392114d7975fc4681a4fabb5809ba07"
+  },
+  {
+    "path": "new-site/assets/desktop.svg",
+    "bytes": 573,
+    "sha256": "7012e4497334bbfd90d55dc9d38ce24656e5959c461630e3d497065a1b10275e"
+  },
+  {
+    "path": "new-site/assets/documents/certificate-1.png",
+    "bytes": 2969156,
+    "sha256": "a9d4a0f76e7b2bd7c487a4ede9a323195c6bf723bf882bc402fdf86992359321"
+  },
+  {
+    "path": "new-site/assets/documents/certificate-preview.webp",
+    "bytes": 72746,
+    "sha256": "de9778ff20f279eb04e9643c423cc24c073dd6f8ee85478d1c4391c7097f0003"
+  },
+  {
+    "path": "new-site/assets/documents/certificate.pdf",
+    "bytes": 3799906,
+    "sha256": "e25d53d30179d7bcd58fa7a8906b2215b55ce6c8fddae05d117cdb455f0b08d8"
+  },
+  {
+    "path": "new-site/assets/documents/certificate.webp",
+    "bytes": 405678,
+    "sha256": "773981ca4b87085743f6e64c87234188128f8c40b8192fe47ac33a95a05001ff"
+  },
+  {
+    "path": "new-site/assets/documents/company-details.pdf",
+    "bytes": 74530,
+    "sha256": "48800a6238d9ab57e59b0a44ff68867e514314fc3ea677f69e978db525aea77a"
+  },
+  {
+    "path": "new-site/assets/documents/egrip-extract.pdf",
+    "bytes": 151518,
+    "sha256": "1b696c94ec34868ea1370672d866adaa9fc0f7fdf7f3ee85c6ad8a020ccfb94e"
+  },
+  {
+    "path": "new-site/assets/documents/price-list-2026.pdf",
+    "bytes": 67922,
+    "sha256": "7e396bd06af0fce24b031e1d066e139a20bcb02846c17f405b83502de51c5d40"
+  },
+  {
+    "path": "new-site/assets/documents/sme-register-extract.pdf",
+    "bytes": 131995,
+    "sha256": "81307d476ae475ee5cdb6cc7515ba43f5d80f040c034b35c3cf429174cf3218d"
+  },
+  {
+    "path": "new-site/assets/expo.svg",
+    "bytes": 579,
+    "sha256": "75d02a0e2b140f6e69d2fe61d4a1a57aefd4fb6c70e30f43646ff95adca4451d"
+  },
+  {
+    "path": "new-site/assets/favicon.svg",
+    "bytes": 651,
+    "sha256": "4cfd807613f045dd84d87d410ca2fd64e58ccd6f1d9a9f7e938fb79a764eac20"
+  },
+  {
+    "path": "new-site/assets/frame.svg",
+    "bytes": 538,
+    "sha256": "75ec5146bb6084587dcdce0b3e2bbb61b9a5f7fdd02fff4e0d288517ea4f128e"
+  },
+  {
+    "path": "new-site/assets/hero-carousel.js",
+    "bytes": 2771,
+    "sha256": "5729f10a2b5aae4e7dffea17ebedb58aa87217af47e46695912eee1270e3ed31"
+  },
+  {
+    "path": "new-site/assets/hero.png",
+    "bytes": 2484420,
+    "sha256": "efa8b25a504b67f31a08049588f7d7492d95ced7ddfa3fc3a548f7cd8c57d8d9"
+  },
+  {
+    "path": "new-site/assets/hero.webp",
+    "bytes": 131200,
+    "sha256": "893c0de6ffb45868037ed3e04ec6d71c29260aa97ca3444196edf87a0ec13637"
+  },
+  {
+    "path": "new-site/assets/interior-guide.css",
+    "bytes": 3429,
+    "sha256": "c870b45e172d0abb8d072fddb6d0c83d87f0ac0e27931cc43dfbd32ee4b9504c"
+  },
+  {
+    "path": "new-site/assets/interior-guide.js",
+    "bytes": 6551,
+    "sha256": "59f35216ceec82ffc4f5f29189d4c98541eea6a4df21bcc86b49721adbdf4e05"
+  },
+  {
+    "path": "new-site/assets/legal.js",
+    "bytes": 47857,
+    "sha256": "2b9faec2b27e5fd56ca897852fa9dd30102e1c65456d24d0166789021418a111"
+  },
+  {
+    "path": "new-site/assets/logo-options/chertezh.svg",
+    "bytes": 35908,
+    "sha256": "8d683e8cf64eec726c9d8631990d635729a2b4d0c01371fea87617f8abc5020e"
+  },
+  {
+    "path": "new-site/assets/logo-options/current.svg",
+    "bytes": 36083,
+    "sha256": "9561dd56ff44bc80d48f6fb65be3005f1463159624db743a842ec5f53af12187"
+  },
+  {
+    "path": "new-site/assets/logo-options/holst.svg",
+    "bytes": 40828,
+    "sha256": "cedf22cc70c443fa6cdbbe3e535f76f1713f9544cef229fc7ed8705f9c6742d6"
+  },
+  {
+    "path": "new-site/assets/logo-options/lira.svg",
+    "bytes": 33319,
+    "sha256": "4244bb1a2fd9c781c004fd84b7caf5aa65a62a1f9ab0105ca928884d6aea693f"
+  },
+  {
+    "path": "new-site/assets/logo-options/stanok.svg",
+    "bytes": 35214,
+    "sha256": "6de84fb1814aa5d20bd50a5e9ec4b9514c2e024d62fb9f3125d645c863c100fb"
+  },
+  {
+    "path": "new-site/assets/logo-preview.css",
+    "bytes": 5430,
+    "sha256": "76e0984673e9bb9fb85748d8f57cd7f001ea85a33e114b999852f1dc43c7648c"
+  },
+  {
+    "path": "new-site/assets/logo-preview.js",
+    "bytes": 161,
+    "sha256": "390cdeecdcfdc56a90e5f22609e34be2a80337f7db67dfdf7e6e217ac41285cc"
+  },
+  {
+    "path": "new-site/assets/logo.svg",
+    "bytes": 33307,
+    "sha256": "7378757e6a589731293fcb3ac449ea24fe10750d345c0ecee5461051c1214620"
+  },
+  {
+    "path": "new-site/assets/lyra.svg",
+    "bytes": 594,
+    "sha256": "ccbcba3cc6d5d181baa7ff47cf4be1d7d87e9d398f234b6ad349bf439172e69f"
+  },
+  {
+    "path": "new-site/assets/manrope-OFL.txt",
+    "bytes": 4387,
+    "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+  },
+  {
+    "path": "new-site/assets/manrope.ttf",
+    "bytes": 164700,
+    "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+  },
+  {
+    "path": "new-site/assets/motion.css",
+    "bytes": 6911,
+    "sha256": "079b1f8a31db38da3a602132c339a40284aac5a557536b5c2a6b3dc31fce2552"
+  },
+  {
+    "path": "new-site/assets/motion.js",
+    "bytes": 11538,
+    "sha256": "927b817be7cd9610d6df99d49dc4716fa473739246350270f3f049c182818b5d"
+  },
+  {
+    "path": "new-site/assets/not-found.css",
+    "bytes": 4022,
+    "sha256": "4a3208122272fc269e4e00fa3841c79747bff26157e72b231ed01582e3f52a92"
+  },
+  {
+    "path": "new-site/assets/original-products/desktop.webp",
+    "bytes": 17980,
+    "sha256": "2bb21920f58543cb3ed48320d6f80348214c759e29b8b1d2f2d4d2ae4d1de149"
+  },
+  {
+    "path": "new-site/assets/original-products/expo.webp",
+    "bytes": 8768,
+    "sha256": "00344c80596ea4dccb569b5afb56c27d9f327ea03a29bbeb7da793c13068cd5c"
+  },
+  {
+    "path": "new-site/assets/original-products/gift.webp",
+    "bytes": 11946,
+    "sha256": "79fddad80c56827c42e065e8acf643bce84f37bf31a690d721bfa45cc2964a05"
+  },
+  {
+    "path": "new-site/assets/original-products/grafika.webp",
+    "bytes": 12112,
+    "sha256": "eb09eaf4ef90160a4ad665bdbd76ed9aa79d54bfad4c3dabfb02c762a19e13e9"
+  },
+  {
+    "path": "new-site/assets/original-products/hlopushka-a1.webp",
+    "bytes": 5758,
+    "sha256": "cdde8dc2ab4cc023a867a01779fe2bce2803681a652b13aa9681bf333db3403a"
+  },
+  {
+    "path": "new-site/assets/original-products/hlopushka-double.webp",
+    "bytes": 8122,
+    "sha256": "305bdd3669043c53a6cf7afa2d1a502d3996c486adb2b6903a92f97876de78b8"
+  },
+  {
+    "path": "new-site/assets/original-products/lira-beech.webp",
+    "bytes": 7296,
+    "sha256": "977fbbc832f5567f0e72626b69e256bc1744de0968d4244700eb75582365511e"
+  },
+  {
+    "path": "new-site/assets/original-products/lira-classic.webp",
+    "bytes": 7888,
+    "sha256": "2b0493ec6cf640ea0e2fc0aae92c1292680ace5ac69e7a68871356c5a6ea416d"
+  },
+  {
+    "path": "new-site/assets/original-products/mini.webp",
+    "bytes": 12004,
+    "sha256": "dad47fb404fb039549213560d16b4be6165d4417a768f528a35ada3eb79cfd36"
+  },
+  {
+    "path": "new-site/assets/original-products/rack.webp",
+    "bytes": 10030,
+    "sha256": "932dd15661a0cddab96333ee4ecec240cc3874571666b429afc86ff6c677fb90"
+  },
+  {
+    "path": "new-site/assets/original-products/still-life.webp",
+    "bytes": 10480,
+    "sha256": "9ff90835d7be7ea4214e24e50535e1958089568ce544efd64370773419292f3e"
+  },
+  {
+    "path": "new-site/assets/original-products/studio-beech.webp",
+    "bytes": 12398,
+    "sha256": "cc15718b3dd74e7a85b7a7bea1840a47fbb1972b61e6fe23a03bc95568d0eec6"
+  },
+  {
+    "path": "new-site/assets/original-products/studio-pine.webp",
+    "bytes": 17376,
+    "sha256": "65c6716e8201c1fbc701158b0e9e3fbaa1f33e1bc3de4717150d0a64b98687a7"
+  },
+  {
+    "path": "new-site/assets/original-products/table-transformer.webp",
+    "bytes": 8274,
+    "sha256": "f7753a6def2be21de039e494a5d574e33ea80f10c213cf818296722c4a4c1744"
+  },
+  {
+    "path": "new-site/assets/original-products/transformer-a1.webp",
+    "bytes": 17218,
+    "sha256": "f24eeb1b3bfe09a398e31f9e420817c7f04cc69c378594c560d9747a016ccccb"
+  },
+  {
+    "path": "new-site/assets/original-products/tripod.webp",
+    "bytes": 6086,
+    "sha256": "4b996b835cd352f6b7e5ed9a0caac377d7a49b918653bf6c9aec716b11056a8d"
+  },
+  {
+    "path": "new-site/assets/prata-OFL.txt",
+    "bytes": 4476,
+    "sha256": "1e055d25bde41906cc2e1a08bc156e7776d5084e1640d75dbd0065a937b488e3"
+  },
+  {
+    "path": "new-site/assets/prata.ttf",
+    "bytes": 96016,
+    "sha256": "6bab61b8b8df3f5a24df69c742f6495060b36aec686f37e534ff91a3bffe40ad"
+  },
+  {
+    "path": "new-site/assets/product-lyra.png",
+    "bytes": 1663675,
+    "sha256": "e32658b9c76c2b61a7abbe28d27e214f744e02c35fdec9e0af96602e78118ea4"
+  },
+  {
+    "path": "new-site/assets/product-lyra.webp",
+    "bytes": 16250,
+    "sha256": "f05bfdd63695cd9e5d83aa25de6408bd39925cba2328dbdf2c9eb7a36029d2c1"
+  },
+  {
+    "path": "new-site/assets/product-studio.png",
+    "bytes": 1684026,
+    "sha256": "a032c1a198fb0aea3b3be65312a569f6d2908c30741764381543ec48c4a4be66"
+  },
+  {
+    "path": "new-site/assets/product-studio.webp",
+    "bytes": 21188,
+    "sha256": "3de45665940d6be50c3e2c74dffda969219923b7655164595b42a30fe25e8725"
+  },
+  {
+    "path": "new-site/assets/production-assembly.png",
+    "bytes": 2491124,
+    "sha256": "2c151da79b8c96c7e604c88ec0a939dd342a251af9a9b4157f68d6efc95894a2"
+  },
+  {
+    "path": "new-site/assets/production-assembly.webp",
+    "bytes": 129680,
+    "sha256": "2f9f3de2fda9d73c569a12bddefcf715189e68c29845a522fbf8cb3b3102d65c"
+  },
+  {
+    "path": "new-site/assets/production-finishing.png",
+    "bytes": 2406535,
+    "sha256": "ecccb2dc51156ec6e6db2dce988899933d58f89bc55570226fd49a2feb2062ec"
+  },
+  {
+    "path": "new-site/assets/production-finishing.webp",
+    "bytes": 111102,
+    "sha256": "7deb557438fc80c9a972406883f101f4a78d73b865f91dbda5f3691b3081f5b9"
+  },
+  {
+    "path": "new-site/assets/rack.svg",
+    "bytes": 629,
+    "sha256": "ad4ca992f2d445d29084d23f2b22651a0b9dc5fb071824ee4cdb74fb42c3dfb5"
+  },
+  {
+    "path": "new-site/assets/reviews.css",
+    "bytes": 3851,
+    "sha256": "222dfd585ba3cc823f17ea9401b816ef81e28aa1a17aeb031912a9adfccb8832"
+  },
+  {
+    "path": "new-site/assets/reviews.js",
+    "bytes": 2153,
+    "sha256": "b45645e655792ba499cf62c75b5bc0d5568356c5364d65b458a38163eb71bdbf"
+  },
+  {
+    "path": "new-site/assets/reviews/alexander-krylov-v2.webp",
+    "bytes": 18776,
+    "sha256": "2a362d296d0975a36dfaedf5064e89f4c55982a549e42c4b4d9b1a1a8d3e6220"
+  },
+  {
+    "path": "new-site/assets/reviews/alexander-krylov.webp",
+    "bytes": 11840,
+    "sha256": "ce34d813a185e0c64d9e8bd66b6393aa3051acf907e34bd58fd392c33307399f"
+  },
+  {
+    "path": "new-site/assets/reviews/dmitry-orlov.webp",
+    "bytes": 15536,
+    "sha256": "b32c70b3705403588cc99f025273e491f08570094ea8bf6b0cdf98bac26720c5"
+  },
+  {
+    "path": "new-site/assets/reviews/elena-vorontsova.webp",
+    "bytes": 10116,
+    "sha256": "10a6ebf53d68738e853bb1fe983345bdbb7ee46b05e097888055ccf7d0a9a26a"
+  },
+  {
+    "path": "new-site/assets/reviews/irina-belyaeva-v2.webp",
+    "bytes": 17652,
+    "sha256": "a02c72aae56ec20e13fb14684efdec678cf367da1abf13b9971b9c8d9bc00f82"
+  },
+  {
+    "path": "new-site/assets/reviews/irina-belyaeva.webp",
+    "bytes": 10568,
+    "sha256": "0b901c5818b220ddf626c6b5466f57d1ea76f69c9e7c5da63e2c85e82dc130b1"
+  },
+  {
+    "path": "new-site/assets/reviews/marina-sokolova-v2.webp",
+    "bytes": 20470,
+    "sha256": "f1fb23a78f11a89cff30142a0de419523771f5c85fd5911316020a0deb5d8fc1"
+  },
+  {
+    "path": "new-site/assets/reviews/marina-sokolova.webp",
+    "bytes": 12700,
+    "sha256": "4146c77e52d3397712d9c7e543b8af6f4fb74b2528cd8d80349cecfe6d727d21"
+  },
+  {
+    "path": "new-site/assets/reviews/olga-mironova.webp",
+    "bytes": 14818,
+    "sha256": "aae44f6c739bd63dc9f402c1eefa9d26d0432f735f23d1225afc651412a31c97"
+  },
+  {
+    "path": "new-site/assets/reviews/sergey-nikitin.webp",
+    "bytes": 13028,
+    "sha256": "8ddd17cf94bda831355456ca40b229c5fb24c792c78f93b5f937a8ff7b68510d"
+  },
+  {
+    "path": "new-site/assets/standards-certificate.svg",
+    "bytes": 1656,
+    "sha256": "036769dcd61a4de561887ee38d513488aa0c62cfc711921270e9e8e1dffde6d8"
+  },
+  {
+    "path": "new-site/assets/studio.svg",
+    "bytes": 584,
+    "sha256": "380f3f0a9584b4c0920176b0b3f86a88ef51f8cdf477530545ae15a14b59b799"
+  },
+  {
+    "path": "new-site/assets/style.css",
+    "bytes": 142968,
+    "sha256": "c81ae44217ba1993e9dd9394eac3dc7b9ace2ce568ab243825eeb6968245e3d4"
+  },
+  {
+    "path": "new-site/assets/table-photo.png",
+    "bytes": 1626051,
+    "sha256": "c3dbd068d31ca32914a11a1638fd3e915707380dc22d4e3fcc8ed2afa9d58878"
+  },
+  {
+    "path": "new-site/assets/table-photo.webp",
+    "bytes": 13468,
+    "sha256": "1f9c87d6678047dc26e8529fbbf6a45f656b0769e573cf7f98088e9567641105"
+  },
+  {
+    "path": "new-site/assets/table.svg",
+    "bytes": 601,
+    "sha256": "b905443087e8e4c30e6f82900de257a5e0ed778bd289f9af7cd1a895f37a8749"
+  },
+  {
+    "path": "new-site/assets/transformer-photo.png",
+    "bytes": 1900081,
+    "sha256": "1929eacdc731346c769ee31759c7a0fd16c602b30dce662eabbf71c922857ddd"
+  },
+  {
+    "path": "new-site/assets/transformer-photo.webp",
+    "bytes": 23728,
+    "sha256": "0ab39f6d74c6e89bb1973171e13d1fae39617c1964d3f4fc17d39b66289a7e96"
+  },
+  {
+    "path": "new-site/assets/transformer.svg",
+    "bytes": 577,
+    "sha256": "f9aa8d2796bca9d14bd8d6423ff77ff6b6db2a993646da01decc907a2ddde8f5"
+  },
+  {
+    "path": "new-site/assets/workshop.png",
+    "bytes": 2263922,
+    "sha256": "e2178aa67b28554348d5c9e14e3c4637c1f37bfddfe13dfe9ea75dc773f84d83"
+  },
+  {
+    "path": "new-site/assets/workshop.webp",
+    "bytes": 68126,
+    "sha256": "909bd693c13c70ec07b75d90b67740357ee37f6074088852cb0e52bc3ce4497e"
+  },
+  {
+    "path": "new-site/blog/dvadcat-let-plodotvornoj-raboty/index.html",
+    "bytes": 47631,
+    "sha256": "7c21381cc4399a8d5dc609c5e71134b953a84fc59ca408d2ba0c5de87fcec248"
+  },
+  {
+    "path": "new-site/blog/index.html",
+    "bytes": 24610,
+    "sha256": "7f015f0ed7a30234c1fe76578cfe01b47d0c35eac8cd0d7295806815b2fcd3e2"
+  },
+  {
+    "path": "new-site/blog/instrument-dlya-tvorchestva-molbert/index.html",
+    "bytes": 40839,
+    "sha256": "75391787f33b69c9ae21f1ee58b5362060d70327bc1e2634fefc8124f076e8ba"
+  },
+  {
+    "path": "new-site/blog/kak-vybrat-molbert/index.html",
+    "bytes": 33010,
+    "sha256": "b8e5dd1d35ba5c40a96f8f95e9ec0820dd61d840eeee9ff47785844d3ce8d5ae"
+  },
+  {
+    "path": "new-site/blog/molbert-v-sovremennom-interere/index.html",
+    "bytes": 37236,
+    "sha256": "ddd306a54c923ace08f681230e2bc4560a1ce8e0c6ec9c6012cbcf0f67fbdc12"
+  },
+  {
+    "path": "new-site/catalog/index.html",
+    "bytes": 162506,
+    "sha256": "4057405a8c7d0a5171b8bb5ed03d54996929acb87df452951453a9c23e7e0771"
+  },
+  {
+    "path": "new-site/clients/index.html",
+    "bytes": 67398,
+    "sha256": "2922564b2ed011b8580fec3fe93050fb159b7225b7c19182db59b27d5a52c5bd"
+  },
+  {
+    "path": "new-site/consent/index.html",
+    "bytes": 22543,
+    "sha256": "35d888dab496e66628fe2e75b44c27ab98fbc25f4dd76367b622b4c1afc30a1e"
+  },
+  {
+    "path": "new-site/contacts/index.html",
+    "bytes": 38164,
+    "sha256": "6b80bd154c83c9fc039645064b7817f94471a4c7f295651199d3655bff5e8527"
+  },
+  {
+    "path": "new-site/data/article-image-prompts.json",
+    "bytes": 4380,
+    "sha256": "3de6d43ed4a627fd33caf2929cb20225d257487aa6099b9621ea7780b859caad"
+  },
+  {
+    "path": "new-site/data/article-presentation.json",
+    "bytes": 6447,
+    "sha256": "d7b6c21f2a77224b4df7ae4bdedd080ddf299dc1c3b1c3cc6932b0b0a8078648"
+  },
+  {
+    "path": "new-site/data/article-source-report.json",
+    "bytes": 102951,
+    "sha256": "50e054e345f252d9e8eb8ac8db807cbd923d6e08f4639ad359968ddc9987ebda"
+  },
+  {
+    "path": "new-site/data/articles.json",
+    "bytes": 136835,
+    "sha256": "ef9eeb8f56ebfe739e0bc75e9125821d187c0d612ca00a01a889cf376ca54c4b"
+  },
+  {
+    "path": "new-site/data/business-documents.json",
+    "bytes": 3323,
+    "sha256": "650b858415af412f0f3616851498851c7762a2714a6eff45943b0b5ba3cebbc5"
+  },
+  {
+    "path": "new-site/data/catalog-structure.doc",
+    "bytes": 34816,
+    "sha256": "85f7fb3246f690db5b1bcd6cc405e81361f1eee3f5b0897e1fb2257a7acace31"
+  },
+  {
+    "path": "new-site/data/catalog-structure.json",
+    "bytes": 17786,
+    "sha256": "dddae42d75edf2a2086a6b4ceeca65cb8ab3e1f38b68ebe2e0942ee8bfd08d58"
+  },
+  {
+    "path": "new-site/data/catalog-structure.txt",
+    "bytes": 8359,
+    "sha256": "9074607b8b3343a860a55bbe352d15dadea8027c382b94a13a81ff52d1814e04"
+  },
+  {
+    "path": "new-site/data/catalog.json",
+    "bytes": 680122,
+    "sha256": "07a00209fa3c6300bd505f76cb5adb23ce01842d5355499611bf77eb294282c6"
+  },
+  {
+    "path": "new-site/data/category-exclusions.json",
+    "bytes": 144,
+    "sha256": "beacbd168d3b5f56e88ba02729d6d80609a24e6a062cca57fa7e303edc1c92c3"
+  },
+  {
+    "path": "new-site/data/category-guides.json",
+    "bytes": 11659,
+    "sha256": "693284f78b433b0ecc735b004c37f93e9940eaa86cac02dbbe01a7efeff7fe2f"
+  },
+  {
+    "path": "new-site/data/category-seo.json",
+    "bytes": 4516,
+    "sha256": "03d34e45847ad0153758c941bc21ede97dec74a11d43995041fcafced08f0699"
+  },
+  {
+    "path": "new-site/data/clients.json",
+    "bytes": 49183,
+    "sha256": "cfcfa5d4281d8a2a2a7359be80fba92ca80c3c7a81d5dc286796c5bb90037cde"
+  },
+  {
+    "path": "new-site/data/company.json",
+    "bytes": 4141,
+    "sha256": "e1febfb5fce099b1eed8932d7be347e4c71d782a6a03a1ef96e7ef557f9ef9ec"
+  },
+  {
+    "path": "new-site/data/cookie-notice.json",
+    "bytes": 942,
+    "sha256": "08d61de216a09701a371885756d9d5413809bb8b787d8e55b823f7dae20b9690"
+  },
+  {
+    "path": "new-site/data/home-category-images.json",
+    "bytes": 3236,
+    "sha256": "cab2f1b2c62a5ee7dfbd83f66cab96be5179c02153b8d8f98d291cbf72997e47"
+  },
+  {
+    "path": "new-site/data/images.json",
+    "bytes": 955,
+    "sha256": "849de9fda663bff52972cd8b62ca404f9dee552a04c3861f5f61b545a4c90e11"
+  },
+  {
+    "path": "new-site/data/legal-pages.json",
+    "bytes": 49984,
+    "sha256": "063072f56b3b7e58f426455a5c4d4d3ec7993f34d737b975bcb6cd4ebb8b0d3b"
+  },
+  {
+    "path": "new-site/data/logo-options.json",
+    "bytes": 1384,
+    "sha256": "ac955189679fe0eb0a17543c2a1974b5ed8d5c3d6574361777aaf69e6ddc8c3a"
+  },
+  {
+    "path": "new-site/data/organization.json",
+    "bytes": 1489,
+    "sha256": "73aabfbe7b10d737bd878c61205333666b88f64b3d5029cc392c6331241a08e4"
+  },
+  {
+    "path": "new-site/data/price-product-links.json",
+    "bytes": 5077,
+    "sha256": "1815cc1410ed63df5e8d1d35de290f31aab9704f3ba0df4fd3b1081de27e10ab"
+  },
+  {
+    "path": "new-site/data/prices.json",
+    "bytes": 31408,
+    "sha256": "195285e41d51eb9748241a596664d1260b7ac24d2700f80ceeb13fcaf8d26d6f"
+  },
+  {
+    "path": "new-site/data/product-materials.json",
+    "bytes": 57976,
+    "sha256": "b59a6930b58a875a164d48d525fb4b24acaf8362e467f81e1f6b9a2a879319aa"
+  },
+  {
+    "path": "new-site/data/product-photos.json",
+    "bytes": 5183,
+    "sha256": "ab641735ce3ad12de0c1323a8478de6069e62fbf8a4c6c2e3c25856b21c730a5"
+  },
+  {
+    "path": "new-site/data/production.json",
+    "bytes": 733,
+    "sha256": "aaa2fb0609229dc863a81a2eae2b0f3dd1c92b46466022907ffda0b9414b17fa"
+  },
+  {
+    "path": "new-site/data/products-source.json",
+    "bytes": 397772,
+    "sha256": "564e457f3a5b3bfd25ddcd2795874f298a23d891b3b366d9ee2bbd68156548b7"
+  },
+  {
+    "path": "new-site/data/redirects.json",
+    "bytes": 5347,
+    "sha256": "492fb01e1f739b3021e39ed1dc9c2c40258c36d9e03f6f40818f540091f6b5fd"
+  },
+  {
+    "path": "new-site/data/review-image-prompts.json",
+    "bytes": 10374,
+    "sha256": "21bb47ecdc2d3cd56b652755f474b2989226b1b89522e77fdf41d787e118c405"
+  },
+  {
+    "path": "new-site/data/reviews.json",
+    "bytes": 6825,
+    "sha256": "87c840be4ea7a08a338f204e533967e7840b4da1c6df9ab4bb2264f5ab7e068b"
+  },
+  {
+    "path": "new-site/data/sales.json",
+    "bytes": 3904,
+    "sha256": "646cd1b9b209d7503fd2cc976a2c7d8c36282fa4185dc1cc23f1c30acbfadf4c"
+  },
+  {
+    "path": "new-site/data/showcase.json",
+    "bytes": 2221,
+    "sha256": "a595c026a2d811059b279b8b05bbfa7619bcb07436fc742dfbc6b66ec2cd26fb"
+  },
+  {
+    "path": "new-site/data/source-catalog-report.json",
+    "bytes": 16532,
+    "sha256": "4f99c6fa40e677b9a4b8a25e64b09b5ae2930c1c0a0557f954d4e2ed40e8721c"
+  },
+  {
+    "path": "new-site/data/structure-product-review.json",
+    "bytes": 147648,
+    "sha256": "4c5917aaacf1dc39b6aba61f1393498091c8b36414b3ae4745333b385ac3d62d"
+  },
+  {
+    "path": "new-site/data/structure-report.json",
+    "bytes": 12342,
+    "sha256": "1811134de13f6c8bf9a5f346e2a09c0be031ef8b9773e1bb38efb694f8031431"
+  },
+  {
+    "path": "new-site/delivery/index.html",
+    "bytes": 30813,
+    "sha256": "1c030361d73f4f1df0b6826c978dd43524aaa91950fef08962fffdc0fa43c852"
+  },
+  {
+    "path": "new-site/derevyannye-stoly-skulptora/index.html",
+    "bytes": 1979,
+    "sha256": "90c40551cfc17f194a4122e8ea5b13feca783e37baa68630ff83ab05d0353a20"
+  },
+  {
+    "path": "new-site/documents/index.html",
+    "bytes": 23939,
+    "sha256": "4f592413a912607567aa13d958c55ed676b9f819ed279faafb11116d3d11f9b9"
+  },
+  {
+    "path": "new-site/guide/index.html",
+    "bytes": 21797,
+    "sha256": "c1656d286dd95f8a7e0d0aaa400440bcea36ff436918305c5493ef6a319cde0f"
+  },
+  {
+    "path": "new-site/index.html",
+    "bytes": 102561,
+    "sha256": "b93b6dcd8dc42d628420274888a8a901e96963596564dd7868acc21e8b9e3ed9"
+  },
+  {
+    "path": "new-site/khranenie-dlya-izostudii/index.html",
+    "bytes": 46728,
+    "sha256": "4ed73eaf20bac5aa0def5fc1d421c54544e749bfe6ef11f95e2fd7e37cbd875b"
+  },
+  {
+    "path": "new-site/metallicheskie-stoly-skulptora/index.html",
+    "bytes": 1979,
+    "sha256": "90c40551cfc17f194a4122e8ea5b13feca783e37baa68630ff83ab05d0353a20"
+  },
+  {
+    "path": "new-site/mini-molberty-lira/index.html",
+    "bytes": 33271,
+    "sha256": "76dcfb0159cfe396e6a359b840d431ffe324be17c5dd3f65eababe5f301607a5"
+  },
+  {
+    "path": "new-site/mini-molberty-trenogi/index.html",
+    "bytes": 33361,
+    "sha256": "c0b3886879ea553f0d2a3f2911a056826c748ba62a94e2196e4b61273f189cd4"
+  },
+  {
+    "path": "new-site/mini-molberty/index.html",
+    "bytes": 36037,
+    "sha256": "d1efc5fa4fcc4bbb8ab03aba85842fb6f38b90dc29a7ed4caa9eb5107c900b16"
+  },
+  {
+    "path": "new-site/molbert-iz-buka/index.html",
+    "bytes": 37618,
+    "sha256": "19fc76d7cb57fcd42a4255c2b97b6d25e546bc38e05457b02e7247aad4c2c772"
+  },
+  {
+    "path": "new-site/molberty-dekorativnye/index.html",
+    "bytes": 46219,
+    "sha256": "d003f3bf0bfcf626a87552954927e37eae0dfaf7b30dd17bf8eb3846e5290a72"
+  },
+  {
+    "path": "new-site/molberty-derevyannye/index.html",
+    "bytes": 2042,
+    "sha256": "2a15f130f41b1d146cb83949ac60660daf22aedf5748ed8070f9d483939b11b9"
+  },
+  {
+    "path": "new-site/molberty-dlya-hudozhestvennyh-shkol/index.html",
+    "bytes": 46727,
+    "sha256": "5c32d74037186acc8a49e3394a79ec7ee64cb6c0e9c3bc302d2c8e394e9374a1"
+  },
+  {
+    "path": "new-site/molberty-dlya-risovaniya-hudozhnikov/index.html",
+    "bytes": 93721,
+    "sha256": "aad592c1554b4d81aa46f850abd7698d18105c2dd7f5720604b1aff9e642f1c1"
+  },
+  {
+    "path": "new-site/molberty-dlya-televizora/index.html",
+    "bytes": 33297,
+    "sha256": "9e32947bb7a14d0791d1f528c68e9a77b4d9094ebe034526a6229b3c1ddea199"
+  },
+  {
+    "path": "new-site/molberty-dlya-vystavki/index.html",
+    "bytes": 46123,
+    "sha256": "f8f97a8650a44e0aed24d8f0be5f86b4730f4b10acedd3de8b4788a12205415e"
+  },
+  {
+    "path": "new-site/molberty-dvustoronnie/index.html",
+    "bytes": 2039,
+    "sha256": "d7e117c107f638b6f8c788730ce11aa0917929dfb46cc79809747a354a888e6c"
+  },
+  {
+    "path": "new-site/molberty-hlopushka/index.html",
+    "bytes": 43299,
+    "sha256": "803c065d0b31d442269e4cdfddd61d928c224ae7aeba048ec2a4bacb1fcf0007"
+  },
+  {
+    "path": "new-site/molberty-iz-sosny/index.html",
+    "bytes": 37803,
+    "sha256": "0091b8c72a15e9a69c3a0160368850e9d7b9741aa4e3299e593ae2402b253dbc"
+  },
+  {
+    "path": "new-site/molberty-lira/index.html",
+    "bytes": 47343,
+    "sha256": "84e88ee5d4f5b1283ee3e923bf9da48d56f60e305509853000dc2b781b555cc8"
+  },
+  {
+    "path": "new-site/molberty-napolnye/index.html",
+    "bytes": 80396,
+    "sha256": "981851e846eefdd358e2c396e003119de661a046b68fe1d1ce918f1bf0f5e255"
+  },
+  {
+    "path": "new-site/molberty-nastolnye/index.html",
+    "bytes": 43892,
+    "sha256": "2f35b31e8e71216d43298c558da93ee683322784926ac21c9deacbadbd97d4fc"
+  },
+  {
+    "path": "new-site/molberty-s-polkoj/index.html",
+    "bytes": 38960,
+    "sha256": "d6c1a98526042e0b0b76510c0a173a51c688e19f68031e10947ed27c329d09bf"
+  },
+  {
+    "path": "new-site/molberty-s-reznymi-elementami/index.html",
+    "bytes": 37274,
+    "sha256": "a89377cd63c8906a2964f8ba849a27490a8e083b670d52edebe0b09ab6809d60"
+  },
+  {
+    "path": "new-site/molberty-sosna/index.html",
+    "bytes": 2042,
+    "sha256": "2a15f130f41b1d146cb83949ac60660daf22aedf5748ed8070f9d483939b11b9"
+  },
+  {
+    "path": "new-site/molberty-stankovye/index.html",
+    "bytes": 44290,
+    "sha256": "02ac15d5a3e4d979f82bc04396a0f77abfd3097fe8b7ea63f1a90e836b9815d5"
+  },
+  {
+    "path": "new-site/molberty-transformery/index.html",
+    "bytes": 41774,
+    "sha256": "fe65dd57b37f65c684e5815f2447799f7206e0da0c45d73a3ae9d4918e56dd4a"
+  },
+  {
+    "path": "new-site/oborudovanie-dlya-kabineta-izo/index.html",
+    "bytes": 83121,
+    "sha256": "e93ee005cc5a9a6a0a2a1b6f04013749dddf5ef5c56fe80b6fd5e4d8f51d5996"
+  },
+  {
+    "path": "new-site/package.json",
+    "bytes": 832,
+    "sha256": "233eb786e5eb29e29c27abcdcaf6f61ba8645d08207e756c25d7c10598b02501"
+  },
+  {
+    "path": "new-site/plakatnitsy/index.html",
+    "bytes": 34606,
+    "sha256": "ff795d16adcdd8c5f5a52e7e4464fe11d1fe77b373736b2a6be5a8a83daec7d0"
+  },
+  {
+    "path": "new-site/planshety-i-palitry/index.html",
+    "bytes": 37054,
+    "sha256": "e074e12504ec19ba2391423d6c24b920fdfddb4685fb81dc511018dfdca7e11a"
+  },
+  {
+    "path": "new-site/podiumy-dlya-natury/index.html",
+    "bytes": 33646,
+    "sha256": "25b5e991f74e441236e3c7298020298c9ff913ea10713459fe558d2265a37d7e"
+  },
+  {
+    "path": "new-site/podstavki-dlya-risunkov/index.html",
+    "bytes": 34754,
+    "sha256": "243ba4e7a8cc7942a00d4fa19097c494b946dc0fd6f531dab7d6b5f38df645dc"
+  },
+  {
+    "path": "new-site/prices/index.html",
+    "bytes": 55299,
+    "sha256": "856455fe0ec0bbb6db151c2a08539d625f285b97d88d205790b18a11546e8dbd"
+  },
+  {
+    "path": "new-site/privacy/index.html",
+    "bytes": 37969,
+    "sha256": "40b308f366e254b5afb7f9ac5c809898beeee73890aa4b790b29518a0ebb2aa9"
+  },
+  {
+    "path": "new-site/product/a-klass/index.html",
+    "bytes": 2029,
+    "sha256": "690c82764d3ffd6f5b5101f27704cf289749aa98d930d3111f46d57855515326"
+  },
+  {
+    "path": "new-site/product/a-profi-buk/index.html",
+    "bytes": 2041,
+    "sha256": "07c7cb83e4d1977829d0fde4a733362b589b71d40ce8b3f479c6f4b855706166"
+  },
+  {
+    "path": "new-site/product/a-profi/index.html",
+    "bytes": 2029,
+    "sha256": "27542b53ada631ebcce6458abce3bac1bffc2683567912adc6ec6d63800758be"
+  },
+  {
+    "path": "new-site/product/bolshoy-stankovyy-buk/index.html",
+    "bytes": 2071,
+    "sha256": "1b803a697d6e158cb897f42e15ac8e5c4762ee81560a2f7a815983e2b4174ac4"
+  },
+  {
+    "path": "new-site/product/delta/index.html",
+    "bytes": 2023,
+    "sha256": "23608099ed2dbf40491134ec21d5d043f416dda3d85b8154ebb5a93b8cc9dc06"
+  },
+  {
+    "path": "new-site/product/desktop/index.html",
+    "bytes": 2053,
+    "sha256": "5056e628efecfba223f2cf96e16469ab6b456a28eec9c0d75919027f0333c26a"
+  },
+  {
+    "path": "new-site/product/dizayner-a1-buk/index.html",
+    "bytes": 2053,
+    "sha256": "5843369ddc2c362f571fc6e90480257bd8a8b23e60c81909ddbe0a065032f0ce"
+  },
+  {
+    "path": "new-site/product/dizayner-a2-buk/index.html",
+    "bytes": 2053,
+    "sha256": "f5359bf510cbc9a2aacfb4d5f0a54c081fbc6a65d295818c9a73a30d83c18029"
+  },
+  {
+    "path": "new-site/product/ekspo-1/index.html",
+    "bytes": 2029,
+    "sha256": "10e4cea498bcea9986299fea086c06df504abef53aed2a85e7d19dd7a4f07fb9"
+  },
+  {
+    "path": "new-site/product/ekspo-2/index.html",
+    "bytes": 2029,
+    "sha256": "e8f909e310010b47285d1e91d20261e9a86567a37cfb9ab16fd93bbe6bc5f293"
+  },
+  {
+    "path": "new-site/product/expo/index.html",
+    "bytes": 2029,
+    "sha256": "10e4cea498bcea9986299fea086c06df504abef53aed2a85e7d19dd7a4f07fb9"
+  },
+  {
+    "path": "new-site/product/gift/index.html",
+    "bytes": 2068,
+    "sha256": "40861e7622b4765e5fd395aa0c5968e2cfa6cce664b3112afcf952bf9a7e678c"
+  },
+  {
+    "path": "new-site/product/grafika/index.html",
+    "bytes": 2086,
+    "sha256": "6794b643fe0fa51598febf94ba8decbf796bdc5e976985c5067d821ccdc7476c"
+  },
+  {
+    "path": "new-site/product/hlopushka-a1/index.html",
+    "bytes": 2047,
+    "sha256": "1b669db9c5c0b825607bcebb9a8e5e2957410dc47b65b6181446587870b958f8"
+  },
+  {
+    "path": "new-site/product/hlopushka-double/index.html",
+    "bytes": 2086,
+    "sha256": "1fba845ae84b3764f4e20cd90023c880c44dc2a15e5f24c3e5d06c459fe6f27e"
+  },
+  {
+    "path": "new-site/product/khlopushka-a1-dvustoronniy/index.html",
+    "bytes": 2086,
+    "sha256": "1fba845ae84b3764f4e20cd90023c880c44dc2a15e5f24c3e5d06c459fe6f27e"
+  },
+  {
+    "path": "new-site/product/khlopushka-a1/index.html",
+    "bytes": 2047,
+    "sha256": "1b669db9c5c0b825607bcebb9a8e5e2957410dc47b65b6181446587870b958f8"
+  },
+  {
+    "path": "new-site/product/khlopushka-a1h/index.html",
+    "bytes": 2050,
+    "sha256": "4c3b9c64689ca5341c4252d06f42dc4a8dad6159641e5370228e47ecc9c4fc7e"
+  },
+  {
+    "path": "new-site/product/khlopushka-a2-dvustoronniy/index.html",
+    "bytes": 2086,
+    "sha256": "3b28bc0571ab7e34e3a4785a1e56ac672c44d56555efdaa2d7bcca4f106f5e52"
+  },
+  {
+    "path": "new-site/product/khlopushka-a2/index.html",
+    "bytes": 2047,
+    "sha256": "4d7071d046c96369209437a9270ae98a0a7f597a64c5cec94e855fdb9a9c5c47"
+  },
+  {
+    "path": "new-site/product/khlopushka-detskiy-buk/index.html",
+    "bytes": 2074,
+    "sha256": "df5f22b672761bc990743ea482d25abe915f3059b648a8bc71af34150c6ae749"
+  },
+  {
+    "path": "new-site/product/khlopushka/index.html",
+    "bytes": 2038,
+    "sha256": "f490b0d735808a1049ed61a1413795c92092f0e524ff9c54e8895117358684ea"
+  },
+  {
+    "path": "new-site/product/klipbord/index.html",
+    "bytes": 29964,
+    "sha256": "19a13ad98bb825e554f601b854bda10b1462de922ccd1e38ef1c27aad1c45f7a"
+  },
+  {
+    "path": "new-site/product/lira-beech/index.html",
+    "bytes": 2065,
+    "sha256": "dafe7477f55524e70003df32eb8313be7abbcd5085fa9b98a6122250adb460af"
+  },
+  {
+    "path": "new-site/product/lira-classic/index.html",
+    "bytes": 2053,
+    "sha256": "723ee11a21ce55b0a00c6110e8411025ca6d0264c6ca54d7582161792212e158"
+  },
+  {
+    "path": "new-site/product/lira-malyy-buk/index.html",
+    "bytes": 2050,
+    "sha256": "0681e81d8ef8fbf6a8d903439dfa356afd86fbe9e1f80237bb875db56e8c38ec"
+  },
+  {
+    "path": "new-site/product/lira-malyy-s-podvizhnoy-shtangoy-buk/index.html",
+    "bytes": 2116,
+    "sha256": "80cf062beea9ea878a675417277b9b2466fd3dbce07a481699d0676d69f5e6cb"
+  },
+  {
+    "path": "new-site/product/lira-malyy-s-podvizhnoy-shtangoy/index.html",
+    "bytes": 2104,
+    "sha256": "e4a12208637661b5a1aa6056a94869b5585b871d4d7e481403202de8cb49f38c"
+  },
+  {
+    "path": "new-site/product/lira-malyy/index.html",
+    "bytes": 2038,
+    "sha256": "abece6daeef6d53d4172c799c57768b2955cc0751a50bd7cb62272f34ed7036d"
+  },
+  {
+    "path": "new-site/product/lira-nastolnyy-buk/index.html",
+    "bytes": 2062,
+    "sha256": "450de87ada8fdd6c06d79c2370cae788f3a58c4d22a2dded85d33102fe4b38d1"
+  },
+  {
+    "path": "new-site/product/lira-nastolnyy-sosna/index.html",
+    "bytes": 2068,
+    "sha256": "1602be354588fab644f99d50f47260aa75d909f1a5cbe4e94dc1102f4f171008"
+  },
+  {
+    "path": "new-site/product/lira-podarochnyy-buk/index.html",
+    "bytes": 2068,
+    "sha256": "40861e7622b4765e5fd395aa0c5968e2cfa6cce664b3112afcf952bf9a7e678c"
+  },
+  {
+    "path": "new-site/product/lira-s-naklonnoy-sht-buk/index.html",
+    "bytes": 2080,
+    "sha256": "8eaa7a7acc2171535aa0e783305c1fd523858df1b8e1ddd5cece7526335562d2"
+  },
+  {
+    "path": "new-site/product/lira-s-naklonnoy-shtangoy/index.html",
+    "bytes": 2083,
+    "sha256": "593715ab8172b086f22fdd2163c91ceb10f528a05a9c490cc5e9cca88c738278"
+  },
+  {
+    "path": "new-site/product/lira-s-podvizhnoy-shtangoy-buk/index.html",
+    "bytes": 2098,
+    "sha256": "ade3ee78cd38f025ae5d009c590e6aeb230bb5be450530ddf8da33b33d8660bb"
+  },
+  {
+    "path": "new-site/product/lira-s-podvizhnoy-shtangoy/index.html",
+    "bytes": 2086,
+    "sha256": "1afc8dd720a1034d4f5819d40b30cfa673b9af5c53c744efb40584a6829197df"
+  },
+  {
+    "path": "new-site/product/machta/index.html",
+    "bytes": 2026,
+    "sha256": "2b363f3e4a37611842099cb12ca241752cad97fd8aac9773fd2e82dcda92f466"
+  },
+  {
+    "path": "new-site/product/maksi/index.html",
+    "bytes": 2023,
+    "sha256": "6023d1e6f3cc660e8e25cbf5ef361895d48b27998d456f5b6284c2bec7021e39"
+  },
+  {
+    "path": "new-site/product/malyy-stankovyy-buk/index.html",
+    "bytes": 2065,
+    "sha256": "2023f0f1ee1a230789b985af4896c6aeec029c6f2fd11a61c27dca15f6abbf81"
+  },
+  {
+    "path": "new-site/product/mini-molberty-lira/index.html",
+    "bytes": 31028,
+    "sha256": "a751ce9d8b7d002cfcd564b8a68b2f1d775b1ea2d90f9efc6c62e59c3be956b3"
+  },
+  {
+    "path": "new-site/product/mini/index.html",
+    "bytes": 2062,
+    "sha256": "71378fe56616669a7a503daa9109cfa8245b06801386a01a156fc7eb3ff09af7"
+  },
+  {
+    "path": "new-site/product/molbert-ampir/index.html",
+    "bytes": 30152,
+    "sha256": "12e97a26596822a4255e92f63bd1c0d404b740c314e4e3ca83497034e1636463"
+  },
+  {
+    "path": "new-site/product/molbert-eksklyuziv/index.html",
+    "bytes": 30838,
+    "sha256": "a280d19ebc125727fafa79ef99d68a8fb13c1090ff4231e9c573273968719e9e"
+  },
+  {
+    "path": "new-site/product/molbert-modern/index.html",
+    "bytes": 2045,
+    "sha256": "2471a829a63171a7c83e92a0c90704b89b0dd4d6a1b77ac699825fbe1f0c218d"
+  },
+  {
+    "path": "new-site/product/molbert-plazma-xl/index.html",
+    "bytes": 31631,
+    "sha256": "2175d7ac81c7858fac4dfc4258bee8e2ca33c8ec0addd597abbbc4fec3065ba4"
+  },
+  {
+    "path": "new-site/product/molbert-versal/index.html",
+    "bytes": 31080,
+    "sha256": "bf09201240d795c38b67585259c237f27067a0ad5407a0ad1b12d7aef7dfa01b"
+  },
+  {
+    "path": "new-site/product/nastolnyy-akva/index.html",
+    "bytes": 2050,
+    "sha256": "2dfa19256c7c4eb8387f7dee70591e844f02aa4a0f0d5a0f7dae9cbd5da2ab96"
+  },
+  {
+    "path": "new-site/product/nastolnyy-buk/index.html",
+    "bytes": 2047,
+    "sha256": "418b557626b339eb3404e876144178c3cffb8fd947b4d49b560213514e43f3de"
+  },
+  {
+    "path": "new-site/product/nastolnyy-mini-buk/index.html",
+    "bytes": 2062,
+    "sha256": "71378fe56616669a7a503daa9109cfa8245b06801386a01a156fc7eb3ff09af7"
+  },
+  {
+    "path": "new-site/product/nastolnyy-mini-xl-buk/index.html",
+    "bytes": 2071,
+    "sha256": "e32fe5e2789f5a255acb5a082f75f54a1a585f25c4c2f9eda19c5aafa780819b"
+  },
+  {
+    "path": "new-site/product/nastolnyy-sosna/index.html",
+    "bytes": 2053,
+    "sha256": "5056e628efecfba223f2cf96e16469ab6b456a28eec9c0d75919027f0333c26a"
+  },
+  {
+    "path": "new-site/product/palitra/index.html",
+    "bytes": 30346,
+    "sha256": "8c9b6ff57bf759788228b953a9c2ab9d08fa28627e018f478ce8d9c9d4a19471"
+  },
+  {
+    "path": "new-site/product/plakatnitsa-nastennaya/index.html",
+    "bytes": 30811,
+    "sha256": "f503608fc6747058ef1e5e6620337647bf3466c9534ac4eb68c4d8d7bef4a6e4"
+  },
+  {
+    "path": "new-site/product/plakatnitsy-a1-i-a2/index.html",
+    "bytes": 31141,
+    "sha256": "5809097a1b8b10538203a52396a4070dfad17dd99c3b6bc30ba2ac578a3d5e00"
+  },
+  {
+    "path": "new-site/product/planshet-nastolnyy-grafika/index.html",
+    "bytes": 2086,
+    "sha256": "6794b643fe0fa51598febf94ba8decbf796bdc5e976985c5067d821ccdc7476c"
+  },
+  {
+    "path": "new-site/product/planshety/index.html",
+    "bytes": 30242,
+    "sha256": "6b4bdc048d53304d6febeeb5c28f2506033144fdb09ea6a00455696bf9d45e0d"
+  },
+  {
+    "path": "new-site/product/podium-dlya-natury/index.html",
+    "bytes": 32215,
+    "sha256": "bc31a39fc30cb9fd7b3f3e631a73d2b0c6c821a7133f47a10854058f292fe0a1"
+  },
+  {
+    "path": "new-site/product/podstavka-dlya-risunkov-buk/index.html",
+    "bytes": 30929,
+    "sha256": "d2ba3abfd010d27a2511e9387282f82baf963b6752150bb03fd34966a6689154"
+  },
+  {
+    "path": "new-site/product/podstavka-dlya-risunkov/index.html",
+    "bytes": 30882,
+    "sha256": "ae512ff46c44eea6df9696196001ac37541e4d752a90b35bfb0782e95122179c"
+  },
+  {
+    "path": "new-site/product/rack/index.html",
+    "bytes": 2065,
+    "sha256": "3c0519513a43dfc314393d0838fdf2e92ff6ce41028113c6dc85d8500a856b45"
+  },
+  {
+    "path": "new-site/product/raskladnoy-lira-buk/index.html",
+    "bytes": 2065,
+    "sha256": "dafe7477f55524e70003df32eb8313be7abbcd5085fa9b98a6122250adb460af"
+  },
+  {
+    "path": "new-site/product/raskladnoy-lira/index.html",
+    "bytes": 2053,
+    "sha256": "723ee11a21ce55b0a00c6110e8411025ca6d0264c6ca54d7582161792212e158"
+  },
+  {
+    "path": "new-site/product/shirma/index.html",
+    "bytes": 30294,
+    "sha256": "2b918a680d3c17ef277e2ca2688cfec202e6b3054f7706d2bc46b896af12ceae"
+  },
+  {
+    "path": "new-site/product/shkatulka-dlya-kistey-i-krasok/index.html",
+    "bytes": 31505,
+    "sha256": "b954d184c96ae517d28dc8970431f09372af9aed3faf1d1dbc684cb78c3ac58f"
+  },
+  {
+    "path": "new-site/product/sofit-dlya-podsvetki-natyurmorta/index.html",
+    "bytes": 32254,
+    "sha256": "1dbb7a6e7b5282caed6f9e6f7c3f9e052d52c12cfaa20fb94246e3398650bb68"
+  },
+  {
+    "path": "new-site/product/stankovyy-2-storonniy/index.html",
+    "bytes": 2071,
+    "sha256": "3c680970f78dfc4d200b3b39b6d27308be619ad885e6659f8626eee0db1ee807"
+  },
+  {
+    "path": "new-site/product/stankovyy-skladnoy-buk/index.html",
+    "bytes": 2074,
+    "sha256": "09acc4a699347dcf19b2b573a1c152fcfd9f466b2947cdc9bdb3354da410fad0"
+  },
+  {
+    "path": "new-site/product/stankovyy-skladnoy-sosna/index.html",
+    "bytes": 2080,
+    "sha256": "0fd754315fcb841709d224e24d45eb43891787ef10e6f8f6327988f83a5b1298"
+  },
+  {
+    "path": "new-site/product/stankovyy-statsionarnyy-buk/index.html",
+    "bytes": 2089,
+    "sha256": "bdef07f2f077fb3f81d6a7e152d7a5016a75d16d7e3123ed27d22ccafb00e49b"
+  },
+  {
+    "path": "new-site/product/stankovyy-statsionarnyy-sosna/index.html",
+    "bytes": 2095,
+    "sha256": "4b624f1183d1a3f1733e269fbd989b298faee92b4672122b9a769358d98a217f"
+  },
+  {
+    "path": "new-site/product/stellazh-dlya-dekora-i-gipsovykh-modeley/index.html",
+    "bytes": 34057,
+    "sha256": "de3294441c81396528f02e8715a68c5463ef9ff10f7708d896785f3124d193ee"
+  },
+  {
+    "path": "new-site/product/stellazh-dlya-planshetov-i-podramnikov/index.html",
+    "bytes": 33431,
+    "sha256": "f9291a81668b20b11983bc377cf3c7fd440025e5336af5b99f1fcd25d2f6de5f"
+  },
+  {
+    "path": "new-site/product/stellazh-dlya-sushki-i-khraneniya-listov-a1/index.html",
+    "bytes": 33070,
+    "sha256": "4a309869201a041c95dbdfd1ddadad2e235ccbcc18d9e133852173e44ba1a6ed"
+  },
+  {
+    "path": "new-site/product/stellazh-dlya-sushki-i-khraneniya-listov-a2/index.html",
+    "bytes": 32474,
+    "sha256": "f3e336d0c40be6f26c0e88ded7be70444d5e79315f35b9e772ec4470a9ec58f4"
+  },
+  {
+    "path": "new-site/product/still-life/index.html",
+    "bytes": 2074,
+    "sha256": "2b6a8f43bc447c053af495045ffb5c3e1852a1e547c1644b7f3f9ffb62aa88b1"
+  },
+  {
+    "path": "new-site/product/stol-dlya-chercheniya-i-risovaniya-chertezhnik/index.html",
+    "bytes": 33156,
+    "sha256": "e36fcdd1b62cebd0eb05c1ba9ff263099c79f3a82a36d068f5499b26466101d0"
+  },
+  {
+    "path": "new-site/product/stol-dlya-chercheniya-i-risovaniya-konstruktor/index.html",
+    "bytes": 34212,
+    "sha256": "0adfaf0a686788119a07540bdc350aeeb49fa0bf48ca123d32878971a6089698"
+  },
+  {
+    "path": "new-site/product/stol-dlya-natyurmorta-s-peremennoy-vysotoy-ekspozitsii/index.html",
+    "bytes": 33836,
+    "sha256": "df97ccdd15e997d0b09ccd138733a260d9d6bd940bba03f853e86273facc57f5"
+  },
+  {
+    "path": "new-site/product/stol-dlya-natyurmorta-skladnoy/index.html",
+    "bytes": 32997,
+    "sha256": "0b80bbcd7d22debbc08ada1863146cf0d3a58e3b7fe3c224f7f56eb7d221abd7"
+  },
+  {
+    "path": "new-site/product/stol-dlya-natyurmortov-50kh50-s-peremennoy-vysotoy-ekspozitsii/index.html",
+    "bytes": 34011,
+    "sha256": "66cfb28e8e2c84650ac862e7a8c1b17b650c426fe6a3ff84ede0c413be0f22ef"
+  },
+  {
+    "path": "new-site/product/stol-dlya-natyurmortov-s-planshetom-ugolok/index.html",
+    "bytes": 33772,
+    "sha256": "f64e5f994a1e3add895dca42d76d53a48482aeb9d99f8ef72741ec3f80946234"
+  },
+  {
+    "path": "new-site/product/stol-skulptora-profi/index.html",
+    "bytes": 32111,
+    "sha256": "04c7c30e13542ab553fcffe50a2f937828bedd100a22a070ee384de8ac388b86"
+  },
+  {
+    "path": "new-site/product/stol-transformer-dlya-natyurmorta/index.html",
+    "bytes": 33363,
+    "sha256": "2669852133863368f85cb0819358ec9ae6730a52cfc93d37157fffa7809369f0"
+  },
+  {
+    "path": "new-site/product/stol-tumba-dlya-natyurmorta/index.html",
+    "bytes": 34667,
+    "sha256": "0b57090f50b85d749fbd33397dfe819f266fb552765f0053dad6be034f921358"
+  },
+  {
+    "path": "new-site/product/stolik-dlya-ekspozitsiy/index.html",
+    "bytes": 31748,
+    "sha256": "1e0414005708180b24fd5d795b0ce7c81aa1b1c6bcf61dcebc0af0a750c89b6d"
+  },
+  {
+    "path": "new-site/product/stolik-dlya-palitry/index.html",
+    "bytes": 31472,
+    "sha256": "09a6d8b4bfbdadf74e40ebe53d10581bdb501580911b033f2928600c26a7656c"
+  },
+  {
+    "path": "new-site/product/stolik-skulptora-buk-fanera/index.html",
+    "bytes": 30922,
+    "sha256": "6e0a0514e21c35bf8d37e7c185417f1fe5a1b92231a26d8954762b7846fe6fdc"
+  },
+  {
+    "path": "new-site/product/studio-beech/index.html",
+    "bytes": 2089,
+    "sha256": "bdef07f2f077fb3f81d6a7e152d7a5016a75d16d7e3123ed27d22ccafb00e49b"
+  },
+  {
+    "path": "new-site/product/studio-pine/index.html",
+    "bytes": 2095,
+    "sha256": "4b624f1183d1a3f1733e269fbd989b298faee92b4672122b9a769358d98a217f"
+  },
+  {
+    "path": "new-site/product/studiya-a1/index.html",
+    "bytes": 2038,
+    "sha256": "a38256d1f2d8838fb8d34eabbe7906e044337f802d9b2da53b157c7b94c22fc3"
+  },
+  {
+    "path": "new-site/product/studiya-a2/index.html",
+    "bytes": 2038,
+    "sha256": "69985f1ec9bb0eb21bf49a7f22fd2e710329e4165f1d92b81dc237a8d9f654af"
+  },
+  {
+    "path": "new-site/product/stul-khudozhnika/index.html",
+    "bytes": 29959,
+    "sha256": "6d9adf62510849d4620fc376bd516a8fe0bc029cabe4c8a5d483571423781ad9"
+  },
+  {
+    "path": "new-site/product/svetilnik-dlya-podsvetki-natyurmorta/index.html",
+    "bytes": 32984,
+    "sha256": "96af842689297fdfddb288e58bd592d7ee9bf65db7c93947f0cc9496d4f33043"
+  },
+  {
+    "path": "new-site/product/svetilnik-prishchepka/index.html",
+    "bytes": 32108,
+    "sha256": "8f30b5ae7d2d0cf00db59d0a5a80afedd282081ee8556a89ffb5aa6e779d5bd7"
+  },
+  {
+    "path": "new-site/product/table-transformer/index.html",
+    "bytes": 2083,
+    "sha256": "4ed837202c0955114eae3dd546812280d62f8ff066acfe2f8257c1b48e3aaf67"
+  },
+  {
+    "path": "new-site/product/taburet-rabochiy/index.html",
+    "bytes": 29855,
+    "sha256": "022eca666a65bd620efc163ba431cdc4d3293ed1008a618448232f9db4a127ae"
+  },
+  {
+    "path": "new-site/product/taburet-vysokiy-buk/index.html",
+    "bytes": 30039,
+    "sha256": "38754a5ead136d28d99366ff69f8267854903f720048868be7cf107ae1efbb7d"
+  },
+  {
+    "path": "new-site/product/taburet-vysokiy-sosna/index.html",
+    "bytes": 30421,
+    "sha256": "8f8f7ae4b020f9a302ac5b6b334c5bf103be18f4b195751627e95c136d6d6b27"
+  },
+  {
+    "path": "new-site/product/taburet-vysokiy/index.html",
+    "bytes": 2041,
+    "sha256": "e394507d9a71d0c955e5b3111ec3ec367e73d2e167796ca33015f9128c14b9fa"
+  },
+  {
+    "path": "new-site/product/telezhka-dlya-khudozhestvennykh-prinadlezhnostey/index.html",
+    "bytes": 31541,
+    "sha256": "7a379d74ddf7542f11ef960be689163627a3490509ed0aa4850dfd70dc96f9a0"
+  },
+  {
+    "path": "new-site/product/transformer-a0-buk/index.html",
+    "bytes": 2062,
+    "sha256": "cc20c78cc836580a5b908b19043d8973bab52d5fe76cf867e06098decc32f239"
+  },
+  {
+    "path": "new-site/product/transformer-a1-buk/index.html",
+    "bytes": 2062,
+    "sha256": "01274421449f40145283ddc15a294d367098133eb35b553cdd184e2c8a698218"
+  },
+  {
+    "path": "new-site/product/transformer-a1/index.html",
+    "bytes": 2062,
+    "sha256": "01274421449f40145283ddc15a294d367098133eb35b553cdd184e2c8a698218"
+  },
+  {
+    "path": "new-site/product/trenoga-1500/index.html",
+    "bytes": 2044,
+    "sha256": "151da17502af067b135bf40b3c6095595ef9c8568ad9548b00cd8c7df4848688"
+  },
+  {
+    "path": "new-site/product/trenoga-vystavochnaya/index.html",
+    "bytes": 2071,
+    "sha256": "38778ab3bd24fd9017b4576f8b48d2f51dd77ab972b938acd9c259b0e1d2573a"
+  },
+  {
+    "path": "new-site/product/trenogi-dlya-foto-ramok/index.html",
+    "bytes": 2080,
+    "sha256": "7d030b64403ac13dbf2b1bc61afdf01c843a601b0e5fc5033c45b150b7214fb4"
+  },
+  {
+    "path": "new-site/product/tripod/index.html",
+    "bytes": 2044,
+    "sha256": "151da17502af067b135bf40b3c6095595ef9c8568ad9548b00cd8c7df4848688"
+  },
+  {
+    "path": "new-site/product/tumbochka-khudozhnika/index.html",
+    "bytes": 31752,
+    "sha256": "6495dbd4f007502d865535a534d57f72c15efc183b551edfa188783bf6102265"
+  },
+  {
+    "path": "new-site/product/vernisazh/index.html",
+    "bytes": 2035,
+    "sha256": "fff2a38c9134ff66723bc9c7187119fe8d44c7b9f5a31db93b89ee414360129a"
+  },
+  {
+    "path": "new-site/professionalnye-molberty/index.html",
+    "bytes": 52981,
+    "sha256": "c81b95350d00e5aa67b53f91cad2e30a5d8b5ec42028cd786a946a8563f668d9"
+  },
+  {
+    "path": "new-site/qa/BLOG-IMAGES.md",
+    "bytes": 5065,
+    "sha256": "bdc0156ac66daf729ac319737beae78b1bc599ac16581936e4e48e7578e49870"
+  },
+  {
+    "path": "new-site/qa/PRODUCTION-UPDATE-REPORT.md",
+    "bytes": 3444,
+    "sha256": "0a673226abeefb2421f4cee212b3535fd3cb85ef647d598e2d8d3b9fdaf0cba3"
+  },
+  {
+    "path": "new-site/qa/SCHEMA-REPORT.md",
+    "bytes": 5703,
+    "sha256": "2b2b2c03511190021416a7b7a7d738910018134db209d6c1eb4faa64b52da9e1"
+  },
+  {
+    "path": "new-site/qa/all-pages-revision-report.json",
+    "bytes": 79,
+    "sha256": "1daef5b96589849fea8d895dc16e02ac31115b8c3fbeded3d4294117b3ffc2f0"
+  },
+  {
+    "path": "new-site/qa/article-contents-mobile.png",
+    "bytes": 182988,
+    "sha256": "f6e1e10a8b4071302828c0423f1fe3e0d59f5ea8599c885b9b60fdccada856bb"
+  },
+  {
+    "path": "new-site/qa/article-desktop.png",
+    "bytes": 843357,
+    "sha256": "0eb0f9f58511f2d124c4617f779dd231128885a61efa9f5e3f3624a2864134f6"
+  },
+  {
+    "path": "new-site/qa/article-formatted-body.png",
+    "bytes": 123983,
+    "sha256": "50e3eeec3a81ec649033572c78a00c30cbbbe2aa8dec62db32e46b98618a1bd8"
+  },
+  {
+    "path": "new-site/qa/article-links-check.json",
+    "bytes": 717,
+    "sha256": "8f72edb1f2e550780020a84cd794c3bca0ac81b2431adcf8a095e378d908587f"
+  },
+  {
+    "path": "new-site/qa/article-mobile.png",
+    "bytes": 580232,
+    "sha256": "a8cb23509dd9dc8dc9ddd59ade28d678a343dfe4193da2904d0bccdd117be677"
+  },
+  {
+    "path": "new-site/qa/article-original-desktop.png",
+    "bytes": 953997,
+    "sha256": "d6ad24041435daa366d248eb1941f93d954434b81daab4436fcc85ba9f08731c"
+  },
+  {
+    "path": "new-site/qa/article-original-mobile.png",
+    "bytes": 202319,
+    "sha256": "9dd3414efd17a4a5eb1c9969ddb6f73550a073ce84b576516795e520b429cca7"
+  },
+  {
+    "path": "new-site/qa/article-presentation-test-result.json",
+    "bytes": 851,
+    "sha256": "b734f5637d8af9770e59914d1609b8bbadc1b72945aed1e5848866c8f6849fb2"
+  },
+  {
+    "path": "new-site/qa/blog-desktop.png",
+    "bytes": 645064,
+    "sha256": "5a4a11966122c030c8879829f24b457dfde0393d8ca937b5f1c037d69a50f3dc"
+  },
+  {
+    "path": "new-site/qa/blog-themed-desktop.png",
+    "bytes": 919695,
+    "sha256": "2b380538174cf60014d13a9691f37c67ecf803268bede74ee96223449363f97d"
+  },
+  {
+    "path": "new-site/qa/cart-mobile.png",
+    "bytes": 37492,
+    "sha256": "0c0f4cab871b3285d0ac41a5b991e4dce57169f102ad30cddc8934d4fcc46ab4"
+  },
+  {
+    "path": "new-site/qa/catalog-category-photos.png",
+    "bytes": 121734,
+    "sha256": "633d0f7b58e07ac98f1588a35e3c87800cf6dbaba9ae1c6231c7b9e46a97a39e"
+  },
+  {
+    "path": "new-site/qa/catalog-desktop.png",
+    "bytes": 172566,
+    "sha256": "3b8af4d9896ef0598c4fdf1778af20d154fc29e32e04f8b0a373a791eb6042fa"
+  },
+  {
+    "path": "new-site/qa/catalog-mobile.png",
+    "bytes": 57252,
+    "sha256": "23040eb25d2650769d7f83a8b2ab8b49c477d046a471b71af1fc62d4ed2e8384"
+  },
+  {
+    "path": "new-site/qa/catalog-v2-desktop.png",
+    "bytes": 157038,
+    "sha256": "70118297bd6a44027c2d6423915044d41c77188da14c4175c52e6a24834f29f4"
+  },
+  {
+    "path": "new-site/qa/catalog-v2-mobile.png",
+    "bytes": 57647,
+    "sha256": "9d979439394911742c78cd9e360b552d6dff7275be52c42c93eb34cf190c5f66"
+  },
+  {
+    "path": "new-site/qa/category-removal-test-result.json",
+    "bytes": 616,
+    "sha256": "b61d2562d801ed896583b2e58b985425abb435c7bec4f3acc8b1640d8c8304f2"
+  },
+  {
+    "path": "new-site/qa/certificate-viewer.png",
+    "bytes": 1259053,
+    "sha256": "c80baa8a6bb5a59afd41e73124f2cf5a0f521a07154f4a8d1902938c3647725e"
+  },
+  {
+    "path": "new-site/qa/checkout-test-result.json",
+    "bytes": 841,
+    "sha256": "f219be161132217b44502050fdfe3e9d7b551b29d660abfe377e0aadd6f681f3"
+  },
+  {
+    "path": "new-site/qa/choice-article-desktop.png",
+    "bytes": 864201,
+    "sha256": "f1ccebb311ae0bd11ced23e18f48e4b9d12d90eef14af4dbd1b69a6a024e0e6b"
+  },
+  {
+    "path": "new-site/qa/clients-test-result.json",
+    "bytes": 984,
+    "sha256": "e17eb1ba41a13f97178ffeb9451d7757d5819991838598da7432d50ae718b1e7"
+  },
+  {
+    "path": "new-site/qa/company-full-copy-desktop.png",
+    "bytes": 167023,
+    "sha256": "a70ba42b50ccf88f7d80b3bfcf89d2277fb4702afeccaa9c03f60eda963497c3"
+  },
+  {
+    "path": "new-site/qa/company-full-copy-mobile.png",
+    "bytes": 121360,
+    "sha256": "fe89304c31e3af287fa81586859938544f52fff020d3fab0c99181b065f19666"
+  },
+  {
+    "path": "new-site/qa/company-full-copy-report.json",
+    "bytes": 277,
+    "sha256": "19697c5f107d74466918c7b27bbc362d5528c5dab6f685058bfc259a948b91a4"
+  },
+  {
+    "path": "new-site/qa/contacts-complete-desktop.png",
+    "bytes": 373598,
+    "sha256": "65c1b35471504d37b05fdade5e011ae02a50e55620e0100f61f0933d20ca956d"
+  },
+  {
+    "path": "new-site/qa/contacts-mobile.png",
+    "bytes": 112498,
+    "sha256": "ffe39a441d5047027e47ffbde6d7649b1701297ede46d3b776b17d2ac3887b1d"
+  },
+  {
+    "path": "new-site/qa/cookie-legal-test-result.json",
+    "bytes": 682,
+    "sha256": "36990e20388dba2433c227238b0abda58a6dc6fc84e2cc54b3200af9ee071f2b"
+  },
+  {
+    "path": "new-site/qa/delivery-payment-desktop.png",
+    "bytes": 338202,
+    "sha256": "5fe448a5c23e93b14da2dfacf8690ffa21e422ce8d5b29b1db3898efeeaf66cf"
+  },
+  {
+    "path": "new-site/qa/dvadcat-let-plodotvornoj-raboty-formatted-desktop.png",
+    "bytes": 931930,
+    "sha256": "728a2c3481522377203278c6c02a9aa951c9292b10f1ead3f8bfa96d1eb3681d"
+  },
+  {
+    "path": "new-site/qa/footer-v2-desktop.png",
+    "bytes": 108977,
+    "sha256": "28a7fe6e94b7d00c7ac21ba3c22ebece4be7a6f4e7d00374943aac470b1f392d"
+  },
+  {
+    "path": "new-site/qa/generated-schema.json",
+    "bytes": 54554,
+    "sha256": "8c3103a5b38dc39a7b8986c4b44b6a5440b3d8cb74a9eb6c8d57e2818b786fa9"
+  },
+  {
+    "path": "new-site/qa/home-blog-themed-desktop.png",
+    "bytes": 561979,
+    "sha256": "3d337f77655e9c4fc583d8c78f022d6a9a10bf6a0add208a071b01a79077dd4b"
+  },
+  {
+    "path": "new-site/qa/home-catalog-check.json",
+    "bytes": 1026,
+    "sha256": "1877485073c54ba80e7c5bcd0393a65d636c72ba9094b6cf345212bec3872c93"
+  },
+  {
+    "path": "new-site/qa/home-catalog-original-images-desktop.png",
+    "bytes": 185883,
+    "sha256": "38ee9eb379990f0f55088723823f4a77259101701f7e7bb58b4a7c72b5cdb7f3"
+  },
+  {
+    "path": "new-site/qa/home-catalog-original-images-mobile.png",
+    "bytes": 75566,
+    "sha256": "f7e7b810cb204eca0247431d247878bad0117fbc3655658ab1a4e1012619b353"
+  },
+  {
+    "path": "new-site/qa/home-contacts-map.png",
+    "bytes": 258750,
+    "sha256": "c71ba344b7a9e8785d0416a8e3f935c300922ea01a24f5f013798d294d551ac4"
+  },
+  {
+    "path": "new-site/qa/home-desktop.png",
+    "bytes": 2065429,
+    "sha256": "a152d31f0070c22c1fe85012904337895c53a4952e90b263862fec4a0684b2d0"
+  },
+  {
+    "path": "new-site/qa/home-first-screen.png",
+    "bytes": 599785,
+    "sha256": "ab8dfdc9b2003a88fff997ac15b6dfd0c83b42f15a51309cb1f3ade2d451d9a4"
+  },
+  {
+    "path": "new-site/qa/home-mobile.png",
+    "bytes": 692740,
+    "sha256": "f1526431daf9564216b026ab0af051acb3daf1da858d944673e9b303b5ac923d"
+  },
+  {
+    "path": "new-site/qa/home-revised-desktop.png",
+    "bytes": 4213731,
+    "sha256": "c969d73232473b2ad0fee45b7ebd835277a5d3c2045e47ca55568bc2582b4b80"
+  },
+  {
+    "path": "new-site/qa/home-revised-first-screen.png",
+    "bytes": 610783,
+    "sha256": "49b84ad7361eb9635fc3f773e3a653f1b7b7d35a967a861379af5afeb2257023"
+  },
+  {
+    "path": "new-site/qa/home-revised-mobile.png",
+    "bytes": 3088667,
+    "sha256": "f8919e1ba54db9e26756ddfe2e7652608e8a57031c92329a653fe590da021054"
+  },
+  {
+    "path": "new-site/qa/home-v2-desktop.png",
+    "bytes": 613897,
+    "sha256": "bdff8e657445c933b68c92900dddfe07d53ad9060ed21154623ede6e67029c59"
+  },
+  {
+    "path": "new-site/qa/instrument-dlya-tvorchestva-molbert-formatted-desktop.png",
+    "bytes": 924910,
+    "sha256": "4048ba524d8cabbd05042cedffcb35206b59c0bd9ff6e2401812a271fd5af0da"
+  },
+  {
+    "path": "new-site/qa/interior-guide-test-result.json",
+    "bytes": 864,
+    "sha256": "cabfdceb9e3861a48f1c0ba9af41038d8017a857f0f374b457e1a65fdc297ea9"
+  },
+  {
+    "path": "new-site/qa/kak-vybrat-molbert-formatted-desktop.png",
+    "bytes": 841913,
+    "sha256": "b0a3c53f5d41164c2e646d057483920f6946b73b51eca164e969552b5993d691"
+  },
+  {
+    "path": "new-site/qa/logo-preview-test-result.json",
+    "bytes": 3435,
+    "sha256": "f191ae6dc2bd643152b866f05729c81786711af1285426e3b5a686e814687952"
+  },
+  {
+    "path": "new-site/qa/materials-check.json",
+    "bytes": 792,
+    "sha256": "9e0004856d3476430f5657d9666dc77729186fe9376e7cbe5f701897a420c6bd"
+  },
+  {
+    "path": "new-site/qa/mobile-breadcrumbs-test-result.json",
+    "bytes": 877,
+    "sha256": "7d8f86ffb0215627003ab5aaa7ebf658a25fb7cc22931bfb65e1a058d7a8c0eb"
+  },
+  {
+    "path": "new-site/qa/mobile-first-screen.png",
+    "bytes": 167003,
+    "sha256": "cbd68d86e968a7d39fe1d0c799ebfda539e0fa070befac1e8a652be6024980f9"
+  },
+  {
+    "path": "new-site/qa/mobile-nav-test-result.json",
+    "bytes": 708,
+    "sha256": "47baa3547a9c2827029e615f0d500dbf685299e490243e65bf1623b8fcc308f0"
+  },
+  {
+    "path": "new-site/qa/molbert-v-sovremennom-interere-formatted-desktop.png",
+    "bytes": 774226,
+    "sha256": "975eddead5ec37d7b3390bec30f406199a69d3fd77c0b225a05c74237b64f430"
+  },
+  {
+    "path": "new-site/qa/motion-test-result.json",
+    "bytes": 566,
+    "sha256": "de82dcd5b085803ad6294d95cff285c61e2124486b7a53086864abc6d6059ec4"
+  },
+  {
+    "path": "new-site/qa/not-found-test-result.json",
+    "bytes": 830,
+    "sha256": "2c07bad7804a02342280fe1478613d4295bf836a458c5584b45c1b5e8add21be"
+  },
+  {
+    "path": "new-site/qa/organization-schema-validation.json",
+    "bytes": 381,
+    "sha256": "f63325267cbecd66685457c6b8769a7fabba25cd4840cd8265af05570b17819c"
+  },
+  {
+    "path": "new-site/qa/performance-comparison.json",
+    "bytes": 52487,
+    "sha256": "4914d6af35732d40667f7d9feaec0bf840e8e2c11d5cfd1d364779d69311befc"
+  },
+  {
+    "path": "new-site/qa/performance-pages-result.json",
+    "bytes": 1086,
+    "sha256": "f839303034f3ab3b5a18f03cf8bd9b4f6ed4924ccae1115e17ccf8ff9e68e3e2"
+  },
+  {
+    "path": "new-site/qa/performance-test-result.json",
+    "bytes": 670,
+    "sha256": "27765dfe3413888ec7d373e2016da83bd0574392b94879dc4337e193cdf2eaea"
+  },
+  {
+    "path": "new-site/qa/prices-desktop.png",
+    "bytes": 80599,
+    "sha256": "eed3d90aab6cab376f1064df47fed88ecf5407d8390573446a3861744cd2b1fb"
+  },
+  {
+    "path": "new-site/qa/prices-mobile.png",
+    "bytes": 45365,
+    "sha256": "03d3cf374125ea922068d7a7e961c4aa45888b462cfe2a3c672b854aa216424b"
+  },
+  {
+    "path": "new-site/qa/product-desktop.png",
+    "bytes": 134949,
+    "sha256": "a742d2820f7e6f8fb94901bb256a60dea25f664757415cc8fbab9e35e6703ff8"
+  },
+  {
+    "path": "new-site/qa/product-material-sosna.png",
+    "bytes": 33344,
+    "sha256": "76fef70d6d7da3cce288b2b0c831834e2c53ce428cf97a2874049d9ba604d7dd"
+  },
+  {
+    "path": "new-site/qa/product-mobile.png",
+    "bytes": 65299,
+    "sha256": "dfbcca8fe2fb3a7b875888aeda72bb8c42fdc7b0a2af8e1b47ef9d707308cee8"
+  },
+  {
+    "path": "new-site/qa/production-documents-mobile.png",
+    "bytes": 52157,
+    "sha256": "ff9c02dae9a7714fe5df594fed305368aafb702ab35188b41beb2b205e2e4a92"
+  },
+  {
+    "path": "new-site/qa/production-lira-desktop.png",
+    "bytes": 156072,
+    "sha256": "e7e9154e028f982a2d7d1fb182c82540613f969f711a6eeb6d25943861e2447b"
+  },
+  {
+    "path": "new-site/qa/production-revised.png",
+    "bytes": 848750,
+    "sha256": "a799a2b71961b58c368c4bdc2b843ee7ef3ccf0736d2a598045d51d0729fd087"
+  },
+  {
+    "path": "new-site/qa/production-static-validation.json",
+    "bytes": 300,
+    "sha256": "4ff6d1c5792b1845ad1273927aef85b36f1c0aeae0134f3a7a819f340b6e72c7"
+  },
+  {
+    "path": "new-site/qa/production-update-test-result.json",
+    "bytes": 707,
+    "sha256": "09ee299e1c3e363c04c1a7229d88e3386a70bc6173372081b573a2636c3f0050"
+  },
+  {
+    "path": "new-site/qa/quick-view-mobile.png",
+    "bytes": 48039,
+    "sha256": "b615f17f51ff49ebb7110adaaf3248afee70ffa1e010972cb5168e27f755b94d"
+  },
+  {
+    "path": "new-site/qa/report.json",
+    "bytes": 1538,
+    "sha256": "d3212834b78121ff45c60a55131f5856f380c1f7435772c53991e9b118955e5b"
+  },
+  {
+    "path": "new-site/qa/revision-report.json",
+    "bytes": 337,
+    "sha256": "2cdb7de902eb1e4924840f982af01b60ac636fbe0d891e7ec2369cc221880b99"
+  },
+  {
+    "path": "new-site/qa/revision-test-result.json",
+    "bytes": 594,
+    "sha256": "10e635423d57e1bfe1e1a9ffb64c9436a27fa2f9d0bfe6bff87e7b3e00e4133a"
+  },
+  {
+    "path": "new-site/qa/sales-prices-report.json",
+    "bytes": 468,
+    "sha256": "e795c7795564763cb76f1ca9800057fef60a9460cd3121683d41ec68c4a0ab39"
+  },
+  {
+    "path": "new-site/qa/scroll-motion-test-result.json",
+    "bytes": 512,
+    "sha256": "2d4c3ef096dac3762c54b00dd356efc91bea05702741232e82f157e114c5a5fb"
+  },
+  {
+    "path": "new-site/qa/sculpture-unified-desktop.png",
+    "bytes": 170380,
+    "sha256": "b3343107f775e2b858d685b2eb58e7a2d63e0ecb5f0d47aeaa9460e6b79881cc"
+  },
+  {
+    "path": "new-site/qa/sculpture-unified-mobile.png",
+    "bytes": 68191,
+    "sha256": "cfe30e7983e78da12a00610b334033d7f4382598f9c5c735d0745bff6574466e"
+  },
+  {
+    "path": "new-site/qa/shop-test-result.json",
+    "bytes": 894,
+    "sha256": "2020524046876de53a879f4287acfdee7149041b8e73120bc0b0b583186611b5"
+  },
+  {
+    "path": "new-site/qa/structure-catalog-desktop.png",
+    "bytes": 127783,
+    "sha256": "a6416cfc6b31a7e82ec0ac56a1dda3b159900f0a9af6f3bec36a4799dbaa63a2"
+  },
+  {
+    "path": "new-site/qa/structure-home-categories.png",
+    "bytes": 154594,
+    "sha256": "4b42fdb8c10bf5b77e4dc9d458c413fc4fb2d92b5a843b431b0860c31dc32485"
+  },
+  {
+    "path": "new-site/qa/structure-mobile.png",
+    "bytes": 53761,
+    "sha256": "46c48b0e1b2e54fb27d30c042af46727899058a99f6842c685abbc43dbadfef7"
+  },
+  {
+    "path": "new-site/qa/structure-students-desktop.png",
+    "bytes": 165952,
+    "sha256": "c7f2b014dfbd2f89db18c1c24d068806639856902bdb722419dc30a5fda3fe93"
+  },
+  {
+    "path": "new-site/qa/structure-test-result.json",
+    "bytes": 852,
+    "sha256": "4c36f5ebe25bea93d46eba8ca08e2d80e584859d191dcef8dfbe835c8d25c404"
+  },
+  {
+    "path": "new-site/qa/workshop-section.png",
+    "bytes": 718183,
+    "sha256": "4c74034b4e56e8c2df750c1e564e524b15d4e4c96a6c160f40239a71b5a0f67c"
+  },
+  {
+    "path": "new-site/rabochee-mesto-khudozhnika/index.html",
+    "bytes": 38235,
+    "sha256": "6f2a2d481f4fccf3358020858dfb69369268f5265e2c28d43c3c3f25c593b64e"
+  },
+  {
+    "path": "new-site/scripts/breadcrumbs.py",
+    "bytes": 556,
+    "sha256": "7654546a4318160ddee4a83238c06828a63e983d01cdaae36af6093abd989e3d"
+  },
+  {
+    "path": "new-site/scripts/build.py",
+    "bytes": 19483,
+    "sha256": "9aa01e6f60f6c4f9f36ad407d1ae24b3be1c36d93994dd21f77de7591a79fd80"
+  },
+  {
+    "path": "new-site/scripts/category_guides_content.py",
+    "bytes": 1548,
+    "sha256": "27bc8255df362b2d8a81b9ddf257e5f00e9b0f1ab7d6b148fe81582775a948a0"
+  },
+  {
+    "path": "new-site/scripts/check.py",
+    "bytes": 15439,
+    "sha256": "428065b0faedfea4f610b8b262acf96600cff8eeab0d92ff7cb189d1fc7f27d7"
+  },
+  {
+    "path": "new-site/scripts/clients_content.py",
+    "bytes": 5228,
+    "sha256": "b9730fb303ad672ee113cc69e44ce688339c000326c887440b007f18c20aee59"
+  },
+  {
+    "path": "new-site/scripts/create-logo-options.py",
+    "bytes": 5937,
+    "sha256": "69ac158bbc5198161e0889e3bdb6a1b249311aaee5dbe157998c11989d319ed8"
+  },
+  {
+    "path": "new-site/scripts/draw.py",
+    "bytes": 2229,
+    "sha256": "2f6d1d14c2eeb9c3d4ca67a117bd63995b7ff4498d263509aa14713d2fbd7dc6"
+  },
+  {
+    "path": "new-site/scripts/error_page.py",
+    "bytes": 4062,
+    "sha256": "926c2906932a5e6bf8079e296cf90e40b08b6777feee74c0ce152ccd9add63c3"
+  },
+  {
+    "path": "new-site/scripts/import-articles.py",
+    "bytes": 10504,
+    "sha256": "22e0dce6ad1be107fd2b8c64552628232bf956aa671e3d43244698cb4fed0622"
+  },
+  {
+    "path": "new-site/scripts/import-catalog.py",
+    "bytes": 20776,
+    "sha256": "2acdb7f610bae71902306850beafe61f83c3bb4a6f4015eb085b50351be99610"
+  },
+  {
+    "path": "new-site/scripts/import-prices.py",
+    "bytes": 4323,
+    "sha256": "89d14364f51580c6238e60ea6cc06643aaf00aa2d3d07e5a416361a4bf434703"
+  },
+  {
+    "path": "new-site/scripts/interior_guide_content.py",
+    "bytes": 381,
+    "sha256": "beca3add00dd8124f1049900a998caa8024d53e166b4fb74164aa87d4c698ef2"
+  },
+  {
+    "path": "new-site/scripts/legal_content.py",
+    "bytes": 1933,
+    "sha256": "5c27e6a2cd082b8240d9ff2f227e5e1b6b47d8da583ec55f5021e1de198ad236"
+  },
+  {
+    "path": "new-site/scripts/mobile_navigation.py",
+    "bytes": 2195,
+    "sha256": "d2161362d9c86d0c7e8512b781db7b688e3e77fcb7686ff62d65aae8256e523f"
+  },
+  {
+    "path": "new-site/scripts/prerender.cjs",
+    "bytes": 2756,
+    "sha256": "cb83e1247f312604d70b382de46a956411915f686ba25fa8605bdd1aabf4ccd7"
+  },
+  {
+    "path": "new-site/scripts/reviews_content.py",
+    "bytes": 1172,
+    "sha256": "e6d9514df5ad3dea08bb2f3751963672687d725fd8987b2aac6562a63cd81073"
+  },
+  {
+    "path": "new-site/scripts/test-article-presentation.cjs",
+    "bytes": 5046,
+    "sha256": "53abdf27b6a1fb4ea3b0eb76ca5b9611c2ae2984c7625c99985f11b41ea61ab5"
+  },
+  {
+    "path": "new-site/scripts/test-category-removal.cjs",
+    "bytes": 3330,
+    "sha256": "5ac642fe8490a529946f3b033add1182abbcdf1709ad8eb466a119d7a1f79cb6"
+  },
+  {
+    "path": "new-site/scripts/test-checkout.cjs",
+    "bytes": 11694,
+    "sha256": "ff4947b5e96da42ea38908a2cb7dc9a9eca868eae97c7c8e5a3087546e10fff7"
+  },
+  {
+    "path": "new-site/scripts/test-clients.cjs",
+    "bytes": 7222,
+    "sha256": "3d037f463d115188e82c0b2c999e42592e2986d196a6e8d951f9ab0aca2219dd"
+  },
+  {
+    "path": "new-site/scripts/test-cookies.cjs",
+    "bytes": 7332,
+    "sha256": "dd4d9c0478e259788123196062276f035863e6027c23178710975c2f35f00139"
+  },
+  {
+    "path": "new-site/scripts/test-helpers.cjs",
+    "bytes": 308,
+    "sha256": "96d00fc0eb9a06128985f23fb4f9982f2399371d4e3cda57daec5f0f75cbebbe"
+  },
+  {
+    "path": "new-site/scripts/test-interior-guide.cjs",
+    "bytes": 7723,
+    "sha256": "6f1c8170a5177873e5a506dface1c6dcee083363e8bc2f4dae36f0f76d35b3b7"
+  },
+  {
+    "path": "new-site/scripts/test-logo-preview.cjs",
+    "bytes": 5685,
+    "sha256": "d4d39c506e97335868ad466c51ad20ade6586660289b170fa68bfef3fe5c5c71"
+  },
+  {
+    "path": "new-site/scripts/test-mobile-breadcrumbs.cjs",
+    "bytes": 4787,
+    "sha256": "fe95024b22eb004ec036774377e99a68c05fe7cd38045a5ff751c27c4145819d"
+  },
+  {
+    "path": "new-site/scripts/test-mobile-nav.cjs",
+    "bytes": 7407,
+    "sha256": "b9e6f2a92ead16964fc34e8bc7985cf761553193ec7d10f7aa3d9ec7030fcb15"
+  },
+  {
+    "path": "new-site/scripts/test-motion.cjs",
+    "bytes": 7818,
+    "sha256": "ef2ed7ec0f4170b43d9281c0ddd446a971f85496a3ac8f14b27d50cd24a916a2"
+  },
+  {
+    "path": "new-site/scripts/test-not-found.cjs",
+    "bytes": 7564,
+    "sha256": "56e50216d0eb9f48e067aa050d2f7baf5be0d718cd278f357edb6b64896dbb33"
+  },
+  {
+    "path": "new-site/scripts/test-performance.cjs",
+    "bytes": 4821,
+    "sha256": "9cf88966c982aa4ad57004382f725c8b880dacf457cd3b36a4cca16f79a646cb"
+  },
+  {
+    "path": "new-site/scripts/test-production-update.cjs",
+    "bytes": 7038,
+    "sha256": "eb9becfa18e48db0aa18296bafa04d9737aa433175cd26e85398671a618acac5"
+  },
+  {
+    "path": "new-site/scripts/test-revision.cjs",
+    "bytes": 8074,
+    "sha256": "930abf535d8b0b9e377d6a3d8375715084f4269649bf082ee62f9d9e27e15400"
+  },
+  {
+    "path": "new-site/scripts/test-scroll-motion.cjs",
+    "bytes": 6819,
+    "sha256": "cf023b992a58fab189a869674993d00dc395b43f9babe3c63d36a5d0b0019964"
+  },
+  {
+    "path": "new-site/scripts/test-server.py",
+    "bytes": 3413,
+    "sha256": "02fa254f6bffa8e1ca9b90ca981068f468b763f5d7e53c0e4bbe55fc35827712"
+  },
+  {
+    "path": "new-site/scripts/test-shop-compat.cjs",
+    "bytes": 2227,
+    "sha256": "99a307c82a17934a68fcb38c8399188d7bd237798b0dd82195b87316dfcd0bb2"
+  },
+  {
+    "path": "new-site/scripts/test-shop.cjs",
+    "bytes": 9069,
+    "sha256": "a3832c6750777b849e054be8cb668421182bf47ee4eddc86670f7649a7214a86"
+  },
+  {
+    "path": "new-site/scripts/test-structure.cjs",
+    "bytes": 7281,
+    "sha256": "867a5b9dfe154ea1d676dfd05adf0d49605ccfd7bdf34e680e8ee08967d7433b"
+  },
+  {
+    "path": "new-site/scripts/validate-organization.py",
+    "bytes": 7112,
+    "sha256": "5e1bc1e7c0b9d5e90ef87f0c2e71298a78fd94b5258bfeb625172be848d6efc7"
+  },
+  {
+    "path": "new-site/serve.py",
+    "bytes": 4506,
+    "sha256": "60578ca0d5801406e1059a575b6573cb4e44c0e237667d78f67c983e56eeb74a"
+  },
+  {
+    "path": "new-site/server-config/apache-performance.conf",
+    "bytes": 469,
+    "sha256": "9c2578a8df4865abbaa22e600d0f9d0dc1140bce8dcd9da84708464ac0781f00"
+  },
+  {
+    "path": "new-site/server-config/nginx-performance.conf",
+    "bytes": 505,
+    "sha256": "d7af4f9a2354d17218f37d93230f893cfdb057c619f477db61c251be57211e32"
+  },
+  {
+    "path": "new-site/shirmy-dlya-izostudii/index.html",
+    "bytes": 33196,
+    "sha256": "4307d37e81ab54e1df6ddd5955f26066987c549ea90f077056b404ddd0b0acd3"
+  },
+  {
+    "path": "new-site/stellazhi-dlya-izostudii/index.html",
+    "bytes": 38607,
+    "sha256": "5f98e481c0ba503172e550dcbb2cc82a40ac36c146a6f908ce7d7a6c16e08c9f"
+  },
+  {
+    "path": "new-site/stoly-dlya-chercheniya-i-risovaniya/index.html",
+    "bytes": 36517,
+    "sha256": "aa57906f15f90e3fd39733b960d7fe9be8ae3abd27928a559d00b3a8ec62b612"
+  },
+  {
+    "path": "new-site/stoly-dlya-natyurmorta/index.html",
+    "bytes": 46825,
+    "sha256": "e775a2db25a13a84c4530e65bc6d87df0e0c3dc7a7f3911390c04c33c2a552d0"
+  },
+  {
+    "path": "new-site/stoly-skulptora/index.html",
+    "bytes": 36250,
+    "sha256": "428e3682869a8bc54b94dd218a885f01139e146f92e8e0bafdfea3a21757e33b"
+  },
+  {
+    "path": "new-site/svetilniki-dlya-izostudii/index.html",
+    "bytes": 38316,
+    "sha256": "b721af5b9e0e1eac4e7461a7be9f1eb202a5cbdcc097850877223981766a4710"
+  },
+  {
+    "path": "new-site/taburety-i-stulya/index.html",
+    "bytes": 38395,
+    "sha256": "7bd1d417488ce604e50750930a0bf6987e6471720bfb66e246f2d949a9a15ac3"
+  },
+  {
+    "path": "new-site/vspomogatelnoe-oborudovanie/index.html",
+    "bytes": 36987,
+    "sha256": "d022bc7d47e97a1c9c2fa40823c474647de05e6724a687f966c9d0a025725398"
+  },
+  {
+    "path": "new-site/vystavochnye-molberty-iz-buka/index.html",
+    "bytes": 1979,
+    "sha256": "599ff6974a38bc191af0e841f5060b8eb6f61b020e27e910fd50e972226a8187"
+  },
+  {
+    "path": "new-site/vystavochnye-molberty-iz-sosny/index.html",
+    "bytes": 1985,
+    "sha256": "27c5f9f746f64398f13fd7f685cc1b28a11c49b06f103223d38ab4c134e493c6"
+  },
+  {
+    "path": "new-site/scripts/product_content.py",
+    "bytes": 1884,
+    "sha256": "06e566a277251775148d21d440ac462370a9ecce04026f141fb7c587dd213fdc"
+  },
+  {
+    "path": "new-site/product/molbert-bolshoy-stankovyy-buk/index.html",
+    "bytes": 33177,
+    "sha256": "4e5e3789b4b4bde1f3f1c51dbd294b0eba6cc2d237d30ed0ae0ffe82056af1a9"
+  },
+  {
+    "path": "new-site/product/molbert-stankovyy-statsionarnyy-sosna/index.html",
+    "bytes": 32661,
+    "sha256": "a3c1da0321d327d5ddab471f18aebc35a3069a12a30d87879811b085f7a3816f"
+  },
+  {
+    "path": "new-site/product/molbert-stankovyy-statsionarnyy-buk/index.html",
+    "bytes": 32191,
+    "sha256": "17d2ed85eda9054dbbb2163025119f5c1ad6cbaa40f920d94fab49846784460d"
+  },
+  {
+    "path": "new-site/product/molbert-malyy-stankovyy-buk/index.html",
+    "bytes": 33649,
+    "sha256": "8f677b2a61f262028e1699a94f9f968a35c78e6436304cf9a5f63da488750d7e"
+  },
+  {
+    "path": "new-site/product/molbert-stankovyy-2-storonniy/index.html",
+    "bytes": 34126,
+    "sha256": "acbdce77e10f255159b0684a32ce1c784c298dcde5a066809a68fe4897653a21"
+  },
+  {
+    "path": "new-site/product/molbert-stankovyy-skladnoy-sosna/index.html",
+    "bytes": 34119,
+    "sha256": "a921f6a1c72c38cf2c8e0bc395e8968c56ea480d43a48c083756500242c98f21"
+  },
+  {
+    "path": "new-site/product/molbert-stankovyy-skladnoy-buk/index.html",
+    "bytes": 32358,
+    "sha256": "93d54c0c392fe3c157f7402b82f5d7d96a9685592f1fe769bc306aa9ca9d80aa"
+  },
+  {
+    "path": "new-site/product/molbert-transformer-a0-buk/index.html",
+    "bytes": 32733,
+    "sha256": "4ac5f8425171b98070d6e75fc02c428925678eecf2cf0eca70fdce862fc69563"
+  },
+  {
+    "path": "new-site/product/molbert-transformer-a1-buk/index.html",
+    "bytes": 32357,
+    "sha256": "92cdaf27ab55292b36701310795e88aa126e5a29259eb6b70a5e4f2474800328"
+  },
+  {
+    "path": "new-site/product/molbert-dizayner-a1-buk/index.html",
+    "bytes": 31289,
+    "sha256": "0b2a399581e20b4170bea8b6e7e1914f9d14f1191481ee6cf063c909cc92a0df"
+  },
+  {
+    "path": "new-site/product/molbert-dizayner-a2-buk/index.html",
+    "bytes": 31595,
+    "sha256": "37cdda10747ef0e6cc110037aa4c75a775cfd35ebc91707e458faf495e883c33"
+  },
+  {
+    "path": "new-site/product/molbert-studiya-a1/index.html",
+    "bytes": 31370,
+    "sha256": "54b10b40cac4550c9c5bb99ba7e481dd6806258a8e894ff33c8bef7a09e26df2"
+  },
+  {
+    "path": "new-site/product/molbert-studiya-a2/index.html",
+    "bytes": 31392,
+    "sha256": "e81f2576b26d11fa3a8dfc55381bfadb984123d0342cbd1d31d2c5dceae0de58"
+  },
+  {
+    "path": "new-site/product/molbert-lira-s-naklonnoy-shtangoy/index.html",
+    "bytes": 31486,
+    "sha256": "93f712e25ba5185df3ecec8a0ecf8d52a24f1dd47d71079d49a9b599a9f2b606"
+  },
+  {
+    "path": "new-site/product/molbert-lira-s-naklonnoy-sht-buk/index.html",
+    "bytes": 31432,
+    "sha256": "6f62056abe46cb9f875e77a652ba37ce6c48c3d5fa1d42e7a7fda047f48792e4"
+  },
+  {
+    "path": "new-site/product/molbert-raskladnoy-lira/index.html",
+    "bytes": 32056,
+    "sha256": "77cacef1fd1ed1e4079696a9c3a34fba10f4a15a6bb0e12ed749f27ce42b5d78"
+  },
+  {
+    "path": "new-site/product/molbert-raskladnoy-lira-buk/index.html",
+    "bytes": 32178,
+    "sha256": "eed60e23fabd289e250abf73529b2d67f9f1e1ebef24201e12b80059cf698767"
+  },
+  {
+    "path": "new-site/product/molbert-lira-s-podvizhnoy-shtangoy/index.html",
+    "bytes": 32272,
+    "sha256": "ede6d77a7ece68fcd54c564328850b65987aae59cb95b9bec4a5e83c508ff868"
+  },
+  {
+    "path": "new-site/product/molbert-lira-s-podvizhnoy-shtangoy-buk/index.html",
+    "bytes": 32436,
+    "sha256": "85521926decc4ec25aacb591a0c2d30a80e7f892e835b170dcb83e207751c206"
+  },
+  {
+    "path": "new-site/product/molbert-lira-malyy/index.html",
+    "bytes": 31815,
+    "sha256": "13e287a77c79591dccebc7447a5ea9aeb3b513b8eb3e99a90908c6696dca1249"
+  },
+  {
+    "path": "new-site/product/molbert-lira-malyy-s-podvizhnoy-shtangoy/index.html",
+    "bytes": 32382,
+    "sha256": "6614e267b7e03a1e20f9cc31dd19c2139884d1505b794cb2328da760edad39f5"
+  },
+  {
+    "path": "new-site/product/molbert-lira-malyy-buk/index.html",
+    "bytes": 31616,
+    "sha256": "f53e977d10055c7e110a0eb8f5962982a894cafc6404eab0474119f6fc59302e"
+  },
+  {
+    "path": "new-site/product/molbert-lira-malyy-s-podvizhnoy-shtangoy-buk/index.html",
+    "bytes": 32384,
+    "sha256": "713bafd03703a7e913617a82dd02157f967ee15689173ba47fa9bb4c5dcd79ba"
+  },
+  {
+    "path": "new-site/product/molbert-a-profi/index.html",
+    "bytes": 31457,
+    "sha256": "6c56ffdb9dccddae633995dc21aac93439144c0241572c5a8db7838e59b200e4"
+  },
+  {
+    "path": "new-site/product/molbert-a-profi-buk/index.html",
+    "bytes": 31950,
+    "sha256": "20faf4b67367cead8c24f773862474ab905149039d070c3019f658b2541effab"
+  },
+  {
+    "path": "new-site/product/molbert-a-klass/index.html",
+    "bytes": 31324,
+    "sha256": "ba6bab68b2e9c0d439ddadb4e0d355b1676530da66e82bb00636a34d7d7bf7c6"
+  },
+  {
+    "path": "new-site/product/molbert-khlopushka-a1h/index.html",
+    "bytes": 30991,
+    "sha256": "a220f6d018aae86ab2fc6e42a39786c622b46fd56853e202050654d102940528"
+  },
+  {
+    "path": "new-site/product/molbert-khlopushka-a1/index.html",
+    "bytes": 31584,
+    "sha256": "54e53db7bf083e3a5d5d2989171e14cc6ea38e1b94b5a80425c02cd00d4aa79e"
+  },
+  {
+    "path": "new-site/product/molbert-khlopushka-a1-dvustoronniy/index.html",
+    "bytes": 31180,
+    "sha256": "b181acf21a590de5cfed299877ec600781446d4bb88c4961873e9f53082dc410"
+  },
+  {
+    "path": "new-site/product/molbert-khlopushka-a2/index.html",
+    "bytes": 31635,
+    "sha256": "420c1ce05dd5752258816afd8932806e534f44c8883e0b9593b8057391138a50"
+  },
+  {
+    "path": "new-site/product/molbert-khlopushka-a2-dvustoronniy/index.html",
+    "bytes": 31337,
+    "sha256": "50a3c8aa74b71ec3ce80a6cd2acabbd7bfda4e5e36042c26ead8b2af01dd6c76"
+  },
+  {
+    "path": "new-site/product/molbert-khlopushka/index.html",
+    "bytes": 30424,
+    "sha256": "605187e70b797fbac29d450d669da064cd9b282a69dbf8076d4cdea1134cba2f"
+  },
+  {
+    "path": "new-site/product/molbert-khlopushka-detskiy-buk/index.html",
+    "bytes": 32256,
+    "sha256": "d83f393fbf5cb29ed13061d97ba3894d5c0580fccdbfd5196e10d23a12e6a312"
+  },
+  {
+    "path": "new-site/product/molbert-nastolnyy-sosna/index.html",
+    "bytes": 30432,
+    "sha256": "3dab09cecd071cfdc44c1fb614b9d112a3dc02acb2c72993dbc0d2fb614924c4"
+  },
+  {
+    "path": "new-site/product/molbert-nastolnyy-buk/index.html",
+    "bytes": 30393,
+    "sha256": "ba32aedfbd207f0d9371a6b5b31f851fec5e60914b2b11e814d963d27f2656c4"
+  },
+  {
+    "path": "new-site/product/molbert-lira-nastolnyy-sosna/index.html",
+    "bytes": 30579,
+    "sha256": "3ecc88672f2ac1d2865267f7c550747167396f9436c8334d5e24e197274673ed"
+  },
+  {
+    "path": "new-site/product/molbert-lira-nastolnyy-buk/index.html",
+    "bytes": 30540,
+    "sha256": "64a81036c90248944f3911766a0e99b182349a4fb090a293c8d97aad86393aa6"
+  },
+  {
+    "path": "new-site/product/molbert-nastolnyy-mini-buk/index.html",
+    "bytes": 30204,
+    "sha256": "8a13e1a5b5089674804809ada44a0d87348291832efb2ea1981b8306cd775466"
+  },
+  {
+    "path": "new-site/product/molbert-nastolnyy-mini-xl-buk/index.html",
+    "bytes": 30677,
+    "sha256": "43b6e06056b818a4d0ea750428d23f15a652072f41b2d942283ba7f7b4cc2f9f"
+  },
+  {
+    "path": "new-site/product/molbert-nastolnyy-akva/index.html",
+    "bytes": 30652,
+    "sha256": "5987a996ae6cb0d12e94da86ce8f37f6db36bfb3aab7a7a5072282bd61f526cb"
+  },
+  {
+    "path": "new-site/product/molbert-planshet-nastolnyy-grafika/index.html",
+    "bytes": 31096,
+    "sha256": "093b131b0e7d39ca8ad23bae98724ecdf926c01b7470e66131735a944d694d3b"
+  },
+  {
+    "path": "new-site/product/molbert-maksi/index.html",
+    "bytes": 30609,
+    "sha256": "c4e60c96b06fe878b13042e9f2b71301845ef17a20a0a1aa4d985bc8b48a2b0c"
+  },
+  {
+    "path": "new-site/product/molbert-ekspo-1/index.html",
+    "bytes": 30650,
+    "sha256": "d84177ecc0641b61d394a4d760a6a32edea081740e5a7e5f235837a4b08a8ce8"
+  },
+  {
+    "path": "new-site/product/molbert-ekspo-2/index.html",
+    "bytes": 30475,
+    "sha256": "cfcadb04c85d0370c2ec4bc6f70d7309705f7538f01bb89e3ee59d9ef3ae6ca5"
+  },
+  {
+    "path": "new-site/product/molbert-machta/index.html",
+    "bytes": 30876,
+    "sha256": "456309a041bd46fd9ade662c01bfa0f0f93e5ae984bc2872b4a2394875103115"
+  },
+  {
+    "path": "new-site/product/molbert-trenoga-1500/index.html",
+    "bytes": 30273,
+    "sha256": "2d10cbed5b33de05793733a7dd8fdac675bff883341c0e0d128d050242d4c875"
+  },
+  {
+    "path": "new-site/product/molbert-trenoga-vystavochnaya/index.html",
+    "bytes": 30937,
+    "sha256": "70ad5be8d919e668f877f58dd682029bf08b182bdce3d3899af09268a1ca5522"
+  },
+  {
+    "path": "new-site/product/molbert-vernisazh/index.html",
+    "bytes": 31230,
+    "sha256": "d2d9f3efc32abfdb433b6e7a240a60d6cdcec9f913e6bc8848f7e025d23e423a"
+  },
+  {
+    "path": "new-site/product/molbert-delta/index.html",
+    "bytes": 31247,
+    "sha256": "e9cf7eeb411d241b8c40ed2c1dec2067e60bfc02b0deb2b8829a38bbf707dce0"
+  },
+  {
+    "path": "new-site/product/molbert-lira-podarochnyy-buk/index.html",
+    "bytes": 31155,
+    "sha256": "ec94c5319338590cd5744c6c817f541218a63b7c7af89649a66c1655b0764005"
+  },
+  {
+    "path": "new-site/product/molberty-trenogi-dlya-foto-ramok/index.html",
+    "bytes": 32231,
+    "sha256": "9d9fe16b27df1df3168c80789c0b28a334a2fe13e62a16e45678994ec098cc11"
+  },
+  {
+    "path": "new-site/data/page-seo.json",
+    "bytes": 20537,
+    "sha256": "542b7d8f236d336691c515fcbb06f7d3cdf4657428da77f60136fd7bd8b32789"
+  },
+  {
+    "path": "new-site/scripts/page_seo.py",
+    "bytes": 2983,
+    "sha256": "ef7fe13c07dcb8e54e08e0e733bdc35d8ba6ea187709b228a40b8fff57521abd"
+  },
+  {
+    "path": "new-site/data/category-copy.json",
+    "bytes": 50644,
+    "sha256": "26f61dad456c9c2a95b6410e950025a017e7b1b45273b9e78e8c0f80e20415bf"
+  },
+  {
+    "path": "new-site/assets/category-copy.js",
+    "bytes": 48764,
+    "sha256": "e2db4eea50d914eb1122f95256c9d609b9089dcead195ecc18e2e43cf15ba462"
+  },
+  {
+    "path": "new-site/data/home-blocks.json",
+    "bytes": 82,
+    "sha256": "65f9b54bb1a17b686efbf4d0a586c26d67f3450241ccdc1efee1c163ef50c379"
+  },
+  {
+    "path": "new-site/cms/wordpress/molberty-home-blocks/README.md",
+    "bytes": 3687,
+    "sha256": "3a146b0d71fe67a2f83208af4ea0b3d7918ba2df167b1ddfb6383735886a9739"
+  },
+  {
+    "path": "new-site/cms/wordpress/molberty-home-blocks/blocks/cases/block.json",
+    "bytes": 641,
+    "sha256": "3adc39d74be69a42ede38d8d8fbf07cf5640be8c8f1b60d9da7024dbf6245d69"
+  },
+  {
+    "path": "new-site/cms/wordpress/molberty-home-blocks/blocks/partners/block.json",
+    "bytes": 694,
+    "sha256": "fd2755fce33ad419f58566e78648f78c70aa27f0b1875737cf36c98804d60864"
+  },
+  {
+    "path": "new-site/cms/wordpress/molberty-home-blocks/editor.js",
+    "bytes": 4670,
+    "sha256": "69b260268eaefe168eb29d5a0919a5516d55207ccc5e44ef50236dd0c4cd5fbc"
+  },
+  {
+    "path": "new-site/cms/wordpress/molberty-home-blocks/molberty-home-blocks.php",
+    "bytes": 1525,
+    "sha256": "37a8979c52e3ccba8a2546caea39d304162f56cde9788d59d6b5948a181ad3a4"
+  },
+  {
+    "path": "new-site/cms/wordpress/molberty-home-blocks/style.css",
+    "bytes": 2005,
+    "sha256": "8158a001e2356d30c78138a9763ebec318982b0a2f4396d7f11d571686176ab3"
+  },
+  {
+    "path": "new-site/assets/icons/icon-master.svg",
+    "bytes": 648,
+    "sha256": "3482ffdf3894e462148df93b776175b43391d9f07bc862f4367aaba7dcf60059"
+  },
+  {
+    "path": "new-site/assets/icons/maskable-master.svg",
+    "bytes": 648,
+    "sha256": "65d8cd8b2182037c223abfbd78710e4c19546e7b2b3409b75dfc3475e2dc9fad"
+  },
+  {
+    "path": "new-site/assets/icons/safari-pinned-tab.svg",
+    "bytes": 436,
+    "sha256": "7ebcd52e0fe2f30112a393df964d423206b24ff02a74989ed3ae4eb1807dda7a"
+  },
+  {
+    "path": "new-site/assets/icons/favicon-16x16.png",
+    "bytes": 539,
+    "sha256": "57fbf50b0a04c893474872fd4a96506cf05233bfcaad8005268cdd87677e6960"
+  },
+  {
+    "path": "new-site/assets/icons/favicon-32x32.png",
+    "bytes": 1182,
+    "sha256": "a7ebeccd33903db8480a04679b592cb9a91aa7074e37c12d48a24b74e494b6d8"
+  },
+  {
+    "path": "new-site/assets/icons/favicon-48x48.png",
+    "bytes": 1713,
+    "sha256": "bc75d5acd0639768663dd16e78bc5ca4c194bc7410ca93e03c197239a732fdec"
+  },
+  {
+    "path": "new-site/assets/icons/favicon-96x96.png",
+    "bytes": 3485,
+    "sha256": "0e6be0ff245dfe846391bd59b058af31e0760ca79c618628b7dd443fdd8007f3"
+  },
+  {
+    "path": "new-site/assets/icons/apple-touch-icon-120x120.png",
+    "bytes": 3729,
+    "sha256": "b7aed85e1de6cb6b494e4a4be1e793de39a0f6ed528389c71f886212c8a011da"
+  },
+  {
+    "path": "new-site/assets/icons/apple-touch-icon-152x152.png",
+    "bytes": 4624,
+    "sha256": "e308cf52c6d56e3d2ef0d880015518f3449bcf1e3897bf455e285f50d1e831f7"
+  },
+  {
+    "path": "new-site/assets/icons/apple-touch-icon-167x167.png",
+    "bytes": 5062,
+    "sha256": "13004064243f15c4c9e4aac65bf999a7459b35c0a73425ffe1b1a68839c404af"
+  },
+  {
+    "path": "new-site/apple-touch-icon.png",
+    "bytes": 5564,
+    "sha256": "5a783febb8b1905fcc81eca366bef06f20ef38c348ade0548c314e2236ecdfe1"
+  },
+  {
+    "path": "new-site/assets/icons/android-chrome-192x192.png",
+    "bytes": 6024,
+    "sha256": "334fb244de16eaf88003f0caa34051a3adc1845bba21a2e9108be6be903ebf8a"
+  },
+  {
+    "path": "new-site/assets/icons/maskable-192x192.png",
+    "bytes": 5273,
+    "sha256": "77476fddd583a04000abdb789110d8e3bf44cac00e68cc7cfdd576c2c3afac5b"
+  },
+  {
+    "path": "new-site/assets/icons/android-chrome-512x512.png",
+    "bytes": 16365,
+    "sha256": "5959a27d3932435dad55779c909171b6114dd909257c5889fcd5598f2d260d53"
+  },
+  {
+    "path": "new-site/assets/icons/maskable-512x512.png",
+    "bytes": 14841,
+    "sha256": "def6e05ab825790e09637ffdbd21869e44f6ea1a6592fb4fb4f8e49422ba7efb"
+  },
+  {
+    "path": "new-site/assets/icons/mstile-150x150.png",
+    "bytes": 4680,
+    "sha256": "a52c09e72b3472d8fc5e2894be4eeb8c7b51a07c66a3b0d11e909c717847d3a5"
+  },
+  {
+    "path": "new-site/favicon.ico",
+    "bytes": 24118,
+    "sha256": "fe661d6d8d92ab03096b2c2de97c2de27c411103526837e4bce8f076e420bd22"
+  },
+  {
+    "path": "new-site/site.webmanifest",
+    "bytes": 993,
+    "sha256": "f102f4209502958016bf7b0039faf07dced8b1956d38b1d313bc098067169cc0"
+  },
+  {
+    "path": "new-site/browserconfig.xml",
+    "bytes": 203,
+    "sha256": "0776efcda239cb094501bc4ba8f73100625de012c99f3edb711c43aa5c5dbd3e"
+  },
+  {
+    "path": "new-site/data/icons.json",
+    "bytes": 2594,
+    "sha256": "d67e5a8fa7af0a232845db4602dade789d40f961134fa7c2854f67c84db3be80"
+  },
+  {
+    "path": "new-site/ICONS.md",
+    "bytes": 4006,
+    "sha256": "cc6014b5f3b26f10ec1e5f6373e260bece2cd4234df34da6c7eb57472fa71967"
+  },
+  {
+    "path": "new-site/scripts/create-icons.py",
+    "bytes": 5626,
+    "sha256": "9bd3321304015eb1822b6f215d679d94dc8ce4aea38b784a40d0a4eb8bd58c09"
+  },
+  {
+    "path": "new-site/scripts/icon_links.py",
+    "bytes": 2241,
+    "sha256": "d3288a13e9b65e1557ff9cc93753a71be8ded584c35300281db5464626ea2420"
+  },
+  {
+    "path": "new-site/scripts/validate-icons.py",
+    "bytes": 3694,
+    "sha256": "2c441f5f2263aadadefa6c3a4533c57e6cc0ee52540712ac125a460136d64ae5"
+  },
+  {
+    "path": "new-site/assets/exit-intent.js",
+    "bytes": 2846,
+    "sha256": "7dbc26aeb7c228d4596fdca4036591c5c85c31308b1a23086810268febab0962"
+  },
+  {
+    "path": "new-site/assets/exit-intent.css",
+    "bytes": 1693,
+    "sha256": "72535acd54770360a6ec0bc64c195d55920ad9c0a116f5681005a7cc4669048d"
+  },
+  {
+    "path": "new-site/scripts/test-exit-intent.cjs",
+    "bytes": 9806,
+    "sha256": "9f2aafa375216a3e257a35b05b9e74ca10976319d862cbc6fa9843cf5395f07c"
+  }
+]

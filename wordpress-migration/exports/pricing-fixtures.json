@@ -1,0 +1,9558 @@
+[
+  {
+    "productId": "bolshoy-stankovyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 28000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 28000,
+    "displayFrom": false
+  },
+  {
+    "productId": "bolshoy-stankovyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 30600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 30600,
+    "displayFrom": false
+  },
+  {
+    "productId": "bolshoy-stankovyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 30600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 30600,
+    "displayFrom": false
+  },
+  {
+    "productId": "bolshoy-stankovyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 29300,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 29300,
+    "displayFrom": false
+  },
+  {
+    "productId": "bolshoy-stankovyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      4
+    ],
+    "unitPrice": 29100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 29100,
+    "displayFrom": false
+  },
+  {
+    "productId": "bolshoy-stankovyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      5
+    ],
+    "unitPrice": 29150,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 29150,
+    "displayFrom": false
+  },
+  {
+    "productId": "bolshoy-stankovyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      6
+    ],
+    "unitPrice": 28880,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 28880,
+    "displayFrom": false
+  },
+  {
+    "productId": "bolshoy-stankovyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      7
+    ],
+    "unitPrice": 28880,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 28880,
+    "displayFrom": false
+  },
+  {
+    "productId": "bolshoy-stankovyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 24000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 240000,
+    "displayFrom": true
+  },
+  {
+    "productId": "bolshoy-stankovyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 26600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 266000,
+    "displayFrom": true
+  },
+  {
+    "productId": "bolshoy-stankovyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 26600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 266000,
+    "displayFrom": true
+  },
+  {
+    "productId": "bolshoy-stankovyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 25300,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 253000,
+    "displayFrom": true
+  },
+  {
+    "productId": "bolshoy-stankovyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      4
+    ],
+    "unitPrice": 25100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 251000,
+    "displayFrom": true
+  },
+  {
+    "productId": "bolshoy-stankovyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      5
+    ],
+    "unitPrice": 25150,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 251500,
+    "displayFrom": true
+  },
+  {
+    "productId": "bolshoy-stankovyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      6
+    ],
+    "unitPrice": 24880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 248800,
+    "displayFrom": true
+  },
+  {
+    "productId": "bolshoy-stankovyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      7
+    ],
+    "unitPrice": 24880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 248800,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-sosna",
+    "tier": "retail",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 16000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 16000,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-sosna",
+    "tier": "retail",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 18600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 18600,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-sosna",
+    "tier": "retail",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 18600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 18600,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-sosna",
+    "tier": "retail",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 17300,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 17300,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-sosna",
+    "tier": "retail",
+    "indices": [
+      0,
+      4
+    ],
+    "unitPrice": 17100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 17100,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-sosna",
+    "tier": "retail",
+    "indices": [
+      0,
+      5
+    ],
+    "unitPrice": 17150,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 17150,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-sosna",
+    "tier": "retail",
+    "indices": [
+      0,
+      6
+    ],
+    "unitPrice": 16880,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 16880,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-sosna",
+    "tier": "retail",
+    "indices": [
+      0,
+      7
+    ],
+    "unitPrice": 16880,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 16880,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-sosna",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 14000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 140000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-sosna",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 16600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 166000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-sosna",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 16600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 166000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-sosna",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 15300,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 153000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-sosna",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      4
+    ],
+    "unitPrice": 15100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 151000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-sosna",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      5
+    ],
+    "unitPrice": 15150,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 151500,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-sosna",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      6
+    ],
+    "unitPrice": 14880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 148800,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-sosna",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      7
+    ],
+    "unitPrice": 14880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 148800,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 22500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 22500,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 25100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 25100,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 25100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 25100,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 23800,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 23800,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      4
+    ],
+    "unitPrice": 23600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 23600,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      5
+    ],
+    "unitPrice": 23650,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 23650,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      6
+    ],
+    "unitPrice": 23380,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 23380,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      7
+    ],
+    "unitPrice": 23380,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 23380,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 20000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 200000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 22600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 226000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 22600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 226000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 21300,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 213000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      4
+    ],
+    "unitPrice": 21100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 211000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      5
+    ],
+    "unitPrice": 21150,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 211500,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      6
+    ],
+    "unitPrice": 20880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 208800,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-statsionarnyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      7
+    ],
+    "unitPrice": 20880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 208800,
+    "displayFrom": true
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      0
+    ],
+    "unitPrice": 16500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 16500,
+    "displayFrom": false
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      1
+    ],
+    "unitPrice": 17350,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 17350,
+    "displayFrom": false
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      0
+    ],
+    "unitPrice": 19100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 19100,
+    "displayFrom": false
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      1
+    ],
+    "unitPrice": 19950,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 19950,
+    "displayFrom": false
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      2,
+      0
+    ],
+    "unitPrice": 19100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 19100,
+    "displayFrom": false
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      2,
+      1
+    ],
+    "unitPrice": 19950,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 19950,
+    "displayFrom": false
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      3,
+      0
+    ],
+    "unitPrice": 17800,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 17800,
+    "displayFrom": false
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      3,
+      1
+    ],
+    "unitPrice": 18650,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 18650,
+    "displayFrom": false
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      4,
+      0
+    ],
+    "unitPrice": 17600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 17600,
+    "displayFrom": false
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      4,
+      1
+    ],
+    "unitPrice": 18450,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 18450,
+    "displayFrom": false
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      5,
+      0
+    ],
+    "unitPrice": 17650,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 17650,
+    "displayFrom": false
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      5,
+      1
+    ],
+    "unitPrice": 18500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 18500,
+    "displayFrom": false
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      6,
+      0
+    ],
+    "unitPrice": 17380,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 17380,
+    "displayFrom": false
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      6,
+      1
+    ],
+    "unitPrice": 18230,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 18230,
+    "displayFrom": false
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      7,
+      0
+    ],
+    "unitPrice": 17380,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 17380,
+    "displayFrom": false
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      7,
+      1
+    ],
+    "unitPrice": 18230,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 18230,
+    "displayFrom": false
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      0
+    ],
+    "unitPrice": 14000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 140000,
+    "displayFrom": true
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      1
+    ],
+    "unitPrice": 14850,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 148500,
+    "displayFrom": true
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      0
+    ],
+    "unitPrice": 16600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 166000,
+    "displayFrom": true
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      1
+    ],
+    "unitPrice": 17450,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 174500,
+    "displayFrom": true
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      2,
+      0
+    ],
+    "unitPrice": 16600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 166000,
+    "displayFrom": true
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      2,
+      1
+    ],
+    "unitPrice": 17450,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 174500,
+    "displayFrom": true
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      3,
+      0
+    ],
+    "unitPrice": 15300,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 153000,
+    "displayFrom": true
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      3,
+      1
+    ],
+    "unitPrice": 16150,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 161500,
+    "displayFrom": true
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      4,
+      0
+    ],
+    "unitPrice": 15100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 151000,
+    "displayFrom": true
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      4,
+      1
+    ],
+    "unitPrice": 15950,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 159500,
+    "displayFrom": true
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      5,
+      0
+    ],
+    "unitPrice": 15150,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 151500,
+    "displayFrom": true
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      5,
+      1
+    ],
+    "unitPrice": 16000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 160000,
+    "displayFrom": true
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      6,
+      0
+    ],
+    "unitPrice": 14880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 148800,
+    "displayFrom": true
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      6,
+      1
+    ],
+    "unitPrice": 15730,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 157300,
+    "displayFrom": true
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      7,
+      0
+    ],
+    "unitPrice": 14880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 148800,
+    "displayFrom": true
+  },
+  {
+    "productId": "malyy-stankovyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      7,
+      1
+    ],
+    "unitPrice": 15730,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 157300,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-2-storonniy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 17000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 17000,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-2-storonniy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 19400,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 19400,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-2-storonniy",
+    "tier": "retail",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 19400,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 19400,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-2-storonniy",
+    "tier": "retail",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 18200,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 18200,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-2-storonniy",
+    "tier": "retail",
+    "indices": [
+      0,
+      4
+    ],
+    "unitPrice": 18000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 18000,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-2-storonniy",
+    "tier": "retail",
+    "indices": [
+      0,
+      5
+    ],
+    "unitPrice": 18050,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 18050,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-2-storonniy",
+    "tier": "retail",
+    "indices": [
+      0,
+      6
+    ],
+    "unitPrice": 17850,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 17850,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-2-storonniy",
+    "tier": "retail",
+    "indices": [
+      0,
+      7
+    ],
+    "unitPrice": 17850,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 17850,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-2-storonniy",
+    "tier": "retail",
+    "indices": [
+      0,
+      8
+    ],
+    "unitPrice": 17550,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 17550,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-2-storonniy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 14500,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 72500,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-2-storonniy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 16900,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 84500,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-2-storonniy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 16900,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 84500,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-2-storonniy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 15700,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 78500,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-2-storonniy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      4
+    ],
+    "unitPrice": 15500,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 77500,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-2-storonniy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      5
+    ],
+    "unitPrice": 15550,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 77750,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-2-storonniy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      6
+    ],
+    "unitPrice": 15350,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 76750,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-2-storonniy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      7
+    ],
+    "unitPrice": 15350,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 76750,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-2-storonniy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      8
+    ],
+    "unitPrice": 15050,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 75250,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-skladnoy-sosna",
+    "tier": "retail",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 12000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 12000,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-skladnoy-sosna",
+    "tier": "retail",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 14600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 14600,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-skladnoy-sosna",
+    "tier": "retail",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 14600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 14600,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-skladnoy-sosna",
+    "tier": "retail",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 13300,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 13300,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-skladnoy-sosna",
+    "tier": "retail",
+    "indices": [
+      0,
+      4
+    ],
+    "unitPrice": 13100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 13100,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-skladnoy-sosna",
+    "tier": "retail",
+    "indices": [
+      0,
+      5
+    ],
+    "unitPrice": 13150,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 13150,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-skladnoy-sosna",
+    "tier": "retail",
+    "indices": [
+      0,
+      6
+    ],
+    "unitPrice": 12880,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 12880,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-skladnoy-sosna",
+    "tier": "retail",
+    "indices": [
+      0,
+      7
+    ],
+    "unitPrice": 12880,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 12880,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-skladnoy-sosna",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 10000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 100000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-skladnoy-sosna",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 12600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 126000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-skladnoy-sosna",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 12600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 126000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-skladnoy-sosna",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 11300,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 113000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-skladnoy-sosna",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      4
+    ],
+    "unitPrice": 11100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 111000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-skladnoy-sosna",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      5
+    ],
+    "unitPrice": 11150,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 111500,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-skladnoy-sosna",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      6
+    ],
+    "unitPrice": 10880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 108800,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-skladnoy-sosna",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      7
+    ],
+    "unitPrice": 10880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 108800,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-skladnoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 16500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 16500,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-skladnoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 19100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 19100,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-skladnoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 19100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 19100,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-skladnoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 17800,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 17800,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-skladnoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      4
+    ],
+    "unitPrice": 17600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 17600,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-skladnoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      5
+    ],
+    "unitPrice": 17650,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 17650,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-skladnoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      6
+    ],
+    "unitPrice": 17380,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 17380,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-skladnoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      7
+    ],
+    "unitPrice": 17380,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 17380,
+    "displayFrom": false
+  },
+  {
+    "productId": "stankovyy-skladnoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 14000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 140000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-skladnoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 16600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 166000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-skladnoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 16600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 166000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-skladnoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 15300,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 153000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-skladnoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      4
+    ],
+    "unitPrice": 15100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 151000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-skladnoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      5
+    ],
+    "unitPrice": 15150,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 151500,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-skladnoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      6
+    ],
+    "unitPrice": 14880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 148800,
+    "displayFrom": true
+  },
+  {
+    "productId": "stankovyy-skladnoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      7
+    ],
+    "unitPrice": 14880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 148800,
+    "displayFrom": true
+  },
+  {
+    "productId": "transformer-a0-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 17000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 17000,
+    "displayFrom": false
+  },
+  {
+    "productId": "transformer-a0-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 19600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 19600,
+    "displayFrom": false
+  },
+  {
+    "productId": "transformer-a0-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 19600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 19600,
+    "displayFrom": false
+  },
+  {
+    "productId": "transformer-a0-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 18300,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 18300,
+    "displayFrom": false
+  },
+  {
+    "productId": "transformer-a0-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      4
+    ],
+    "unitPrice": 18100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 18100,
+    "displayFrom": false
+  },
+  {
+    "productId": "transformer-a0-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      5
+    ],
+    "unitPrice": 18150,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 18150,
+    "displayFrom": false
+  },
+  {
+    "productId": "transformer-a0-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 15000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 150000,
+    "displayFrom": true
+  },
+  {
+    "productId": "transformer-a0-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 17600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 176000,
+    "displayFrom": true
+  },
+  {
+    "productId": "transformer-a0-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 17600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 176000,
+    "displayFrom": true
+  },
+  {
+    "productId": "transformer-a0-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 16300,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 163000,
+    "displayFrom": true
+  },
+  {
+    "productId": "transformer-a0-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      4
+    ],
+    "unitPrice": 16100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 161000,
+    "displayFrom": true
+  },
+  {
+    "productId": "transformer-a0-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      5
+    ],
+    "unitPrice": 16150,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 161500,
+    "displayFrom": true
+  },
+  {
+    "productId": "transformer-a1-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 15000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 15000,
+    "displayFrom": false
+  },
+  {
+    "productId": "transformer-a1-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 17600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 17600,
+    "displayFrom": false
+  },
+  {
+    "productId": "transformer-a1-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 17600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 17600,
+    "displayFrom": false
+  },
+  {
+    "productId": "transformer-a1-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 16300,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 16300,
+    "displayFrom": false
+  },
+  {
+    "productId": "transformer-a1-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      4
+    ],
+    "unitPrice": 16100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 16100,
+    "displayFrom": false
+  },
+  {
+    "productId": "transformer-a1-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      5
+    ],
+    "unitPrice": 16150,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 16150,
+    "displayFrom": false
+  },
+  {
+    "productId": "transformer-a1-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 13500,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 135000,
+    "displayFrom": true
+  },
+  {
+    "productId": "transformer-a1-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 16100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 161000,
+    "displayFrom": true
+  },
+  {
+    "productId": "transformer-a1-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 16100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 161000,
+    "displayFrom": true
+  },
+  {
+    "productId": "transformer-a1-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 14800,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 148000,
+    "displayFrom": true
+  },
+  {
+    "productId": "transformer-a1-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      4
+    ],
+    "unitPrice": 14600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 146000,
+    "displayFrom": true
+  },
+  {
+    "productId": "transformer-a1-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      5
+    ],
+    "unitPrice": 14650,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 146500,
+    "displayFrom": true
+  },
+  {
+    "productId": "dizayner-a1-buk",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 11000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 11000,
+    "displayFrom": false
+  },
+  {
+    "productId": "dizayner-a1-buk",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 9000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 90000,
+    "displayFrom": true
+  },
+  {
+    "productId": "dizayner-a2-buk",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 10000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10000,
+    "displayFrom": false
+  },
+  {
+    "productId": "dizayner-a2-buk",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 8500,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 85000,
+    "displayFrom": true
+  },
+  {
+    "productId": "studiya-a1",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 6000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6000,
+    "displayFrom": false
+  },
+  {
+    "productId": "studiya-a1",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 5000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 50000,
+    "displayFrom": true
+  },
+  {
+    "productId": "studiya-a2",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 5400,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 5400,
+    "displayFrom": false
+  },
+  {
+    "productId": "studiya-a2",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 4600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 46000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-naklonnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 6500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6500,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-naklonnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 8900,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8900,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-naklonnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 8900,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8900,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-naklonnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 7700,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7700,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-naklonnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      4
+    ],
+    "unitPrice": 7500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7500,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-naklonnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      5
+    ],
+    "unitPrice": 7550,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7550,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-naklonnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      6
+    ],
+    "unitPrice": 7350,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7350,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-naklonnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      7
+    ],
+    "unitPrice": 7350,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7350,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-naklonnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      8
+    ],
+    "unitPrice": 7050,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7050,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-naklonnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 5500,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 55000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-naklonnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 7900,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 79000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-naklonnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 7900,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 79000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-naklonnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 6700,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 67000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-naklonnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      4
+    ],
+    "unitPrice": 6500,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 65000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-naklonnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      5
+    ],
+    "unitPrice": 6550,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 65500,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-naklonnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      6
+    ],
+    "unitPrice": 6350,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 63500,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-naklonnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      7
+    ],
+    "unitPrice": 6350,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 63500,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-naklonnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      8
+    ],
+    "unitPrice": 6050,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 60500,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-naklonnoy-sht-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 9000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9000,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-naklonnoy-sht-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 11600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 11600,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-naklonnoy-sht-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 11600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 11600,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-naklonnoy-sht-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 10300,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10300,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-naklonnoy-sht-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      4
+    ],
+    "unitPrice": 10100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10100,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-naklonnoy-sht-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      5
+    ],
+    "unitPrice": 10150,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10150,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-naklonnoy-sht-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      6
+    ],
+    "unitPrice": 9880,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9880,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-naklonnoy-sht-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      7
+    ],
+    "unitPrice": 9880,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9880,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-naklonnoy-sht-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 8000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 80000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-naklonnoy-sht-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 10600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 106000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-naklonnoy-sht-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 10600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 106000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-naklonnoy-sht-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 9300,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 93000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-naklonnoy-sht-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      4
+    ],
+    "unitPrice": 9100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 91000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-naklonnoy-sht-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      5
+    ],
+    "unitPrice": 9150,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 91500,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-naklonnoy-sht-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      6
+    ],
+    "unitPrice": 8880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 88800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-naklonnoy-sht-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      7
+    ],
+    "unitPrice": 8880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 88800,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      0
+    ],
+    "unitPrice": 6000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6000,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      1
+    ],
+    "unitPrice": 8600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8600,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      2
+    ],
+    "unitPrice": 8600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8600,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      3
+    ],
+    "unitPrice": 7300,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7300,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      4
+    ],
+    "unitPrice": 7100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7100,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      5
+    ],
+    "unitPrice": 7150,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7150,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      6
+    ],
+    "unitPrice": 6880,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6880,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      7
+    ],
+    "unitPrice": 6880,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6880,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      0
+    ],
+    "unitPrice": 6300,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6300,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      1
+    ],
+    "unitPrice": 8900,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8900,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      2
+    ],
+    "unitPrice": 8900,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8900,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      3
+    ],
+    "unitPrice": 7600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7600,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      4
+    ],
+    "unitPrice": 7400,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7400,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      5
+    ],
+    "unitPrice": 7450,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7450,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      6
+    ],
+    "unitPrice": 7180,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7180,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      7
+    ],
+    "unitPrice": 7180,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7180,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      0
+    ],
+    "unitPrice": 5000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 50000,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      1
+    ],
+    "unitPrice": 7600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 76000,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      2
+    ],
+    "unitPrice": 7600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 76000,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      3
+    ],
+    "unitPrice": 6300,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 63000,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      4
+    ],
+    "unitPrice": 6100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 61000,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      5
+    ],
+    "unitPrice": 6150,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 61500,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      6
+    ],
+    "unitPrice": 5880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 58800,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      7
+    ],
+    "unitPrice": 5880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 58800,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      0
+    ],
+    "unitPrice": 5300,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 53000,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      1
+    ],
+    "unitPrice": 7900,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 79000,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      2
+    ],
+    "unitPrice": 7900,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 79000,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      3
+    ],
+    "unitPrice": 6600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 66000,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      4
+    ],
+    "unitPrice": 6400,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 64000,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      5
+    ],
+    "unitPrice": 6450,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 64500,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      6
+    ],
+    "unitPrice": 6180,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 61800,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      7
+    ],
+    "unitPrice": 6180,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 61800,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      0
+    ],
+    "unitPrice": 8500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8500,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      1
+    ],
+    "unitPrice": 11100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 11100,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      2
+    ],
+    "unitPrice": 11100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 11100,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      3
+    ],
+    "unitPrice": 9800,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9800,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      4
+    ],
+    "unitPrice": 9600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9600,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      5
+    ],
+    "unitPrice": 9650,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9650,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      6
+    ],
+    "unitPrice": 9380,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9380,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      7
+    ],
+    "unitPrice": 9380,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9380,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      0
+    ],
+    "unitPrice": 8900,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8900,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      1
+    ],
+    "unitPrice": 11500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 11500,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      2
+    ],
+    "unitPrice": 11500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 11500,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      3
+    ],
+    "unitPrice": 10200,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10200,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      4
+    ],
+    "unitPrice": 10000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10000,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      5
+    ],
+    "unitPrice": 10050,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10050,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      6
+    ],
+    "unitPrice": 9780,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9780,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      7
+    ],
+    "unitPrice": 9780,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9780,
+    "displayFrom": false
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      0
+    ],
+    "unitPrice": 7800,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 78000,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      1
+    ],
+    "unitPrice": 10400,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 104000,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      2
+    ],
+    "unitPrice": 10400,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 104000,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      3
+    ],
+    "unitPrice": 9100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 91000,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      4
+    ],
+    "unitPrice": 8900,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 89000,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      5
+    ],
+    "unitPrice": 8950,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 89500,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      6
+    ],
+    "unitPrice": 8680,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 86800,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      7
+    ],
+    "unitPrice": 8680,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 86800,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      0
+    ],
+    "unitPrice": 8200,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 82000,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      1
+    ],
+    "unitPrice": 10800,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 108000,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      2
+    ],
+    "unitPrice": 10800,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 108000,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      3
+    ],
+    "unitPrice": 9500,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 95000,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      4
+    ],
+    "unitPrice": 9300,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 93000,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      5
+    ],
+    "unitPrice": 9350,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 93500,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      6
+    ],
+    "unitPrice": 9080,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 90800,
+    "displayFrom": true
+  },
+  {
+    "productId": "raskladnoy-lira-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      7
+    ],
+    "unitPrice": 9080,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 90800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      0
+    ],
+    "unitPrice": 6500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6500,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      1
+    ],
+    "unitPrice": 9100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9100,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      2
+    ],
+    "unitPrice": 9100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9100,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      3
+    ],
+    "unitPrice": 7800,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7800,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      4
+    ],
+    "unitPrice": 7600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7600,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      5
+    ],
+    "unitPrice": 7650,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7650,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      6
+    ],
+    "unitPrice": 7380,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7380,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      7
+    ],
+    "unitPrice": 7380,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7380,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      0
+    ],
+    "unitPrice": 6800,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6800,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      1
+    ],
+    "unitPrice": 9400,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9400,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      2
+    ],
+    "unitPrice": 9400,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9400,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      3
+    ],
+    "unitPrice": 8100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8100,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      4
+    ],
+    "unitPrice": 7900,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7900,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      5
+    ],
+    "unitPrice": 7950,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7950,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      6
+    ],
+    "unitPrice": 7680,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7680,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      7
+    ],
+    "unitPrice": 7680,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7680,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      0
+    ],
+    "unitPrice": 5500,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 55000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      1
+    ],
+    "unitPrice": 8100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 81000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      2
+    ],
+    "unitPrice": 8100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 81000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      3
+    ],
+    "unitPrice": 6800,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 68000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      4
+    ],
+    "unitPrice": 6600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 66000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      5
+    ],
+    "unitPrice": 6650,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 66500,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      6
+    ],
+    "unitPrice": 6380,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 63800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      7
+    ],
+    "unitPrice": 6380,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 63800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      0
+    ],
+    "unitPrice": 5800,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 58000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      1
+    ],
+    "unitPrice": 8400,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 84000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      2
+    ],
+    "unitPrice": 8400,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 84000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      3
+    ],
+    "unitPrice": 7100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 71000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      4
+    ],
+    "unitPrice": 6900,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 69000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      5
+    ],
+    "unitPrice": 6950,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 69500,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      6
+    ],
+    "unitPrice": 6680,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 66800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      7
+    ],
+    "unitPrice": 6680,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 66800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      0
+    ],
+    "unitPrice": 9000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9000,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      1
+    ],
+    "unitPrice": 11600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 11600,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      2
+    ],
+    "unitPrice": 11600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 11600,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      3
+    ],
+    "unitPrice": 10300,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10300,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      4
+    ],
+    "unitPrice": 10100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10100,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      5
+    ],
+    "unitPrice": 10150,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10150,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      6
+    ],
+    "unitPrice": 9880,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9880,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      7
+    ],
+    "unitPrice": 9880,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9880,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      0
+    ],
+    "unitPrice": 9400,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9400,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      1
+    ],
+    "unitPrice": 12000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 12000,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      2
+    ],
+    "unitPrice": 12000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 12000,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      3
+    ],
+    "unitPrice": 10700,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10700,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      4
+    ],
+    "unitPrice": 10500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10500,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      5
+    ],
+    "unitPrice": 10550,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10550,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      6
+    ],
+    "unitPrice": 10280,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10280,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      7
+    ],
+    "unitPrice": 10280,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10280,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      0
+    ],
+    "unitPrice": 8000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 80000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      1
+    ],
+    "unitPrice": 10600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 106000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      2
+    ],
+    "unitPrice": 10600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 106000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      3
+    ],
+    "unitPrice": 9300,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 93000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      4
+    ],
+    "unitPrice": 9100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 91000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      5
+    ],
+    "unitPrice": 9150,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 91500,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      6
+    ],
+    "unitPrice": 8880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 88800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      7
+    ],
+    "unitPrice": 8880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 88800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      0
+    ],
+    "unitPrice": 8400,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 84000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      1
+    ],
+    "unitPrice": 11000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 110000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      2
+    ],
+    "unitPrice": 11000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 110000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      3
+    ],
+    "unitPrice": 9700,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 97000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      4
+    ],
+    "unitPrice": 9500,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 95000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      5
+    ],
+    "unitPrice": 9550,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 95500,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      6
+    ],
+    "unitPrice": 9280,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 92800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      7
+    ],
+    "unitPrice": 9280,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 92800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      0
+    ],
+    "unitPrice": 5500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 5500,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      1
+    ],
+    "unitPrice": 8100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8100,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      2
+    ],
+    "unitPrice": 8100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8100,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      3
+    ],
+    "unitPrice": 6800,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6800,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      4
+    ],
+    "unitPrice": 6600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6600,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      5
+    ],
+    "unitPrice": 6650,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6650,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      6
+    ],
+    "unitPrice": 6380,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6380,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      7
+    ],
+    "unitPrice": 6380,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6380,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      0
+    ],
+    "unitPrice": 5800,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 5800,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      1
+    ],
+    "unitPrice": 8400,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8400,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      2
+    ],
+    "unitPrice": 8400,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8400,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      3
+    ],
+    "unitPrice": 7100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7100,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      4
+    ],
+    "unitPrice": 6900,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6900,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      5
+    ],
+    "unitPrice": 6950,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6950,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      6
+    ],
+    "unitPrice": 6680,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6680,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      7
+    ],
+    "unitPrice": 6680,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6680,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      0
+    ],
+    "unitPrice": 4500,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 45000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      1
+    ],
+    "unitPrice": 7100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 71000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      2
+    ],
+    "unitPrice": 7100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 71000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      3
+    ],
+    "unitPrice": 5800,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 58000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      4
+    ],
+    "unitPrice": 5600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 56000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      5
+    ],
+    "unitPrice": 5650,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 56500,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      6
+    ],
+    "unitPrice": 5380,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 53800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      7
+    ],
+    "unitPrice": 5380,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 53800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      0
+    ],
+    "unitPrice": 4800,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 48000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      1
+    ],
+    "unitPrice": 7400,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 74000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      2
+    ],
+    "unitPrice": 7400,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 74000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      3
+    ],
+    "unitPrice": 6100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 61000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      4
+    ],
+    "unitPrice": 5900,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 59000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      5
+    ],
+    "unitPrice": 5950,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 59500,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      6
+    ],
+    "unitPrice": 5680,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 56800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      7
+    ],
+    "unitPrice": 5680,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 56800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      0
+    ],
+    "unitPrice": 5800,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 5800,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      1
+    ],
+    "unitPrice": 8400,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8400,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      2
+    ],
+    "unitPrice": 8400,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8400,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      3
+    ],
+    "unitPrice": 7100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7100,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      4
+    ],
+    "unitPrice": 6900,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6900,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      5
+    ],
+    "unitPrice": 6950,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6950,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      6
+    ],
+    "unitPrice": 6680,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6680,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      7
+    ],
+    "unitPrice": 6680,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6680,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      0
+    ],
+    "unitPrice": 6100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6100,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      1
+    ],
+    "unitPrice": 8700,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8700,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      2
+    ],
+    "unitPrice": 8700,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8700,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      3
+    ],
+    "unitPrice": 7400,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7400,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      4
+    ],
+    "unitPrice": 7200,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7200,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      5
+    ],
+    "unitPrice": 7250,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7250,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      6
+    ],
+    "unitPrice": 6980,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6980,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      7
+    ],
+    "unitPrice": 6980,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6980,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      0
+    ],
+    "unitPrice": 4800,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 48000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      1
+    ],
+    "unitPrice": 7400,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 74000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      2
+    ],
+    "unitPrice": 7400,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 74000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      3
+    ],
+    "unitPrice": 6100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 61000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      4
+    ],
+    "unitPrice": 5900,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 59000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      5
+    ],
+    "unitPrice": 5950,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 59500,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      6
+    ],
+    "unitPrice": 5680,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 56800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      7
+    ],
+    "unitPrice": 5680,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 56800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      0
+    ],
+    "unitPrice": 5100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 51000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      1
+    ],
+    "unitPrice": 7700,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 77000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      2
+    ],
+    "unitPrice": 7700,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 77000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      3
+    ],
+    "unitPrice": 6400,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 64000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      4
+    ],
+    "unitPrice": 6200,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 62000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      5
+    ],
+    "unitPrice": 6250,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 62500,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      6
+    ],
+    "unitPrice": 5980,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 59800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      7
+    ],
+    "unitPrice": 5980,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 59800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      0
+    ],
+    "unitPrice": 8500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8500,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      1
+    ],
+    "unitPrice": 11100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 11100,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      2
+    ],
+    "unitPrice": 11100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 11100,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      3
+    ],
+    "unitPrice": 9800,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9800,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      4
+    ],
+    "unitPrice": 9600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9600,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      5
+    ],
+    "unitPrice": 9650,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9650,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      6
+    ],
+    "unitPrice": 9380,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9380,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      7
+    ],
+    "unitPrice": 9380,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9380,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      0
+    ],
+    "unitPrice": 8900,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8900,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      1
+    ],
+    "unitPrice": 11500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 11500,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      2
+    ],
+    "unitPrice": 11500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 11500,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      3
+    ],
+    "unitPrice": 10200,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10200,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      4
+    ],
+    "unitPrice": 10000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10000,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      5
+    ],
+    "unitPrice": 10050,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10050,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      6
+    ],
+    "unitPrice": 9780,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9780,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      7
+    ],
+    "unitPrice": 9780,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9780,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      0
+    ],
+    "unitPrice": 7000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 70000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      1
+    ],
+    "unitPrice": 9600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 96000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      2
+    ],
+    "unitPrice": 9600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 96000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      3
+    ],
+    "unitPrice": 8300,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 83000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      4
+    ],
+    "unitPrice": 8100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 81000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      5
+    ],
+    "unitPrice": 8150,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 81500,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      6
+    ],
+    "unitPrice": 7880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 78800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      7
+    ],
+    "unitPrice": 7880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 78800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      0
+    ],
+    "unitPrice": 7400,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 74000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      1
+    ],
+    "unitPrice": 10000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 100000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      2
+    ],
+    "unitPrice": 10000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 100000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      3
+    ],
+    "unitPrice": 8700,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 87000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      4
+    ],
+    "unitPrice": 8500,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 85000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      5
+    ],
+    "unitPrice": 8550,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 85500,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      6
+    ],
+    "unitPrice": 8280,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 82800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      7
+    ],
+    "unitPrice": 8280,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 82800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      0
+    ],
+    "unitPrice": 8800,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8800,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      1
+    ],
+    "unitPrice": 11400,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 11400,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      2
+    ],
+    "unitPrice": 11400,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 11400,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      3
+    ],
+    "unitPrice": 10100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10100,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      4
+    ],
+    "unitPrice": 9900,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9900,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      5
+    ],
+    "unitPrice": 9950,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9950,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      6
+    ],
+    "unitPrice": 9680,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9680,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      7
+    ],
+    "unitPrice": 9680,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9680,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      0
+    ],
+    "unitPrice": 9200,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9200,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      1
+    ],
+    "unitPrice": 11800,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 11800,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      2
+    ],
+    "unitPrice": 11800,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 11800,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      3
+    ],
+    "unitPrice": 10500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10500,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      4
+    ],
+    "unitPrice": 10300,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10300,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      5
+    ],
+    "unitPrice": 10350,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10350,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      6
+    ],
+    "unitPrice": 10080,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10080,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      7
+    ],
+    "unitPrice": 10080,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10080,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      0
+    ],
+    "unitPrice": 7500,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 75000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      1
+    ],
+    "unitPrice": 10100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 101000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      2
+    ],
+    "unitPrice": 10100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 101000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      3
+    ],
+    "unitPrice": 8800,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 88000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      4
+    ],
+    "unitPrice": 8600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 86000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      5
+    ],
+    "unitPrice": 8650,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 86500,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      6
+    ],
+    "unitPrice": 8380,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 83800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      7
+    ],
+    "unitPrice": 8380,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 83800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      0
+    ],
+    "unitPrice": 7900,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 79000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      1
+    ],
+    "unitPrice": 10500,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 105000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      2
+    ],
+    "unitPrice": 10500,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 105000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      3
+    ],
+    "unitPrice": 9200,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 92000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      4
+    ],
+    "unitPrice": 9000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 90000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      5
+    ],
+    "unitPrice": 9050,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 90500,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      6
+    ],
+    "unitPrice": 8780,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 87800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      7
+    ],
+    "unitPrice": 8780,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 87800,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      0
+    ],
+    "unitPrice": 6000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6000,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      1
+    ],
+    "unitPrice": 8600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8600,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      2
+    ],
+    "unitPrice": 8600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8600,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      3
+    ],
+    "unitPrice": 7300,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7300,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      4
+    ],
+    "unitPrice": 7100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7100,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      5
+    ],
+    "unitPrice": 7150,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7150,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      6
+    ],
+    "unitPrice": 6880,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6880,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      7
+    ],
+    "unitPrice": 6880,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6880,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      0
+    ],
+    "unitPrice": 6300,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6300,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      1
+    ],
+    "unitPrice": 8900,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8900,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      2
+    ],
+    "unitPrice": 8900,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8900,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      3
+    ],
+    "unitPrice": 7600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7600,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      4
+    ],
+    "unitPrice": 7400,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7400,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      5
+    ],
+    "unitPrice": 7450,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7450,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      6
+    ],
+    "unitPrice": 7180,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7180,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      7
+    ],
+    "unitPrice": 7180,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7180,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      0
+    ],
+    "unitPrice": 5000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 50000,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      1
+    ],
+    "unitPrice": 7600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 76000,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      2
+    ],
+    "unitPrice": 7600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 76000,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      3
+    ],
+    "unitPrice": 6300,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 63000,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      4
+    ],
+    "unitPrice": 6100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 61000,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      5
+    ],
+    "unitPrice": 6150,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 61500,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      6
+    ],
+    "unitPrice": 5880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 58800,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      7
+    ],
+    "unitPrice": 5880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 58800,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      0
+    ],
+    "unitPrice": 5300,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 53000,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      1
+    ],
+    "unitPrice": 7900,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 79000,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      2
+    ],
+    "unitPrice": 7900,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 79000,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      3
+    ],
+    "unitPrice": 6600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 66000,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      4
+    ],
+    "unitPrice": 6400,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 64000,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      5
+    ],
+    "unitPrice": 6450,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 64500,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      6
+    ],
+    "unitPrice": 6180,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 61800,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      7
+    ],
+    "unitPrice": 6180,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 61800,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      0
+    ],
+    "unitPrice": 8500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8500,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      1
+    ],
+    "unitPrice": 11100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 11100,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      2
+    ],
+    "unitPrice": 11100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 11100,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      3
+    ],
+    "unitPrice": 9800,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9800,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      4
+    ],
+    "unitPrice": 9600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9600,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      5
+    ],
+    "unitPrice": 9650,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9650,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      6
+    ],
+    "unitPrice": 9380,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9380,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0,
+      7
+    ],
+    "unitPrice": 9380,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9380,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      0
+    ],
+    "unitPrice": 8900,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8900,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      1
+    ],
+    "unitPrice": 11500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 11500,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      2
+    ],
+    "unitPrice": 11500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 11500,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      3
+    ],
+    "unitPrice": 10200,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10200,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      4
+    ],
+    "unitPrice": 10000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10000,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      5
+    ],
+    "unitPrice": 10050,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10050,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      6
+    ],
+    "unitPrice": 9780,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9780,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1,
+      7
+    ],
+    "unitPrice": 9780,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9780,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      0
+    ],
+    "unitPrice": 7000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 70000,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      1
+    ],
+    "unitPrice": 9600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 96000,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      2
+    ],
+    "unitPrice": 9600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 96000,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      3
+    ],
+    "unitPrice": 8300,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 83000,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      4
+    ],
+    "unitPrice": 8100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 81000,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      5
+    ],
+    "unitPrice": 8150,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 81500,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      6
+    ],
+    "unitPrice": 7880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 78800,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0,
+      7
+    ],
+    "unitPrice": 7880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 78800,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      0
+    ],
+    "unitPrice": 7400,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 74000,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      1
+    ],
+    "unitPrice": 10000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 100000,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      2
+    ],
+    "unitPrice": 10000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 100000,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      3
+    ],
+    "unitPrice": 8700,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 87000,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      4
+    ],
+    "unitPrice": 8500,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 85000,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      5
+    ],
+    "unitPrice": 8550,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 85500,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      6
+    ],
+    "unitPrice": 8280,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 82800,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-profi-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1,
+      7
+    ],
+    "unitPrice": 8280,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 82800,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-klass",
+    "tier": "retail",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 4800,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 4800,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-klass",
+    "tier": "retail",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 5780,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 5780,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-klass",
+    "tier": "retail",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 5850,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 5850,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-klass",
+    "tier": "retail",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 5650,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 5650,
+    "displayFrom": false
+  },
+  {
+    "productId": "a-klass",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 4000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 40000,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-klass",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 4980,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 49800,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-klass",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 5050,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 50500,
+    "displayFrom": true
+  },
+  {
+    "productId": "a-klass",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 4850,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 48500,
+    "displayFrom": true
+  },
+  {
+    "productId": "khlopushka-a1h",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 6000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6000,
+    "displayFrom": false
+  },
+  {
+    "productId": "khlopushka-a1h",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 5000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 50000,
+    "displayFrom": true
+  },
+  {
+    "productId": "khlopushka-a1",
+    "tier": "retail",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 5500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 5500,
+    "displayFrom": false
+  },
+  {
+    "productId": "khlopushka-a1",
+    "tier": "retail",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 5800,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 5800,
+    "displayFrom": false
+  },
+  {
+    "productId": "khlopushka-a1",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 4600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 46000,
+    "displayFrom": true
+  },
+  {
+    "productId": "khlopushka-a1",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 4900,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 49000,
+    "displayFrom": true
+  },
+  {
+    "productId": "khlopushka-a1-dvustoronniy",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 6200,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6200,
+    "displayFrom": false
+  },
+  {
+    "productId": "khlopushka-a1-dvustoronniy",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 5200,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 52000,
+    "displayFrom": true
+  },
+  {
+    "productId": "khlopushka-a2",
+    "tier": "retail",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 5000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 5000,
+    "displayFrom": false
+  },
+  {
+    "productId": "khlopushka-a2",
+    "tier": "retail",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 5300,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 5300,
+    "displayFrom": false
+  },
+  {
+    "productId": "khlopushka-a2",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 4200,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 42000,
+    "displayFrom": true
+  },
+  {
+    "productId": "khlopushka-a2",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 4500,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 45000,
+    "displayFrom": true
+  },
+  {
+    "productId": "khlopushka-a2-dvustoronniy",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 5500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 5500,
+    "displayFrom": false
+  },
+  {
+    "productId": "khlopushka-a2-dvustoronniy",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 4600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 46000,
+    "displayFrom": true
+  },
+  {
+    "productId": "khlopushka",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 4000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 4000,
+    "displayFrom": false
+  },
+  {
+    "productId": "khlopushka",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 3200,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 32000,
+    "displayFrom": true
+  },
+  {
+    "productId": "khlopushka-detskiy-buk",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 6000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6000,
+    "displayFrom": false
+  },
+  {
+    "productId": "khlopushka-detskiy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 5000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 50000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stol-dlya-chercheniya-i-risovaniya-chertezhnik",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 9600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9600,
+    "displayFrom": false
+  },
+  {
+    "productId": "stol-dlya-chercheniya-i-risovaniya-chertezhnik",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 8000,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 40000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stol-dlya-chercheniya-i-risovaniya-konstruktor",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 18000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 18000,
+    "displayFrom": false
+  },
+  {
+    "productId": "stol-dlya-chercheniya-i-risovaniya-konstruktor",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 15000,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 75000,
+    "displayFrom": true
+  },
+  {
+    "productId": "nastolnyy-sosna",
+    "tier": "retail",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 3600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 3600,
+    "displayFrom": false
+  },
+  {
+    "productId": "nastolnyy-sosna",
+    "tier": "retail",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 4480,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 4480,
+    "displayFrom": false
+  },
+  {
+    "productId": "nastolnyy-sosna",
+    "tier": "retail",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 4480,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 4480,
+    "displayFrom": false
+  },
+  {
+    "productId": "nastolnyy-sosna",
+    "tier": "retail",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 4200,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 4200,
+    "displayFrom": false
+  },
+  {
+    "productId": "nastolnyy-sosna",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 3000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 30000,
+    "displayFrom": true
+  },
+  {
+    "productId": "nastolnyy-sosna",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 3880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 38800,
+    "displayFrom": true
+  },
+  {
+    "productId": "nastolnyy-sosna",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 3880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 38800,
+    "displayFrom": true
+  },
+  {
+    "productId": "nastolnyy-sosna",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 3600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 36000,
+    "displayFrom": true
+  },
+  {
+    "productId": "nastolnyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 4800,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 4800,
+    "displayFrom": false
+  },
+  {
+    "productId": "nastolnyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 5680,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 5680,
+    "displayFrom": false
+  },
+  {
+    "productId": "nastolnyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 5680,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 5680,
+    "displayFrom": false
+  },
+  {
+    "productId": "nastolnyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 5400,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 5400,
+    "displayFrom": false
+  },
+  {
+    "productId": "nastolnyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 4000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 40000,
+    "displayFrom": true
+  },
+  {
+    "productId": "nastolnyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 4880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 48800,
+    "displayFrom": true
+  },
+  {
+    "productId": "nastolnyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 4880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 48800,
+    "displayFrom": true
+  },
+  {
+    "productId": "nastolnyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 4600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 46000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-nastolnyy-sosna",
+    "tier": "retail",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 2800,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 2800,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-nastolnyy-sosna",
+    "tier": "retail",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 3680,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 3680,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-nastolnyy-sosna",
+    "tier": "retail",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 3680,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 3680,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-nastolnyy-sosna",
+    "tier": "retail",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 3400,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 3400,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-nastolnyy-sosna",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 2200,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 22000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-nastolnyy-sosna",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 3080,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 30800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-nastolnyy-sosna",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 3080,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 30800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-nastolnyy-sosna",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 2800,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 28000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-nastolnyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 3600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 3600,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-nastolnyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 4480,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 4480,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-nastolnyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 4480,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 4480,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-nastolnyy-buk",
+    "tier": "retail",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 4200,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 4200,
+    "displayFrom": false
+  },
+  {
+    "productId": "lira-nastolnyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 3000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 30000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-nastolnyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 3880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 38800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-nastolnyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 3880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 38800,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-nastolnyy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 3600,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 36000,
+    "displayFrom": true
+  },
+  {
+    "productId": "nastolnyy-mini-buk",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 2500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 2500,
+    "displayFrom": false
+  },
+  {
+    "productId": "nastolnyy-mini-buk",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 2000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 20000,
+    "displayFrom": true
+  },
+  {
+    "productId": "nastolnyy-mini-xl-buk",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 2700,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 2700,
+    "displayFrom": false
+  },
+  {
+    "productId": "nastolnyy-mini-xl-buk",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 2400,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 24000,
+    "displayFrom": true
+  },
+  {
+    "productId": "nastolnyy-akva",
+    "tier": "retail",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 4200,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 4200,
+    "displayFrom": false
+  },
+  {
+    "productId": "nastolnyy-akva",
+    "tier": "retail",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 5080,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 5080,
+    "displayFrom": false
+  },
+  {
+    "productId": "nastolnyy-akva",
+    "tier": "retail",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 5080,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 5080,
+    "displayFrom": false
+  },
+  {
+    "productId": "nastolnyy-akva",
+    "tier": "retail",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 4800,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 4800,
+    "displayFrom": false
+  },
+  {
+    "productId": "nastolnyy-akva",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 3500,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 35000,
+    "displayFrom": true
+  },
+  {
+    "productId": "nastolnyy-akva",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 4380,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 43800,
+    "displayFrom": true
+  },
+  {
+    "productId": "nastolnyy-akva",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      2
+    ],
+    "unitPrice": 4380,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 43800,
+    "displayFrom": true
+  },
+  {
+    "productId": "nastolnyy-akva",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      3
+    ],
+    "unitPrice": 4100,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 41000,
+    "displayFrom": true
+  },
+  {
+    "productId": "planshet-nastolnyy-grafika",
+    "tier": "retail",
+    "indices": [
+      1,
+      1
+    ],
+    "unitPrice": 3400,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 3400,
+    "displayFrom": false
+  },
+  {
+    "productId": "planshet-nastolnyy-grafika",
+    "tier": "retail",
+    "indices": [
+      2,
+      1
+    ],
+    "unitPrice": 3600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 3600,
+    "displayFrom": false
+  },
+  {
+    "productId": "planshet-nastolnyy-grafika",
+    "tier": "wholesale",
+    "indices": [
+      1,
+      1
+    ],
+    "unitPrice": 2800,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 28000,
+    "displayFrom": true
+  },
+  {
+    "productId": "planshet-nastolnyy-grafika",
+    "tier": "wholesale",
+    "indices": [
+      1,
+      2
+    ],
+    "unitPrice": 3000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 30000,
+    "displayFrom": true
+  },
+  {
+    "productId": "maksi",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 17000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 17000,
+    "displayFrom": false
+  },
+  {
+    "productId": "maksi",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 15000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 150000,
+    "displayFrom": true
+  },
+  {
+    "productId": "ekspo-1",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 7000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7000,
+    "displayFrom": false
+  },
+  {
+    "productId": "ekspo-1",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 6000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 60000,
+    "displayFrom": true
+  },
+  {
+    "productId": "ekspo-2",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 8000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8000,
+    "displayFrom": false
+  },
+  {
+    "productId": "ekspo-2",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 7000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 70000,
+    "displayFrom": true
+  },
+  {
+    "productId": "machta",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 7000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7000,
+    "displayFrom": false
+  },
+  {
+    "productId": "machta",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 6000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 60000,
+    "displayFrom": true
+  },
+  {
+    "productId": "trenoga-1500",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 3200,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 3200,
+    "displayFrom": false
+  },
+  {
+    "productId": "trenoga-1500",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 2500,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 25000,
+    "displayFrom": true
+  },
+  {
+    "productId": "trenoga-vystavochnaya",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 5000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 5000,
+    "displayFrom": false
+  },
+  {
+    "productId": "trenoga-vystavochnaya",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 4000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 40000,
+    "displayFrom": true
+  },
+  {
+    "productId": "vernisazh",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 7500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7500,
+    "displayFrom": false
+  },
+  {
+    "productId": "vernisazh",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 6500,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 65000,
+    "displayFrom": true
+  },
+  {
+    "productId": "delta",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 7500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7500,
+    "displayFrom": false
+  },
+  {
+    "productId": "delta",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 6500,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 65000,
+    "displayFrom": true
+  },
+  {
+    "productId": "lira-podarochnyy-buk",
+    "tier": "retail",
+    "indices": [],
+    "unitPrice": 18000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 18000,
+    "displayFrom": false
+  },
+  {
+    "productId": "molbert-ampir",
+    "tier": "retail",
+    "indices": [],
+    "unitPrice": 30000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 30000,
+    "displayFrom": false
+  },
+  {
+    "productId": "molbert-eksklyuziv",
+    "tier": "retail",
+    "indices": [],
+    "unitPrice": 28000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 28000,
+    "displayFrom": false
+  },
+  {
+    "productId": "molbert-plazma-xl",
+    "tier": "retail",
+    "indices": [],
+    "unitPrice": 38000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 38000,
+    "displayFrom": true
+  },
+  {
+    "productId": "molbert-versal",
+    "tier": "retail",
+    "indices": [],
+    "unitPrice": 40000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 40000,
+    "displayFrom": true
+  },
+  {
+    "productId": "trenogi-dlya-foto-ramok",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 250,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 250,
+    "displayFrom": false
+  },
+  {
+    "productId": "trenogi-dlya-foto-ramok",
+    "tier": "retail",
+    "indices": [
+      1
+    ],
+    "unitPrice": 300,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 300,
+    "displayFrom": false
+  },
+  {
+    "productId": "trenogi-dlya-foto-ramok",
+    "tier": "retail",
+    "indices": [
+      2
+    ],
+    "unitPrice": 350,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 350,
+    "displayFrom": false
+  },
+  {
+    "productId": "trenogi-dlya-foto-ramok",
+    "tier": "retail",
+    "indices": [
+      3
+    ],
+    "unitPrice": 450,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 450,
+    "displayFrom": false
+  },
+  {
+    "productId": "trenogi-dlya-foto-ramok",
+    "tier": "retail",
+    "indices": [
+      4
+    ],
+    "unitPrice": 500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 500,
+    "displayFrom": false
+  },
+  {
+    "productId": "mini-molberty-lira",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 450,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 450,
+    "displayFrom": false
+  },
+  {
+    "productId": "mini-molberty-lira",
+    "tier": "retail",
+    "indices": [
+      1
+    ],
+    "unitPrice": 550,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 550,
+    "displayFrom": false
+  },
+  {
+    "productId": "stol-dlya-natyurmortov-s-planshetom-ugolok",
+    "tier": "retail",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 6800,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6800,
+    "displayFrom": false
+  },
+  {
+    "productId": "stol-dlya-natyurmortov-s-planshetom-ugolok",
+    "tier": "retail",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 10200,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10200,
+    "displayFrom": false
+  },
+  {
+    "productId": "stol-dlya-natyurmortov-s-planshetom-ugolok",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 5700,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 28500,
+    "displayFrom": true
+  },
+  {
+    "productId": "stol-dlya-natyurmortov-s-planshetom-ugolok",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 9100,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 45500,
+    "displayFrom": true
+  },
+  {
+    "productId": "stol-dlya-natyurmortov-50kh50-s-peremennoy-vysotoy-ekspozitsii",
+    "tier": "retail",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 9600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9600,
+    "displayFrom": false
+  },
+  {
+    "productId": "stol-dlya-natyurmortov-50kh50-s-peremennoy-vysotoy-ekspozitsii",
+    "tier": "retail",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 13000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 13000,
+    "displayFrom": false
+  },
+  {
+    "productId": "stol-dlya-natyurmortov-50kh50-s-peremennoy-vysotoy-ekspozitsii",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 8000,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 40000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stol-dlya-natyurmortov-50kh50-s-peremennoy-vysotoy-ekspozitsii",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 11400,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 57000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stol-dlya-natyurmorta-s-peremennoy-vysotoy-ekspozitsii",
+    "tier": "retail",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 7800,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7800,
+    "displayFrom": false
+  },
+  {
+    "productId": "stol-dlya-natyurmorta-s-peremennoy-vysotoy-ekspozitsii",
+    "tier": "retail",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 7800,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7800,
+    "displayFrom": false
+  },
+  {
+    "productId": "stol-dlya-natyurmorta-s-peremennoy-vysotoy-ekspozitsii",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 6500,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 32500,
+    "displayFrom": true
+  },
+  {
+    "productId": "stol-dlya-natyurmorta-s-peremennoy-vysotoy-ekspozitsii",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 6500,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 32500,
+    "displayFrom": true
+  },
+  {
+    "productId": "stol-transformer-dlya-natyurmorta",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 10800,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10800,
+    "displayFrom": false
+  },
+  {
+    "productId": "stol-transformer-dlya-natyurmorta",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 9000,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 45000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stol-dlya-natyurmorta-skladnoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 7200,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7200,
+    "displayFrom": false
+  },
+  {
+    "productId": "stol-dlya-natyurmorta-skladnoy",
+    "tier": "retail",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 10600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10600,
+    "displayFrom": false
+  },
+  {
+    "productId": "stol-dlya-natyurmorta-skladnoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 6000,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 30000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stol-dlya-natyurmorta-skladnoy",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 9400,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 47000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stol-tumba-dlya-natyurmorta",
+    "tier": "retail",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 12000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 12000,
+    "displayFrom": false
+  },
+  {
+    "productId": "stol-tumba-dlya-natyurmorta",
+    "tier": "retail",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 12000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 12000,
+    "displayFrom": false
+  },
+  {
+    "productId": "stol-tumba-dlya-natyurmorta",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 10000,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 50000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stol-tumba-dlya-natyurmorta",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 10000,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 50000,
+    "displayFrom": true
+  },
+  {
+    "productId": "planshety",
+    "tier": "retail",
+    "indices": [
+      1,
+      1
+    ],
+    "unitPrice": 2600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 2600,
+    "displayFrom": false
+  },
+  {
+    "productId": "planshety",
+    "tier": "retail",
+    "indices": [
+      2,
+      1
+    ],
+    "unitPrice": 2600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 2600,
+    "displayFrom": false
+  },
+  {
+    "productId": "planshety",
+    "tier": "retail",
+    "indices": [
+      3,
+      1
+    ],
+    "unitPrice": 1300,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 1300,
+    "displayFrom": false
+  },
+  {
+    "productId": "planshety",
+    "tier": "retail",
+    "indices": [
+      4,
+      1
+    ],
+    "unitPrice": 1100,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 1100,
+    "displayFrom": false
+  },
+  {
+    "productId": "planshety",
+    "tier": "retail",
+    "indices": [
+      5,
+      1
+    ],
+    "unitPrice": 1150,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 1150,
+    "displayFrom": false
+  },
+  {
+    "productId": "planshety",
+    "tier": "retail",
+    "indices": [
+      6,
+      1
+    ],
+    "unitPrice": 880,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 880,
+    "displayFrom": false
+  },
+  {
+    "productId": "planshety",
+    "tier": "retail",
+    "indices": [
+      7,
+      1
+    ],
+    "unitPrice": 880,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 880,
+    "displayFrom": false
+  },
+  {
+    "productId": "planshety",
+    "tier": "retail",
+    "indices": [
+      8,
+      1
+    ],
+    "unitPrice": 600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 600,
+    "displayFrom": false
+  },
+  {
+    "productId": "planshety",
+    "tier": "wholesale",
+    "indices": [
+      1,
+      1
+    ],
+    "unitPrice": 2000,
+    "minQuantity": 15,
+    "quantity": 15,
+    "total": 30000,
+    "displayFrom": true
+  },
+  {
+    "productId": "planshety",
+    "tier": "wholesale",
+    "indices": [
+      1,
+      2
+    ],
+    "unitPrice": 2000,
+    "minQuantity": 15,
+    "quantity": 15,
+    "total": 30000,
+    "displayFrom": true
+  },
+  {
+    "productId": "planshety",
+    "tier": "wholesale",
+    "indices": [
+      1,
+      3
+    ],
+    "unitPrice": 1050,
+    "minQuantity": 15,
+    "quantity": 15,
+    "total": 15750,
+    "displayFrom": true
+  },
+  {
+    "productId": "planshety",
+    "tier": "wholesale",
+    "indices": [
+      1,
+      4
+    ],
+    "unitPrice": 900,
+    "minQuantity": 15,
+    "quantity": 15,
+    "total": 13500,
+    "displayFrom": true
+  },
+  {
+    "productId": "planshety",
+    "tier": "wholesale",
+    "indices": [
+      1,
+      5
+    ],
+    "unitPrice": 950,
+    "minQuantity": 15,
+    "quantity": 15,
+    "total": 14250,
+    "displayFrom": true
+  },
+  {
+    "productId": "planshety",
+    "tier": "wholesale",
+    "indices": [
+      1,
+      6
+    ],
+    "unitPrice": 720,
+    "minQuantity": 15,
+    "quantity": 15,
+    "total": 10800,
+    "displayFrom": true
+  },
+  {
+    "productId": "planshety",
+    "tier": "wholesale",
+    "indices": [
+      1,
+      7
+    ],
+    "unitPrice": 720,
+    "minQuantity": 15,
+    "quantity": 15,
+    "total": 10800,
+    "displayFrom": true
+  },
+  {
+    "productId": "planshety",
+    "tier": "wholesale",
+    "indices": [
+      1,
+      8
+    ],
+    "unitPrice": 500,
+    "minQuantity": 15,
+    "quantity": 15,
+    "total": 7500,
+    "displayFrom": true
+  },
+  {
+    "productId": "stolik-dlya-ekspozitsiy",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 12000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 12000,
+    "displayFrom": false
+  },
+  {
+    "productId": "stolik-dlya-ekspozitsiy",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 10000,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 50000,
+    "displayFrom": true
+  },
+  {
+    "productId": "sofit-dlya-podsvetki-natyurmorta",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 13000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 13000,
+    "displayFrom": false
+  },
+  {
+    "productId": "sofit-dlya-podsvetki-natyurmorta",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 11000,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 55000,
+    "displayFrom": true
+  },
+  {
+    "productId": "svetilnik-dlya-podsvetki-natyurmorta",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 5500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 5500,
+    "displayFrom": false
+  },
+  {
+    "productId": "svetilnik-dlya-podsvetki-natyurmorta",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 4500,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 22500,
+    "displayFrom": true
+  },
+  {
+    "productId": "svetilnik-prishchepka",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 4000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 4000,
+    "displayFrom": false
+  },
+  {
+    "productId": "svetilnik-prishchepka",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 3400,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 17000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stolik-skulptora-buk-fanera",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 7200,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7200,
+    "displayFrom": false
+  },
+  {
+    "productId": "stolik-skulptora-buk-fanera",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 6000,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 30000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stol-skulptora-profi",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 11000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 11000,
+    "displayFrom": false
+  },
+  {
+    "productId": "stol-skulptora-profi",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 9800,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 49000,
+    "displayFrom": true
+  },
+  {
+    "productId": "podstavka-dlya-risunkov",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 5400,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 5400,
+    "displayFrom": false
+  },
+  {
+    "productId": "podstavka-dlya-risunkov",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 5400,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 27000,
+    "displayFrom": true
+  },
+  {
+    "productId": "plakatnitsy-a1-i-a2",
+    "tier": "retail",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 9600,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 9600,
+    "displayFrom": false
+  },
+  {
+    "productId": "plakatnitsy-a1-i-a2",
+    "tier": "retail",
+    "indices": [
+      0,
+      1
+    ],
+    "unitPrice": 6800,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6800,
+    "displayFrom": false
+  },
+  {
+    "productId": "plakatnitsy-a1-i-a2",
+    "tier": "wholesale",
+    "indices": [
+      0,
+      0
+    ],
+    "unitPrice": 8000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 80000,
+    "displayFrom": true
+  },
+  {
+    "productId": "plakatnitsy-a1-i-a2",
+    "tier": "wholesale",
+    "indices": [
+      1,
+      0
+    ],
+    "unitPrice": 6000,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 60000,
+    "displayFrom": true
+  },
+  {
+    "productId": "podstavka-dlya-risunkov-buk",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 7000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 7000,
+    "displayFrom": false
+  },
+  {
+    "productId": "podstavka-dlya-risunkov-buk",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 5800,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 29000,
+    "displayFrom": true
+  },
+  {
+    "productId": "plakatnitsa-nastennaya",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 6000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6000,
+    "displayFrom": false
+  },
+  {
+    "productId": "plakatnitsa-nastennaya",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 5000,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 25000,
+    "displayFrom": true
+  },
+  {
+    "productId": "palitra",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 250,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 2500,
+    "displayFrom": true
+  },
+  {
+    "productId": "palitra",
+    "tier": "wholesale",
+    "indices": [
+      1
+    ],
+    "unitPrice": 300,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 3000,
+    "displayFrom": true
+  },
+  {
+    "productId": "palitra",
+    "tier": "wholesale",
+    "indices": [
+      2
+    ],
+    "unitPrice": 360,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 3600,
+    "displayFrom": true
+  },
+  {
+    "productId": "palitra",
+    "tier": "wholesale",
+    "indices": [
+      3
+    ],
+    "unitPrice": 400,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 4000,
+    "displayFrom": true
+  },
+  {
+    "productId": "klipbord",
+    "tier": "retail",
+    "indices": [
+      1,
+      1
+    ],
+    "unitPrice": 780,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 7800,
+    "displayFrom": false
+  },
+  {
+    "productId": "klipbord",
+    "tier": "retail",
+    "indices": [
+      2,
+      1
+    ],
+    "unitPrice": 1050,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 10500,
+    "displayFrom": false
+  },
+  {
+    "productId": "klipbord",
+    "tier": "wholesale",
+    "indices": [
+      1,
+      1
+    ],
+    "unitPrice": 650,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 6500,
+    "displayFrom": true
+  },
+  {
+    "productId": "klipbord",
+    "tier": "wholesale",
+    "indices": [
+      1,
+      2
+    ],
+    "unitPrice": 880,
+    "minQuantity": 10,
+    "quantity": 10,
+    "total": 8800,
+    "displayFrom": true
+  },
+  {
+    "productId": "shkatulka-dlya-kistey-i-krasok",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 4800,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 4800,
+    "displayFrom": false
+  },
+  {
+    "productId": "shkatulka-dlya-kistey-i-krasok",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 4000,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 20000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stolik-dlya-palitry",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 3900,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 3900,
+    "displayFrom": false
+  },
+  {
+    "productId": "stolik-dlya-palitry",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 3200,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 16000,
+    "displayFrom": true
+  },
+  {
+    "productId": "telezhka-dlya-khudozhestvennykh-prinadlezhnostey",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 10800,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 10800,
+    "displayFrom": false
+  },
+  {
+    "productId": "telezhka-dlya-khudozhestvennykh-prinadlezhnostey",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 9000,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 45000,
+    "displayFrom": true
+  },
+  {
+    "productId": "taburet-rabochiy",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 3850,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 3850,
+    "displayFrom": false
+  },
+  {
+    "productId": "taburet-rabochiy",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 3200,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 16000,
+    "displayFrom": true
+  },
+  {
+    "productId": "taburet-vysokiy-buk",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 8500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8500,
+    "displayFrom": false
+  },
+  {
+    "productId": "taburet-vysokiy-buk",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 7000,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 35000,
+    "displayFrom": true
+  },
+  {
+    "productId": "taburet-vysokiy-sosna",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 8500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 8500,
+    "displayFrom": false
+  },
+  {
+    "productId": "taburet-vysokiy-sosna",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 7000,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 35000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stul-khudozhnika",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 11500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 11500,
+    "displayFrom": false
+  },
+  {
+    "productId": "stul-khudozhnika",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 9500,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 47500,
+    "displayFrom": true
+  },
+  {
+    "productId": "stellazh-dlya-sushki-i-khraneniya-listov-a1",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 33000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 33000,
+    "displayFrom": false
+  },
+  {
+    "productId": "stellazh-dlya-sushki-i-khraneniya-listov-a1",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 30000,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 150000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stellazh-dlya-sushki-i-khraneniya-listov-a2",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 32500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 32500,
+    "displayFrom": false
+  },
+  {
+    "productId": "stellazh-dlya-sushki-i-khraneniya-listov-a2",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 27000,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 135000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stellazh-dlya-planshetov-i-podramnikov",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 20500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 20500,
+    "displayFrom": false
+  },
+  {
+    "productId": "stellazh-dlya-planshetov-i-podramnikov",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 17000,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 85000,
+    "displayFrom": true
+  },
+  {
+    "productId": "stellazh-dlya-dekora-i-gipsovykh-modeley",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 19500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 19500,
+    "displayFrom": false
+  },
+  {
+    "productId": "stellazh-dlya-dekora-i-gipsovykh-modeley",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 16000,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 80000,
+    "displayFrom": true
+  },
+  {
+    "productId": "podium-dlya-natury",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 13500,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 13500,
+    "displayFrom": false
+  },
+  {
+    "productId": "podium-dlya-natury",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 12000,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 60000,
+    "displayFrom": true
+  },
+  {
+    "productId": "shirma",
+    "tier": "retail",
+    "indices": [
+      0
+    ],
+    "unitPrice": 6000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 6000,
+    "displayFrom": false
+  },
+  {
+    "productId": "shirma",
+    "tier": "wholesale",
+    "indices": [
+      0
+    ],
+    "unitPrice": 5000,
+    "minQuantity": 5,
+    "quantity": 5,
+    "total": 25000,
+    "displayFrom": true
+  },
+  {
+    "productId": "tumbochka-khudozhnika",
+    "tier": "retail",
+    "indices": [],
+    "unitPrice": 20000,
+    "minQuantity": 1,
+    "quantity": 1,
+    "total": 20000,
+    "displayFrom": false
+  }
+]

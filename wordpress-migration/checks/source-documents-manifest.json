@@ -1,0 +1,57 @@
+[
+  {
+    "path": "source-documents/Структура.doc",
+    "bytes": 34816,
+    "sha256": "85f7fb3246f690db5b1bcd6cc405e81361f1eee3f5b0897e1fb2257a7acace31"
+  },
+  {
+    "path": "source-documents/Контрагенты.doc",
+    "bytes": 39936,
+    "sha256": "f75e6b1a8399e99d35a51f7395bf0c53d6e1141d5571c9d7c7e5a956e5f461ae"
+  },
+  {
+    "path": "source-documents/molberty.ru - теги и мета-теги 02.xlsx",
+    "bytes": 76279,
+    "sha256": "b484078bf5d76f1ad52322f25daad92f77f3abb519935cb5e659118d15ccc351"
+  },
+  {
+    "path": "source-documents/molberty.ru - теги и мета-теги v2.xlsx",
+    "bytes": 9221,
+    "sha256": "3fdd81ef2ceb6c0ecf82497d70b17d81fd6d2d54fd768f852710db44e234c8fa"
+  },
+  {
+    "path": "source-documents/molberty.ru - распределение запросов(1).xlsx",
+    "bytes": 21286,
+    "sha256": "1700c656d133bf0499aadf424ae9f2bf8c7d15087cd82b8ab2c9cfb9473e4399"
+  },
+  {
+    "path": "source-documents/Praiss_total_2026.pdf",
+    "bytes": 67922,
+    "sha256": "7e396bd06af0fce24b031e1d066e139a20bcb02846c17f405b83502de51c5d40"
+  },
+  {
+    "path": "source-documents/Сертификат ГОСТ Р Мольберты.pdf",
+    "bytes": 3799906,
+    "sha256": "e25d53d30179d7bcd58fa7a8906b2215b55ce6c8fddae05d117cdb455f0b08d8"
+  },
+  {
+    "path": "source-documents/Выписка из реестра СМП.pdf",
+    "bytes": 131995,
+    "sha256": "81307d476ae475ee5cdb6cc7515ba43f5d80f040c034b35c3cf429174cf3218d"
+  },
+  {
+    "path": "source-documents/Выписка ЕГРИП_06_26.pdf",
+    "bytes": 151518,
+    "sha256": "1b696c94ec34868ea1370672d866adaa9fc0f7fdf7f3ee85c6ad8a020ccfb94e"
+  },
+  {
+    "path": "source-documents/Реквизиты.pdf",
+    "bytes": 74530,
+    "sha256": "48800a6238d9ab57e59b0a44ff68867e514314fc3ea677f69e978db525aea77a"
+  },
+  {
+    "path": "source-documents/README.md",
+    "bytes": 761,
+    "sha256": "a298fdb86537fe86dc3e4fb0b3b26d9c4bbe2bea4ae6c605b117adb85390cc3e"
+  }
+]

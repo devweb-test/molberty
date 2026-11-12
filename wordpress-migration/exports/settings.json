@@ -1,0 +1,2788 @@
+{
+  "sales": {
+    "source": "https://www.molberty.ru/contacts",
+    "checkedOn": "2026-10-19",
+    "wholesalePhone": "+7 (926) 211-93-63",
+    "retailPhone": "+7 (925) 880-95-39",
+    "email": "molberty@gmail.com",
+    "address": "Московская область, г. Мытищи, Проектируемый проезд 4530, строение 2, завод «СпецМашМонтаж»",
+    "distanceFromMKAD": "10,2 км от МКАД",
+    "officeHours": "Понедельник — пятница, 08:00–17:00",
+    "retailHours": "Понедельник — пятница, 08:00–16:00; суббота — по договорённости",
+    "route": [
+      "С МКАД сверните на Осташковское шоссе. Через 3 км поверните на Волковское шоссе.",
+      "Доезжайте до пересечения с Олимпийским проспектом. На круговом движении выберите третий съезд.",
+      "На ближайшем светофоре поверните направо и следуйте до вывески завода «СпецМашМонтаж».",
+      "Позвоните от шлагбаума — сотрудники встретят вас. О розничном визите предупредите за час."
+    ],
+    "wholesale": {
+      "order": "Уточните наличие и сроки по телефону. Затем отправьте заявку на почту: перечень изделий, реквизиты покупателя, телефон контактного лица, адрес и желаемый срок поставки.",
+      "invoice": "В течение дня выставляется счёт и сообщается дата поставки.",
+      "packagingRub": 200,
+      "terminalDeliveryRubPerBatch": 1800,
+      "carrier": "Отправка в регионы через транспортные компании с терминалами в Москве. Услуги транспортной компании оплачиваются после доставки груза.",
+      "competitiveProposals": "Для оптовых покупателей мы совместно с нашими дилерами можем оперативно подготовить 3 коммерческих предложения для проведения конкурсных процедур."
+    },
+    "retail": {
+      "showroom": "Модели можно посмотреть в демонстрационном зале и приобрести в офисе. Выбранный мольберт могут вынести к проходной.",
+      "callBeforeArrivalMinutes": 60,
+      "weight": "0,5–8 кг в зависимости от модели",
+      "courier": "Курьерская служба, в том числе Яндекс — грузовая доставка. Стоимость зависит от района и габаритов. Доставка — через день после приёма заказа, с 10:00 до 18:00.",
+      "courierOrder": "Отправьте на почту название продукции, адрес, ФИО и мобильный телефон.",
+      "regionalOrder": "Для отправки в другой город укажите ФИО получателя и мобильный номер телефона для связи и получения груза.",
+      "regionalExtraRub": 500,
+      "regionalPayment": "До отправки оплачиваются мольберт, упаковка и доставка до терминала: дополнительно 500 ₽ к розничной цене. Межтерминальную перевозку и доставку до подъезда оплачивают по прибытии груза в город получателя."
+    }
+  },
+  "company": {
+    "source": "https://www.molberty.ru/",
+    "title": "О компании — производителе мольбертов",
+    "paragraphs": [
+      "Коллектив мастерской принимал участие в реализации Германо-Российского модельного проекта «Развитие ремесел в России путем профессионального образования». В рамках проекта (1993-1999 года), сотрудники проходили стажировки в Федеративной Республике Германия (учебный центр «Глоккеншпитц», город Крефельд, Северный Рейн-Вестфалия).",
+      "Результатом обучения и успешной работы стало получение диплома «Мастера столяра-ремесленника города Москвы», выданного Палатой Ремесел города Москвы (Распоряжение Департамента поддержки и развития малого предпринимательства №15 от 16.06.2003).",
+      "Коллектив мастерской долгое время работал на производственной базе Профессионального Лицея Ремесленников №331. Параллельно производственной деятельности осуществлялась подготовка кадров по немецким образовательным стандартам. Итогом успешной педагогической деятельности явилось получение Диплома Лауреата премии города Москвы в области образования.",
+      "Мастерская Иванова Д. В. работает только по классическим технологиям деревообработки с натуральными материалами (массивная древесина камерной сушки, шпон ценных пород, фанера). Наш девиз — «Тщательная работа над каждой деталью». Применяя передовые методы машинной обработки древесины, мастера уделяют много времени ручной обработке, благодаря чему изделия получают качественную завершенность, теплоту, органичность."
+    ],
+    "programIntro": "Производственная программа компании имеет следующие направления деятельности:",
+    "directions": [
+      "производство мольбертов и оборудование для изостудий (подставки для рисунков, плакатницы, столы для экспозиции, подиумы, планшеты, ширмы, рабочие табуреты и многое другое);",
+      "изготовление эксклюзивной мебели (комоды, буфеты, декоративные столы и этажерки, столы и садовая мебель)",
+      "изготовление реплик старинной и антикварной мебели."
+    ],
+    "closing": "Нашу продукцию Вы можете увидеть во многих учебных заведениях Российской Федерации, Москвы, музеях, торговых центрах и выставочных залах.",
+    "guideTitle": "Как выбрать мольберт",
+    "guideLead": "Если Вы — начинающий художник или хотите сделать подарок своим друзьям или близким, прочитайте это краткое руководство по выбору мольберта.",
+    "guidePath": "blog/kak-vybrat-molbert/",
+    "verbatim": true
+  },
+  "production": {
+    "since": 1991,
+    "compliance": "Все изделия выпускаются в соответствии с ТУ 32.99.16-001-0115936521-2020 и ГОСТ 16371-2014. К каждому изделию прилагаются паспорт с указанием гарантийного срока, инструкция по сборке и необходимый комплект крепежа.",
+    "heroStandards": {
+      "title": "Стандарты и комплектация",
+      "codes": [
+        "ТУ 32.99.16-001-0115936521-2020",
+        "ГОСТ 16371-2014"
+      ],
+      "kit": "Паспорт с гарантийным сроком, инструкция по сборке и крепёж — в комплекте."
+    }
+  },
+  "business-documents": {
+    "title": "Документы и реквизиты",
+    "lead": "Реквизиты производителя и документы для подготовки договора и оформления закупки.",
+    "requisites": [
+      [
+        "Полное наименование",
+        "Индивидуальный предприниматель Иванов Дмитрий Витальевич"
+      ],
+      [
+        "Юридический адрес",
+        "127221, Москва, проезд Шокальского, 41-101"
+      ],
+      [
+        "Адрес местонахождения",
+        "129329, Московская область, г. Мытищи, проезд 4530, стр. 2, завод «СпецМашМонтаж»"
+      ],
+      [
+        "ИНН",
+        "771500295037"
+      ],
+      [
+        "КПП",
+        "0"
+      ],
+      [
+        "ОГРНИП",
+        "305770002505860"
+      ],
+      [
+        "Регистрация",
+        "Свидетельство № 006760697 от 16.08.2005, ИФНС РФ № 15 по г. Москве"
+      ],
+      [
+        "Расчётный счёт",
+        "40802810300810262058"
+      ],
+      [
+        "Банк",
+        "Филиал «Центральный» Банка ВТБ (ПАО)"
+      ],
+      [
+        "Адрес банка",
+        "Москва, ул. Рождественка, д. 10/2, строение 1"
+      ],
+      [
+        "Корреспондентский счёт",
+        "30101810145250000411"
+      ],
+      [
+        "БИК",
+        "044525411"
+      ],
+      [
+        "ОКПО",
+        "0115936521"
+      ],
+      [
+        "ОКОГУ",
+        "4210015"
+      ],
+      [
+        "ОКАТО",
+        "45280583000"
+      ],
+      [
+        "ОКТМО",
+        "45362000"
+      ],
+      [
+        "ОКВЭД",
+        "361 60.24"
+      ],
+      [
+        "ОКВЭД 2",
+        "16.29.14"
+      ],
+      [
+        "ОКФС",
+        "16"
+      ],
+      [
+        "ОКОПФ",
+        "50102"
+      ],
+      [
+        "ОКПД",
+        "16.23.19"
+      ],
+      [
+        "ТН ВЭД",
+        "441860"
+      ],
+      [
+        "Налогообложение",
+        "АУСН. Без НДС. Справка о применении автоматизированной упрощённой системы налогообложения от 22.07.2026 № 75531"
+      ],
+      [
+        "Сайт",
+        "www.molberty.ru"
+      ],
+      [
+        "Электронная почта",
+        "molberty@gmail.com, molberty@mail.ru"
+      ],
+      [
+        "Телефоны",
+        "+7 (926) 211-93-63, +7 (925) 880-95-39"
+      ]
+    ],
+    "downloads": [
+      {
+        "file": "documents/company-details.pdf",
+        "title": "Реквизиты производителя",
+        "description": "Карточка основных сведений о предприятии.",
+        "bytes": 74530
+      },
+      {
+        "file": "documents/egrip-extract.pdf",
+        "title": "Выписка из ЕГРИП",
+        "description": "Сведения об индивидуальном предпринимателе.",
+        "bytes": 151518
+      },
+      {
+        "file": "documents/sme-register-extract.pdf",
+        "title": "Выписка из реестра СМП",
+        "description": "Сведения из единого реестра субъектов малого и среднего предпринимательства.",
+        "bytes": 131995
+      }
+    ]
+  },
+  "organization": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://www.molberty.ru/#organization",
+    "name": "Мольберты.ру",
+    "alternateName": "Мастерская Иванова Д. В.",
+    "url": "https://www.molberty.ru/",
+    "description": "Мольберты из дерева от производителя по выгодной цене. Розница и опт, оснащение школ и студий. Доставка по Москве и по всей России.",
+    "logo": "https://www.molberty.ru/assets/logo.svg",
+    "email": "molberty@gmail.com",
+    "telephone": "+7 (925) 880-95-39",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Проектируемый проезд 4530, строение 2, завод «СпецМашМонтаж»",
+      "addressLocality": "Мытищи",
+      "addressRegion": "Московская область",
+      "addressCountry": "RU"
+    },
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "contactType": "Розничные продажи",
+        "telephone": "+7 (925) 880-95-39",
+        "email": "molberty@gmail.com",
+        "availableLanguage": "ru",
+        "url": "https://www.molberty.ru/contacts/"
+      },
+      {
+        "@type": "ContactPoint",
+        "contactType": "Оптовые продажи",
+        "telephone": "+7 (926) 211-93-63",
+        "email": "molberty@gmail.com",
+        "availableLanguage": "ru",
+        "url": "https://www.molberty.ru/contacts/"
+      }
+    ]
+  },
+  "home-blocks": {
+    "cases": {
+      "enabled": true
+    },
+    "partners": {
+      "enabled": true
+    }
+  },
+  "cookie-notice": {
+    "text": "На сайте мы используем файлы cookie. Нажимая «Согласен», вы даете согласие на использование сайтом файлов cookie Вашего браузера, которые помогают нам делать сайт удобнее и безопаснее для пользователей. Вы можете запретить в любое время сохранение файлов cookie в настройках своего браузера. Обработка данных пользователей осуществляется в соответствии с Политикой в отношении обработки персональных данных.",
+    "linkText": "Политикой в отношении обработки персональных данных",
+    "consentLinkText": "согласие",
+    "button": "Согласен"
+  },
+  "prices": {
+    "title": "Прайс-лист Мольберты.RU",
+    "effectiveDate": "2026-01-01",
+    "currency": "RUB",
+    "sourceFile": "assets/documents/price-list-2026.pdf",
+    "count": 106,
+    "sections": [
+      {
+        "id": "artists",
+        "name": "Мольберты для художников",
+        "items": [
+          {
+            "id": "artists-1",
+            "number": 1,
+            "name": "Мольберт большой станковый (бук)",
+            "wholesale": 24000,
+            "retail": 28000,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Станковые"
+          },
+          {
+            "id": "artists-2",
+            "number": 2,
+            "name": "Мольберт станковый стационарный",
+            "wholesale": 14000,
+            "retail": 16000,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Станковые"
+          },
+          {
+            "id": "artists-3",
+            "number": 3,
+            "name": "Мольберт станковый стационарный (бук)",
+            "wholesale": 20000,
+            "retail": 22500,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Станковые"
+          },
+          {
+            "id": "artists-4",
+            "number": 4,
+            "name": "Мольберт станковый складной",
+            "wholesale": 10000,
+            "retail": 12000,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Станковые"
+          },
+          {
+            "id": "artists-5",
+            "number": 5,
+            "name": "Мольберт станковый малый (бук)",
+            "wholesale": 14000,
+            "retail": 16500,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Станковые"
+          },
+          {
+            "id": "artists-6",
+            "number": 6,
+            "name": "Мольберт станковый складной (бук)",
+            "wholesale": 14000,
+            "retail": 16500,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Станковые"
+          },
+          {
+            "id": "artists-7",
+            "number": 7,
+            "name": "Мольберт «Трансформер А0» (бук)",
+            "wholesale": 15000,
+            "retail": 17000,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Трансформеры"
+          },
+          {
+            "id": "artists-8",
+            "number": 8,
+            "name": "Мольберт «Трансформер А1» (бук)",
+            "wholesale": 13500,
+            "retail": 15000,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Трансформеры"
+          },
+          {
+            "id": "artists-9",
+            "number": 9,
+            "name": "Мольберт «Дизайнер А1» (бук)",
+            "wholesale": 9000,
+            "retail": 11000,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Трансформеры"
+          },
+          {
+            "id": "artists-10",
+            "number": 10,
+            "name": "Мольберт «Дизайнер А2» (бук)",
+            "wholesale": 8500,
+            "retail": 10000,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Трансформеры"
+          },
+          {
+            "id": "artists-11",
+            "number": 11,
+            "name": "Мольберт «Студия А1»",
+            "wholesale": 5000,
+            "retail": 6000,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Трансформеры"
+          },
+          {
+            "id": "artists-12",
+            "number": 12,
+            "name": "Мольберт «Студия А2»",
+            "wholesale": null,
+            "retail": null,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Трансформеры",
+            "note": "В исходном прайсе цена не указана."
+          },
+          {
+            "id": "artists-13",
+            "number": 13,
+            "name": "Мольберт «Лира» с наклонной штангой",
+            "wholesale": 5500,
+            "retail": 6500,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Лира"
+          },
+          {
+            "id": "artists-14",
+            "number": 14,
+            "name": "Мольберт «Лира» с накл. штангой (бук)",
+            "wholesale": 8000,
+            "retail": 9000,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Лира"
+          },
+          {
+            "id": "artists-15",
+            "number": 15,
+            "name": "Мольберт раскладной «Лира»",
+            "wholesale": 5000,
+            "retail": 6000,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Лира"
+          },
+          {
+            "id": "artists-16",
+            "number": 16,
+            "name": "Мольберт раскладной «Лира» (бук)",
+            "wholesale": 7800,
+            "retail": 8500,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Лира"
+          },
+          {
+            "id": "artists-17",
+            "number": 17,
+            "name": "Мольберт «Лира» с подвижной штангой",
+            "wholesale": 5500,
+            "retail": 6500,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Лира"
+          },
+          {
+            "id": "artists-18",
+            "number": 18,
+            "name": "Мольберт «Лира» с подвижной штангой (бук)",
+            "wholesale": 8000,
+            "retail": 9000,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Лира"
+          },
+          {
+            "id": "artists-19",
+            "number": 19,
+            "name": "Мольберт «Лира» малый",
+            "wholesale": 4500,
+            "retail": 5500,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Лира"
+          },
+          {
+            "id": "artists-20",
+            "number": 20,
+            "name": "Мольберт «Лира» малый с подвижной штангой",
+            "wholesale": 4800,
+            "retail": 5800,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Лира"
+          },
+          {
+            "id": "artists-21",
+            "number": 21,
+            "name": "Мольберт «Лира» малый (бук)",
+            "wholesale": 7000,
+            "retail": 8500,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Лира"
+          },
+          {
+            "id": "artists-22",
+            "number": 22,
+            "name": "Мольберт «Лира» малый с подв. штангой.(бук)",
+            "wholesale": 7500,
+            "retail": 8800,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Лира"
+          },
+          {
+            "id": "artists-23",
+            "number": 23,
+            "name": "Мольберт «А-профи»",
+            "wholesale": 5000,
+            "retail": 6000,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "А-стиль"
+          },
+          {
+            "id": "artists-24",
+            "number": 24,
+            "name": "Мольберт «А-профи» (бук)",
+            "wholesale": 7000,
+            "retail": 8500,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "А-стиль"
+          },
+          {
+            "id": "artists-25",
+            "number": 25,
+            "name": "Мольберт «А-класс» с планшетом А2",
+            "wholesale": 4000,
+            "retail": 4800,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "А-стиль"
+          },
+          {
+            "id": "artists-26",
+            "number": 26,
+            "name": "Мольберт «Хлопушка А1h»",
+            "wholesale": 5000,
+            "retail": 6000,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Хлопушки"
+          },
+          {
+            "id": "artists-27",
+            "number": 27,
+            "name": "Мольберт «Хлопушка А1»",
+            "wholesale": 4600,
+            "retail": 5500,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Хлопушки"
+          },
+          {
+            "id": "artists-28",
+            "number": 28,
+            "name": "Мольберт «Хлопушка А1» двусторонний",
+            "wholesale": 5200,
+            "retail": 6200,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Хлопушки"
+          },
+          {
+            "id": "artists-29",
+            "number": 29,
+            "name": "Мольберт «Хлопушка А2»",
+            "wholesale": 4200,
+            "retail": 5000,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Хлопушки"
+          },
+          {
+            "id": "artists-30",
+            "number": 30,
+            "name": "Мольберт «Хлопушка А2» двусторонний",
+            "wholesale": 4600,
+            "retail": 5500,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Хлопушки"
+          },
+          {
+            "id": "artists-31",
+            "number": 31,
+            "name": "Мольберт «Хлопушка»",
+            "wholesale": 3200,
+            "retail": 4000,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Хлопушки"
+          },
+          {
+            "id": "artists-32",
+            "number": 32,
+            "name": "Мольберт «Хлопушка» детский (бук)",
+            "wholesale": 5000,
+            "retail": 6000,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Хлопушки"
+          },
+          {
+            "id": "artists-33",
+            "number": 33,
+            "name": "Стол для черчения и рисования «Чертежник»",
+            "wholesale": 8000,
+            "retail": 9600,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Столы для рисования"
+          },
+          {
+            "id": "artists-34",
+            "number": 34,
+            "name": "Стол для черчения и рисования «Конструктор»",
+            "wholesale": 15000,
+            "retail": 18000,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Столы для рисования"
+          },
+          {
+            "id": "artists-35",
+            "number": 35,
+            "name": "Мольберт настольный",
+            "wholesale": 3000,
+            "retail": 3600,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Настольные"
+          },
+          {
+            "id": "artists-36",
+            "number": 36,
+            "name": "Мольберт настольный (бук)",
+            "wholesale": 4000,
+            "retail": 4800,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Настольные"
+          },
+          {
+            "id": "artists-37",
+            "number": 37,
+            "name": "Мольберт «Лира» настольный",
+            "wholesale": 2200,
+            "retail": 2800,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Настольные"
+          },
+          {
+            "id": "artists-38",
+            "number": 38,
+            "name": "Мольберт «Лира» настольный (бук)",
+            "wholesale": 3000,
+            "retail": 3600,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Настольные"
+          },
+          {
+            "id": "artists-39",
+            "number": 39,
+            "name": "Мольберт «МИНИ» (бук)",
+            "wholesale": 2000,
+            "retail": 2500,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Настольные"
+          },
+          {
+            "id": "artists-40",
+            "number": 40,
+            "name": "Мольберт «МИНИ XL» (бук)",
+            "wholesale": 2400,
+            "retail": 2700,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Настольные"
+          },
+          {
+            "id": "artists-41",
+            "number": 41,
+            "name": "Мольберт «АКВА» (бук)",
+            "wholesale": 3500,
+            "retail": 4200,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Настольные"
+          },
+          {
+            "id": "artists-42",
+            "number": 42,
+            "name": "«Графика А2» (65х45)",
+            "wholesale": 3000,
+            "retail": 3600,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Настольные планшеты"
+          },
+          {
+            "id": "artists-43",
+            "number": 43,
+            "name": "«Графика А3» (45х35)",
+            "wholesale": 2800,
+            "retail": 3400,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Настольные планшеты"
+          }
+        ]
+      },
+      {
+        "id": "studio",
+        "name": "Оборудование для изостудий",
+        "items": [
+          {
+            "id": "studio-44",
+            "number": 44,
+            "name": "Стол для натюрморта с планшетом «уголок»",
+            "wholesale": 5700,
+            "retail": 6800,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-45",
+            "number": 45,
+            "name": "Стол для натюрморта 50х50 с переменной высотой экспозиции",
+            "wholesale": 8000,
+            "retail": 9600,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-46",
+            "number": 46,
+            "name": "Стол для натюрморта 60х40 с переменной высотой экспозиции",
+            "wholesale": 6500,
+            "retail": 7800,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-47",
+            "number": 47,
+            "name": "Стол-трансформер для натюрморта",
+            "wholesale": 9000,
+            "retail": 10800,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-48",
+            "number": 48,
+            "name": "Стол для натюрморта складной",
+            "wholesale": 6000,
+            "retail": 7200,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-49",
+            "number": 49,
+            "name": "Стол-тумба для натюрморта",
+            "wholesale": 10000,
+            "retail": 12000,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-50",
+            "number": 50,
+            "name": "Столик для экспозиции",
+            "wholesale": 10000,
+            "retail": 12000,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-51",
+            "number": 51,
+            "name": "Софит для подсветки натюрморта",
+            "wholesale": 11000,
+            "retail": 13000,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-52",
+            "number": 52,
+            "name": "Светильник для подсветки натюрморта",
+            "wholesale": 4500,
+            "retail": 5500,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-53",
+            "number": 53,
+            "name": "Светильник-прищепка",
+            "wholesale": 3400,
+            "retail": 4000,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-54",
+            "number": 54,
+            "name": "Столик скульптора (бук, фанера)",
+            "wholesale": 6000,
+            "retail": 7200,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-55",
+            "number": 55,
+            "name": "Столик скульптора «Профи»",
+            "wholesale": 9800,
+            "retail": 11000,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-56",
+            "number": 56,
+            "name": "Подставка для рисунков",
+            "wholesale": 4500,
+            "retail": 5400,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-57",
+            "number": 57,
+            "name": "Плакатница А1",
+            "wholesale": 8000,
+            "retail": 9600,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-58",
+            "number": 58,
+            "name": "Плакатница А2",
+            "wholesale": 6000,
+            "retail": 6800,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-59",
+            "number": 59,
+            "name": "Подставка для рисунков (бук)",
+            "wholesale": 5800,
+            "retail": 7000,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-60",
+            "number": 60,
+            "name": "Плакатница настенная",
+            "wholesale": 5000,
+            "retail": 6000,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-61",
+            "number": 61,
+            "name": "Шкатулка для кистей и красок",
+            "wholesale": 4000,
+            "retail": 4800,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-62",
+            "number": 62,
+            "name": "Столик для палитры",
+            "wholesale": 3200,
+            "retail": 3900,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-63",
+            "number": 63,
+            "name": "Тележка для художественных принадлежностей",
+            "wholesale": 9000,
+            "retail": 10800,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-64",
+            "number": 64,
+            "name": "Табурет рабочий",
+            "wholesale": 3200,
+            "retail": 3850,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-65",
+            "number": 65,
+            "name": "Табурет высокий (бук)",
+            "wholesale": 7000,
+            "retail": 8500,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-66",
+            "number": 66,
+            "name": "Стул художника",
+            "wholesale": 9500,
+            "retail": 11500,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-67",
+            "number": 67,
+            "name": "Стеллаж для сушки и хранения листов А1",
+            "wholesale": 30000,
+            "retail": 33000,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-68",
+            "number": 68,
+            "name": "Стеллаж для сушки и хранения листов А2",
+            "wholesale": 27000,
+            "retail": 32500,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-69",
+            "number": 69,
+            "name": "Стеллаж для планшетов и подрамников",
+            "wholesale": 17000,
+            "retail": 20500,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-70",
+            "number": 70,
+            "name": "Стеллаж для декора и гипсовых моделей",
+            "wholesale": 16000,
+            "retail": 19500,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-71",
+            "number": 71,
+            "name": "Тумбочка художника",
+            "wholesale": null,
+            "retail": 20000,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "studio-72",
+            "number": 72,
+            "name": "Ширма (цена за секцию)",
+            "wholesale": 5000,
+            "retail": 6000,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          }
+        ]
+      },
+      {
+        "id": "palettes",
+        "name": "Палитры из фанеры",
+        "items": [
+          {
+            "id": "palettes-1",
+            "number": 1,
+            "name": "Палитра А4 прямоугольная",
+            "wholesale": 250,
+            "retail": 300,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "palettes-2",
+            "number": 2,
+            "name": "Палитра А4 овальная",
+            "wholesale": 300,
+            "retail": 360,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "palettes-3",
+            "number": 3,
+            "name": "Палитра А3 прямоугольная",
+            "wholesale": 360,
+            "retail": 430,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "palettes-4",
+            "number": 4,
+            "name": "Палитра А3 овальная",
+            "wholesale": 400,
+            "retail": 500,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          }
+        ]
+      },
+      {
+        "id": "boards",
+        "name": "Планшеты и клипборды",
+        "items": [
+          {
+            "id": "boards-1",
+            "number": 1,
+            "name": "Планшет А0 (1200х900 или 1000х1000 мм)",
+            "wholesale": 2000,
+            "retail": 2600,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "boards-2",
+            "number": 2,
+            "name": "Планшет А1 (850х650)",
+            "wholesale": 1050,
+            "retail": 1300,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "boards-3",
+            "number": 3,
+            "name": "Планшет А2 (700х500)",
+            "wholesale": 900,
+            "retail": 1100,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "boards-4",
+            "number": 4,
+            "name": "Планшет 75х55",
+            "wholesale": 950,
+            "retail": 1150,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "boards-5",
+            "number": 5,
+            "name": "Планшет 60х40",
+            "wholesale": 720,
+            "retail": 880,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "boards-6",
+            "number": 6,
+            "name": "Планшет 55х39",
+            "wholesale": 720,
+            "retail": 880,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "boards-7",
+            "number": 7,
+            "name": "Планшет 40х30",
+            "wholesale": 500,
+            "retail": 600,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "boards-8",
+            "number": 8,
+            "name": "Клипборд А4",
+            "wholesale": 650,
+            "retail": 780,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "boards-9",
+            "number": 9,
+            "name": "Клипборд А3",
+            "wholesale": 880,
+            "retail": 1050,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          }
+        ]
+      },
+      {
+        "id": "exhibition",
+        "name": "Мольберты для выставок",
+        "items": [
+          {
+            "id": "exhibition-1",
+            "number": 1,
+            "name": "Мольберт «МАКСИ»",
+            "wholesale": 15000,
+            "retail": 17000,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "exhibition-2",
+            "number": 2,
+            "name": "Мольберт «Экспо-1»",
+            "wholesale": 6000,
+            "retail": 7000,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "exhibition-3",
+            "number": 3,
+            "name": "Мольберт «Экспо-2»",
+            "wholesale": 7000,
+            "retail": 8000,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "exhibition-4",
+            "number": 4,
+            "name": "Мольберт «Мачта»(бук)",
+            "wholesale": 6000,
+            "retail": 7000,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "exhibition-5",
+            "number": 5,
+            "name": "Мольберт «Тренога1500» (бук)",
+            "wholesale": 2500,
+            "retail": 3200,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "exhibition-6",
+            "number": 6,
+            "name": "Мольберт тренога «Выставочная»",
+            "wholesale": 4000,
+            "retail": 5000,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "exhibition-7",
+            "number": 7,
+            "name": "Мольберт-тренога «Вернисаж» (бук)",
+            "wholesale": 6500,
+            "retail": 7500,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "exhibition-8",
+            "number": 8,
+            "name": "Мольберт «Дельта» (бук)",
+            "wholesale": 6500,
+            "retail": 7500,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          }
+        ]
+      },
+      {
+        "id": "interior",
+        "name": "Мольберты для интерьера",
+        "items": [
+          {
+            "id": "interior-1",
+            "number": 1,
+            "name": "Мольберт «Лира» подарочный (бук)",
+            "wholesale": null,
+            "retail": 18000,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "interior-2",
+            "number": 2,
+            "name": "Мольберт «Ампир» (бук, резьба,тонирование, золочение, лак)",
+            "wholesale": null,
+            "retail": 30000,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "interior-3",
+            "number": 3,
+            "name": "Мольберт «Модерн» (бук, роспись, лак)",
+            "wholesale": null,
+            "retail": 32500,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "interior-4",
+            "number": 4,
+            "name": "Мольберт «Эксклюзив» (бук, резьба, тонирование, золочение, лак)",
+            "wholesale": null,
+            "retail": 28000,
+            "wholesaleFrom": false,
+            "retailFrom": false
+          },
+          {
+            "id": "interior-5",
+            "number": 5,
+            "name": "Мольберт «Версаль» (бук, резьба, тонирование, золочение, лак)",
+            "wholesale": null,
+            "retail": 40000,
+            "wholesaleFrom": false,
+            "retailFrom": true
+          },
+          {
+            "id": "interior-6",
+            "number": 6,
+            "name": "Мольберт «Плазма XL» (бук, дуб, ясень, покрытие по выбору)",
+            "wholesale": null,
+            "retail": 38000,
+            "wholesaleFrom": false,
+            "retailFrom": true
+          }
+        ]
+      },
+      {
+        "id": "souvenirs",
+        "name": "Мольберты-сувениры",
+        "items": [
+          {
+            "id": "souvenirs-1",
+            "number": 1,
+            "name": "Тренога 10х15",
+            "wholesale": 250,
+            "retail": null,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Мольберты-треноги (бук)"
+          },
+          {
+            "id": "souvenirs-2",
+            "number": 2,
+            "name": "Тренога 15х20",
+            "wholesale": 300,
+            "retail": null,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Мольберты-треноги (бук)"
+          },
+          {
+            "id": "souvenirs-3",
+            "number": 3,
+            "name": "Тренога 20х30",
+            "wholesale": 350,
+            "retail": null,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Мольберты-треноги (бук)"
+          },
+          {
+            "id": "souvenirs-4",
+            "number": 4,
+            "name": "Тренога 30х40",
+            "wholesale": 450,
+            "retail": null,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Мольберты-треноги (бук)"
+          },
+          {
+            "id": "souvenirs-5",
+            "number": 5,
+            "name": "Тренога 40х50",
+            "wholesale": 500,
+            "retail": null,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Мольберты-треноги (бук)"
+          },
+          {
+            "id": "souvenirs-6",
+            "number": 6,
+            "name": "Мольберт Лира 10х15",
+            "wholesale": 450,
+            "retail": null,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Мольберты «Лира» (бук)"
+          },
+          {
+            "id": "souvenirs-7",
+            "number": 7,
+            "name": "Мольберт Лира 20х30",
+            "wholesale": 550,
+            "retail": null,
+            "wholesaleFrom": false,
+            "retailFrom": false,
+            "type": "Мольберты «Лира» (бук)"
+          }
+        ]
+      }
+    ]
+  },
+  "price-product-links": {
+    "reviewedAt": "2026-10-22",
+    "description": "Проверенные соответствия строк исходного PDF-прайса действующим карточкам каталога. Размеры и формы объединённых моделей ведут на карточку с выбором варианта. Исходные названия и цены прайса сохраняются.",
+    "links": {
+      "artists-1": "bolshoy-stankovyy-buk",
+      "artists-2": "stankovyy-statsionarnyy-sosna",
+      "artists-3": "stankovyy-statsionarnyy-buk",
+      "artists-4": "stankovyy-skladnoy-sosna",
+      "artists-5": "malyy-stankovyy-buk",
+      "artists-6": "stankovyy-skladnoy-buk",
+      "artists-7": "transformer-a0-buk",
+      "artists-8": "transformer-a1-buk",
+      "artists-9": "dizayner-a1-buk",
+      "artists-10": "dizayner-a2-buk",
+      "artists-11": "studiya-a1",
+      "artists-12": "studiya-a2",
+      "artists-13": "lira-s-naklonnoy-shtangoy",
+      "artists-14": "lira-s-naklonnoy-sht-buk",
+      "artists-15": "raskladnoy-lira",
+      "artists-16": "raskladnoy-lira-buk",
+      "artists-17": "lira-s-podvizhnoy-shtangoy",
+      "artists-18": "lira-s-podvizhnoy-shtangoy-buk",
+      "artists-19": "lira-malyy",
+      "artists-20": "lira-malyy-s-podvizhnoy-shtangoy",
+      "artists-21": "lira-malyy-buk",
+      "artists-22": "lira-malyy-s-podvizhnoy-shtangoy-buk",
+      "artists-23": "a-profi",
+      "artists-24": "a-profi-buk",
+      "artists-25": "a-klass",
+      "artists-26": "khlopushka-a1h",
+      "artists-27": "khlopushka-a1",
+      "artists-28": "khlopushka-a1-dvustoronniy",
+      "artists-29": "khlopushka-a2",
+      "artists-30": "khlopushka-a2-dvustoronniy",
+      "artists-31": "khlopushka",
+      "artists-32": "khlopushka-detskiy-buk",
+      "artists-33": "stol-dlya-chercheniya-i-risovaniya-chertezhnik",
+      "artists-34": "stol-dlya-chercheniya-i-risovaniya-konstruktor",
+      "artists-35": "nastolnyy-sosna",
+      "artists-36": "nastolnyy-buk",
+      "artists-37": "lira-nastolnyy-sosna",
+      "artists-38": "lira-nastolnyy-buk",
+      "artists-39": "nastolnyy-mini-buk",
+      "artists-40": "nastolnyy-mini-xl-buk",
+      "artists-41": "nastolnyy-akva",
+      "artists-42": "planshet-nastolnyy-grafika",
+      "artists-43": "planshet-nastolnyy-grafika",
+      "studio-44": "stol-dlya-natyurmortov-s-planshetom-ugolok",
+      "studio-45": "stol-dlya-natyurmortov-50kh50-s-peremennoy-vysotoy-ekspozitsii",
+      "studio-46": "stol-dlya-natyurmorta-s-peremennoy-vysotoy-ekspozitsii",
+      "studio-47": "stol-transformer-dlya-natyurmorta",
+      "studio-48": "stol-dlya-natyurmorta-skladnoy",
+      "studio-49": "stol-tumba-dlya-natyurmorta",
+      "studio-50": "stolik-dlya-ekspozitsiy",
+      "studio-51": "sofit-dlya-podsvetki-natyurmorta",
+      "studio-52": "svetilnik-dlya-podsvetki-natyurmorta",
+      "studio-53": "svetilnik-prishchepka",
+      "studio-54": "stolik-skulptora-buk-fanera",
+      "studio-55": "stol-skulptora-profi",
+      "studio-56": "podstavka-dlya-risunkov",
+      "studio-57": "plakatnitsy-a1-i-a2",
+      "studio-58": "plakatnitsy-a1-i-a2",
+      "studio-59": "podstavka-dlya-risunkov-buk",
+      "studio-60": "plakatnitsa-nastennaya",
+      "studio-61": "shkatulka-dlya-kistey-i-krasok",
+      "studio-62": "stolik-dlya-palitry",
+      "studio-63": "telezhka-dlya-khudozhestvennykh-prinadlezhnostey",
+      "studio-64": "taburet-rabochiy",
+      "studio-65": "taburet-vysokiy-buk",
+      "studio-66": "stul-khudozhnika",
+      "studio-67": "stellazh-dlya-sushki-i-khraneniya-listov-a1",
+      "studio-68": "stellazh-dlya-sushki-i-khraneniya-listov-a2",
+      "studio-69": "stellazh-dlya-planshetov-i-podramnikov",
+      "studio-70": "stellazh-dlya-dekora-i-gipsovykh-modeley",
+      "studio-71": "tumbochka-khudozhnika",
+      "studio-72": "shirma",
+      "palettes-1": "palitra",
+      "palettes-2": "palitra",
+      "palettes-3": "palitra",
+      "palettes-4": "palitra",
+      "boards-1": "planshety",
+      "boards-2": "planshety",
+      "boards-3": "planshety",
+      "boards-4": "planshety",
+      "boards-5": "planshety",
+      "boards-6": "planshety",
+      "boards-7": "planshety",
+      "boards-8": "klipbord",
+      "boards-9": "klipbord",
+      "exhibition-1": "maksi",
+      "exhibition-2": "ekspo-1",
+      "exhibition-3": "ekspo-2",
+      "exhibition-4": "machta",
+      "exhibition-5": "trenoga-1500",
+      "exhibition-6": "trenoga-vystavochnaya",
+      "exhibition-7": "vernisazh",
+      "exhibition-8": "delta",
+      "interior-1": "lira-podarochnyy-buk",
+      "interior-2": "molbert-ampir",
+      "interior-4": "molbert-eksklyuziv",
+      "interior-5": "molbert-versal",
+      "interior-6": "molbert-plazma-xl",
+      "souvenirs-1": "trenogi-dlya-foto-ramok",
+      "souvenirs-2": "trenogi-dlya-foto-ramok",
+      "souvenirs-3": "trenogi-dlya-foto-ramok",
+      "souvenirs-4": "trenogi-dlya-foto-ramok",
+      "souvenirs-5": "trenogi-dlya-foto-ramok",
+      "souvenirs-6": "mini-molberty-lira",
+      "souvenirs-7": "mini-molberty-lira"
+    },
+    "unlinked": {
+      "interior-3": "Модель «Модерн» отсутствует в действующем каталоге. Ссылка на другую модель не подставляется."
+    }
+  },
+  "category-guides": {
+    "molberty-dlya-vystavki": {
+      "summaryTitle": "Мольберты для выставок и презентаций",
+      "title": "Мольберт под Вашу презентацию.",
+      "steps": [
+        {
+          "title": "Подготовьте данные по форматам экспонируемых работ.",
+          "text": "Запишите ширину и высоту картин, панно или информационных материалов. Если работы оформлены в рамы, измеряйте их вместе с рамами."
+        },
+        {
+          "title": "Выберите конструкцию.",
+          "text": "Для габаритных и тяжёлых картин или панно подойдут мольберты Макси и Экспо-2.",
+          "links": [
+            [
+              "Макси",
+              "maksi"
+            ],
+            [
+              "Экспо-2",
+              "ekspo-2"
+            ]
+          ]
+        },
+        {
+          "title": "Определитесь с мобильностью и простотой транспортировки и сборки.",
+          "text": "Самые мобильные — Тренога 1500, Тренога «Выставочная» и Вернисаж.",
+          "links": [
+            [
+              "Тренога 1500",
+              "trenoga-1500"
+            ],
+            [
+              "Тренога «Выставочная»",
+              "trenoga-vystavochnaya"
+            ],
+            [
+              "Вернисаж",
+              "vernisazh"
+            ]
+          ]
+        },
+        {
+          "title": "Подумайте о пространстве выставки.",
+          "text": "Можно использовать мольберты Экспо-2 для двусторонней экспозиции.",
+          "links": [
+            [
+              "Экспо-2",
+              "ekspo-2"
+            ]
+          ]
+        },
+        {
+          "title": "Согласуйте детали.",
+          "text": "Обсудим форматы и количество работ, расстановку, сборку и условия доставки оборудования."
+        }
+      ]
+    },
+    "planshety-i-palitry": {
+      "title": "Основа для Вашего рисунка",
+      "steps": [
+        {
+          "title": "Определите рабочий формат.",
+          "text": "Ориентируйтесь на размеры листов и технику, в которой Вы работаете. Сопоставьте нужный формат с размерами планшета."
+        },
+        {
+          "title": "Учитывайте необходимые поля или возможность обёртывания планшета для акварельных работ.",
+          "text": "При выборе размера оставьте место для закрепления бумаги и предусмотрите припуск, если бумага будет оборачиваться вокруг планшета."
+        }
+      ]
+    },
+    "svetilniki-dlya-izostudii": {
+      "title": "Руководство по выбору",
+      "steps": [
+        {
+          "title": "Определите необходимую площадь освещения.",
+          "text": "Для больших площадей подойдёт Софит.",
+          "links": [
+            [
+              "Софит",
+              "sofit-dlya-podsvetki-natyurmorta"
+            ]
+          ]
+        },
+        {
+          "title": "Определите назначение светильника.",
+          "text": "Для мобильного освещения выберите Светильник, для стационарного — Прищепку.",
+          "links": [
+            [
+              "Светильник",
+              "svetilnik-dlya-podsvetki-natyurmorta"
+            ],
+            [
+              "Прищепку",
+              "svetilnik-prishchepka"
+            ]
+          ]
+        },
+        {
+          "title": "Проверьте размеры и регулировки.",
+          "text": "Хватает ли размеров светильника и регулировок по высоте и наклону для Вашей постановки?"
+        },
+        {
+          "title": "Согласуйте детали.",
+          "text": "Обсудим расположение источника света, рабочие размеры и нужную комплектацию."
+        }
+      ]
+    },
+    "khranenie-dlya-izostudii": {
+      "title": "Оптимальное использование площади мастерской.",
+      "steps": [
+        {
+          "title": "Определите форматы наиболее часто используемых листов и планшетов.",
+          "text": "Учтите размеры работ и запас места для их размещения."
+        },
+        {
+          "title": "Подберите необходимое оборудование.",
+          "text": "Сравните подставки, плакатницы и стеллажи по назначению и размерам. Продумайте доступ к работам и расположение оборудования в помещении."
+        },
+        {
+          "title": "Согласуйте детали.",
+          "text": "Передайте форматы, количество работ и доступное пространство — согласуем состав оборудования и размеры."
+        }
+      ]
+    },
+    "rabochee-mesto-khudozhnika": {
+      "title": "Удобные вспомогательные предметы.",
+      "steps": [
+        {
+          "title": "Определите высоту, на которой удобно размещать кисти и краски.",
+          "text": "Проверьте, легко ли доставать принадлежности в привычном положении за работой."
+        },
+        {
+          "title": "Если необходимо, укажите количество ярусов столика и тележки.",
+          "text": "Продумайте, какие принадлежности будут находиться на каждом ярусе и сколько места они займут."
+        },
+        {
+          "title": "Шкатулки для хранения можно изготовить по Вашим размерам.",
+          "text": "Укажите габариты и расскажите, что Вы планируете хранить внутри — согласуем исполнение."
+        }
+      ]
+    },
+    "stoly-dlya-natyurmorta": {
+      "summaryTitle": "Столы и тумбы для натюрморта в Вашей мастерской",
+      "title": "Правильная постановка натюрмортов.",
+      "subtitle": "Какая подставка для натюрморта подходит именно Вам?",
+      "steps": [
+        {
+          "title": "Определите размер стола для постановки.",
+          "text": "Учтите размеры предметов, драпировки и свободное место вокруг композиции."
+        },
+        {
+          "title": "Нужно ли изменять высоту постановки для разных натюрмортов?",
+          "text": "Если планируются разные по масштабу композиции, рассмотрите стол с переменной высотой экспозиции."
+        },
+        {
+          "title": "Нужна ли возможность компактного хранения натюрмортных столов?",
+          "text": "Подумайте, где будут находиться столы между занятиями и потребуется ли складная конструкция."
+        },
+        {
+          "title": "Необходимо ли Вам дополнительное место хранения предметов?",
+          "text": "Если предметы для постановки нужно держать рядом, обратите внимание на столы-тумбы."
+        },
+        {
+          "title": "Согласуйте детали.",
+          "text": "Сообщите размеры постановки, нужную высоту и пожелания к хранению — обсудим подходящее исполнение."
+        }
+      ]
+    },
+    "stoly-skulptora": {
+      "title": "Столы для лепки и творчества.",
+      "subtitle": "Стол скульптора для пластичного искусства.",
+      "steps": [
+        {
+          "title": "Выберите назначение и высоту стола.",
+          "text": "Учтите технику работы и положение, в котором Вам удобно лепить."
+        },
+        {
+          "title": "Выберите материал изготовления.",
+          "text": "Для профессионального использования лучше подходят надёжные столы на металлокаркасе."
+        },
+        {
+          "title": "Согласуйте детали.",
+          "text": "Обсудим высоту, размеры рабочей поверхности, регулировки и материал стола."
+        }
+      ]
+    },
+    "taburety-i-stulya": {
+      "title": "Удобная мебель для сидения.",
+      "steps": [
+        {
+          "title": "Выберите необходимую высоту табурета.",
+          "text": "Для детских студий достаточно стандартной высоты 45 см."
+        },
+        {
+          "title": "Выберите материал изготовления мебели.",
+          "text": "Сосна более лёгкая. Бук — тяжелее и прочнее."
+        },
+        {
+          "title": "Согласуйте детали.",
+          "text": "Укажите нужную высоту, материал и количество изделий — согласуем исполнение и комплектацию."
+        }
+      ]
+    },
+    "vspomogatelnoe-oborudovanie": {
+      "title": "Подиумы и ширмы для Ваших задач.",
+      "steps": [
+        {
+          "title": "Определите размер подиума.",
+          "text": "Учтите назначение постановки и доступную площадь помещения."
+        },
+        {
+          "title": "Укажите, нужна ли стенка для драпировки, и её высоту.",
+          "text": "Продумайте фон постановки и необходимую высоту крепления драпировки."
+        },
+        {
+          "title": "Определите количество секций ширмы для перегородки.",
+          "text": "Измерьте пространство, которое нужно разделить, и предусмотрите проходы."
+        },
+        {
+          "title": "Согласуйте детали.",
+          "text": "Передайте размеры подиума, параметры стенки и количество секций — обсудим исполнение."
+        }
+      ]
+    }
+  },
+  "article-presentation": {
+    "kak-vybrat-molbert": {
+      "previewImage": "blog-previews/choice-v1.webp",
+      "previewAlt": "Станковый, лира и настольный мольберты в светлой художественной студии",
+      "excerpt": "Как выбрать конструкцию под свою технику, формат и привычку работать сидя или стоя.",
+      "sections": [
+        {
+          "id": "stankovye",
+          "title": "Станковые мольберты для больших форматов",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "id": "transformery-i-dizayner",
+          "title": "«Трансформер» и «Дизайнер»",
+          "start": 2,
+          "end": 4
+        },
+        {
+          "id": "lira",
+          "title": "«Лира» для живописи и рисунка",
+          "start": 4,
+          "end": 7
+        },
+        {
+          "id": "a-stil",
+          "title": "«А-стиль» для необычных решений",
+          "start": 7,
+          "end": 8,
+          "productIds": [
+            "a-klass",
+            "a-profi"
+          ]
+        }
+      ],
+      "highlights": [
+        5
+      ],
+      "previewWidth": 1536,
+      "previewHeight": 1024,
+      "previewType": "generated",
+      "previewVersion": 1,
+      "readingMinutes": 2,
+      "imageOverrides": {
+        "4": {
+          "productIds": [
+            "lira-s-naklonnoy-shtangoy",
+            "lira-s-podvizhnoy-shtangoy-buk"
+          ]
+        }
+      }
+    },
+    "instrument-dlya-tvorchestva-molbert": {
+      "previewImage": "blog-previews/construction-v1.webp",
+      "previewAlt": "Детали деревянного мольберта: лоток, направляющая и зажим холста",
+      "excerpt": "Зачем художнику мольберт и как устроены станковые модели, треноги, «Лира» и хлопушки.",
+      "sections": [
+        {
+          "id": "zachem-nuzhen-molbert",
+          "title": "Зачем художнику мольберт",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "id": "preimushchestva",
+          "title": "Пять преимуществ мольберта",
+          "start": 3,
+          "end": 9
+        },
+        {
+          "id": "stankovaya-konstruktsiya",
+          "title": "Станковая конструкция",
+          "start": 9,
+          "end": 12
+        },
+        {
+          "id": "trenoga-i-lira",
+          "title": "Тренога и «Лира»",
+          "start": 12,
+          "end": 15
+        },
+        {
+          "id": "a-obraznye",
+          "title": "А-образные модели",
+          "start": 15,
+          "end": 18
+        },
+        {
+          "id": "uchebnaya-khlopushka",
+          "title": "Ученическая хлопушка",
+          "start": 18,
+          "end": 20
+        }
+      ],
+      "listRanges": [
+        [
+          4,
+          9
+        ]
+      ],
+      "previewWidth": 1536,
+      "previewHeight": 1024,
+      "previewType": "generated",
+      "previewVersion": 1,
+      "readingMinutes": 5
+    },
+    "molbert-v-sovremennom-interere": {
+      "previewImage": "blog-previews/interior-v1.webp",
+      "previewAlt": "Деревянный мольберт с картиной в спокойном современном интерьере",
+      "excerpt": "От багетной мастерской и выставочного зала до кафе, аукциона и современного дома.",
+      "sections": [
+        {
+          "id": "bagetnaya-masterskaya",
+          "title": "В багетной мастерской",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "id": "galerei-i-muzei",
+          "title": "В галереях и музеях",
+          "start": 2,
+          "end": 7
+        },
+        {
+          "id": "antikvarnye-auktsiony",
+          "title": "На антикварных аукционах",
+          "start": 7,
+          "end": 10
+        },
+        {
+          "id": "kafe-i-butiki",
+          "title": "В кафе, бутиках и общественных пространствах",
+          "start": 10,
+          "end": 12
+        },
+        {
+          "id": "dizayn-zhilya",
+          "title": "В дизайне современного жилья",
+          "start": 12,
+          "end": 14
+        },
+        {
+          "id": "interernye-modeli",
+          "title": "Интерьерные модели мастерской",
+          "start": 14,
+          "end": 17
+        }
+      ],
+      "highlights": [
+        7
+      ],
+      "previewWidth": 1536,
+      "previewHeight": 1024,
+      "previewType": "generated",
+      "previewVersion": 1,
+      "readingMinutes": 3
+    },
+    "dvadcat-let-plodotvornoj-raboty": {
+      "previewImage": "blog-previews/workshop-v1.webp",
+      "previewAlt": "Руки столяра за сборкой деревянной рамы мольберта в мастерской",
+      "excerpt": "Первые заказы, ремесленное обучение и развитие производства в рассказе основателя мастерской.",
+      "sections": [
+        {
+          "id": "nachalo-puti",
+          "title": "Как начиналась мастерская",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "id": "pervye-molberty",
+          "title": "Первый заказ на мольберты",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "id": "kultura-remesla",
+          "title": "Обучение и культура ремесла",
+          "start": 5,
+          "end": 12
+        },
+        {
+          "id": "razvitie-proizvodstva",
+          "title": "Развитие производства",
+          "start": 12,
+          "end": 15
+        },
+        {
+          "id": "ustoychivost",
+          "title": "Работа в разные периоды",
+          "start": 15,
+          "end": 18
+        },
+        {
+          "id": "novye-napravleniya",
+          "title": "Новые направления и первые каталоги",
+          "start": 18,
+          "end": 22
+        },
+        {
+          "id": "novye-modeli",
+          "title": "Новые модели и благодарность клиентам",
+          "start": 22,
+          "end": 25
+        }
+      ],
+      "listRanges": [
+        [
+          6,
+          11
+        ]
+      ],
+      "highlights": [
+        17
+      ],
+      "previewWidth": 1536,
+      "previewHeight": 1024,
+      "previewType": "generated",
+      "previewVersion": 1,
+      "readingMinutes": 8
+    }
+  },
+  "category-copy": {
+    "molberty-dlya-risovaniya-hudozhnikov": {
+      "paragraphs": [
+        "Мольберт помогает организовать рабочее место так, чтобы холст оставался на удобной высоте, а художник мог свободно отойти и оценить работу. При выборе важны не только размеры конструкции, но и техника, максимальный формат картины и место в мастерской. В этом разделе собраны станковые, складные и настольные модели, лиры, хлопушки, трансформеры и столы для черчения и рисования.",
+        "Начните с формата. Измерьте самый большой подрамник или планшет, с которым планируете работать, и сравните его с допустимым размером в описании товара. Высота самого мольберта не равна высоте устанавливаемого холста. Если верхняя штанга выдвигается, проверьте также высоту потолка. Для небольшой комнаты полезно заранее измерить площадь основания и оставить проход перед рабочим местом.",
+        "Для живописи на крупных полотнах рассмотрите станковый мольберт. Его основание и подвижный лоток позволяют выстроить положение картины относительно художника. Лира подходит для привычной работы с холстом или планшетом; среди моделей есть варианты с подвижной и наклонной штангой. Хлопушка уже имеет плоскость для рисунка на бумаге, а двусторонние конструкции дают два рабочих поля.",
+        "Для акварели и других техник, требующих изменения положения листа, сравните трансформеры и настольные планшеты. Обратите внимание на диапазон наклона в описании конкретной модели. Настольный мольберт удобен, когда отдельного места на полу нет: его устанавливают на устойчивую столешницу. При этом высоту стола и положение стула нужно учитывать вместе с габаритами выбранной конструкции.",
+        "Сосна и бук представлены в разных сериях каталога. Проверяйте материал именно выбранной модели, а не только общее название категории. Планшет, полка, колёсные опоры и другие дополнения зависят от комплектации. На странице товара можно выбрать доступные опции и увидеть, как меняется стоимость. Несколько фотографий помогают рассмотреть опоры, крепления и положение рабочих элементов.",
+        "В каталоге указаны цены, а в карточке можно переключиться между розницей и оптом. Минимальная партия показана рядом с выбором цены. Сравнивайте изделия в одинаковой комплектации: добавленный планшет влияет на итоговую сумму. Для заказа выберите нужный вариант и количество. Если оснащаете класс или работаете с нестандартным форматом, обсудите с мастерской размеры, состав партии, срок изготовления и способ получения."
+      ],
+      "evidenceProductIds": [
+        "stankovyy-statsionarnyy-buk",
+        "raskladnoy-lira",
+        "nastolnyy-sosna"
+      ],
+      "preserveSeoText": true
+    },
+    "molberty-napolnye": {
+      "paragraphs": [
+        "При выборе напольного мольберта учитывайте не только высоту холста, но и место вокруг него. Рама, задняя опора и выдвинутая штанга занимают разное пространство. Для постоянного рабочего места можно рассмотреть станковую конструкцию, а если после занятия нужно освободить комнату — сравнить размеры складных моделей в рабочем и сложенном положении.",
+        "Для рисунка на бумаге заранее подберите планшет; для живописи на подрамнике проверьте размер лотка и положение верхнего держателя. В учебном классе важны доступ к работе и расстояние между соседними местами. Сопоставьте эти условия с карточками Лиры, Хлопушки, станковых мольбертов и трансформеров — подходящая конструкция зависит от техники и организации занятий."
+      ],
+      "evidenceProductIds": [
+        "raskladnoy-lira",
+        "khlopushka-a1",
+        "stankovyy-skladnoy-buk"
+      ]
+    },
+    "professionalnye-molberty": {
+      "paragraphs": [
+        "В профессиональной работе мольберт подбирают под привычный формат и способ ведения картины. Если холст подолгу остаётся в одном положении, сравните станковые модели по основанию, высоте лотка и креплению верхнего края. Для чередования материалов и техник рассмотрите трансформеры: возможности наклона у разных конструкций отличаются.",
+        "Перед выбором измерьте самый крупный подрамник вместе с выступающими элементами и оцените высоту помещения при поднятой штанге. Колёсные опоры, складное исполнение и дополнительная комплектация предусмотрены не у каждой модели. В карточке конкретного изделия проверьте нужные регулировки и размеры, чтобы оборудование соответствовало рабочему процессу."
+      ],
+      "evidenceProductIds": [
+        "bolshoy-stankovyy-buk",
+        "transformer-a0-buk",
+        "stankovyy-skladnoy-buk"
+      ]
+    },
+    "molberty-stankovye": {
+      "paragraphs": [
+        "Станковые конструкции различаются способом установки и перемещения. Стационарный мольберт выбирают для постоянного места, складной — когда требуется убирать оборудование между занятиями. В каталоге есть и двусторонняя модель с отдельными лотками для двух полотен. Сравнивайте эти варианты с учётом планировки студии и количества одновременно работающих художников.",
+        "Общая высота изделия не равна допустимой высоте картины. Для каждого станкового мольберта проверьте максимальный размер планшета, диапазон перемещения лотка и возможность наклона. У части моделей колёсные опоры или наклонная штанга предлагаются дополнительно; состав выбранного исполнения указан в описании и настройках карточки."
+      ],
+      "evidenceProductIds": [
+        "stankovyy-statsionarnyy-sosna",
+        "stankovyy-skladnoy-sosna",
+        "stankovyy-2-storonniy"
+      ]
+    },
+    "molberty-transformery": {
+      "paragraphs": [
+        "Под названием трансформеров собраны конструкции с разными возможностями поворота рабочей поверхности. У моделей Трансформер рама переводится из вертикального положения в горизонтальное. Дизайнер и Студия работают с планшетом и имеют свои диапазоны наклона. При подборе ориентируйтесь на описание выбранной модели, а не только на название группы.",
+        "Для акварели, графики или работы на картоне сначала определите размер листа с учётом полей под крепление. Затем сравните размеры планшета, высоту установки и положение принадлежностей относительно руки. Если оборудование будет использоваться на нескольких занятиях с разными задачами, заранее составьте перечень необходимых положений поверхности."
+      ],
+      "evidenceProductIds": [
+        "transformer-a1-buk",
+        "dizayner-a1-buk",
+        "studiya-a1"
+      ]
+    },
+    "molberty-lira": {
+      "paragraphs": [
+        "В семействе Лира есть модели разной высоты, с подвижной или наклонной штангой. Для небольшого подрамника и крупного учебного планшета нужны разные возможности фиксации. Начните с максимального рабочего формата, затем сравните общие размеры конструкции и допустимые положения держателя.",
+        "Материал и комплектация помогают уточнить выбор между похожими внешне мольбертами. В этой группе представлены сосновые и буковые исполнения; дополнительная полка доступна не у всех вариантов. Для серии рабочих мест запишите выбранную модификацию и принадлежности к ней, чтобы одинаковые по назначению места получили согласованный комплект."
+      ],
+      "evidenceProductIds": [
+        "lira-s-naklonnoy-shtangoy",
+        "lira-s-podvizhnoy-shtangoy-buk",
+        "lira-malyy"
+      ]
+    },
+    "molberty-dlya-hudozhestvennyh-shkol": {
+      "paragraphs": [
+        "Оснащение художественного класса начинается с форматов учебных заданий. Для занятий на бумаге сравните рабочие планшеты и способ закрепления листа, для разных возрастных групп — высоту установки поверхности. В этой категории можно сопоставить Хлопушки и модели Студия по конструкции, размерам и организации места для принадлежностей.",
+        "При расчёте комплекта на группу учитывайте, где ученики будут сидеть или стоять и куда оборудование уберут после урока. Двусторонняя Хлопушка и отдельные мольберты требуют разной расстановки. Для заявки учебного заведения укажите количество мест, основные форматы бумаги и пожелания к полкам: так проще согласовать состав партии."
+      ],
+      "evidenceProductIds": [
+        "khlopushka-a1-dvustoronniy",
+        "khlopushka-detskiy-buk",
+        "studiya-a2"
+      ]
+    },
+    "molberty-hlopushka": {
+      "paragraphs": [
+        "У Хлопушки поверхность для закрепления бумаги входит в конструкцию мольберта. Различия между исполнениями связаны с форматом, высотой и количеством рабочих сторон. Для первых занятий и школьных постановок сравните размер планшета с листами, которые будут использоваться чаще всего, оставив место для их фиксации.",
+        "Двустороннюю модель стоит оценивать вместе с планом класса: работать с ней будут с противоположных сторон. Детское исполнение и варианты А1 или А2 также отличаются габаритами. Если нужна полка для материалов, проверьте её наличие или возможность добавления именно в карточке выбранной Хлопушки."
+      ],
+      "evidenceProductIds": [
+        "khlopushka-a1",
+        "khlopushka-a2-dvustoronniy",
+        "khlopushka-detskiy-buk"
+      ]
+    },
+    "molberty-s-polkoj": {
+      "paragraphs": [
+        "Полка помогает разместить кисти и краски рядом с рабочей поверхностью, но способ её установки зависит от конструкции. У моделей Студия она предусмотрена под планшетом; для ряда Хлопушек предлагается дополнительный вариант комплектации. Сравните не только наличие полки, но и её положение относительно листа.",
+        "Продумайте, какие принадлежности должны оставаться под рукой во время занятия. Большие ёмкости и запас материалов можно вынести на отдельный столик, оставив на полке необходимое для текущей работы. При оформлении нескольких мольбертов проверьте комплектацию каждого варианта, чтобы нужные полки были учтены в заказе."
+      ],
+      "evidenceProductIds": [
+        "studiya-a1",
+        "studiya-a2",
+        "khlopushka-a1"
+      ]
+    },
+    "molberty-nastolnye": {
+      "paragraphs": [
+        "Настольную модель выбирают вместе с рабочим столом: важны его свободная глубина и высота поверхности. Небольшая опора для подрамника, Лира настольного исполнения и мольберт-планшет решают разные задачи. Сначала определите, будет ли работа вестись на холсте или на бумаге, и только после этого сравнивайте конструкции.",
+        "Для небольших картин рассмотрите модели Мини, для занятий на листах — варианты с планшетом, включая Графику. Проверьте нужный наклон и доступ к нижнему краю рисунка в привычном положении сидя. Если стол используется и для других дел, оцените, сколько места займёт выбранное изделие при хранении."
+      ],
+      "evidenceProductIds": [
+        "nastolnyy-mini-buk",
+        "lira-nastolnyy-sosna",
+        "planshet-nastolnyy-grafika"
+      ]
+    },
+    "stoly-dlya-chercheniya-i-risovaniya": {
+      "paragraphs": [
+        "Рабочую поверхность для рисунка подбирают под размер листа, посадку и размещение инструментов. Чертежник и Конструктор стоит сравнивать по габаритам и устройству, а тумбочку художника — рассматривать как отдельное место для материалов. Перед расстановкой измерьте не только стол, но и участок, необходимый для стула и подхода к нему.",
+        "Для учебного кабинета полезно заранее распределить места для черчения, живописи и хранения бумаги. Если на столе постоянно находятся лампа, палитра или несколько инструментов, учтите их площадь при выборе рабочей поверхности. Размеры и особенности каждого исполнения приведены в карточках изделий этой группы."
+      ],
+      "evidenceProductIds": [
+        "stol-dlya-chercheniya-i-risovaniya-chertezhnik",
+        "stol-dlya-chercheniya-i-risovaniya-konstruktor",
+        "tumbochka-khudozhnika"
+      ]
+    },
+    "molberty-iz-sosny": {
+      "paragraphs": [
+        "В сосновой группе выставочных мольбертов можно сравнить Макси, Экспо-1, Экспо-2 и Выставочную треногу. Для одиночной картины, пары экспонируемых работ и информационного панно потребуются разные схемы опоры. Подготовьте внешние размеры материала и решите, нужно ли показывать работы с одной или с двух сторон.",
+        "Для выездной экспозиции проверьте размеры выбранной конструкции при перевозке и порядок её подготовки к показу. В постоянном выставочном пространстве важнее согласовать ширину проходов и положение картины относительно посетителя. Название материала само по себе не определяет допустимый формат — эти параметры нужно сопоставлять по конкретной модели."
+      ],
+      "evidenceProductIds": [
+        "maksi",
+        "ekspo-1",
+        "ekspo-2",
+        "trenoga-vystavochnaya"
+      ]
+    },
+    "molbert-iz-buka": {
+      "paragraphs": [
+        "Буковые варианты в этой группе отличаются устройством опоры и внешним видом: здесь представлены Тренога 1500, Мачта, Вернисаж и Дельта. Для выбора сначала сопоставьте высоту экспозиции, размеры картины и место в зале. Внешне близкие конструкции могут по-разному подходить к формату работы и сценарию показа.",
+        "Если мольберты нужны для серии мероприятий, составьте список экспонатов и продумайте перевозку между площадками. Для оформления постоянной экспозиции сравните пропорции опоры с рамой и окружением. Вес картины, глубину багета и требуемый способ фиксации укажите отдельно при согласовании модели."
+      ],
+      "evidenceProductIds": [
+        "trenoga-1500",
+        "machta",
+        "vernisazh",
+        "delta"
+      ]
+    },
+    "molberty-s-reznymi-elementami": {
+      "paragraphs": [
+        "Резной мольберт становится частью оформления комнаты вместе с выставленной картиной. При выборе сравните силуэт стоек, ширину основания и характер декора с рамой работы. В этой группе собраны подарочная Лира, Ампир, Эксклюзив и Версаль; размеры лотков и варианты отделки у них различаются.",
+        "Для картины в широком багете особенно важны глубина опоры и положение верхнего держателя. Тонирование, патину и другие варианты исполнения следует выбирать по возможностям конкретной модели. Фотография интерьера и габариты рамы помогут обсудить отделку и размещение до изготовления изделия."
+      ],
+      "evidenceProductIds": [
+        "lira-podarochnyy-buk",
+        "molbert-ampir",
+        "molbert-eksklyuziv",
+        "molbert-versal"
+      ]
+    },
+    "molberty-dlya-televizora": {
+      "paragraphs": [
+        "Плазма XL представляет телевизор как отдельный предмет в интерьере: экран размещается на деревянной конструкции, а аппаратуру можно поставить на открытую полку. Для подготовки заказа нужны внешние размеры панели и сведения о подходящей крепёжной шине. Не ограничивайтесь диагональю — ширина и высота корпуса также имеют значение.",
+        "Модель изготавливается на заказ из дуба или бука; варианты покрытия и возможность установки колёсных опор указаны в описании. Заранее определите место для аппаратуры, подключения кабелей и доступа к экрану. Совместимость крепления и окончательный состав комплекта согласуются для выбранного телевизора."
+      ],
+      "evidenceProductIds": [
+        "molbert-plazma-xl"
+      ]
+    },
+    "mini-molberty": {
+      "paragraphs": [
+        "Для небольшой фотографии или миниатюры нужна опора, которая не будет спорить с самой работой. В мини-форматах можно сравнить треноги и Лиры, ориентируясь на размеры рамки и место на полке, столе или витрине. Учитывайте внешний габарит изображения, а не только размер листа внутри паспарту.",
+        "Такие изделия используют и для календарей, памятных работ и сувенирных серий. Если требуется несколько одинаковых опор, заранее определите формат размещаемых предметов и количество. Для изготовления по своим размерам передайте образец или размерную схему вместе с описанием того, как будет выглядеть экспозиция."
+      ],
+      "evidenceProductIds": [
+        "trenogi-dlya-foto-ramok",
+        "mini-molberty-lira"
+      ]
+    },
+    "mini-molberty-trenogi": {
+      "paragraphs": [
+        "Небольшая тренога позволяет поставить рамку или декоративную работу отдельно от стены. В карточке представлены размеры под разные форматы, поэтому перед выбором измерьте предмет целиком. Толщина рамки и её положение на опоре так же важны, как привычное обозначение размера фотографии.",
+        "Для размещения нескольких работ в витрине проверьте расстояние между опорами и линию обзора. При заказе сувенирной партии можно обсудить изготовление под собственный формат. Сообщите количество, внешние размеры предмета и предполагаемый способ показа — это поможет уточнить исполнение мини-треноги."
+      ],
+      "evidenceProductIds": [
+        "trenogi-dlya-foto-ramok"
+      ]
+    },
+    "mini-molberty-lira": {
+      "paragraphs": [
+        "Миниатюрная Лира сохраняет узнаваемый силуэт большого мольберта и подходит для небольшой настольной экспозиции. В описании предусмотрены форматы 10 × 15 и 20 × 30 см. Сопоставьте выбранный вариант с внешними размерами работы, особенно если изображение оформлено в рамку или паспарту.",
+        "Для подарочного оформления продумайте, где будет стоять композиция и сколько свободного места останется вокруг неё. Если Лиры требуются для серии календарей или миниатюр, укажите общий тираж и единый формат. Особенности размещения предмета и возможность изготовления по индивидуальным размерам лучше обсудить на примере конкретной работы."
+      ],
+      "evidenceProductIds": [
+        "mini-molberty-lira"
+      ]
+    },
+    "oborudovanie-dlya-kabineta-izo": {
+      "paragraphs": [
+        "Художественный кабинет удобнее комплектовать по зонам: рабочие места учеников, участок постановки, освещение и хранение. Планшеты и палитры подбирают под задания, мебель — под организацию занятий, а стеллажи и плакатницы — под форматы учебных работ. Такой перечень помогает связать отдельные изделия в общий план помещения.",
+        "Для закупки на класс укажите количество обучающихся, используемые размеры бумаги и доступную площадь. Отдельно отметьте оборудование преподавателя, место для натюрмортов и объём хранения между уроками. По этому списку можно сопоставить позиции каталога и подготовить состав партии с нужными вариантами комплектации."
+      ],
+      "evidenceProductIds": [
+        "planshety",
+        "stol-dlya-natyurmorta-skladnoy",
+        "stellazh-dlya-sushki-i-khraneniya-listov-a1"
+      ]
+    },
+    "podstavki-dlya-risunkov": {
+      "paragraphs": [
+        "Подставка для рисунков помогает держать листы и планшеты в месте, откуда их удобно брать для просмотра. В этой группе представлены складные модели из сосны и бука для формата А2. При подборе сопоставьте габариты самих работ с допустимым размером планшета, указанным в карточке.",
+        "Если подставку будут доставать только на время занятий или разбора работ, оцените её глубину в сложенном состоянии и место хранения. Для постоянного размещения оставьте свободный подход, чтобы листы можно было просматривать без перестановки соседней мебели. Материал и количество изделий выбираются с учётом общего оснащения класса."
+      ],
+      "evidenceProductIds": [
+        "podstavka-dlya-risunkov",
+        "podstavka-dlya-risunkov-buk"
+      ]
+    },
+    "plakatnitsy": {
+      "paragraphs": [
+        "Плакатницу выбирают по двум основным условиям: формату учебных работ и способу размещения в комнате. Напольные варианты А1 и А2 отличаются габаритами, а навесная модель использует пространство стены. Сначала определите, какие листы, картоны или планшеты будут храниться вместе, затем сравните размеры изделий.",
+        "Для настенного исполнения предусмотрите место, необходимое не только при хранении, но и при раскрытии для просмотра. У напольной плакатницы оставьте доступ со стороны, откуда будут доставать работы. Если в одном кабинете используются несколько форматов, их можно распределить между отдельными местами хранения."
+      ],
+      "evidenceProductIds": [
+        "plakatnitsy-a1-i-a2",
+        "plakatnitsa-nastennaya"
+      ]
+    },
+    "stellazhi-dlya-izostudii": {
+      "paragraphs": [
+        "Разные учебные материалы требуют разного устройства стеллажа. Для листов после живописи предназначены модели с рамками для сушки, для планшетов и подрамников — вариант со съёмными полками. Предметы декора и гипсовые модели размещают на отдельном стеллаже с учётом их высоты и свободного доступа.",
+        "Сравните рабочий формат, количество уровней и габариты корпуса с местом установки. В карточках описаны варианты А1 и А2, а также исполнения с колёсными опорами и стопорами. При подготовке заказа на хранение большого числа работ полезно составить перечень форматов и примерное количество предметов каждого типа."
+      ],
+      "evidenceProductIds": [
+        "stellazh-dlya-sushki-i-khraneniya-listov-a1",
+        "stellazh-dlya-planshetov-i-podramnikov",
+        "stellazh-dlya-dekora-i-gipsovykh-modeley"
+      ]
+    },
+    "shirmy-dlya-izostudii": {
+      "paragraphs": [
+        "Ширма позволяет выделить участок для постановки или разделить пространство художественного класса. В конструкции используются отдельные секции, поэтому её размер в комнате зависит от их количества и выбранного положения. Перед заказом измерьте линию, которую нужно закрыть, и оставьте удобные проходы.",
+        "Вставки могут быть выполнены из ткани или шлифованной фанеры; исполнение и покрытие подбираются при изготовлении. Продумайте, должна ли ширма перемещаться между зонами и где она будет находиться в сложенном виде. Для согласования укажите количество секций и характер использования перегородки."
+      ],
+      "evidenceProductIds": [
+        "shirma"
+      ]
+    },
+    "podiumy-dlya-natury": {
+      "paragraphs": [
+        "При выборе подиума исходят из постановки: будет ли это позирование натурщика или размещение предметов для учебного задания. Нужную длину и ширину определяют вместе с расположением рабочих мест и обзором композиции. Площадку изготавливают по размерам заказчика, поэтому параметры можно обсудить под конкретное помещение.",
+        "Конструкция выполнена из фанеры на деревянном каркасе и предусматривает регулируемые мебельные опоры. Покрытие, возможность настила ковролина и требуемую высоту укажите в заявке. Если для постановок нужен отдельный фон, опишите его вместе с габаритами подиума, чтобы согласовать весь участок экспозиции."
+      ],
+      "evidenceProductIds": [
+        "podium-dlya-natury"
+      ]
+    },
+    "molberty-dlya-vystavki": {
+      "paragraphs": [
+        "Выставочную опору подбирают под экспонат и порядок проведения мероприятия. Для картины в раме, двустороннего показа или информационного стенда важны разные параметры: рабочая высота, глубина лотка, расположение держателей и занимаемая площадь. Если состав экспозиции меняется, заранее соберите размеры самых крупных и самых небольших работ.",
+        "Для временной площадки продумайте, как оборудование будет перевозиться и собираться. Для зала с постоянной расстановкой сопоставьте основание мольберта с шириной проходов и линией обзора. Руководство ниже поможет сравнить модели для разных сценариев показа, включая двустороннюю экспозицию."
+      ],
+      "evidenceProductIds": [
+        "maksi",
+        "ekspo-2",
+        "trenoga-1500"
+      ],
+      "actionText": "Пришлите перечень экспонатов и схему зала — подберём опоры для Вашей выставки."
+    },
+    "molberty-dekorativnye": {
+      "paragraphs": [
+        "Интерьерный мольберт подбирают вместе с произведением, которое на нём будет находиться. Пропорции стоек, видимая часть опоры и отделка должны сочетаться с рамой и окружением. Для небольшой настольной работы и крупной картины потребуются разные размеры конструкции и разные условия размещения.",
+        "До выбора модели измерьте работу с рамой, оцените её глубину и определите желаемую высоту нижнего края. Фотография будущего места поможет обсудить внешний вид композиции. Для тяжёлой или объёмно оформленной картины отдельно согласуйте крепление и допустимую нагрузку выбранного мольберта."
+      ],
+      "evidenceProductIds": [
+        "molbert-ampir",
+        "molbert-eksklyuziv",
+        "mini-molberty-lira"
+      ]
+    },
+    "planshety-i-palitry": {
+      "paragraphs": [
+        "Для работы на бумаге в этом разделе можно подобрать планшет на раме или клипборд с зажимом, а для смешивания красок — отдельную палитру. Планшет даёт основу под выбранный лист; клипборд предусматривает переноску и фиксацию бумаги сверху и снизу. Сравнивайте изделия по способу работы, а не только по обозначению формата.",
+        "Планшеты изготовлены из фанеры на деревянной раме, палитры представлены в размерах А3 и А4. У клипбордов основа выполнена из МДФ с буковым шпоном. Для партии на учебную группу проверьте минимальное количество выбранных принадлежностей и заранее распределите форматы между занятиями."
+      ],
+      "evidenceProductIds": [
+        "planshety",
+        "palitra",
+        "klipbord"
+      ],
+      "actionText": "Укажите размеры листов и количество рабочих мест — уточним набор планшетов, клипбордов и палитр."
+    },
+    "svetilniki-dlya-izostudii": {
+      "paragraphs": [
+        "Подсветка постановки помогает задать направление света и характер теней, которые будут видеть ученики. Софит рассчитан на более широкую освещаемую область, а компактный светильник — на небольшую композицию. Выбор зависит от размеров натюрморта, расстояния до него и места, доступного для установки опоры.",
+        "Светильник на основании и вариант с прищепкой размещаются по-разному. Для зажимной модели сначала проверьте подходящее место крепления; для напольной или настольной — свободную площадь под основание. Затем сопоставьте высоту, вылет и поворот плафона с расположением предметов в постановке."
+      ],
+      "evidenceProductIds": [
+        "sofit-dlya-podsvetki-natyurmorta",
+        "svetilnik-dlya-podsvetki-natyurmorta",
+        "svetilnik-prishchepka"
+      ],
+      "actionText": "Опишите размер постановки и место установки — согласуем нужный вариант подсветки."
+    },
+    "stoly-dlya-natyurmorta": {
+      "paragraphs": [
+        "Основа натюрморта влияет на то, как композиция видна с рабочих мест. Небольшая постановка, крупная группа предметов и экспозиция на разных уровнях требуют разных размеров поверхности. Высоту стола полезно оценить из той точки, откуда ученики будут рисовать, с учётом мебели и драпировки.",
+        "В разделе есть складные решения, модели с переменной высотой и столы-тумбы для размещения принадлежностей. Выберите, что важнее для кабинета: менять уровень постановки, быстро освобождать помещение или хранить предметы рядом. После этого сравните подходящие исполнения по габаритам и устройству."
+      ],
+      "evidenceProductIds": [
+        "stol-dlya-natyurmorta-skladnoy",
+        "stol-dlya-natyurmorta-s-peremennoy-vysotoy-ekspozitsii",
+        "stol-tumba-dlya-natyurmorta"
+      ],
+      "actionText": "Сообщите размер композиции и задачи хранения — обсудим основу для Ваших натюрмортов."
+    },
+    "stoly-skulptora": {
+      "paragraphs": [
+        "При работе с объёмной заготовкой важны высота опоры, доступ к материалу и возможность менять точку обзора. Столик из бука и фанеры и модель Профи различаются конструкцией и диапазоном регулировки. Выбирайте их под характер лепки и положение, в котором проходит занятие.",
+        "Диаметр крышки нужно сопоставить с основанием будущей работы, а высоту — с удобным уровнем обработки заготовки. Особенности поворота и допустимая нагрузка указаны в описаниях конкретных столов. Если оборудование требуется для разных групп, запишите необходимые высоты, чтобы сравнение моделей было предметным."
+      ],
+      "evidenceProductIds": [
+        "stolik-skulptora-buk-fanera",
+        "stol-skulptora-profi"
+      ],
+      "actionText": "Расскажите о размерах заготовок и нужной рабочей высоте — подберём исполнение стола для лепки."
+    },
+    "khranenie-dlya-izostudii": {
+      "paragraphs": [
+        "Систему хранения в художественном классе удобно строить по этапам работы. Свежие листы после занятий размещают на стеллажах для сушки, готовые рисунки и планшеты — в подставках или плакатницах. Для объёмных учебных моделей и предметов постановки нужен отдельный участок с подходящей высотой полок.",
+        "До покупки составьте перечень форматов и определите, к каким материалам требуется ежедневный доступ. Затем распределите оборудование между местами занятий и зоной хранения. Учитывайте не только габариты корпуса, но и пространство, необходимое для извлечения планшета или просмотра подборки рисунков."
+      ],
+      "evidenceProductIds": [
+        "stellazh-dlya-sushki-i-khraneniya-listov-a1",
+        "plakatnitsy-a1-i-a2",
+        "stellazh-dlya-dekora-i-gipsovykh-modeley"
+      ],
+      "actionText": "Перечислите форматы и объём учебных работ — составим набор оборудования для их хранения."
+    },
+    "taburety-i-stulya": {
+      "paragraphs": [
+        "Мебель для занятий сидя подбирают к тому месту, где будет работать художник: обычному столу или мольберту с поднятым лотком. В группе есть рабочий табурет, высокие табуреты и стул художника. Начните с нужной высоты сиденья, затем проверьте ширину, глубину и место для расположения ног.",
+        "При оснащении нескольких кабинетов полезно разделить посадочные места по назначению, а не заказывать один вариант для всех задач. Сосновые и буковые исполнения можно сравнить с остальной мебелью по материалу и внешнему виду. Для оптовой партии уточните также вид поставки: он указан в описании изделия."
+      ],
+      "evidenceProductIds": [
+        "taburet-rabochiy",
+        "taburet-vysokiy-buk",
+        "taburet-vysokiy-sosna",
+        "stul-khudozhnika"
+      ],
+      "actionText": "Передайте нужные высоты сидений и количество мест — согласуем комплект мебели для занятий."
+    },
+    "rabochee-mesto-khudozhnika": {
+      "paragraphs": [
+        "Рядом с мольбертом обычно нужны разные места для текущих материалов и запаса принадлежностей. На столике можно разместить палитру, передвижная тележка помогает распределить содержимое по ящикам, а шкатулка подходит для хранения и переноски небольшого набора. Эти предметы выбирают под привычную последовательность работы.",
+        "Оцените, до каких принадлежностей Вы должны дотягиваться, не меняя положения у рисунка. Для тележки оставьте место перемещения, для столика проверьте рабочую высоту, для шкатулки — размеры самого длинного инструмента. Если нужен комплект на несколько мест, отдельно укажите, что будет общим для группы, а что — индивидуальным."
+      ],
+      "evidenceProductIds": [
+        "stolik-dlya-palitry",
+        "telezhka-dlya-khudozhestvennykh-prinadlezhnostey",
+        "shkatulka-dlya-kistey-i-krasok"
+      ],
+      "actionText": "Перечислите материалы и принадлежности, которые должны быть под рукой, — обсудим организацию рабочего места."
+    },
+    "vspomogatelnoe-oborudovanie": {
+      "paragraphs": [
+        "Подиум и ширма решают разные задачи одной учебной постановки. Площадка задаёт высоту размещения натуры или предметов, а секционная перегородка помогает организовать фон и выделить участок помещения. При выборе полезно сначала представить композицию целиком и положение зрителей или учеников вокруг неё.",
+        "Для подиума подготовьте размеры основания и нужную высоту; для ширмы — протяжённость перегородки и количество секций. Если оборудование предстоит убирать между занятиями, продумайте место хранения и порядок перестановки. Индивидуальные параметры изделий можно согласовать по размерной схеме помещения."
+      ],
+      "evidenceProductIds": [
+        "podium-dlya-natury",
+        "shirma"
+      ],
+      "actionText": "Пришлите схему участка постановки — согласуем размеры подиума и конфигурацию ширмы."
+    }
+  },
+  "page-seo": {
+    "": {
+      "title": "Купить мольберты от производителя - цены в розницу и оптом Мольберты.ру",
+      "description": "Мольберты из дерева от производителя по выгодной цене. Розница и опт, оснащение школ и студий. Цены в каталоге. Доставка по Москве и по всей России.",
+      "keywords": "мольберт купить, мольберт цена, сколько стоит мольберт, где купить мольберты, мольберт стоимость, мольберты оптом"
+    },
+    "molberty-dlya-risovaniya-hudozhnikov/": {
+      "title": "Купить мольберт для рисования для художника - каталог Мольберты.ру",
+      "description": "Мольберты для рисования и живописи: напольные и настольные мольберты для художников купить от производителя. Выбор формата и комплектации. Доставка по Москве и по всей России.",
+      "keywords": "мольберт для рисования, купить мольберт для рисования, мольберт художественный, мольберт для художника, мольберты взрослые"
+    },
+    "molberty-nastolnye/": {
+      "title": "Настольные мольберты для рисования - купить от производителя",
+      "description": "Настольные мольберты из сосны и бука для рисования дома и в студии. Компактные конструкции для стола, цены в каталоге. Доставка по Москве и по всей России.",
+      "keywords": "мольберт настольный, мольберт настольный для рисования, настольный мольберт купить, мольберт на стол, настольный деревянный мольберт"
+    },
+    "molberty-napolnye/": {
+      "title": "Напольные мольберты - купить деревянный мольберт для рисования",
+      "description": "Напольные деревянные мольберты для рисования стоя и сидя. Профессиональные и ученические конструкции. Цены производителя. Доставка по Москве и по всей России.",
+      "keywords": "мольберт напольный, мольберт напольный для рисования, мольберт деревянный напольный, купить мольберт напольный, мольберт художественный напольный"
+    },
+    "molberty-lira/": {
+      "title": "Мольберты Лира - купить напольный мольберт от производителя",
+      "description": "Напольные мольберты классической А-образной конструкции из сосны и бука для рисунка и живописи. Выбор размера и полки. Доставка по Москве и по всей России.",
+      "h1": "Мольберты Лира",
+      "keywords": "мольберт лира, мольберт напольный лира, купить мольберт лира, мольберт лира классический напольный"
+    },
+    "molberty-hlopushka/": {
+      "title": "Мольберты Хлопушка - купить для рисования, цены и модели",
+      "description": "Ученические мольберты Хлопушка с планшетом для рисования дома и в художественной школе. Разные форматы и двусторонние конструкции. Доставка по Москве и по всей России.",
+      "keywords": "мольберт хлопушка, мольберт напольный хлопушка, мольберт хлопушка купить, мольберт хлопушка для рисования"
+    },
+    "professionalnye-molberty/": {
+      "title": "Профессиональные мольберты - купить для студии и мастерской",
+      "description": "Профессиональные мольберты для студии и мастерской. Станковые и трансформируемые конструкции, выбор рабочего формата. Доставка по Москве и по всей России.",
+      "keywords": "мольберт профессиональный, студийный мольберт, мольберт профессиональный купить, мольберт студийный напольный, студийный мольберт купить"
+    },
+    "molberty-stankovye/": {
+      "title": "Станковые мольберты - купить от производителя, цены и модели",
+      "description": "Станковые мольберты из сосны и бука: стационарные, складные и двусторонние конструкции. Подбор по формату, цены в каталоге. Доставка по Москве и по всей России.",
+      "keywords": "мольберт станковый, мольберт станок, станковый мольберт купить, мольберт станковый профессиональный"
+    },
+    "mini-molberty/": {
+      "title": "Мини-мольберты - купить маленький мольберт для фото и миниатюр",
+      "description": "Мини-мольберты для фотографий, календарей, миниатюр и сувениров. Небольшие деревянные опоры, выбор размеров и цен. Доставка по Москве и по всей России.",
+      "keywords": "мини мольберт, маленький мольберт, мини мольберт купить, мини мольберт настольный, мольберт маленький настольный"
+    },
+    "molberty-dlya-vystavki/": {
+      "title": "Выставочные мольберты - купить для картин и презентаций",
+      "description": "Мольберты из сосны и бука для выставок картин, панно и постеров. Подбор по формату и условиям перевозки, цены в каталоге. Доставка по Москве и по всей России.",
+      "keywords": "выставочные мольберты, мольберт для выставки, мольберты для выставки картин, купить мольберты для выставки, мольберт выставочный напольный"
+    },
+    "molberty-transformery/": {
+      "title": "Мольберты-трансформеры - купить, цены и выбор комплектации",
+      "description": "Мольберты-трансформеры для живописи, рисунка и учебных занятий. Выбор формата и положения плоскости, цены в каталоге. Доставка по Москве и по всей России.",
+      "keywords": "мольберт трансформер, купить мольберт трансформер"
+    },
+    "molberty-dekorativnye/": {
+      "title": "Декоративные мольберты для интерьера - купить, цены от производителя",
+      "description": "Декоративные мольберты интерьерные для картин, панно, фотографий и телевизоров. Подбор по габаритам и весу работы, цены в каталоге. Доставка по Москве и по всей России.",
+      "h1": "Декоративные мольберты для интерьера",
+      "keywords": "мольберт декоративный, мольберт декоративный интерьерный, декоративные мольберты для интерьера"
+    },
+    "molberty-dlya-hudozhestvennyh-shkol/": {
+      "title": "Мольберты для художественной школы - купить оптом и в розницу",
+      "description": "Ученические мольберты для художественной школы и кабинета ИЗО. Подбор форматов и комплектаций, розничные и оптовые цены. Доставка по Москве и по всей России.",
+      "keywords": "мольберт для художественной школы, мольберт ученический, мольберт для кабинета изо, купить мольберты для художественной школы"
+    },
+    "oborudovanie-dlya-kabineta-izo/": {
+      "title": "Оборудование для кабинета ИЗО и изостудии - купить оптом и в розницу",
+      "description": "Оборудование для кабинета ИЗО и изостудии: планшеты, мебель, освещение и хранение. Комплектация изостудий. Доставка по Москве и по всей России.",
+      "h1": "Оборудование для кабинета ИЗО и изостудии",
+      "keywords": "оборудование для кабинета изо, оборудование для кабинета изо в школе, оборудование для художественной школы, оборудование для изостудии"
+    },
+    "molberty-iz-sosny/": {
+      "title": "Мольберты из сосны - купить, цены от производителя",
+      "description": "Мольберты из сосны купить по ценам производителя. Выбор конструкции под формат картин и панно, цены и размеры в каталоге. Доставка по Москве и по всей России.",
+      "h1": "Мольберты из сосны",
+      "keywords": "мольберт из сосны, купить мольберт из сосны, выставочные мольберты из сосны"
+    },
+    "molbert-iz-buka/": {
+      "title": "Мольберты из бука - купить, цены от производителя",
+      "description": "Мольберты из бука купить по ценам производителя. Сравните размеры и конструкции, подберите опору для своей экспозиции. Доставка по Москве и по всей России.",
+      "h1": "Мольберты из бука",
+      "keywords": "мольберт из бука, купить мольберт из бука, выставочные мольберты из бука"
+    },
+    "molberty-s-polkoj/": {
+      "title": "Мольберты с полкой для кистей и красок - купить от производителя",
+      "description": "Мольберты с полкой для кистей и красок. Выбор формата, полка в комплекте или как дополнительная опция. Цены в каталоге. Доставка по Москве и по всей России.",
+      "keywords": "мольберт с полкой, купить мольберт с полкой, мольберт с полкой для кистей и красок"
+    },
+    "stoly-dlya-natyurmorta/": {
+      "title": "Столы и тумбы для натюрморта - купить от производителя",
+      "description": "Столы и тумбы для натюрморта в школе и мастерской. Складные конструкции, варианты с изменяемой высотой и хранением. Доставка по Москве и по всей России.",
+      "keywords": "стол для натюрморта, купить стол для натюрморта, столы и тумбы для натюрморта"
+    },
+    "about/": {
+      "title": "О компании - Мольберты.ру",
+      "description": "Собственное производство мольбертов и оборудования для изостудий с 1991 года. Натуральное дерево, стандарты и комплектация. Доставка по Москве и по всей России.",
+      "h1": "Производство мольбертов с 1991 года"
+    },
+    "contacts/": {
+      "title": "Контакты Мольберты.ру - телефоны, адрес и режим работы",
+      "description": "Телефоны оптовых и розничных продаж, электронная почта, адрес производства и схема проезда. Режим работы. Доставка по Москве и по всей России.",
+      "h1": "Контакты"
+    },
+    "prices/": {
+      "title": "Цены на мольберты и оборудование - Мольберты.ру",
+      "description": "Оптовые и розничные цены на мольберты и оборудование для изостудий. Поиск по названию и разделу, прайс-лист в PDF. Доставка по Москве и по всей России.",
+      "h1": "Цены на мольберты и оборудование"
+    },
+    "delivery/": {
+      "title": "Доставка и оплата - Мольберты.ру",
+      "description": "Доставка по Москве и по всей России, самовывоз. Условия заказа мольбертов и оборудования, упаковки, оплаты и перевозки для частных лиц и организаций.",
+      "h1": "Доставка и оплата заказа"
+    },
+    "documents/": {
+      "title": "Документы и реквизиты - Мольберты.ру",
+      "description": "Реквизиты производителя мольбертов, выписки из ЕГРИП и реестра СМП. Скачайте документы в PDF для договора, оформления закупки и взаимодействия с поставщиком.",
+      "h1": "Документы и реквизиты"
+    },
+    "guide/": {
+      "title": "Подбор мольберта по формату и технике - руководство",
+      "description": "Практическое руководство по подбору мольберта: рабочий формат, конструкция, техника рисования и пространство для работы. Подберите вариант по трём вопросам.",
+      "h1": "Подбор мольберта под формат и технику рисования"
+    },
+    "blog/": {
+      "title": "Статьи и публикации - блог Мольберты.ру",
+      "description": "Статьи и публикации Мольберты.ру: выбор мольберта, его устройство, применение в интерьере и история производства. Материалы для художников и владельцев студий.",
+      "h1": "Статьи и публикации"
+    },
+    "clients/": {
+      "title": "Наши клиенты - школы, учреждения и партнёры Мольберты.ру",
+      "description": "Клиенты производства Мольберты.ру: художественные школы, университеты, музеи, театры и другие организации.",
+      "h1": "Наши клиенты"
+    },
+    "privacy/": {
+      "title": "Политика конфиденциальности - Мольберты.ру",
+      "description": "Политика конфиденциальности Мольберты.ру: порядок обработки персональных данных, цели их использования, меры защиты и способы обращения к администрации сайта.",
+      "h1": "Политика конфиденциальности"
+    },
+    "consent/": {
+      "title": "Согласие на обработку персональных данных - Мольберты.ру",
+      "description": "Условия согласия на обработку персональных данных на сайте Мольберты.ру. Цели и способы обработки, срок действия согласия и порядок его отзыва пользователем.",
+      "h1": "Согласие на обработку персональных данных"
+    },
+    "blog/kak-vybrat-molbert/": {
+      "title": "Выбор мольберта для начинающих - советы Мольберты.ру",
+      "description": "Как выбрать мольберт для первых занятий или в подарок: отличия основных конструкций, рабочие форматы и возможности регулировки. Советы начинающим художникам.",
+      "h1": "Как выбрать мольберт?"
+    },
+    "blog/instrument-dlya-tvorchestva-molbert/": {
+      "title": "Мольберт как инструмент художника - устройство и виды",
+      "description": "Для чего художнику нужен мольберт, как устроены основные конструкции и чем они отличаются. Статья о преимуществах мольбертов для живописи, графики и обучения.",
+      "h1": "Инструмент для творчества - мольберт"
+    },
+    "blog/molbert-v-sovremennom-interere/": {
+      "title": "Мольберт в современном интерьере - способы применения",
+      "description": "Как используют мольберты в жилых интерьерах, галереях, музеях, кафе и бутиках. Статья о размещении картин и других работ вне художественной мастерской.",
+      "h1": "Мольберт в современном интерьере"
+    },
+    "blog/dvadcat-let-plodotvornoj-raboty/": {
+      "title": "Двадцать лет плодотворной работы - история Мольберты.ру",
+      "description": "История становления производства Мольберты.ру: первые заказы, обучение столярному делу, развитие ассортимента и работа с клиентами. Ретроспективная публикация.",
+      "h1": "Двадцать лет плодотворной работы"
+    },
+    "404.html": {
+      "title": "Страница не найдена - Мольберты.ру",
+      "description": "Запрошенная страница не найдена. Перейдите на главную, воспользуйтесь каталогом или вернитесь назад, чтобы продолжить знакомство с продукцией Мольберты.ру.",
+      "h1": "Такой страницы не существует"
+    },
+    "catalog/": {
+      "title": "Каталог мольбертов и оборудования - Мольберты.ру",
+      "description": "Каталог мольбертов и оборудования для художников, изостудий из натурального дерева. Цены, фото и ассортимент. Собственное производство с 1991 года."
+    }
+  },
+  "legal-pages": {
+    "privacy": {
+      "title": "Политика конфиденциальности",
+      "description": "Политика конфиденциальности сайта Мольберты.ру. Порядок обработки персональных данных и связь с мастерской.",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "1. Общие положения"
+        },
+        {
+          "tag": "p",
+          "text": "Настоящая политика обработки персональных данных составлена в соответствии с требованиями Федерального закона от 27.07.2006 №152-ФЗ «О персональных данных» и определяет порядок обработки персональных данных и меры по обеспечению безопасности персональных данных, предпринимаемые Администрацией сайта (далее – Оператор)."
+        },
+        {
+          "tag": "p",
+          "text": "Настоящая политика Оператора в отношении обработки персональных данных (далее – Политика) применяется ко всей информации, которую Оператор может получить о посетителях веб-сайта www.molberty.ru. Оператор не контролирует и не несет ответственности за сайты третьих лиц, на которые Пользователь может перейти по ссылкам, доступным на Сайте www.molberty.ru."
+        },
+        {
+          "tag": "h2",
+          "text": "2. Основные понятия, используемые в Политике"
+        },
+        {
+          "tag": "p",
+          "text": "2.1. В настоящей Политике конфиденциальности используются следующие термины и определения:"
+        },
+        {
+          "tag": "p",
+          "text": "2.1.1. Автоматизированная обработка персональных данных – обработка персональных данных с помощью средств вычислительной техники;"
+        },
+        {
+          "tag": "p",
+          "text": "2.1.2. Блокирование персональных данных – временное прекращение обработки персональных данных (за исключением случаев, если обработка необходима для уточнения персональных данных);"
+        },
+        {
+          "tag": "p",
+          "text": "2.1.3. Веб-сайт – совокупность графических и информационных материалов, а также программ для ЭВМ и баз данных, обеспечивающих их доступность в сети интернет по сетевому адресу www.molberty.ru;"
+        },
+        {
+          "tag": "p",
+          "text": "2.1.4. Информационная система персональных данных — совокупность содержащихся в базах данных персональных данных, и обеспечивающих их обработку информационных технологий и технических средств;"
+        },
+        {
+          "tag": "p",
+          "text": "2.1.5. Обезличивание персональных данных — действия, в результате которых невозможно определить без использования дополнительной информации принадлежность персональных данных конкретному Пользователю или иному субъекту персональных данных;"
+        },
+        {
+          "tag": "p",
+          "text": "2.1.6. Обработка персональных данных – любое действие (операция) или совокупность действий (операций), совершаемых с использованием средств автоматизации или без использования таких средств с персональными данными, включая сбор, запись, систематизацию, накопление, хранение, уточнение (обновление, изменение), извлечение, использование, передачу (распространение, предоставление, доступ), обезличивание, блокирование, удаление, уничтожение персональных данных; Оператор осуществляет обработку данных пользователя до момента подачи им заявления на отзыв согласия на обработку персональных данных."
+        },
+        {
+          "tag": "p",
+          "text": "2.1.7. Персональные данные – любая информация, относящаяся прямо или косвенно к определенному или определяемому Пользователю веб-сайта www.molberty.ru;"
+        },
+        {
+          "tag": "p",
+          "text": "2.1.8. Пользователь – любой посетитель веб-сайта www.molberty.ru;"
+        },
+        {
+          "tag": "p",
+          "text": "2.1.9. Предоставление персональных данных – действия, направленные на раскрытие персональных данных определенному лицу или определенному кругу лиц;"
+        },
+        {
+          "tag": "p",
+          "text": "2.1.10. Распространение персональных данных – любые действия, направленные на раскрытие персональных данных неопределенному кругу лиц (передача персональных данных) или на ознакомление с персональными данными неограниченного круга лиц, в том числе обнародование персональных данных в средствах массовой информации, размещение в информационно-телекоммуникационных сетях или предоставление доступа к персональным данным каким-либо иным способом;"
+        },
+        {
+          "tag": "p",
+          "text": "2.1.11. Уничтожение персональных данных – любые действия, в результате которых персональные данные уничтожаются безвозвратно с невозможностью дальнейшего восстановления содержания персональных данных в информационной системе персональных данных и (или) уничтожаются материальные носители персональных данных;"
+        },
+        {
+          "tag": "p",
+          "text": "2.1.12. «Cookies» — небольшой фрагмент данных, отправленный веб-сервером и хранимый на компьютере пользователя, который веб-клиент или веб-браузер каждый раз пересылает веб-серверу в HTTP-запросе при попытке открыть страницу соответствующего сайта;"
+        },
+        {
+          "tag": "p",
+          "text": "2.1.13. «IP-адрес» — уникальный сетевой адрес узла в компьютерной сети, построенной по протоколу IP."
+        },
+        {
+          "tag": "h2",
+          "text": "3. Оператор может обрабатывать следующие персональные данные Пользователя"
+        },
+        {
+          "tag": "p",
+          "text": "3.1. Персональная информация, которую Пользователь предоставляет о себе самостоятельно при регистрации (создании учетной записи) или в процессе использования Сайта и его сервисов, включая персональные данные Пользователя. Обязательная для предоставления Сервисов информация помечена специальным образом. Иная информация предоставляется Пользователем на его усмотрение."
+        },
+        {
+          "tag": "p",
+          "text": "3.2. Данные, которые автоматически передаются сервисам Сайта в процессе их использования с помощью установленного на устройстве Пользователя программного обеспечения, в том числе IP-адрес, данные файлов cookie, информация о браузере Пользователя (или иной программе, с помощью которой осуществляется доступ к сервисам), технические характеристики оборудования и программного обеспечения, используемых Пользователем, дата и время доступа к сервисам, адреса запрашиваемых страниц, реферер (адрес предыдущей страницы) и иная подобная информация."
+        },
+        {
+          "tag": "h2",
+          "text": "4. Цели обработки персональных данных"
+        },
+        {
+          "tag": "p",
+          "text": "4.1. Сайт собирает и хранит только ту персональную информацию, которая необходима для предоставления информации об услугах или исполнения соглашений и договоров с Пользователем, за исключением случаев, когда законодательством предусмотрено обязательное хранение персональной информации в течение определенного законом срока."
+        },
+        {
+          "tag": "p",
+          "text": "4.2. Персональную информацию Пользователя Сайт обрабатывает в следующих целях:"
+        },
+        {
+          "tag": "p",
+          "text": "4.2.1. Установления с Пользователем обратной связи, включая направление уведомлений, запросов, касающихся использования Сайта, оказания услуг, обработку запросов и заявок от Пользователя."
+        },
+        {
+          "tag": "p",
+          "text": "4.2.2. Идентификации Пользователя, зарегистрированного на Сайте, для формирования и исполнения персонализированных предложений и соглашений."
+        },
+        {
+          "tag": "p",
+          "text": "4.2.3. Предоставления Пользователю доступа к персонализированным ресурсам Сайта."
+        },
+        {
+          "tag": "p",
+          "text": "4.2.4. Определения места нахождения Пользователя для обеспечения безопасности, предотвращения мошенничества."
+        },
+        {
+          "tag": "p",
+          "text": "4.2.5. Предоставления Пользователю эффективной клиентской и технической поддержки."
+        },
+        {
+          "tag": "p",
+          "text": "4.2.6. Направления Пользователю уведомления о новых продуктах и услугах, специальных предложениях и различных событиях. Пользователь всегда может отказаться от получения информационных сообщений, направив Оператору письмо на адрес электронной почты molberty@gmail.com с пометкой «Отказ от уведомлений о новых продуктах и услугах и специальных предложениях»."
+        },
+        {
+          "tag": "p",
+          "text": "4.2.7. Обезличенные данные Пользователей, собираемые с помощью сервисов интернет-статистики, служат для сбора информации о действиях Пользователей на сайте, улучшения качества сайта и его содержания."
+        },
+        {
+          "tag": "h2",
+          "text": "5. Правовые основания обработки персональных данных"
+        },
+        {
+          "tag": "p",
+          "text": "5.1. Оператор обрабатывает персональные данные Пользователя только в случае их заполнения и/или отправки Пользователем самостоятельно через специальные формы, расположенные на сайте www.molberty.ru. Заполняя соответствующие формы и/или отправляя свои персональные данные Оператору, Пользователь выражает свое согласие с данной Политикой."
+        },
+        {
+          "tag": "p",
+          "text": "5.2. Оператор обрабатывает обезличенные данные о Пользователе в случае, если это разрешено в настройках браузера Пользователя (включено сохранение файлов «cookie» и использование технологии JavaScript)."
+        },
+        {
+          "tag": "h2",
+          "text": "6. Порядок сбора, хранения, передачи и других видов обработки персональных данных"
+        },
+        {
+          "tag": "p",
+          "text": "6.1. Персональная информация Пользователей хранится на территории Российской Федерации с соблюдением всех требований, установленных действующим российским законодательством."
+        },
+        {
+          "tag": "p",
+          "text": "6.2. В отношении персональной информации Пользователя сохраняется ее конфиденциальность, кроме случаев добровольного предоставления Пользователем информации о себе для общего доступа неограниченному кругу лиц (например, публикация отзывов). В таких случаях Пользователь соглашается с тем, что определенная часть его персональной информации становится общедоступной."
+        },
+        {
+          "tag": "p",
+          "text": "6.3. Сайт вправе передать персональную информацию Пользователя третьим лицам в следующих случаях:"
+        },
+        {
+          "tag": "p",
+          "text": "6.3.1. Пользователь выразил согласие на такие действия."
+        },
+        {
+          "tag": "p",
+          "text": "6.3.2. Передача необходима для использования Пользователем определенного сервиса либо для исполнения определенного соглашения или договора с Пользователем."
+        },
+        {
+          "tag": "p",
+          "text": "6.3.3. Передача предусмотрена российским или иным применимым законодательством в рамках установленной законодательством процедуры."
+        },
+        {
+          "tag": "p",
+          "text": "6.3.4. В случае продажи либо иного отчуждения Сайта к приобретателю переходят все обязательства по соблюдению условий настоящей Политики применительно к полученной им персональной информации."
+        },
+        {
+          "tag": "p",
+          "text": "6.4. Обработка персональных данных Пользователя осуществляется без ограничения срока любым законным способом, в том числе в информационных системах персональных данных с использованием средств автоматизации или без использования таких средств. Обработка персональных данных Пользователей осуществляется в соответствии с Федеральным законом от 27.07.2006 № 152-ФЗ «О персональных данных»."
+        },
+        {
+          "tag": "p",
+          "text": "6.5. При утрате или разглашении персональных данных Администрация Сайта информирует Пользователя об утрате или разглашении персональных данных."
+        },
+        {
+          "tag": "p",
+          "text": "6.6. Администрация Сайта принимает необходимые организационные и технические меры для защиты персональной информации Пользователя от неправомерного или случайного доступа, уничтожения, изменения, блокирования, копирования, распространения, а также от иных неправомерных действий третьих лиц."
+        },
+        {
+          "tag": "p",
+          "text": "6.7. Администрация Сайта совместно с Пользователем принимает все необходимые меры по предотвращению убытков или иных отрицательных последствий, вызванных утратой или разглашением персональных данных Пользователя."
+        },
+        {
+          "tag": "h2",
+          "text": "7. Ответственность"
+        },
+        {
+          "tag": "p",
+          "text": "7.1. Администрация Сайта, не исполнившая свои обязательства, несет ответственность за убытки, понесенные Пользователем в связи с неправомерным использованием персональных данных, в соответствии с законодательством Российской Федерации."
+        },
+        {
+          "tag": "p",
+          "text": "7.2. В случае утраты или разглашения конфиденциальной информации Администрация Сайта не несет ответственности, если данная конфиденциальная информация:"
+        },
+        {
+          "tag": "p",
+          "text": "7.2.1. Стала публичным достоянием до ее утраты или разглашения."
+        },
+        {
+          "tag": "p",
+          "text": "7.2.2. Была получена от третьей стороны до момента ее получения Администрацией Сайта."
+        },
+        {
+          "tag": "p",
+          "text": "7.2.3. Была разглашена с согласия Пользователя."
+        },
+        {
+          "tag": "h2",
+          "text": "8. Заключительные положения"
+        },
+        {
+          "tag": "p",
+          "text": "8.1. Администрация Сайта вправе вносить изменения в настоящую Политику конфиденциальности без согласия Пользователя."
+        },
+        {
+          "tag": "p",
+          "text": "8.2. Новая Политика конфиденциальности вступает в силу с момента ее размещения на Сайте, если иное не предусмотрено новой редакцией Политики конфиденциальности."
+        },
+        {
+          "tag": "p",
+          "text": "8.3. Действующая Политика конфиденциальности размещена на странице по адресу: https://www.molberty.ru/privacy/ ."
+        }
+      ],
+      "html": "<h2>1. Общие положения</h2><p>Настоящая политика обработки персональных данных составлена в соответствии с требованиями Федерального закона от 27.07.2006 №152-ФЗ «О персональных данных» и определяет порядок обработки персональных данных и меры по обеспечению безопасности персональных данных, предпринимаемые Администрацией сайта (далее – Оператор).</p><p>Настоящая политика Оператора в отношении обработки персональных данных (далее – Политика) применяется ко всей информации, которую Оператор может получить о посетителях веб-сайта <a href=\"../\">www.molberty.ru</a>. Оператор не контролирует и не несет ответственности за сайты третьих лиц, на которые Пользователь может перейти по ссылкам, доступным на Сайте <a href=\"../\">www.molberty.ru</a>.</p><h2>2. Основные понятия, используемые в Политике</h2><p>2.1. В настоящей Политике конфиденциальности используются следующие термины и определения:</p><p>2.1.1. Автоматизированная обработка персональных данных – обработка персональных данных с помощью средств вычислительной техники;</p><p>2.1.2. Блокирование персональных данных – временное прекращение обработки персональных данных (за исключением случаев, если обработка необходима для уточнения персональных данных);</p><p>2.1.3. Веб-сайт – совокупность графических и информационных материалов, а также программ для ЭВМ и баз данных, обеспечивающих их доступность в сети интернет по сетевому адресу <a href=\"../\">www.molberty.ru</a>;</p><p>2.1.4. Информационная система персональных данных — совокупность содержащихся в базах данных персональных данных, и обеспечивающих их обработку информационных технологий и технических средств;</p><p>2.1.5. Обезличивание персональных данных — действия, в результате которых невозможно определить без использования дополнительной информации принадлежность персональных данных конкретному Пользователю или иному субъекту персональных данных;</p><p>2.1.6. Обработка персональных данных – любое действие (операция) или совокупность действий (операций), совершаемых с использованием средств автоматизации или без использования таких средств с персональными данными, включая сбор, запись, систематизацию, накопление, хранение, уточнение (обновление, изменение), извлечение, использование, передачу (распространение, предоставление, доступ), обезличивание, блокирование, удаление, уничтожение персональных данных; Оператор осуществляет обработку данных пользователя до момента подачи им заявления на отзыв согласия на обработку персональных данных.</p><p>2.1.7. Персональные данные – любая информация, относящаяся прямо или косвенно к определенному или определяемому Пользователю веб-сайта <a href=\"../\">www.molberty.ru</a>;</p><p>2.1.8. Пользователь – любой посетитель веб-сайта <a href=\"../\">www.molberty.ru</a>;</p><p>2.1.9. Предоставление персональных данных – действия, направленные на раскрытие персональных данных определенному лицу или определенному кругу лиц;</p><p>2.1.10. Распространение персональных данных – любые действия, направленные на раскрытие персональных данных неопределенному кругу лиц (передача персональных данных) или на ознакомление с персональными данными неограниченного круга лиц, в том числе обнародование персональных данных в средствах массовой информации, размещение в информационно-телекоммуникационных сетях или предоставление доступа к персональным данным каким-либо иным способом;</p><p>2.1.11. Уничтожение персональных данных – любые действия, в результате которых персональные данные уничтожаются безвозвратно с невозможностью дальнейшего восстановления содержания персональных данных в информационной системе персональных данных и (или) уничтожаются материальные носители персональных данных;</p><p>2.1.12. «Cookies» — небольшой фрагмент данных, отправленный веб-сервером и хранимый на компьютере пользователя, который веб-клиент или веб-браузер каждый раз пересылает веб-серверу в HTTP-запросе при попытке открыть страницу соответствующего сайта;</p><p>2.1.13. «IP-адрес» — уникальный сетевой адрес узла в компьютерной сети, построенной по протоколу IP.</p><h2>3. Оператор может обрабатывать следующие персональные данные Пользователя</h2><p>3.1. Персональная информация, которую Пользователь предоставляет о себе самостоятельно при регистрации (создании учетной записи) или в процессе использования Сайта и его сервисов, включая персональные данные Пользователя. Обязательная для предоставления Сервисов информация помечена специальным образом. Иная информация предоставляется Пользователем на его усмотрение.</p><p>3.2. Данные, которые автоматически передаются сервисам Сайта в процессе их использования с помощью установленного на устройстве Пользователя программного обеспечения, в том числе IP-адрес, данные файлов cookie, информация о браузере Пользователя (или иной программе, с помощью которой осуществляется доступ к сервисам), технические характеристики оборудования и программного обеспечения, используемых Пользователем, дата и время доступа к сервисам, адреса запрашиваемых страниц, реферер (адрес предыдущей страницы) и иная подобная информация.</p><h2>4. Цели обработки персональных данных</h2><p>4.1. Сайт собирает и хранит только ту персональную информацию, которая необходима для предоставления информации об услугах или исполнения соглашений и договоров с Пользователем, за исключением случаев, когда законодательством предусмотрено обязательное хранение персональной информации в течение определенного законом срока.</p><p>4.2. Персональную информацию Пользователя Сайт обрабатывает в следующих целях:</p><p>4.2.1. Установления с Пользователем обратной связи, включая направление уведомлений, запросов, касающихся использования Сайта, оказания услуг, обработку запросов и заявок от Пользователя.</p><p>4.2.2. Идентификации Пользователя, зарегистрированного на Сайте, для формирования и исполнения персонализированных предложений и соглашений.</p><p>4.2.3. Предоставления Пользователю доступа к персонализированным ресурсам Сайта.</p><p>4.2.4. Определения места нахождения Пользователя для обеспечения безопасности, предотвращения мошенничества.</p><p>4.2.5. Предоставления Пользователю эффективной клиентской и технической поддержки.</p><p>4.2.6. Направления Пользователю уведомления о новых продуктах и услугах, специальных предложениях и различных событиях. Пользователь всегда может отказаться от получения информационных сообщений, направив Оператору письмо на адрес электронной почты <a href=\"mailto:molberty@gmail.com\">molberty@gmail.com</a> с пометкой «Отказ от уведомлений о новых продуктах и услугах и специальных предложениях».</p><p>4.2.7. Обезличенные данные Пользователей, собираемые с помощью сервисов интернет-статистики, служат для сбора информации о действиях Пользователей на сайте, улучшения качества сайта и его содержания.</p><h2>5. Правовые основания обработки персональных данных</h2><p>5.1. Оператор обрабатывает персональные данные Пользователя только в случае их заполнения и/или отправки Пользователем самостоятельно через специальные формы, расположенные на сайте <a href=\"../\">www.molberty.ru</a>. Заполняя соответствующие формы и/или отправляя свои персональные данные Оператору, Пользователь выражает свое согласие с данной Политикой.</p><p>5.2. Оператор обрабатывает обезличенные данные о Пользователе в случае, если это разрешено в настройках браузера Пользователя (включено сохранение файлов «cookie» и использование технологии JavaScript).</p><h2>6. Порядок сбора, хранения, передачи и других видов обработки персональных данных</h2><p>6.1. Персональная информация Пользователей хранится на территории Российской Федерации с соблюдением всех требований, установленных действующим российским законодательством.</p><p>6.2. В отношении персональной информации Пользователя сохраняется ее конфиденциальность, кроме случаев добровольного предоставления Пользователем информации о себе для общего доступа неограниченному кругу лиц (например, публикация отзывов). В таких случаях Пользователь соглашается с тем, что определенная часть его персональной информации становится общедоступной.</p><p>6.3. Сайт вправе передать персональную информацию Пользователя третьим лицам в следующих случаях:</p><p>6.3.1. Пользователь выразил согласие на такие действия.</p><p>6.3.2. Передача необходима для использования Пользователем определенного сервиса либо для исполнения определенного соглашения или договора с Пользователем.</p><p>6.3.3. Передача предусмотрена российским или иным применимым законодательством в рамках установленной законодательством процедуры.</p><p>6.3.4. В случае продажи либо иного отчуждения Сайта к приобретателю переходят все обязательства по соблюдению условий настоящей Политики применительно к полученной им персональной информации.</p><p>6.4. Обработка персональных данных Пользователя осуществляется без ограничения срока любым законным способом, в том числе в информационных системах персональных данных с использованием средств автоматизации или без использования таких средств. Обработка персональных данных Пользователей осуществляется в соответствии с Федеральным законом от 27.07.2006 № 152-ФЗ «О персональных данных».</p><p>6.5. При утрате или разглашении персональных данных Администрация Сайта информирует Пользователя об утрате или разглашении персональных данных.</p><p>6.6. Администрация Сайта принимает необходимые организационные и технические меры для защиты персональной информации Пользователя от неправомерного или случайного доступа, уничтожения, изменения, блокирования, копирования, распространения, а также от иных неправомерных действий третьих лиц.</p><p>6.7. Администрация Сайта совместно с Пользователем принимает все необходимые меры по предотвращению убытков или иных отрицательных последствий, вызванных утратой или разглашением персональных данных Пользователя.</p><h2>7. Ответственность</h2><p>7.1. Администрация Сайта, не исполнившая свои обязательства, несет ответственность за убытки, понесенные Пользователем в связи с неправомерным использованием персональных данных, в соответствии с законодательством Российской Федерации.</p><p>7.2. В случае утраты или разглашения конфиденциальной информации Администрация Сайта не несет ответственности, если данная конфиденциальная информация:</p><p>7.2.1. Стала публичным достоянием до ее утраты или разглашения.</p><p>7.2.2. Была получена от третьей стороны до момента ее получения Администрацией Сайта.</p><p>7.2.3. Была разглашена с согласия Пользователя.</p><h2>8. Заключительные положения</h2><p>8.1. Администрация Сайта вправе вносить изменения в настоящую Политику конфиденциальности без согласия Пользователя.</p><p>8.2. Новая Политика конфиденциальности вступает в силу с момента ее размещения на Сайте, если иное не предусмотрено новой редакцией Политики конфиденциальности.</p><p>8.3. Действующая Политика конфиденциальности размещена на странице по адресу: <a href=\"../privacy/\">https://www.molberty.ru/privacy/</a> .</p>"
+    },
+    "consent": {
+      "title": "Соглашение на обработку персональных данных",
+      "description": "Соглашение на обработку персональных данных пользователей сайта Мольберты.ру.",
+      "blocks": [
+        {
+          "tag": "p",
+          "text": "Настоящим, Я, действуя своей волей и в своем интересе, при размещении (вводе) своих персональных данных на Интернет сайте www.molberty.ru Администрации сайта (далее - Оператор) подтверждаю свое согласие на обработку указанных мной персональных данных Оператором, в соответствии с Политикой конфиденциальности, в целях оказания мне услуг, предложения новых услуг, предлагаемых Оператором, в целях проведения опросов, анкетирования, рекламных и маркетинговых исследований в отношении услуг, предоставляемых Оператором, в том числе путем осуществления прямых контактов со мною посредством средств связи, указанных мной на настоящем сайте."
+        },
+        {
+          "tag": "p",
+          "text": "Настоящее право (согласие) предоставляется на осуществление любых действий в отношении моих персональных данных, которые необходимы и желаемы для достижения вышеуказанных целей, включая, без ограничения, сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, передачу третьим лицам, обезличивание, блокирование и уничтожение персональных данных (в том числе по моей инициативе после запроса на почту molberty@gmail.com), под которыми понимаются все данные, указанные мной на настоящем сайте."
+        },
+        {
+          "tag": "p",
+          "text": "Настоящим подтверждаю, что уведомлен о том, что обработка персональных данных осуществляется Оператором любым способом, в том числе как с использованием средств автоматизации (включая программное обеспечение), так и без использования средств автоматизации (с использованием различных материальных носителей, включая бумажные носители)."
+        },
+        {
+          "tag": "p",
+          "text": "Указанное согласие действует бессрочно с момента предоставления данных и может быть отозвано Пользователем путем направления соответствующего распоряжения в простой письменной форме на адрес электронной почты (E-mail): molberty@gmail.com с пометкой «Отзыв согласия на обработку персональных данных»."
+        },
+        {
+          "tag": "p",
+          "text": "Оператор имеет право вносить изменения в настоящее Соглашение. При внесении изменений в актуальной редакции указывается дата последнего обновления. Новая редакция Соглашения вступает в силу с момента ее размещения, если иное не предусмотрено новой редакцией Соглашения."
+        }
+      ],
+      "html": "<p>Настоящим, Я, действуя своей волей и в своем интересе, при размещении (вводе) своих персональных данных на Интернет сайте <a href=\"../\">www.molberty.ru</a> Администрации сайта (далее - Оператор) подтверждаю свое согласие на обработку указанных мной персональных данных Оператором, в соответствии с <a href=\"../privacy/\">Политикой конфиденциальности</a>, в целях оказания мне услуг, предложения новых услуг, предлагаемых Оператором, в целях проведения опросов, анкетирования, рекламных и маркетинговых исследований в отношении услуг, предоставляемых Оператором, в том числе путем осуществления прямых контактов со мною посредством средств связи, указанных мной на настоящем сайте.</p><p>Настоящее право (согласие) предоставляется на осуществление любых действий в отношении моих персональных данных, которые необходимы и желаемы для достижения вышеуказанных целей, включая, без ограничения, сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, передачу третьим лицам, обезличивание, блокирование и уничтожение персональных данных (в том числе по моей инициативе после запроса на почту <a href=\"mailto:molberty@gmail.com\">molberty@gmail.com</a>), под которыми понимаются все данные, указанные мной на настоящем сайте.</p><p>Настоящим подтверждаю, что уведомлен о том, что обработка персональных данных осуществляется Оператором любым способом, в том числе как с использованием средств автоматизации (включая программное обеспечение), так и без использования средств автоматизации (с использованием различных материальных носителей, включая бумажные носители).</p><p>Указанное согласие действует бессрочно с момента предоставления данных и может быть отозвано Пользователем путем направления соответствующего распоряжения в простой письменной форме на адрес электронной почты (E-mail): <a href=\"mailto:molberty@gmail.com\">molberty@gmail.com</a> с пометкой «Отзыв согласия на обработку персональных данных».</p><p>Оператор имеет право вносить изменения в настоящее Соглашение. При внесении изменений в актуальной редакции указывается дата последнего обновления. Новая редакция Соглашения вступает в силу с момента ее размещения, если иное не предусмотрено новой редакцией Соглашения.</p>"
+    }
+  },
+  "icons": {
+    "concept": "Светлая буква М с засечками на зелёном фоне; маскируемые версии с безопасными полями.",
+    "font": "assets/prata.ttf",
+    "fontSha256": "6bab61b8b8df3f5a24df69c742f6495060b36aec686f37e534ff91a3bffe40ad",
+    "sourceReference": "https://www.molberty.ru/",
+    "files": [
+      {
+        "file": "assets/favicon.svg",
+        "role": "browser-vector",
+        "sizes": "any"
+      },
+      {
+        "file": "assets/icons/icon-master.svg",
+        "role": "editable-master",
+        "sizes": "any"
+      },
+      {
+        "file": "assets/icons/maskable-master.svg",
+        "role": "editable-maskable-master",
+        "sizes": "any"
+      },
+      {
+        "file": "assets/icons/safari-pinned-tab.svg",
+        "role": "safari-pinned-tab",
+        "sizes": "any"
+      },
+      {
+        "file": "assets/icons/favicon-16x16.png",
+        "role": "browser-png",
+        "sizes": "16x16"
+      },
+      {
+        "file": "assets/icons/favicon-32x32.png",
+        "role": "browser-png",
+        "sizes": "32x32"
+      },
+      {
+        "file": "assets/icons/favicon-48x48.png",
+        "role": "browser-png",
+        "sizes": "48x48"
+      },
+      {
+        "file": "assets/icons/favicon-96x96.png",
+        "role": "browser-png",
+        "sizes": "96x96"
+      },
+      {
+        "file": "assets/icons/apple-touch-icon-120x120.png",
+        "role": "apple-touch",
+        "sizes": "120x120"
+      },
+      {
+        "file": "assets/icons/apple-touch-icon-152x152.png",
+        "role": "apple-touch",
+        "sizes": "152x152"
+      },
+      {
+        "file": "assets/icons/apple-touch-icon-167x167.png",
+        "role": "apple-touch",
+        "sizes": "167x167"
+      },
+      {
+        "file": "apple-touch-icon.png",
+        "role": "apple-touch-default",
+        "sizes": "180x180"
+      },
+      {
+        "file": "assets/icons/android-chrome-192x192.png",
+        "role": "manifest-any",
+        "sizes": "192x192"
+      },
+      {
+        "file": "assets/icons/maskable-192x192.png",
+        "role": "manifest-maskable",
+        "sizes": "192x192"
+      },
+      {
+        "file": "assets/icons/android-chrome-512x512.png",
+        "role": "manifest-any",
+        "sizes": "512x512"
+      },
+      {
+        "file": "assets/icons/maskable-512x512.png",
+        "role": "manifest-maskable",
+        "sizes": "512x512"
+      },
+      {
+        "file": "assets/icons/mstile-150x150.png",
+        "role": "windows-tile",
+        "sizes": "150x150"
+      },
+      {
+        "file": "favicon.ico",
+        "role": "browser-ico",
+        "sizes": [
+          "16x16",
+          "24x24",
+          "32x32",
+          "48x48",
+          "64x64",
+          "128x128",
+          "256x256"
+        ]
+      }
+    ]
+  }
+}

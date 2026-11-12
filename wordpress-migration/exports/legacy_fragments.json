@@ -1,0 +1,548 @@
+[
+  {
+    "source": "/for_artist#!/tproduct/46139268-1498486363994",
+    "sourceId": "for_artist-46139268-1498486363994",
+    "target": "/product/molbert-bolshoy-stankovyy-buk/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/46139268-1611226170060",
+    "sourceId": "for_artist-46139268-1611226170060",
+    "target": "/product/molbert-stankovyy-statsionarnyy-sosna/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/46139268-1501253736112",
+    "sourceId": "for_artist-46139268-1501253736112",
+    "target": "/product/molbert-stankovyy-statsionarnyy-buk/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/46139268-1655901040769",
+    "sourceId": "for_artist-46139268-1655901040769",
+    "target": "/product/molbert-malyy-stankovyy-buk/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/46139268-1762848599017",
+    "sourceId": "for_artist-46139268-1762848599017",
+    "target": "/product/molbert-stankovyy-2-storonniy/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/46139268-1497456130776",
+    "sourceId": "for_artist-46139268-1497456130776",
+    "target": "/product/molbert-stankovyy-skladnoy-sosna/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/46139268-1498486301712",
+    "sourceId": "for_artist-46139268-1498486301712",
+    "target": "/product/molbert-stankovyy-skladnoy-buk/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49043039-1498486363994",
+    "sourceId": "for_artist-49043039-1498486363994",
+    "target": "/product/molbert-transformer-a0-buk/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49043039-1501253736112",
+    "sourceId": "for_artist-49043039-1501253736112",
+    "target": "/product/molbert-transformer-a1-buk/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49043039-1497456130776",
+    "sourceId": "for_artist-49043039-1497456130776",
+    "target": "/product/molbert-dizayner-a1-buk/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49043039-1498486301712",
+    "sourceId": "for_artist-49043039-1498486301712",
+    "target": "/product/molbert-dizayner-a2-buk/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49043039-1768727035995",
+    "sourceId": "for_artist-49043039-1768727035995",
+    "target": "/product/molbert-studiya-a1/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49043039-1768727445494",
+    "sourceId": "for_artist-49043039-1768727445494",
+    "target": "/product/molbert-studiya-a2/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49043414-1498486363994",
+    "sourceId": "for_artist-49043414-1498486363994",
+    "target": "/product/molbert-lira-s-naklonnoy-shtangoy/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49043414-1501253736112",
+    "sourceId": "for_artist-49043414-1501253736112",
+    "target": "/product/molbert-lira-s-naklonnoy-sht-buk/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49043414-1497456130776",
+    "sourceId": "for_artist-49043414-1497456130776",
+    "target": "/product/molbert-raskladnoy-lira/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49043414-1498486301712",
+    "sourceId": "for_artist-49043414-1498486301712",
+    "target": "/product/molbert-raskladnoy-lira-buk/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49043414-1522216368943",
+    "sourceId": "for_artist-49043414-1522216368943",
+    "target": "/product/molbert-lira-s-podvizhnoy-shtangoy/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49043414-1522216373437",
+    "sourceId": "for_artist-49043414-1522216373437",
+    "target": "/product/molbert-lira-s-podvizhnoy-shtangoy-buk/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49043414-1522216376309",
+    "sourceId": "for_artist-49043414-1522216376309",
+    "target": "/product/molbert-lira-malyy/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49043414-1522216378019",
+    "sourceId": "for_artist-49043414-1522216378019",
+    "target": "/product/molbert-lira-malyy-s-podvizhnoy-shtangoy/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49043414-1522216379854",
+    "sourceId": "for_artist-49043414-1522216379854",
+    "target": "/product/molbert-lira-malyy-buk/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49043414-1522216381909",
+    "sourceId": "for_artist-49043414-1522216381909",
+    "target": "/product/molbert-lira-malyy-s-podvizhnoy-shtangoy-buk/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49044079-1498486363994",
+    "sourceId": "for_artist-49044079-1498486363994",
+    "target": "/product/molbert-a-profi/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49044079-1501253736112",
+    "sourceId": "for_artist-49044079-1501253736112",
+    "target": "/product/molbert-a-profi-buk/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49044079-1497456130776",
+    "sourceId": "for_artist-49044079-1497456130776",
+    "target": "/product/molbert-a-klass/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49044175-1498486363994",
+    "sourceId": "for_artist-49044175-1498486363994",
+    "target": "/product/molbert-khlopushka-a1h/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49044175-1501253736112",
+    "sourceId": "for_artist-49044175-1501253736112",
+    "target": "/product/molbert-khlopushka-a1/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49044175-1497456130776",
+    "sourceId": "for_artist-49044175-1497456130776",
+    "target": "/product/molbert-khlopushka-a1-dvustoronniy/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49044175-1498486301712",
+    "sourceId": "for_artist-49044175-1498486301712",
+    "target": "/product/molbert-khlopushka-a2/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49044175-1522219609187",
+    "sourceId": "for_artist-49044175-1522219609187",
+    "target": "/product/molbert-khlopushka-a2-dvustoronniy/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49044175-1522219651466",
+    "sourceId": "for_artist-49044175-1522219651466",
+    "target": "/product/molbert-khlopushka/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49044175-1522219690360",
+    "sourceId": "for_artist-49044175-1522219690360",
+    "target": "/product/molbert-khlopushka-detskiy-buk/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49047569-1522219690360",
+    "sourceId": "for_artist-49047569-1522219690360",
+    "target": "/product/stol-dlya-chercheniya-i-risovaniya-chertezhnik/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/49047569-1524657106699",
+    "sourceId": "for_artist-49047569-1524657106699",
+    "target": "/product/stol-dlya-chercheniya-i-risovaniya-konstruktor/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/1570890501-9722490475690",
+    "sourceId": "for_artist-1570890501-9722490475690",
+    "target": "/product/molbert-nastolnyy-sosna/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/1570890501-9722490475691",
+    "sourceId": "for_artist-1570890501-9722490475691",
+    "target": "/product/molbert-nastolnyy-buk/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/1570890501-9722490475692",
+    "sourceId": "for_artist-1570890501-9722490475692",
+    "target": "/product/molbert-lira-nastolnyy-sosna/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/1570890501-9722490475693",
+    "sourceId": "for_artist-1570890501-9722490475693",
+    "target": "/product/molbert-lira-nastolnyy-buk/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/1570890501-9722490475694",
+    "sourceId": "for_artist-1570890501-9722490475694",
+    "target": "/product/molbert-nastolnyy-mini-buk/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/1570890501-9722490475695",
+    "sourceId": "for_artist-1570890501-9722490475695",
+    "target": "/product/molbert-nastolnyy-mini-xl-buk/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/1570890501-9722490475696",
+    "sourceId": "for_artist-1570890501-9722490475696",
+    "target": "/product/molbert-nastolnyy-akva/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_artist#!/tproduct/1570890501-9722490475697",
+    "sourceId": "for_artist-1570890501-9722490475697",
+    "target": "/product/molbert-planshet-nastolnyy-grafika/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_exibition#!/tproduct/49052876-1498486363994",
+    "sourceId": "for_exibition-49052876-1498486363994",
+    "target": "/product/molbert-maksi/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_exibition#!/tproduct/49052876-1501253736112",
+    "sourceId": "for_exibition-49052876-1501253736112",
+    "target": "/product/molbert-ekspo-1/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_exibition#!/tproduct/49052876-1497456130776",
+    "sourceId": "for_exibition-49052876-1497456130776",
+    "target": "/product/molbert-ekspo-2/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_exibition#!/tproduct/49052876-1498486301712",
+    "sourceId": "for_exibition-49052876-1498486301712",
+    "target": "/product/molbert-machta/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_exibition#!/tproduct/49052876-1522251739696",
+    "sourceId": "for_exibition-49052876-1522251739696",
+    "target": "/product/molbert-trenoga-1500/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_exibition#!/tproduct/49052876-1522251785894",
+    "sourceId": "for_exibition-49052876-1522251785894",
+    "target": "/product/molbert-trenoga-vystavochnaya/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_exibition#!/tproduct/49052876-1522251823207",
+    "sourceId": "for_exibition-49052876-1522251823207",
+    "target": "/product/molbert-vernisazh/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_exibition#!/tproduct/49052876-1563552682842",
+    "sourceId": "for_exibition-49052876-1563552682842",
+    "target": "/product/molbert-delta/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_interior#!/tproduct/49126451-1498486363994",
+    "sourceId": "for_interior-49126451-1498486363994",
+    "target": "/product/molbert-lira-podarochnyy-buk/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_interior#!/tproduct/49126451-1522251823207",
+    "sourceId": "for_interior-49126451-1522251823207",
+    "target": "/product/molbert-ampir/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_interior#!/tproduct/49126451-1522301588688",
+    "sourceId": "for_interior-49126451-1522301588688",
+    "target": "/product/molbert-eksklyuziv/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_interior#!/tproduct/49126451-1522301628609",
+    "sourceId": "for_interior-49126451-1522301628609",
+    "target": "/product/molbert-plazma-xl/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_interior#!/tproduct/49126451-1563554523875",
+    "sourceId": "for_interior-49126451-1563554523875",
+    "target": "/product/molbert-versal/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_interior#!/tproduct/51369798-1498486363994",
+    "sourceId": "for_interior-51369798-1498486363994",
+    "target": "/product/molberty-trenogi-dlya-foto-ramok/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_interior#!/tproduct/51369798-1501253736112",
+    "sourceId": "for_interior-51369798-1501253736112",
+    "target": "/product/mini-molberty-lira/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1522251739696",
+    "sourceId": "for_studio-49170011-1522251739696",
+    "target": "/product/stol-dlya-natyurmortov-s-planshetom-ugolok/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1629798309149",
+    "sourceId": "for_studio-49170011-1629798309149",
+    "target": "/product/stol-dlya-natyurmortov-50kh50-s-peremennoy-vysotoy-ekspozitsii/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1561961803488",
+    "sourceId": "for_studio-49170011-1561961803488",
+    "target": "/product/stol-dlya-natyurmorta-s-peremennoy-vysotoy-ekspozitsii/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1632207169730",
+    "sourceId": "for_studio-49170011-1632207169730",
+    "target": "/product/stol-transformer-dlya-natyurmorta/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1574785349708",
+    "sourceId": "for_studio-49170011-1574785349708",
+    "target": "/product/stol-dlya-natyurmorta-skladnoy/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1701931997821",
+    "sourceId": "for_studio-49170011-1701931997821",
+    "target": "/product/stol-tumba-dlya-natyurmorta/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1524485501356",
+    "sourceId": "for_studio-49170011-1524485501356",
+    "target": "/product/planshety/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1498486301712",
+    "sourceId": "for_studio-49170011-1498486301712",
+    "target": "/product/stolik-dlya-ekspozitsiy/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1611754414386",
+    "sourceId": "for_studio-49170011-1611754414386",
+    "target": "/product/sofit-dlya-podsvetki-natyurmorta/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1653547243518",
+    "sourceId": "for_studio-49170011-1653547243518",
+    "target": "/product/svetilnik-dlya-podsvetki-natyurmorta/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1712751566388",
+    "sourceId": "for_studio-49170011-1712751566388",
+    "target": "/product/svetilnik-prishchepka/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1522251785894",
+    "sourceId": "for_studio-49170011-1522251785894",
+    "target": "/product/stolik-skulptora-buk-fanera/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1522251823207",
+    "sourceId": "for_studio-49170011-1522251823207",
+    "target": "/product/stol-skulptora-profi/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1501253736112",
+    "sourceId": "for_studio-49170011-1501253736112",
+    "target": "/product/podstavka-dlya-risunkov/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1522304205093",
+    "sourceId": "for_studio-49170011-1522304205093",
+    "target": "/product/plakatnitsy-a1-i-a2/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1497456130776",
+    "sourceId": "for_studio-49170011-1497456130776",
+    "target": "/product/podstavka-dlya-risunkov-buk/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1522304263614",
+    "sourceId": "for_studio-49170011-1522304263614",
+    "target": "/product/plakatnitsa-nastennaya/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1524658392476",
+    "sourceId": "for_studio-49170011-1524658392476",
+    "target": "/product/palitra/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1575974482586",
+    "sourceId": "for_studio-49170011-1575974482586",
+    "target": "/product/klipbord/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1498486363994",
+    "sourceId": "for_studio-49170011-1498486363994",
+    "target": "/product/shkatulka-dlya-kistey-i-krasok/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1522301546091",
+    "sourceId": "for_studio-49170011-1522301546091",
+    "target": "/product/stolik-dlya-palitry/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1610892209638",
+    "sourceId": "for_studio-49170011-1610892209638",
+    "target": "/product/telezhka-dlya-khudozhestvennykh-prinadlezhnostey/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1522301588688",
+    "sourceId": "for_studio-49170011-1522301588688",
+    "target": "/product/taburet-rabochiy/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1522301628609",
+    "sourceId": "for_studio-49170011-1522301628609",
+    "target": "/product/taburet-vysokiy-buk/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1792565100762",
+    "sourceId": "for_studio-49170011-1792565100762",
+    "target": "/product/taburet-vysokiy-sosna/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1522304058801",
+    "sourceId": "for_studio-49170011-1522304058801",
+    "target": "/product/stul-khudozhnika/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1617087436244",
+    "sourceId": "for_studio-49170011-1617087436244",
+    "target": "/product/stellazh-dlya-sushki-i-khraneniya-listov-a1/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1716877878229",
+    "sourceId": "for_studio-49170011-1716877878229",
+    "target": "/product/stellazh-dlya-sushki-i-khraneniya-listov-a2/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1707383785350",
+    "sourceId": "for_studio-49170011-1707383785350",
+    "target": "/product/stellazh-dlya-planshetov-i-podramnikov/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1762852847044",
+    "sourceId": "for_studio-49170011-1762852847044",
+    "target": "/product/stellazh-dlya-dekora-i-gipsovykh-modeley/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1792572231272",
+    "sourceId": "for_studio-49170011-1792572231272",
+    "target": "/product/podium-dlya-natury/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1522304345907",
+    "sourceId": "for_studio-49170011-1522304345907",
+    "target": "/product/shirma/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  },
+  {
+    "source": "/for_studio#!/tproduct/49170011-1522304387094",
+    "sourceId": "for_studio-49170011-1522304387094",
+    "target": "/product/tumbochka-khudozhnika/",
+    "implementation": "browser-compatibility; fragment is not sent to server"
+  }
+]

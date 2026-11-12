@@ -1,0 +1,80 @@
+{
+  "preparedOn": "2026-11-12",
+  "referenceVersion": "v129",
+  "passed": true,
+  "checks": [
+    {
+      "check": "PHP syntax",
+      "passed": true
+    },
+    {
+      "check": "Python and JavaScript syntax",
+      "passed": true
+    },
+    {
+      "check": "PHP reference price calculation",
+      "passed": true,
+      "result": {
+        "passed": true,
+        "fixtures": 717,
+        "negativeTests": 5,
+        "failures": []
+      }
+    },
+    {
+      "check": "Importer dry-run contract",
+      "passed": true,
+      "result": {
+        "passed": true,
+        "dryRunNoWordPressWrites": true,
+        "actualWordPressImportTested": false
+      }
+    },
+    {
+      "check": "Legacy fragment adapter",
+      "passed": true,
+      "result": {
+        "passed": true,
+        "cases": 7,
+        "externalRedirectBlocked": true
+      }
+    },
+    {
+      "check": "HTTP checker on frozen mock server",
+      "passed": true,
+      "result": {
+        "passed": true,
+        "routesAndRedirects": 234,
+        "duplicateTitleDetected": true,
+        "targetWordPressTested": false
+      }
+    },
+    {
+      "check": "Data and reference integrity",
+      "passed": true,
+      "result": {
+        "passed": true,
+        "products": 91,
+        "categories": 34,
+        "routes": 142,
+        "assets": 401,
+        "pricingFixtures": 717,
+        "packageChecksums": 0,
+        "errors": []
+      }
+    },
+    {
+      "check": "Office package XML and ZIP integrity",
+      "passed": true,
+      "files": [
+        "Карта переноса.xlsx",
+        "План переноса на WordPress.docx"
+      ]
+    }
+  ],
+  "realWordPressImportExecuted": false,
+  "realWordPressThemeImplemented": false,
+  "realFormsAndSMTPConfigured": false,
+  "productionChanged": false,
+  "remainingValidation": "Run importer and complete theme/core/cart/forms acceptance in the target WordPress."
+}

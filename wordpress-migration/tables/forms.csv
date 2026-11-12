@@ -1,0 +1,8 @@
+﻿id,scenario,location,fields,required,source
+F01,Общий запрос,Все страницы,Имя; контакт; задача; согласие,name/contact/consent,request
+F02,Заказать звонок,Шапка,Имя; телефон; время; согласие,name/phone/consent,callback
+F03,Выход курсора,Desktop через 8 секунд,Как у обратного звонка,name/phone/consent,exit-intent
+F04,Корзина,Все страницы,Имя; телефон; e-mail; получение; город; адрес; согласие,name/phone/delivery/consent; address for shipping,checkout
+F05,Интерьерный подбор,/molberty-dekorativnye/,Габариты; высота; вес; глубина; контакты; согласие,Контакты и согласие на финальном шаге,interior-quiz
+F06,Оптовый заказ,/contacts/ и /delivery/,Организация; имя; телефон; e-mail; заказ; адрес; согласие,company/name/phone/email/order/consent,wholesale
+F07,Розничный заказ,/contacts/ и /delivery/,Имя; телефон; e-mail; заказ; адрес; согласие,name/phone/email/order/consent,retail

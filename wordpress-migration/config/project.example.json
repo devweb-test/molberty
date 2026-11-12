@@ -1,0 +1,14 @@
+{
+  "referenceVersion": "v129",
+  "productionUrl": "https://www.molberty.ru",
+  "stagingUrl": "https://staging.example.invalid",
+  "wordpressPath": "/absolute/path/to/wordpress-site",
+  "wordpressEnvironmentType": "staging",
+  "themeSlug": "molberty",
+  "businessPluginSlug": "molberty-core",
+  "seoOwner": "choose-one-plugin-or-core",
+  "defaultNotificationRecipient": "molberty@gmail.com",
+  "currency": "RUB",
+  "onlinePaymentsEnabled": false,
+  "smtpCredentials": "environment-or-host-secret-store-only"
+}

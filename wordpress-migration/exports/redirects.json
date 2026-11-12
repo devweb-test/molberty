@@ -1,0 +1,639 @@
+[
+  {
+    "source": "/product/lira-classic/",
+    "target": "/product/molbert-raskladnoy-lira/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/lira-beech/",
+    "target": "/product/molbert-raskladnoy-lira-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/studio-beech/",
+    "target": "/product/molbert-stankovyy-statsionarnyy-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/studio-pine/",
+    "target": "/product/molbert-stankovyy-statsionarnyy-sosna/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/hlopushka-a1/",
+    "target": "/product/molbert-khlopushka-a1/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/hlopushka-double/",
+    "target": "/product/molbert-khlopushka-a1-dvustoronniy/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/transformer-a1/",
+    "target": "/product/molbert-transformer-a1-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/desktop/",
+    "target": "/product/molbert-nastolnyy-sosna/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/mini/",
+    "target": "/product/molbert-nastolnyy-mini-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/grafika/",
+    "target": "/product/molbert-planshet-nastolnyy-grafika/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/expo/",
+    "target": "/product/molbert-ekspo-1/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/tripod/",
+    "target": "/product/molbert-trenoga-1500/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/gift/",
+    "target": "/product/molbert-lira-podarochnyy-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/still-life/",
+    "target": "/product/stol-dlya-natyurmorta-skladnoy/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/table-transformer/",
+    "target": "/product/stol-transformer-dlya-natyurmorta/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/rack/",
+    "target": "/product/podstavka-dlya-risunkov-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/taburet-vysokiy/",
+    "target": "/product/taburet-vysokiy-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/molberty-derevyannye/",
+    "target": "/molberty-dlya-risovaniya-hudozhnikov/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/molberty-dvustoronnie/",
+    "target": "/molberty-dlya-hudozhestvennyh-shkol/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/molberty-sosna/",
+    "target": "/molberty-dlya-risovaniya-hudozhnikov/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/vystavochnye-molberty-iz-sosny/",
+    "target": "/molberty-iz-sosny/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/vystavochnye-molberty-iz-buka/",
+    "target": "/molbert-iz-buka/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/derevyannye-stoly-skulptora/",
+    "target": "/stoly-skulptora/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/metallicheskie-stoly-skulptora/",
+    "target": "/stoly-skulptora/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/molbert-modern/",
+    "target": "/molberty-dekorativnye/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/bolshoy-stankovyy-buk/",
+    "target": "/product/molbert-bolshoy-stankovyy-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/stankovyy-statsionarnyy-sosna/",
+    "target": "/product/molbert-stankovyy-statsionarnyy-sosna/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/stankovyy-statsionarnyy-buk/",
+    "target": "/product/molbert-stankovyy-statsionarnyy-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/malyy-stankovyy-buk/",
+    "target": "/product/molbert-malyy-stankovyy-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/stankovyy-2-storonniy/",
+    "target": "/product/molbert-stankovyy-2-storonniy/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/stankovyy-skladnoy-sosna/",
+    "target": "/product/molbert-stankovyy-skladnoy-sosna/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/stankovyy-skladnoy-buk/",
+    "target": "/product/molbert-stankovyy-skladnoy-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/transformer-a0-buk/",
+    "target": "/product/molbert-transformer-a0-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/transformer-a1-buk/",
+    "target": "/product/molbert-transformer-a1-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/dizayner-a1-buk/",
+    "target": "/product/molbert-dizayner-a1-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/dizayner-a2-buk/",
+    "target": "/product/molbert-dizayner-a2-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/studiya-a1/",
+    "target": "/product/molbert-studiya-a1/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/studiya-a2/",
+    "target": "/product/molbert-studiya-a2/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/lira-s-naklonnoy-shtangoy/",
+    "target": "/product/molbert-lira-s-naklonnoy-shtangoy/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/lira-s-naklonnoy-sht-buk/",
+    "target": "/product/molbert-lira-s-naklonnoy-sht-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/raskladnoy-lira/",
+    "target": "/product/molbert-raskladnoy-lira/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/raskladnoy-lira-buk/",
+    "target": "/product/molbert-raskladnoy-lira-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/lira-s-podvizhnoy-shtangoy/",
+    "target": "/product/molbert-lira-s-podvizhnoy-shtangoy/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/lira-s-podvizhnoy-shtangoy-buk/",
+    "target": "/product/molbert-lira-s-podvizhnoy-shtangoy-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/lira-malyy/",
+    "target": "/product/molbert-lira-malyy/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/lira-malyy-s-podvizhnoy-shtangoy/",
+    "target": "/product/molbert-lira-malyy-s-podvizhnoy-shtangoy/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/lira-malyy-buk/",
+    "target": "/product/molbert-lira-malyy-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/lira-malyy-s-podvizhnoy-shtangoy-buk/",
+    "target": "/product/molbert-lira-malyy-s-podvizhnoy-shtangoy-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/a-profi/",
+    "target": "/product/molbert-a-profi/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/a-profi-buk/",
+    "target": "/product/molbert-a-profi-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/a-klass/",
+    "target": "/product/molbert-a-klass/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/khlopushka-a1h/",
+    "target": "/product/molbert-khlopushka-a1h/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/khlopushka-a1/",
+    "target": "/product/molbert-khlopushka-a1/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/khlopushka-a1-dvustoronniy/",
+    "target": "/product/molbert-khlopushka-a1-dvustoronniy/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/khlopushka-a2/",
+    "target": "/product/molbert-khlopushka-a2/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/khlopushka-a2-dvustoronniy/",
+    "target": "/product/molbert-khlopushka-a2-dvustoronniy/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/khlopushka/",
+    "target": "/product/molbert-khlopushka/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/khlopushka-detskiy-buk/",
+    "target": "/product/molbert-khlopushka-detskiy-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/nastolnyy-sosna/",
+    "target": "/product/molbert-nastolnyy-sosna/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/nastolnyy-buk/",
+    "target": "/product/molbert-nastolnyy-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/lira-nastolnyy-sosna/",
+    "target": "/product/molbert-lira-nastolnyy-sosna/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/lira-nastolnyy-buk/",
+    "target": "/product/molbert-lira-nastolnyy-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/nastolnyy-mini-buk/",
+    "target": "/product/molbert-nastolnyy-mini-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/nastolnyy-mini-xl-buk/",
+    "target": "/product/molbert-nastolnyy-mini-xl-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/nastolnyy-akva/",
+    "target": "/product/molbert-nastolnyy-akva/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/planshet-nastolnyy-grafika/",
+    "target": "/product/molbert-planshet-nastolnyy-grafika/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/maksi/",
+    "target": "/product/molbert-maksi/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/ekspo-1/",
+    "target": "/product/molbert-ekspo-1/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/ekspo-2/",
+    "target": "/product/molbert-ekspo-2/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/machta/",
+    "target": "/product/molbert-machta/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/trenoga-1500/",
+    "target": "/product/molbert-trenoga-1500/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/trenoga-vystavochnaya/",
+    "target": "/product/molbert-trenoga-vystavochnaya/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/vernisazh/",
+    "target": "/product/molbert-vernisazh/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/delta/",
+    "target": "/product/molbert-delta/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/lira-podarochnyy-buk/",
+    "target": "/product/molbert-lira-podarochnyy-buk/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/product/trenogi-dlya-foto-ramok/",
+    "target": "/product/molberty-trenogi-dlya-foto-ramok/",
+    "status": 301,
+    "origin": "prototype",
+    "implementation": "server"
+  },
+  {
+    "source": "/for_artist/",
+    "target": "/molberty-dlya-risovaniya-hudozhnikov/",
+    "status": 301,
+    "origin": "original-site-known",
+    "implementation": "server"
+  },
+  {
+    "source": "/for_artist",
+    "target": "/molberty-dlya-risovaniya-hudozhnikov/",
+    "status": 301,
+    "origin": "original-site-known",
+    "implementation": "server"
+  },
+  {
+    "source": "/for_studio",
+    "target": "/oborudovanie-dlya-kabineta-izo/",
+    "status": 301,
+    "origin": "original-site-known",
+    "implementation": "server"
+  },
+  {
+    "source": "/for_studio/",
+    "target": "/oborudovanie-dlya-kabineta-izo/",
+    "status": 301,
+    "origin": "original-site-known",
+    "implementation": "server"
+  },
+  {
+    "source": "/for_exibition/",
+    "target": "/molberty-dlya-vystavki/",
+    "status": 301,
+    "origin": "original-site-known",
+    "implementation": "server"
+  },
+  {
+    "source": "/for_exibition",
+    "target": "/molberty-dlya-vystavki/",
+    "status": 301,
+    "origin": "original-site-known",
+    "implementation": "server"
+  },
+  {
+    "source": "/for_interior",
+    "target": "/molberty-dekorativnye/",
+    "status": 301,
+    "origin": "original-site-known",
+    "implementation": "server"
+  },
+  {
+    "source": "/for_interior/",
+    "target": "/molberty-dekorativnye/",
+    "status": 301,
+    "origin": "original-site-known",
+    "implementation": "server"
+  },
+  {
+    "source": "/articles/",
+    "target": "/blog/",
+    "status": 301,
+    "origin": "original-site-known",
+    "implementation": "server"
+  },
+  {
+    "source": "/articles",
+    "target": "/blog/",
+    "status": 301,
+    "origin": "original-site-known",
+    "implementation": "server"
+  },
+  {
+    "source": "/page2566204.html",
+    "target": "/blog/instrument-dlya-tvorchestva-molbert/",
+    "status": 301,
+    "origin": "original-site-known",
+    "implementation": "server"
+  },
+  {
+    "source": "/page2781362.html",
+    "target": "/blog/molbert-v-sovremennom-interere/",
+    "status": 301,
+    "origin": "original-site-known",
+    "implementation": "server"
+  },
+  {
+    "source": "/page2781437.html",
+    "target": "/blog/dvadcat-let-plodotvornoj-raboty/",
+    "status": 301,
+    "origin": "original-site-known",
+    "implementation": "server"
+  },
+  {
+    "source": "/how_to_make_choice",
+    "target": "/blog/kak-vybrat-molbert/",
+    "status": 301,
+    "origin": "original-site-known",
+    "implementation": "server"
+  },
+  {
+    "source": "/how_to_make_choice/",
+    "target": "/blog/kak-vybrat-molbert/",
+    "status": 301,
+    "origin": "original-site-known",
+    "implementation": "server"
+  }
+]
