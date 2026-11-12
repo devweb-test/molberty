@@ -454,3 +454,10 @@ dialog,dialog textarea,dialog .image-viewer-stage{
 @media(max-width:767px){#directions .category-links{gap:8px;margin-top:20px}#directions .category-links>a{padding:10px 12px}}
 
 @media(min-width:1280px) and (max-width:1359px){#directions .category-links{gap:6px}#directions .category-links>a{padding-inline:6px}}
+
+/* Separate article previews on the homepage with the same straight card edges as the catalog. */
+#home .blog-preview .blog-card{border:1px solid var(--line);border-radius:0;background-image:var(--gradient-card);overflow:hidden}
+#home .blog-preview .blog-card>:not(.blog-card-image){margin-inline:20px}
+#home .blog-preview .blog-card>.article-meta{margin-top:19px}
+#home .blog-preview .blog-card>.text-link{margin-bottom:23px}
+#home .blog-preview .blog-card:hover{border-color:#b8c1b2;box-shadow:0 8px 24px #344b3f0d}
