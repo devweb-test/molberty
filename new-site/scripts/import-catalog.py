@@ -16,6 +16,7 @@ import argparse
 from datetime import datetime
 from urllib.parse import urlparse
 import requests
+from product_content import clean_product_name
 
 sys.path.insert(0, '/tmp/molberty-import-deps')
 from bs4 import BeautifulSoup
@@ -138,7 +139,7 @@ def main():
                 continue
             seen_source_ids.add(source_id)
             popup = rec.select_one('#t754__product-' + lid)
-            name = norm(popup.select_one('.js-product-name').get_text(' ', strip=True))
+            name = clean_product_name(norm(popup.select_one('.js-product-name').get_text(' ', strip=True)))
             product_slug = slug(name)
             seen_slugs[product_slug] += 1
             if seen_slugs[product_slug] > 1:
@@ -284,7 +285,7 @@ def main():
                     'expo': 'Экспо-1', 'tripod': 'Тренога 1500', 'gift': '"Лира" подарочный (бук)',
                     'still-life': 'Стол для натюрморта складной', 'table-transformer': 'Стол-трансформер для натюрморта.',
                     'rack': 'Подставка для рисунков (бук)'}
-    legacy = {old: by_name[name] for old, name in legacy_names.items() if name in by_name}
+    legacy = {old: by_name[clean_product_name(name)] for old, name in legacy_names.items() if clean_product_name(name) in by_name}
     current_by_source = {p['sourceId']: p for p in products}
     old_slug_to_current = {old['id']: current_by_source[sid]['id'] for sid, old in previous_by_source.items() if sid in current_by_source}
     for old_alias, old_target in previous.get('legacyIdMap', {}).items():

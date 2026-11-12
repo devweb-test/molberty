@@ -3,6 +3,7 @@ import re
 import unicodedata
 
 EASEL_ROOTS = {'molberty-dlya-risovaniya-hudozhnikov', 'molberty-dlya-vystavki', 'molberty-dekorativnye'}
+QUOTATION_MARKS = '\"\'«»“”„‟‹›‘’‚‛'
 TRANSLITERATION = dict(zip('абвгдеёжзийклмнопрстуфхцчшщъыьэюя',
  ['a','b','v','g','d','e','e','zh','z','i','y','k','l','m','n','o','p','r','s','t','u','f','kh','ts','ch','sh','shch','','y','','e','yu','ya']))
 
@@ -11,14 +12,19 @@ def is_easel(product):
     return bool(EASEL_ROOTS.intersection(product['categories']))
 
 
+def clean_product_name(name):
+    return re.sub(r'\s+', ' ', name.translate(str.maketrans('', '', QUOTATION_MARKS))).strip()
+
+
 def product_heading(product):
-    if not is_easel(product) or re.search('мольберт', product['name'], re.I):
-        return product['name']
+    name = clean_product_name(product['name'])
+    if not is_easel(product) or re.search('мольберт', name, re.I):
+        return name
     if product['id'] == 'planshet-nastolnyy-grafika':
-        return 'Мольберт-планшет настольный "Графика"'
+        return 'Мольберт-планшет настольный Графика'
     if product['id'] == 'trenogi-dlya-foto-ramok':
         return 'Мольберты-треноги для фото-рамок'
-    return 'Мольберт ' + product['name']
+    return 'Мольберт ' + name
 
 
 def product_meta_description(product):

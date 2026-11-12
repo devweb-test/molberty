@@ -4,6 +4,9 @@
 const root=window.SITE_ROOT||'',D=window.CATALOG,$=s=>document.querySelector(s),asset=f=>`${root}assets/${f}`,url=p=>root+p.replace(/^\//,''),esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const paths={arrow:'M5 12h14m-6-6 6 6-6 6',easel:'m5 21 7-18 7 18M7 15h10M12 3v14M6 9h12',leaf:'M20 4C8 2 2 9 7 16s15 1 13-12ZM6 20 16 9',wood:'M5 3h14v18H5zM9 3c-4 7 6 8 1 18m5-18c-4 7 6 9 0 18',school:'M3 21h18M5 21V9l7-6 7 6v12M9 21v-6h6v6M10 10h4',box:'m3 7 9-4 9 4v10l-9 4-9-4Zm0 0 9 5 9-5M12 12v9',search:'m16 16 5 5M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0',check:'m5 12 4 4L19 6',certificate:'M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9L14 3Zm0 0v6h6M8 14l2 2 5-5',basket:'M3 9h18l-2 11H5L3 9Zm4 0 5-6 5 6M9 13v3m6-3v3',phone:'M7 3 3 7c1 7 7 13 14 14l4-4-5-4-3 3-5-5 3-3Z',pin:'M19 10c0 6-7 11-7 11S5 16 5 10a7 7 0 1 1 14 0ZM15 10a3 3 0 1 1-6 0 3 3 0 0 1 6 0',download:'M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5',menu:'M3 6h18M3 12h18M3 18h18',plus:'M12 5v14M5 12h14',tools:'M4 4 20 20M15 3l6 6-6 6-6-6ZM3 15l6 6',art:'M4 4h16v13H4zM12 17v4m-5 0h10M8 13l3-4 3 2 3-4',mail:'M3 5h18v14H3zM3 5l9 8 9-8',trash:'M3 6h18M9 6V4h6v2M6 6l1 15h10l1-15M10 10v7m4-7v7',calendar:'M7 3v4m10-4v4M4 10h16M5 5h14a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1ZM8 13h.01M12 13h.01M16 13h.01M8 17h.01M12 17h.01M16 17h.01'};
 const icon=(n,cl='')=>`<svg class="icon ${cl}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${paths[n]||paths.easel}"/></svg>`;
+// Apply the same name policy to imports, cards, dialogs and the saved cart.
+function cleanProductName(name){return name.replace(/["'«»“”„‟‹›‘’‚‛]/gu,'').replace(/\s+/gu,' ').trim()}
+D.products.forEach(product=>{product.name=cleanProductName(product.name)});
 let selection;try{selection=JSON.parse(localStorage.getItem('molberty-selection')||'{}')}catch{selection={}}
 selection=migrateSelection(selection);
 function money(value){return Number(value).toLocaleString('ru-RU')+' ₽'}
@@ -13,10 +16,10 @@ function categoryCrumbs(c,linked=true){return c.pathIds.map(id=>{const part=cate
 function categoryBranch(id,current){const c=categoryById(id),active=c.id===current?.id,inside=current?.pathIds.includes(c.id);const anchor=`<a href="${url(c.id+'/')}"${active?' class="active" aria-current="page"':''}>${esc(c.name)}</a>`;return c.childIds.length?`<details class="category-branch"${inside?' open':''}><summary>${anchor}<span class="branch-toggle" aria-hidden="true">+</span></summary><div class="category-children">${c.childIds.map(child=>categoryBranch(child,current)).join('')}</div></details>`:`<div class="category-leaf">${anchor}</div>`}
 function productById(id){return D.products.find(p=>p.id===id)}
 function productRoute(p){return 'product/'+(p.slug||p.id)+'/'}
-// Product H1 adds the item type without changing original model names elsewhere.
+// Product headings and metadata use the same names without quotation marks.
 function productHeading(p){
  if(!['molberty-dlya-risovaniya-hudozhnikov','molberty-dlya-vystavki','molberty-dekorativnye'].some(id=>p.categories.includes(id))||/мольберт/i.test(p.name))return p.name;
- if(p.id==='planshet-nastolnyy-grafika')return 'Мольберт-планшет настольный "Графика"';
+ if(p.id==='planshet-nastolnyy-grafika')return 'Мольберт-планшет настольный Графика';
  if(p.id==='trenogi-dlya-foto-ramok')return 'Мольберты-треноги для фото-рамок';
  return 'Мольберт '+p.name;
 }
